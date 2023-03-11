@@ -1,3 +1,6 @@
+import 'package:cap_countdown/pages/countdown_page.dart';
+import 'package:cap_countdown/pages/exam.dart';
+import 'package:cap_countdown/pages/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,26 +17,33 @@ class App extends StatelessWidget {
       theme: ThemeData(
         brightness:
             WidgetsFlutterBinding.ensureInitialized().window.platformBrightness,
+        fontFamily: 'NotoSansTC',
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: const HomePage(),
+      home: const MainPage(),
     );
   }
 }
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+class MainPage extends StatefulWidget {
+  const MainPage({super.key});
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<MainPage> createState() => _MainPageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _MainPageState extends State<MainPage> {
   int selectedIndex = 1;
 
   @override
   Widget build(BuildContext context) {
+    const pages = <Widget>[
+      CountdownPage(),
+      HomePage(),
+      ExamPage(),
+    ];
+
     return Scaffold(
         appBar: AppBar(
           title: const Text('會考倒數'),
@@ -50,7 +60,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ],
         ),
-        body: const Column(),
+        body: pages[selectedIndex],
         bottomNavigationBar: NavigationBar(
           selectedIndex: selectedIndex,
           onDestinationSelected: (value) {
