@@ -1,6 +1,7 @@
 import 'package:cap_countdown/exam/exam_loader.dart';
 import 'package:cap_countdown/exam/subject_question.dart';
 import 'package:cap_countdown/main.dart';
+import 'package:cap_countdown/widgets/cap_time_left.dart';
 import 'package:cap_countdown/widgets/choice_button.dart';
 import 'package:flutter/material.dart';
 import 'package:zoom_pinch_overlay/zoom_pinch_overlay.dart';
@@ -16,7 +17,11 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return ListView(
-      children: const [_TimeLeft(), _DailyQuestion(), SizedBox(height: 25)],
+      children: const [
+        CAPTimeLeft(showDetail: false),
+        _DailyQuestion(),
+        SizedBox(height: 25)
+      ],
     );
   }
 }
@@ -176,49 +181,6 @@ class _ChoiceButtonsState extends State<_ChoiceButtons> {
                 },
               ))
           .toList(),
-    );
-  }
-}
-
-class _TimeLeft extends StatelessWidget {
-  const _TimeLeft();
-
-  @override
-  Widget build(BuildContext context) {
-    int day = config.capStartTime.difference(DateTime.now()).inDays;
-
-    return Padding(
-      padding: const EdgeInsets.all(8.0),
-      child: Card(
-        elevation: 1,
-        child: Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Column(
-            children: [
-              Text(
-                '距離會考只剩下',
-                style: Theme.of(context).textTheme.titleLarge,
-              ),
-              RichText(
-                  text: TextSpan(children: [
-                TextSpan(
-                  text: day.toString(),
-                  style: TextStyle(
-                      fontSize: 85.5,
-                      fontWeight: FontWeight.bold,
-                      color: Theme.of(context).brightness == Brightness.dark
-                          ? Colors.white
-                          : Colors.black),
-                ),
-                TextSpan(
-                  text: '天',
-                  style: Theme.of(context).textTheme.titleLarge,
-                )
-              ])),
-            ],
-          ),
-        ),
-      ),
     );
   }
 }

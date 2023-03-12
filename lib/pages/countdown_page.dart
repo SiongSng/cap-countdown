@@ -1,3 +1,6 @@
+import 'dart:async';
+
+import 'package:cap_countdown/widgets/cap_time_left.dart';
 import 'package:flutter/material.dart';
 
 class CountdownPage extends StatefulWidget {
@@ -10,6 +13,8 @@ class CountdownPage extends StatefulWidget {
 class _CountdownPageState extends State<CountdownPage> {
   @override
   Widget build(BuildContext context) {
-    return const Text('這裡是倒數頁面');
+    return ListView(
+      children: const [CAPTimeLeft(showDetail: true)],
+    );
   }
 }
