@@ -1,8 +1,10 @@
 import 'package:cap_countdown/exam/exam_loader.dart';
+import 'package:cap_countdown/exam/question_choice.dart';
+import 'package:cap_countdown/exam/subject_question.dart';
 import 'package:cap_countdown/main.dart';
-import 'package:cap_countdown/widgets/answer_button.dart';
+import 'package:cap_countdown/widgets/choice_button.dart';
 import 'package:flutter/material.dart';
-import 'package:photo_view/photo_view.dart';
+import 'package:zoom_pinch_overlay/zoom_pinch_overlay.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -15,10 +17,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return ListView(
-      children: const [
-        _TimeLeft(),
-        _DailyQuestion(),
-      ],
+      children: const [_TimeLeft(), _DailyQuestion(), SizedBox(height: 30)],
     );
   }
 }
@@ -40,7 +39,7 @@ class _DailyQuestionState extends State<_DailyQuestion> {
       child: Card(
         elevation: 1,
         child: Padding(
-          padding: const EdgeInsets.all(12.0),
+          padding: const EdgeInsets.all(15.0),
           child: Column(
             children: [
               Text(
@@ -49,15 +48,12 @@ class _DailyQuestionState extends State<_DailyQuestion> {
               ),
               const SizedBox(height: 8),
               if (question.image != null)
-                SizedBox(
-                  width: 200,
-                  height: 100,
-                  child: PhotoView(
-                    backgroundDecoration:
-                        const BoxDecoration(color: Colors.transparent),
-                    imageProvider: AssetImage(
-                      'assets/images/exam/${question.image}',
-                    ),
+                ZoomOverlay(
+                  maxScale: 5.0,
+                  child: Image.asset(
+                    'assets/images/exam/${question.image}',
+                    fit: BoxFit.fitWidth,
+                    height: 150,
                   ),
                 ),
               Text(
@@ -65,26 +61,96 @@ class _DailyQuestionState extends State<_DailyQuestion> {
                 style: Theme.of(context).textTheme.bodyLarge,
               ),
               const SizedBox(height: 8),
-              Wrap(
-                spacing: 10,
-                runSpacing: 8,
-                children: question.choices
-                    .map((e) => AnswerButton(
-                          choice: e,
-                        ))
-                    .toList(),
+              _ChoiceButtons(
+                question: question,
+                onChanged: (value) {},
               ),
               const SizedBox(height: 8),
-              FilledButton.icon(
-                  onPressed: () {
-                    setState(() {});
-                  },
-                  icon: const Icon(Icons.refresh),
-                  label: const Text('再來一題'))
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  FilledButton.icon(
+                      onPressed: () {
+                        final selectedChoice = question.selectedChoice;
+                        final messenger = ScaffoldMessenger.of(context);
+                        messenger.clearSnackBars();
+
+                        if (selectedChoice == null) {
+                          messenger.showSnackBar(
+                            const SnackBar(
+                              content: Text('交卷前請先記得選擇答案喔！'),
+                              backgroundColor: Colors.orange,
+                            ),
+                          );
+                          return;
+                        }
+
+                        if (selectedChoice.answer == question.correctAnswer) {
+                          messenger.showSnackBar(
+                            const SnackBar(
+                              content: Text('恭喜你答對了！'),
+                              backgroundColor: Colors.green,
+                            ),
+                          );
+                        } else {
+                          messenger.showSnackBar(
+                            const SnackBar(
+                              content: Text('答錯了，再接再厲！'),
+                              backgroundColor: Colors.red,
+                            ),
+                          );
+                        }
+                      },
+                      icon: const Icon(Icons.check),
+                      label: const Text('交卷')),
+                  FilledButton.icon(
+                      onPressed: () {
+                        setState(() {
+                          question.selectedChoice = null;
+                        });
+                      },
+                      icon: const Icon(Icons.refresh),
+                      label: const Text('再來一題')),
+                ],
+              )
             ],
           ),
         ),
       ),
+    );
+  }
+}
+
+class _ChoiceButtons extends StatefulWidget {
+  final SubjectQuestion question;
+  final ValueChanged<QuestionChoice?>? onChanged;
+
+  const _ChoiceButtons({
+    required this.question,
+    this.onChanged,
+  });
+
+  @override
+  State<_ChoiceButtons> createState() => _ChoiceButtonsState();
+}
+
+class _ChoiceButtonsState extends State<_ChoiceButtons> {
+  @override
+  Widget build(BuildContext context) {
+    return Wrap(
+      spacing: 10,
+      runSpacing: 8,
+      children: widget.question.choices
+          .map((e) => ChoiceButton(
+                choice: e,
+                selectedChoice: widget.question.selectedChoice,
+                onChanged: (value) {
+                  setState(() {
+                    widget.question.selectedChoice = value;
+                  });
+                },
+              ))
+          .toList(),
     );
   }
 }

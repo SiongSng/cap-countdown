@@ -1,10 +1,11 @@
 import 'package:cap_countdown/exam/question_choice.dart';
+import 'package:flutter/material.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'subject_question.g.dart';
 
 @JsonSerializable()
-class SubjectQuestion {
+class SubjectQuestion  {
   final int index;
   final QuestionType type;
   final String? description;
@@ -13,6 +14,8 @@ class SubjectQuestion {
 
   @JsonKey(name: 'correct_answer')
   final QuestionAnswer correctAnswer;
+
+  QuestionChoice? selectedChoice;
 
   SubjectQuestion({
     required this.index,
