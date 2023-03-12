@@ -66,6 +66,7 @@ class _DailyQuestionState extends State<_DailyQuestion> {
 
                   return image;
                 }),
+              if (question.image != null) const SizedBox(height: 8),
               Text(
                 question.description ?? '',
                 style: Theme.of(context).textTheme.bodyLarge,

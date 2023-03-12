@@ -58,6 +58,37 @@
                             "explanation": "本文為黃醫師開業，需選出符合醫院開業的賀辭。\n\n(A) 杏林之光：用於祝賀人醫院開業的賀辭。\n(B) 近悅遠來：使近處的人心悅誠服，遠方的人願意前來歸附。用於祝賀人開業的賀詞。\n(C) 眾望所歸：深得眾人擁護、愛戴\n(D) 桃李芬芳：用於對教育界或教育人士的褒揚題辭。形容所培育的後學表現傑出，人才輩出。"
                         }
                     ]
+                },
+                {
+                    "name": "英語科閱讀",
+                    "questions": [
+                        {
+                            "index": 1,
+                            "type": "singleChoice",
+                            "description": "Look at the picture. The woman is putting ＿＿＿＿ on the cake.",
+                            "image": "111_english_1.png",
+                            "choices": [
+                                {
+                                    "answer": "A",
+                                    "description": "candles"
+                                },
+                                {
+                                    "answer": "B",
+                                    "description": "forks"
+                                },
+                                {
+                                    "answer": "C",
+                                    "description": "plates"
+                                },
+                                {
+                                    "answer": "D",
+                                    "description": "strawberries"
+                                }
+                            ],
+                            "correct_answer": "A",
+                            "explanation": "根據圖片，女子正在將蠟燭放在蛋糕上，故選 A。"
+                        }
+                    ]
                 }
             ]
         }
