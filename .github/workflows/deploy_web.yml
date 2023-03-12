@@ -1,0 +1,28 @@
+name: Deploy Web
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.8.0-10.1.pre'
+          channel: 'beta'
+      - name: Build Web
+        run: |
+          flutter pub get
+          flutter build web --release
+      - name: Deploy to Github Pages
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b gh-pages
+          git add -f build/web
+          git commit -m "Deploy to Github Pages"
+          git push -f origin gh-pages
+          git checkout main
