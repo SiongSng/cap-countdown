@@ -1,5 +1,4 @@
 import 'package:cap_countdown/exam/exam_loader.dart';
-import 'package:cap_countdown/exam/question_choice.dart';
 import 'package:cap_countdown/exam/subject_question.dart';
 import 'package:cap_countdown/main.dart';
 import 'package:cap_countdown/widgets/choice_button.dart';
@@ -49,23 +48,30 @@ class _DailyQuestionState extends State<_DailyQuestion> {
               const Text('趁還有時間的時候來練練題目吧！'),
               const SizedBox(height: 8),
               if (question.image != null)
-                ZoomOverlay(
-                  maxScale: 5.0,
-                  child: Image.asset(
+                Builder(builder: (context) {
+                  final image = Image.asset(
                     'assets/images/exam/${question.image}',
                     fit: BoxFit.fitWidth,
                     height: 150,
-                  ),
-                ),
+                  );
+                  final platform = Theme.of(context).platform;
+
+                  if (platform == TargetPlatform.android ||
+                      platform == TargetPlatform.iOS) {
+                    return ZoomOverlay(
+                      maxScale: 5.0,
+                      child: image,
+                    );
+                  }
+
+                  return image;
+                }),
               Text(
                 question.description ?? '',
                 style: Theme.of(context).textTheme.bodyLarge,
               ),
               const SizedBox(height: 8),
-              _ChoiceButtons(
-                question: question,
-                onChanged: (value) {},
-              ),
+              _ChoiceButtons(question: question),
               const SizedBox(height: 8),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -88,19 +94,17 @@ class _DailyQuestionState extends State<_DailyQuestion> {
 
                         if (selectedChoice.answer == question.correctAnswer) {
                           messenger.showSnackBar(
-                            const SnackBar(
-                              content: Text('恭喜你答對了！'),
+                            SnackBar(
+                              content: const Text('恭喜你答對了！'),
                               backgroundColor: Colors.green,
+                              action: _viewExplanationAction(context, question),
                             ),
                           );
                         } else {
                           messenger.showSnackBar(
                             SnackBar(
                               content: const Text('答錯了，再接再厲！'),
-                              action: SnackBarAction(
-                                label: '看詳解',
-                                onPressed: () {},
-                              ),
+                              action: _viewExplanationAction(context, question),
                             ),
                           );
                         }
@@ -123,16 +127,32 @@ class _DailyQuestionState extends State<_DailyQuestion> {
       ),
     );
   }
+
+  SnackBarAction _viewExplanationAction(
+      BuildContext context, SubjectQuestion question) {
+    return SnackBarAction(
+      label: '看詳解',
+      onPressed: () {
+        showDialog(
+            context: context,
+            builder: (context) => AlertDialog(
+                  title: const Text('詳解'),
+                  content: Text(question.explanation),
+                  actions: [
+                    TextButton(
+                        onPressed: () => Navigator.of(context).pop(),
+                        child: const Text('關閉'))
+                  ],
+                ));
+      },
+    );
+  }
 }
 
 class _ChoiceButtons extends StatefulWidget {
   final SubjectQuestion question;
-  final ValueChanged<QuestionChoice?>? onChanged;
 
-  const _ChoiceButtons({
-    required this.question,
-    this.onChanged,
-  });
+  const _ChoiceButtons({required this.question});
 
   @override
   State<_ChoiceButtons> createState() => _ChoiceButtonsState();
@@ -182,8 +202,12 @@ class _TimeLeft extends StatelessWidget {
                   text: TextSpan(children: [
                 TextSpan(
                   text: day.toString(),
-                  style: const TextStyle(
-                      fontSize: 85.5, fontWeight: FontWeight.bold),
+                  style: TextStyle(
+                      fontSize: 85.5,
+                      fontWeight: FontWeight.bold,
+                      color: Theme.of(context).brightness == Brightness.dark
+                          ? Colors.white
+                          : Colors.black),
                 ),
                 TextSpan(
                   text: '天',

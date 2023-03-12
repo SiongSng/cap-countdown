@@ -17,6 +17,7 @@ SubjectQuestion _$SubjectQuestionFromJson(Map<String, dynamic> json) =>
           .toList(),
       correctAnswer:
           $enumDecode(_$QuestionAnswerEnumMap, json['correct_answer']),
+      explanation: json['explanation'] as String,
     );
 
 Map<String, dynamic> _$SubjectQuestionToJson(SubjectQuestion instance) =>
@@ -27,6 +28,7 @@ Map<String, dynamic> _$SubjectQuestionToJson(SubjectQuestion instance) =>
       'image': instance.image,
       'choices': instance.choices,
       'correct_answer': _$QuestionAnswerEnumMap[instance.correctAnswer]!,
+      'explanation': instance.explanation,
     };
 
 const _$QuestionTypeEnumMap = {

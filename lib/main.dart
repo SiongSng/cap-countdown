@@ -6,7 +6,6 @@ import 'package:cap_countdown/pages/exam.dart';
 import 'package:cap_countdown/pages/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:line_icons/line_icons.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 final ConfigInstance config = ConfigInstance();
@@ -93,7 +92,9 @@ class _MainPageState extends State<MainPage> {
                           const Text(
                               '本應用程式的程式碼皆採用 GNU General Public License v3.0 (GPL-3.0) 授權條款釋出。'),
                           const Text(
-                              '此外，本應用程式中所採用的國中教育會考歷屆試題版權皆為 國中教育會考全國試務會 與 國立臺灣師範大學心理與教育測驗研究發展中心 擁有，且本應用程式與上述兩個單位無任何關係。'),
+                              '本應用程式中的國中教育會考歷屆試題版權皆為 國中教育會考全國試務會 與 國立臺灣師範大學心理與教育測驗研究發展中心 擁有，且本應用程式與上述兩個單位無任何關係。'),
+                          const Text(
+                              '本應用程式中的詳解版權皆為 甄戰一點通 擁有，且本應用程式與上述單位無任何關係。'),
                           const Divider(),
                           Row(
                             children: [
