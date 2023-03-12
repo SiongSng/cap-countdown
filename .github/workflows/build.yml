@@ -24,7 +24,7 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v3
         with:
-          name: app-release.apk
+          name: Android
           path: ./build/app/outputs/flutter-apk/app-release.apk
   ios:
     runs-on: macos-latest
@@ -42,7 +42,7 @@ jobs:
       - name: Upload IPA
         uses: actions/upload-artifact@v3
         with:
-          name: Runner.ipa
+          name: iOS
           path: ./build/ios/iphoneos/Runner.app
   web:
     runs-on: ubuntu-latest
@@ -101,7 +101,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: linux
-          path: ./build/linux/release/bundle
+          path: ./build/linux/x64/release/bundle
   macos:
     runs-on: macos-latest
     steps:
