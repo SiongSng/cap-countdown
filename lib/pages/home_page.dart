@@ -17,7 +17,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return ListView(
-      children: const [_TimeLeft(), _DailyQuestion(), SizedBox(height: 30)],
+      children: const [_TimeLeft(), _DailyQuestion(), SizedBox(height: 25)],
     );
   }
 }
@@ -89,17 +89,18 @@ class _DailyQuestionState extends State<_DailyQuestion> {
                         if (selectedChoice.answer == question.correctAnswer) {
                           messenger.showSnackBar(
                             const SnackBar(
-                              content: Text('恭喜你答對了！',
-                                  style: TextStyle(color: Colors.white)),
+                              content: Text('恭喜你答對了！'),
                               backgroundColor: Colors.green,
                             ),
                           );
                         } else {
                           messenger.showSnackBar(
-                            const SnackBar(
-                              content: Text('答錯了，再接再厲！',
-                                  style: TextStyle(color: Colors.white)),
-                              backgroundColor: Colors.red,
+                            SnackBar(
+                              content: const Text('答錯了，再接再厲！'),
+                              action: SnackBarAction(
+                                label: '看詳解',
+                                onPressed: () {},
+                              ),
                             ),
                           );
                         }
