@@ -34,7 +34,7 @@
 
     <script>
       // The value below is injected by flutter build, do not touch.
-      var serviceWorkerVersion = "3094919892";
+      var serviceWorkerVersion = "2801480499";
     </script>
     <!-- This script adds the flutter initialization JS code -->
     <script src="flutter.js" defer></script>
@@ -91,7 +91,7 @@
 
         @keyframes zooooom {
           from {
-            transform: scale(1);
+            transform: scale(0.3);
           }
 
           to {
@@ -103,14 +103,24 @@
     </div>
     <script>
       window.addEventListener("load", function (ev) {
+        var loading = document.querySelector("#loading");
+
         // Download main.dart.js
         _flutter.loader.loadEntrypoint({
           serviceWorker: {
             serviceWorkerVersion: serviceWorkerVersion,
           },
           onEntrypointLoaded: function (engineInitializer) {
+            loading.classList.add("main_done");
             engineInitializer.initializeEngine().then(function (appRunner) {
-              appRunner.runApp();
+              loading.classList.add("init_done");
+              appRunner.runApp().then(function (app) {
+                // Wait a few milliseconds so users can see the "zoooom" animation
+                // before getting rid of the "loading" div.
+                window.setTimeout(function () {
+                  loading.remove();
+                }, 200);
+              });
             });
           },
         });
