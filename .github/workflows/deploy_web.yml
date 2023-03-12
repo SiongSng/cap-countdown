@@ -18,11 +18,7 @@ jobs:
           flutter pub get
           flutter build web --release
       - name: Deploy to Github Pages
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git checkout -b gh-pages
-          git add -f build/web
-          git commit -m "Deploy to Github Pages"
-          git push -f origin gh-pages
-          git checkout main
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build/web
