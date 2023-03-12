@@ -61,6 +61,7 @@ flutter:
     - assets/config.json
     - assets/exams.json
     - assets/images/exam/
+    - assets/images/logo.png
 
   fonts:
     - family: NotoSansTC

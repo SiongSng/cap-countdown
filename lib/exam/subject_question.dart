@@ -1,5 +1,4 @@
 import 'package:cap_countdown/exam/question_choice.dart';
-import 'package:flutter/material.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'subject_question.g.dart';

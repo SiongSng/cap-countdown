@@ -1,6 +1,6 @@
 {
-    "name": "cap_countdown",
-    "short_name": "cap_countdown",
+    "name": "會考倒數",
+    "short_name": "會考倒數",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

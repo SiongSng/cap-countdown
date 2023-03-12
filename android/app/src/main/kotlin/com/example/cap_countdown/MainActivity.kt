@@ -1,4 +1,4 @@
-package com.example.cap_countdown
+package io.siongsng.cap_countdown
 
 import io.flutter.embedding.android.FlutterActivity
 

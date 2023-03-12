@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.cap_countdown">
+    package="io.siongsng.cap_countdown">
    <application
-        android:label="cap_countdown"
+        android:label="會考倒數"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

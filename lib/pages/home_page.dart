@@ -46,6 +46,7 @@ class _DailyQuestionState extends State<_DailyQuestion> {
                 '每日一題',
                 style: Theme.of(context).textTheme.titleLarge,
               ),
+              const Text('趁還有時間的時候來練練題目吧！'),
               const SizedBox(height: 8),
               if (question.image != null)
                 ZoomOverlay(
@@ -88,14 +89,16 @@ class _DailyQuestionState extends State<_DailyQuestion> {
                         if (selectedChoice.answer == question.correctAnswer) {
                           messenger.showSnackBar(
                             const SnackBar(
-                              content: Text('恭喜你答對了！'),
+                              content: Text('恭喜你答對了！',
+                                  style: TextStyle(color: Colors.white)),
                               backgroundColor: Colors.green,
                             ),
                           );
                         } else {
                           messenger.showSnackBar(
                             const SnackBar(
-                              content: Text('答錯了，再接再厲！'),
+                              content: Text('答錯了，再接再厲！',
+                                  style: TextStyle(color: Colors.white)),
                               backgroundColor: Colors.red,
                             ),
                           );
@@ -178,7 +181,8 @@ class _TimeLeft extends StatelessWidget {
                   text: TextSpan(children: [
                 TextSpan(
                   text: day.toString(),
-                  style: const TextStyle(fontSize: 85.5),
+                  style: const TextStyle(
+                      fontSize: 85.5, fontWeight: FontWeight.bold),
                 ),
                 TextSpan(
                   text: '天',

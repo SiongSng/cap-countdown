@@ -30,6 +30,7 @@ class App extends StatelessWidget {
         brightness:
             WidgetsFlutterBinding.ensureInitialized().window.platformBrightness,
         fontFamily: 'NotoSansTC',
+        fontFamilyFallback: const ['NotoSansTC'],
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
@@ -58,7 +59,13 @@ class _MainPageState extends State<MainPage> {
 
     return Scaffold(
         appBar: AppBar(
-          title: const Text('會考倒數'),
+          title: Row(
+            children: [
+              Image.asset('assets/images/logo.png', width: 40, height: 40),
+              const SizedBox(width: 8),
+              const Text('會考倒數'),
+            ],
+          ),
           actions: [
             PopupMenuButton(
               itemBuilder: (context) => const [
