@@ -36,6 +36,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   json_annotation: ^4.8.0
   zoom_pinch_overlay: ^1.4.0
+  line_icons: ^2.0.1
+  url_launcher: ^6.1.10
 
 dev_dependencies:
   flutter_test:
