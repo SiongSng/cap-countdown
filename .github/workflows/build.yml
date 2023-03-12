@@ -14,8 +14,8 @@ jobs:
       - uses: actions/checkout@v3
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.8.0-10.1.pre'
-          channel: 'beta'
+          flutter-version: "3.8.0-10.1.pre"
+          channel: "beta"
           cache: true
       - name: Build Android
         run: |
@@ -32,8 +32,8 @@ jobs:
       - uses: actions/checkout@v3
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.8.0-10.1.pre'
-          channel: 'beta'
+          flutter-version: "3.8.0-10.1.pre"
+          channel: "beta"
           cache: true
       - name: Build iOS
         run: |
@@ -43,4 +43,76 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: Runner.ipa
-          path: ./build/ios/iphoneos/Runner.ipa
+          path: ./build/ios/iphoneos/Runner.app
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "3.8.0-10.1.pre"
+          channel: "beta"
+          cache: true
+      - name: Build Web
+        run: |
+          flutter pub get
+          flutter build web --release
+      - name: Upload Web
+        uses: actions/upload-artifact@v3
+        with:
+          name: web
+          path: ./build/web
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "3.8.0-10.1.pre"
+          channel: "beta"
+          cache: true
+      - name: Build Windows
+        run: |
+          flutter pub get
+          flutter build windows --release
+      - name: Upload Windows
+        uses: actions/upload-artifact@v3
+        with:
+          name: windows
+          path: ./build/windows/runner/Release
+  linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "3.8.0-10.1.pre"
+          channel: "beta"
+          cache: true
+      - name: Build Linux
+        run: |
+          flutter pub get
+          flutter build linux --release
+      - name: Upload Linux
+        uses: actions/upload-artifact@v3
+        with:
+          name: linux
+          path: ./build/linux/release/bundle
+  macos:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "3.8.0-10.1.pre"
+          channel: "beta"
+          cache: true
+      - name: Build macOS
+        run: |
+          flutter pub get
+          flutter build macos --release
+      - name: Upload macOS
+        uses: actions/upload-artifact@v3
+        with:
+          name: macos
+          path: ./build/macos/Build/Products/Release
