@@ -1,9 +1,21 @@
+import 'package:cap_countdown/config/config_helper.dart';
+import 'package:cap_countdown/config/config_instance.dart';
+import 'package:cap_countdown/exam/exam_loader.dart';
 import 'package:cap_countdown/pages/countdown_page.dart';
 import 'package:cap_countdown/pages/exam.dart';
 import 'package:cap_countdown/pages/home_page.dart';
 import 'package:flutter/material.dart';
 
+final ConfigInstance config = ConfigInstance();
+
 void main() {
+  _run();
+}
+
+Future<void> _run() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await ConfigHelper.init();
+  await ExamLoader.load();
   runApp(const App());
 }
 
@@ -68,6 +80,7 @@ class _MainPageState extends State<MainPage> {
               selectedIndex = value;
             });
           },
+          labelBehavior: NavigationDestinationLabelBehavior.onlyShowSelected,
           destinations: const [
             NavigationDestination(
               icon: Icon(Icons.calendar_month_outlined),

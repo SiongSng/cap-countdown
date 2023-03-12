@@ -1,0 +1,63 @@
+{
+    "exams": [
+        {
+            "name": "民國 111 年國中教育會考",
+            "subjects": [
+                {
+                    "name": "國文科",
+                    "questions": [
+                        {
+                            "index": 1,
+                            "type": "singleChoice",
+                            "description": "這張圖最可能在傳達下列何種訊息？",
+                            "image": "111_chinese_1.png",
+                            "choices": [
+                                {
+                                    "answer": "A",
+                                    "description": "透過大量傳播，知識就會變成真理"
+                                },
+                                {
+                                    "answer": "B",
+                                    "description": "與其獨自苦讀，不如多與他人交流"
+                                },
+                                {
+                                    "answer": "C",
+                                    "description": "反覆誦讀，有助於將資訊內化為大腦深層的記憶"
+                                },
+                                {
+                                    "answer": "D",
+                                    "description": "能統整所學並轉述給別人，才算是真正掌握知識"
+                                }
+                            ],
+                            "correct_answer": "D"
+                        },
+                        {
+                            "index": 2,
+                            "type": "singleChoice",
+                            "description": "黃醫師的眼科診所開業，親友們登門慶賀。\n君翰帶來一方寫著「杏林之光」的匾額，聊表心意。\n思涵見狀馬上說：「如果寫『近悅遠來』更好。」\n偉同則說：「可是，我覺得『眾望所歸』更恰當。」\n最後嘉恩才說：「其實，『桃李芬芳』才是最合適的選擇。」\n\n根據這段對話，誰的做法或說法最恰當？",
+                            "choices": [
+                                {
+                                    "answer": "A",
+                                    "description": "君翰"
+                                },
+                                {
+                                    "answer": "B",
+                                    "description": "思涵"
+                                },
+                                {
+                                    "answer": "C",
+                                    "description": "偉同"
+                                },
+                                {
+                                    "answer": "D",
+                                    "description": "嘉恩"
+                                }
+                            ],
+                            "correct_answer": "A"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
