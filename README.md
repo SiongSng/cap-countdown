@@ -1,6 +1,7 @@
 # cap-countdown
  具有試題等豐富功能的會考倒數計時器
 
+![](readme/screenshot.png)
 
 ## 🎓 授權條款
 本應用程式的程式碼皆採用 [GNU General Public License v3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.html) 授權條款釋出，詳情請參閱 [LICENSE](LICENSE) 檔案。  
