@@ -1,0 +1,46 @@
+name: Build
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  android:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.8.0-10.1.pre'
+          channel: 'beta'
+          cache: true
+      - name: Build Android
+        run: |
+          flutter pub get
+          flutter build apk --release
+      - name: Upload APK
+        uses: actions/upload-artifact@v3
+        with:
+          name: app-release.apk
+          path: ./build/app/outputs/flutter-apk/app-release.apk
+  ios:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.8.0-10.1.pre'
+          channel: 'beta'
+          cache: true
+      - name: Build iOS
+        run: |
+          flutter pub get
+          flutter build ios --release --no-codesign
+      - name: Upload IPA
+        uses: actions/upload-artifact@v3
+        with:
+          name: Runner.ipa
+          path: ./build/ios/iphoneos/Runner.ipa
