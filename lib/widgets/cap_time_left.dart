@@ -63,65 +63,59 @@ class _CAPTimeLeftState extends State<CAPTimeLeft> {
                   style: Theme.of(context).textTheme.titleLarge,
                 )
               ])),
-              if (widget.showDetail)
-                Column(
-                  children: [
-                    Text('再', style: Theme.of(context).textTheme.titleLarge),
-                    RichText(
-                        text: TextSpan(children: [
-                      TextSpan(
-                        text: (difference.inHours % 24).toString(),
-                        style: TextStyle(
-                            fontSize: 65.5,
-                            fontWeight: FontWeight.bold,
-                            color:
-                                Theme.of(context).brightness == Brightness.dark
-                                    ? Colors.white
-                                    : Colors.black),
-                      ),
-                      TextSpan(
-                        text: '小時',
-                        style: Theme.of(context).textTheme.titleLarge,
-                      )
-                    ])),
-                    Text('又', style: Theme.of(context).textTheme.titleLarge),
-                    RichText(
-                        text: TextSpan(children: [
-                      TextSpan(
-                        text: (difference.inMinutes % 60).toString(),
-                        style: TextStyle(
-                            fontSize: 65.5,
-                            fontWeight: FontWeight.bold,
-                            color:
-                                Theme.of(context).brightness == Brightness.dark
-                                    ? Colors.white
-                                    : Colors.black),
-                      ),
-                      TextSpan(
-                        text: '分鐘',
-                        style: Theme.of(context).textTheme.titleLarge,
-                      )
-                    ])),
-                    Text('又', style: Theme.of(context).textTheme.titleLarge),
-                    RichText(
-                        text: TextSpan(children: [
-                      TextSpan(
-                        text: (difference.inSeconds % 60).toString(),
-                        style: TextStyle(
-                            fontSize: 65.5,
-                            fontWeight: FontWeight.bold,
-                            color:
-                                Theme.of(context).brightness == Brightness.dark
-                                    ? Colors.white
-                                    : Colors.black),
-                      ),
-                      TextSpan(
-                        text: '秒鐘',
-                        style: Theme.of(context).textTheme.titleLarge,
-                      )
-                    ])),
-                  ],
-                )
+              if (widget.showDetail) ...[
+                Text('再', style: Theme.of(context).textTheme.titleLarge),
+                RichText(
+                    text: TextSpan(children: [
+                  TextSpan(
+                    text: (difference.inHours % 24).toString(),
+                    style: TextStyle(
+                        fontSize: 65.5,
+                        fontWeight: FontWeight.bold,
+                        color: Theme.of(context).brightness == Brightness.dark
+                            ? Colors.white
+                            : Colors.black),
+                  ),
+                  TextSpan(
+                    text: '小時',
+                    style: Theme.of(context).textTheme.titleLarge,
+                  )
+                ])),
+                Text('又', style: Theme.of(context).textTheme.titleLarge),
+                RichText(
+                    text: TextSpan(children: [
+                  TextSpan(
+                    text: (difference.inMinutes % 60).toString(),
+                    style: TextStyle(
+                        fontSize: 65.5,
+                        fontWeight: FontWeight.bold,
+                        color: Theme.of(context).brightness == Brightness.dark
+                            ? Colors.white
+                            : Colors.black),
+                  ),
+                  TextSpan(
+                    text: '分鐘',
+                    style: Theme.of(context).textTheme.titleLarge,
+                  )
+                ])),
+                Text('又', style: Theme.of(context).textTheme.titleLarge),
+                RichText(
+                    text: TextSpan(children: [
+                  TextSpan(
+                    text: (difference.inSeconds % 60).toString(),
+                    style: TextStyle(
+                        fontSize: 65.5,
+                        fontWeight: FontWeight.bold,
+                        color: Theme.of(context).brightness == Brightness.dark
+                            ? Colors.white
+                            : Colors.black),
+                  ),
+                  TextSpan(
+                    text: '秒鐘',
+                    style: Theme.of(context).textTheme.titleLarge,
+                  )
+                ])),
+              ]
             ],
           ),
         ),

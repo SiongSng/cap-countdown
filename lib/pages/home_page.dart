@@ -91,7 +91,9 @@ class _DailyQuestionState extends State<_DailyQuestion> {
                         if (selectedChoice == null) {
                           messenger.showSnackBar(
                             const SnackBar(
-                              content: Text('交卷前請先記得選擇答案喔！'),
+                              content: Text('交卷前請先記得選擇答案喔！',
+                                  style:
+                                      TextStyle(fontWeight: FontWeight.bold)),
                               backgroundColor: Colors.orange,
                             ),
                           );
@@ -102,15 +104,16 @@ class _DailyQuestionState extends State<_DailyQuestion> {
                           messenger.showSnackBar(
                             SnackBar(
                               content: const Text('恭喜你答對了！'),
-                              backgroundColor: Colors.green,
-                              action: _viewExplanationAction(context, question),
+                              action: _viewExplanationAction(
+                                  context, question.explanation),
                             ),
                           );
                         } else {
                           messenger.showSnackBar(
                             SnackBar(
                               content: const Text('答錯了，再接再厲！'),
-                              action: _viewExplanationAction(context, question),
+                              action: _viewExplanationAction(
+                                  context, question.explanation),
                             ),
                           );
                         }
@@ -135,7 +138,7 @@ class _DailyQuestionState extends State<_DailyQuestion> {
   }
 
   SnackBarAction _viewExplanationAction(
-      BuildContext context, SubjectQuestion question) {
+      BuildContext context, String explanation) {
     return SnackBarAction(
       label: '看詳解',
       onPressed: () {
@@ -143,7 +146,7 @@ class _DailyQuestionState extends State<_DailyQuestion> {
             context: context,
             builder: (context) => AlertDialog(
                   title: const Text('詳解'),
-                  content: Text(question.explanation),
+                  content: Text(explanation),
                   actions: [
                     TextButton(
                         onPressed: () => Navigator.of(context).pop(),
