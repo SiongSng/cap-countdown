@@ -102,16 +102,14 @@ class _DailyQuestionState extends State<_DailyQuestion> {
                           messenger.showSnackBar(
                             SnackBar(
                               content: const Text('恭喜你答對了！'),
-                              action: _viewExplanationAction(
-                                  context, question.explanation),
+                              action: _viewExplanationAction(context, question),
                             ),
                           );
                         } else {
                           messenger.showSnackBar(
                             SnackBar(
                               content: const Text('答錯了，再接再厲！'),
-                              action: _viewExplanationAction(
-                                  context, question.explanation),
+                              action: _viewExplanationAction(context, question),
                             ),
                           );
                         }
@@ -136,7 +134,7 @@ class _DailyQuestionState extends State<_DailyQuestion> {
   }
 
   SnackBarAction _viewExplanationAction(
-      BuildContext context, String explanation) {
+      BuildContext context, SubjectQuestion question) {
     return SnackBarAction(
       label: '看詳解',
       onPressed: () {
@@ -144,7 +142,8 @@ class _DailyQuestionState extends State<_DailyQuestion> {
             context: context,
             builder: (context) => AlertDialog(
                   title: const Text('詳解'),
-                  content: Text(explanation),
+                  content: Text(
+                      '本試題參考答案為：${question.correctAnswer.name}\n\n${question.explanation}'),
                   actions: [
                     TextButton(
                         onPressed: () => Navigator.of(context).pop(),
