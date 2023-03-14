@@ -1,5 +1,3 @@
-import 'dart:async';
-
 import 'package:cap_countdown/widgets/cap_time_left.dart';
 import 'package:flutter/material.dart';
 

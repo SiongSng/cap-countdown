@@ -1,6 +1,5 @@
 import 'package:cap_countdown/exam/exam_loader.dart';
 import 'package:cap_countdown/exam/subject_question.dart';
-import 'package:cap_countdown/main.dart';
 import 'package:cap_countdown/widgets/cap_time_left.dart';
 import 'package:cap_countdown/widgets/choice_button.dart';
 import 'package:flutter/material.dart';
@@ -41,7 +40,6 @@ class _DailyQuestionState extends State<_DailyQuestion> {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: Card(
-        elevation: 1,
         child: Padding(
           padding: const EdgeInsets.all(15.0),
           child: Column(

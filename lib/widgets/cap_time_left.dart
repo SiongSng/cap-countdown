@@ -38,7 +38,6 @@ class _CAPTimeLeftState extends State<CAPTimeLeft> {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: Card(
-        elevation: 1,
         child: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Column(
