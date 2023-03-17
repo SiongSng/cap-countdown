@@ -1,182 +1,182 @@
 {
-	"exams": [
-		{
-			"name": "111 年國中教育會考",
-			"subjects": [
-				{
-					"name": "國文科",
-					"questions": [
-						{
-							"index": 1,
-							"type": "singleChoice",
-							"description": "這張圖最可能在傳達下列何種訊息？",
-							"image": "111_chinese_1.png",
-							"choices": [
-								{
-									"answer": "A",
-									"description": "透過大量傳播，知識就會變成真理"
-								},
-								{
-									"answer": "B",
-									"description": "與其獨自苦讀，不如多與他人交流"
-								},
-								{
-									"answer": "C",
-									"description": "反覆誦讀，有助於將資訊內化為大腦深層的記憶"
-								},
-								{
-									"answer": "D",
-									"description": "能統整所學並轉述給別人，才算是真正掌握知識"
-								}
-							],
-							"correct_answer": "D",
-							"explanation": "(A) 圖中並未見知識大量傳播的訊息\n(B) 圖中並未顯示需與他人多交流\n(C) 圖中並未有反覆反覆誦讀的資訊\n(D) 重新組織知識為「統整」概念，用自己方式說出為「轉述」，故選 D"
-						},
-						{
-							"index": 2,
-							"type": "singleChoice",
-							"description": "黃醫師的眼科診所開業，親友們登門慶賀。\n君翰帶來一方寫著「杏林之光」的匾額，聊表心意。\n思涵見狀馬上說：「如果寫『近悅遠來』更好。」\n偉同則說：「可是，我覺得『眾望所歸』更恰當。」\n最後嘉恩才說：「其實，『桃李芬芳』才是最合適的選擇。」\n\n根據這段對話，誰的做法或說法最恰當？",
-							"choices": [
-								{
-									"answer": "A",
-									"description": "君翰"
-								},
-								{
-									"answer": "B",
-									"description": "思涵"
-								},
-								{
-									"answer": "C",
-									"description": "偉同"
-								},
-								{
-									"answer": "D",
-									"description": "嘉恩"
-								}
-							],
-							"correct_answer": "A",
-							"explanation": "本文為黃醫師開業，需選出符合醫院開業的賀辭。\n\n(A) 杏林之光：用於祝賀人醫院開業的賀辭。\n(B) 近悅遠來：使近處的人心悅誠服，遠方的人願意前來歸附。用於祝賀人開業的賀詞。\n(C) 眾望所歸：深得眾人擁護、愛戴\n(D) 桃李芬芳：用於對教育界或教育人士的褒揚題辭。形容所培育的後學表現傑出，人才輩出。"
-						},
-						{
-							"index": 3,
-							"type": "singleChoice",
-							"description": "「臺灣原住民的布只有形制屬傳統或較現代的分別，像圓領的剪裁、鈕扣和棉布的使用等，都是受漢人的影響而來。泰雅族的貝珠鈴衣，是貝珠串底下加銅鈴裝飾，銅鈴也是和漢人交易而來。日治時代的原住民服裝，還出現以漢人棉布做底、日本布做袖口、原住民圖案做主要裝飾的混搭法。」\n這段文字的主旨最可能是下列何者？",
-							"choices": [
-								{
-									"answer": "A",
-									"description": "不同文化的碰撞，可融合並產生新的火花"
-								},
-								{
-									"answer": "B",
-									"description": "外來文化的入侵，讓在地的傳統文化日漸消失"
-								},
-								{
-									"answer": "C",
-									"description": "臺灣原住民的文化，影響了漢人與日本人的穿著"
-								},
-								{
-									"answer": "D",
-									"description": "觀察不同族群的服飾，就能了解不同文化的差異"
-								}
-							],
-							"correct_answer": "A",
-							"explanation": "本文主要表達原住民傳統服飾經過漢人及日治時期的影響，而有不同的嶄新面貌，故答案選(A)。\n(B)本文文化影響並未有入侵之意。\n(C)漢人和日本人影響了原住民服飾。\n(D)本文並未介紹各種族群的服飾，故無法藉此了解各種文化。"
-						}
-					]
-				},
-				{
-					"name": "英語科閱讀",
-					"questions": [
-						{
-							"index": 1,
-							"type": "singleChoice",
-							"description": "Look at the picture. The woman is putting ＿＿＿＿ on the cake.",
-							"image": "111_english_1.png",
-							"choices": [
-								{
-									"answer": "A",
-									"description": "candles"
-								},
-								{
-									"answer": "B",
-									"description": "forks"
-								},
-								{
-									"answer": "C",
-									"description": "plates"
-								},
-								{
-									"answer": "D",
-									"description": "strawberries"
-								}
-							],
-							"correct_answer": "A",
-							"explanation": "根據圖片，女子正在將蠟燭放在蛋糕上，故選 A。"
-						}
-					]
-				},
-				{
-					"name": "數學科",
-					"questions": [
-						{
-							"index": 1,
-							"type": "singleChoice",
-							"description": "圖（一）數線上的A、B、C、D四點所表示的數分別為a、b、c、d，且O為原點。根據圖中各點的位置判斷，下列何者的值最小？",
-							"image": "111_math_1.png",
-							"choices": [
-								{
-									"answer": "A",
-									"description": "∣a∣"
-								},
-								{
-									"answer": "B",
-									"description": "∣b∣"
-								},
-								{
-									"answer": "C",
-									"description": "∣c∣"
-								},
-								{
-									"answer": "D",
-									"description": "∣d∣"
-								}
-							],
-							"correct_answer": "A",
-							"explanation": "∵A、B、C、D四點到O點的距離中， 最小\n∴∣a∣的值最小。"
-						}
-					]
-				},
-				{
-					"name": "自然科",
-					"questions": [
-						{
-							"index": 1,
-							"type": "singleChoice",
-							"description": "氣象報導時常可見「百帕」一詞，下列有關百帕的敘述何者正確？",
-							"choices": [
-								{
-									"answer": "A",
-									"description": "百帕是氣壓的單位"
-								},
-								{
-									"answer": "B",
-									"description": "百帕是溫度的單位"
-								},
-								{
-									"answer": "C",
-									"description": "百帕是風速的單位"
-								},
-								{
-									"answer": "D",
-									"description": "百帕是下雨的機會"
-								}
-							],
-							"correct_answer": "A",
-							"explanation": "氣壓的國際單位制是帕斯卡（或簡稱帕，符號是Pa），一般氣象學中人們使用百帕（hPa）作為氣壓單位。"
-						}
-					]
-				}
-			]
-		}
-	]
+    "exams": [
+        {
+            "name": "111 年國中教育會考",
+            "subjects": [
+                {
+                    "name": "國文科",
+                    "questions": [
+                        {
+                            "index": 1,
+                            "type": "singleChoice",
+                            "description": "這張圖最可能在傳達下列何種訊息？",
+                            "image": "111_chinese_1.png",
+                            "choices": [
+                                {
+                                    "answer": "A",
+                                    "description": "透過大量傳播，知識就會變成真理"
+                                },
+                                {
+                                    "answer": "B",
+                                    "description": "與其獨自苦讀，不如多與他人交流"
+                                },
+                                {
+                                    "answer": "C",
+                                    "description": "反覆誦讀，有助於將資訊內化為大腦深層的記憶"
+                                },
+                                {
+                                    "answer": "D",
+                                    "description": "能統整所學並轉述給別人，才算是真正掌握知識"
+                                }
+                            ],
+                            "correct_answer": "D",
+                            "explanation": "(A) 圖中並未見知識大量傳播的訊息\n(B) 圖中並未顯示需與他人多交流\n(C) 圖中並未有反覆反覆誦讀的資訊\n(D) 重新組織知識為「統整」概念，用自己方式說出為「轉述」，故選 D"
+                        },
+                        {
+                            "index": 2,
+                            "type": "singleChoice",
+                            "description": "黃醫師的眼科診所開業，親友們登門慶賀。\n君翰帶來一方寫著「杏林之光」的匾額，聊表心意。\n思涵見狀馬上說：「如果寫『近悅遠來』更好。」\n偉同則說：「可是，我覺得『眾望所歸』更恰當。」\n最後嘉恩才說：「其實，『桃李芬芳』才是最合適的選擇。」\n\n根據這段對話，誰的做法或說法最恰當？",
+                            "choices": [
+                                {
+                                    "answer": "A",
+                                    "description": "君翰"
+                                },
+                                {
+                                    "answer": "B",
+                                    "description": "思涵"
+                                },
+                                {
+                                    "answer": "C",
+                                    "description": "偉同"
+                                },
+                                {
+                                    "answer": "D",
+                                    "description": "嘉恩"
+                                }
+                            ],
+                            "correct_answer": "A",
+                            "explanation": "本文為黃醫師開業，需選出符合醫院開業的賀辭。\n\n(A) 杏林之光：用於祝賀人醫院開業的賀辭。\n(B) 近悅遠來：使近處的人心悅誠服，遠方的人願意前來歸附。用於祝賀人開業的賀詞。\n(C) 眾望所歸：深得眾人擁護、愛戴\n(D) 桃李芬芳：用於對教育界或教育人士的褒揚題辭。形容所培育的後學表現傑出，人才輩出。"
+                        },
+                        {
+                            "index": 3,
+                            "type": "singleChoice",
+                            "description": "「臺灣原住民的布只有形制屬傳統或較現代的分別，像圓領的剪裁、鈕扣和棉布的使用等，都是受漢人的影響而來。泰雅族的貝珠鈴衣，是貝珠串底下加銅鈴裝飾，銅鈴也是和漢人交易而來。日治時代的原住民服裝，還出現以漢人棉布做底、日本布做袖口、原住民圖案做主要裝飾的混搭法。」\n這段文字的主旨最可能是下列何者？",
+                            "choices": [
+                                {
+                                    "answer": "A",
+                                    "description": "不同文化的碰撞，可融合並產生新的火花"
+                                },
+                                {
+                                    "answer": "B",
+                                    "description": "外來文化的入侵，讓在地的傳統文化日漸消失"
+                                },
+                                {
+                                    "answer": "C",
+                                    "description": "臺灣原住民的文化，影響了漢人與日本人的穿著"
+                                },
+                                {
+                                    "answer": "D",
+                                    "description": "觀察不同族群的服飾，就能了解不同文化的差異"
+                                }
+                            ],
+                            "correct_answer": "A",
+                            "explanation": "本文主要表達原住民傳統服飾經過漢人及日治時期的影響，而有不同的嶄新面貌，故答案選(A)。\n(B)本文文化影響並未有入侵之意。\n(C)漢人和日本人影響了原住民服飾。\n(D)本文並未介紹各種族群的服飾，故無法藉此了解各種文化。"
+                        }
+                    ]
+                },
+                {
+                    "name": "英語科閱讀",
+                    "questions": [
+                        {
+                            "index": 1,
+                            "type": "singleChoice",
+                            "description": "Look at the picture. The woman is putting ＿＿＿＿ on the cake.",
+                            "image": "111_english_1.png",
+                            "choices": [
+                                {
+                                    "answer": "A",
+                                    "description": "candles"
+                                },
+                                {
+                                    "answer": "B",
+                                    "description": "forks"
+                                },
+                                {
+                                    "answer": "C",
+                                    "description": "plates"
+                                },
+                                {
+                                    "answer": "D",
+                                    "description": "strawberries"
+                                }
+                            ],
+                            "correct_answer": "A",
+                            "explanation": "根據圖片，女子正在將蠟燭放在蛋糕上，故選 A。"
+                        }
+                    ]
+                },
+                {
+                    "name": "數學科",
+                    "questions": [
+                        {
+                            "index": 1,
+                            "type": "singleChoice",
+                            "description": "圖（一）數線上的 A、B、C、D 四點所表示的數分別為 a、b、c、d，且 O 為原點。\n根據圖中各點的位置判斷，下列何者的值最小？",
+                            "image": "111_math_1.png",
+                            "choices": [
+                                {
+                                    "answer": "A",
+                                    "description": "$| a |$"
+                                },
+                                {
+                                    "answer": "B",
+                                    "description": "$| b |$"
+                                },
+                                {
+                                    "answer": "C",
+                                    "description": "$| c |$"
+                                },
+                                {
+                                    "answer": "D",
+                                    "description": "$| d |$"
+                                }
+                            ],
+                            "correct_answer": "A",
+                            "explanation": "∵A、B、C、D四點到O點的距離中， 最小\n∴∣a∣的值最小。"
+                        }
+                    ]
+                },
+                {
+                    "name": "自然科",
+                    "questions": [
+                        {
+                            "index": 1,
+                            "type": "singleChoice",
+                            "description": "氣象報導時常可見「百帕」一詞，下列有關百帕的敘述何者正確？",
+                            "choices": [
+                                {
+                                    "answer": "A",
+                                    "description": "百帕是氣壓的單位"
+                                },
+                                {
+                                    "answer": "B",
+                                    "description": "百帕是溫度的單位"
+                                },
+                                {
+                                    "answer": "C",
+                                    "description": "百帕是風速的單位"
+                                },
+                                {
+                                    "answer": "D",
+                                    "description": "百帕是下雨的機會"
+                                }
+                            ],
+                            "correct_answer": "A",
+                            "explanation": "氣壓的國際單位制是帕斯卡（或簡稱帕，符號是Pa），一般氣象學中人們使用百帕（hPa）作為氣壓單位。"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
