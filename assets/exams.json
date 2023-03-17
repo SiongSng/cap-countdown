@@ -143,6 +143,31 @@
                             ],
                             "correct_answer": "A",
                             "explanation": "$\\because$ A、B、C、D 四點到 O 點的距離中最小\n$\\therefore |a|$的值最小。"
+                        },
+                        {
+                            "index": 2,
+                            "type": "singleChoice",
+                            "description": "計算多項式$6x^2+4x$除以$2x^2$後，得到的餘式為何？",
+                            "choices": [
+                                {
+                                    "answer": "A",
+                                    "description": "$2$"
+                                },
+                                {
+                                    "answer": "B",
+                                    "description": "$4$"
+                                },
+                                {
+                                    "answer": "C",
+                                    "description": "$2x$"
+                                },
+                                {
+                                    "answer": "D",
+                                    "description": "$4x$"
+                                }
+                            ],
+                            "correct_answer": "D",
+                            "explanation": "$\\begin{align}\\\\&3\\\\2x^2\\ )&\\overline{6x^2+4x}\\\\&6x^2\\\\&\\overline{\\quad \\quad \\ \\ \\ 4x}\\end{align}$\n\\therefore餘式為$4x$"
                         }
                     ]
                 },
