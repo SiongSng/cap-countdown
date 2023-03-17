@@ -126,23 +126,23 @@
                             "choices": [
                                 {
                                     "answer": "A",
-                                    "description": "$| a |$"
+                                    "description": "$|a|$"
                                 },
                                 {
                                     "answer": "B",
-                                    "description": "$| b |$"
+                                    "description": "$|b|$"
                                 },
                                 {
                                     "answer": "C",
-                                    "description": "$| c |$"
+                                    "description": "$|c|$"
                                 },
                                 {
                                     "answer": "D",
-                                    "description": "$| d |$"
+                                    "description": "$|d|$"
                                 }
                             ],
                             "correct_answer": "A",
-                            "explanation": "∵A、B、C、D四點到O點的距離中， 最小\n∴∣a∣的值最小。"
+                            "explanation": "$\\because$ A、B、C、D 四點到 O 點的距離中最小\n$\\therefore |a|$的值最小。"
                         }
                     ]
                 },
