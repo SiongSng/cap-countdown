@@ -3,6 +3,7 @@ import 'package:cap_countdown/exam/subject_question.dart';
 import 'package:cap_countdown/widgets/cap_time_left.dart';
 import 'package:cap_countdown/widgets/choice_button.dart';
 import 'package:flutter/material.dart';
+import 'package:tex_text/tex_text.dart';
 import 'package:zoom_pinch_overlay/zoom_pinch_overlay.dart';
 
 class HomePage extends StatefulWidget {
@@ -70,7 +71,8 @@ class _DailyQuestionState extends State<_DailyQuestion> {
                   return image;
                 }),
               if (question.image != null) const SizedBox(height: 8),
-              Text(
+              // Use TexText to render LaTeX (math formula) in text.
+              TexText(
                 question.description ?? '',
                 style: Theme.of(context).textTheme.bodyLarge,
               ),
