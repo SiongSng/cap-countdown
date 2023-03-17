@@ -192,7 +192,7 @@
                                 }
                             ],
                             "correct_answer": "C",
-                            "explanation": "$\\begin{table}[]\\\\\\begin{tabular}{cccc}\\\\\\multicolumn{1}{c|}{2} & 156 & \\multicolumn{1}{c|}{2} & 78                     &    \\\\ \\cline{3-4} &                        & \\multicolumn{1}{c|}{3} & 39 \\\\ \\cline{4-4} &                        &                        & 13 \\end{tabular}\\\\ \\end{table}$"
+                            "explanation": "$\\begin{aligned}\\\\&2\\underline{|\\ 156\\quad \\ \\ \\ }\\\\&\\quad2\\underline{|\\ 78\\quad\\ }\\\\&\\qquad 3\\underline{|\\ 39\\ }\\\\&\\qquad \\quad 13\\\\ \\end{aligned}$"
                         }
                     ]
                 },
