@@ -1,7 +1,7 @@
 {
     "exams": [
         {
-            "name": "民國 111 年國中教育會考",
+            "name": "111 年國中教育會考",
             "subjects": [
                 {
                     "name": "國文科",
@@ -112,6 +112,67 @@
                             ],
                             "correct_answer": "A",
                             "explanation": "根據圖片，女子正在將蠟燭放在蛋糕上，故選 A。"
+                        }
+                    ]
+                },
+                {
+                    "name": "數學科",
+                    "questions": [
+                        {
+                            "index": 1,
+                            "type": "singleChoice",
+                            "description": "圖（一）數線上的 A、B、C、D 四點所表示的數分別為 a、b、c、d，且 O 為原點。\n根據圖中各點的位置判斷，下列何者的值最小？",
+                            "image": "111_math_1.png",
+                            "choices": [
+                                {
+                                    "answer": "A",
+                                    "description": "$|a|$"
+                                },
+                                {
+                                    "answer": "B",
+                                    "description": "$|b|$"
+                                },
+                                {
+                                    "answer": "C",
+                                    "description": "$|c|$"
+                                },
+                                {
+                                    "answer": "D",
+                                    "description": "$|d|$"
+                                }
+                            ],
+                            "correct_answer": "A",
+                            "explanation": "$\\because$ A、B、C、D 四點到 O 點的距離中最小\n$\\therefore |a|$的值最小。"
+                        }
+                    ]
+                },
+                {
+                    "name": "自然科",
+                    "questions": [
+                        {
+                            "index": 1,
+                            "type": "singleChoice",
+                            "description": "氣象報導時常可見「百帕」一詞，下列有關百帕的敘述何者正確？",
+                            "choices": [
+                                {
+                                    "answer": "A",
+                                    "description": "百帕是氣壓的單位"
+                                },
+                                {
+                                    "answer": "B",
+                                    "description": "百帕是溫度的單位"
+                                },
+                                {
+                                    "answer": "C",
+                                    "description": "百帕是風速的單位"
+                                },
+                                {
+                                    "answer": "D",
+                                    "description": "百帕是下雨的機會"
+                                }
+                            ],
+                            "correct_answer": "A",
+                            "explanation": "氣壓的國際單位制是帕斯卡（或簡稱帕，符號是Pa），一般氣象學中人們使用百帕（hPa）作為氣壓單位。"
                         }
                     ]
                 }
