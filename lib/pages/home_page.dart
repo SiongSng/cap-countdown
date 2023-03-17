@@ -144,7 +144,8 @@ class _DailyQuestionState extends State<_DailyQuestion> {
             context: context,
             builder: (context) => AlertDialog(
                   title: const Text('詳解'),
-                  content: Text(
+                  // Use TexText to render LaTeX (math formula) in text.
+                  content: TexText(
                       '本試題參考答案為：${question.correctAnswer.name}\n\n${question.explanation}'),
                   actions: [
                     TextButton(
