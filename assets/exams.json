@@ -147,6 +147,37 @@
                     ]
                 },
                 {
+                    "name": "社會科",
+                    "questions": [
+                        {
+                            "index": 1,
+                            "type": "singleChoice",
+                            "description": "某宗教的全球年度大型集會活動在 2017 年約有 235 萬人參與。\n表(一)為該年參與者的來源國及其人數，此一宗教活動最可能為下列何者？",
+                            "image": "111_history_1.png",
+                            "choices": [
+                                {
+                                    "answer": "A",
+                                    "description": "佛教浴佛節"
+                                },
+                                {
+                                    "answer": "B",
+                                    "description": "印度教大壺節"
+                                },
+                                {
+                                    "answer": "C",
+                                    "description": "伊斯蘭教朝覲"
+                                },
+                                {
+                                    "answer": "D",
+                                    "description": "天主教聖誕彌撒"
+                                }
+                            ],
+                            "correct_answer": "C",
+                            "explanation": "從沙烏地阿拉伯、印尼、巴基斯坦、伊朗等，可知主要是伊斯蘭教國家。因此選 C"
+                        }
+                    ]
+                },
+                {
                     "name": "自然科",
                     "questions": [
                         {
