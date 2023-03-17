@@ -168,6 +168,31 @@
                             ],
                             "correct_answer": "D",
                             "explanation": "$\\begin{aligned}\\\\&3\\\\2x^2\\ )&\\overline{6x^2+4x}\\\\&6x^2\\\\&\\overline{\\quad \\quad \\ \\ \\ 4x}\\end{aligned}$\n$\\therefore$餘式為$4x$"
+                        },
+                        {
+                            "index": 3,
+                            "type": "singleChoice",
+                            "description": "下列何者為156的質因數？",
+                            "choices": [
+                                {
+                                    "answer": "A",
+                                    "description": "11"
+                                },
+                                {
+                                    "answer": "B",
+                                    "description": "12"
+                                },
+                                {
+                                    "answer": "C",
+                                    "description": "13"
+                                },
+                                {
+                                    "answer": "D",
+                                    "description": "14"
+                                }
+                            ],
+                            "correct_answer": "C",
+                            "explanation": "$\\begin{table}[]\\\\\\begin{tabular}{cccc}\\\\\\multicolumn{1}{c|}{2} & 156 & \\multicolumn{1}{c|}{2} & 78                     &    \\\\ \\cline{3-4} &                        & \\multicolumn{1}{c|}{3} & 39 \\\\ \\cline{4-4} &                        &                        & 13 \\end{tabular}\\\\ \\end{table}$"
                         }
                     ]
                 },
