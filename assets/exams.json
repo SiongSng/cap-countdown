@@ -167,7 +167,7 @@
                                 }
                             ],
                             "correct_answer": "D",
-                            "explanation": "$\\begin{aligned}\\\\&3\\\\2x^2\\ )&\\overline{6x^2+4x}\\\\&6x^2\\\\&\\overline{\\quad \\quad \\ \\ \\ 4x}\\end{aligned}$\n$\\therefore$餘式為$4x$"
+                            "explanation": "$\\begin{aligned}\\\\&3\\\\2x^2\\ )&\\overline{6x^2+4x}\\\\&6x^2\\\\&\\overline{\\quad \\quad \\ \\ \\ 4x}\\end{aligned}$\n$\\therefore$ 餘式為 $4x$"
                         },
                         {
                             "index": 3,
