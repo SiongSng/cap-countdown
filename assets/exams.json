@@ -143,6 +143,56 @@
                             ],
                             "correct_answer": "A",
                             "explanation": "$\\because$ A、B、C、D 四點到 O 點的距離中最小\n$\\therefore |a|$的值最小。"
+                        },
+                        {
+                            "index": 2,
+                            "type": "singleChoice",
+                            "description": "計算多項式 $6x^2+4x$ 除以 $2x^2$ 後，得到的餘式為何？",
+                            "choices": [
+                                {
+                                    "answer": "A",
+                                    "description": "$2$"
+                                },
+                                {
+                                    "answer": "B",
+                                    "description": "$4$"
+                                },
+                                {
+                                    "answer": "C",
+                                    "description": "$2x$"
+                                },
+                                {
+                                    "answer": "D",
+                                    "description": "$4x$"
+                                }
+                            ],
+                            "correct_answer": "D",
+                            "explanation": "$\\begin{aligned}\\\\&3\\\\2x^2\\ )&\\overline{6x^2+4x}\\\\&6x^2\\\\&\\overline{\\quad \\quad \\ \\ \\ 4x}\\end{aligned}$\n$\\therefore$ 餘式為 $4x$"
+                        },
+                        {
+                            "index": 3,
+                            "type": "singleChoice",
+                            "description": "下列何者為 156 的質因數？",
+                            "choices": [
+                                {
+                                    "answer": "A",
+                                    "description": "11"
+                                },
+                                {
+                                    "answer": "B",
+                                    "description": "12"
+                                },
+                                {
+                                    "answer": "C",
+                                    "description": "13"
+                                },
+                                {
+                                    "answer": "D",
+                                    "description": "14"
+                                }
+                            ],
+                            "correct_answer": "C",
+                            "explanation": "$\\begin{aligned}\\\\&2\\underline{|\\ 156\\quad \\ \\ \\ }\\\\&\\quad2\\underline{|\\ 78\\quad\\ }\\\\&\\qquad 3\\underline{|\\ 39\\ }\\\\&\\qquad \\quad 13\\\\ \\end{aligned}$\n$\\therefore$ 156的質因數有 2、3、13"
                         }
                     ]
                 },
