@@ -147,7 +147,7 @@
                         {
                             "index": 2,
                             "type": "singleChoice",
-                            "description": "計算多項式$6x^2+4x$除以$2x^2$後，得到的餘式為何？",
+                            "description": "計算多項式 $6x^2+4x$ 除以 $2x^2$ 後，得到的餘式為何？",
                             "choices": [
                                 {
                                     "answer": "A",
