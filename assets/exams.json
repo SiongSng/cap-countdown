@@ -192,7 +192,7 @@
                                 }
                             ],
                             "correct_answer": "C",
-                            "explanation": "$\\begin{aligned}\\\\&2\\underline{|\\ 156\\quad \\ \\ \\ }\\\\&\\quad2\\underline{|\\ 78\\quad\\ }\\\\&\\qquad 3\\underline{|\\ 39\\ }\\\\&\\qquad \\quad 13\\\\ \\end{aligned}$\n$\\therefore$156的質因數有2、3、13"
+                            "explanation": "$\\begin{aligned}\\\\&2\\underline{|\\ 156\\quad \\ \\ \\ }\\\\&\\quad2\\underline{|\\ 78\\quad\\ }\\\\&\\qquad 3\\underline{|\\ 39\\ }\\\\&\\qquad \\quad 13\\\\ \\end{aligned}$\n$\\therefore$ 156的質因數有 2、3、13"
                         }
                     ]
                 },
