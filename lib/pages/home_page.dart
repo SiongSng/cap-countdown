@@ -1,10 +1,8 @@
 import 'package:cap_countdown/exam/exam_loader.dart';
 import 'package:cap_countdown/exam/subject_question.dart';
 import 'package:cap_countdown/widgets/cap_time_left.dart';
-import 'package:cap_countdown/widgets/choice_button.dart';
+import 'package:cap_countdown/widgets/question_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:tex_text/tex_text.dart';
-import 'package:zoom_pinch_overlay/zoom_pinch_overlay.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -51,33 +49,7 @@ class _DailyQuestionState extends State<_DailyQuestion> {
               ),
               const Text('趁還有時間的時候來練練題目吧！'),
               const SizedBox(height: 8),
-              if (question.image != null)
-                Builder(builder: (context) {
-                  final image = Image.asset(
-                    'assets/images/exam/${question.image}',
-                    fit: BoxFit.fitWidth,
-                    height: 150,
-                  );
-                  final platform = Theme.of(context).platform;
-
-                  if (platform == TargetPlatform.android ||
-                      platform == TargetPlatform.iOS) {
-                    return ZoomOverlay(
-                      maxScale: 5.0,
-                      child: image,
-                    );
-                  }
-
-                  return image;
-                }),
-              if (question.image != null) const SizedBox(height: 8),
-              // Use TexText to render LaTeX (math formula) in text.
-              TexText(
-                question.description ?? '',
-                style: Theme.of(context).textTheme.bodyLarge,
-              ),
-              const SizedBox(height: 8),
-              _ChoiceButtons(question: question),
+              QuestionWidget(question: question),
               const SizedBox(height: 8),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -102,16 +74,16 @@ class _DailyQuestionState extends State<_DailyQuestion> {
 
                         if (selectedChoice.answer == question.correctAnswer) {
                           messenger.showSnackBar(
-                            SnackBar(
-                              content: const Text('恭喜你答對了！'),
-                              action: _viewExplanationAction(context, question),
+                            const SnackBar(
+                              content: Text('恭喜你答對了！'),
+                              backgroundColor: Colors.green,
                             ),
                           );
                         } else {
                           messenger.showSnackBar(
-                            SnackBar(
-                              content: const Text('答錯了，再接再厲！'),
-                              action: _viewExplanationAction(context, question),
+                            const SnackBar(
+                              content: Text('答錯了，再接再厲！'),
+                              backgroundColor: Colors.red,
                             ),
                           );
                         }
@@ -132,58 +104,6 @@ class _DailyQuestionState extends State<_DailyQuestion> {
           ),
         ),
       ),
-    );
-  }
-
-  SnackBarAction _viewExplanationAction(
-      BuildContext context, SubjectQuestion question) {
-    return SnackBarAction(
-      label: '看詳解',
-      onPressed: () {
-        showDialog(
-            context: context,
-            builder: (context) => AlertDialog(
-                  title: const Text('詳解'),
-                  // Use TexText to render LaTeX (math formula) in text.
-                  content: TexText(
-                      '本試題參考答案為：${question.correctAnswer.name}\n\n${question.explanation}'),
-                  actions: [
-                    TextButton(
-                        onPressed: () => Navigator.of(context).pop(),
-                        child: const Text('關閉'))
-                  ],
-                ));
-      },
-    );
-  }
-}
-
-class _ChoiceButtons extends StatefulWidget {
-  final SubjectQuestion question;
-
-  const _ChoiceButtons({required this.question});
-
-  @override
-  State<_ChoiceButtons> createState() => _ChoiceButtonsState();
-}
-
-class _ChoiceButtonsState extends State<_ChoiceButtons> {
-  @override
-  Widget build(BuildContext context) {
-    return Wrap(
-      spacing: 10,
-      runSpacing: 8,
-      children: widget.question.choices
-          .map((e) => ChoiceButton(
-                choice: e,
-                selectedChoice: widget.question.selectedChoice,
-                onChanged: (value) {
-                  setState(() {
-                    widget.question.selectedChoice = value;
-                  });
-                },
-              ))
-          .toList(),
     );
   }
 }
