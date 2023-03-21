@@ -21,11 +21,17 @@ jobs:
         run: |
           flutter pub get
           flutter build apk --release
+          flutter build appbundle --release
       - name: Upload APK
         uses: actions/upload-artifact@v3
         with:
-          name: Android
+          name: Android APK
           path: ./build/app/outputs/flutter-apk/app-release.apk
+      - name: Upload AAB
+        uses: actions/upload-artifact@v3
+        with:
+          name: Android AAB
+          path: ./build/app/outputs/bundle/release/app-release.aab
   ios:
     runs-on: macos-latest
     steps:
