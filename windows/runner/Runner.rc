@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "會考倒數" "\0"
+            VALUE "FileDescription", "會考沙漏" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "cap_countdown" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 SiongSng All rights reserved." "\0"
-            VALUE "OriginalFilename", "會考倒數.exe" "\0"
-            VALUE "ProductName", "會考倒數" "\0"
+            VALUE "OriginalFilename", "會考沙漏.exe" "\0"
+            VALUE "ProductName", "會考沙漏" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

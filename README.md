@@ -1,8 +1,8 @@
-# 會考倒數 — CAP Countdown
+# 會考沙漏 — CAP Countdown
 <img src="readme/logo_with_title.png" width="450px"/>
 
 ## 📖 簡介
-具有試題等豐富功能的會考倒數計時器  
+具有試題等豐富功能的會考沙漏計時器  
 支援的平台包含 Linux、Android、iOS、macOS、Windows 還有 Web！  
 此外，手機版如果覺得看題目的圖片太小，可以直接用手去縮放，像是 IG 一樣。 
 

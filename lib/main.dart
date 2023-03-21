@@ -27,7 +27,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: '會考倒數',
+      title: '會考沙漏',
       theme: ThemeData(
         brightness:
             WidgetsFlutterBinding.ensureInitialized().window.platformBrightness,
@@ -65,7 +65,7 @@ class _MainPageState extends State<MainPage> {
             children: [
               Image.asset('assets/images/logo.png', width: 40, height: 40),
               const SizedBox(width: 8),
-              const Text('會考倒數'),
+              const Text('會考沙漏'),
             ],
           ),
           actions: [
@@ -83,11 +83,11 @@ class _MainPageState extends State<MainPage> {
 
                     showAboutDialog(
                         context: context,
-                        applicationName: '會考倒數',
+                        applicationName: '會考沙漏',
                         applicationVersion: '1.0.0+1',
                         children: [
                           const Text(
-                              '這是個具有試題等豐富功能的會考倒數計時器\n此外，手機版如果覺得看題目的圖片太小，可以直接用手去縮放，像是 Instagram 一樣。'),
+                              '這是個具有試題等豐富功能的會考沙漏計時器\n此外，手機版如果覺得看題目的圖片太小，可以直接用手去縮放，像是 Instagram 一樣。'),
                           const Divider(),
                           const Text(
                               '本應用程式的程式碼皆採用 GNU General Public License v3.0 (GPL-3.0) 授權條款釋出。'),
