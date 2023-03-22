@@ -34,7 +34,6 @@ class _QuestionWidgetState extends State<QuestionWidget> {
             final image = Image.asset(
               'assets/images/exam/${widget.question.image}',
               fit: BoxFit.fitWidth,
-              height: 150,
             );
             final platform = Theme.of(context).platform;
 
