@@ -8,11 +8,13 @@ class ExamPage extends StatefulWidget {
   State<ExamPage> createState() => _ExamPageState();
 }
 
-class _ExamPageState extends State<ExamPage> {
+class _ExamPageState extends State<ExamPage>
+    with AutomaticKeepAliveClientMixin {
   final examScope = ExamLoader.exams.map((e) => e.name);
 
   @override
   Widget build(BuildContext context) {
+    super.build(context);
     return ListView(children: [
       Card(
         child: Padding(
@@ -35,4 +37,7 @@ class _ExamPageState extends State<ExamPage> {
       ),
     ]);
   }
+
+  @override
+  bool get wantKeepAlive => true;
 }

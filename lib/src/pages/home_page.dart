@@ -10,9 +10,10 @@ class HomePage extends StatefulWidget {
   State<HomePage> createState() => _HomePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _HomePageState extends State<HomePage> with AutomaticKeepAliveClientMixin{
   @override
   Widget build(BuildContext context) {
+    super.build(context);
     return ListView(
       children: const [
         CAPTimeLeft(showDetail: false),
@@ -21,6 +22,9 @@ class _HomePageState extends State<HomePage> {
       ],
     );
   }
+  
+  @override
+  bool get wantKeepAlive => true;
 }
 
 class _DailyQuestion extends StatefulWidget {

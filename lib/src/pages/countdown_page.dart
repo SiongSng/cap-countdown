@@ -12,13 +12,18 @@ class CountdownPage extends StatefulWidget {
   State<CountdownPage> createState() => _CountdownPageState();
 }
 
-class _CountdownPageState extends State<CountdownPage> {
+class _CountdownPageState extends State<CountdownPage>
+    with AutomaticKeepAliveClientMixin {
   @override
   Widget build(BuildContext context) {
+    super.build(context);
     return ListView(
       children: const [_Hourglass(), CAPTimeLeft(showDetail: true)],
     );
   }
+
+  @override
+  bool get wantKeepAlive => true;
 }
 
 class _Hourglass extends StatefulWidget {
