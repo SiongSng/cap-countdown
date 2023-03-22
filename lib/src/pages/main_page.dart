@@ -17,15 +17,17 @@ class MainPage extends StatefulWidget {
 
 class _MainPageState extends State<MainPage> {
   int selectedIndex = 1;
+  late final PageController pageController;
+
+  @override
+  void initState() {
+    pageController = PageController(initialPage: selectedIndex);
+
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
-    const pages = <Widget>[
-      CountdownPage(),
-      HomePage(),
-      ExamPage(),
-    ];
-
     return Scaffold(
         appBar: AppBar(
           title: Row(
@@ -91,12 +93,23 @@ class _MainPageState extends State<MainPage> {
             ),
           ],
         ),
-        body: pages[selectedIndex],
+        body: PageView(
+          physics: const NeverScrollableScrollPhysics(),
+          controller: pageController,
+          children: const [
+            CountdownPage(),
+            HomePage(),
+            ExamPage(),
+          ],
+        ),
         bottomNavigationBar: NavigationBar(
           selectedIndex: selectedIndex,
           onDestinationSelected: (value) {
             setState(() {
               selectedIndex = value;
+              pageController.animateToPage(value,
+                  duration: const Duration(milliseconds: 200),
+                  curve: Curves.easeInOut);
             });
           },
           labelBehavior: NavigationDestinationLabelBehavior.onlyShowSelected,
