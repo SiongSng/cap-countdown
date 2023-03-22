@@ -18,15 +18,9 @@ class _CAPTimeLeftState extends State<CAPTimeLeft> {
     super.initState();
 
     if (!widget.showDetail) return;
-    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
-      Timer.periodic(const Duration(seconds: 1), (timer) {
-        if (!mounted) {
-          timer.cancel();
-          return;
-        }
-
-        setState(() {});
-      });
+    Timer.periodic(const Duration(seconds: 1), (timer) {
+      if (!mounted) return timer.cancel();
+      setState(() {});
     });
   }
 

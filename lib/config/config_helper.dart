@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart';
 
-class ConfigHelper {
+abstract class ConfigHelper {
   static late final Map _config;
 
   static Future<void> init() async {
@@ -10,7 +10,11 @@ class ConfigHelper {
     _config = jsonDecode(jsonString);
   }
 
-  static T get<T>(String key) {
-    return _config[key];
+  static T get<T>(String key, [T? defaultValue]) {
+    return _config[key] ?? defaultValue;
+  }
+
+  static void set<T>(String key, T value) {
+    _config[key] = value;
   }
 }
