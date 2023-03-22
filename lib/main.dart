@@ -1,13 +1,16 @@
-import 'package:cap_countdown/src/config/config_helper.dart';
-import 'package:cap_countdown/src/config/config_instance.dart';
-import 'package:cap_countdown/src/exam/exam_loader.dart';
-import 'package:cap_countdown/src/pages/main_page.dart';
-import 'package:cap_countdown/src/pages/settings_page.dart';
-import 'package:cap_countdown/src/widgets/theme_provider.dart';
+import 'src/config/config_helper.dart';
+import 'src/config/config_instance.dart';
+import 'src/exam/exam_loader.dart';
+import 'src/pages/main_page.dart';
+import 'src/pages/settings_page.dart';
+import 'src/widgets/theme_provider.dart';
+import 'src/settings/settings_instance.dart';
+import 'src/settings/settings.dart';
 
 import 'package:flutter/material.dart';
 
 final ConfigInstance config = ConfigInstance();
+final SettingsInstance settings = SettingsInstance();
 
 void main() {
   _run();
@@ -16,6 +19,7 @@ void main() {
 Future<void> _run() async {
   WidgetsFlutterBinding.ensureInitialized();
   await ConfigHelper.init();
+  await SettingsHelper.init();
   await ExamLoader.load();
   runApp(const App());
 }

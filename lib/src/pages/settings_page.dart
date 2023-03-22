@@ -1,4 +1,4 @@
-import 'package:cap_countdown/src/config/app_theme.dart';
+import 'package:cap_countdown/src/settings/app_theme.dart';
 import 'package:cap_countdown/main.dart';
 import 'package:cap_countdown/src/widgets/theme_provider.dart';
 import 'package:flutter/material.dart';
@@ -26,10 +26,10 @@ class _SettingsPageState extends State<SettingsPage> {
                     .map((e) => ButtonSegment(
                         value: e, label: Text(e.uiName), icon: e.icon))
                     .toList(),
-                selected: {config.appTheme},
+                selected: {settings.appTheme},
                 onSelectionChanged: (value) {
                   final theme = value.first;
-                  config.appTheme = theme;
+                  settings.appTheme = theme;
                   ThemeProvider.of(context).setTheme(theme);
                   setState(() {});
                 }),

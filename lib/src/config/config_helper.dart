@@ -10,11 +10,7 @@ abstract class ConfigHelper {
     _config = jsonDecode(jsonString);
   }
 
-  static T get<T>(String key, [T? defaultValue]) {
-    return _config[key] ?? defaultValue;
-  }
-
-  static void set<T>(String key, T value) {
-    _config[key] = value;
+  static T get<T>(String key) {
+    return _config[key];
   }
 }
