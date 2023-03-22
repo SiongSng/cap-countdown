@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:cap_countdown/util/cap_util.dart';
-import 'package:cap_countdown/widgets/cap_time_left.dart';
+import 'package:cap_countdown/src/util/cap_util.dart';
+import 'package:cap_countdown/src/widgets/cap_time_left.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 

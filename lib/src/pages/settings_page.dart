@@ -1,6 +1,6 @@
-import 'package:cap_countdown/config/app_theme.dart';
+import 'package:cap_countdown/src/config/app_theme.dart';
 import 'package:cap_countdown/main.dart';
-import 'package:cap_countdown/widgets/theme_provider.dart';
+import 'package:cap_countdown/src/widgets/theme_provider.dart';
 import 'package:flutter/material.dart';
 
 class SettingsPage extends StatefulWidget {

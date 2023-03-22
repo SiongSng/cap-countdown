@@ -1,4 +1,4 @@
-import 'package:cap_countdown/exam/question_choice.dart';
+import 'package:cap_countdown/src/exam/question_choice.dart';
 import 'package:flutter/material.dart';
 import 'package:tex_text/tex_text.dart';
 

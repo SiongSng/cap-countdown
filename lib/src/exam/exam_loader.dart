@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'dart:math';
 
-import 'package:cap_countdown/exam/exam.dart';
-import 'package:cap_countdown/exam/subject_question.dart';
+import 'package:cap_countdown/src/exam/exam.dart';
+import 'package:cap_countdown/src/exam/subject_question.dart';
 import 'package:flutter/services.dart';
 
 class ExamLoader {

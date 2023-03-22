@@ -1,4 +1,4 @@
-import 'package:cap_countdown/config/app_theme.dart';
+import 'package:cap_countdown/src/config/app_theme.dart';
 import 'package:cap_countdown/main.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

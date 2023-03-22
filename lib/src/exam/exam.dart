@@ -1,4 +1,4 @@
-import 'package:cap_countdown/exam/exam_subject.dart';
+import 'package:cap_countdown/src/exam/exam_subject.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'exam.g.dart';

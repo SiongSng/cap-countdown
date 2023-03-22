@@ -1,8 +1,8 @@
 // ignore_for_file: use_build_context_synchronously
 
-import 'package:cap_countdown/pages/countdown_page.dart';
-import 'package:cap_countdown/pages/exam_page.dart';
-import 'package:cap_countdown/pages/home_page.dart';
+import 'package:cap_countdown/src/pages/countdown_page.dart';
+import 'package:cap_countdown/src/pages/exam_page.dart';
+import 'package:cap_countdown/src/pages/home_page.dart';
 
 import 'package:flutter/material.dart';
 import 'package:line_icons/line_icons.dart';

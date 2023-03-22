@@ -1,9 +1,9 @@
-import 'package:cap_countdown/config/config_helper.dart';
-import 'package:cap_countdown/config/config_instance.dart';
-import 'package:cap_countdown/exam/exam_loader.dart';
-import 'package:cap_countdown/pages/main_page.dart';
-import 'package:cap_countdown/pages/settings_page.dart';
-import 'package:cap_countdown/widgets/theme_provider.dart';
+import 'package:cap_countdown/src/config/config_helper.dart';
+import 'package:cap_countdown/src/config/config_instance.dart';
+import 'package:cap_countdown/src/exam/exam_loader.dart';
+import 'package:cap_countdown/src/pages/main_page.dart';
+import 'package:cap_countdown/src/pages/settings_page.dart';
+import 'package:cap_countdown/src/widgets/theme_provider.dart';
 
 import 'package:flutter/material.dart';
 

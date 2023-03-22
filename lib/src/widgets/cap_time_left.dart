@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:cap_countdown/util/cap_util.dart';
+import 'package:cap_countdown/src/util/cap_util.dart';
 import 'package:flutter/material.dart';
 
 class CAPTimeLeft extends StatefulWidget {

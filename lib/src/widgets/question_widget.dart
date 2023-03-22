@@ -1,5 +1,5 @@
-import 'package:cap_countdown/exam/subject_question.dart';
-import 'package:cap_countdown/widgets/choice_button.dart';
+import 'package:cap_countdown/src/exam/subject_question.dart';
+import 'package:cap_countdown/src/widgets/choice_button.dart';
 import 'package:flutter/material.dart';
 import 'package:tex_text/tex_text.dart';
 import 'package:zoom_pinch_overlay/zoom_pinch_overlay.dart';

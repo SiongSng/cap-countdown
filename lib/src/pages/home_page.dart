@@ -1,6 +1,6 @@
-import 'package:cap_countdown/exam/exam_loader.dart';
-import 'package:cap_countdown/widgets/cap_time_left.dart';
-import 'package:cap_countdown/widgets/question_widget.dart';
+import 'package:cap_countdown/src/exam/exam_loader.dart';
+import 'package:cap_countdown/src/widgets/cap_time_left.dart';
+import 'package:cap_countdown/src/widgets/question_widget.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {

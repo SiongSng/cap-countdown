@@ -1,5 +1,5 @@
-import 'package:cap_countdown/config/app_theme.dart';
-import 'package:cap_countdown/config/config_helper.dart';
+import 'package:cap_countdown/src/config/app_theme.dart';
+import 'package:cap_countdown/src/config/config_helper.dart';
 
 class ConfigInstance {
   DateTime get capStartTime => DateTime.fromMillisecondsSinceEpoch(

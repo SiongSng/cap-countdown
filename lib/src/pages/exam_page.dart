@@ -1,4 +1,4 @@
-import 'package:cap_countdown/exam/exam_loader.dart';
+import 'package:cap_countdown/src/exam/exam_loader.dart';
 import 'package:flutter/material.dart';
 
 class ExamPage extends StatefulWidget {
