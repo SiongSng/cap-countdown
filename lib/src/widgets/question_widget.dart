@@ -71,7 +71,7 @@ class _QuestionWidgetState extends State<QuestionWidget> {
             },
             label: const Text('看詳解'),
             icon: Icon(showMore ? Icons.expand_less : Icons.expand_more)),
-        if (true) ...[
+        if (showMore) ...[
           const Divider(),
           Text('詳解', style: Theme.of(context).textTheme.titleLarge),
           const SizedBox(height: 8),
