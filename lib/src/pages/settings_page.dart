@@ -19,20 +19,26 @@ class _SettingsPageState extends State<SettingsPage> {
       ),
       body: ListView(
         children: [
-          ListTile(
-            title: const Text('主題色系'),
-            trailing: SegmentedButton(
-                segments: AppTheme.values
-                    .map((e) => ButtonSegment(
-                        value: e, label: Text(e.uiName), icon: e.icon))
-                    .toList(),
-                selected: {settings.appTheme},
-                onSelectionChanged: (value) {
-                  final theme = value.first;
-                  settings.appTheme = theme;
-                  ThemeProvider.of(context).setTheme(theme);
-                  setState(() {});
-                }),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Column(
+              children: [
+                Text('主題色系', style: Theme.of(context).textTheme.titleMedium),
+                const SizedBox(height: 12),
+                SegmentedButton(
+                    segments: AppTheme.values
+                        .map((e) => ButtonSegment(
+                            value: e, label: Text(e.uiName), icon: e.icon))
+                        .toList(),
+                    selected: {settings.appTheme},
+                    onSelectionChanged: (value) {
+                      final theme = value.first;
+                      settings.appTheme = theme;
+                      ThemeProvider.of(context).setTheme(theme);
+                      setState(() {});
+                    }),
+              ],
+            ),
           )
         ],
       ),
