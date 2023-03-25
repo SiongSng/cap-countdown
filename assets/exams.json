@@ -11,6 +11,8 @@
                             "type": "singleChoice",
                             "description": "這張圖最可能在傳達下列何種訊息？",
                             "image": "111_chinese_1.png",
+                            "passing_rate": 0.88,
+                            "discrimination": 0.44,
                             "choices": [
                                 {
                                     "answer": "A",
@@ -36,6 +38,8 @@
                             "index": 2,
                             "type": "singleChoice",
                             "description": "黃醫師的眼科診所開業，親友們登門慶賀。\n君翰帶來一方寫著「杏林之光」的匾額，聊表心意。\n思涵見狀馬上說：「如果寫『近悅遠來』更好。」\n偉同則說：「可是，我覺得『眾望所歸』更恰當。」\n最後嘉恩才說：「其實，『桃李芬芳』才是最合適的選擇。」\n\n根據這段對話，誰的做法或說法最恰當？",
+                            "passing_rate": 0.82,
+                            "discrimination": 0.46,
                             "choices": [
                                 {
                                     "answer": "A",
@@ -61,6 +65,8 @@
                             "index": 3,
                             "type": "singleChoice",
                             "description": "「臺灣原住民的布只有形制屬傳統或較現代的分別，像圓領的剪裁、鈕扣和棉布的使用等，都是受漢人的影響而來。泰雅族的貝珠鈴衣，是貝珠串底下加銅鈴裝飾，銅鈴也是和漢人交易而來。日治時代的原住民服裝，還出現以漢人棉布做底、日本布做袖口、原住民圖案做主要裝飾的混搭法。」\n這段文字的主旨最可能是下列何者？",
+                            "passing_rate": 0.87,
+                            "discrimination": 0.47,
                             "choices": [
                                 {
                                     "answer": "A",
@@ -92,6 +98,8 @@
                             "type": "singleChoice",
                             "description": "Look at the picture. The woman is putting ＿＿＿＿ on the cake.",
                             "image": "111_english_1.png",
+                            "passing_rate": 0.81,
+                            "discrimination": 0.58,
                             "choices": [
                                 {
                                     "answer": "A",
@@ -123,6 +131,8 @@
                             "type": "singleChoice",
                             "description": "圖（一）數線上的 A、B、C、D 四點所表示的數分別為 a、b、c、d，且 O 為原點。\n根據圖中各點的位置判斷，下列何者的值最小？",
                             "image": "111_math_1.png",
+                            "passing_rate": 0.87,
+                            "discrimination": 0.51,
                             "choices": [
                                 {
                                     "answer": "A",
@@ -148,6 +158,8 @@
                             "index": 2,
                             "type": "singleChoice",
                             "description": "計算多項式 $6x^2+4x$ 除以 $2x^2$ 後，得到的餘式為何？",
+                            "passing_rate": 0.82,
+                            "discrimination": 0.55,
                             "choices": [
                                 {
                                     "answer": "A",
@@ -173,6 +185,8 @@
                             "index": 3,
                             "type": "singleChoice",
                             "description": "下列何者為 156 的質因數？",
+                            "passing_rate": 0.80,
+                            "discrimination": 0.47,
                             "choices": [
                                 {
                                     "answer": "A",
@@ -204,6 +218,8 @@
                             "type": "singleChoice",
                             "description": "某宗教的全球年度大型集會活動在 2017 年約有 235 萬人參與。\n表(一)為該年參與者的來源國及其人數，此一宗教活動最可能為下列何者？",
                             "image": "111_history_1.png",
+                            "passing_rate": 0.83,
+                            "discrimination": 0.48,
                             "choices": [
                                 {
                                     "answer": "A",
@@ -234,6 +250,8 @@
                             "index": 1,
                             "type": "singleChoice",
                             "description": "氣象報導時常可見「百帕」一詞，下列有關百帕的敘述何者正確？",
+                            "passing_rate": 0.92,
+                            "discrimination": 0.35,
                             "choices": [
                                 {
                                     "answer": "A",

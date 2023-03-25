@@ -14,12 +14,12 @@ class QuestionWidget extends StatefulWidget {
 }
 
 class _QuestionWidgetState extends State<QuestionWidget> {
-  bool showExplanation = false;
+  bool showMore = false;
 
   @override
   void didUpdateWidget(covariant QuestionWidget oldWidget) {
     if (oldWidget.question != widget.question) {
-      showExplanation = false;
+      showMore = false;
     }
 
     super.didUpdateWidget(oldWidget);
@@ -66,23 +66,124 @@ class _QuestionWidgetState extends State<QuestionWidget> {
               }
 
               setState(() {
-                showExplanation = !showExplanation;
+                showMore = !showMore;
               });
             },
             label: const Text('看詳解'),
-            icon:
-                Icon(showExplanation ? Icons.expand_less : Icons.expand_more)),
-        if (showExplanation) ...[
+            icon: Icon(showMore ? Icons.expand_less : Icons.expand_more)),
+        if (true) ...[
           const Divider(),
           Text('詳解', style: Theme.of(context).textTheme.titleLarge),
           const SizedBox(height: 8),
           TexText(
               '本試題參考答案為：${widget.question.correctAnswer.name}\n\n${widget.question.explanation}',
               style: Theme.of(context).textTheme.bodyLarge),
-          const SizedBox(height: 8)
+          const SizedBox(height: 10),
+          _Indicator(
+              passingRate: widget.question.passingRate,
+              discrimination: widget.question.discrimination),
+          const SizedBox(height: 8),
         ]
       ],
     );
+  }
+}
+
+class _Indicator extends StatelessWidget {
+  final double passingRate;
+  final double discrimination;
+
+  const _Indicator({required this.passingRate, required this.discrimination});
+
+  @override
+  Widget build(BuildContext context) {
+    Color passRateColor = getColorFromPassingRate(passingRate);
+    Color discriminationColor = getColorFromDiscrimination(discrimination);
+    String discriminationLabel = getDiscriminationLabel(discrimination);
+
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(8),
+      child: Material(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+          child: IntrinsicHeight(
+            child: Row(
+              children: [
+                Expanded(
+                  child: Column(
+                    children: [
+                      Text(
+                        '通過率',
+                        style: Theme.of(context).textTheme.bodyLarge,
+                      ),
+                      const SizedBox(height: 6),
+                      Text(
+                        '${(passingRate * 100).toInt()}%',
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                          color: passRateColor,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                const VerticalDivider(),
+                Expanded(
+                  child: Column(
+                    children: [
+                      Text(
+                        '鑑別度',
+                        style: Theme.of(context).textTheme.bodyLarge,
+                      ),
+                      const SizedBox(height: 6),
+                      Text(
+                        discriminationLabel,
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                          color: discriminationColor,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+
+  String getDiscriminationLabel(double discrimination) {
+    if (discrimination < 0.2) {
+      return '低';
+    } else if (discrimination < 0.5) {
+      return '中';
+    } else {
+      return '高';
+    }
+  }
+
+  Color getColorFromDiscrimination(double discrimination) {
+    if (discrimination < 0.2) {
+      return Colors.red;
+    } else if (discrimination < 0.5) {
+      return Colors.orange;
+    } else {
+      return Colors.green;
+    }
+  }
+
+  Color getColorFromPassingRate(double passingRate) {
+    if (passingRate < 0.3) {
+      return Colors.red;
+    } else if (passingRate < 0.5) {
+      return Colors.orange;
+    } else {
+      return Colors.green;
+    }
   }
 }
 

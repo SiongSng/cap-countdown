@@ -23,18 +23,8 @@ class _CountdownPageState extends State<CountdownPage>
   bool get wantKeepAlive => true;
 }
 
-class _Hourglass extends StatefulWidget {
+class _Hourglass extends StatelessWidget {
   const _Hourglass();
-
-  @override
-  State<_Hourglass> createState() => _HourglassState();
-}
-
-class _HourglassState extends State<_Hourglass> {
-  @override
-  void initState() {
-    super.initState();
-  }
 
   @override
   Widget build(BuildContext context) {

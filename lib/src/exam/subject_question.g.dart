@@ -12,6 +12,8 @@ SubjectQuestion _$SubjectQuestionFromJson(Map<String, dynamic> json) =>
       type: $enumDecode(_$QuestionTypeEnumMap, json['type']),
       description: json['description'] as String?,
       image: json['image'] as String?,
+      passingRate: (json['passing_rate'] as num).toDouble(),
+      discrimination: (json['discrimination'] as num).toDouble(),
       choices: (json['choices'] as List<dynamic>)
           .map((e) => QuestionChoice.fromJson(e as Map<String, dynamic>))
           .toList(),
@@ -26,6 +28,8 @@ Map<String, dynamic> _$SubjectQuestionToJson(SubjectQuestion instance) =>
       'type': _$QuestionTypeEnumMap[instance.type]!,
       'description': instance.description,
       'image': instance.image,
+      'passing_rate': instance.passingRate,
+      'discrimination': instance.discrimination,
       'choices': instance.choices,
       'correct_answer': _$QuestionAnswerEnumMap[instance.correctAnswer]!,
       'explanation': instance.explanation,
