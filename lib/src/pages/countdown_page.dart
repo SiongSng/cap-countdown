@@ -1,6 +1,3 @@
-import 'dart:async';
-
-import 'package:cap_countdown/src/util/cap_util.dart';
 import 'package:cap_countdown/src/widgets/cap_time_left.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
@@ -37,12 +34,6 @@ class _HourglassState extends State<_Hourglass> {
   @override
   void initState() {
     super.initState();
-
-    // Update the hourglass duration every minute.
-    Timer.periodic(const Duration(minutes: 1), (timer) {
-      if (!mounted) return timer.cancel();
-      setState(() {});
-    });
   }
 
   @override
@@ -52,8 +43,7 @@ class _HourglassState extends State<_Hourglass> {
         padding: const EdgeInsets.all(8.0),
         child: SpinKitPouringHourGlassRefined(
             color: Theme.of(context).dividerColor,
-            duration:
-                Duration(seconds: CAPUtil.getDurationToCAP().inSeconds % 60),
+            duration: const Duration(minutes: 1),
             size: 200),
       ),
     );
