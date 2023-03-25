@@ -47932,12 +47932,11 @@ m.push(A.aDh(s,A.Q(a).p3.y))
 m.push(B.eH)
 m.push(new A.Fm(p.a.c,o))
 m.push(A.aJW(A.abk(p.d?B.aiH:B.aiI,o),B.aJ_,new A.av5(p,a),o,o))
-s=A.c9("\u8a73\u89e3",o,A.Q(a).p3.r,o)
+if(p.d){s=A.c9("\u8a73\u89e3",o,A.Q(a).p3.r,o)
 r=p.a.c
 r=A.aDh("\u672c\u8a66\u984c\u53c3\u8003\u7b54\u6848\u70ba\uff1a"+r.w.b+"\n\n"+r.x,A.Q(a).p3.y)
 q=p.a.c
-B.b.N(m,A.a([B.jD,s,B.eH,r,B.azz,new A.WS(q.e,q.f,o),B.eH],n))
-return A.f8(m,B.X,B.T,B.ag)}}
+B.b.N(m,A.a([B.jD,s,B.eH,r,B.azz,new A.WS(q.e,q.f,o),B.eH],n))}return A.f8(m,B.X,B.T,B.ag)}}
 A.av4.prototype={
 $1(a){var s=A.abp("assets/images/exam/"+A.j(this.a.a.c.d),B.a_P,null,null),r=A.Q(a).r
 if(r===B.bd||r===B.aN)return new A.F6(s,5,null)
