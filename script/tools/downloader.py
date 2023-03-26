@@ -1,7 +1,5 @@
 import requests
 
-from models.subject import CAPSubject
-
 
 class Downloader:
     @staticmethod
@@ -18,7 +16,3 @@ class Downloader:
 
         with open(file_path, "wb") as f:
             f.write(response.content)
-
-    @staticmethod
-    def download(subject: CAPSubject):
-        pass
