@@ -9,14 +9,6 @@ logger = logging.getLogger(__name__)
 
 
 def __download_file(url: str, file_path: str, retry: int = 0):
-    """
-    Download a file from a URL and save it to a local file path.
-
-    Args:
-        url (str): The URL of the file to download.
-        file_path (str): The local file path to save the downloaded file.
-        retry (int): The number of times to retry downloading the file if it fails.
-    """
     if retry > 3:
         print("Failed to download the file after 3 retries: " + url)
         return
@@ -44,5 +36,9 @@ def download_exam_paper(year: int, subject: CAPSubject):
     if year in special_years:
         url = url.replace(".pdf", "150DPI.pdf")
 
-    file_path = os.path.join("temp", f"{year}_{subject.value}.pdf")
+    file_path = os.path.join("temp", get_file_path(year, subject))
     __download_file(url, file_path)
+
+
+def get_file_path(year: int, subject: CAPSubject):
+    return os.path.join("temp", f"{year}_{subject.value}.pdf")
