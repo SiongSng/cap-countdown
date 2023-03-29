@@ -5,8 +5,9 @@ from concurrent.futures import ThreadPoolExecutor
 
 from config import *
 from models.subject import CAPSubject
+from models.subject_question import SubjectQuestion
 from tools.downloader import download_exam_paper, get_file_path
-from tools.parser import parse_exam_paper
+from tools.parser import parse_exam_paper, save_parse_result
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -33,10 +34,15 @@ def download_exam_papers():
 def parse_exam_papers():
     start_time = time.time()
 
-    parse_exam_paper(get_file_path(111, CAPSubject.CHINESE))
-    # for year in range(CAP_START_YEAR, CAP_END_YEAR + 1):
-    #     for subject in CAPSubject:
-    #         parse_exam_paper(get_file_path(year, subject))
+    all_questions: list[SubjectQuestion] = []
+
+    for year in range(CAP_START_YEAR, CAP_END_YEAR + 1):
+        for subject in CAPSubject:
+            questions = parse_exam_paper(get_file_path(year, subject))
+            all_questions.extend(questions)
+        logger.info(f"Parsed CAP exam papers for year {year}.")
+
+    save_parse_result(all_questions)
 
     elapsed_time = time.time() - start_time
     logger.info(f"Finished parsing CAP exam papers in about {elapsed_time:.2f} seconds.")

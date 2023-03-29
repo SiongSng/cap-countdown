@@ -13,10 +13,32 @@ class QuestionChoice:
         self.description = description
         self.answer = answer
 
+    def to_dict(self):
+        return {
+            "description": self.description,
+            "answer": self.answer.value
+        }
+
+
+class QuestionType(Enum):
+    # 單選題
+    SINGLE_CHOICE = "singleChoice"
+    # 題組
+    Group_CHOICE = "groupChoice"
+
 
 class SubjectQuestion:
-    def __init__(self, number: int, description: str, choices: list[QuestionChoice], correct_answer: QuestionAnswer):
+    def __init__(self, number: int, question_type: QuestionType, description: str, choices: list[QuestionChoice]
+                 ):
         self.number = number
+        self.question_type = question_type
         self.description = description
         self.choices = choices
-        self.correct_answer = correct_answer
+
+    def to_dict(self):
+        return {
+            "number": self.number,
+            "type": self.question_type.value,
+            "description": self.description,
+            "choices": [choice.to_dict() for choice in self.choices]
+        }
