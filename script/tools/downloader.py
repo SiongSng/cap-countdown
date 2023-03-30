@@ -1,5 +1,6 @@
 import logging
 import os
+
 import requests
 
 from config import CAP_BASE_URL
@@ -36,8 +37,7 @@ def download_exam_paper(year: int, subject: CAPSubject):
     if year in special_years:
         url = url.replace(".pdf", "150DPI.pdf")
 
-    file_path = os.path.join("temp", get_file_path(year, subject))
-    __download_file(url, file_path)
+    __download_file(url, get_file_path(year, subject))
 
 
 def get_file_path(year: int, subject: CAPSubject):

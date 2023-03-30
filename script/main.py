@@ -20,10 +20,12 @@ def download_exam_papers():
     if not os.path.exists("temp"):
         os.makedirs("temp")
 
-    with ThreadPoolExecutor() as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         years = [year for year in range(CAP_START_YEAR, CAP_END_YEAR + 1)]
         subjects = CAPSubject.__members__.values()
-        executor.map(download_exam_paper, years, subjects)
+        for year in years:
+            for subject in subjects:
+                executor.submit(download_exam_paper, year, subject)
 
     elapsed_time = time.time() - start_time
     logger.info(
@@ -49,5 +51,5 @@ def parse_exam_papers():
 
 
 if __name__ == "__main__":
-    # download_exam_papers()
+    download_exam_papers()
     parse_exam_papers()
