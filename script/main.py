@@ -60,7 +60,7 @@ def parse_exam_papers():
 
 
 if __name__ == "__main__":
-    # Create a directory to store the downloaded files
+    # Create a directory to store the downloaded files.
     if not os.path.exists("temp"):
         os.makedirs("temp")
 

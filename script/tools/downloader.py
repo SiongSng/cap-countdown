@@ -10,6 +10,13 @@ logger = logging.getLogger(__name__)
 
 
 def __download_file(url: str, file_path: str, retry: int = 0):
+    """
+    Download a file from the given URL.
+    Args:
+        url: The URL of the file to download.
+        file_path: The path to save the downloaded file.
+        retry:  The number of retries to download the file. It will retry 3 times at most.
+    """
     if retry > 3:
         print("Failed to download the file after 3 retries: " + url)
         return
