@@ -37,8 +37,26 @@ def download_exam_paper(year: int, subject: CAPSubject):
     if year in special_years:
         url = url.replace(".pdf", "150DPI.pdf")
 
-    __download_file(url, get_file_path(year, subject))
+    __download_file(url, get_paper_file_path(year, subject))
 
 
-def get_file_path(year: int, subject: CAPSubject):
+def download_exam_answer(year: int):
+    """
+    Download the CAP exam answer for a given year.
+
+    Args:
+        year (int): The ROC year of the exam answer to download.
+    """
+    logger.info(f"Downloading the exam answer({year})...")
+
+    url = f"{CAP_BASE_URL}{year}/{year}P_Answer.pdf"
+
+    __download_file(url, get_answer_file_path(year))
+
+
+def get_paper_file_path(year: int, subject: CAPSubject):
     return os.path.join("temp", f"{year}_{subject.value}.pdf")
+
+
+def get_answer_file_path(year: int):
+    return os.path.join("temp", f"{year}_Answer.pdf")
