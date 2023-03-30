@@ -20,7 +20,7 @@ def parse_exam_paper(file_path: str) -> list[SubjectQuestion]:
 
         page_text += get_text(page, sort=True)
 
-    matches = re.finditer(r'(\d+)\..*?(?=\d+\.|試題結束)', page_text, flags=re.DOTALL)
+    matches = re.finditer(r'(\d+)\..*?(?=\d+\.|試題結束|請閱讀以下短文)', page_text, flags=re.DOTALL)
 
     filtered_questions: list[str] = []
 
@@ -56,7 +56,7 @@ def parse_exam_paper(file_path: str) -> list[SubjectQuestion]:
         for choice in q_choices:
             description = fix_text(re.sub(r'\([A-D]\)', '', choice))
             answer = re.search(r'\([A-D]\)', choice).group(0).replace('(', '').replace(')', '')
-            choices.append(QuestionChoice(description, QuestionAnswer(answer)))
+            choices.append(QuestionChoice(description if description != "" else None, QuestionAnswer(answer)))
 
         questions.append(SubjectQuestion(int(q_num), QuestionType.SINGLE_CHOICE, q_description, choices))
 

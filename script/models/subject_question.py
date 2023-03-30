@@ -14,10 +14,14 @@ class QuestionChoice:
         self.answer = answer
 
     def to_dict(self):
-        return {
-            "description": self.description,
+        result = {
             "answer": self.answer.value
         }
+
+        if self.description is not None:
+            result["description"] = self.description
+
+        return result
 
 
 class QuestionType(Enum):
