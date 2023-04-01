@@ -4,6 +4,7 @@ import os
 import requests
 
 from config import CAP_BASE_URL
+from models.file_type import ExamFileType
 from models.subject import CAPSubject
 
 logger = logging.getLogger(__name__)
@@ -37,7 +38,7 @@ def download_exam_paper(year: int, subject: CAPSubject):
         year (int): The ROC year of the exam paper to download.
         subject (CAPSubject): The subject of the exam paper to download.
     """
-    logger.info(f"Downloading the {subject.value.lower()} exam paper({year})...")
+    logger.info(f"Downloading the {subject.value.lower()} exam paper ({year})...")
     special_years = [105, 106, 108, 109]
 
     url = f"{CAP_BASE_URL}{year}/{year}P_{subject.value}.pdf"
@@ -49,21 +50,53 @@ def download_exam_paper(year: int, subject: CAPSubject):
 
 def download_exam_answer(year: int):
     """
-    Download the CAP exam answer for a given year.
+    Download the CAP exam answer file for a given year.
 
     Args:
-        year (int): The ROC year of the exam answer to download.
+        year (int): The ROC year of the file to download.
     """
-    logger.info(f"Downloading the exam answer({year})...")
+    logger.info(f"Downloading the exam answer file ({year})...")
 
     url = f"{CAP_BASE_URL}{year}/{year}P_Answer.pdf"
 
-    __download_file(url, get_answer_file_path(year))
+    __download_file(url, get_exam_file_path(year, ExamFileType.Answer))
+
+
+def download_exam_passing_rate(year: int):
+    """
+    Download the CAP exam passing rate file for a given year.
+
+    Args:
+        year (int): The ROC year of the file to download.
+    """
+    logger.info(f"Downloading the exam passing rate file ({year})...")
+
+    url = f"{CAP_BASE_URL}{year}/{year}各科通過率.pdf"
+    if year <= 106:
+        url = url.replace("各科通過率", "年國中教育會考各題通過率")
+
+    __download_file(url, get_exam_file_path(year, ExamFileType.Passing_Rate))
+
+
+def download_exam_discrimination_index(year: int):
+    """
+    Download the CAP exam discrimination index file for a given year.
+
+    Args:
+        year (int): The ROC year of the file to download.
+    """
+    logger.info(f"Downloading the exam discrimination index file ({year})...")
+
+    url = f"{CAP_BASE_URL}{year}/{year}各科鑑別度.pdf"
+    if year <= 106:
+        url = url.replace("各科鑑別度", "年國中教育會考各題鑑別度")
+
+    __download_file(url, get_exam_file_path(year, ExamFileType.DISCRIMINATION_INDEX))
 
 
 def get_paper_file_path(year: int, subject: CAPSubject):
     return os.path.join("temp", f"{year}_{subject.value}.pdf")
 
 
-def get_answer_file_path(year: int):
-    return os.path.join("temp", f"{year}_Answer.pdf")
+def get_exam_file_path(year: int, file_type: ExamFileType):
+    return os.path.join("temp", f"{year}_{file_type.value.title()}.pdf")

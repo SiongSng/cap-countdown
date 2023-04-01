@@ -1,13 +1,10 @@
-import logging
-import os
 import time
 from concurrent.futures import ThreadPoolExecutor
 
 from config import *
-from models.subject import CAPSubject
 from models.subject_question import SubjectQuestion
-from tools.downloader import download_exam_paper, get_paper_file_path, download_exam_answer, get_answer_file_path
-from tools.parser import parse_exam_paper, save_parse_result, parse_exam_answer
+from tools.downloader import *
+from tools.parser import parse_exam_paper, save_parse_result, parse_exam_answer, parse_exam_indicator
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -30,13 +27,14 @@ def download_exam_papers():
     )
 
 
-def download_exam_answers():
+def download_exam_answers_and_indicators():
     start_time = time.time()
 
     with ThreadPoolExecutor(max_workers=10) as executor:
-        years = [year for year in range(CAP_START_YEAR, CAP_END_YEAR + 1)]
         for year in years:
             executor.submit(download_exam_answer, year)
+            executor.submit(download_exam_passing_rate, year)
+            executor.submit(download_exam_discrimination_index, year)
 
     elapsed_time = time.time() - start_time
     logger.info(
@@ -51,8 +49,11 @@ def parse_exam_papers():
 
     for year in years:
         for subject in subjects:
-            answers = parse_exam_answer(get_answer_file_path(year))
-            questions = parse_exam_paper(get_paper_file_path(year, subject), subject, answers)
+            answers = parse_exam_answer(get_exam_file_path(year, ExamFileType.Answer))
+            passing_rate = parse_exam_indicator(get_exam_file_path(year, ExamFileType.Passing_Rate))
+            discrimination_index = parse_exam_indicator(get_exam_file_path(year, ExamFileType.DISCRIMINATION_INDEX))
+            questions = parse_exam_paper(get_paper_file_path(year, subject), subject, answers, passing_rate,
+                                         discrimination_index)
 
             all_questions.extend(questions)
         logger.info(f"Parsed CAP exam papers for year {year}.")
@@ -69,5 +70,5 @@ if __name__ == "__main__":
         os.makedirs("temp")
 
     download_exam_papers()
-    download_exam_answers()
+    download_exam_answers_and_indicators()
     parse_exam_papers()
