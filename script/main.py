@@ -65,6 +65,8 @@ def parse_exam_papers():
 
 
 if __name__ == "__main__":
+    start_time = time.time()
+
     # Create a directory to store the downloaded files.
     if not os.path.exists("temp"):
         os.makedirs("temp")
@@ -72,3 +74,6 @@ if __name__ == "__main__":
     download_exam_papers()
     download_exam_answers_and_indicators()
     parse_exam_papers()
+
+    elapsed_time = time.time() - start_time
+    logger.info(f"Finished all tasks in about {elapsed_time:.2f} seconds.")
