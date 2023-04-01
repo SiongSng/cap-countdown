@@ -32,17 +32,19 @@ class QuestionType(Enum):
 
 
 class SubjectQuestion:
-    def __init__(self, number: int, question_type: QuestionType, description: str, choices: list[QuestionChoice]
-                 ):
+    def __init__(self, number: int, question_type: QuestionType, description: str, choices: list[QuestionChoice],
+                 correct_answer: QuestionAnswer):
         self.number = number
         self.question_type = question_type
         self.description = description
         self.choices = choices
+        self.correct_answer = correct_answer
 
     def to_dict(self):
         return {
             "number": self.number,
             "type": self.question_type.value,
             "description": self.description,
-            "choices": [choice.to_dict() for choice in self.choices]
+            "choices": [choice.to_dict() for choice in self.choices],
+            "correct_answer": self.correct_answer.value
         }
