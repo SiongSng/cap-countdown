@@ -81,7 +81,7 @@ class _QuestionWidgetState extends State<QuestionWidget> {
           const SizedBox(height: 10),
           _Indicator(
               passingRate: widget.question.passingRate,
-              discrimination: widget.question.discrimination),
+              discriminationIndex: widget.question.discriminationIndex),
           const SizedBox(height: 8),
         ]
       ],
@@ -91,15 +91,15 @@ class _QuestionWidgetState extends State<QuestionWidget> {
 
 class _Indicator extends StatelessWidget {
   final double passingRate;
-  final double discrimination;
+  final double discriminationIndex;
 
-  const _Indicator({required this.passingRate, required this.discrimination});
+  const _Indicator({required this.passingRate, required this.discriminationIndex});
 
   @override
   Widget build(BuildContext context) {
     Color passRateColor = getColorFromPassingRate(passingRate);
-    Color discriminationColor = getColorFromDiscrimination(discrimination);
-    String discriminationLabel = getDiscriminationLabel(discrimination);
+    Color discriminationColor = getColorFromDiscrimination(discriminationIndex);
+    String discriminationLabel = getDiscriminationLabel(discriminationIndex);
 
     return ClipRRect(
       borderRadius: BorderRadius.circular(8),
