@@ -1,11 +1,11 @@
-import 'package:cap_countdown/src/exam/subject_question.dart';
+import 'package:cap_countdown/src/exam/optional_question.dart';
 import 'package:cap_countdown/src/widgets/choice_button.dart';
 import 'package:flutter/material.dart';
 import 'package:tex_text/tex_text.dart';
 import 'package:zoom_pinch_overlay/zoom_pinch_overlay.dart';
 
 class QuestionWidget extends StatefulWidget {
-  final SubjectQuestion question;
+  final OptionalQuestion question;
 
   const QuestionWidget({super.key, required this.question});
 
@@ -76,7 +76,7 @@ class _QuestionWidgetState extends State<QuestionWidget> {
           Text('詳解', style: Theme.of(context).textTheme.titleLarge),
           const SizedBox(height: 8),
           TexText(
-              '本試題參考答案為：${widget.question.correctAnswer.name}\n\n${widget.question.explanation}',
+              '本試題參考答案為：${widget.question.correctAnswer.name}\n\n${widget.question.explanation ?? '本題暫無詳解，將在未來更新中新增。\n倘若造成您的困擾，我們深感抱歉！'}',
               style: Theme.of(context).textTheme.bodyLarge),
           const SizedBox(height: 10),
           _Indicator(
@@ -93,7 +93,8 @@ class _Indicator extends StatelessWidget {
   final double passingRate;
   final double discriminationIndex;
 
-  const _Indicator({required this.passingRate, required this.discriminationIndex});
+  const _Indicator(
+      {required this.passingRate, required this.discriminationIndex});
 
   @override
   Widget build(BuildContext context) {
@@ -188,7 +189,7 @@ class _Indicator extends StatelessWidget {
 }
 
 class _ChoiceButtons extends StatefulWidget {
-  final SubjectQuestion question;
+  final OptionalQuestion question;
 
   const _ChoiceButtons({required this.question});
 

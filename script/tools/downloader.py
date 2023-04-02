@@ -4,8 +4,8 @@ import os
 import requests
 
 from config import CAP_BASE_URL
+from models.cap_subject import CAPSubject
 from models.file_type import ExamFileType
-from models.subject import CAPSubject
 
 logger = logging.getLogger(__name__)
 

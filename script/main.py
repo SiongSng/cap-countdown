@@ -2,7 +2,8 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 
 from config import *
-from models.subject_question import SubjectQuestion
+from models.exam import Exam
+from models.exam_subject import ExamSubject
 from tools.downloader import *
 from tools.parser import parse_exam_paper, save_parse_result, parse_exam_answer, parse_exam_indicator
 
@@ -46,9 +47,11 @@ def download_exam_answers_and_indicators():
 def parse_exam_papers():
     start_time = time.time()
 
-    all_questions: list[SubjectQuestion] = []
+    exams: list[Exam] = []
 
     for year in years:
+        exam_subjects: list[ExamSubject] = []
+
         for subject in subjects:
             answers = parse_exam_answer(get_exam_file_path(year, ExamFileType.Answer))
             passing_rate = parse_exam_indicator(get_exam_file_path(year, ExamFileType.Passing_Rate))
@@ -56,10 +59,13 @@ def parse_exam_papers():
             questions = parse_exam_paper(get_paper_file_path(year, subject), subject, answers, passing_rate,
                                          discrimination_index)
 
-            all_questions.extend(questions)
+            exam_subjects.append(ExamSubject(subject.get_chinese_name(), questions))
+
+        exam = Exam(f"{year} 年國中教育會考", exam_subjects)
+        exams.append(exam)
         logger.info(f"Parsed CAP exam papers for year {year}.")
 
-    save_parse_result(all_questions)
+    save_parse_result(exams)
 
     elapsed_time = time.time() - start_time
     logger.info(f"Finished parsing CAP exam papers in about {elapsed_time:.2f} seconds.")

@@ -9,12 +9,10 @@ class ExamLoader {
   static late final List<Exam> exams;
 
   static Future<void> load() async {
-    final jsonString = await rootBundle.loadString('assets/exams.json');
-    final Map json = jsonDecode(jsonString);
-    final List<Map<String, dynamic>> examsJson =
-        json['exams'].cast<Map<String, dynamic>>();
+    final jsonString = await rootBundle.loadString('assets/cap_exams.json');
+    final List json = jsonDecode(jsonString);
 
-    exams = examsJson.map((e) => Exam.fromJson(e)).toList().cast<Exam>();
+    exams = json.map((e) => Exam.fromJson(e)).toList().cast<Exam>();
   }
 
   static SubjectQuestion getRandomQuestion() {

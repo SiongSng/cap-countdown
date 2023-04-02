@@ -1,15 +1,15 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'subject_question.dart';
+part of 'single_choice_question.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator
 // **************************************************************************
 
-SubjectQuestion _$SubjectQuestionFromJson(Map<String, dynamic> json) =>
-    SubjectQuestion(
-      index: json['index'] as int,
-      type: $enumDecode(_$QuestionTypeEnumMap, json['type']),
+SingleChoiceQuestion _$SingleChoiceQuestionFromJson(
+        Map<String, dynamic> json) =>
+    SingleChoiceQuestion(
+      number: json['number'] as int,
       description: json['description'] as String?,
       image: json['image'] as String?,
       passingRate: (json['passing_rate'] as num).toDouble(),
@@ -19,13 +19,13 @@ SubjectQuestion _$SubjectQuestionFromJson(Map<String, dynamic> json) =>
           .toList(),
       correctAnswer:
           $enumDecode(_$QuestionAnswerEnumMap, json['correct_answer']),
-      explanation: json['explanation'] as String,
+      explanation: json['explanation'] as String?,
     );
 
-Map<String, dynamic> _$SubjectQuestionToJson(SubjectQuestion instance) =>
+Map<String, dynamic> _$SingleChoiceQuestionToJson(
+        SingleChoiceQuestion instance) =>
     <String, dynamic>{
-      'index': instance.index,
-      'type': _$QuestionTypeEnumMap[instance.type]!,
+      'number': instance.number,
       'description': instance.description,
       'image': instance.image,
       'passing_rate': instance.passingRate,
@@ -33,16 +33,17 @@ Map<String, dynamic> _$SubjectQuestionToJson(SubjectQuestion instance) =>
       'choices': instance.choices,
       'correct_answer': _$QuestionAnswerEnumMap[instance.correctAnswer]!,
       'explanation': instance.explanation,
+      'type': _$QuestionTypeEnumMap[instance.type]!,
     };
-
-const _$QuestionTypeEnumMap = {
-  QuestionType.singleChoice: 'singleChoice',
-  QuestionType.groupChoice: 'groupChoice',
-};
 
 const _$QuestionAnswerEnumMap = {
   QuestionAnswer.A: 'A',
   QuestionAnswer.B: 'B',
   QuestionAnswer.C: 'C',
   QuestionAnswer.D: 'D',
+};
+
+const _$QuestionTypeEnumMap = {
+  QuestionType.singleChoice: 'singleChoice',
+  QuestionType.groupChoice: 'groupChoice',
 };

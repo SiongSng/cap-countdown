@@ -6,8 +6,11 @@ import fitz
 from fitz import Document, Page
 from fitz.utils import get_text, search_for
 
-from models.subject import CAPSubject
-from models.subject_question import SubjectQuestion, QuestionType, QuestionChoice, QuestionAnswer
+from models.cap_subject import CAPSubject
+from models.exam import Exam
+from models.optional_question import QuestionChoice, QuestionAnswer
+from models.single_choice_question import SingleChoiceQuestion
+from models.subject_question import SubjectQuestion
 from tools.pdf import parse_document_table
 
 ANSWERS_TYPE = NewType("ANSWERS_TYPE", dict[CAPSubject, list[QuestionAnswer]])
@@ -78,12 +81,13 @@ def parse_exam_paper(file_path: str, subject: CAPSubject, answers: ANSWERS_TYPE,
         parsed_choices: list[QuestionChoice] = []
 
         for choice in choices:
-            description = fix_question_text(re.sub(r"\([A-D]\)", "", choice))
-            answer = re.search(r"\([A-D]\)", choice).group(0).replace("(", "").replace(")", "")
-            parsed_choices.append(QuestionChoice(description if description != "" else None, QuestionAnswer(answer)))
+            choice_description = fix_question_text(re.sub(r"\([A-D]\)", "", choice))
+            choice_answer = re.search(r"\([A-D]\)", choice).group(0).replace("(", "").replace(")", "")
+            parsed_choices.append(
+                QuestionChoice(choice_description if choice_description != "" else None, QuestionAnswer(choice_answer)))
 
-        question = SubjectQuestion(number, QuestionType.SINGLE_CHOICE, description, parsed_choices, correct_answer,
-                                   passing_rate, discrimination_index)
+        question = SingleChoiceQuestion(number, description, parsed_choices, correct_answer,
+                                        passing_rate, discrimination_index)
         result.append(question)
 
     return result
@@ -224,8 +228,8 @@ def parse_exam_indicator(file_path: str) -> EXAM_INDICATOR:
     return result
 
 
-def save_parse_result(questions: list[SubjectQuestion]):
-    json_str = json.dumps([q.to_dict() for q in questions], ensure_ascii=False)
+def save_parse_result(exams: list[Exam]):
+    json_str = json.dumps([exam.to_dict() for exam in exams], ensure_ascii=False)
     with open("temp/cap_exams.json", "w") as f:
         f.write(json_str)
 

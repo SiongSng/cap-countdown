@@ -59,8 +59,8 @@ dev_dependencies:
 
 dependency_overrides:
   # https://github.com/simpleclub-extended/flutter_math_fork/pull/64
-  flutter_math_fork: 
-    git: 
+  flutter_math_fork:
+    git:
       url: https://github.com/DouglasSerena/flutter_math_fork.git
       ref: 565f053bc0b1026d7fe6e423f5c492526df5e472
 
@@ -73,7 +73,7 @@ flutter:
 
   assets:
     - assets/config.json
-    - assets/exams.json
+    - assets/cap_exams.json
     - assets/images/exam/
     - assets/images/materials/
     - assets/images/logo.png

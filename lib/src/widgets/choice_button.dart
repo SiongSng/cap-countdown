@@ -14,7 +14,8 @@ class ChoiceButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return RadioListTile<QuestionChoice>(
       // Use TexText to render LaTeX (math formula) in text.
-      title: TexText('(${choice.answer.name}) ${choice.description}'),
+      title: TexText(
+          '(${choice.answer.name}) ${choice.description ?? choice.answer.name}'),
       value: choice,
       groupValue: selectedChoice,
       onChanged: (value) {
