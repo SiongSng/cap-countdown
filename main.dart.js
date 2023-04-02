@@ -8982,7 +8982,7 @@ ape:function ape(){},
 jD:function jD(a,b){this.a=a
 this.b=b},
 aWi(a){var s=J.az(a)
-return new A.jQ(A.hb(s.i(a,"index")),A.aB5(B.DS,s.i(a,"type")),A.cZ(s.i(a,"description")),A.cZ(s.i(a,"image")),A.ie(s.i(a,"passing_rate")),A.ie(s.i(a,"discrimination")),J.dF(t.j.a(s.i(a,"choices")),new A.apf(),t.Me).e0(0),A.aB5(B.kf,s.i(a,"correct_answer")),A.c1(s.i(a,"explanation")))},
+return new A.jQ(A.hb(s.i(a,"index")),A.aB5(B.DS,s.i(a,"type")),A.cZ(s.i(a,"description")),A.cZ(s.i(a,"image")),A.ie(s.i(a,"passing_rate")),A.ie(s.i(a,"discrimination_index")),J.dF(t.j.a(s.i(a,"choices")),new A.apf(),t.Me).e0(0),A.aB5(B.kf,s.i(a,"correct_answer")),A.c1(s.i(a,"explanation")))},
 jQ:function jQ(a,b,c,d,e,f,g,h,i){var _=this
 _.a=a
 _.b=b
@@ -47704,7 +47704,7 @@ b5(){var s,r=this,q=B.DS.i(0,r.b)
 q.toString
 s=B.kf.i(0,r.w)
 s.toString
-return A.aL(["index",r.a,"type",q,"description",r.c,"image",r.d,"passing_rate",r.e,"discrimination",r.f,"choices",r.r,"correct_answer",s,"explanation",r.x],t.N,t.z)}}
+return A.aL(["index",r.a,"type",q,"description",r.c,"image",r.d,"passing_rate",r.e,"discrimination_index",r.f,"choices",r.r,"correct_answer",s,"explanation",r.x],t.N,t.z)}}
 A.vs.prototype={
 D(){return"QuestionType."+this.b}}
 A.ok.prototype={
