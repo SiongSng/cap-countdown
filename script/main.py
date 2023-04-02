@@ -10,6 +10,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 years = [year for year in range(CAP_START_YEAR, CAP_END_YEAR + 1)]
+# TODO: Support English Listening.
 subjects = [s for s in CAPSubject if s != CAPSubject.ENGLISH_LISTENING]
 
 
@@ -64,7 +65,7 @@ def parse_exam_papers():
     logger.info(f"Finished parsing CAP exam papers in about {elapsed_time:.2f} seconds.")
 
 
-if __name__ == "__main__":
+def start():
     start_time = time.time()
 
     # Create a directory to store the downloaded files.
@@ -77,3 +78,7 @@ if __name__ == "__main__":
 
     elapsed_time = time.time() - start_time
     logger.info(f"Finished all tasks in about {elapsed_time:.2f} seconds.")
+
+
+if __name__ == "__main__":
+    start()

@@ -35,7 +35,7 @@ def download_exam_paper(year: int, subject: CAPSubject):
     Download the CAP exam paper for a given year and subject.
 
     Args:
-        year (int): The ROC year of the exam paper to download.
+        year (int): The R.O.C year of the exam paper to download.
         subject (CAPSubject): The subject of the exam paper to download.
     """
     logger.info(f"Downloading the {subject.value.lower()} exam paper ({year})...")
@@ -53,7 +53,7 @@ def download_exam_answer(year: int):
     Download the CAP exam answer file for a given year.
 
     Args:
-        year (int): The ROC year of the file to download.
+        year (int): The R.O.C year of the file to download.
     """
     logger.info(f"Downloading the exam answer file ({year})...")
 
@@ -67,7 +67,7 @@ def download_exam_passing_rate(year: int):
     Download the CAP exam passing rate file for a given year.
 
     Args:
-        year (int): The ROC year of the file to download.
+        year (int): The R.O.C year of the file to download.
     """
     logger.info(f"Downloading the exam passing rate file ({year})...")
 
@@ -83,7 +83,7 @@ def download_exam_discrimination_index(year: int):
     Download the CAP exam discrimination index file for a given year.
 
     Args:
-        year (int): The ROC year of the file to download.
+        year (int): The R.O.C year of the file to download.
     """
     logger.info(f"Downloading the exam discrimination index file ({year})...")
 
@@ -99,4 +99,11 @@ def get_paper_file_path(year: int, subject: CAPSubject):
 
 
 def get_exam_file_path(year: int, file_type: ExamFileType):
+    """
+    Get the path of the various exam files.
+
+    Args:
+        year (int): The R.O.C year of the file.
+        file_type (ExamFileType): The type of the file to get the path.
+    """
     return os.path.join("temp", f"{year}_{file_type.value.title()}.pdf")
