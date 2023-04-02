@@ -77,7 +77,7 @@ class _ExamPageState extends State<ExamPage>
           Text(
             description,
             style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                  color: Colors.white54,
+                  color: Theme.of(context).hintColor,
                 ),
           ),
         ],
