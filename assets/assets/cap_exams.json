@@ -1,0 +1,493 @@
+[
+  {
+    "name": "111 年國中教育會考",
+    "subjects": [
+      {
+        "name": "國文科",
+        "questions": [
+          {
+            "number": 1,
+            "type": "singleChoice",
+            "description": "這張圖最可能在傳達下列何種訊息？",
+            "image": "111_chinese_1.png",
+            "passing_rate": 0.88,
+            "discrimination_index": 0.44,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "透過大量傳播，知識就會變成真理"
+              },
+              {
+                "answer": "B",
+                "description": "與其獨自苦讀，不如多與他人交流"
+              },
+              {
+                "answer": "C",
+                "description": "反覆誦讀，有助於將資訊內化為大腦深層的記憶"
+              },
+              {
+                "answer": "D",
+                "description": "能統整所學並轉述給別人，才算是真正掌握知識"
+              }
+            ],
+            "correct_answer": "D",
+            "explanation": "(A) 圖中並未見知識大量傳播的訊息\n(B) 圖中並未顯示需與他人多交流\n(C) 圖中並未有反覆反覆誦讀的資訊\n(D) 重新組織知識為「統整」概念，用自己方式說出為「轉述」，故選 D"
+          },
+          {
+            "number": 2,
+            "type": "singleChoice",
+            "description": "黃醫師的眼科診所開業，親友們登門慶賀。\n君翰帶來一方寫著「杏林之光」的匾額，聊表心意。\n思涵見狀馬上說：「如果寫『近悅遠來』更好。」\n偉同則說：「可是，我覺得『眾望所歸』更恰當。」\n最後嘉恩才說：「其實，『桃李芬芳』才是最合適的選擇。」\n\n根據這段對話，誰的做法或說法最恰當？",
+            "passing_rate": 0.82,
+            "discrimination_index": 0.46,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "君翰"
+              },
+              {
+                "answer": "B",
+                "description": "思涵"
+              },
+              {
+                "answer": "C",
+                "description": "偉同"
+              },
+              {
+                "answer": "D",
+                "description": "嘉恩"
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "本文為黃醫師開業，需選出符合醫院開業的賀辭。\n\n(A) 杏林之光：用於祝賀人醫院開業的賀辭。\n(B) 近悅遠來：使近處的人心悅誠服，遠方的人願意前來歸附。用於祝賀人開業的賀詞。\n(C) 眾望所歸：深得眾人擁護、愛戴\n(D) 桃李芬芳：用於對教育界或教育人士的褒揚題辭。形容所培育的後學表現傑出，人才輩出。"
+          },
+          {
+            "number": 3,
+            "type": "singleChoice",
+            "description": "「臺灣原住民的布只有形制屬傳統或較現代的分別，像圓領的剪裁、鈕扣和棉布的使用等，都是受漢人的影響而來。泰雅族的貝珠鈴衣，是貝珠串底下加銅鈴裝飾，銅鈴也是和漢人交易而來。日治時代的原住民服裝，還出現以漢人棉布做底、日本布做袖口、原住民圖案做主要裝飾的混搭法。」\n這段文字的主旨最可能是下列何者？",
+            "passing_rate": 0.87,
+            "discrimination_index": 0.47,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "不同文化的碰撞，可融合並產生新的火花"
+              },
+              {
+                "answer": "B",
+                "description": "外來文化的入侵，讓在地的傳統文化日漸消失"
+              },
+              {
+                "answer": "C",
+                "description": "臺灣原住民的文化，影響了漢人與日本人的穿著"
+              },
+              {
+                "answer": "D",
+                "description": "觀察不同族群的服飾，就能了解不同文化的差異"
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "本文主要表達原住民傳統服飾經過漢人及日治時期的影響，而有不同的嶄新面貌，故答案選(A)。\n(B)本文文化影響並未有入侵之意。\n(C)漢人和日本人影響了原住民服飾。\n(D)本文並未介紹各種族群的服飾，故無法藉此了解各種文化。"
+          },
+          {
+            "type": "singleChoice",
+            "number": 4,
+            "description": "下表中的「獸」字依序最可能為何種字體？",
+            "image": "111_chinese_4.png",
+            "passing_rate": 0.85,
+            "discrimination_index": 0.43,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "金文 → 楷書 → 小篆 → 隸書"
+              },
+              {
+                "answer": "B",
+                "description": "金文 → 小篆 → 隸書 → 楷書"
+              },
+              {
+                "answer": "C",
+                "description": "小篆 → 隸書 → 金文 → 楷書"
+              },
+              {
+                "answer": "D",
+                "description": "小篆 → 金文 → 楷書 → 隸書1"
+              }
+            ],
+            "correct_answer": "B",
+            "explanation": "金文又稱為鐘鼎文；小篆的筆畫、結構簡易，形體方正、協調，筆勢勻圓、整齊；隸書橫劃中起筆有如蠶頭，收筆有如雁尾，字形較為扁方；楷書由隸書直接演化而來的正規字體，它把隸書的「蠶頭雁尾」變為平直，字由扁平改為方正。"
+          },
+          {
+            "type": "singleChoice",
+            "number": 5,
+            "description": "「過去賭客玩拉霸機時，需要把紙鈔塞進機器裡，所以會看見皮夾裡的鈔票越來越少，能提醒自己適時收手。但現在他們用卡片玩拉霸機，卡片僅會記錄他們的輸贏情況。賭客難以意識到自己正不斷輸錢，只能隱約記得花了多少錢。」這段文字的主旨與下列何者最接近？",
+            "passing_rate": 0.82,
+            "discrimination_index": 0.58,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "欲望會創造新的發明"
+              },
+              {
+                "answer": "B",
+                "description": "科技的進步使生活更便利"
+              },
+              {
+                "answer": "C",
+                "description": "長期沉溺於賭博之中容易讓人迷失自我"
+              },
+              {
+                "answer": "D",
+                "description": "不用現金支付使人對花錢的感受變得較遲鈍"
+              }
+            ],
+            "correct_answer": "D",
+            "explanation": "賭客玩拉霸機從直接使用現金支付，到改為以卡片記錄，容易讓人無意識到實際花費，故主旨為「不用現金支付使人對花錢的感受變得較遲鈍」。"
+          },
+          {
+            "type": "singleChoice",
+            "number": 6,
+            "description": "下列體育新聞的說明何者錯誤？",
+            "passing_rate": 0.81,
+            "discrimination_index": 0.56,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "東道主法國隊屈居第二：法國是主辦國"
+              },
+              {
+                "answer": "B",
+                "description": "我國九局下逆轉，一分氣走韓國：我國轉輸為贏"
+              },
+              {
+                "answer": "C",
+                "description": "波多黎各選手爆冷門奪金：各界看好波多黎各選手奪金"
+              },
+              {
+                "answer": "D",
+                "description": "我國女將輕取哥倫比亞，晉級八強：我國女將大勝哥倫比亞"
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "(A) 東道主指接待或請客的主人，故主辦國為東道主。\n(B) 從逆轉二字可見是轉輸為贏。\n(C) 冷門二字可見一開始並不被看好。\n(D) 輕取有請輕鬆贏得比賽之意，故可以大勝稱之。"
+          },
+          {
+            "type": "singleChoice",
+            "number": 7,
+            "description": "「敘述記憶是件難事。記憶是一個整體，敘述的時候必須選擇將它一片片的切下，即使是一塊肉、一棵菜$\\boxed 甲$切下來後就再也拼不完整了，就算拼湊起來了$\\boxed 乙$也只算是死的標本，生命已蕩然$\\boxed 丙$何況記憶大部分的時候更像一陣風，來無影去無蹤的，要想將風片切下來，豈不完全是一場徒勞嗎$\\boxed 丁$」\n這段文字中的甲、乙、丙、丁四處，何者最適合使用標點符號中的句號？",
+            "passing_rate": 0.77,
+            "discrimination_index": 0.46,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "甲"
+              },
+              {
+                "answer": "B",
+                "description": "乙"
+              },
+              {
+                "answer": "C",
+                "description": "丙"
+              },
+              {
+                "answer": "D",
+                "description": "丁"
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "(A)甲：逗號\n(B)乙：逗號\n(C)丙：句號。生命蕩然有全部毀損之意，此四字在表述前面敘述記憶就像將肉和菜切下後，無法再完整拼回，就算拼回僅像死去的標本，無生命力，故此以句號代表語意完整的句子。\n(D)丁：問號"
+          },
+          {
+            "type": "singleChoice",
+            "number": 8,
+            "description": "陸公嘗於市遇一佳硯，議價未定。既還邸，使門人往，以一金易歸。門人持硯歸，公訝其不類。門人堅證其是。公曰：「向觀硯有鴝鵒眼，今何無之？」答曰：「吾嫌其微凸，路遇石工，令磨而平之。」公大惋惜。\n下列關於故事中人物的敘述，何者最恰當？",
+            "passing_rate": 0.67,
+            "discrimination_index": 0.59,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "門人買錯硯臺卻不知道"
+              },
+              {
+                "answer": "B",
+                "description": "陸公惋惜是因石工技藝不佳"
+              },
+              {
+                "answer": "C",
+                "description": "門人請人磨平硯眼是自作聰明"
+              },
+              {
+                "answer": "D",
+                "description": "陸公對門人購硯的價格感到驚訝"
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "文為馮夢龍的〈硯眼〉，此篇為陸公與門人的對話。\n語譯：\n陸公曾經在市集上看到一塊極佳的硯臺，因硯臺價格尚未確定。已經返回宅邸後，命門人前往，以一金銀子將硯臺買回。門人拿回硯臺，陸公覺得驚訝，它與原先的硯臺並不相似。門人堅持說就是這個硯臺。陸公說：「先前的硯臺有一個『八哥眼』，現在為什麼沒有了？」門人回應說:「我嫌棄硯臺有一點凸，路上正好遇到工匠，將其打平了。」陸公大感惋惜。\n(C)從文意可見，門人以為硯臺有點凸，命工匠將其磨平，殊不知這是硯臺最有價值之處，故為自作聰明的行為。"
+          },
+          {
+            "type": "singleChoice",
+            "number": 9,
+            "description": "「美國有名男子在家中裝攝影機，24小時在網路上播放他的生活，因此成為名人，甚且登上雜誌封面。這透露著有些人不再介意被窺視，甚至樂於被窺視。人有時會覺得孤寂，希望被注意，讓人覺得自己很重要。那些被窺視的人，既然知道鏡頭在哪裡，是否會有表演的性質呢？」根據這段文字，下列何者最接近作者的觀點？",
+            "passing_rate": 0.83,
+            "discrimination_index": 0.52,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "大眾的隱私權常常不受到尊重"
+              },
+              {
+                "answer": "B",
+                "description": "網路直播者多少帶有表演性質"
+              },
+              {
+                "answer": "C",
+                "description": "滿足他人偷窺欲就可成為名人"
+              },
+              {
+                "answer": "D",
+                "description": "孤寂的人總是害怕他人的眼光"
+              }
+            ],
+            "correct_answer": "B",
+            "explanation": "從文中最後「既然知道鏡頭在哪裡，是否會有表演的性質呢?」具有反詰語氣，可見作者認為直播通常帶有表演性質。"
+          },
+          {
+            "type": "singleChoice",
+            "number": 10,
+            "description": "「名不可以倖取也。天下之事，固有外似而中實不然者。倖其似而竊其名，非不可以欺一時，然他日人即其似而求其真，則情現實吐，無不立敗。」下列何者最能與這段文字的意旨相呼應？",
+            "passing_rate": 0.71,
+            "discrimination_index": 0.54,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "因其貌不揚被小看，沒想到靠著精湛演技成為影帝"
+              },
+              {
+                "answer": "B",
+                "description": "不勞而獲的錢財，因為來得容易，往往被輕易揮霍"
+              },
+              {
+                "answer": "C",
+                "description": "以作弊手段考上名校，最後卻因適應不良而中輟學業"
+              },
+              {
+                "answer": "D",
+                "description": "當不切實際的夢想碰到冷酷的現實，也只能化為泡影"
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "語譯：選自呂祖謙《東萊博議》\n名聲不可以靠僥倖取得。世界上的事，有外表看起來像是一回事，但實際上卻不怎麼樣的。竊取來的名聲，雖然一時之間能騙過人。但如果有一天別人循著名聲而探究實情，使實際情況顯現，僥倖包裝的名聲就會立刻敗露。"
+          },
+          {
+            "type": "singleChoice",
+            "number": 11,
+            "description": "根據這則說明，下列做法何者最符合健康概念？",
+            "image": "111_chinese_11.png",
+            "passing_rate": 0.85,
+            "discrimination_index": 0.5,
+            "choices": [
+              {
+                "answer": "A"
+              },
+              {
+                "answer": "B"
+              },
+              {
+                "answer": "C"
+              },
+              {
+                "answer": "D"
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "(A) 正背，背包重量為體重 50KGS*10%=5KGS，背包內容物公斤數為 3.5 公斤未超過負荷，且最重物品 2 公斤放置於中間，最符合健康概念。\n(B) 側背，背包重量為體重 60KGS*5%=3KGS，背包內容物公斤數為 3.5 公斤超過負荷，雖最重物品 2 公斤放置於中間，但不符合健康概念。\n(C) 正背，背包重量為體重 70KGS*10%=7KGS，背包內容物公斤數為 8 公斤超過負荷，雖最重物品 4 公斤放置於中間，但不符合健康概念。\n(D) 側背，背包重量為體重 80KGS*5%=4KGS，背包內容物公斤數為 4 公斤未過負荷，最重物品 2 公斤並未放置於中間，不符合健康概念。"
+          }
+        ]
+      },
+      {
+        "name": "英語科閱讀",
+        "questions": [
+          {
+            "number": 1,
+            "type": "singleChoice",
+            "description": "Look at the picture. The woman is putting ＿＿＿＿ on the cake.",
+            "image": "111_english_1.png",
+            "passing_rate": 0.81,
+            "discrimination_index": 0.58,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "candles"
+              },
+              {
+                "answer": "B",
+                "description": "forks"
+              },
+              {
+                "answer": "C",
+                "description": "plates"
+              },
+              {
+                "answer": "D",
+                "description": "strawberries"
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "根據圖片，女子正在將蠟燭放在蛋糕上，故選 A。"
+          }
+        ]
+      },
+      {
+        "name": "數學科",
+        "questions": [
+          {
+            "number": 1,
+            "type": "singleChoice",
+            "description": "圖（一）數線上的 A、B、C、D 四點所表示的數分別為 a、b、c、d，且 O 為原點。\n根據圖中各點的位置判斷，下列何者的值最小？",
+            "image": "111_math_1.png",
+            "passing_rate": 0.87,
+            "discrimination_index": 0.51,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "$|a|$"
+              },
+              {
+                "answer": "B",
+                "description": "$|b|$"
+              },
+              {
+                "answer": "C",
+                "description": "$|c|$"
+              },
+              {
+                "answer": "D",
+                "description": "$|d|$"
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "$\\because$ A、B、C、D 四點到 O 點的距離中最小\n$\\therefore |a|$的值最小。"
+          },
+          {
+            "number": 2,
+            "type": "singleChoice",
+            "description": "計算多項式 $6x^2+4x$ 除以 $2x^2$ 後，得到的餘式為何？",
+            "passing_rate": 0.82,
+            "discrimination_index": 0.55,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "$2$"
+              },
+              {
+                "answer": "B",
+                "description": "$4$"
+              },
+              {
+                "answer": "C",
+                "description": "$2x$"
+              },
+              {
+                "answer": "D",
+                "description": "$4x$"
+              }
+            ],
+            "correct_answer": "D",
+            "explanation": "$\\begin{aligned}\\\\&3\\\\2x^2\\ )&\\overline{6x^2+4x}\\\\&6x^2\\\\&\\overline{\\quad \\quad \\ \\ \\ 4x}\\end{aligned}$\n$\\therefore$ 餘式為 $4x$"
+          },
+          {
+            "number": 3,
+            "type": "singleChoice",
+            "description": "下列何者為 156 的質因數？",
+            "passing_rate": 0.80,
+            "discrimination_index": 0.47,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "11"
+              },
+              {
+                "answer": "B",
+                "description": "12"
+              },
+              {
+                "answer": "C",
+                "description": "13"
+              },
+              {
+                "answer": "D",
+                "description": "14"
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "$\\begin{aligned}\\\\&2\\underline{|\\ 156\\quad \\ \\ \\ }\\\\&\\quad2\\underline{|\\ 78\\quad\\ }\\\\&\\qquad 3\\underline{|\\ 39\\ }\\\\&\\qquad \\quad 13\\\\ \\end{aligned}$\n$\\therefore$ 156的質因數有 2、3、13"
+          }
+        ]
+      },
+      {
+        "name": "社會科",
+        "questions": [
+          {
+            "number": 1,
+            "type": "singleChoice",
+            "description": "某宗教的全球年度大型集會活動在 2017 年約有 235 萬人參與。\n表(一)為該年參與者的來源國及其人數，此一宗教活動最可能為下列何者？",
+            "image": "111_history_1.png",
+            "passing_rate": 0.83,
+            "discrimination_index": 0.48,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "佛教浴佛節"
+              },
+              {
+                "answer": "B",
+                "description": "印度教大壺節"
+              },
+              {
+                "answer": "C",
+                "description": "伊斯蘭教朝覲"
+              },
+              {
+                "answer": "D",
+                "description": "天主教聖誕彌撒"
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "從沙烏地阿拉伯、印尼、巴基斯坦、伊朗等，可知主要是伊斯蘭教國家。因此選 C"
+          }
+        ]
+      },
+      {
+        "name": "自然科",
+        "questions": [
+          {
+            "number": 1,
+            "type": "singleChoice",
+            "description": "氣象報導時常可見「百帕」一詞，下列有關百帕的敘述何者正確？",
+            "passing_rate": 0.92,
+            "discrimination_index": 0.35,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "百帕是氣壓的單位"
+              },
+              {
+                "answer": "B",
+                "description": "百帕是溫度的單位"
+              },
+              {
+                "answer": "C",
+                "description": "百帕是風速的單位"
+              },
+              {
+                "answer": "D",
+                "description": "百帕是下雨的機會"
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "氣壓的國際單位制是帕斯卡（或簡稱帕，符號是Pa），一般氣象學中人們使用百帕（hPa）作為氣壓單位。"
+          }
+        ]
+      }
+    ]
+  }
+]
