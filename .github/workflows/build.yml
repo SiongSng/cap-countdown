@@ -66,7 +66,7 @@ jobs:
       - name: Upload Web
         uses: actions/upload-artifact@v3
         with:
-          name: web
+          name: Web
           path: ./build/web
   windows:
     runs-on: windows-latest
@@ -84,7 +84,7 @@ jobs:
       - name: Upload Windows
         uses: actions/upload-artifact@v3
         with:
-          name: windows
+          name: Windows
           path: ./build/windows/runner/Release
   linux:
     runs-on: ubuntu-latest
@@ -106,7 +106,7 @@ jobs:
       - name: Upload Linux
         uses: actions/upload-artifact@v3
         with:
-          name: linux
+          name: Linux
           path: ./build/linux/x64/release/bundle
   macos:
     runs-on: macos-latest
@@ -124,5 +124,5 @@ jobs:
       - name: Upload macOS
         uses: actions/upload-artifact@v3
         with:
-          name: macos
+          name: macOS
           path: ./build/macos/Build/Products/Release

@@ -12,8 +12,8 @@ class SubjectQuestion {
   final String? image;
   @JsonKey(name: 'passing_rate')
   final double passingRate;
-  @JsonKey(name: 'discrimination')
-  final double discrimination;
+  @JsonKey(name: 'discrimination_index')
+  final double discriminationIndex;
   final List<QuestionChoice> choices;
   @JsonKey(name: 'correct_answer')
   final QuestionAnswer correctAnswer;
@@ -28,7 +28,7 @@ class SubjectQuestion {
     this.description,
     this.image,
     required this.passingRate,
-    required this.discrimination,
+    required this.discriminationIndex,
     required this.choices,
     required this.correctAnswer,
     required this.explanation,

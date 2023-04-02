@@ -13,7 +13,7 @@ SubjectQuestion _$SubjectQuestionFromJson(Map<String, dynamic> json) =>
       description: json['description'] as String?,
       image: json['image'] as String?,
       passingRate: (json['passing_rate'] as num).toDouble(),
-      discrimination: (json['discrimination'] as num).toDouble(),
+      discriminationIndex: (json['discrimination_index'] as num).toDouble(),
       choices: (json['choices'] as List<dynamic>)
           .map((e) => QuestionChoice.fromJson(e as Map<String, dynamic>))
           .toList(),
@@ -29,7 +29,7 @@ Map<String, dynamic> _$SubjectQuestionToJson(SubjectQuestion instance) =>
       'description': instance.description,
       'image': instance.image,
       'passing_rate': instance.passingRate,
-      'discrimination': instance.discrimination,
+      'discrimination_index': instance.discriminationIndex,
       'choices': instance.choices,
       'correct_answer': _$QuestionAnswerEnumMap[instance.correctAnswer]!,
       'explanation': instance.explanation,
