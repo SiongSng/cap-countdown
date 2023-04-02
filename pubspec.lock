@@ -329,6 +329,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.6.1"
+  latext:
+    dependency: "direct main"
+    description:
+      name: latext
+      sha256: b733547d37d92c3f4c4dc2a7d48bcc7deed0e3d2a36f9b93639fad9a34e628f8
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.3"
   line_icons:
     dependency: "direct main"
     description:
@@ -630,14 +638,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.4.18"
-  tex_text:
-    dependency: "direct main"
-    description:
-      name: tex_text
-      sha256: "504723c343d3663c9b3e4cf686559e93a6453e0ab384d4e52bdea4210989d559"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.0.7"
   timing:
     dependency: transitive
     description:

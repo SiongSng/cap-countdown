@@ -1,6 +1,6 @@
 import 'package:cap_countdown/src/exam/question_choice.dart';
 import 'package:flutter/material.dart';
-import 'package:tex_text/tex_text.dart';
+import 'package:latext/latext.dart';
 
 class ChoiceButton extends StatelessWidget {
   final QuestionChoice choice;
@@ -13,9 +13,10 @@ class ChoiceButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return RadioListTile<QuestionChoice>(
-      // Use TexText to render LaTeX (math formula) in text.
-      title: TexText(
-          '(${choice.answer.name}) ${choice.description ?? choice.answer.name}'),
+      // Use LaTexT to render LaTeX (math formula) in text.
+      title: LaTexT(
+          laTeXCode:
+              Text('(${choice.answer.name}) ${choice.description ?? ''}')),
       value: choice,
       groupValue: selectedChoice,
       onChanged: (value) {
