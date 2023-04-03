@@ -14,6 +14,10 @@ jobs:
           flutter-version: "3.9.0-0.2.pre"
           channel: "beta"
           cache: true
+      - name: Minify the json file of CAP exam data
+        run: |
+          cd ./assets
+          python3 minify_cpa_exam_data.py
       - name: Build Web
         run: |
           flutter pub get
