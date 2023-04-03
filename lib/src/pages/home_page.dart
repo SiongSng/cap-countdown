@@ -43,8 +43,7 @@ class _DailyQuestion extends StatefulWidget {
 class _DailyQuestionState extends State<_DailyQuestion> {
   @override
   Widget build(BuildContext context) {
-    final question = ExamLoader.exams.first.subjects.first.questions[25];
-    // final question = ExamLoader.getRandomQuestion();
+    final question = ExamLoader.getRandomQuestion();
 
     return Padding(
       padding: const EdgeInsets.all(8.0),
