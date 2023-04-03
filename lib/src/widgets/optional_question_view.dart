@@ -4,20 +4,20 @@ import 'package:cap_countdown/src/widgets/question_image.dart';
 import 'package:cap_countdown/src/widgets/question_text.dart';
 import 'package:flutter/material.dart';
 
-class QuestionWidget extends StatefulWidget {
+class OptionalQuestionView extends StatefulWidget {
   final OptionalQuestion question;
 
-  const QuestionWidget({super.key, required this.question});
+  const OptionalQuestionView({super.key, required this.question});
 
   @override
-  State<QuestionWidget> createState() => _QuestionWidgetState();
+  State<OptionalQuestionView> createState() => _OptionalQuestionViewState();
 }
 
-class _QuestionWidgetState extends State<QuestionWidget> {
+class _OptionalQuestionViewState extends State<OptionalQuestionView> {
   bool showMore = false;
 
   @override
-  void didUpdateWidget(covariant QuestionWidget oldWidget) {
+  void didUpdateWidget(covariant OptionalQuestionView oldWidget) {
     if (oldWidget.question != widget.question) {
       showMore = false;
     }
@@ -38,22 +38,15 @@ class _QuestionWidgetState extends State<QuestionWidget> {
         if (description != null) QuestionText(text: description),
         const SizedBox(height: 8),
         _ChoiceButtons(question: widget.question),
-        TextButton.icon(
-            onPressed: () {
-              if (widget.question.selectedChoice == null) {
-                ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
-                  content: Text('請先交卷再來看詳解喔！'),
-                  backgroundColor: Colors.orange,
-                ));
-                return;
-              }
-
-              setState(() {
-                showMore = !showMore;
-              });
-            },
-            label: const Text('看詳解'),
-            icon: Icon(showMore ? Icons.expand_less : Icons.expand_more)),
+        if (widget.question.submitted)
+          TextButton.icon(
+              onPressed: () {
+                setState(() {
+                  showMore = !showMore;
+                });
+              },
+              label: const Text('看詳解'),
+              icon: Icon(showMore ? Icons.expand_less : Icons.expand_more)),
         if (showMore) ...[
           const Divider(),
           Text('詳解', style: Theme.of(context).textTheme.titleLarge),
