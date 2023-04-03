@@ -6,8 +6,10 @@ import 'package:flutter/material.dart';
 
 class OptionalQuestionView extends StatefulWidget {
   final OptionalQuestion question;
+  final bool showQuestionNumber;
 
-  const OptionalQuestionView({super.key, required this.question});
+  const OptionalQuestionView(
+      {super.key, required this.question, required this.showQuestionNumber});
 
   @override
   State<OptionalQuestionView> createState() => _OptionalQuestionViewState();
@@ -27,7 +29,14 @@ class _OptionalQuestionViewState extends State<OptionalQuestionView> {
 
   @override
   Widget build(BuildContext context) {
-    final description = widget.question.description;
+    late final String? description;
+
+    if (widget.showQuestionNumber && widget.question.description != null) {
+      description = '${widget.question.number}. ${widget.question.description}';
+    } else {
+      description = widget.question.description;
+    }
+
     final imageName = widget.question.image;
 
     return Column(

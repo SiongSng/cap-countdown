@@ -1,13 +1,14 @@
+import 'package:flutter/material.dart';
+
 import 'src/config/config_helper.dart';
 import 'src/config/config_instance.dart';
 import 'src/exam/exam_loader.dart';
+import 'src/pages/exam/simulation_exam_form.dart';
 import 'src/pages/main_page.dart';
 import 'src/pages/settings_page.dart';
-import 'src/widgets/theme_provider.dart';
-import 'src/settings/settings_instance.dart';
 import 'src/settings/settings.dart';
-
-import 'package:flutter/material.dart';
+import 'src/settings/settings_instance.dart';
+import 'src/widgets/theme_provider.dart';
 
 final ConfigInstance config = ConfigInstance();
 final SettingsInstance settings = SettingsInstance();
@@ -39,6 +40,10 @@ class App extends StatelessWidget {
             case '/settings':
               return MaterialPageRoute(
                 builder: (context) => const SettingsPage(),
+              );
+            case '/exam/simulation':
+              return MaterialPageRoute(
+                builder: (context) => const SimulationExamForm(),
               );
             default:
               return MaterialPageRoute(

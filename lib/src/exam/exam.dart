@@ -5,10 +5,12 @@ part 'exam.g.dart';
 
 @JsonSerializable()
 class Exam {
+  final int year;
   final String name;
   final List<ExamSubject> subjects;
 
   Exam({
+    required this.year,
     required this.name,
     required this.subjects,
   });

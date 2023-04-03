@@ -1,7 +1,7 @@
 // ignore_for_file: use_build_context_synchronously
 
 import 'package:cap_countdown/src/pages/countdown_page.dart';
-import 'package:cap_countdown/src/pages/exam_page.dart';
+import 'package:cap_countdown/src/pages/exam/exam_page.dart';
 import 'package:cap_countdown/src/pages/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:line_icons/line_icons.dart';
@@ -57,7 +57,7 @@ class _MainPageState extends State<MainPage> {
                     showAboutDialog(
                         context: context,
                         applicationName: '會考沙漏',
-                        applicationVersion: '1.0.0+1',
+                        applicationVersion: '0.1.0',
                         children: [
                           const Text(
                               '這是個具有試題等豐富功能的會考沙漏計時器\n此外，手機版如果覺得看題目的圖片太小，可以直接用手去縮放，像是 Instagram 一樣。'),

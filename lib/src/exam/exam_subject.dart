@@ -10,11 +10,15 @@ part 'exam_subject.g.dart';
 class ExamSubject {
   final String name;
 
+  // Each exam has a different test time, and you can't continue to answer when the time is up.
+  final Duration duration;
+
   @JsonKey(toJson: _questionsToJson)
   final List<SubjectQuestion> questions;
 
   ExamSubject({
     required this.name,
+    required this.duration,
     required this.questions,
   });
 
@@ -35,6 +39,7 @@ class ExamSubject {
 
     return ExamSubject(
       name: json['name'] as String,
+      duration: Duration(minutes: json['duration'] as int),
       questions: subjectQuestions.cast<SubjectQuestion>(),
     );
   }

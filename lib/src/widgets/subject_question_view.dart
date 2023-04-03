@@ -10,10 +10,14 @@ import 'question_text.dart';
 
 class SubjectQuestionView extends StatefulWidget {
   final SubjectQuestion question;
-  final VoidCallback onRefresh;
+  final VoidCallback? onRefresh;
+  final bool showQuestionNumber;
 
   const SubjectQuestionView(
-      {Key? key, required this.question, required this.onRefresh})
+      {Key? key,
+      required this.question,
+      this.onRefresh,
+      this.showQuestionNumber = true})
       : super(key: key);
 
   @override
@@ -53,7 +57,9 @@ class _SubjectQuestionViewState extends State<SubjectQuestionView> {
             children: [
               Text('${entry.key + 1}.',
                   style: Theme.of(context).textTheme.titleLarge),
-              OptionalQuestionView(question: entry.value),
+              OptionalQuestionView(
+                  question: entry.value,
+                  showQuestionNumber: widget.showQuestionNumber),
             ],
           ),
         const SizedBox(height: 8),
@@ -66,7 +72,8 @@ class _SubjectQuestionViewState extends State<SubjectQuestionView> {
       BuildContext context, SingleChoiceQuestion question) {
     return Column(
       children: [
-        OptionalQuestionView(question: question),
+        OptionalQuestionView(
+            question: question, showQuestionNumber: widget.showQuestionNumber),
         const SizedBox(height: 8),
         _submitAnswer([question], context)
       ],
@@ -74,6 +81,8 @@ class _SubjectQuestionViewState extends State<SubjectQuestionView> {
   }
 
   Widget _submitAnswer(List<OptionalQuestion> questions, BuildContext context) {
+    if (widget.onRefresh == null) return const SizedBox.shrink();
+
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
@@ -129,7 +138,7 @@ class _SubjectQuestionViewState extends State<SubjectQuestionView> {
                 }
               });
 
-              widget.onRefresh();
+              widget.onRefresh?.call();
             },
             icon: const Icon(Icons.refresh),
             label: const Text('再來一題')),

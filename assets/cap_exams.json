@@ -1,9 +1,11 @@
 [
   {
+    "year": 111,
     "name": "111 年國中教育會考",
     "subjects": [
       {
         "name": "國文科",
+        "duration": 70,
         "questions": [
           {
             "number": 1,
@@ -1177,7 +1179,8 @@
         ]
       },
       {
-        "name": "英語科閱讀",
+        "name": "英語科（閱讀）",
+        "duration": 60,
         "questions": [
           {
             "number": 1,
@@ -1211,6 +1214,7 @@
       },
       {
         "name": "數學科",
+        "duration": 80,
         "questions": [
           {
             "number": 1,
@@ -1298,6 +1302,7 @@
       },
       {
         "name": "社會科",
+        "duration": 70,
         "questions": [
           {
             "number": 1,
@@ -1331,6 +1336,7 @@
       },
       {
         "name": "自然科",
+        "duration": 70,
         "questions": [
           {
             "number": 1,

@@ -52,11 +52,10 @@ class _ExamPageState extends State<ExamPage>
     ]);
   }
 
-  Widget _buildCard({
-    required String title,
-    required String description,
-    required String image,
-  }) {
+  Widget _buildCard(
+      {required String title,
+      required String description,
+      required String image}) {
     return Padding(
       padding: const EdgeInsets.all(16),
       child: Column(
@@ -85,8 +84,11 @@ class _ExamPageState extends State<ExamPage>
     );
   }
 
+  // TODO: implement
   void _handleOptionChange(ExamType option) {
-    // TODO: implement
+    if (option == ExamType.simulation) {
+      Navigator.of(context).pushNamed('/exam/simulation');
+    } else if (option == ExamType.random) {}
   }
 
   @override

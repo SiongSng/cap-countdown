@@ -61,7 +61,7 @@ def parse_exam_papers():
 
             exam_subjects.append(ExamSubject(subject.get_chinese_name(), questions))
 
-        exam = Exam(f"{year} 年國中教育會考", exam_subjects)
+        exam = Exam(year, f"{year} 年國中教育會考", exam_subjects)
         exams.append(exam)
         logger.info(f"Parsed CAP exam papers for year {year}.")
 
