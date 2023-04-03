@@ -46,6 +46,7 @@ class _SubjectQuestionViewState extends State<SubjectQuestionView> {
           QuestionImage(imageFileName: imageFileName),
           const SizedBox(height: 8)
         ],
+        if (description != null || imageFileName != null) const Divider(),
         for (final entry in question.options.asMap().entries)
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
