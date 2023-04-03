@@ -20,6 +20,8 @@ class OptionalQuestion {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   QuestionChoice? selectedChoice;
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  QuestionChoice? submittedChoice;
 
   OptionalQuestion({
     required this.number,
@@ -31,6 +33,8 @@ class OptionalQuestion {
     required this.correctAnswer,
     this.explanation,
   });
+
+  bool get isCorrect => correctAnswer == selectedChoice?.answer;
 
   factory OptionalQuestion.fromJson(Map<String, dynamic> json) =>
       _$OptionalQuestionFromJson(json);

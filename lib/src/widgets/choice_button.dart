@@ -1,30 +1,59 @@
+import 'package:cap_countdown/src/exam/optional_question.dart';
 import 'package:cap_countdown/src/exam/question_choice.dart';
 import 'package:flutter/material.dart';
-import 'package:tex_text/tex_text.dart';
+import 'package:latext/latext.dart';
 
 class ChoiceButton extends StatelessWidget {
   final QuestionChoice choice;
-  final QuestionChoice? selectedChoice;
+  final OptionalQuestion question;
   final ValueChanged<QuestionChoice?>? onChanged;
 
   const ChoiceButton(
-      {super.key, required this.choice, this.selectedChoice, this.onChanged});
+      {super.key,
+      required this.choice,
+      required this.question,
+      this.onChanged});
 
   @override
   Widget build(BuildContext context) {
     return RadioListTile<QuestionChoice>(
-      // Use TexText to render LaTeX (math formula) in text.
-      title: TexText(
-          '(${choice.answer.name}) ${choice.description ?? choice.answer.name}'),
+      // Use LaTexT to render LaTeX (math formula) in text.
+      title: LaTexT(
+          laTeXCode:
+              Text('(${choice.answer.name}) ${choice.description ?? ''}')),
       value: choice,
-      groupValue: selectedChoice,
+      groupValue: question.selectedChoice,
+      fillColor: _getFillColor(),
       onChanged: (value) {
-        if (value == selectedChoice) {
+        // If the question has been submitted, can't change the answer.
+        if (question.submittedChoice != null) {
+          return;
+        }
+
+        if (value == question.selectedChoice) {
           onChanged?.call(null);
         } else {
           onChanged?.call(value);
         }
       },
     );
+  }
+
+  MaterialStateProperty<Color>? _getFillColor() {
+    final submittedChoice = question.submittedChoice;
+    if (submittedChoice == null) {
+      return null;
+    }
+
+    if (question.correctAnswer == choice.answer) {
+      return MaterialStateProperty.all(Colors.green);
+    }
+
+    if (submittedChoice.answer == choice.answer &&
+        question.correctAnswer != choice.answer) {
+      return MaterialStateProperty.all(Colors.red);
+    }
+
+    return null;
   }
 }
