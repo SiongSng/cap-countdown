@@ -10,7 +10,7 @@ def minify_json(file_path: str) -> str:
 # Minify the `cap_exams.json` file to reduce its size.
 if __name__ == "__main__":
     minified_data = minify_json("cap_exams.json")
-    with open("cap_exams.json", "w") as f:
+    with open("cap_exams.json", "w", encoding="utf8") as f:
         f.write(minified_data)
 
     print("Successfully minified the `cap_exams.json` file.")
