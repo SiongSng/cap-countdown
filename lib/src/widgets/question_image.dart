@@ -11,9 +11,12 @@ class QuestionImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final image = Image.asset(
-      'assets/images/exam/$imageFileName',
-      fit: BoxFit.fitWidth,
+    final image = ClipRRect(
+      borderRadius: BorderRadius.circular(8.0),
+      child: Image.asset(
+        'assets/images/exam/$imageFileName',
+        fit: BoxFit.fitWidth,
+      ),
     );
     final platform = Theme.of(context).platform;
 

@@ -31,6 +31,7 @@ class _OptionalQuestionViewState extends State<OptionalQuestionView> {
     final imageName = widget.question.image;
 
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         if (imageName != null) QuestionImage(imageFileName: imageName),
         if (widget.question.image != null) const SizedBox(height: 8),
@@ -38,18 +39,23 @@ class _OptionalQuestionViewState extends State<OptionalQuestionView> {
         if (description != null) QuestionText(text: description),
         const SizedBox(height: 8),
         _ChoiceButtons(question: widget.question),
-        if (widget.question.submitted)
-          TextButton.icon(
-              onPressed: () {
-                setState(() {
-                  showMore = !showMore;
-                });
-              },
-              label: const Text('看詳解'),
-              icon: Icon(showMore ? Icons.expand_less : Icons.expand_more)),
+        if (widget.question.submittedChoice != null)
+          Align(
+            alignment: Alignment.center,
+            child: TextButton.icon(
+                onPressed: () {
+                  setState(() {
+                    showMore = !showMore;
+                  });
+                },
+                label: const Text('看詳解'),
+                icon: Icon(showMore ? Icons.expand_less : Icons.expand_more)),
+          ),
         if (showMore) ...[
           const Divider(),
-          Text('詳解', style: Theme.of(context).textTheme.titleLarge),
+          Align(
+              alignment: Alignment.center,
+              child: Text('詳解', style: Theme.of(context).textTheme.titleLarge)),
           const SizedBox(height: 8),
           QuestionText(
               text:
@@ -181,7 +187,7 @@ class _ChoiceButtonsState extends State<_ChoiceButtons> {
       children: widget.question.choices
           .map((e) => ChoiceButton(
                 choice: e,
-                selectedChoice: widget.question.selectedChoice,
+                question: widget.question,
                 onChanged: (value) {
                   setState(() {
                     widget.question.selectedChoice = value;
