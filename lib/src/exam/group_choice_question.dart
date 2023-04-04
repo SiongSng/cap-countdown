@@ -24,5 +24,20 @@ class GroupChoiceQuestion extends SubjectQuestion {
       _$GroupChoiceQuestionFromJson(json);
 
   @override
+  bool operator ==(Object other) {
+    if (identical(this, other)) return true;
+
+    return other is GroupChoiceQuestion &&
+        other.type == type &&
+        other.description == description &&
+        other.image == image &&
+        other.options == options;
+  }
+
+  @override
+  int get hashCode =>
+      type.hashCode ^ description.hashCode ^ image.hashCode ^ options.hashCode;
+
+  @override
   Map<String, dynamic> toJson() => _$GroupChoiceQuestionToJson(this);
 }

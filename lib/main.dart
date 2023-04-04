@@ -4,14 +4,15 @@ import 'src/config/config_helper.dart';
 import 'src/config/config_instance.dart';
 import 'src/exam/exam_loader.dart';
 import 'src/pages/exam/simulation_exam_form.dart';
+import 'src/pages/favorite_questions_page.dart';
 import 'src/pages/main_page.dart';
 import 'src/pages/settings_page.dart';
-import 'src/settings/settings.dart';
-import 'src/settings/settings_instance.dart';
+import 'src/storage/local_storage.dart';
+import 'src/storage/storage.dart';
 import 'src/widgets/theme_provider.dart';
 
 final ConfigInstance config = ConfigInstance();
-final SettingsInstance settings = SettingsInstance();
+final LocalStorage localStorage = LocalStorage();
 
 void main() {
   _run();
@@ -20,7 +21,7 @@ void main() {
 Future<void> _run() async {
   WidgetsFlutterBinding.ensureInitialized();
   await ConfigHelper.init();
-  await SettingsHelper.init();
+  await StorageHelper.init();
   await ExamLoader.load();
   runApp(const App());
 }
@@ -44,6 +45,10 @@ class App extends StatelessWidget {
             case '/exam/simulation':
               return MaterialPageRoute(
                 builder: (context) => const SimulationExamForm(),
+              );
+            case '/favorite_questions':
+              return MaterialPageRoute(
+                builder: (context) => const FavoriteQuestionsPage(),
               );
             default:
               return MaterialPageRoute(

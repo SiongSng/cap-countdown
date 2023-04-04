@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:cap_countdown/main.dart';
 import 'package:cap_countdown/src/exam/exam_subject.dart';
 import 'package:cap_countdown/src/widgets/optional_question_view.dart';
 import 'package:cap_countdown/src/widgets/subject_question_view.dart';
@@ -27,6 +28,8 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
   @override
   Widget build(BuildContext context) {
     final questions = widget.subject.questions;
+    final question = questions[_currentPage];
+    final isFavorite = localStorage.favoriteQuestions.contains(question);
 
     return WillPopScope(
       onWillPop: () async {
@@ -44,9 +47,18 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                   icon: const Icon(Icons.draw_outlined),
                   tooltip: '做筆記'),
               IconButton(
-                  onPressed: () {},
-                  icon: const Icon(Icons.favorite_outline),
-                  tooltip: '加入我的最愛')
+                  onPressed: () {
+                    if (isFavorite) {
+                      question.removeFromFavorite();
+                    } else {
+                      question.addToFavorite();
+                    }
+                    setState(() {});
+                  },
+                  icon: isFavorite
+                      ? const Icon(Icons.favorite)
+                      : const Icon(Icons.favorite_border),
+                  tooltip: isFavorite ? '取消收藏' : '加入收藏'),
             ],
             leading: BackButton(
               onPressed: () {

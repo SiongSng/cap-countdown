@@ -28,7 +28,7 @@ Map<String, dynamic> _$OptionalQuestionToJson(OptionalQuestion instance) =>
       'image': instance.image,
       'passing_rate': instance.passingRate,
       'discrimination_index': instance.discriminationIndex,
-      'choices': instance.choices,
+      'choices': OptionalQuestion.choicesToJson(instance.choices),
       'correct_answer': _$QuestionAnswerEnumMap[instance.correctAnswer]!,
       'explanation': instance.explanation,
     };

@@ -7,17 +7,18 @@ import 'single_choice_question.dart';
 
 part 'exam_subject.g.dart';
 
-@JsonSerializable(createFactory: false)
+@JsonSerializable()
 class ExamSubject {
   final String name;
 
   // Each exam has a different test time, and you can't continue to answer when the time is up.
+  @JsonKey(fromJson: _durationFromJson, toJson: _durationToJson)
   final Duration duration;
 
   @JsonKey(name: 'grade_markings')
   final Map<String, double> gradeMarkings;
 
-  @JsonKey(toJson: _questionsToJson)
+  @JsonKey(fromJson: _questionsFromJson)
   final List<SubjectQuestion> questions;
 
   ExamSubject({
@@ -27,35 +28,39 @@ class ExamSubject {
     required this.questions,
   });
 
-  static List<Map<String, dynamic>> _questionsToJson(
-      List<SubjectQuestion> questions) {
-    return questions.map((e) => e.toJson()).toList();
+  static List<SubjectQuestion> _questionsFromJson(json) {
+    final list = json as List;
+    return list.map((e) => SubjectQuestion.fromJson(e)).toList();
   }
 
-  factory ExamSubject.fromJson(Map<String, dynamic> json) {
-    final questions = json['questions'] as List<dynamic>;
-    final subjectQuestions = questions.map((question) {
-      final type = question['type'] as String;
-
-      switch (type) {
-        case 'singleChoice':
-          return SingleChoiceQuestion.fromJson(question);
-        case 'groupChoice':
-          return GroupChoiceQuestion.fromJson(question);
-        default:
-          throw Exception('Unknown question type: $type');
-      }
-    }).toList();
-
-    return ExamSubject(
-      name: json['name'] as String,
-      duration: Duration(minutes: json['duration'] as int),
-      gradeMarkings: (json['grade_markings'] as Map<String, dynamic>).map(
-          (key, value) =>
-              MapEntry(key, value is int ? value.toDouble() : value as double)),
-      questions: subjectQuestions.cast<SubjectQuestion>(),
-    );
+  static Duration _durationFromJson(json) {
+    return Duration(minutes: json as int);
   }
+
+  static int _durationToJson(Duration duration) {
+    return duration.inMinutes;
+  }
+
+  factory ExamSubject.fromJson(Map<String, dynamic> json) =>
+      _$ExamSubjectFromJson(json);
+
+  @override
+  bool operator ==(Object other) {
+    if (identical(this, other)) return true;
+
+    return other is ExamSubject &&
+        other.name == name &&
+        other.duration == duration &&
+        other.gradeMarkings == gradeMarkings &&
+        other.questions == questions;
+  }
+
+  @override
+  int get hashCode =>
+      name.hashCode ^
+      duration.hashCode ^
+      gradeMarkings.hashCode ^
+      questions.hashCode;
 
   Map<String, dynamic> toJson() => _$ExamSubjectToJson(this);
 

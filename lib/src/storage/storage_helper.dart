@@ -1,4 +1,4 @@
-abstract class SettingsHelper {
+abstract class StorageHelper {
   static Future<void> init() => throw UnimplementedError();
 
   static T get<T>(String key, [T? defaultValue]) => throw UnimplementedError();

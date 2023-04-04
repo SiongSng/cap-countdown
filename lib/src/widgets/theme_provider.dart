@@ -1,5 +1,5 @@
-import 'package:cap_countdown/src/settings/app_theme.dart';
 import 'package:cap_countdown/main.dart';
+import 'package:cap_countdown/src/storage/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -20,7 +20,7 @@ class _ThemeProviderState extends State<ThemeProvider> {
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider<ThemeChangeNotifier>(
-        create: (_) => ThemeChangeNotifier(settings.appTheme),
+        create: (_) => ThemeChangeNotifier(localStorage.appTheme),
         child:
             Consumer<ThemeChangeNotifier>(builder: (context, notifier, child) {
           final Brightness brightness;
@@ -66,6 +66,6 @@ class ThemeChangeNotifier extends ChangeNotifier implements ReassembleHandler {
   /// Handle hot reload
   @override
   void reassemble() {
-    setTheme(settings.appTheme);
+    setTheme(localStorage.appTheme);
   }
 }

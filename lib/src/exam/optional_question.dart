@@ -13,6 +13,7 @@ class OptionalQuestion {
   final double passingRate;
   @JsonKey(name: 'discrimination_index')
   final double discriminationIndex;
+  @JsonKey(toJson: choicesToJson)
   final List<QuestionChoice> choices;
   @JsonKey(name: 'correct_answer')
   final QuestionAnswer correctAnswer;
@@ -31,6 +32,10 @@ class OptionalQuestion {
     required this.correctAnswer,
     this.explanation,
   });
+
+  static List<Map<String, dynamic>> choicesToJson(
+          List<QuestionChoice> choices) =>
+      choices.map((e) => e.toJson()).toList();
 
   bool get isCorrect => correctAnswer == selectedChoice?.answer;
 

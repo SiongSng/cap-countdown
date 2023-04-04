@@ -17,5 +17,17 @@ class QuestionChoice {
   factory QuestionChoice.fromJson(Map<String, dynamic> json) =>
       _$QuestionChoiceFromJson(json);
 
+  @override
+  bool operator ==(Object other) {
+    if (identical(this, other)) return true;
+
+    return other is QuestionChoice &&
+        other.answer == answer &&
+        other.description == description;
+  }
+
+  @override
+  int get hashCode => answer.hashCode ^ description.hashCode;
+
   Map<String, dynamic> toJson() => _$QuestionChoiceToJson(this);
 }
