@@ -88,7 +88,21 @@ class _ExamPageState extends State<ExamPage>
   void _handleOptionChange(ExamType option) {
     if (option == ExamType.simulation) {
       Navigator.of(context).pushNamed('/exam/simulation');
-    } else if (option == ExamType.random) {}
+    } else if (option == ExamType.random) {
+      showDialog(
+          context: context,
+          builder: (context) => AlertDialog(
+                title: const Text('提示'),
+                content: const Text(
+                    '隨機抽題的功能正在製作中，敬請期待！\n建議您可以先使用「模擬歷屆會考」這功能來練習。\n倘若造成您的不便，敬請見諒。'),
+                actions: [
+                  TextButton(
+                    onPressed: () => Navigator.of(context).pop(),
+                    child: const Text('確定'),
+                  )
+                ],
+              ));
+    }
   }
 
   @override
