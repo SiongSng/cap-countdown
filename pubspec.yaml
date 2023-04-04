@@ -43,10 +43,10 @@ dependencies:
   path: ^1.8.3
   latext: ^0.0.3
   lottie: ^2.3.1
-  equatable: ^2.0.5
   flutter_colorpicker: ^1.0.3
   url_strategy: ^0.2.0
   flutter_markdown: ^0.6.14
+  audioplayers: ^3.0.1
 
 dev_dependencies:
   flutter_test:
@@ -82,6 +82,7 @@ flutter:
     - assets/images/materials/
     - assets/images/logo.png
     - assets/animations/
+    - assets/audios/exam/
 
   fonts:
     - family: NotoSansTC

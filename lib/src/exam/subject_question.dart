@@ -1,5 +1,6 @@
 import 'package:cap_countdown/main.dart';
 
+import 'example_question.dart';
 import 'group_choice_question.dart';
 import 'single_choice_question.dart';
 
@@ -38,6 +39,8 @@ abstract class SubjectQuestion {
         return SingleChoiceQuestion.fromJson(json);
       case 'groupChoice':
         return GroupChoiceQuestion.fromJson(json);
+      case 'example':
+        return ExampleQuestion.fromJson(json);
       default:
         throw Exception('Unknown question type: $type');
     }
@@ -49,5 +52,8 @@ enum QuestionType {
   singleChoice,
 
   /// 題組
-  groupChoice
+  groupChoice,
+
+  /// 示例題（英文聽力）
+  example
 }

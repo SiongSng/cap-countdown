@@ -11,11 +11,10 @@ OptionalQuestion _$OptionalQuestionFromJson(Map<String, dynamic> json) =>
       number: json['number'] as int,
       description: json['description'] as String?,
       image: json['image'] as String?,
+      audio: json['audio'] as String?,
       passingRate: (json['passing_rate'] as num).toDouble(),
       discriminationIndex: (json['discrimination_index'] as num).toDouble(),
-      choices: (json['choices'] as List<dynamic>)
-          .map((e) => QuestionChoice.fromJson(e as Map<String, dynamic>))
-          .toList(),
+      choices: QuestionChoice.choicesFromJson(json['choices'] as List),
       correctAnswer:
           $enumDecode(_$QuestionAnswerEnumMap, json['correct_answer']),
       explanation: json['explanation'] as String?,
@@ -26,9 +25,10 @@ Map<String, dynamic> _$OptionalQuestionToJson(OptionalQuestion instance) =>
       'number': instance.number,
       'description': instance.description,
       'image': instance.image,
+      'audio': instance.audio,
       'passing_rate': instance.passingRate,
       'discrimination_index': instance.discriminationIndex,
-      'choices': OptionalQuestion.choicesToJson(instance.choices),
+      'choices': QuestionChoice.choicesToJson(instance.choices),
       'correct_answer': _$QuestionAnswerEnumMap[instance.correctAnswer]!,
       'explanation': instance.explanation,
     };

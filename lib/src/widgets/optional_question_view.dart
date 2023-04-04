@@ -1,5 +1,6 @@
 import 'package:cap_countdown/src/exam/optional_question.dart';
 import 'package:cap_countdown/src/widgets/choice_button.dart';
+import 'package:cap_countdown/src/widgets/question_audio_player.dart';
 import 'package:cap_countdown/src/widgets/question_image.dart';
 import 'package:cap_countdown/src/widgets/question_text.dart';
 import 'package:flutter/material.dart';
@@ -41,14 +42,18 @@ class _OptionalQuestionViewState extends State<OptionalQuestionView> {
     }
 
     final imageName = widget.question.image;
+    final audioFileName = widget.question.audio;
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         if (imageName != null) QuestionImage(imageFileName: imageName),
-        if (widget.question.image != null) const SizedBox(height: 8),
+        if (imageName != null) const SizedBox(height: 8),
         // Use LaTexT to render LaTeX (math formula) in text.
         if (description != null) QuestionText(text: description),
+        if (description != null) const SizedBox(height: 8),
+        if (audioFileName != null)
+          QuestionAudioPlayer(audioFileName: audioFileName, autoPlay: true),
         const SizedBox(height: 8),
         _ChoiceButtons(
             question: widget.question, submitted: widget.option.submitted),

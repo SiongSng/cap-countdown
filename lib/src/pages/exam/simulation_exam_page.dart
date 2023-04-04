@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:cap_countdown/main.dart';
+import 'package:cap_countdown/src/exam/cap_subject.dart';
 import 'package:cap_countdown/src/exam/exam_subject.dart';
 import 'package:cap_countdown/src/exam/question_note.dart';
 import 'package:cap_countdown/src/exam/subject_question.dart';
@@ -482,7 +483,11 @@ class GradeMarkings extends StatelessWidget {
         .key;
     final Color color;
 
-    if (gradeMarking.contains('A') || gradeMarking.contains('精熟')) {
+    // https://cap.rcpet.edu.tw/score3.html
+    if (subject.subjectId == CAPSubject.englishListening &&
+        gradeMarking.contains('基礎')) {
+      color = Colors.green;
+    } else if (gradeMarking.contains('A') || gradeMarking.contains('精熟')) {
       color = Colors.green;
     } else if (gradeMarking.contains('B+') || gradeMarking.contains('基礎')) {
       color = Colors.blue;

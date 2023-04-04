@@ -14,6 +14,13 @@ class QuestionChoice {
     this.description,
   });
 
+  static List<QuestionChoice> choicesFromJson(List<dynamic> choices) =>
+      choices.map((e) => QuestionChoice.fromJson(e)).toList();
+
+  static List<Map<String, dynamic>> choicesToJson(
+          List<QuestionChoice> choices) =>
+      choices.map((e) => e.toJson()).toList();
+
   factory QuestionChoice.fromJson(Map<String, dynamic> json) =>
       _$QuestionChoiceFromJson(json);
 

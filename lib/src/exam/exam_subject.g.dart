@@ -12,6 +12,7 @@ ExamSubject _$ExamSubjectFromJson(Map<String, dynamic> json) => ExamSubject(
       gradeMarkings: (json['grade_markings'] as Map<String, dynamic>).map(
         (k, e) => MapEntry(k, (e as num).toDouble()),
       ),
+      subjectId: ExamSubject._subjectIdFromJson(json['subject_id']),
       questions: ExamSubject._questionsFromJson(json['questions']),
     );
 
@@ -20,5 +21,6 @@ Map<String, dynamic> _$ExamSubjectToJson(ExamSubject instance) =>
       'name': instance.name,
       'duration': ExamSubject._durationToJson(instance.duration),
       'grade_markings': instance.gradeMarkings,
+      'subject_id': ExamSubject._subjectIdToJson(instance.subjectId),
       'questions': instance.questions,
     };

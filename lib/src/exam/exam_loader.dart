@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:math';
 
 import 'package:cap_countdown/src/exam/exam.dart';
+import 'package:cap_countdown/src/exam/example_question.dart';
 import 'package:cap_countdown/src/exam/subject_question.dart';
 import 'package:flutter/services.dart';
 
@@ -16,8 +17,10 @@ class ExamLoader {
   }
 
   static SubjectQuestion getRandomQuestion() {
-    final allQuestions =
-        exams.expand((e) => e.subjects.expand((s) => s.questions)).toList();
+    final allQuestions = exams
+        .expand((e) => e.subjects
+            .expand((s) => s.questions.where((e) => e is! ExampleQuestion)))
+        .toList();
     final index = Random().nextInt(allQuestions.length);
 
     return allQuestions[index];

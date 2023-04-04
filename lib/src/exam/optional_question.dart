@@ -9,11 +9,14 @@ class OptionalQuestion {
   final int number;
   final String? description;
   final String? image;
+  final String? audio;
   @JsonKey(name: 'passing_rate')
   final double passingRate;
   @JsonKey(name: 'discrimination_index')
   final double discriminationIndex;
-  @JsonKey(toJson: choicesToJson)
+  @JsonKey(
+      fromJson: QuestionChoice.choicesFromJson,
+      toJson: QuestionChoice.choicesToJson)
   final List<QuestionChoice> choices;
   @JsonKey(name: 'correct_answer')
   final QuestionAnswer correctAnswer;
@@ -26,16 +29,13 @@ class OptionalQuestion {
     required this.number,
     this.description,
     this.image,
+    this.audio,
     required this.passingRate,
     required this.discriminationIndex,
     required this.choices,
     required this.correctAnswer,
     this.explanation,
   });
-
-  static List<Map<String, dynamic>> choicesToJson(
-          List<QuestionChoice> choices) =>
-      choices.map((e) => e.toJson()).toList();
 
   bool get isCorrect => correctAnswer == selectedChoice?.answer;
 

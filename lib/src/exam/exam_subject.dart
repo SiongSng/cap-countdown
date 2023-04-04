@@ -1,3 +1,4 @@
+import 'package:cap_countdown/src/exam/cap_subject.dart';
 import 'package:cap_countdown/src/exam/group_choice_question.dart';
 import 'package:cap_countdown/src/exam/optional_question.dart';
 import 'package:cap_countdown/src/exam/subject_question.dart';
@@ -18,6 +19,12 @@ class ExamSubject {
   @JsonKey(name: 'grade_markings')
   final Map<String, double> gradeMarkings;
 
+  @JsonKey(
+      name: 'subject_id',
+      fromJson: _subjectIdFromJson,
+      toJson: _subjectIdToJson)
+  final CAPSubject subjectId;
+
   @JsonKey(fromJson: _questionsFromJson)
   final List<SubjectQuestion> questions;
 
@@ -25,6 +32,7 @@ class ExamSubject {
     required this.name,
     required this.duration,
     required this.gradeMarkings,
+    required this.subjectId,
     required this.questions,
   });
 
@@ -39,6 +47,14 @@ class ExamSubject {
 
   static int _durationToJson(Duration duration) {
     return duration.inMinutes;
+  }
+
+  static CAPSubject _subjectIdFromJson(json) {
+    return CAPSubject.values.firstWhere((e) => e.id == json as String);
+  }
+
+  static String _subjectIdToJson(CAPSubject subjectId) {
+    return subjectId.id;
   }
 
   factory ExamSubject.fromJson(Map<String, dynamic> json) =>

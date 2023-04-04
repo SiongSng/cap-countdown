@@ -15,6 +15,7 @@
           "B": 18,
           "C": 0
         },
+        "subject_id": "Chinese",
         "questions": [
           {
             "number": 1,
@@ -1195,6 +1196,7 @@
           "基礎": 14,
           "待加強": 0
         },
+        "subject_id": "English",
         "questions": [
           {
             "number": 1,
@@ -1227,6 +1229,44 @@
         ]
       },
       {
+        "name": "英語科（聽力）",
+        "duration": 25,
+        "grade_markings": {
+          "基礎": 13,
+          "待加強": 0
+        },
+        "subject_id": "Listening",
+        "questions": [
+          {
+            "type": "example",
+            "description": "第一部分：辨識句意（第1-3題）\n作答說明：每題均有三張圖片，請依據所聽到的句子，選出符合描述的圖片，每題播放兩次。\n\n示例題：你會看到\n然後你會聽到......（播音）。依據所播放的內容，正確答案應該選A",
+            "image": "111_listening_example_1.png",
+            "audio": "111_listening_example_1.mp3"
+          },
+          {
+            "number": 1,
+            "type": "singleChoice",
+            "description": "第 1 題",
+            "image": "111_listening_1.png",
+            "audio": "111_listening_1.mp3",
+            "passing_rate": 0.94,
+            "discrimination_index": 0.39,
+            "choices": [
+              {
+                "answer": "A"
+              },
+              {
+                "answer": "B"
+              },
+              {
+                "answer": "C"
+              }
+            ],
+            "correct_answer": "B"
+          }
+        ]
+      },
+      {
         "name": "數學科",
         "duration": 80,
         "grade_markings": {
@@ -1238,6 +1278,7 @@
           "B": 39.70,
           "C": 0.00
         },
+        "subject_id": "Math",
         "questions": [
           {
             "number": 1,
@@ -1335,6 +1376,7 @@
           "B": 22,
           "C": 0
         },
+        "subject_id": "Society",
         "questions": [
           {
             "number": 1,
@@ -1378,6 +1420,7 @@
           "B": 19,
           "C": 0
         },
+        "subject_id": "Nature",
         "questions": [
           {
             "number": 1,

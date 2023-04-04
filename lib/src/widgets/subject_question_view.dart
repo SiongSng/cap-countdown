@@ -1,7 +1,9 @@
+import 'package:cap_countdown/src/exam/example_question.dart';
 import 'package:cap_countdown/src/exam/group_choice_question.dart';
 import 'package:cap_countdown/src/exam/optional_question.dart';
 import 'package:cap_countdown/src/exam/single_choice_question.dart';
 import 'package:cap_countdown/src/exam/subject_question.dart';
+import 'package:cap_countdown/src/widgets/question_audio_player.dart';
 import 'package:flutter/material.dart';
 
 import 'optional_question_view.dart';
@@ -30,15 +32,17 @@ class _SubjectQuestionViewState extends State<SubjectQuestionView> {
     final question = widget.question;
 
     if (question is SingleChoiceQuestion) {
-      return _buildSingleChoice(context, question);
+      return _buildSingleChoice(question);
     } else if (question is GroupChoiceQuestion) {
-      return _buildGroupChoice(context, question);
+      return _buildGroupChoice(question);
+    } else if (question is ExampleQuestion) {
+      return _buildExample(question);
     } else {
-      throw Exception("Unknown question type");
+      throw Exception('Unknown question type');
     }
   }
 
-  Widget _buildGroupChoice(BuildContext context, GroupChoiceQuestion question) {
+  Widget _buildGroupChoice(GroupChoiceQuestion question) {
     final description = question.description;
     final imageFileName = question.image;
 
@@ -71,8 +75,7 @@ class _SubjectQuestionViewState extends State<SubjectQuestionView> {
     );
   }
 
-  Widget _buildSingleChoice(
-      BuildContext context, SingleChoiceQuestion question) {
+  Widget _buildSingleChoice(SingleChoiceQuestion question) {
     return Column(
       children: [
         OptionalQuestionView(question: question, option: widget.option),
@@ -81,6 +84,24 @@ class _SubjectQuestionViewState extends State<SubjectQuestionView> {
           const SizedBox(height: 8),
           ...widget.actions!([question])
         ],
+      ],
+    );
+  }
+
+  Widget _buildExample(ExampleQuestion question) {
+    final imageName = question.image;
+    final description = question.description;
+    final audioFileName = question.audio;
+
+    return Column(
+      children: [
+        if (imageName != null) QuestionImage(imageFileName: imageName),
+        if (imageName != null) const SizedBox(height: 8),
+        // Use LaTexT to render LaTeX (math formula) in text.
+        if (description != null) QuestionText(text: description),
+        if (description != null) const SizedBox(height: 8),
+        if (audioFileName != null)
+          QuestionAudioPlayer(audioFileName: audioFileName, autoPlay: true),
       ],
     );
   }

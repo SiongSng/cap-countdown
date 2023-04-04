@@ -27,4 +27,5 @@ Map<String, dynamic> _$GroupChoiceQuestionToJson(
 const _$QuestionTypeEnumMap = {
   QuestionType.singleChoice: 'singleChoice',
   QuestionType.groupChoice: 'groupChoice',
+  QuestionType.example: 'example',
 };

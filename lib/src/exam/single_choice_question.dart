@@ -1,9 +1,9 @@
-import 'package:cap_countdown/src/exam/question_choice.dart';
 import 'package:cap_countdown/src/exam/subject_question.dart';
 import 'package:flutter/foundation.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 import 'optional_question.dart';
+import 'question_choice.dart';
 
 part 'single_choice_question.g.dart';
 
@@ -16,6 +16,7 @@ class SingleChoiceQuestion extends OptionalQuestion with SubjectQuestion {
   SingleChoiceQuestion(
       {required super.number,
       super.description,
+      super.audio,
       super.image,
       required super.passingRate,
       required super.discriminationIndex,
