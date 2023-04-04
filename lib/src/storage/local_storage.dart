@@ -1,5 +1,6 @@
 import 'dart:ui';
 
+import 'package:cap_countdown/src/exam/question_note.dart';
 import 'package:cap_countdown/src/exam/subject_question.dart';
 
 import 'app_theme.dart';
@@ -31,4 +32,17 @@ class LocalStorage {
 
   set accentColor(Color? value) =>
       StorageHelper.set<int?>('accent_color', value?.value);
+
+  /// A map of question hash codes to notes.
+  Map<int, QuestionNote> get questionNotes {
+    final map = StorageHelper.get<Map>('question_notes', {});
+
+    return map.map(
+        (key, value) => MapEntry(int.parse(key), QuestionNote.fromJson(value)));
+  }
+
+  set questionNotes(Map<int, QuestionNote> value) {
+    StorageHelper.set<Map<String, Map>>('question_notes',
+        value.map((key, value) => MapEntry(key.toString(), value.toJson())));
+  }
 }

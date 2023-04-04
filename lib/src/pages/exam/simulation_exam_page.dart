@@ -2,6 +2,8 @@ import 'dart:async';
 
 import 'package:cap_countdown/main.dart';
 import 'package:cap_countdown/src/exam/exam_subject.dart';
+import 'package:cap_countdown/src/exam/question_note.dart';
+import 'package:cap_countdown/src/exam/subject_question.dart';
 import 'package:cap_countdown/src/widgets/optional_question_view.dart';
 import 'package:cap_countdown/src/widgets/subject_question_view.dart';
 import 'package:flutter/material.dart';
@@ -43,8 +45,14 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
             title: Text(widget.examName, style: const TextStyle(fontSize: 18)),
             actions: [
               IconButton(
-                  onPressed: () {},
-                  icon: const Icon(Icons.draw_outlined),
+                  onPressed: () {
+                    _showNoteDialog(question);
+                  },
+                  icon:
+                      localStorage.questionNotes.containsKey(question.hashCode)
+                          ? Icon(Icons.draw_rounded,
+                              color: Theme.of(context).colorScheme.primary)
+                          : const Icon(Icons.draw_outlined),
                   tooltip: '做筆記'),
               IconButton(
                   onPressed: () {
@@ -56,7 +64,7 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                     setState(() {});
                   },
                   icon: isFavorite
-                      ? const Icon(Icons.favorite)
+                      ? const Icon(Icons.favorite, color: Colors.red)
                       : const Icon(Icons.favorite_border),
                   tooltip: isFavorite ? '取消收藏' : '加入收藏'),
             ],
@@ -276,6 +284,52 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                 }
               }),
             ));
+  }
+
+  void _showNoteDialog(SubjectQuestion question) {
+    final notes = localStorage.questionNotes;
+    final note = notes[question.hashCode];
+    final noteController = TextEditingController(text: note?.text ?? '');
+
+    showDialog(
+        context: context,
+        builder: (context) {
+          return AlertDialog(
+            title: const Text('筆記'),
+            content: TextField(
+              controller: noteController,
+              maxLines: null,
+              decoration: const InputDecoration(
+                  border: OutlineInputBorder(), hintText: '請輸入筆記'),
+            ),
+            actions: [
+              TextButton(
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+                child: const Text('取消'),
+              ),
+              TextButton(
+                onPressed: () {
+                  final text = noteController.text;
+                  if (text.isNotEmpty) {
+                    notes[question.hashCode] = QuestionNote(text: text);
+                    localStorage.questionNotes = notes;
+                  }
+
+                  if (text.isEmpty && note != null && note.text.isNotEmpty) {
+                    notes.remove(question.hashCode);
+                    localStorage.questionNotes = notes;
+                  }
+
+                  Navigator.of(context).pop();
+                  setState(() {});
+                },
+                child: const Text('確定'),
+              ),
+            ],
+          );
+        });
   }
 }
 
