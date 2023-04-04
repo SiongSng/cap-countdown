@@ -82,7 +82,7 @@ class _SettingsPageState extends State<SettingsPage> {
                               ThemeProvider.of(context).setAccentColor(null);
                               setState(() {});
                             },
-                            child: const Text('恢復預設值'),
+                            child: const Text('預設'),
                           ),
                           TextButton(
                             onPressed: () {

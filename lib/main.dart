@@ -1,4 +1,6 @@
+import 'package:cap_countdown/src/pages/about_page.dart';
 import 'package:flutter/material.dart';
+import 'package:url_strategy/url_strategy.dart';
 
 import 'src/config/config_helper.dart';
 import 'src/config/config_instance.dart';
@@ -19,6 +21,7 @@ void main() {
 }
 
 Future<void> _run() async {
+  setPathUrlStrategy();
   WidgetsFlutterBinding.ensureInitialized();
   await ConfigHelper.init();
   await StorageHelper.init();
@@ -49,6 +52,10 @@ class App extends StatelessWidget {
             case '/favorite_questions':
               return MaterialPageRoute(
                 builder: (context) => const FavoriteQuestionsPage(),
+              );
+            case '/about':
+              return MaterialPageRoute(
+                builder: (context) => const AboutPage(),
               );
             default:
               return MaterialPageRoute(
