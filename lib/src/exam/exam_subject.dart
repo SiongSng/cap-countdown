@@ -1,4 +1,5 @@
 import 'package:cap_countdown/src/exam/group_choice_question.dart';
+import 'package:cap_countdown/src/exam/optional_question.dart';
 import 'package:cap_countdown/src/exam/subject_question.dart';
 import 'package:json_annotation/json_annotation.dart';
 
@@ -22,6 +23,11 @@ class ExamSubject {
     required this.questions,
   });
 
+  static List<Map<String, dynamic>> _questionsToJson(
+      List<SubjectQuestion> questions) {
+    return questions.map((e) => e.toJson()).toList();
+  }
+
   factory ExamSubject.fromJson(Map<String, dynamic> json) {
     final questions = json['questions'] as List<dynamic>;
     final subjectQuestions = questions.map((question) {
@@ -44,10 +50,19 @@ class ExamSubject {
     );
   }
 
-  static List<Map<String, dynamic>> _questionsToJson(
-      List<SubjectQuestion> questions) {
-    return questions.map((e) => e.toJson()).toList();
-  }
-
   Map<String, dynamic> toJson() => _$ExamSubjectToJson(this);
+
+  List<OptionalQuestion> getAllOptionalQuestion() {
+    final singleChoiceQuestions =
+        questions.whereType<SingleChoiceQuestion>().toList();
+    final groupChoiceQuestions =
+        questions.whereType<GroupChoiceQuestion>().toList();
+
+    final optionalQuestions = <OptionalQuestion>[];
+
+    optionalQuestions.addAll(singleChoiceQuestions);
+    optionalQuestions.addAll(groupChoiceQuestions.expand((e) => e.options));
+
+    return optionalQuestions;
+  }
 }

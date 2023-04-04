@@ -1,8 +1,6 @@
 import 'dart:async';
 
 import 'package:cap_countdown/src/exam/exam_subject.dart';
-import 'package:cap_countdown/src/exam/group_choice_question.dart';
-import 'package:cap_countdown/src/exam/single_choice_question.dart';
 import 'package:cap_countdown/src/pages/exam/simulation_exam_page.dart';
 import 'package:flutter/material.dart';
 
@@ -34,12 +32,8 @@ class _PaperSimulationExamPageState extends State<PaperSimulationExamPage> {
 
   @override
   Widget build(BuildContext context) {
-    final singleChoiceQuestions =
-        widget.subject.questions.whereType<SingleChoiceQuestion>();
-    final groupChoiceQuestions =
-        widget.subject.questions.whereType<GroupChoiceQuestion>();
-    final optionalQuestionLength = singleChoiceQuestions.length +
-        groupChoiceQuestions.expand((e) => e.options).length;
+    final optionalQuestionLength =
+        widget.subject.getAllOptionalQuestion().length;
 
     final now = DateTime.now().toLocal();
     final end = now.add(widget.subject.duration);

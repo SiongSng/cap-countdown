@@ -30,106 +30,163 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
   Widget build(BuildContext context) {
     final questions = widget.subject.questions;
 
-    return Scaffold(
-        appBar: AppBar(
-          leading: BackButton(
-            onPressed: () {
-              showDialog(
-                  context: context,
-                  builder: (context) {
-                    return AlertDialog(
-                      title: const Text('確定要離開嗎？'),
-                      content: const Text('這將會清除本次的作答紀錄。'),
-                      actions: [
-                        TextButton(
-                          onPressed: () {
-                            Navigator.of(context).pop();
-                          },
-                          child: const Text('取消'),
+    return WillPopScope(
+      onWillPop: () async {
+        // Prevent using system navigation to leave this page.
+        await _showBackDialog(context);
+
+        return false;
+      },
+      child: Scaffold(
+          appBar: AppBar(
+            title: Text(widget.examName, style: const TextStyle(fontSize: 18)),
+            actions: [
+              IconButton(
+                  onPressed: () {},
+                  icon: const Icon(Icons.draw_outlined),
+                  tooltip: '做筆記'),
+              IconButton(
+                  onPressed: () {},
+                  icon: const Icon(Icons.favorite_outline),
+                  tooltip: '加入我的最愛')
+            ],
+            leading: BackButton(
+              onPressed: () {
+                _showBackDialog(context);
+              },
+            ),
+          ),
+          body: Column(
+            children: [
+              TestTimer(
+                duration: widget.subject.duration,
+                onTimerFinished: () {},
+              ),
+              Expanded(
+                child: PageView.builder(
+                  controller: _pageController,
+                  itemBuilder: (context, index) {
+                    final question = questions[index];
+
+                    return SingleChildScrollView(
+                        child: Padding(
+                      padding: const EdgeInsets.all(16.0),
+                      child: SubjectQuestionView(
+                          question: question, showQuestionNumber: true),
+                    ));
+                  },
+                  onPageChanged: (page) {
+                    setState(() {
+                      _currentPage = page;
+                    });
+                  },
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: Column(
+                  children: [
+                    FloatingActionButton.extended(
+                        onPressed: () {
+                          final optionalQuestions =
+                              widget.subject.getAllOptionalQuestion();
+
+                          if (optionalQuestions
+                              .any((q) => q.selectedChoice == null)) {
+                            showDialog(
+                                context: context,
+                                builder: (context) {
+                                  return AlertDialog(
+                                    title: const Text('確認交卷'),
+                                    content: const Text(
+                                        '尚有未作答的題目，您仍然要交卷嗎？\n建議您再檢查看看。'),
+                                    actions: [
+                                      TextButton(
+                                          onPressed: () {
+                                            Navigator.of(context).pop();
+                                          },
+                                          child: const Text('取消')),
+                                      TextButton(
+                                          onPressed: () {
+                                            Navigator.of(context).pop();
+                                          },
+                                          child: const Text('確定'))
+                                    ],
+                                  );
+                                });
+                          }
+                        },
+                        icon: const Icon(Icons.done_rounded),
+                        label: const Text('交卷')),
+                    Row(
+                      children: [
+                        Expanded(
+                          child: ElevatedButton(
+                            onPressed: () {
+                              _pageController.previousPage(
+                                  duration: const Duration(milliseconds: 300),
+                                  curve: Curves.easeInOut);
+                            },
+                            child: const Text('上一題'),
+                          ),
                         ),
-                        TextButton(
-                          onPressed: () {
-                            Navigator.of(context)
-                                .popUntil((route) => route.isFirst);
+                        const SizedBox(width: 8),
+                        // page indicator beautify
+                        PageIndicator(
+                          currentPage: _currentPage,
+                          totalPages: questions.length,
+                          onPageChanged: (page) {
+                            _pageController.animateToPage(page,
+                                duration: const Duration(milliseconds: 300),
+                                curve: Curves.easeInOut);
                           },
-                          child: const Text('確定'),
+                        ),
+                        const SizedBox(width: 8),
+                        Expanded(
+                          child: ElevatedButton(
+                            onPressed: () {
+                              if (_currentPage < questions.length - 1) {
+                                _pageController.nextPage(
+                                    duration: const Duration(milliseconds: 300),
+                                    curve: Curves.easeInOut);
+                              }
+                            },
+                            child: const Text('下一題'),
+                          ),
                         ),
                       ],
-                    );
-                  });
-            },
-          ),
-          title: Text(widget.examName),
-        ),
-        body: Column(
-          children: [
-            TestTimer(
-              duration: widget.subject.duration,
-              onTimerFinished: () {},
-            ),
-            Expanded(
-              child: PageView.builder(
-                controller: _pageController,
-                itemBuilder: (context, index) {
-                  final question = questions[index];
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          )),
+    );
+  }
 
-                  return SingleChildScrollView(
-                      child: Padding(
-                    padding: const EdgeInsets.all(16.0),
-                    child: SubjectQuestionView(
-                        question: question, showQuestionNumber: true),
-                  ));
+  Future<dynamic> _showBackDialog(BuildContext context) {
+    return showDialog(
+        context: context,
+        builder: (context) {
+          return AlertDialog(
+            title: const Text('確定要離開嗎？'),
+            content: const Text('這將會清除本次的作答紀錄。'),
+            actions: [
+              TextButton(
+                onPressed: () {
+                  Navigator.of(context).pop();
                 },
-                onPageChanged: (page) {
-                  setState(() {
-                    _currentPage = page;
-                  });
+                child: const Text('取消'),
+              ),
+              TextButton(
+                onPressed: () {
+                  Navigator.of(context).popUntil((route) => route.isFirst);
                 },
+                child: const Text('確定'),
               ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: Row(
-                children: [
-                  Expanded(
-                    child: ElevatedButton(
-                      onPressed: () {
-                        _pageController.previousPage(
-                            duration: const Duration(milliseconds: 300),
-                            curve: Curves.easeInOut);
-                      },
-                      child: const Text('上一題'),
-                    ),
-                  ),
-                  const SizedBox(width: 8),
-                  // page indicator beautify
-                  PageIndicator(
-                    currentPage: _currentPage,
-                    totalPages: questions.length,
-                    onPageChanged: (page) {
-                      _pageController.animateToPage(page,
-                          duration: const Duration(milliseconds: 300),
-                          curve: Curves.easeInOut);
-                    },
-                  ),
-                  const SizedBox(width: 8),
-                  Expanded(
-                    child: ElevatedButton(
-                      onPressed: () {
-                        if (_currentPage < questions.length - 1) {
-                          _pageController.nextPage(
-                              duration: const Duration(milliseconds: 300),
-                              curve: Curves.easeInOut);
-                        }
-                      },
-                      child: const Text('下一題'),
-                    ),
-                  ),
-                ],
-              ),
-            ),
-          ],
-        ));
+            ],
+          );
+        });
   }
 }
 
