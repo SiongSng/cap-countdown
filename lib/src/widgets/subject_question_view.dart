@@ -10,15 +10,15 @@ import 'question_text.dart';
 
 class SubjectQuestionView extends StatefulWidget {
   final SubjectQuestion question;
-  final VoidCallback? onRefresh;
-  final bool showQuestionNumber;
+  final QuestionViewOption option;
+  final List<Widget> Function(List<OptionalQuestion>)? actions;
 
-  const SubjectQuestionView(
-      {Key? key,
-      required this.question,
-      this.onRefresh,
-      this.showQuestionNumber = true})
-      : super(key: key);
+  const SubjectQuestionView({
+    Key? key,
+    required this.question,
+    this.option = const QuestionViewOption(),
+    this.actions,
+  }) : super(key: key);
 
   @override
   State<SubjectQuestionView> createState() => _SubjectQuestionViewState();
@@ -55,15 +55,18 @@ class _SubjectQuestionViewState extends State<SubjectQuestionView> {
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text('${entry.key + 1}.',
-                  style: Theme.of(context).textTheme.titleLarge),
+              if (!widget.option.showQuestionNumber)
+                Text('${entry.key + 1}.',
+                    style: Theme.of(context).textTheme.titleLarge),
               OptionalQuestionView(
-                  question: entry.value,
-                  showQuestionNumber: widget.showQuestionNumber),
+                  question: entry.value, option: widget.option),
+              if (entry.key != question.options.length - 1) const Divider(),
             ],
           ),
-        const SizedBox(height: 8),
-        _submitAnswer(question.options, context)
+        if (widget.actions != null) ...[
+          const SizedBox(height: 8),
+          ...widget.actions!(question.options)
+        ],
       ],
     );
   }
@@ -72,76 +75,12 @@ class _SubjectQuestionViewState extends State<SubjectQuestionView> {
       BuildContext context, SingleChoiceQuestion question) {
     return Column(
       children: [
-        OptionalQuestionView(
-            question: question, showQuestionNumber: widget.showQuestionNumber),
+        OptionalQuestionView(question: question, option: widget.option),
         const SizedBox(height: 8),
-        _submitAnswer([question], context)
-      ],
-    );
-  }
-
-  Widget _submitAnswer(List<OptionalQuestion> questions, BuildContext context) {
-    if (widget.onRefresh == null) return const SizedBox.shrink();
-
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-      children: [
-        FilledButton.icon(
-            onPressed: () {
-              final isSelectAll =
-                  questions.every((q) => q.selectedChoice != null);
-              final messenger = ScaffoldMessenger.of(context);
-              messenger.clearSnackBars();
-
-              if (!isSelectAll) {
-                messenger.showSnackBar(
-                  const SnackBar(
-                    content: Text('交卷前請先記得選擇答案喔！',
-                        style: TextStyle(fontWeight: FontWeight.bold)),
-                    backgroundColor: Colors.orange,
-                  ),
-                );
-                return;
-              }
-
-              if (questions.every((q) => q.isCorrect)) {
-                messenger.showSnackBar(
-                  SnackBar(
-                    content:
-                        Text(questions.length > 1 ? '恭喜你全都答對了！' : '恭喜你答對了！'),
-                    backgroundColor: Colors.green,
-                  ),
-                );
-              } else {
-                messenger.showSnackBar(
-                  const SnackBar(
-                    content: Text('答錯了，再接再厲！記得看詳解修正錯誤呦！'),
-                    backgroundColor: Colors.red,
-                  ),
-                );
-              }
-
-              setState(() {
-                for (final q in questions) {
-                  q.submittedChoice = q.selectedChoice;
-                }
-              });
-            },
-            icon: const Icon(Icons.check),
-            label: const Text('交卷')),
-        FilledButton.icon(
-            onPressed: () {
-              setState(() {
-                for (final q in questions) {
-                  q.selectedChoice = null;
-                  q.submittedChoice = null;
-                }
-              });
-
-              widget.onRefresh?.call();
-            },
-            icon: const Icon(Icons.refresh),
-            label: const Text('再來一題')),
+        if (widget.actions != null) ...[
+          const SizedBox(height: 8),
+          ...widget.actions!([question])
+        ],
       ],
     );
   }

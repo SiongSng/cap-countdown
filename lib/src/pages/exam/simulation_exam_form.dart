@@ -128,7 +128,7 @@ class _SelectSubjectDialogState extends State<_SelectSubjectDialog> {
             Navigator.of(context).pop();
             Navigator.of(widget.context).push(
               MaterialPageRoute(
-                builder: (context) => PaperSimulationExamPage(
+                builder: (context) => PrepareSimulationExamPage(
                     examName: widget.exam.name, subject: _selectedSubject!),
               ),
             );

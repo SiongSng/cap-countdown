@@ -6,10 +6,12 @@ import 'package:flutter/material.dart';
 
 class OptionalQuestionView extends StatefulWidget {
   final OptionalQuestion question;
-  final bool showQuestionNumber;
+  final QuestionViewOption option;
 
   const OptionalQuestionView(
-      {super.key, required this.question, required this.showQuestionNumber});
+      {super.key,
+      required this.question,
+      this.option = const QuestionViewOption()});
 
   @override
   State<OptionalQuestionView> createState() => _OptionalQuestionViewState();
@@ -31,7 +33,8 @@ class _OptionalQuestionViewState extends State<OptionalQuestionView> {
   Widget build(BuildContext context) {
     late final String? description;
 
-    if (widget.showQuestionNumber && widget.question.description != null) {
+    if (widget.option.showQuestionNumber &&
+        widget.question.description != null) {
       description = '${widget.question.number}. ${widget.question.description}';
     } else {
       description = widget.question.description;
@@ -47,8 +50,9 @@ class _OptionalQuestionViewState extends State<OptionalQuestionView> {
         // Use LaTexT to render LaTeX (math formula) in text.
         if (description != null) QuestionText(text: description),
         const SizedBox(height: 8),
-        _ChoiceButtons(question: widget.question),
-        if (widget.question.submittedChoice != null)
+        _ChoiceButtons(
+            question: widget.question, submitted: widget.option.submitted),
+        if (widget.option.submitted)
           Align(
             alignment: Alignment.center,
             child: TextButton.icon(
@@ -181,8 +185,9 @@ class _Indicator extends StatelessWidget {
 
 class _ChoiceButtons extends StatefulWidget {
   final OptionalQuestion question;
+  final bool submitted;
 
-  const _ChoiceButtons({required this.question});
+  const _ChoiceButtons({required this.question, required this.submitted});
 
   @override
   State<_ChoiceButtons> createState() => _ChoiceButtonsState();
@@ -197,6 +202,7 @@ class _ChoiceButtonsState extends State<_ChoiceButtons> {
           .map((e) => ChoiceButton(
                 choice: e,
                 question: widget.question,
+                submitted: widget.submitted,
                 onChanged: (value) {
                   setState(() {
                     widget.question.selectedChoice = value;
@@ -206,4 +212,14 @@ class _ChoiceButtonsState extends State<_ChoiceButtons> {
           .toList(),
     );
   }
+}
+
+class QuestionViewOption {
+  final bool showQuestionNumber;
+  final bool submitted;
+
+  const QuestionViewOption({
+    this.showQuestionNumber = true,
+    this.submitted = false,
+  });
 }

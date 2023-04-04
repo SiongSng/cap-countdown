@@ -8,3 +8,6 @@
   製作。
 - [贏得獎項—出現在準備模擬考試的頁面中](assets/images/materials/awards.png)
   ：來自 [freesvgillustration](https://freesvgillustration.com/product/awards)。
+- [藍色交卷動畫—出現在模擬考試的交卷對話框中](assets/animations/135507-exam-prep-topics.json)
+  ：來自 [LottieFiles](https://lottiefiles.com/135507-exam-prep-topics)
+  ，由 [Seneca Learning](https://lottiefiles.com/seneca17learning) 製作。

@@ -14,12 +14,16 @@ class ExamSubject {
   // Each exam has a different test time, and you can't continue to answer when the time is up.
   final Duration duration;
 
+  @JsonKey(name: 'grade_markings')
+  final Map<String, double> gradeMarkings;
+
   @JsonKey(toJson: _questionsToJson)
   final List<SubjectQuestion> questions;
 
   ExamSubject({
     required this.name,
     required this.duration,
+    required this.gradeMarkings,
     required this.questions,
   });
 
@@ -46,13 +50,17 @@ class ExamSubject {
     return ExamSubject(
       name: json['name'] as String,
       duration: Duration(minutes: json['duration'] as int),
+      gradeMarkings: (json['grade_markings'] as Map<String, dynamic>).map(
+          (key, value) =>
+              MapEntry(key, value is int ? value.toDouble() : value as double)),
       questions: subjectQuestions.cast<SubjectQuestion>(),
     );
   }
 
   Map<String, dynamic> toJson() => _$ExamSubjectToJson(this);
 
-  List<OptionalQuestion> getAllOptionalQuestion() {
+  /// Get all optional questions in this subject.
+  List<OptionalQuestion> getOptionalQuestions() {
     final singleChoiceQuestions =
         questions.whereType<SingleChoiceQuestion>().toList();
     final groupChoiceQuestions =
@@ -64,5 +72,12 @@ class ExamSubject {
     optionalQuestions.addAll(groupChoiceQuestions.expand((e) => e.options));
 
     return optionalQuestions;
+  }
+
+  /// Clear all selected choices.
+  void clearRecords() {
+    for (final question in getOptionalQuestions()) {
+      question.selectedChoice = null;
+    }
   }
 }

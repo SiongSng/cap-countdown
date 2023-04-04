@@ -6,6 +6,15 @@
       {
         "name": "國文科",
         "duration": 70,
+        "grade_markings": {
+          "A++": 40,
+          "A+": 38,
+          "A": 36,
+          "B++": 32,
+          "B+": 28,
+          "B": 18,
+          "C": 0
+        },
         "questions": [
           {
             "number": 1,
@@ -1181,6 +1190,11 @@
       {
         "name": "英語科（閱讀）",
         "duration": 60,
+        "grade_markings": {
+          "精熟": 37,
+          "基礎": 14,
+          "待加強": 0
+        },
         "questions": [
           {
             "number": 1,
@@ -1215,6 +1229,15 @@
       {
         "name": "數學科",
         "duration": 80,
+        "grade_markings": {
+          "A++": 96.60,
+          "A+": 89.80,
+          "A": 80.50,
+          "B++": 70.50,
+          "B+": 61.00,
+          "B": 39.70,
+          "C": 0.00
+        },
         "questions": [
           {
             "number": 1,
@@ -1303,6 +1326,15 @@
       {
         "name": "社會科",
         "duration": 70,
+        "grade_markings": {
+          "A++": 52,
+          "A+": 50,
+          "A": 48,
+          "B++": 41,
+          "B+": 35,
+          "B": 22,
+          "C": 0
+        },
         "questions": [
           {
             "number": 1,
@@ -1337,6 +1369,15 @@
       {
         "name": "自然科",
         "duration": 70,
+        "grade_markings": {
+          "A++": 47,
+          "A+": 46,
+          "A": 43,
+          "B++": 36,
+          "B+": 29,
+          "B": 19,
+          "C": 0
+        },
         "questions": [
           {
             "number": 1,

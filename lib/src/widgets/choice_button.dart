@@ -6,12 +6,14 @@ import 'package:latext/latext.dart';
 class ChoiceButton extends StatelessWidget {
   final QuestionChoice choice;
   final OptionalQuestion question;
+  final bool submitted;
   final ValueChanged<QuestionChoice?>? onChanged;
 
   const ChoiceButton(
       {super.key,
       required this.choice,
       required this.question,
+      required this.submitted,
       this.onChanged});
 
   @override
@@ -26,9 +28,7 @@ class ChoiceButton extends StatelessWidget {
       fillColor: _getFillColor(),
       onChanged: (value) {
         // If the question has been submitted, can't change the answer.
-        if (question.submittedChoice != null) {
-          return;
-        }
+        if (submitted) return;
 
         if (value == question.selectedChoice) {
           onChanged?.call(null);
@@ -40,16 +40,13 @@ class ChoiceButton extends StatelessWidget {
   }
 
   MaterialStateProperty<Color>? _getFillColor() {
-    final submittedChoice = question.submittedChoice;
-    if (submittedChoice == null) {
-      return null;
-    }
+    if (!submitted) return null;
 
     if (question.correctAnswer == choice.answer) {
       return MaterialStateProperty.all(Colors.green);
     }
 
-    if (submittedChoice.answer == choice.answer &&
+    if (question.selectedChoice?.answer == choice.answer &&
         question.correctAnswer != choice.answer) {
       return MaterialStateProperty.all(Colors.red);
     }

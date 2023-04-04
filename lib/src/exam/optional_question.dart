@@ -20,8 +20,6 @@ class OptionalQuestion {
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   QuestionChoice? selectedChoice;
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  QuestionChoice? submittedChoice;
 
   OptionalQuestion({
     required this.number,
