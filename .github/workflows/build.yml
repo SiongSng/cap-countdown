@@ -112,9 +112,11 @@ jobs:
           channel: "beta"
           cache: true
       - name: Install Dependencies
+        # https://github.com/bluefireteam/audioplayers/blob/main/packages/audioplayers_linux/setup.md
         run: |
           sudo apt-get update
           sudo apt-get install clang cmake ninja-build pkg-config libgtk-3-dev liblzma-dev
+          sudo apt-get install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev
       - name: Minify the json file of CAP exam data
         run: |
           cd ./assets
