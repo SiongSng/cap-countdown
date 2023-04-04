@@ -806,14 +806,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.1.1"
-  zoom_pinch_overlay:
-    dependency: "direct main"
-    description:
-      name: zoom_pinch_overlay
-      sha256: "31dd7469a0613d8fc8f6165308862b33ed4bf9987fc4afe587c302b07223efa3"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.4.0"
 sdks:
   dart: ">=3.0.0-290.3.beta <4.0.0"
   flutter: ">=3.3.0"

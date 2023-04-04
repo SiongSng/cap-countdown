@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:zoom_pinch_overlay/zoom_pinch_overlay.dart';
 
 class QuestionImage extends StatelessWidget {
   final String imageFileName;
@@ -11,22 +10,53 @@ class QuestionImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final image = ClipRRect(
-      borderRadius: BorderRadius.circular(8.0),
-      child: Image.asset(
-        'assets/images/exam/$imageFileName',
-        fit: BoxFit.fitWidth,
-      ),
-    );
     final platform = Theme.of(context).platform;
+    final isMobile =
+        platform == TargetPlatform.android || platform == TargetPlatform.iOS;
+    final isDesktop = platform == TargetPlatform.linux ||
+        platform == TargetPlatform.macOS ||
+        platform == TargetPlatform.windows;
 
-    if (platform == TargetPlatform.android || platform == TargetPlatform.iOS) {
-      return ZoomOverlay(
-        maxScale: 5.0,
+    final image = Image.asset(
+      'assets/images/exam/$imageFileName',
+      fit: BoxFit.fitWidth,
+    );
+
+    return InkWell(
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(8.0),
         child: image,
-      );
-    }
-
-    return image;
+      ),
+      onTap: () {
+        Navigator.of(context).push(
+          MaterialPageRoute(
+            builder: (context) => Scaffold(
+              appBar: AppBar(
+                title: const Text('試題圖片檢視器'),
+              ),
+              body: Center(
+                child: SizedBox(
+                  width: MediaQuery.of(context).size.width,
+                  height: MediaQuery.of(context).size.height,
+                  child: Column(
+                    children: [
+                      if (isMobile) const Text('請透過雙指縮放或拖曳來檢視圖片'),
+                      if (isDesktop) const Text('請透過滑鼠滾輪縮放或拖曳來檢視圖片'),
+                      Expanded(
+                        child: InteractiveViewer(
+                          boundaryMargin: const EdgeInsets.all(100),
+                          maxScale: 6,
+                          child: image,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+          ),
+        );
+      },
+    );
   }
 }
