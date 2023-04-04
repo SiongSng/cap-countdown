@@ -56,9 +56,16 @@ class _MainPageState extends State<MainPage> {
                   },
                 ),
                 PopupMenuItem(
+                  child: const Text('官方討論區'),
+                  onTap: () async {
+                    launchUrlString(
+                        'https://github.com/SiongSng/cap-countdown/discussions');
+                  },
+                ),
+                PopupMenuItem(
                   child: const Text('關於'),
-                  onTap: () {
-                    _waitPopupMenu(context);
+                  onTap: () async {
+                    await _waitPopupMenu(context);
                     if (!context.mounted) return;
                     _showAboutDialog(context);
                   },
