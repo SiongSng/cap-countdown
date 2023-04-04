@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:cap_countdown/src/exam/subject_question.dart';
 
 import 'app_theme.dart';
@@ -23,4 +25,10 @@ class LocalStorage {
     StorageHelper.set<List<Map>>(
         'favorite_questions', value.map((e) => e.toJson()).toList());
   }
+
+  Color get accentColor =>
+      Color(StorageHelper.get<int>('accent_color', 0xFFD0BCFF));
+
+  set accentColor(Color? value) =>
+      StorageHelper.set<int?>('accent_color', value?.value);
 }

@@ -38,11 +38,13 @@ class _ThemeProviderState extends State<ThemeProvider> {
               brightness = Brightness.dark;
               break;
           }
+          final accentColor = localStorage.accentColor;
 
           final themeData = ThemeData(
-            brightness: brightness,
             fontFamily: 'NotoSansTC',
             fontFamilyFallback: const ['NotoSansTC'],
+            colorScheme: ColorScheme.fromSeed(
+                seedColor: accentColor, brightness: brightness),
             useMaterial3: true,
           );
 
@@ -60,6 +62,11 @@ class ThemeChangeNotifier extends ChangeNotifier implements ReassembleHandler {
 
   void setTheme(AppTheme theme) {
     _theme = theme;
+    notifyListeners();
+  }
+
+  void setAccentColor(Color? color) {
+    localStorage.accentColor = color;
     notifyListeners();
   }
 
