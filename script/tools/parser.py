@@ -94,7 +94,7 @@ def parse_exam_paper(file_path: str, subject: CAPSubject, answers: ANSWERS_TYPE,
 
 
 def parse_tabular_file(file_path: str, sort_pattern: re.Pattern, convert_values_to_list: Callable[[str], list],
-                       get_page_bottom: Callable[[Page], int]) -> \
+                       get_page_bottom: Callable[[Page], int], is_indicator: bool) -> \
         dict[CAPSubject, list[str]]:
     doc = Document(file_path)
     pages: list[Page] = list(doc.pages())
@@ -148,6 +148,10 @@ def parse_tabular_file(file_path: str, sort_pattern: re.Pattern, convert_values_
         if question_number <= english_listening_end:
             subjects = [subject for subject in CAPSubject]
 
+            if is_indicator:
+                subjects = [CAPSubject.CHINESE, CAPSubject.ENGLISH_LISTENING, CAPSubject.ENGLISH_Reading,
+                            CAPSubject.MATH, CAPSubject.SOCIETY, CAPSubject.NATURE]
+
             # Due to the severity of the COVID-19 epidemic in ROC 109 (2020), the English listening exam was suspended.
             # See also: https://cap.rcpet.edu.tw/PressRelease1090422.html
             if year == 109:
@@ -178,7 +182,7 @@ def parse_tabular_file(file_path: str, sort_pattern: re.Pattern, convert_values_
 def parse_exam_answer(file_path: str) -> ANSWERS_TYPE:
     # Remove the question number and space.
     sort_pattern = re.compile(r"\d+| ")
-    parsed_result = parse_tabular_file(file_path, sort_pattern, lambda x: list(x), lambda x: 99999)
+    parsed_result = parse_tabular_file(file_path, sort_pattern, lambda x: list(x), lambda x: 99999, False)
     result: ANSWERS_TYPE = ANSWERS_TYPE({})
 
     for subject in parsed_result:
@@ -199,7 +203,7 @@ def parse_exam_indicator(file_path: str) -> EXAM_INDICATOR:
         A dict with the subject as the key and the list of indicators as the value by the order of the question number.
     """
     sort_pattern = re.compile(r"^(\d+)(?:\.(\d{1,2}))?")
-    result: EXAM_INDICATOR = EXAM_INDICATOR({})
+    result = EXAM_INDICATOR({})
 
     def convert_values_to_list(values: str) -> list:
         converted_values = []
@@ -220,10 +224,17 @@ def parse_exam_indicator(file_path: str) -> EXAM_INDICATOR:
         else:
             return 99999
 
-    parsed_result = parse_tabular_file(file_path, sort_pattern, convert_values_to_list, get_page_bottom)
+    parsed_result = parse_tabular_file(file_path, sort_pattern, convert_values_to_list, get_page_bottom, True)
 
     for subject in parsed_result:
         result[subject] = [float(value) for value in parsed_result[subject]]
+
+    # final_result = EXAM_INDICATOR(result.copy())
+    #
+    # # Because the order of subjects in the indicator file is Chinese -> English Listening -> English Reading...
+    # # The order of subjects is not the same as the answer file, so replace it here.
+    # final_result[CAPSubject.ENGLISH_LISTENING] = result[CAPSubject.ENGLISH_Reading]
+    # final_result[CAPSubject.ENGLISH_Reading] = result[CAPSubject.ENGLISH_LISTENING]
 
     return result
 
