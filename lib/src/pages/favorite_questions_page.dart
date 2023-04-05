@@ -87,7 +87,7 @@ class _FavoriteQuestionsPageState extends State<FavoriteQuestionsPage> {
                   padding: const EdgeInsets.all(16.0),
                   child: SubjectQuestionView(
                       question: question,
-                      meta: question.getMeta(),
+                      meta: question.meta,
                       option: const QuestionViewOption(submitted: true)),
                 ),
               ),

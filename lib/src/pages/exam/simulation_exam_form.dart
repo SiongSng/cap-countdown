@@ -31,6 +31,14 @@ class _SimulationExamFormState extends State<SimulationExamForm> {
                   itemCount: _exams.length,
                   itemBuilder: (context, index) {
                     final exam = _exams[index];
+                    final totalQuestions =
+                        exam.subjects.map((e) => e.questions);
+                    final completeness = totalQuestions
+                            .map((e) => e.where((e) => e.isAnswered).length)
+                            .reduce((v, e) => v + e) /
+                        totalQuestions
+                            .map((e) => e.length)
+                            .reduce((v, e) => v + e);
 
                     return Column(
                       children: [
@@ -48,7 +56,7 @@ class _SimulationExamFormState extends State<SimulationExamForm> {
                                   child: ClipRRect(
                                     borderRadius: BorderRadius.circular(8),
                                     child: LinearProgressIndicator(
-                                      value: 0,
+                                      value: completeness,
                                       color: Theme.of(context)
                                           .colorScheme
                                           .secondary,
@@ -56,7 +64,8 @@ class _SimulationExamFormState extends State<SimulationExamForm> {
                                   ),
                                 ),
                                 const SizedBox(width: 8),
-                                const Text('0%')
+                                Text(
+                                    '${(completeness * 100).toStringAsFixed(2)}%'),
                               ],
                             ),
                           ),

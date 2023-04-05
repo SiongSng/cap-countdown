@@ -23,7 +23,15 @@ abstract class SubjectQuestion {
     localStorage.favoriteQuestions = questions;
   }
 
-  QuestionMeta getMeta() {
+  void makeAsAnswered() {
+    final questions = localStorage.answeredQuestions;
+    questions.add(hashCode);
+    localStorage.answeredQuestions = questions;
+  }
+
+  bool get isAnswered => localStorage.answeredQuestions.contains(hashCode);
+
+  QuestionMeta get meta {
     final exams = ExamLoader.exams;
     final subject = exams
         .expand((e) => e.subjects)

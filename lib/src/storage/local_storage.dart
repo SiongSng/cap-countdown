@@ -45,4 +45,11 @@ class LocalStorage {
     StorageHelper.set<Map<String, Map>>('question_notes',
         value.map((key, value) => MapEntry(key.toString(), value.toJson())));
   }
+
+  /// A list of question hash codes that have been answered.
+  List<int> get answeredQuestions =>
+      StorageHelper.get<List>('answered_questions', []).cast<int>();
+
+  set answeredQuestions(List<int> value) =>
+      StorageHelper.set<List<int>>('answered_questions', value);
 }

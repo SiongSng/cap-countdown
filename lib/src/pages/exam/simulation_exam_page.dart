@@ -326,6 +326,9 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                 if (mounted) {
                   setState(() {
                     _submitted = true;
+                    for (final question in widget.subject.questions) {
+                      question.makeAsAnswered();
+                    }
                   });
                   Navigator.of(context).pop();
                 }
