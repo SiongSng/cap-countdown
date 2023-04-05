@@ -1225,6 +1225,500 @@
             ],
             "correct_answer": "A",
             "explanation": "根據圖片，女子正在將蠟燭放在蛋糕上，故選 A。"
+          },
+          {
+            "type": "singleChoice",
+            "number": 2,
+            "description": "The movie starts at two o’clock, ＿＿＿＿ let’s meet at the theater at one forty-five.",
+            "passing_rate": 0.77,
+            "discrimination_index": 0.63,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "so"
+              },
+              {
+                "answer": "B",
+                "description": "or"
+              },
+              {
+                "answer": "C",
+                "description": "if"
+              },
+              {
+                "answer": "D",
+                "description": "because"
+              }
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "type": "singleChoice",
+            "number": 3,
+            "description": "Peter is afraid of the dark.  He even leaves the ＿＿＿＿ on when sleeping.",
+            "passing_rate": 0.8,
+            "discrimination_index": 0.61,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "computer"
+              },
+              {
+                "answer": "B",
+                "description": "fans"
+              },
+              {
+                "answer": "C",
+                "description": "lights"
+              },
+              {
+                "answer": "D",
+                "description": "music"
+              }
+            ],
+            "correct_answer": "C"
+          },
+          {
+            "type": "singleChoice",
+            "number": 4,
+            "description": "Pam is a ＿＿＿＿ baseball player; she has more fans than any other player on her team.",
+            "passing_rate": 0.78,
+            "discrimination_index": 0.64,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "boring"
+              },
+              {
+                "answer": "B",
+                "description": "heavy"
+              },
+              {
+                "answer": "C",
+                "description": "popular"
+              },
+              {
+                "answer": "D",
+                "description": "rich"
+              }
+            ],
+            "correct_answer": "C"
+          },
+          {
+            "type": "singleChoice",
+            "number": 5,
+            "description": "I did not do my homework, so my teacher said I ＿＿＿＿ stay after school to finish it.",
+            "passing_rate": 0.71,
+            "discrimination_index": 0.64,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "failed to"
+              },
+              {
+                "answer": "B",
+                "description": "had to"
+              },
+              {
+                "answer": "C",
+                "description": "hoped to"
+              },
+              {
+                "answer": "D",
+                "description": "used to"
+              }
+            ],
+            "correct_answer": "B"
+          },
+          {
+            "type": "singleChoice",
+            "number": 6,
+            "description": "Kevin has only enough money for the bag or the shoes.  That is a hard ＿＿＿＿ to  make because he likes them both.",
+            "passing_rate": 0.74,
+            "discrimination_index": 0.69,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "choice"
+              },
+              {
+                "answer": "B",
+                "description": "gift"
+              },
+              {
+                "answer": "C",
+                "description": "rule"
+              },
+              {
+                "answer": "D",
+                "description": "trick"
+              }
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "type": "singleChoice",
+            "number": 7,
+            "description": "It was ＿＿＿＿ for us to answer the math question because we’ve done the same kind of questions many times.",
+            "passing_rate": 0.75,
+            "discrimination_index": 0.58,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "common"
+              },
+              {
+                "answer": "B",
+                "description": "easy"
+              },
+              {
+                "answer": "C",
+                "description": "safe"
+              },
+              {
+                "answer": "D",
+                "description": "special"
+              }
+            ],
+            "correct_answer": "B"
+          },
+          {
+            "type": "singleChoice",
+            "number": 8,
+            "description": "Although it took me lots of time ＿＿＿＿ a big meal for ten people, I was happy that everyone enjoyed it.",
+            "passing_rate": 0.64,
+            "discrimination_index": 0.55,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "prepare"
+              },
+              {
+                "answer": "B",
+                "description": "to prepare"
+              },
+              {
+                "answer": "C",
+                "description": "preparing"
+              },
+              {
+                "answer": "D",
+                "description": "prepared"
+              }
+            ],
+            "correct_answer": "B"
+          },
+          {
+            "type": "singleChoice",
+            "number": 9,
+            "description": "Don’t let the children swim in the river.  We don’t know how ＿＿＿＿ it is.  It could be dangerous.",
+            "passing_rate": 0.7,
+            "discrimination_index": 0.69,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "deep"
+              },
+              {
+                "answer": "B",
+                "description": "far"
+              },
+              {
+                "answer": "C",
+                "description": "long"
+              },
+              {
+                "answer": "D",
+                "description": "thick"
+              }
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "type": "singleChoice",
+            "number": 10,
+            "description": "Bob is ＿＿＿＿ of the boys in the family.  He never does any housework.  His brothers at least take out the garbage sometimes.",
+            "passing_rate": 0.7,
+            "discrimination_index": 0.7,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "lazier"
+              },
+              {
+                "answer": "B",
+                "description": "the lazy"
+              },
+              {
+                "answer": "C",
+                "description": "the lazier"
+              },
+              {
+                "answer": "D",
+                "description": "the laziest"
+              }
+            ],
+            "correct_answer": "D"
+          },
+          {
+            "type": "singleChoice",
+            "number": 11,
+            "description": "Aunt Gina has lived in this town for more than sixty years, so she ＿＿＿＿ it very well.",
+            "passing_rate": 0.64,
+            "discrimination_index": 0.57,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "will know"
+              },
+              {
+                "answer": "B",
+                "description": "knew"
+              },
+              {
+                "answer": "C",
+                "description": "knows"
+              },
+              {
+                "answer": "D",
+                "description": "was going to know"
+              }
+            ],
+            "correct_answer": "C"
+          },
+          {
+            "type": "singleChoice",
+            "number": 12,
+            "description": "We won’t see the sun even after the typhoon leaves, because the news said that heavier rain will soon ＿＿＿＿ .",
+            "passing_rate": 0.5,
+            "discrimination_index": 0.41,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "catch"
+              },
+              {
+                "answer": "B",
+                "description": "follow"
+              },
+              {
+                "answer": "C",
+                "description": "move"
+              },
+              {
+                "answer": "D",
+                "description": "stop"
+              }
+            ],
+            "correct_answer": "B"
+          },
+          {
+            "type": "singleChoice",
+            "number": 13,
+            "description": "Yesterday when I got home from work, my brother ＿＿＿＿ for dinner, so he invited me to join him.",
+            "passing_rate": 0.59,
+            "discrimination_index": 0.52,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "goes out"
+              },
+              {
+                "answer": "B",
+                "description": "went out"
+              },
+              {
+                "answer": "C",
+                "description": "has gone out"
+              },
+              {
+                "answer": "D",
+                "description": "was going out"
+              }
+            ],
+            "correct_answer": "D"
+          },
+          {
+            "type": "singleChoice",
+            "number": 14,
+            "description": "You were ＿＿＿＿ not to lend Amy money.  She never gives back what she borrows.",
+            "passing_rate": 0.52,
+            "discrimination_index": 0.56,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "crazy"
+              },
+              {
+                "answer": "B",
+                "description": "helpful"
+              },
+              {
+                "answer": "C",
+                "description": "wise"
+              },
+              {
+                "answer": "D",
+                "description": "wrong"
+              }
+            ],
+            "correct_answer": "C"
+          },
+          {
+            "type": "singleChoice",
+            "number": 15,
+            "description": "Have you found a summer job yet?  Mr. Firth ＿＿＿＿ someone to take care of his kids during the vacation.  Maybe you can talk to him.",
+            "passing_rate": 0.58,
+            "discrimination_index": 0.59,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "has looked for"
+              },
+              {
+                "answer": "B",
+                "description": "is looking for"
+              },
+              {
+                "answer": "C",
+                "description": "looks for"
+              },
+              {
+                "answer": "D",
+                "description": "was looking for"
+              }
+            ],
+            "correct_answer": "B"
+          },
+          {
+            "type": "singleChoice",
+            "number": 16,
+            "description": "David looked out of the balcony window and saw a woman get in his car ＿＿＿＿ away.",
+            "passing_rate": 0.33,
+            "discrimination_index": 0.28,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "drive"
+              },
+              {
+                "answer": "B",
+                "description": "drove"
+              },
+              {
+                "answer": "C",
+                "description": "and drive"
+              },
+              {
+                "answer": "D",
+                "description": "and drove"
+              }
+            ],
+            "correct_answer": "C"
+          },
+          {
+            "type": "singleChoice",
+            "number": 17,
+            "description": "The police haven’t found the little girl who ＿＿＿＿ at a supermarket.  They’ll keep doing all they can to find her.",
+            "passing_rate": 0.49,
+            "discrimination_index": 0.55,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "took away"
+              },
+              {
+                "answer": "B",
+                "description": "taken away"
+              },
+              {
+                "answer": "C",
+                "description": "has taken away"
+              },
+              {
+                "answer": "D",
+                "description": "was taken away"
+              }
+            ],
+            "correct_answer": "D"
+          },
+          {
+            "type": "singleChoice",
+            "number": 18,
+            "description": "Buses to the airport only come once every hour, and we just missed ＿＿＿＿ .  Why don’t we take a taxi?",
+            "passing_rate": 0.31,
+            "discrimination_index": 0.24,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "another"
+              },
+              {
+                "answer": "B",
+                "description": "it"
+              },
+              {
+                "answer": "C",
+                "description": "one"
+              },
+              {
+                "answer": "D",
+                "description": "them"
+              }
+            ],
+            "correct_answer": "C"
+          },
+          {
+            "type": "singleChoice",
+            "number": 19,
+            "description": "Ariel ＿＿＿＿ every night for a week before her Chinese test and got a very good grade.",
+            "passing_rate": 0.35,
+            "discrimination_index": 0.31,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "studied"
+              },
+              {
+                "answer": "B",
+                "description": "studies"
+              },
+              {
+                "answer": "C",
+                "description": "has studied"
+              },
+              {
+                "answer": "D",
+                "description": "was going to study"
+              }
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "type": "singleChoice",
+            "number": 20,
+            "description": "While reading this story, Brad saw the word “trolling” and didn’t know what it meant.\n\nJosh turned off the screen and sat back.  “Why are they trolling me like this?”  He didn’t understand.  They wanted him to share what he thought about the show, and he did.  And now look what he got.  In the end, all they wanted was nice words.\n\nHe found several meanings of the word in a dictionary.  Which one should Brad choose?",
+            "passing_rate": 0.52,
+            "discrimination_index": 0.58,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "To celebrate in song."
+              },
+              {
+                "answer": "B",
+                "description": "To make someone or something move around."
+              },
+              {
+                "answer": "C",
+                "description": "To pull a fishing line through the water, often from a boat."
+              },
+              {
+                "answer": "D",
+                "description": "To write something on the Internet to hurt someone or make them angry."
+              }
+            ],
+            "correct_answer": "D"
           }
         ]
       },
