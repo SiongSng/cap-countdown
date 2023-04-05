@@ -68,6 +68,7 @@ class _DailyQuestionState extends State<_DailyQuestion> {
               const SizedBox(height: 8),
               SubjectQuestionView(
                   question: widget.question,
+                  meta: widget.question.getMeta(),
                   option: QuestionViewOption(
                       showQuestionNumber: false, submitted: _submitted),
                   actions: (questions) => [_submitAnswer(questions)]),

@@ -5,11 +5,15 @@ import 'package:cap_countdown/src/pages/exam/simulation_exam_page.dart';
 import 'package:flutter/material.dart';
 
 class PrepareSimulationExamPage extends StatefulWidget {
+  final int year;
   final String examName;
   final ExamSubject subject;
 
   const PrepareSimulationExamPage(
-      {Key? key, required this.examName, required this.subject})
+      {Key? key,
+      required this.year,
+      required this.examName,
+      required this.subject})
       : super(key: key);
 
   @override
@@ -75,7 +79,10 @@ class _PrepareSimulationExamPageState extends State<PrepareSimulationExamPage> {
                 onPressed: () {
                   Navigator.of(context).push(MaterialPageRoute(
                       builder: (context) => SimulationExamPage(
-                          examName: widget.examName, subject: widget.subject)));
+                            year: widget.year,
+                            examName: widget.examName,
+                            subject: widget.subject,
+                          )));
                 },
                 label: const Text('開始測驗', style: TextStyle(fontSize: 18)),
               ),

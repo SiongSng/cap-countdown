@@ -1,9 +1,11 @@
 import 'package:cap_countdown/src/exam/example_question.dart';
 import 'package:cap_countdown/src/exam/group_choice_question.dart';
 import 'package:cap_countdown/src/exam/optional_question.dart';
+import 'package:cap_countdown/src/exam/question_meta.dart';
 import 'package:cap_countdown/src/exam/single_choice_question.dart';
 import 'package:cap_countdown/src/exam/subject_question.dart';
 import 'package:cap_countdown/src/widgets/question_audio_player.dart';
+import 'package:cap_countdown/src/widgets/report_question_button.dart';
 import 'package:flutter/material.dart';
 
 import 'optional_question_view.dart';
@@ -12,12 +14,14 @@ import 'question_text.dart';
 
 class SubjectQuestionView extends StatefulWidget {
   final SubjectQuestion question;
+  final QuestionMeta meta;
   final QuestionViewOption option;
   final List<Widget> Function(List<OptionalQuestion>)? actions;
 
   const SubjectQuestionView({
     Key? key,
     required this.question,
+    required this.meta,
     this.option = const QuestionViewOption(),
     this.actions,
   }) : super(key: key);
@@ -63,7 +67,9 @@ class _SubjectQuestionViewState extends State<SubjectQuestionView> {
                 Text('${entry.key + 1}.',
                     style: Theme.of(context).textTheme.titleLarge),
               OptionalQuestionView(
-                  question: entry.value, option: widget.option),
+                  question: entry.value,
+                  meta: widget.meta,
+                  option: widget.option),
               if (entry.key != question.options.length - 1) const Divider(),
             ],
           ),
@@ -78,7 +84,8 @@ class _SubjectQuestionViewState extends State<SubjectQuestionView> {
   Widget _buildSingleChoice(SingleChoiceQuestion question) {
     return Column(
       children: [
-        OptionalQuestionView(question: question, option: widget.option),
+        OptionalQuestionView(
+            question: question, meta: widget.meta, option: widget.option),
         const SizedBox(height: 8),
         if (widget.actions != null) ...[
           const SizedBox(height: 8),
@@ -95,16 +102,25 @@ class _SubjectQuestionViewState extends State<SubjectQuestionView> {
 
     return Column(
       children: [
-        if (imageName != null) QuestionImage(imageFileName: imageName),
-        if (imageName != null) const SizedBox(height: 8),
+        if (imageName != null) ...[
+          QuestionImage(imageFileName: imageName),
+          const SizedBox(height: 8),
+        ],
         // Use LaTexT to render LaTeX (math formula) in text.
-        if (description != null) QuestionText(text: description),
-        if (description != null) const SizedBox(height: 8),
-        if (audioFileName != null)
+        if (description != null) ...[
+          QuestionText(text: description),
+          const SizedBox(height: 8),
+        ],
+        if (audioFileName != null) ...[
           QuestionAudioPlayer(
               audioFileName: audioFileName,
               onlyPlayOnce: widget.option.onlyPlayAudioOnce,
               onAudioPlayStateChanged: widget.option.onAudioPlayStateChanged),
+          const SizedBox(height: 8),
+        ],
+        Align(
+            alignment: Alignment.centerRight,
+            child: ReportQuestionButton(meta: widget.meta)),
       ],
     );
   }

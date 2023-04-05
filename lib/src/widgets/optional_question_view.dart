@@ -1,18 +1,22 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:cap_countdown/src/exam/optional_question.dart';
+import 'package:cap_countdown/src/exam/question_meta.dart';
 import 'package:cap_countdown/src/widgets/choice_button.dart';
 import 'package:cap_countdown/src/widgets/question_audio_player.dart';
 import 'package:cap_countdown/src/widgets/question_image.dart';
 import 'package:cap_countdown/src/widgets/question_text.dart';
+import 'package:cap_countdown/src/widgets/report_question_button.dart';
 import 'package:flutter/material.dart';
 
 class OptionalQuestionView extends StatefulWidget {
   final OptionalQuestion question;
+  final QuestionMeta meta;
   final QuestionViewOption option;
 
   const OptionalQuestionView(
       {super.key,
       required this.question,
+      required this.meta,
       this.option = const QuestionViewOption()});
 
   @override
@@ -59,14 +63,18 @@ class _OptionalQuestionViewState extends State<OptionalQuestionView> {
         ],
         _ChoiceButtons(
             question: widget.question, submitted: widget.option.submitted),
+        const SizedBox(height: 8),
         if (audioFileName != null) ...[
-          const SizedBox(height: 8),
           QuestionAudioPlayer(
               audioFileName: audioFileName,
               onlyPlayOnce: widget.option.onlyPlayAudioOnce,
               onAudioPlayStateChanged: widget.option.onAudioPlayStateChanged),
           const SizedBox(height: 8),
         ],
+        Align(
+            alignment: Alignment.centerRight,
+            child: ReportQuestionButton(meta: widget.meta)),
+        const SizedBox(height: 8),
         if (widget.option.submitted)
           Align(
             alignment: Alignment.center,

@@ -1,3 +1,4 @@
+import 'package:cap_countdown/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:line_icons/line_icons.dart';
@@ -23,7 +24,7 @@ class AboutPage extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Text('應用程式版本：0.1.0'),
+              Text('應用程式版本：${config.appVersion}'),
               const Text(
                   '這是個具有試題等豐富功能的會考沙漏計時器\n此外完全免費、無廣告，超佛心的吧！\n也歡迎您加入我們的官方討論區提供建議或者一起聊天～'),
               Row(
@@ -52,7 +53,8 @@ class AboutPage extends StatelessWidget {
                   TextButton(
                       onPressed: () {
                         showLicensePage(
-                            context: context, applicationVersion: '0.1.0');
+                            context: context,
+                            applicationVersion: config.appVersion);
                       },
                       child: const Text('查看本應用程式所使用的開源軟體授權條款'))
                 ],

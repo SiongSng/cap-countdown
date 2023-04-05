@@ -4,6 +4,7 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:cap_countdown/main.dart';
 import 'package:cap_countdown/src/exam/cap_subject.dart';
 import 'package:cap_countdown/src/exam/exam_subject.dart';
+import 'package:cap_countdown/src/exam/question_meta.dart';
 import 'package:cap_countdown/src/exam/question_note.dart';
 import 'package:cap_countdown/src/exam/subject_question.dart';
 import 'package:cap_countdown/src/widgets/optional_question_view.dart';
@@ -12,11 +13,15 @@ import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
 class SimulationExamPage extends StatefulWidget {
+  final int year;
   final String examName;
   final ExamSubject subject;
 
   const SimulationExamPage(
-      {Key? key, required this.examName, required this.subject})
+      {Key? key,
+      required this.year,
+      required this.examName,
+      required this.subject})
       : super(key: key);
 
   @override
@@ -123,6 +128,10 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
 
                     return _QuestionPage(
                       question: question,
+                      meta: QuestionMeta(
+                          year: widget.year,
+                          subjectId: widget.subject.subjectId,
+                          questionIndex: index),
                       option: QuestionViewOption(
                           showQuestionNumber: true,
                           submitted: _submitted,
@@ -374,10 +383,12 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
 class _QuestionPage extends StatefulWidget {
   const _QuestionPage({
     required this.question,
+    required this.meta,
     required this.option,
   });
 
   final SubjectQuestion question;
+  final QuestionMeta meta;
   final QuestionViewOption option;
 
   @override
@@ -394,6 +405,7 @@ class _QuestionPageState extends State<_QuestionPage>
       padding: const EdgeInsets.all(16.0),
       child: SubjectQuestionView(
         question: widget.question,
+        meta: widget.meta,
         option: widget.option,
       ),
     ));

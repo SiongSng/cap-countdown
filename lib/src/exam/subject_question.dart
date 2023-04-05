@@ -1,5 +1,7 @@
 import 'package:cap_countdown/main.dart';
+import 'package:cap_countdown/src/exam/question_meta.dart';
 
+import 'exam_loader.dart';
 import 'example_question.dart';
 import 'group_choice_question.dart';
 import 'single_choice_question.dart';
@@ -19,6 +21,21 @@ abstract class SubjectQuestion {
     final questions = localStorage.favoriteQuestions;
     questions.remove(this);
     localStorage.favoriteQuestions = questions;
+  }
+
+  QuestionMeta getMeta() {
+    final exams = ExamLoader.exams;
+    final subject = exams
+        .expand((e) => e.subjects)
+        .firstWhere((s) => s.questions.contains(this));
+
+    final exam = exams.firstWhere((e) => e.subjects.contains(subject));
+
+    return QuestionMeta(
+      year: exam.year,
+      subjectId: subject.subjectId,
+      questionIndex: subject.questions.indexOf(this),
+    );
   }
 
   @override
