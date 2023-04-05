@@ -41,8 +41,6 @@ class _ThemeProviderState extends State<ThemeProvider> {
           final accentColor = localStorage.accentColor;
 
           final themeData = ThemeData(
-            fontFamily: 'NotoSansTC',
-            fontFamilyFallback: const ['NotoSansTC'],
             colorScheme: ColorScheme.fromSeed(
                 seedColor: accentColor, brightness: brightness),
             useMaterial3: true,
