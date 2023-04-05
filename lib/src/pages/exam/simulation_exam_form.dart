@@ -56,11 +56,7 @@ class _SimulationExamFormState extends State<SimulationExamForm> {
                                   child: ClipRRect(
                                     borderRadius: BorderRadius.circular(8),
                                     child: LinearProgressIndicator(
-                                      value: completeness,
-                                      color: Theme.of(context)
-                                          .colorScheme
-                                          .secondary,
-                                    ),
+                                        value: completeness),
                                   ),
                                 ),
                                 const SizedBox(width: 8),

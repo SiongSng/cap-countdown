@@ -17,16 +17,14 @@ class QuestionImage extends StatelessWidget {
         platform == TargetPlatform.macOS ||
         platform == TargetPlatform.windows;
 
-    final image = Image.asset(
-      'assets/images/exam/$imageFileName',
-      fit: BoxFit.fitWidth,
-      height: MediaQuery.of(context).size.height * 0.35,
-    );
-
     return InkWell(
       child: ClipRRect(
         borderRadius: BorderRadius.circular(8.0),
-        child: image,
+        child: Image.asset(
+          'assets/images/exam/$imageFileName',
+          fit: BoxFit.contain,
+          height: MediaQuery.of(context).size.height * 0.35,
+        ),
       ),
       onTap: () {
         Navigator.of(context).push(
@@ -47,7 +45,8 @@ class QuestionImage extends StatelessWidget {
                         child: InteractiveViewer(
                           boundaryMargin: const EdgeInsets.all(100),
                           maxScale: 6,
-                          child: image,
+                          child:
+                              Image.asset('assets/images/exam/$imageFileName'),
                         ),
                       ),
                     ],

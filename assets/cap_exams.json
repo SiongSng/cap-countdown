@@ -1250,7 +1250,8 @@
                 "description": "because"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "(A)所以，因為電影兩點開始，所以我們一點四十五分電影院門口見。"
           },
           {
             "type": "singleChoice",
@@ -1276,7 +1277,8 @@
                 "description": "music"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "(C)燈光，Peter 怕黑，所以睡覺時他總會開著燈。"
           },
           {
             "type": "singleChoice",
@@ -1302,7 +1304,8 @@
                 "description": "rich"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "(C)著名的，Pam 是位著名的棒球員，她的粉絲比隊上其他人都還多。"
           },
           {
             "type": "singleChoice",
@@ -1328,7 +1331,8 @@
                 "description": "used to"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "5.(B)需要、得，我沒有完成作業，所以我的老師說我得在放學後留下來完成。\n(A)失敗 (C)希望 (D)曾經"
           },
           {
             "type": "singleChoice",
@@ -1719,6 +1723,258 @@
               }
             ],
             "correct_answer": "D"
+          },
+          {
+            "type": "groupChoice",
+            "description": "(21-22)\n\n\uD83D\uDCD6 補充說明：\naddress 地址",
+            "image": "111_english_21-22.png",
+            "options": [
+              {
+                "number": 21,
+                "description": "What does Tea-Rock celebrate?",
+                "passing_rate": 0.62,
+                "discrimination_index": 0.69,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "Their sales in 20 countries."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "The coming out of their 20th kind of tea."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "Their 20th year of business."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "The opening of their 20th store in the USA."
+                  }
+                ],
+                "correct_answer": "C"
+              },
+              {
+                "number": 22,
+                "description": "Here is the postcard Jason is going to send to Tea-Rock 20. What else does he need to put on the postcard before he sends it?",
+                "passing_rate": 0.70,
+                "discrimination_index": 0.59,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "His age."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "His address."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "His birthday."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "Another picture of the tea cup."
+                  }
+                ],
+                "correct_answer": "C"
+              }
+            ]
+          },
+          {
+            "type": "groupChoice",
+            "description": "(23-24)\nBelow is an infographic.\n\n\uD83D\uDCD6 補充說明：\ninfographic 資訊圖表",
+            "image": "111_english_23-24.png",
+            "options": [
+              {
+                "number": 23,
+                "description": "What can we learn about sugar from the infographic?",
+                "passing_rate": 0.65,
+                "discrimination_index": 0.65,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "There are 4 g of sugar in 66 g of ice cream."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "A woman can eat as much sugar a day as a man can."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "Taiwan eats more sugar for each person than the US does."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "400 ml of rice milk has less sugar than 400 ml of grape juice."
+                  }
+                ],
+                "correct_answer": "D"
+              },
+              {
+                "number": 24,
+                "description": "What can be a reason why the list of “Sugar that is hidden in foods and drinks” is put in the infographic?",
+                "passing_rate": 0.57,
+                "discrimination_index": 0.56,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "To help us understand how sugar hurts our body."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "To show what kinds of foods and drinks are popular with children."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "To tell us that we often have more sugar than we can without knowing it."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "To let us know how much sugar is enough to make foods and drinks taste good."
+                  }
+                ],
+                "correct_answer": "C"
+              }
+            ]
+          },
+          {
+            "type": "groupChoice",
+            "description": "(25-26)\n\nDarrell: Marina...Marina...MARINA!\nMarina: Oh, sorry. I didn’t hear you. I was thinking about my homework.\nDarrell: What’s it about?\nMarina: Well, I need to draw a future house for my art class, but I haven’t got any ideas. Maybe I should go to the library and look for something useful.\nDarrell: Or you can try $\\textit{Pinterest}$.\nMarina: Isn’t it a shopping app?\nDarrell: Not really. Many people share their works on Pinterest and tell you how they made them. I’m sure you can get some ideas there.\nMarina: Sounds like you use it often.\nDarrell: Yeah. Just last week I went there and found the $\\textcolor{red}{A~to~Z}$ of making chocolate cake—from choosing good chocolate to baking the cake to making sugar flowers on top.\nMarina:  Really? I’ll check it out later. Thanks a lot.",
+            "options": [
+              {
+                "number": 25,
+                "description": "Why did Darrell tell Marina to go to $\\textit{Pinterest}$?",
+                "passing_rate": 0.68,
+                "discrimination_index": 0.65,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "To find some examples for her homework."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "To shop for things that are needed for art classes."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "To meet new friends who have the same interests."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "To share her works and tell people how they are made."
+                  }
+                ],
+                "correct_answer": "A"
+              },
+              {
+                "number": 26,
+                "description": "What does it mean when you learn something from $\\textcolor{red}{A~to~Z}$?",
+                "passing_rate": 0.57,
+                "discrimination_index": 0.49,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "You can learn it at any time."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "You learn it in a baking class."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "You learn everything about it."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "You spend all your life learning it."
+                  }
+                ],
+                "correct_answer": "C"
+              }
+            ]
+          },
+          {
+            "type": "groupChoice",
+            "description": "(27-29)\n\nTabata training is a very popular way of exercising these days. It doesn’t take much time or space, and it burns calories faster than other ways of exercising.\nThe idea of Tabata training is simple: exercise for 20 seconds, rest for 10 seconds, and then repeat (at least eight times). The moves for the 20-second exercise are not difficult to learn. Jumping jacks, high knees, squats, and planks are some of the most common moves. You can decide yourself what moves to do in your Tabata training.\nFor example, you can do more leg exercises if you want strong legs.\n\nOne great thing about Tabata training is that your body will keep burning calories for at least an hour after 4 minutes of Tabata training. But to have this wonderful “afterburn,” you need to exercise really hard during each 20 seconds. If you seldom exercise or have heart problems, this exercise may not be good for you. But for people who enjoy exercising but are too busy to go to the gym, Tabata training might just be the answer.\n\n\uD83D\uDCD6 補充說明：\ncalorie 卡路里（熱量單位）",
+            "image": "111_english_27-29.png",
+            "options": [
+              {
+                "number": 27,
+                "description": "Which idea is talked about in the first paragraph of the reading?\n\n\uD83D\uDCD6 補充說明：\nparagraph 段落",
+                "passing_rate": 0.65,
+                "discrimination_index": 0.65,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "How you should do Tabata training."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "What is the best time for Tabata training."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "Who first had the idea of Tabata training."
+                  },
+                  {
+                    "answer": "D",
+                    "description": " How often you should do Tabata training."
+                  }
+                ],
+                "correct_answer": "A"
+              },
+              {
+                "number": 28,
+                "description": "Who might find that Tabata training is right for them?",
+                "passing_rate": 0.49,
+                "discrimination_index": 0.51,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "People who enjoy team sports."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "People who want to start exercising."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "People who want to fix their heart problems"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "People who already have a habit of exercising."
+                  }
+                ],
+                "correct_answer": "D"
+              },
+              {
+                "number": 29,
+                "description": "Which is true about Tabata training?",
+                "passing_rate": 0.66,
+                "discrimination_index": 0.69,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "It is difficult to learn the moves."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "You are free to choose your own moves."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "You need a large space to do the exercises."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "You cannot rest between moves if you want the afterburn."
+                  }
+                ],
+                "correct_answer": "B"
+              }
+            ]
           }
         ]
       },
@@ -1756,7 +2012,8 @@
                 "answer": "C"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "The girl looks sadly out the window at the rain."
           },
           {
             "number": 2,
@@ -1777,7 +2034,8 @@
                 "answer": "C"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "There are peaches and bananas in the basket."
           },
           {
             "number": 3,
@@ -3509,7 +3767,7 @@
                   },
                   {
                     "answer": "D",
-                    "description": "當"
+                    "description": "當時臺灣已經對外開港,裕鐸仍阻撓洋商在臺貿易"
                   }
                 ],
                 "correct_answer": "B"
@@ -3534,7 +3792,7 @@
                   },
                   {
                     "answer": "D",
-                    "description": "許"
+                    "description": "許多府城商人組成「郊」與洋行合作"
                   }
                 ],
                 "correct_answer": "B"
@@ -3565,7 +3823,7 @@
                   },
                   {
                     "answer": "D",
-                    "description": "受"
+                    "description": "受西班牙占領影響,為西班牙語音譯的地名"
                   }
                 ],
                 "correct_answer": "A"
@@ -3590,7 +3848,7 @@
                   },
                   {
                     "answer": "D",
-                    "description": "海"
+                    "description": "海鹽晒製"
                   }
                 ],
                 "correct_answer": "A"
@@ -3615,7 +3873,7 @@
                   },
                   {
                     "answer": "D",
-                    "description": "黑"
+                    "description": "黑礁墘"
                   }
                 ],
                 "correct_answer": "B"
@@ -3647,7 +3905,7 @@
                   },
                   {
                     "answer": "D",
-                    "description": "國"
+                    "description": "國小內販售咖啡將會遭受刑罰處罰"
                   }
                 ],
                 "correct_answer": "C"
@@ -3672,7 +3930,7 @@
                   },
                   {
                     "answer": "D",
-                    "description": "透"
+                    "description": "透過制度變革影響校內商品的販售種類"
                   }
                 ],
                 "correct_answer": "D"
@@ -3697,7 +3955,7 @@
                   },
                   {
                     "answer": "D",
-                    "description": "家"
+                    "description": "家庭暴力受害者可聲請保護令以避免受到傷害"
                   }
                 ],
                 "correct_answer": "C"
@@ -3779,7 +4037,7 @@
                   },
                   {
                     "answer": "D",
-                    "description": "法"
+                    "description": "法西斯主義"
                   }
                 ],
                 "correct_answer": "A"
