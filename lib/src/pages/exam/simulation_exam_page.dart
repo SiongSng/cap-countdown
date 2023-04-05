@@ -135,7 +135,7 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                       option: QuestionViewOption(
                           showQuestionNumber: true,
                           submitted: _submitted,
-                          onlyPlayAudioOnce: true,
+                          onlyPlayAudioOnce: !_submitted,
                           onAudioPlayStateChanged: (state) {
                             setState(() {
                               _disablePageChange = state == PlayerState.playing;

@@ -46,6 +46,8 @@ class _QuestionAudioPlayerState extends State<QuestionAudioPlayer> {
       key: Key(
           'question_audio_player_${widget.audioFileName}_visibility_detector'),
       onVisibilityChanged: (VisibilityInfo info) {
+        if (!widget.onlyPlayOnce) return;
+
         if (info.visibleFraction == 0 && isPlaying) {
           player.pause();
         } else if (player.state == PlayerState.paused) {
@@ -54,16 +56,7 @@ class _QuestionAudioPlayerState extends State<QuestionAudioPlayer> {
       },
       child: Column(
         children: [
-          if (duration != null)
-            TweenAnimationBuilder(
-              duration: const Duration(milliseconds: 300),
-              curve: Curves.easeInOut,
-              tween: Tween<double>(
-                  begin: 0, end: audioPosition / duration!.inMilliseconds),
-              builder: (context, value, _) => ClipRRect(
-                  borderRadius: BorderRadius.circular(8),
-                  child: LinearProgressIndicator(value: value)),
-            ),
+          _buildPlayIndicator(),
           if (!widget.onlyPlayOnce) ...[
             const SizedBox(height: 8),
             ElevatedButton.icon(
@@ -80,6 +73,29 @@ class _QuestionAudioPlayerState extends State<QuestionAudioPlayer> {
           ]
         ],
       ),
+    );
+  }
+
+  Widget _buildPlayIndicator() {
+    if (duration == null) {
+      return const SizedBox.shrink();
+    }
+
+    if (player.state == PlayerState.playing && audioPosition == 0) {
+      return const Center(
+        child:
+            SizedBox(width: 24, height: 24, child: CircularProgressIndicator()),
+      );
+    }
+
+    return TweenAnimationBuilder(
+      duration: const Duration(milliseconds: 300),
+      curve: Curves.easeInOut,
+      tween: Tween<double>(
+          begin: 0, end: audioPosition / duration!.inMilliseconds),
+      builder: (context, value, _) => ClipRRect(
+          borderRadius: BorderRadius.circular(8),
+          child: LinearProgressIndicator(value: value)),
     );
   }
 
