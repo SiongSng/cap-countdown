@@ -20,6 +20,7 @@ class QuestionImage extends StatelessWidget {
     final image = Image.asset(
       'assets/images/exam/$imageFileName',
       fit: BoxFit.fitWidth,
+      height: MediaQuery.of(context).size.height * 0.35,
     );
 
     return InkWell(
