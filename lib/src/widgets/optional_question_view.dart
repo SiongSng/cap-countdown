@@ -1,3 +1,4 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:cap_countdown/src/exam/optional_question.dart';
 import 'package:cap_countdown/src/widgets/choice_button.dart';
 import 'package:cap_countdown/src/widgets/question_audio_player.dart';
@@ -47,16 +48,25 @@ class _OptionalQuestionViewState extends State<OptionalQuestionView> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        if (imageName != null) QuestionImage(imageFileName: imageName),
-        if (imageName != null) const SizedBox(height: 8),
-        // Use LaTexT to render LaTeX (math formula) in text.
-        if (description != null) QuestionText(text: description),
-        if (description != null) const SizedBox(height: 8),
-        if (audioFileName != null)
-          QuestionAudioPlayer(audioFileName: audioFileName, autoPlay: true),
-        const SizedBox(height: 8),
+        if (imageName != null) ...[
+          QuestionImage(imageFileName: imageName),
+          const SizedBox(height: 8)
+        ],
+        if (description != null) ...[
+          // Use LaTexT to render LaTeX (math formula) in text.
+          QuestionText(text: description),
+          const SizedBox(height: 8)
+        ],
         _ChoiceButtons(
             question: widget.question, submitted: widget.option.submitted),
+        if (audioFileName != null) ...[
+          const SizedBox(height: 8),
+          QuestionAudioPlayer(
+              audioFileName: audioFileName,
+              onlyPlayOnce: widget.option.onlyPlayAudioOnce,
+              onAudioPlayStateChanged: widget.option.onAudioPlayStateChanged),
+          const SizedBox(height: 8),
+        ],
         if (widget.option.submitted)
           Align(
             alignment: Alignment.center,
@@ -222,9 +232,13 @@ class _ChoiceButtonsState extends State<_ChoiceButtons> {
 class QuestionViewOption {
   final bool showQuestionNumber;
   final bool submitted;
+  final bool onlyPlayAudioOnce;
+  final ValueChanged<PlayerState>? onAudioPlayStateChanged;
 
   const QuestionViewOption({
     this.showQuestionNumber = true,
     this.submitted = false,
+    this.onlyPlayAudioOnce = false,
+    this.onAudioPlayStateChanged,
   });
 }

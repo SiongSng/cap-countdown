@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:audioplayers/audioplayers.dart';
 import 'package:cap_countdown/main.dart';
 import 'package:cap_countdown/src/exam/cap_subject.dart';
 import 'package:cap_countdown/src/exam/exam_subject.dart';
@@ -27,12 +28,21 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
 
   int _currentPage = 0;
   bool _submitted = false;
+  late bool _disablePageChange;
+
+  @override
+  void initState() {
+    _disablePageChange =
+        widget.subject.subjectId == CAPSubject.englishListening;
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
     final questions = widget.subject.questions;
     final question = questions[_currentPage];
     final isFavorite = localStorage.favoriteQuestions.contains(question);
+    final tookNote = localStorage.questionNotes.containsKey(question.hashCode);
 
     return WillPopScope(
       onWillPop: () async {
@@ -49,11 +59,10 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                   onPressed: () {
                     _showNoteDialog(question);
                   },
-                  icon:
-                      localStorage.questionNotes.containsKey(question.hashCode)
-                          ? Icon(Icons.draw_rounded,
-                              color: Theme.of(context).colorScheme.primary)
-                          : const Icon(Icons.draw_outlined),
+                  icon: tookNote
+                      ? Icon(Icons.draw_rounded,
+                          color: Theme.of(context).colorScheme.primary)
+                      : const Icon(Icons.draw_outlined),
                   tooltip: '做筆記'),
               IconButton(
                   onPressed: () {
@@ -106,18 +115,24 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                 child: PageView.builder(
                   controller: _pageController,
                   itemCount: questions.length,
+                  physics: _disablePageChange
+                      ? const NeverScrollableScrollPhysics()
+                      : null,
                   itemBuilder: (context, index) {
                     final question = questions[index];
 
-                    return SingleChildScrollView(
-                        child: Padding(
-                      padding: const EdgeInsets.all(16.0),
-                      child: SubjectQuestionView(
-                        question: question,
-                        option: QuestionViewOption(
-                            showQuestionNumber: true, submitted: _submitted),
-                      ),
-                    ));
+                    return _QuestionPage(
+                      question: question,
+                      option: QuestionViewOption(
+                          showQuestionNumber: true,
+                          submitted: _submitted,
+                          onlyPlayAudioOnce: true,
+                          onAudioPlayStateChanged: (state) {
+                            setState(() {
+                              _disablePageChange = state == PlayerState.playing;
+                            });
+                          }),
+                    );
                   },
                   onPageChanged: (page) {
                     setState(() {
@@ -137,19 +152,36 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                         Expanded(
                           child: ElevatedButton(
                             onPressed: () {
+                              if (_disablePageChange) return;
                               _pageController.previousPage(
                                   duration: const Duration(milliseconds: 300),
                                   curve: Curves.easeInOut);
                             },
+                            style: ElevatedButton.styleFrom(
+                                foregroundColor:
+                                    _disablePageChange || _currentPage == 0
+                                        ? Theme.of(context).disabledColor
+                                        : null),
                             child: const Text('上一題'),
                           ),
                         ),
                         const SizedBox(width: 8),
-                        // page indicator beautify
                         PageIndicator(
                           currentPage: _currentPage,
                           totalPages: questions.length,
+                          enable: !_disablePageChange,
                           onPageChanged: (page) {
+                            final isEnglishListening =
+                                widget.subject.subjectId ==
+                                    CAPSubject.englishListening;
+
+                            // When the exam subject is English listening, disable the animation page change.
+                            // Because if there is animation, the audio will be played when passing through each page.
+                            if (isEnglishListening) {
+                              _pageController.jumpToPage(page);
+                              return;
+                            }
+
                             _pageController.animateToPage(page,
                                 duration: const Duration(milliseconds: 300),
                                 curve: Curves.easeInOut);
@@ -159,12 +191,17 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                         Expanded(
                           child: ElevatedButton(
                             onPressed: () {
-                              if (_currentPage < questions.length - 1) {
-                                _pageController.nextPage(
-                                    duration: const Duration(milliseconds: 300),
-                                    curve: Curves.easeInOut);
-                              }
+                              if (_disablePageChange) return;
+                              if (_currentPage == questions.length - 1) return;
+
+                              _pageController.nextPage(
+                                  duration: const Duration(milliseconds: 300),
+                                  curve: Curves.easeInOut);
                             },
+                            style: ElevatedButton.styleFrom(
+                                foregroundColor: _disablePageChange
+                                    ? Theme.of(context).disabledColor
+                                    : null),
                             child: const Text('下一題'),
                           ),
                         ),
@@ -334,16 +371,50 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
   }
 }
 
+class _QuestionPage extends StatefulWidget {
+  const _QuestionPage({
+    required this.question,
+    required this.option,
+  });
+
+  final SubjectQuestion question;
+  final QuestionViewOption option;
+
+  @override
+  State<_QuestionPage> createState() => _QuestionPageState();
+}
+
+class _QuestionPageState extends State<_QuestionPage>
+    with AutomaticKeepAliveClientMixin {
+  @override
+  Widget build(BuildContext context) {
+    super.build(context);
+    return SingleChildScrollView(
+        child: Padding(
+      padding: const EdgeInsets.all(16.0),
+      child: SubjectQuestionView(
+        question: widget.question,
+        option: widget.option,
+      ),
+    ));
+  }
+
+  @override
+  bool get wantKeepAlive => true;
+}
+
 class PageIndicator extends StatefulWidget {
   final int currentPage;
   final int totalPages;
-  final void Function(int page)? onPageChanged;
+  final bool enable;
+  final void Function(int page) onPageChanged;
 
   const PageIndicator(
       {super.key,
       required this.currentPage,
       required this.totalPages,
-      this.onPageChanged});
+      required this.enable,
+      required this.onPageChanged});
 
   @override
   State<PageIndicator> createState() => _PageIndicatorState();
@@ -383,7 +454,7 @@ class _PageIndicatorState extends State<PageIndicator> {
       children: [
         SizedBox(
           height: 45,
-          width: 45,
+          width: 40,
           child: TextField(
             controller: _textEditingController,
             keyboardType: TextInputType.number,
@@ -391,10 +462,11 @@ class _PageIndicatorState extends State<PageIndicator> {
             onChanged: (text) {
               _inputPage = int.tryParse(text) ?? 1;
             },
+            enabled: widget.enable,
             onSubmitted: (_) {
               _inputPage = _inputPage.clamp(1, widget.totalPages);
               _textEditingController.text = '$_inputPage';
-              widget.onPageChanged?.call(_inputPage - 1);
+              widget.onPageChanged(_inputPage - 1);
             },
           ),
         ),

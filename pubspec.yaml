@@ -47,6 +47,7 @@ dependencies:
   url_strategy: ^0.2.0
   flutter_markdown: ^0.6.14
   audioplayers: ^3.0.1
+  visibility_detector: ^0.4.0+2
 
 dev_dependencies:
   flutter_test:

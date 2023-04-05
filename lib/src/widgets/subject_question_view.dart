@@ -101,7 +101,10 @@ class _SubjectQuestionViewState extends State<SubjectQuestionView> {
         if (description != null) QuestionText(text: description),
         if (description != null) const SizedBox(height: 8),
         if (audioFileName != null)
-          QuestionAudioPlayer(audioFileName: audioFileName, autoPlay: true),
+          QuestionAudioPlayer(
+              audioFileName: audioFileName,
+              onlyPlayOnce: widget.option.onlyPlayAudioOnce,
+              onAudioPlayStateChanged: widget.option.onAudioPlayStateChanged),
       ],
     );
   }

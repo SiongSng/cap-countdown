@@ -1263,6 +1263,472 @@
               }
             ],
             "correct_answer": "B"
+          },
+          {
+            "number": 2,
+            "type": "singleChoice",
+            "description": "第 2 題",
+            "image": "111_listening_2.png",
+            "audio": "111_listening_2.mp3",
+            "passing_rate": 0.89,
+            "discrimination_index": 0.48,
+            "choices": [
+              {
+                "answer": "A"
+              },
+              {
+                "answer": "B"
+              },
+              {
+                "answer": "C"
+              }
+            ],
+            "correct_answer": "C"
+          },
+          {
+            "number": 3,
+            "type": "singleChoice",
+            "description": "第 3 題",
+            "image": "111_listening_3.png",
+            "audio": "111_listening_3.mp3",
+            "passing_rate": 0.82,
+            "discrimination_index": 0.59,
+            "choices": [
+              {
+                "answer": "A"
+              },
+              {
+                "answer": "B"
+              },
+              {
+                "answer": "C"
+              }
+            ],
+            "correct_answer": "B"
+          },
+          {
+            "type": "example",
+            "description": "第二部分：基本問答（第4-11題）\n作答說明：每題均有三個選項，請依據所聽到的內容，選出一個最適合的回應，每題播放兩次。\n\n示例題：你會看到\n(A) She is talking to the teacher.\n(B) She is a student in my class.\n(C) She is wearing a beautiful dress.\n然後你會聽到......(播音)。依據所播放的內容，正確回應應該選B",
+            "audio": "111_listening_example_2.mp3"
+          },
+          {
+            "number": 4,
+            "type": "singleChoice",
+            "description": "第 4 題",
+            "audio": "111_listening_4.mp3",
+            "passing_rate": 0.88,
+            "discrimination_index": 0.55,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "It tastes good."
+              },
+              {
+                "answer": "B",
+                "description": "Sure, have it."
+              },
+              {
+                "answer": "C",
+                "description": "That’s too bad."
+              }
+            ],
+            "correct_answer": "B"
+          },
+          {
+            "number": 5,
+            "type": "singleChoice",
+            "description": "第 5 題",
+            "audio": "111_listening_5.mp3",
+            "passing_rate": 0.85,
+            "discrimination_index": 0.61,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "Yes, I’m on my way."
+              },
+              {
+                "answer": "B",
+                "description": "OK, let’s take a rest."
+              },
+              {
+                "answer": "C",
+                "description": "Oh, it’s just over there."
+              }
+            ],
+            "correct_answer": "C"
+          },
+          {
+            "number": 6,
+            "type": "singleChoice",
+            "description": "第 6 題",
+            "audio": "111_listening_6.mp3",
+            "passing_rate": 0.77,
+            "discrimination_index": 0.67,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "I haven’t heard about it."
+              },
+              {
+                "answer": "B",
+                "description": "That’s a good idea."
+              },
+              {
+                "answer": "C",
+                "description": "But the coat looks better."
+              }
+            ],
+            "correct_answer": "B"
+          },
+          {
+            "number": 7,
+            "type": "singleChoice",
+            "description": "第 7 題",
+            "audio": "111_listening_7.mp3",
+            "passing_rate": 0.78,
+            "discrimination_index": 0.70,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "Almost every month."
+              },
+              {
+                "answer": "B",
+                "description": "Yeah, it’s getting cold."
+              },
+              {
+                "answer": "C",
+                "description": "I like shopping online."
+              }
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "number": 8,
+            "type": "singleChoice",
+            "description": "第 8 題",
+            "audio": "111_listening_8.mp3",
+            "passing_rate": 0.75,
+            "discrimination_index": 0.73,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "He was on her right."
+              },
+              {
+                "answer": "B",
+                "description": "That was her husband."
+              },
+              {
+                "answer": "C",
+                "description": "They were having dinner."
+              }
+            ],
+            "correct_answer": "B"
+          },
+          {
+            "number": 9,
+            "type": "singleChoice",
+            "description": "第 9 題",
+            "audio": "111_listening_9.mp3",
+            "passing_rate": 0.67,
+            "discrimination_index": 0.61,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "At noon."
+              },
+              {
+                "answer": "B",
+                "description": "October 24."
+              },
+              {
+                "answer": "C",
+                "description": "Don’t be late."
+              }
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "number": 10,
+            "type": "singleChoice",
+            "description": "第 10 題",
+            "audio": "111_listening_10.mp3",
+            "passing_rate": 0.73,
+            "discrimination_index": 0.70,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "Yes, I’ll talk more about it."
+              },
+              {
+                "answer": "B",
+                "description": "Not really, I have a headache again."
+              },
+              {
+                "answer": "C",
+                "description": "Sorry, I didn’t use the right word."
+              }
+            ],
+            "correct_answer": "B"
+          },
+          {
+            "number": 11,
+            "type": "singleChoice",
+            "description": "第 11 題",
+            "audio": "111_listening_11.mp3",
+            "passing_rate": 0.68,
+            "discrimination_index": 0.59,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "She’s busy, perhaps."
+              },
+              {
+                "answer": "B",
+                "description": "There’s no Miranda here."
+              },
+              {
+                "answer": "C",
+                "description": "I was looking for her, too."
+              }
+            ],
+            "correct_answer": "C"
+          },
+          {
+            "type": "example",
+            "description": "第三部分：言談理解（第12-21題）\n作答說明：每題均有三個選項，請依據所聽到的對話或短文內容，選出一個最適合的答案，每題播放兩次。\n\n示例題：你會看到\n(A) 9:50.\n(B) 10:00\n.(C) 10:10.\n然後你會聽到......(播音)。依據所播放的內容，正確回應應該選B",
+            "audio": "111_listening_example_3.mp3"
+          },
+          {
+            "number": 12,
+            "type": "singleChoice",
+            "description": "第 12 題",
+            "audio": "111_listening_12.mp3",
+            "passing_rate": 0.81,
+            "discrimination_index": 0.65,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "There is a sale on shoes."
+              },
+              {
+                "answer": "B",
+                "description": "The store will close soon."
+              },
+              {
+                "answer": "C",
+                "description": "Someone is looking for their child."
+              }
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "number": 13,
+            "type": "singleChoice",
+            "description": "第 13 題",
+            "audio": "111_listening_13.mp3",
+            "passing_rate": 0.78,
+            "discrimination_index": 0.69,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "On a bus."
+              },
+              {
+                "answer": "B",
+                "description": "At a bus stop."
+              },
+              {
+                "answer": "C",
+                "description": "In a restaurant."
+              }
+            ],
+            "correct_answer": "B"
+          },
+          {
+            "number": 14,
+            "type": "singleChoice",
+            "description": "第 14 題",
+            "audio": "111_listening_14.mp3",
+            "passing_rate": 0.72,
+            "discrimination_index": 0.72,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "A writer."
+              },
+              {
+                "answer": "B",
+                "description": "A shop clerk."
+              },
+              {
+                "answer": "C",
+                "description": "A TV reporter."
+              }
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "number": 15,
+            "type": "singleChoice",
+            "description": "第 15 題",
+            "audio": "111_listening_15.mp3",
+            "passing_rate": 0.59,
+            "discrimination_index": 0.62,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "They don’t like them very much."
+              },
+              {
+                "answer": "B",
+                "description": "The girl likes hers, but the boy doesn’t like his."
+              },
+              {
+                "answer": "C",
+                "description": "The boy likes his, but the girl doesn’t like hers."
+              }
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "number": 16,
+            "type": "singleChoice",
+            "description": "第 16 題",
+            "audio": "111_listening_16.mp3",
+            "passing_rate": 0.64,
+            "discrimination_index": 0.66,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "It is not good."
+              },
+              {
+                "answer": "B",
+                "description": "It is as good as before."
+              },
+              {
+                "answer": "C",
+                "description": "It is better than he hoped."
+              }
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "number": 17,
+            "type": "singleChoice",
+            "description": "第 17 題",
+            "audio": "111_listening_17.mp3",
+            "passing_rate": 0.68,
+            "discrimination_index": 0.53,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "Have lunch in Room 503."
+              },
+              {
+                "answer": "B",
+                "description": "Go to Room 401 for the talk."
+              },
+              {
+                "answer": "C",
+                "description": "Find someone in a red T-shirt."
+              }
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "number": 18,
+            "type": "singleChoice",
+            "description": "第 18 題",
+            "audio": "111_listening_18.mp3",
+            "passing_rate": 0.57,
+            "discrimination_index": 0.40,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "How to choose a good Christmas tree."
+              },
+              {
+                "answer": "B",
+                "description": "What to do when there is a fire in their home."
+              },
+              {
+                "answer": "C",
+                "description": "How to keep fire away from the Christmas tree."
+              }
+            ],
+            "correct_answer": "C"
+          },
+          {
+            "number": 19,
+            "type": "singleChoice",
+            "description": "第 19 題",
+            "audio": "111_listening_19.mp3",
+            "passing_rate": 0.61,
+            "discrimination_index": 0.66,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "They are not young anymore."
+              },
+              {
+                "answer": "B",
+                "description": "They got burned by the scooter."
+              },
+              {
+                "answer": "C",
+                "description": "They do not have time to travel."
+              }
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "number": 20,
+            "type": "singleChoice",
+            "description": "第 20 題",
+            "audio": "111_listening_20.mp3",
+            "passing_rate": 0.60,
+            "discrimination_index": 0.46,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "Hank Biden died when Dark Mountain came out."
+              },
+              {
+                "answer": "B",
+                "description": "She likes Dark Mountain more than Sing with Me."
+              },
+              {
+                "answer": "C",
+                "description": "She thought Jason Smith appeared in Dark Mountain."
+              }
+            ],
+            "correct_answer": "C"
+          },
+          {
+            "number": 21,
+            "type": "singleChoice",
+            "description": "第 21 題",
+            "audio": "111_listening_21.mp3",
+            "passing_rate": 0.45,
+            "discrimination_index": 0.40,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "Have dinner."
+              },
+              {
+                "answer": "B",
+                "description": "Go to a bookstore."
+              },
+              {
+                "answer": "C",
+                "description": "Buy movie tickets."
+              }
+            ],
+            "correct_answer": "A"
           }
         ]
       },
