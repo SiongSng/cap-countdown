@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 import 'question_choice.dart';
@@ -43,6 +44,33 @@ class OptionalQuestion {
       _$OptionalQuestionFromJson(json);
 
   Map<String, dynamic> toJson() => _$OptionalQuestionToJson(this);
+
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      other is OptionalQuestion &&
+          runtimeType == other.runtimeType &&
+          number == other.number &&
+          description == other.description &&
+          image == other.image &&
+          audio == other.audio &&
+          passingRate == other.passingRate &&
+          discriminationIndex == other.discriminationIndex &&
+          listEquals(choices, other.choices) &&
+          correctAnswer == other.correctAnswer &&
+          explanation == other.explanation;
+
+  @override
+  int get hashCode =>
+      number.hashCode ^
+      description.hashCode ^
+      image.hashCode ^
+      audio.hashCode ^
+      passingRate.hashCode ^
+      discriminationIndex.hashCode ^
+      choices.hashCode ^
+      correctAnswer.hashCode ^
+      explanation.hashCode;
 }
 
 enum QuestionAnswer { A, B, C, D }

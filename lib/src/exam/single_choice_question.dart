@@ -44,16 +44,8 @@ class SingleChoiceQuestion extends OptionalQuestion with SubjectQuestion {
   }
 
   @override
-  int get hashCode =>
-      type.hashCode ^
-      number.hashCode ^
-      description.hashCode ^
-      image.hashCode ^
-      passingRate.hashCode ^
-      discriminationIndex.hashCode ^
-      choices.hashCode ^
-      correctAnswer.hashCode ^
-      explanation.hashCode;
+  int get hashCode => Object.hash(type, number, description, image, passingRate,
+      discriminationIndex, choices, correctAnswer, explanation);
 
   @override
   Map<String, dynamic> toJson() => _$SingleChoiceQuestionToJson(this);

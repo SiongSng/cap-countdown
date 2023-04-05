@@ -1,5 +1,8 @@
+import 'dart:convert';
+
 import 'package:cap_countdown/main.dart';
 import 'package:cap_countdown/src/exam/question_meta.dart';
+import 'package:crypto/crypto.dart';
 
 import 'exam_loader.dart';
 import 'example_question.dart';
@@ -25,11 +28,11 @@ abstract class SubjectQuestion {
 
   void makeAsAnswered() {
     final questions = localStorage.answeredQuestions;
-    questions.add(hashCode);
-    localStorage.answeredQuestions = questions;
+    questions.add(hash);
+    localStorage.answeredQuestions = questions.toSet().toList();
   }
 
-  bool get isAnswered => localStorage.answeredQuestions.contains(hashCode);
+  bool get isAnswered => localStorage.answeredQuestions.contains(hash);
 
   QuestionMeta get meta {
     final exams = ExamLoader.exams;
@@ -44,6 +47,12 @@ abstract class SubjectQuestion {
       subjectId: subject.subjectId,
       questionIndex: subject.questions.indexOf(this),
     );
+  }
+
+  String get hash {
+    var bytes = utf8.encode(toJson().toString());
+    var digest = sha256.convert(bytes);
+    return digest.toString();
   }
 
   @override

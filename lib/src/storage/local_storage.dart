@@ -33,23 +33,22 @@ class LocalStorage {
   set accentColor(Color? value) =>
       StorageHelper.set<int?>('accent_color', value?.value);
 
-  /// A map of question hash codes to notes.
-  Map<int, QuestionNote> get questionNotes {
+  /// A map of question hashes to notes.
+  Map<String, QuestionNote> get questionNotes {
     final map = StorageHelper.get<Map>('question_notes', {});
 
-    return map.map(
-        (key, value) => MapEntry(int.parse(key), QuestionNote.fromJson(value)));
+    return map.map((key, value) => MapEntry(key, QuestionNote.fromJson(value)));
   }
 
-  set questionNotes(Map<int, QuestionNote> value) {
+  set questionNotes(Map<String, QuestionNote> value) {
     StorageHelper.set<Map<String, Map>>('question_notes',
-        value.map((key, value) => MapEntry(key.toString(), value.toJson())));
+        value.map((key, value) => MapEntry(key, value.toJson())));
   }
 
-  /// A list of question hash codes that have been answered.
-  List<int> get answeredQuestions =>
-      StorageHelper.get<List>('answered_questions', []).cast<int>();
+  /// A list of question hashes that have been answered.
+  List<String> get answeredQuestions =>
+      StorageHelper.get<List>('answered_questions', []).cast<String>();
 
-  set answeredQuestions(List<int> value) =>
-      StorageHelper.set<List<int>>('answered_questions', value);
+  set answeredQuestions(List<String> value) =>
+      StorageHelper.set<List<String>>('answered_questions', value);
 }

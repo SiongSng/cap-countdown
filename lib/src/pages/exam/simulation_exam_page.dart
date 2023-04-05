@@ -47,7 +47,7 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
     final questions = widget.subject.questions;
     final question = questions[_currentPage];
     final isFavorite = localStorage.favoriteQuestions.contains(question);
-    final tookNote = localStorage.questionNotes.containsKey(question.hashCode);
+    final tookNote = localStorage.questionNotes.containsKey(question.hash);
 
     return WillPopScope(
       onWillPop: () async {
@@ -363,7 +363,7 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                 onPressed: () {
                   final text = noteController.text;
                   if (text.isNotEmpty) {
-                    notes[question.hashCode] = QuestionNote(text: text);
+                    notes[question.hash] = QuestionNote(text: text);
                     localStorage.questionNotes = notes;
                   }
 

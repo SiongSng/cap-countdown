@@ -73,10 +73,7 @@ class ExamSubject {
 
   @override
   int get hashCode =>
-      name.hashCode ^
-      duration.hashCode ^
-      gradeMarkings.hashCode ^
-      questions.hashCode;
+      Object.hash(name, duration, gradeMarkings, subjectId, questions);
 
   Map<String, dynamic> toJson() => _$ExamSubjectToJson(this);
 

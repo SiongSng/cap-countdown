@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 import 'optional_question.dart';
@@ -9,9 +10,10 @@ part 'group_choice_question.g.dart';
 class GroupChoiceQuestion extends SubjectQuestion {
   @override
   @JsonKey(includeToJson: true)
-  QuestionType get type => QuestionType.singleChoice;
+  QuestionType get type => QuestionType.groupChoice;
   final String? description;
   final String? image;
+  @JsonKey(toJson: _optionsToJson)
   final List<OptionalQuestion> options;
 
   GroupChoiceQuestion({
@@ -23,6 +25,11 @@ class GroupChoiceQuestion extends SubjectQuestion {
   factory GroupChoiceQuestion.fromJson(Map<String, dynamic> json) =>
       _$GroupChoiceQuestionFromJson(json);
 
+  static List<Map<String, dynamic>> _optionsToJson(
+      List<OptionalQuestion> options) {
+    return options.map((e) => e.toJson()).toList();
+  }
+
   @override
   bool operator ==(Object other) {
     if (identical(this, other)) return true;
@@ -31,12 +38,11 @@ class GroupChoiceQuestion extends SubjectQuestion {
         other.type == type &&
         other.description == description &&
         other.image == image &&
-        other.options == options;
+        listEquals(other.options, options);
   }
 
   @override
-  int get hashCode =>
-      type.hashCode ^ description.hashCode ^ image.hashCode ^ options.hashCode;
+  int get hashCode => Object.hash(type, description, image, options);
 
   @override
   Map<String, dynamic> toJson() => _$GroupChoiceQuestionToJson(this);

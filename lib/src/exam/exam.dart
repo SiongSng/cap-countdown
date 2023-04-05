@@ -31,5 +31,5 @@ class Exam {
   }
 
   @override
-  int get hashCode => year.hashCode ^ name.hashCode ^ subjects.hashCode;
+  int get hashCode => Object.hash(year, name, subjects);
 }

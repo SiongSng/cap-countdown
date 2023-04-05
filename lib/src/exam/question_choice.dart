@@ -34,7 +34,7 @@ class QuestionChoice {
   }
 
   @override
-  int get hashCode => answer.hashCode ^ description.hashCode;
+  int get hashCode => Object.hash(answer, description);
 
   Map<String, dynamic> toJson() => _$QuestionChoiceToJson(this);
 }
