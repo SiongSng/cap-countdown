@@ -120,7 +120,9 @@ class _DailyQuestionState extends State<_DailyQuestion> {
 
               setState(() {
                 _submitted = true;
-                widget.question.makeAsAnswered();
+                for (final q in questions) {
+                  q.makeAsAnswered();
+                }
               });
             },
             icon: const Icon(Icons.check),

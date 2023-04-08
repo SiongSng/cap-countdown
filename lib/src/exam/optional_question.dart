@@ -1,3 +1,7 @@
+import 'dart:convert';
+
+import 'package:cap_countdown/main.dart';
+import 'package:crypto/crypto.dart';
 import 'package:flutter/foundation.dart';
 import 'package:json_annotation/json_annotation.dart';
 
@@ -39,6 +43,20 @@ class OptionalQuestion {
   });
 
   bool get isCorrect => correctAnswer == selectedChoice?.answer;
+
+  void makeAsAnswered() {
+    final questions = localStorage.answeredQuestions;
+    questions.add(hash);
+    localStorage.answeredQuestions = questions.toSet().toList();
+  }
+
+  bool get isAnswered => localStorage.answeredQuestions.contains(hash);
+
+  String get hash {
+    var bytes = utf8.encode(toJson().toString());
+    var digest = sha256.convert(bytes);
+    return digest.toString();
+  }
 
   factory OptionalQuestion.fromJson(Map<String, dynamic> json) =>
       _$OptionalQuestionFromJson(json);

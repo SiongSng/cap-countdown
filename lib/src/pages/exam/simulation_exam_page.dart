@@ -326,7 +326,11 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                 if (mounted) {
                   setState(() {
                     _submitted = true;
-                    for (final question in widget.subject.questions) {
+
+                    final optionalQuestions =
+                        widget.subject.getOptionalQuestions();
+                    for (final question in optionalQuestions) {
+                      if (question.selectedChoice == null) continue;
                       question.makeAsAnswered();
                     }
                   });

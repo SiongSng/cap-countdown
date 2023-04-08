@@ -51,6 +51,7 @@ class _SubjectQuestionViewState extends State<SubjectQuestionView> {
     final imageFileName = question.image;
 
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         if (description != null) QuestionText(text: description),
         if (imageFileName != null) ...[

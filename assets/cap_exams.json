@@ -1189,7 +1189,7 @@
         ]
       },
       {
-        "name": "英語科（閱讀）（目前題目不完整，將在未來更新中新增）",
+        "name": "英語科（閱讀）",
         "duration": 60,
         "grade_markings": {
           "精熟": 37,
@@ -1332,7 +1332,7 @@
               }
             ],
             "correct_answer": "B",
-            "explanation": "5.(B)需要、得，我沒有完成作業，所以我的老師說我得在放學後留下來完成。\n(A)失敗 (C)希望 (D)曾經"
+            "explanation": "(B)需要、得，我沒有完成作業，所以我的老師說我得在放學後留下來完成。\n(A)失敗 (C)希望 (D)曾經"
           },
           {
             "type": "singleChoice",
@@ -1358,7 +1358,8 @@
                 "description": "trick"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "(A)選擇，Kevin 的錢只夠買包包或鞋子。要他選一個實在是很困難，因為他兩樣都喜歡。"
           },
           {
             "type": "singleChoice",
@@ -1384,7 +1385,8 @@
                 "description": "special"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "(B)簡單，對我們來說，要回答這個數學題很簡單，因為我們已經做過同樣的問題很多次了。"
           },
           {
             "type": "singleChoice",
@@ -1410,7 +1412,8 @@
                 "description": "prepared"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "(B)to prepare，to 在該句中有「用來」的意思，表示花了很多時間「用來」準備大餐。"
           },
           {
             "type": "singleChoice",
@@ -1436,7 +1439,8 @@
                 "description": "thick"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "(A)深的，不要讓小朋友在河裡游泳，我們不知道水有多深，可能會很危險。"
           },
           {
             "type": "singleChoice",
@@ -1462,7 +1466,8 @@
                 "description": "the laziest"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "(D)最懶惰的，句中說明 Bob 的兄弟至少有時候還會到垃圾，因此 Bob 是家中最懶惰的。"
           },
           {
             "type": "singleChoice",
@@ -1488,7 +1493,8 @@
                 "description": "was going to know"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "(C)knows，Aunt Gina 住在鎮上超過六十年，所以她對這個鎮非常瞭解。對鎮上的瞭解是至今依然存在的，因此使用第三人稱現在式 knows。"
           },
           {
             "type": "singleChoice",
@@ -1514,7 +1520,8 @@
                 "description": "stop"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "(B)隨之而來，即便颱風離去，我們也不會立刻看到太陽。因為新聞說豪雨很快會隨之而來。"
           },
           {
             "type": "singleChoice",
@@ -1540,7 +1547,8 @@
                 "description": "was going out"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "哥哥昨天正要出去吃晚餐，因此用過去進行式。"
           },
           {
             "type": "singleChoice",
@@ -1566,7 +1574,8 @@
                 "description": "wrong"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "明智的，沒有借 Amy 錢是明智的抉擇，因為她從不還錢。"
           },
           {
             "type": "singleChoice",
@@ -1592,7 +1601,8 @@
                 "description": "was looking for"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "Mr. Firth 正在找人幫忙帶小孩，因此用現在進行式 is looking for。"
           },
           {
             "type": "singleChoice",
@@ -1618,7 +1628,8 @@
                 "description": "and drove"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "有名女性進了他的車並開走，時態與前面的 get in 同樣為現在式。"
           },
           {
             "type": "singleChoice",
@@ -1644,7 +1655,8 @@
                 "description": "was taken away"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "小女孩已經被從超市帶走了，因此使用過去完成式。"
           },
           {
             "type": "singleChoice",
@@ -1670,7 +1682,8 @@
                 "description": "them"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "依據文意，每小時都會發車，而句中主角錯過了剛離開的其中一輛，因此選 one。"
           },
           {
             "type": "singleChoice",
@@ -1696,7 +1709,8 @@
                 "description": "was going to study"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "考試已經結束了，因此選過去式 studied。"
           },
           {
             "type": "singleChoice",
@@ -1722,7 +1736,8 @@
                 "description": "To write something on the Internet to hurt someone or make them angry."
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "根據文意，在網路上發言中傷別人的行為稱為 trolling，故選(D)。"
           },
           {
             "type": "groupChoice",
@@ -1752,7 +1767,8 @@
                     "description": "The opening of their 20th store in the USA."
                   }
                 ],
-                "correct_answer": "C"
+                "correct_answer": "C",
+                "explanation": "傳單的副標題感謝大眾陪伴 Tea-Rock 度過二十個寒暑。"
               },
               {
                 "number": 22,
@@ -1777,7 +1793,8 @@
                     "description": "Another picture of the tea cup."
                   }
                 ],
-                "correct_answer": "C"
+                "correct_answer": "C",
+                "explanation": "明信片上缺少 Jason 的生日。"
               }
             ]
           },
@@ -1809,7 +1826,8 @@
                     "description": "400 ml of rice milk has less sugar than 400 ml of grape juice."
                   }
                 ],
-                "correct_answer": "D"
+                "correct_answer": "D",
+                "explanation": "(A)每 66 克冰淇淋中有 16 克糖\n(B)成年男性一天可食用 9 茶匙的糖，成年女性則是 6 茶匙\n(C)美國人一天所攝取的糖（18.75 茶匙）比台灣人還多（17.75 茶匙）。"
               },
               {
                 "number": 24,
@@ -1834,7 +1852,8 @@
                     "description": "To let us know how much sugar is enough to make foods and drinks taste good."
                   }
                 ],
-                "correct_answer": "C"
+                "correct_answer": "C",
+                "explanation": "“Sugar that is hidden in foods and drinks” 的圖想傳達我們日常生活中的飲食所含的糖遠比我們所想還來得多。"
               }
             ]
           },
@@ -1865,7 +1884,8 @@
                     "description": "To share her works and tell people how they are made."
                   }
                 ],
-                "correct_answer": "A"
+                "correct_answer": "A",
+                "explanation": "Darrell 說 Pinterest 上有許多人會分享他們的成果，Marina 可以上去找尋參考。"
               },
               {
                 "number": 26,
@@ -1890,18 +1910,19 @@
                     "description": "You spend all your life learning it."
                   }
                 ],
-                "correct_answer": "C"
+                "correct_answer": "C",
+                "explanation": "根據文意，Darrell 在 Pinterest 上學到了巧克力蛋糕從頭到尾的做法。"
               }
             ]
           },
           {
             "type": "groupChoice",
-            "description": "(27-29)\n\nTabata training is a very popular way of exercising these days. It doesn’t take much time or space, and it burns calories faster than other ways of exercising.\nThe idea of Tabata training is simple: exercise for 20 seconds, rest for 10 seconds, and then repeat (at least eight times). The moves for the 20-second exercise are not difficult to learn. Jumping jacks, high knees, squats, and planks are some of the most common moves. You can decide yourself what moves to do in your Tabata training.\nFor example, you can do more leg exercises if you want strong legs.\n\nOne great thing about Tabata training is that your body will keep burning calories for at least an hour after 4 minutes of Tabata training. But to have this wonderful “afterburn,” you need to exercise really hard during each 20 seconds. If you seldom exercise or have heart problems, this exercise may not be good for you. But for people who enjoy exercising but are too busy to go to the gym, Tabata training might just be the answer.\n\n\uD83D\uDCD6 補充說明：\ncalorie 卡路里（熱量單位）",
+            "description": "(27-29)\nTabata training is a very popular way of exercising these days. It doesn’t take much time or space, and it burns calories faster than other ways of exercising.\nThe idea of Tabata training is simple: exercise for 20 seconds, rest for 10 seconds, and then repeat (at least eight times). The moves for the 20-second exercise are not difficult to learn. Jumping jacks, high knees, squats, and planks are some of the most common moves. You can decide yourself what moves to do in your Tabata training.\nFor example, you can do more leg exercises if you want strong legs.\n\nOne great thing about Tabata training is that your body will keep burning calories for at least an hour after 4 minutes of Tabata training. But to have this wonderful “afterburn,” you need to exercise really hard during each 20 seconds. If you seldom exercise or have heart problems, this exercise may not be good for you. But for people who enjoy exercising but are too busy to go to the gym, Tabata training might just be the answer.\n\n\uD83D\uDCD6 補充說明：\ncalorie 卡路里（熱量單位）",
             "image": "111_english_27-29.png",
             "options": [
               {
                 "number": 27,
-                "description": "Which idea is talked about in the first paragraph of the reading?\n\n\uD83D\uDCD6 補充說明：\nparagraph 段落",
+                "description": "Which idea is talked about in the first paragraph of the reading?\n\uD83D\uDCD6 補充說明：\nparagraph 段落",
                 "passing_rate": 0.65,
                 "discrimination_index": 0.65,
                 "choices": [
@@ -1922,7 +1943,8 @@
                     "description": " How often you should do Tabata training."
                   }
                 ],
-                "correct_answer": "A"
+                "correct_answer": "A",
+                "explanation": "文章第一段敘述 Tabata 運動的做法。"
               },
               {
                 "number": 28,
@@ -1947,7 +1969,8 @@
                     "description": "People who already have a habit of exercising."
                   }
                 ],
-                "correct_answer": "D"
+                "correct_answer": "D",
+                "explanation": "文章最後一段建議沒有習慣的人不要輕意嘗試 Tabata 運動。"
               },
               {
                 "number": 29,
@@ -1972,7 +1995,393 @@
                     "description": "You cannot rest between moves if you want the afterburn."
                   }
                 ],
-                "correct_answer": "B"
+                "correct_answer": "B",
+                "explanation": "文章第一段最後一句指出，可以根據想鍛鍊的部位進行調整。"
+              }
+            ]
+          },
+          {
+            "type": "groupChoice",
+            "description": "(30-32)\nModern Workplace         June 5, 2016\n\n  The problem of long working hours is a real headache in our country. It kills many people every year (see Figure 1), and many companies are trying to change that. They have at least one “No Overtime Day” in a week, and it is often Wednesday. On “No Overtime Day,” workers are asked to leave their offices before 8 p.m. At 8 p.m., companies play the song “There’s Always Tomorrow” and turn off all the lights.\n  However, after the workers walk out of their offices, they don’t go home. Some go back later, turn on their table lamps, and keep working, and others find somewhere else to work until very late at night. Restaurants and coffee shops are busier on Wednesday evenings, and they have started selling drinks and meals for these workers.\n  But why do these people keep working? A study shows that workers who work more hours often have a bigger chance to get paid more and rise higher in their companies. This is true for both men and women (see Figure 2). Working long hours has become a way to show that people are hard-working. Clearly, $\\textcolor{red}{this}$ must be changed before the problem gets any worse.\n\n\uD83D\uDCD6 補充說明：\naverage 平均",
+            "image": "111_english_30-32.png",
+            "options": [
+              {
+                "number": 30,
+                "description": "There are four important points in the report:\na. What “No Overtime Day” is\nb. Why “No Overtime Day” fails\nc. Why there is “No Overtime Day” in the country\nd. How workers deal with “No Overtime Day”\nHow are they ordered in the report?\n\uD83D\uDCD6 補充說明：\norder 排序",
+                "passing_rate": 0.44,
+                "discrimination_index": 0.53,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "a->c->d->b."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "a->d->c->b."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "c ->a->b->d."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "c->a->d->b."
+                  }
+                ],
+                "correct_answer": "D",
+                "explanation": "文章先說明為什麼國內會有不加班日，接著介紹什麼是不加班日，然後是勞工如何因應不加班日，最後解釋不加班日失敗的原因。"
+              },
+              {
+                "number": 31,
+                "description": "What does $\\textcolor{red}{this}$ mean in the report?",
+                "passing_rate": 0.55,
+                "discrimination_index": 0.51,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "The way workers show they are hard-working."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "Restaurants and coffee shops open until very late at night."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "Workers do not go home when they walk out of the office."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "The number of workers who get paid more and rise higher in the company."
+                  }
+                ],
+                "correct_answer": "A",
+                "explanation": "根據前文，人們證明自己認真工作的方式是加更多的班，而這是極需改變的。"
+              },
+              {
+                "number": 32,
+                "description": "What can we learn from Figure 1 and Figure 2?",
+                "passing_rate": 0.52,
+                "discrimination_index": 0.60,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "Long working hours killed more women than men in 2014."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "Long working hours kills more and more workers every year."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "Men usually have a bigger chance to get paid more and rise higher when they work the same hours as women."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "Men and women have almost the same chance to get paid more and rise higher when they work 2,200 hours."
+                  }
+                ],
+                "correct_answer": "D",
+                "explanation": "(A)表一無法呈現出死者性別\n(B)死亡人數並沒有逐年遞增\n(C)從表一和表二無法判讀出在同樣的工時下，男性是否較女性獲得更多報酬。"
+              }
+            ]
+          },
+          {
+            "type": "groupChoice",
+            "description": "(33-36)\n\uD83D\uDCD6 補充說明：official 官方的\ngovernment 政府",
+            "image": "111_english_33-36.png",
+            "options": [
+              {
+                "number": 33,
+                "description": "Which map is most likely the map of Cameroon in 1962?\n\uD83D\uDCD6 補充說明：\nlikely 可能",
+                "image": "111_english_33.png",
+                "passing_rate": 0.57,
+                "discrimination_index": 0.62,
+                "choices": [
+                  {
+                    "answer": "A"
+                  },
+                  {
+                    "answer": "B"
+                  },
+                  {
+                    "answer": "C"
+                  },
+                  {
+                    "answer": "D"
+                  }
+                ],
+                "correct_answer": "D",
+                "explanation": "1961 年法語區和英語區合併為喀麥隆聯邦共和國。"
+              },
+              {
+                "number": 34,
+                "description": "What does $\\textcolor{red}{resentful}$ mean in the reading?",
+                "passing_rate": 0.61,
+                "discrimination_index": 0.62,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "Sad."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "Angry."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "Careful."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "Worried."
+                  }
+                ],
+                "correct_answer": "B",
+                "explanation": "resentful 不滿的，喀麥隆的英語母語人士在政府中居於少數，因此決定抗爭。"
+              },
+              {
+                "number": 35,
+                "description": "What does Cameroon’s government most likely think of Ambazonia?",
+                "passing_rate": 0.58,
+                "discrimination_index": 0.62,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "It plans to do business with Ambazonia."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "It needs Ambazonia for money and help."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "It does not want to be part of Ambazonia."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "It does not agree that Ambazonia is a country."
+                  }
+                ],
+                "correct_answer": "D",
+                "explanation": "喀麥隆當局派遣警方試圖阻止，甚至造成至少八人死亡。"
+              },
+              {
+                "number": 36,
+                "description": "What does Elisa Grant try to tell readers by talking about the history of Cameroon?",
+                "passing_rate": 0.49,
+                "discrimination_index": 0.55,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "Why speaking English is a way to get power."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "Why English speakers in Cameroon have less power."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "Why the two parts of Cameroon became one country."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "Why only 20% of the people in Cameroon speak English."
+                  }
+                ],
+                "correct_answer": "B",
+                "explanation": "文章第一段作者提出世界上大部分國家的英語使用者有較大權力，但在喀麥隆並非如此，而這要追溯該國過去一百年間的歷史。"
+              }
+            ]
+          },
+          {
+            "type": "groupChoice",
+            "description": "(37-39)\nTHE SOUTHEND TRAIL has been popular with nature lovers for years.\nThe 120-km trail passes beautiful lakes, crosses rivers, and goes through mountains and hills. This gives bird lovers some of the best places for birdwatching. The trail also takes you to the Southend Museum and to two famous castles, Edward Castle and Sloan Castle.\nIt’s best to plan one day for one part of the trail and start your hike early in the morning, because each part takes at least seven hours. If you don’t want to walk, you can bike, but make sure you stay on the main trail, because the side trails are not wide enough for biking.\nThere are two types of $\\textcolor{red}{lodging}$ for visitors. Camping is popular in summer, but it is only allowed on a few campgrounds (see the map). A more comfortable one is to stay at a hotel in one of the towns. You can find some very nice ones that also have breakfast.\n\uD83D\uDCD6 補充說明：trail 步道",
+            "image": "111_english_37-39.png",
+            "options": [
+              {
+                "number": 37,
+                "description": "What is recommended to people who are visiting the Southend Trail?\n\uD83D\uDCD6 補充說明：\nrecommend 推薦",
+                "passing_rate": 0.58,
+                "discrimination_index": 0.57,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "Camping on the side trails."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "Biking along the side trails."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "Hiking one part of the trail a day."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "Visiting the museum in the morning."
+                  }
+                ],
+                "correct_answer": "C",
+                "explanation": "因為每個部分都會花費至少七小時，因此建議一天走一段就好。"
+              },
+              {
+                "number": 38,
+                "description": "What does $\\textcolor{red}{lodging}$ mean in the reading?",
+                "passing_rate": 0.56,
+                "discrimination_index": 0.56,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "A meal to have."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "A place to stay in."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "A time for visiting."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "A way of moving around."
+                  }
+                ],
+                "correct_answer": "B",
+                "explanation": "根據文意，留宿當地的方式有露營及住在旅館，可推斷 lodging 的意思是住宿。"
+              },
+              {
+                "number": 39,
+                "description": "Kaylen will start his trip from Cove. He plans to visit one of the old castles. He also wants to go birdwatching near the river. Which parts of the trail should Kaylen go on?",
+                "passing_rate": 0.41,
+                "discrimination_index": 0.43,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "Parts 1 and 2."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "Parts 1 and 2a."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "Parts 2 and 3."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "Parts 4 and 4a."
+                  }
+                ],
+                "correct_answer": "A",
+                "explanation": "走 Part 1 和 Part 2 分別會經過河流和城堡。"
+              }
+            ]
+          },
+          {
+            "type": "groupChoice",
+            "description": "(40-43)\nEnglish words are made of 26 letters, and palindromes and anagrams are two kinds of word games about spelling. A palindrome is a word or a sentence that reads the same from left to right or from right to left, $\\underline{~~~~40~~~~}$ , “eye,” “Bob,” “my gym,” and “Was it a car or a cat I saw?” An anagram of a word or words is made by putting the letters of the word or words in a different way. Look at the words and their anagrams below. Can you think of other possible anagrams of these words?\nAnagrams are often longer words that don’t really mean anything but are fun to say. Sometimes they can even mean something $\\underline{~~~~42~~~~}$ , like when a common word, “restaurant,” becomes “Eat rats, run!”\nActually, palindromes and anagrams are $\\underline{~~~~43~~~~}$ . Palindromes can be used to learn mathematics and make music. Anagrams are also a good way to hide something. In history, people often hid their important studies in anagrams. Can you think of any other way to use them?",
+            "image": "111_english_40-43.png",
+            "options": [
+              {
+                "number": 40,
+                "passing_rate": 0.72,
+                "discrimination_index": 0.68,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "in fact"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "at first"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "of course"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "for example"
+                  }
+                ],
+                "correct_answer": "D",
+                "explanation": "舉例來說，前後文在討論有關迴文的例子，故選(D)。"
+              },
+              {
+                "number": 41,
+                "passing_rate": 0.76,
+                "discrimination_index": 0.52,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "take sit"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "Ms Easy"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "it makes"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "me steak"
+                  }
+                ],
+                "correct_answer": "C",
+                "explanation": "易位構詞是將原本的單字拆解，用同樣的字母組成新單字，唯一符合的是 it makes。"
+              },
+              {
+                "number": 42,
+                "passing_rate": 0.54,
+                "discrimination_index": 0.64,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "strange"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "difficult"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "delicious"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "important"
+                  }
+                ],
+                "correct_answer": "A",
+                "explanation": "奇怪的，文章以 “restaurant,” becomes “Eat rats, run!” 為例，說明易位構詞會造出奇怪的詞或句子。"
+              },
+              {
+                "number": 43,
+                "passing_rate": 0.43,
+                "discrimination_index": 0.41,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "more than just games"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "often played in public"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "not so popular as before"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "not first used to learn words"
+                  }
+                ],
+                "correct_answer": "A",
+                "explanation": "不只是遊戲，最後一段指出迴文有助於增進數學能力及創造音樂，易位構詞可以隱藏言下之意，因此討論的是兩者除了遊戲之外的其他功能。"
               }
             ]
           }
@@ -2621,7 +3030,8 @@
               }
             ],
             "correct_answer": "C",
-            "image": "111_society_1.png"
+            "image": "111_society_1.png",
+            "explanation": "從沙烏地阿拉伯、印尼、巴基斯坦、伊朗等，可知主要是伊斯蘭教國家。因此選 C。"
           },
           {
             "number": 2,
@@ -2648,7 +3058,8 @@
               }
             ],
             "correct_answer": "B",
-            "image": "111_society_2.png"
+            "image": "111_society_2.png",
+            "explanation": "題目重點提示於板塊交界、海岸山脈最南端，因此選 B。"
           },
           {
             "number": 3,
@@ -2675,7 +3086,8 @@
               }
             ],
             "correct_answer": "C",
-            "image": "111_society_3.png"
+            "image": "111_society_3.png",
+            "explanation": "題目顯示由濕熱變乾熱，重點是濕度，因此選逐漸遠離海邊的選項：C。"
           },
           {
             "number": 4,
@@ -2701,7 +3113,8 @@
                 "description": "增加地面水源供應，以取代地下水源"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "水庫淤積原因主要因水庫周圍與上游沙土流入。除了積極清淤外，減少來源堆積也相當重要。因此選唯一可行的A。"
           },
           {
             "number": 5,
@@ -2728,7 +3141,8 @@
               }
             ],
             "correct_answer": "D",
-            "image": "111_society_5.png"
+            "image": "111_society_5.png",
+            "explanation": "題目顯示爭取言論自由，報刊不必接受核准、新聞不必接受檢查等等，皆是戒嚴時期、解嚴前的關鍵字。因此選D。"
           },
           {
             "number": 6,

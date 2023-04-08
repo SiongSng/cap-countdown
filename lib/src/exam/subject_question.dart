@@ -26,14 +26,6 @@ abstract class SubjectQuestion {
     localStorage.favoriteQuestions = questions;
   }
 
-  void makeAsAnswered() {
-    final questions = localStorage.answeredQuestions;
-    questions.add(hash);
-    localStorage.answeredQuestions = questions.toSet().toList();
-  }
-
-  bool get isAnswered => localStorage.answeredQuestions.contains(hash);
-
   QuestionMeta get meta {
     final exams = ExamLoader.exams;
     final subject = exams

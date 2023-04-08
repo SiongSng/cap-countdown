@@ -20,11 +20,8 @@ class QuestionImage extends StatelessWidget {
     return InkWell(
       child: ClipRRect(
         borderRadius: BorderRadius.circular(8.0),
-        child: Image.asset(
-          'assets/images/exam/$imageFileName',
-          fit: BoxFit.contain,
-          height: MediaQuery.of(context).size.height * 0.35,
-        ),
+        child: Image.asset('assets/images/exam/$imageFileName',
+            fit: BoxFit.contain),
       ),
       onTap: () {
         Navigator.of(context).push(

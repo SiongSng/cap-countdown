@@ -45,7 +45,7 @@ class LocalStorage {
         value.map((key, value) => MapEntry(key, value.toJson())));
   }
 
-  /// A list of question hashes that have been answered.
+  /// A list of optional question hashes that have been answered.
   List<String> get answeredQuestions =>
       StorageHelper.get<List>('answered_questions', []).cast<String>();
 

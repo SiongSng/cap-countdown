@@ -32,7 +32,7 @@ class _SimulationExamFormState extends State<SimulationExamForm> {
                   itemBuilder: (context, index) {
                     final exam = _exams[index];
                     final totalQuestions =
-                        exam.subjects.map((e) => e.questions);
+                        exam.subjects.map((e) => e.getOptionalQuestions());
                     final completeness = totalQuestions
                             .map((e) => e.where((e) => e.isAnswered).length)
                             .reduce((v, e) => v + e) /
