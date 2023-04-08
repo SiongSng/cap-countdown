@@ -50,7 +50,8 @@ class _FavoriteQuestionsPageState extends State<FavoriteQuestionsPage> {
               return ListTile(
                 leading:
                     Text('${index + 1}.', style: const TextStyle(fontSize: 20)),
-                title: Text(description ?? question.type.name),
+                title: Text(description ?? question.type.name,
+                    overflow: TextOverflow.ellipsis),
                 trailing: Row(
                   mainAxisSize: MainAxisSize.min,
                   children: [

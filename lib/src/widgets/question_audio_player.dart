@@ -68,6 +68,7 @@ class _QuestionAudioPlayerState extends State<QuestionAudioPlayer> {
                 } else {
                   player.resume();
                 }
+                setState(() {});
               },
             )
           ]
