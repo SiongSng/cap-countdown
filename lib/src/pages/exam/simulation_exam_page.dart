@@ -4,8 +4,11 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:cap_countdown/main.dart';
 import 'package:cap_countdown/src/exam/cap_subject.dart';
 import 'package:cap_countdown/src/exam/exam_subject.dart';
+import 'package:cap_countdown/src/exam/example_question.dart';
+import 'package:cap_countdown/src/exam/group_choice_question.dart';
 import 'package:cap_countdown/src/exam/question_meta.dart';
 import 'package:cap_countdown/src/exam/question_note.dart';
+import 'package:cap_countdown/src/exam/single_choice_question.dart';
 import 'package:cap_countdown/src/exam/subject_question.dart';
 import 'package:cap_countdown/src/widgets/optional_question_view.dart';
 import 'package:cap_countdown/src/widgets/subject_question_view.dart';
@@ -175,9 +178,9 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                           ),
                         ),
                         const SizedBox(width: 8),
-                        PageIndicator(
+                        QuestionNumberIndicator(
                           currentPage: _currentPage,
-                          totalPages: questions.length,
+                          subject: widget.subject,
                           enable: !_disablePageChange,
                           onPageChanged: (page) {
                             final isEnglishListening =
@@ -422,32 +425,49 @@ class _QuestionPageState extends State<_QuestionPage>
   bool get wantKeepAlive => true;
 }
 
-class PageIndicator extends StatefulWidget {
+class QuestionNumberIndicator extends StatefulWidget {
   final int currentPage;
-  final int totalPages;
+  final ExamSubject subject;
   final bool enable;
   final void Function(int page) onPageChanged;
 
-  const PageIndicator(
+  const QuestionNumberIndicator(
       {super.key,
       required this.currentPage,
-      required this.totalPages,
+      required this.subject,
       required this.enable,
       required this.onPageChanged});
 
   @override
-  State<PageIndicator> createState() => _PageIndicatorState();
+  State<QuestionNumberIndicator> createState() =>
+      _QuestionNumberIndicatorState();
 }
 
-class _PageIndicatorState extends State<PageIndicator> {
+class _QuestionNumberIndicatorState extends State<QuestionNumberIndicator> {
   late TextEditingController _textEditingController;
-  int _inputPage = 1;
 
   @override
   void initState() {
     super.initState();
-    _textEditingController =
-        TextEditingController(text: '${widget.currentPage + 1}');
+
+    _textEditingController = TextEditingController(text: _getQuestionNumber());
+  }
+
+  String _getQuestionNumber() {
+    final question = widget.subject.questions[widget.currentPage];
+    final String questionNumber;
+
+    if (question is SingleChoiceQuestion) {
+      questionNumber = question.number.toString();
+    } else if (question is GroupChoiceQuestion) {
+      questionNumber =
+          '${question.options.first.number}~${question.options.last.number}';
+    } else if (question is ExampleQuestion) {
+      questionNumber = '示例題';
+    } else {
+      throw Exception('Unknown question type');
+    }
+    return questionNumber;
   }
 
   @override
@@ -457,39 +477,48 @@ class _PageIndicatorState extends State<PageIndicator> {
   }
 
   @override
-  void didUpdateWidget(covariant PageIndicator oldWidget) {
+  void didUpdateWidget(covariant QuestionNumberIndicator oldWidget) {
     super.didUpdateWidget(oldWidget);
-    if (widget.currentPage != oldWidget.currentPage) {
-      _textEditingController.text = '${widget.currentPage + 1}';
-      _inputPage = widget.currentPage + 1;
-    }
+    _textEditingController.text = _getQuestionNumber();
   }
 
   @override
   Widget build(BuildContext context) {
     final textStyle = Theme.of(context).textTheme.bodyLarge;
+    final optionalQuestions = widget.subject.getOptionalQuestions();
 
     return Row(
       children: [
         SizedBox(
           height: 45,
-          width: 40,
+          width: 55,
           child: TextField(
             controller: _textEditingController,
             keyboardType: TextInputType.number,
             textAlign: TextAlign.center,
-            onChanged: (text) {
-              _inputPage = int.tryParse(text) ?? 1;
-            },
             enabled: widget.enable,
-            onSubmitted: (_) {
-              _inputPage = _inputPage.clamp(1, widget.totalPages);
-              _textEditingController.text = '$_inputPage';
-              widget.onPageChanged(_inputPage - 1);
+            onSubmitted: (value) {
+              final inputPage =
+                  (int.tryParse(value) ?? 1).clamp(1, optionalQuestions.length);
+
+              int page = widget.subject.questions.indexWhere((question) {
+                if (question is SingleChoiceQuestion) {
+                  return question.number == inputPage;
+                } else if (question is GroupChoiceQuestion) {
+                  return question.options.any((e) => e.number == inputPage);
+                } else {
+                  return false;
+                }
+              });
+
+              widget.onPageChanged(page);
+              setState(() {
+                _textEditingController.text = _getQuestionNumber();
+              });
             },
           ),
         ),
-        Text(' / ${widget.totalPages}', style: textStyle),
+        Text(' / ${optionalQuestions.length}', style: textStyle),
       ],
     );
   }
