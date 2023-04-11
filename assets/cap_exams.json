@@ -2910,29 +2910,29 @@
 					{
 						"number": 1,
 						"type": "singleChoice",
-						"description": "圖(一)數線上的 A、B、C、D 四點所表示的數分別為 a、b、c、d，且 O 為原點。\n根據圖中各點的位置判斷，下列何者的值最小？",
-						"image": "111_math_1.png",
+						"description": "附圖數線上的 A、B、C、D 四點所表示的數分別為 a、b、c、d，且 O 為原點。根據圖中各點的位置判斷，下列何者的值最小？",
 						"passing_rate": 0.87,
 						"discrimination_index": 0.51,
 						"choices": [
 							{
 								"answer": "A",
-								"description": "$|a|$"
+								"description": "$\\abs{a}$"
 							},
 							{
 								"answer": "B",
-								"description": "$|b|$"
+								"description": "$\\abs{b}$"
 							},
 							{
 								"answer": "C",
-								"description": "$|c|$"
+								"description": "$\\abs{c}$"
 							},
 							{
 								"answer": "D",
-								"description": "$|d|$"
+								"description": "$\\abs{d}$"
 							}
 						],
 						"correct_answer": "A",
+						"image": "111_math_1.png",
 						"explanation": "$\\because$ A、B、C、D 四點到 O 點的距離中最小\n$\\therefore |a|$的值最小。"
 					},
 					{
@@ -2988,6 +2988,596 @@
 						],
 						"correct_answer": "C",
 						"explanation": "$\\begin{aligned}\\\\&2\\underline{|\\ 156\\quad \\ \\ \\ }\\\\&\\quad2\\underline{|\\ 78\\quad\\ }\\\\&\\qquad 3\\underline{|\\ 39\\ }\\\\&\\qquad \\quad 13\\\\ \\end{aligned}$\n$\\therefore$ 156的質因數有 2、3、13"
+					},
+					{
+						"number": 4,
+						"type": "singleChoice",
+						"description": "附圖為一個長方體的展開圖，且長方體的底面為正方形。根據圖中標示的長度，求此長方體的體積為何？",
+						"passing_rate": 0.78,
+						"discrimination_index": 0.57,
+						"choices": [
+							{
+								"answer": "A",
+								"description": "144"
+							},
+							{
+								"answer": "B",
+								"description": "224"
+							},
+							{
+								"answer": "C",
+								"description": "264"
+							},
+							{
+								"answer": "D",
+								"description": "300"
+							}
+						],
+						"correct_answer": "B",
+						"image": "111_math_4.png"
+					},
+					{
+						"number": 5,
+						"type": "singleChoice",
+						"description": "算式 $\\frac{9}{22}+\\frac{11}{18}-\\left(\\frac{23}{22}-\\frac{7}{18}\\right)$ 之值為何？",
+						"passing_rate": 0.81,
+						"discrimination_index": 0.58,
+						"choices": [
+							{
+								"answer": "A",
+								"description": "$\\frac{4}{11}$"
+							},
+							{
+								"answer": "B",
+								"description": "$\\frac{9}{10}$"
+							},
+							{
+								"answer": "C",
+								"description": "$\\frac{1}{9}$"
+							},
+							{
+								"answer": "D",
+								"description": "$\\frac{5}{4}$"
+							}
+						],
+						"correct_answer": "A"
+					},
+					{
+						"number": 6,
+						"type": "singleChoice",
+						"description": "$\\sqrt{2022}$ 的值介於下列哪兩個數之間？",
+						"passing_rate": 0.75,
+						"discrimination_index": 0.64,
+						"choices": [
+							{
+								"answer": "A",
+								"description": "25，30"
+							},
+							{
+								"answer": "B",
+								"description": "30，35"
+							},
+							{
+								"answer": "C",
+								"description": "35，40"
+							},
+							{
+								"answer": "D",
+								"description": "40，45"
+							}
+						],
+						"correct_answer": "D"
+					},
+					{
+						"number": 7,
+						"type": "singleChoice",
+						"description": "已知坐標平面上有一直線 $L$ 與一點 $A$。若 $L$ 的方程式為 $x=-2$ ，$A$ 點坐標為 $(6 , 5)$ ，則 $A$ 點到直線 $L$ 的距離為何？",
+						"passing_rate": 0.69,
+						"discrimination_index": 0.56,
+						"choices": [
+							{
+								"answer": "A",
+								"description": "3"
+							},
+							{
+								"answer": "B",
+								"description": "4"
+							},
+							{
+								"answer": "C",
+								"description": "7"
+							},
+							{
+								"answer": "D",
+								"description": "8"
+							}
+						],
+						"correct_answer": "D"
+					},
+					{
+						"number": 8,
+						"type": "singleChoice",
+						"description": "多項式 $39x^2+5x-14$ 可因式分解成 $(3x+a)(bx+c)$ ，其中 $a、b、c$ 均為整數，求 $a+2c$ 之值為何？",
+						"passing_rate": 0.71,
+						"discrimination_index": 0.61,
+						"choices": [
+							{
+								"answer": "A",
+								"description": "-12"
+							},
+							{
+								"answer": "B",
+								"description": "-3"
+							},
+							{
+								"answer": "C",
+								"description": "3"
+							},
+							{
+								"answer": "D",
+								"description": "12"
+							}
+						],
+						"correct_answer": "A"
+					},
+					{
+						"number": 9,
+						"type": "singleChoice",
+						"description": "箱子內有分別標示號碼 1～6 的球，每個號碼各 2 顆，總共 12 顆。已知小茹先從箱內抽出 5 顆球且不將球放回箱內，這 5 顆球的號碼分別是 1、2、2、3、5。今阿純打算從此箱內剩下的球中抽出 1 顆球，若箱內剩下的每顆球被他抽出的機會相等，則他抽出的球的號碼，與小茹已抽出的 5 顆球中任意一顆球的號碼相同的機率是多少？",
+						"passing_rate": 0.73,
+						"discrimination_index": 0.56,
+						"choices": [
+							{
+								"answer": "A",
+								"description": "$\\frac{3}{6}$"
+							},
+							{
+								"answer": "B",
+								"description": "\\frac{4}{6}"
+							},
+							{
+								"answer": "C",
+								"description": "\\frac{3}{7}"
+							},
+							{
+								"answer": "D",
+								"description": "\\frac{4}{7}"
+							}
+						],
+						"correct_answer": "C"
+					},
+					{
+						"number": 10,
+						"type": "singleChoice",
+						"description": "已知一元二次方程式 $(x-2)^2=3$ 的兩根為 $a、b$ ，且 $a>b$，求 $2a+b$ 之值為何？",
+						"passing_rate": 0.64,
+						"discrimination_index": 0.52,
+						"choices": [
+							{
+								"answer": "A",
+								"description": "$9$"
+							},
+							{
+								"answer": "B",
+								"description": "$-3$"
+							},
+							{
+								"answer": "C",
+								"description": "$6+\\sqrt{3}$"
+							},
+							{
+								"answer": "D",
+								"description": "$-6+\\sqrt{3}$"
+							}
+						],
+						"correct_answer": "C"
+					},
+					{
+						"number": 11,
+						"type": "singleChoice",
+						"description": "根據附圖中兩人的對話紀錄，求出哥哥買遊戲機的預算為多少元？",
+						"passing_rate": 0.7,
+						"discrimination_index": 0.56,
+						"choices": [
+							{
+								"answer": "A",
+								"description": "3800"
+							},
+							{
+								"answer": "B",
+								"description": "4800"
+							},
+							{
+								"answer": "C",
+								"description": "5800"
+							},
+							{
+								"answer": "D",
+								"description": "6800"
+							}
+						],
+						"correct_answer": "C",
+						"image": "111_math_11.png"
+					},
+					{
+						"number": 12,
+						"type": "singleChoice",
+						"description": "已知 $p=7.52 \\times 10^{-6}$ ，下列關於 $p$ 值的敘述何者正確？",
+						"passing_rate": 0.64,
+						"discrimination_index": 0.59,
+						"choices": [
+							{
+								"answer": "A",
+								"description": "小於 0"
+							},
+							{
+								"answer": "B",
+								"description": "介於 0 與 1 兩數之間，兩數中比較接近 0"
+							},
+							{
+								"answer": "C",
+								"description": "介於 0 與 1 兩數之間，兩數中比較接近 1"
+							},
+							{
+								"answer": "D",
+								"description": "大於 1"
+							}
+						],
+						"correct_answer": "B"
+					},
+					{
+						"number": 13,
+						"type": "singleChoice",
+						"description": "如圖，為圓 $O$ 的一弦，且 $C$ 點在 $\\overline{AB}$ 上。若 $\\overline{AC}=6$ ， $\\overline{BC}=2$ ， $\\overline{AB}$ 的弦心距為 3，則 $\\overline{OC}$ 的長度為何？",
+						"passing_rate": 0.56,
+						"discrimination_index": 0.62,
+						"choices": [
+							{
+								"answer": "A",
+								"description": "$3$"
+							},
+							{
+								"answer": "B",
+								"description": "$4$"
+							},
+							{
+								"answer": "C",
+								"description": "$\\sqrt{11}$"
+							},
+							{
+								"answer": "D",
+								"description": "$\\sqrt{13}$"
+							}
+						],
+						"correct_answer": "D",
+						"image": "111_math_13.png"
+					},
+					{
+						"number": 14,
+						"type": "singleChoice",
+						"description": "某國主計處調查 2017 年該國所有受僱員工的年薪資料，並公布調查結果如附圖的直方圖所示。已知總調查人數為 750 萬人，根據圖中資訊計算，該國受僱員工年薪低於平均數的人數占總調查人數的百分率為下列何者？",
+						"passing_rate": 0.74,
+						"discrimination_index": 0.56,
+						"choices": [
+							{
+								"answer": "A",
+								"description": "$6%$"
+							},
+							{
+								"answer": "B",
+								"description": "$50%$"
+							},
+							{
+								"answer": "C",
+								"description": "$68%$"
+							},
+							{
+								"answer": "D",
+								"description": "$73%$"
+							}
+						],
+						"correct_answer": "C",
+						"image": "111_math_14.png"
+					},
+					{
+						"number": 15,
+						"type": "singleChoice",
+						"description": "如圖， $\\triangle ABC$ 中， $D$ 點在 $\\overline{AB}$ 上， $E$ 點在 $\\overline{BC}$ 上， $\\overline{DE}$ 為 $\\overline{BC}$ 的中垂線。若 $\\angle B=\\angle C$ ，且 $\\angle EAC>90^\\circ$ ，則根據圖中標示的角，判斷下列敘述何者正確？",
+						"passing_rate": 0.53,
+						"discrimination_index": 0.49,
+						"choices": [
+							{
+								"answer": "A",
+								"description": "$\\angle 1 = \\angle 2，\\angle 1 < \\angle 3$"
+							},
+							{
+								"answer": "B",
+								"description": "$\\angle 1 = \\angle 2，\\angle 1 > \\angle 3$"
+							},
+							{
+								"answer": "C",
+								"description": "$\\angle 1 \\neq \\angle 2，\\angle 1 < \\angle 3$"
+							},
+							{
+								"answer": "D",
+								"description": "$\\angle 1 \\neq \\angle 2，\\angle 1 > \\angle 3$"
+							}
+						],
+						"correct_answer": "B",
+						"image": "111_math_15.png"
+					},
+					{
+						"number": 16,
+						"type": "singleChoice",
+						"description": "緩降機是火災發生時避難的逃生設備，附圖是廠商提供的緩降機安裝示意圖，圖中呈現在三樓安裝緩降機時，使用此緩降機直接緩降到一樓地面的所需繩長(不計安全帶)。若某棟建築的每個樓層高度皆為 3 公尺，則根據附圖的安裝方式在該建築八樓安裝緩降機時，使用此緩降機直接緩降到一樓地面的所需繩長(不計安全帶)為多少公尺？",
+						"passing_rate": 0.55,
+						"discrimination_index": 0.58,
+						"choices": [
+							{
+								"answer": "A",
+								"description": "21.7"
+							},
+							{
+								"answer": "B",
+								"description": "22.6"
+							},
+							{
+								"answer": "C",
+								"description": "24.7"
+							},
+							{
+								"answer": "D",
+								"description": "25.6"
+							}
+						],
+						"correct_answer": "A",
+						"image": "111_math_16.png"
+					},
+					{
+						"number": 17,
+						"type": "singleChoice",
+						"description": "附圖為兩直線 $L、M$ 與 $\\triangle ABC$ 相交的情形，其中 $L、M$ 分別與 $\\overline{BC}、\\overline{AB}$ 平行。根據圖中標示的角度，求 $\\angle B$ 的度數為何？",
+						"passing_rate": 0.49,
+						"discrimination_index": 0.58,
+						"choices": [
+							{
+								"answer": "A",
+								"description": "55"
+							},
+							{
+								"answer": "B",
+								"description": "60"
+							},
+							{
+								"answer": "C",
+								"description": "65"
+							},
+							{
+								"answer": "D",
+								"description": "70"
+							}
+						],
+						"correct_answer": "A",
+						"image": "111_math_17.png"
+					},
+					{
+						"number": 18,
+						"type": "singleChoice",
+						"description": "某鞋店正舉辦開學特惠活動，附圖為活動說明。小徹打算在該店同時購買一雙球鞋及一雙皮鞋，且他有一張所有購買的商品定價皆打 8 折的折價券。若小徹計算後發現使用折價券與參加特惠活動兩者的花費相差 50 元，則下列敘述何者正確？",
+						"passing_rate": 0.51,
+						"discrimination_index": 0.47,
+						"choices": [
+							{
+								"answer": "A",
+								"description": "使用折價券的花費較少，且兩雙鞋的定價相差 100 元"
+							},
+							{
+								"answer": "B",
+								"description": "使用折價券的花費較少，且兩雙鞋的定價相差 250 元"
+							},
+							{
+								"answer": "C",
+								"description": "參加特惠活動的花費較少，且兩雙鞋的定價相差 100 元"
+							},
+							{
+								"answer": "D",
+								"description": "參加特惠活動的花費較少，且兩雙鞋的定價相差 250 元"
+							}
+						],
+						"correct_answer": "B",
+						"image": "111_math_18.png"
+					},
+					{
+						"number": 19,
+						"type": "singleChoice",
+						"description": "如圖， $\\triangle ABC$ 的重心為 $G$ ， $\\overline{BC}$ 的中點為 $D$，今以 $G$ 為圓心， $\\overline{GD}$ 長為半徑畫一圓，且作 $A$ 點到圓 $G$ 的兩切線段 $\\overline{AE}、\\overline{AF}$ ，其中 $E、F$ 均為切點。根據圖中標示的角與角度，求 $\\angle 1$ 與 $\\angle 2$ 的度數和為多少？",
+						"passing_rate": 0.5,
+						"discrimination_index": 0.4,
+						"choices": [
+							{
+								"answer": "A",
+								"description": "30"
+							},
+							{
+								"answer": "B",
+								"description": "35"
+							},
+							{
+								"answer": "C",
+								"description": "40"
+							},
+							{
+								"answer": "D",
+								"description": "45"
+							}
+						],
+						"correct_answer": "B",
+						"image": "111_math_19.png"
+					},
+					{
+						"number": 20,
+						"type": "singleChoice",
+						"description": "左圖為一張正三角形紙片 $ABC$ ，其中 $D$ 點在上， $E$ 點在上。今以為摺線將 $B$ 點往右摺後， $\\overline{BD}、\\overline{BE}$ 分別與相交於 $F$ 點、 $G$ 點，如右圖所示。若 $\\overline{AD}=10，\\overline{AF}=16，\\overline{DF}=14，\\overline{BF}=8$ ，則的長度為多少？",
+						"passing_rate": 0.5,
+						"discrimination_index": 0.43,
+						"choices": [
+							{
+								"answer": "A",
+								"description": "7"
+							},
+							{
+								"answer": "B",
+								"description": "8"
+							},
+							{
+								"answer": "C",
+								"description": "9"
+							},
+							{
+								"answer": "D",
+								"description": "10"
+							}
+						],
+						"correct_answer": "C",
+						"image": "111_math_20.png"
+					},
+					{
+						"number": 21,
+						"type": "singleChoice",
+						"description": "有一直徑為 $\\overline{AB}$ 的圓，且圓上有 $C、D、E、F$ 四點，其位置如圖所示。若 $\\overline{AC}=6，\\overline{AD}=8，\\overline{AE}=5，\\overline{AF}=9，\\overline{AB}=10$ ，則下列弧長關係何者正確？",
+						"passing_rate": 0.41,
+						"discrimination_index": 0.5,
+						"choices": [
+							{
+								"answer": "A",
+								"description": "$\\overparen{AC}+\\overparen{AD}=\\overparen{AB}，\\overparen{AE}+\\overparen{AF}=\\overparen{AB}$"
+							},
+							{
+								"answer": "B",
+								"description": "$\\overparen{AC}+\\overparen{AD}=\\overparen{AB}，\\overparen{AE}+\\overparen{AF}\\neq\\overparen{AB}$"
+							},
+							{
+								"answer": "C",
+								"description": "$\\overparen{AC}+\\overparen{AD}\\neq\\overparen{AB}，\\overparen{AE}+\\overparen{AF}=\\overparen{AB}$"
+							},
+							{
+								"answer": "D",
+								"description": "$\\overparen{AC}+\\overparen{AD}\\neq\\overparen{AB}，\\overparen{AE}+\\overparen{AF}\\neq\\overparen{AB}$"
+							}
+						],
+						"correct_answer": "B",
+						"image": "111_math_21.png"
+					},
+					{
+						"number": 22,
+						"type": "singleChoice",
+						"description": "已知坐標平面上有二次函數 $y=-(x+6)^2+5$ 的圖形，函數圖形與 $x$ 軸相交於 $(a , 0)、(b , 0)$ 兩點，其中 $a<b$ 。今將此函數圖形往上平移，平移後函數圖形與 $x$ 軸相交於 $(c , 0)、(d , 0)$ 兩點，其中 $c<d$，判斷下列敘述何者正確？",
+						"passing_rate": 0.4,
+						"discrimination_index": 0.44,
+						"choices": [
+							{
+								"answer": "A",
+								"description": "$(a+b)=(c+d)，(b-a)<(d-c)$"
+							},
+							{
+								"answer": "B",
+								"description": "$(a+b)=(c+d)，(b-a)>(d-c)$"
+							},
+							{
+								"answer": "C",
+								"description": "$(a+b)<(c+d)，(b-a)<(d-c)$"
+							},
+							{
+								"answer": "D",
+								"description": "$(a+b)<(c+d)，(b-a)>(d-c)$"
+							}
+						],
+						"correct_answer": "A"
+					},
+					{
+						"number": 23,
+						"type": "singleChoice",
+						"description": "$\\reiangle ABC$ 的邊上有 $D、E、F$ 三點，各點位置如圖所示。若 $\\angle B=\\angle FAC，\\overline{BD}=\\overline{AC}，\\angle BDE=\\angle C$ ，則根據圖中標示的長度，求四邊形 $ADEF$ 與 $\\triangle ABC$ 的面積比為何？",
+						"passing_rate": 0.33,
+						"discrimination_index": 0.44,
+						"choices": [
+							{
+								"answer": "A",
+								"description": "$1:3$"
+							},
+							{
+								"answer": "B",
+								"description": "$1:4$"
+							},
+							{
+								"answer": "C",
+								"description": "$2:5$"
+							},
+							{
+								"answer": "D",
+								"description": "$3:8$"
+							}
+						],
+						"correct_answer": "D",
+						"image": "111_math_23.png"
+					},
+					{
+						"type": "groupChoice",
+						"description": "表(一)、表(二)呈現 PA、PB 兩種日光燈管的相關數據，其中光通量用來衡量日光燈管的明亮程度。",
+						"options": [
+							{
+								"number": 24,
+								"description": "已知日光燈管的發光效率為光通量與功率的比值，甲、乙兩人根據表(一)、表(二)的資訊提出以下看法：\n(甲) PA-20 日光燈管的發光效率比 PB-14 日光燈管高\n(乙) PA 日光燈管中，功率較大的燈管其發光效率較高\n關於甲、乙兩人的看法，下列敘述何者正確？",
+								"passing_rate": 0.44,
+								"discrimination_index": 0.51,
+								"choices": [
+									{
+										"answer": "A",
+										"description": "甲、乙皆正確"
+									},
+									{
+										"answer": "B",
+										"description": "甲、乙皆錯誤"
+									},
+									{
+										"answer": "C",
+										"description": "甲正確，乙錯誤"
+									},
+									{
+										"answer": "D",
+										"description": "甲錯誤，乙正確"
+									}
+								],
+								"correct_answer": "D"
+							},
+							{
+								"number": 25,
+								"description": "有一間公司請水電工程廠商安裝日光燈管，廠商提供兩種方案如表(三)所示。已知 n 支功率皆為 w 瓦的燈管都使用 t 小時後消耗的電能(度) $=\\frac{n}{1000} \\times w \\times t$ ，若每支燈管使用時間皆相同，且只考慮燈管消耗的電能並以每度 5 元計算電費，則兩種方案相比，燈管使用時間至少要超過多少小時，採用省電方案所節省的電費才會高於兩者相差的施工費用？",
+								"passing_rate": 0.42,
+								"discrimination_index": 0.42,
+								"choices": [
+									{
+										"answer": "A",
+										"description": "12200"
+									},
+									{
+										"answer": "B",
+										"description": "12300"
+									},
+									{
+										"answer": "C",
+										"description": "12400"
+									},
+									{
+										"answer": "D",
+										"description": "12500"
+									}
+								],
+								"correct_answer": "D",
+								"image": "111_math_25.png"
+							}
+						],
+						"image": "111_math_24-25.png"
 					}
 				]
 			},
