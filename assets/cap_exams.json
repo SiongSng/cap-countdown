@@ -4499,7 +4499,8 @@
 								"description": "百帕是下雨的機會"
 							}
 						],
-						"correct_answer": "A"
+						"correct_answer": "A",
+						"explanation": "百帕(hPa)為氣象上常用的氣壓單位之一。"
 					},
 					{
 						"number": 2,
@@ -4525,7 +4526,8 @@
 								"description": "彈力(性)位能"
 							}
 						],
-						"correct_answer": "C"
+						"correct_answer": "C",
+						"explanation": "地表附近的重力位能改變為: $\\delta U = mg \\delta h$ 。因此蓮霧掉落時高度下降會造成重力位 能的減少，進而轉換成動能。"
 					},
 					{
 						"number": 3,
@@ -4551,7 +4553,8 @@
 								"description": "活性較小"
 							}
 						],
-						"correct_answer": "D"
+						"correct_answer": "D",
+						"explanation": "氮氣($N_2$)是常見的惰性氣體之一，特性為不容易與其他物質產生化學反應。"
 					},
 					{
 						"number": 4,
@@ -4577,7 +4580,8 @@
 								"description": "大洋區"
 							}
 						],
-						"correct_answer": "C"
+						"correct_answer": "C",
+						"explanation": "珊瑚居住地為熱帶海洋，因此排除(A)；珊瑚不適合居住在含有大量泥沙處，因此 排除泥沙堆積處(B)；藻類需要在陽光可照射到的水域生存，因此排除過深的大洋區(D)。故選(C)。"
 					},
 					{
 						"number": 5,
@@ -4603,7 +4607,8 @@
 								"description": "含羞草受外力觸碰後小葉閉合"
 							}
 						],
-						"correct_answer": "A"
+						"correct_answer": "A",
+						"explanation": "(A)為植物生長素不均造成，需要一段時間才會反映出來。(B)、(D)皆是立即的反 應；(C)小時等級以內的反應。故選(A)。"
 					},
 					{
 						"number": 6,
@@ -4629,7 +4634,8 @@
 								"description": "紐西蘭的白晝與夜晚長度都和英國大約相同"
 							}
 						],
-						"correct_answer": "B"
+						"correct_answer": "B",
+						"explanation": "聖誕節(12/25)時太陽直射南半球，因此所在南半球的紐西蘭的白晝長度會比在北 半球的英國長。故選(B)。"
 					},
 					{
 						"number": 7,
@@ -4656,7 +4662,8 @@
 							}
 						],
 						"correct_answer": "B",
-						"image": "111_nature_7.png"
+						"image": "111_nature_7.png",
+						"explanation": "玻璃瓶的熱膨脹行為跟洋芋片包裝不同，因此就算沒有可觀測的膨脹現象，也無法 證明溫度對此的影響。其他選項選用的皆是一樣的洋芋片包裝與溫度關係的反例。故選(B)"
 					},
 					{
 						"number": 8,
@@ -4683,7 +4690,8 @@
 							}
 						],
 						"correct_answer": "B",
-						"image": "111_nature_8.png"
+						"image": "111_nature_8.png",
+						"explanation": "氫原子尺寸為 Angstrom 等級($10^{-10}$ m)；皮膜細胞為微米($10^{-6}$ m)等級；太陽尺寸為 106 km 等級；月球尺寸為 103 km 等級。故選(B)。"
 					},
 					{
 						"number": 9,
@@ -4709,7 +4717,8 @@
 								"description": "只有前者是化學變化"
 							}
 						],
-						"correct_answer": "C"
+						"correct_answer": "C",
+						"explanation": "變色由文中敘述可知，鮮奶油仍維持原本的性質，因此是一種物理變化。而變質是鮮奶油已經腐壞，其內部成份已經不同，因使此是一種化學變化。故選(C)。"
 					},
 					{
 						"number": 10,
@@ -4735,12 +4744,13 @@
 								"description": "屬於無機化合物，也是非電解質"
 							}
 						],
-						"correct_answer": "A"
+						"correct_answer": "A",
+						"explanation": "含碳化合物且非碳氧化物、碳酸鹽類或氰化物，因此是有機化合物；有酸味代表會 在水中解離出 $H^+$ ，因此是電解質。故選(A)。"
 					},
 					{
 						"number": 11,
 						"type": "singleChoice",
-						"description": "人類的 ABO 血型是由一對遺傳因子(等位基因)控制，而控制此血型的遺傳因子有 $I^A$ 、 $I^B$ 和 $i$ 三種型式，其中 $I^A$ 和 $I^B$ 是顯性，$i$ 是隱性，血型和基因型的關係如左表所示。右表為甲～丁四組父母的血型配對，在不考慮突變的情況下，則右表中的何種組別不可能生下 O 型血型的子女？",
+						"description": "人類的 ABO 血型是由一對遺傳因子(等位基因)控制，而控制此血型的遺傳因子有 $I^A$ 、 $I^B$ 和 i 三種型式，其中 $I^A$ 和 $I^B$ 是顯性，i 是隱性，血型和基因型的關係如左表所示。右表為甲～丁四組父母的血型配對，在不考慮突變的情況下，則右表中的何種組別不可能生下 O 型血型的子女？",
 						"passing_rate": 0.73,
 						"discrimination_index": 0.59,
 						"choices": [
@@ -4762,7 +4772,8 @@
 							}
 						],
 						"correct_answer": "C",
-						"image": "111_nature_11.png"
+						"image": "111_nature_11.png",
+						"explanation": "要生出 O 型子女前提是父母皆至少有一個 i 遺傳因子。因此丙的母親是 AB 型($I^AI^B$) 便不可能生下 O 型子女。"
 					},
 					{
 						"number": 12,
@@ -4789,7 +4800,8 @@
 							}
 						],
 						"correct_answer": "A",
-						"image": "111_nature_12.png"
+						"image": "111_nature_12.png",
+						"explanation": "(B)選項兩組實驗的斜面長度不同；(C)選項並無適合的實驗組合可得知夾角θ的影 響；(D)選項應選編號 1、2 或編號 3、4。故選(A)。"
 					},
 					{
 						"number": 13,
@@ -4815,7 +4827,8 @@
 								"description": "軟流圈包括了地函與一部分的地殼"
 							}
 						],
-						"correct_answer": "C"
+						"correct_answer": "C",
+						"explanation": "(A)岩石圈=地殼+上地函；(B)軟流圈在岩石圈以下中間圈以上，屬於地函的一部分，因此厚度小於地函厚度；(C)同(A)，為正確選項；(D)同(B)，軟流圈不包含地殼。"
 					},
 					{
 						"number": 14,
@@ -4841,7 +4854,8 @@
 								"description": "利用「三稜鏡」將陽光分散成七種不同顏色的光"
 							}
 						],
-						"correct_answer": "A"
+						"correct_answer": "A",
+						"explanation": "(A)針孔成像為光的直進性表現；(B)光經過放大鏡過程會發生折 折射現象，因此有改變方向；(C)光透過鏡子反 反射進眼中，有改變其行進方向；(D)三稜鏡是透過不同頻率的光有不同折 折射角達到色散效果，同(B)。"
 					},
 					{
 						"number": 15,
@@ -4868,7 +4882,8 @@
 							}
 						],
 						"correct_answer": "C",
-						"image": "111_nature_15.png"
+						"image": "111_nature_15.png",
+						"explanation": "地下水面應和河面同高，故選(C)。"
 					},
 					{
 						"number": 16,
@@ -4895,7 +4910,8 @@
 							}
 						],
 						"correct_answer": "B",
-						"image": "111_nature_16.png"
+						"image": "111_nature_16.png",
+						"explanation": "由無限長直導線的磁場分布公式 $B=\\frac{\\mu_0 I}{2\\pi r}$ 可知，在與導線垂直距離相同的位置會有同樣的磁場強度。由安培右手定則可知，兩處磁場方向相反。故選(B)。"
 					},
 					{
 						"number": 17,
@@ -4922,7 +4938,8 @@
 							}
 						],
 						"correct_answer": "C",
-						"image": "111_nature_17.png"
+						"image": "111_nature_17.png",
+						"explanation": "葉綠體尺寸較小且可製作成透光試片，適合使用有較大放大倍率的複式顯微鏡；觀 察雄蕊數目不需太大放大倍率，且不易製作透光試片，因此適合使用解剖顯微鏡。"
 					},
 					{
 						"number": 18,
@@ -4948,7 +4965,8 @@
 								"description": "甲等於乙，因植物細胞皆具有葉綠體與粒線體"
 							}
 						],
-						"correct_answer": "C"
+						"correct_answer": "C",
+						"explanation": "所有細胞都可以行呼吸作用，但不是所有植物細胞都具有葉綠體行光合作用。故選 (C)。"
 					},
 					{
 						"number": 19,
@@ -4974,7 +4992,8 @@
 								"description": "對人體的中樞神經有作用"
 							}
 						],
-						"correct_answer": "B"
+						"correct_answer": "B",
+						"explanation": "溫室效應主要來源為大氣中的氣體吸收地表輻射。故選(B)。"
 					},
 					{
 						"number": 20,
@@ -5001,7 +5020,8 @@
 							}
 						],
 						"correct_answer": "A",
-						"image": "111_nature_20.png"
+						"image": "111_nature_20.png",
+						"explanation": "(A)由平均氣溫無法得知日夜溫差的情形。故選(A)。"
 					},
 					{
 						"number": 21,
@@ -5028,7 +5048,8 @@
 							}
 						],
 						"correct_answer": "D",
-						"image": "111_nature_21.png"
+						"image": "111_nature_21.png",
+						"explanation": "$CaO + H_2O \\to Ca(OH)_2$ 。故選(D)。"
 					},
 					{
 						"number": 22,
@@ -5054,7 +5075,8 @@
 								"description": "是油脂與鹼性物質進行皂化反應後的產物"
 							}
 						],
-						"correct_answer": "B"
+						"correct_answer": "B",
+						"explanation": "二氯甲烷含有氯，相對於 C、H 是較具毒性的成份。"
 					},
 					{
 						"number": 23,
@@ -5081,7 +5103,8 @@
 							}
 						],
 						"correct_answer": "D",
-						"image": "111_nature_23.png"
+						"image": "111_nature_23.png",
+						"explanation": "蛇在能量塔中為丙，因此乙所具有的總能量應大於蛇的總能量 10000 能量單位。故 選(D)。"
 					},
 					{
 						"number": 24,
@@ -5108,7 +5131,8 @@
 							}
 						],
 						"correct_answer": "B",
-						"image": "111_nature_24.png"
+						"image": "111_nature_24.png",
+						"explanation": "(A) 甲應為大陸冷氣團；(B)乙應為熱帶性低氣壓，故應沿等壓線切線並呈現逆 時針方向，故正確；(C)文中提到台灣是東北風，所以因為地形雨的關係，應是 台灣北部、東北部有較強的雨勢；(D)熱帶性低氣壓應不會產生晴朗的天氣型態。"
 					},
 					{
 						"number": 25,
@@ -5135,7 +5159,8 @@
 							}
 						],
 						"correct_answer": "D",
-						"image": "111_nature_25.png"
+						"image": "111_nature_25.png",
+						"explanation": "(A) 甲、乙速度差不為零，故距離無法保持不變；(B)同(A)；(C)甲、丁朝反方 向前進，因此距離越來越遠；(D)乙、丁速度差不為零，故兩車距離隨時間增加。"
 					},
 					{
 						"number": 26,
@@ -5162,7 +5187,8 @@
 							}
 						],
 						"correct_answer": "D",
-						"image": "111_nature_26.png"
+						"image": "111_nature_26.png",
+						"explanation": "心房連接動脈，故刪除(A)、(B)。含氧量高的是連接主動脈，含氧量低的是連接肺 動脈。故選(D)。"
 					},
 					{
 						"number": 27,
@@ -5189,7 +5215,8 @@
 							}
 						],
 						"correct_answer": "B",
-						"image": "111_nature_27.png"
+						"image": "111_nature_27.png",
+						"explanation": "甲國具有碳排放的發電方式皆減少發電比例，故總碳排會下降；乙國雖然無碳排的 發電方式比例不變，但增加低碳排放的燃氣發電比例，故總碳排一樣會下降。故選 (B)。"
 					},
 					{
 						"number": 28,
@@ -5216,7 +5243,8 @@
 							}
 						],
 						"correct_answer": "B",
-						"image": "111_nature_28.png"
+						"image": "111_nature_28.png",
+						"explanation": "$\\delta H = m \\times s \\times \\delta T$ ，因此若熱源相同，甲乙兩杯的上升溫度應和 M 反比，即 $\\delta T_甲 : \\delta T_乙 = M_乙 : M_甲=2:3。故選(B)。"
 					},
 					{
 						"number": 29,
@@ -5242,7 +5270,8 @@
 								"description": "使水中的溶氧量減少，pH 值減少"
 							}
 						],
-						"correct_answer": "A"
+						"correct_answer": "A",
+						"explanation": "利用水車增加水中含氧量，並投放鹼性的熟石灰增加水中 pH 值。故選(A) "
 					},
 					{
 						"number": 30,
@@ -5269,7 +5298,8 @@
 							}
 						],
 						"correct_answer": "A",
-						"image": "111_nature_30.png"
+						"image": "111_nature_30.png",
+						"explanation": "由鍍銅示意圖可知，應有電子流入(或電流流出)鑰匙端與 $Cu^{2+}$ 結合以鍍上 Cu。因此判斷黑色箭號為電流。由此可知灰色箭號為電子流。因此可排除(B)、(D)。而由於 Zn 比 Cu 更容易失去電子，因此判斷甲為 Zn、乙為 Cu。故選(A)。"
 					},
 					{
 						"number": 31,
@@ -5295,7 +5325,8 @@
 								"description": "若為陰離子，且 $N_X>N_Y=N_Z$ ，則 Z 為電子"
 							}
 						],
-						"correct_answer": "C"
+						"correct_answer": "C",
+						"explanation": "X 質量最小，因此 X 為電子，故排除(B)、(D)。(A) Y 為質子。故選(C)。"
 					},
 					{
 						"number": 32,
@@ -5321,7 +5352,8 @@
 								"description": "乙，因有檢測出澱粉"
 							}
 						],
-						"correct_answer": "C"
+						"correct_answer": "C",
+						"explanation": "碘液原本為黃褐色，接觸澱粉後呈現藍黑色。因此甲仍含有澱粉、乙已經沒有澱粉 了。由於乙中的澱粉被蜂蜜中的酵素分解了，故選(C)。"
 					},
 					{
 						"number": 33,
@@ -5348,7 +5380,8 @@
 							}
 						],
 						"correct_answer": "A",
-						"image": "111_nature_33.png"
+						"image": "111_nature_33.png",
+						"explanation": "圖左總力矩為 $L_1=F\\times20\\ cm\\ +\\ F\\times20\\ cm = F\\times40\\ cm$ 。\n圖右總力矩為$L_2=F\\times40\\ cm=L_1$。\n故選(A)。"
 					},
 					{
 						"number": 34,
@@ -5375,7 +5408,8 @@
 							}
 						],
 						"correct_answer": "D",
-						"image": "111_nature_34.png"
+						"image": "111_nature_34.png",
+						"explanation": "P 點花了 $3.0 × 10^{-2} s$ 回到依樣高度，因此週期為 $3.0 × 10^{-2} s$。故選(D)。"
 					},
 					{
 						"number": 35,
@@ -5401,7 +5435,8 @@
 								"description": "腎臟"
 							}
 						],
-						"correct_answer": "B"
+						"correct_answer": "B",
+						"explanation": "尿素在肝臟的尿素循環中製造出來，故選(B)。"
 					},
 					{
 						"number": 36,
@@ -5427,7 +5462,8 @@
 								"description": "只有小志合理"
 							}
 						],
-						"correct_answer": "D"
+						"correct_answer": "D",
+						"explanation": "無法推動書櫃應和尚未達到最大靜摩擦力相關。且小志敘述合理。故選(D)。"
 					},
 					{
 						"number": 37,
@@ -5453,7 +5489,8 @@
 								"description": "滿潮時間可能在中午 12 點～下午 2 點間"
 							}
 						],
-						"correct_answer": "B"
+						"correct_answer": "B",
+						"explanation": "由文中可知上午 10 點到中午 12 點確定在退潮，且下午 2 點已在漲潮。故乾潮會在中午 12 點到下午 2 點之間發生。故選(B) "
 					},
 					{
 						"number": 38,
@@ -5464,15 +5501,15 @@
 						"choices": [
 							{
 								"answer": "A",
-								"description": "D < 8.96 $g/$cm^3$ ，因為 M 為金屬成分的質量，但 V 大於金屬成分的體積"
+								"description": "D < 8.96 $g/cm^3$ ，因為 M 為金屬成分的質量，但 V 大於金屬成分的體積"
 							},
 							{
 								"answer": "B",
-								"description": "D < 8.96 $g/$cm^3$ ，因為 V 為金屬成分的體積，但 M 小於金屬成分的質量"
+								"description": "D < 8.96 $g/cm^3$ ，因為 V 為金屬成分的體積，但 M 小於金屬成分的質量"
 							},
 							{
 								"answer": "C",
-								"description": "D > 8.96 $g/$cm^3$ ，因為 M 為金屬成分的質量，但 V 小於金屬成分的體積"
+								"description": "D > 8.96 $g/cm^3$ ，因為 M 為金屬成分的質量，但 V 小於金屬成分的體積"
 							},
 							{
 								"answer": "D",
@@ -5480,7 +5517,8 @@
 							}
 						],
 						"correct_answer": "A",
-						"image": "111_nature_38.png"
+						"image": "111_nature_38.png",
+						"explanation": "因為排水量到的 V 包含空心的部分，故選(A)。"
 					},
 					{
 						"number": 39,
@@ -5506,7 +5544,8 @@
 								"description": "乙、丙和丁"
 							}
 						],
-						"correct_answer": "B"
+						"correct_answer": "B",
+						"explanation": "甲只有單對染色體；丁無細胞核因此沒有染色體。其他皆含有成對染色體，故選 (B)。"
 					},
 					{
 						"number": 40,
@@ -5533,7 +5572,8 @@
 							}
 						],
 						"correct_answer": "D",
-						"image": "111_nature_40.png"
+						"image": "111_nature_40.png",
+						"explanation": "(A)甲岩層應較乙岩層年輕；(B)丙岩層較乙岩層老，因此應至少 10000~15000 年；(C)岩脈有入侵到乙岩層，因此年齡較乙岩層年輕，無法判斷是否至少 10000 年；(D)續(C)，因較乙岩層年輕，因此不到乙岩層年齡的上限是合理的推論。故選 (D)。"
 					},
 					{
 						"number": 41,
@@ -5560,11 +5600,12 @@
 							}
 						],
 						"correct_answer": "D",
-						"image": "111_nature_41.png"
+						"image": "111_nature_41.png",
+						"explanation": "Na 的氧化產物溶於水為鹼性，因此為混和前甲瓶有機會是紅色的。而 S 的氧化產 物溶於水是酸性，因此和甲瓶混和後有機會仍維持鹼性或變為中性甚至酸性，使試 劑顏色變回透明無色。故選(D)。"
 					},
 					{
 						"type": "groupChoice",
-						"description": "沼氣是指有機物經微生物厭氧(缺氧)發酵所產生的氣體，主成分為甲烷、二氧化碳和微量的硫化氫等氣體。下列實驗探討不同發酵條件對於沼氣產量的影響。步驟如下：\n1. 至生態池中挖取含有微生物的汙泥，並去除雜質。\n2. 將適量的廚餘、水、汙泥混合後，均分成三等分，分別置於三瓶發酵瓶中，再將發酵瓶分別放入不同溫度的恆溫水浴中，並組成三組排水集氣裝置。\n3. 次日開始，每隔　24　小時，定時測量一次集氣瓶中的排開水量，並記錄之。\n4. 檢測集氣瓶內的氣體，以確保收集氣體的過程，發酵還在進行。\n5. 每日於檢測後，將集氣瓶重新裝滿水再放回水槽中，繼續收集氣體。\n實驗結果如表所示。",
+						"description": "沼氣是指有機物經微生物厭氧(缺氧)發酵所產生的氣體，主成分為甲烷、二氧化碳和微量的硫化氫等氣體。下列實驗探討不同發酵條件對於沼氣產量的影響。步驟如下：\n1. 至生態池中挖取含有微生物的汙泥，並去除雜質。\n2. 將適量的廚餘、水、汙泥混合後，均分成三等分，分別置於三瓶發酵瓶中，再將發酵瓶分別放入不同溫度的恆溫水浴中，並組成三組排水集氣裝置。\n3. 次日開始，每隔 24 小時，定時測量一次集氣瓶中的排開水量，並記錄之。\n4. 檢測集氣瓶內的氣體，以確保收集氣體的過程，發酵還在進行。\n5. 每日於檢測後，將集氣瓶重新裝滿水再放回水槽中，繼續收集氣體。\n實驗結果如表所示。",
 						"options": [
 							{
 								"number": 42,
@@ -5590,7 +5631,8 @@
 									}
 								],
 								"correct_answer": "B",
-								"image": "111_nature_42.png"
+								"image": "111_nature_42.png",
+								"explanation": "發酵瓶端應有橡皮塞以避免待收集氣體逸出；集氣瓶端應不能有橡皮塞，以做排水；橡皮管在發酵瓶端不應泡在液體中。故選(B)。"
 							},
 							{
 								"number": 43,
@@ -5616,7 +5658,8 @@
 									}
 								],
 								"correct_answer": "C",
-								"image": "111_nature_43.png"
+								"image": "111_nature_43.png",
+								"explanation": "線香燃燒代表有助燃氣體的存在(可能是氧氣)，因此可能發酵已經結束了。故選 (C)。"
 							},
 							{
 								"number": 44,
@@ -5641,7 +5684,8 @@
 										"description": "表中排開水量數值愈大，可表示當天該條件下的發酵速率愈快。"
 									}
 								],
-								"correct_answer": "D"
+								"correct_answer": "D",
+								"explanation": "(A)無明顯關係；(B)不溶於水才可使用排水集氣法；(C)不可得知；(D)正確"
 							}
 						],
 						"image": "111_nature_42-44.png"
@@ -5673,7 +5717,8 @@
 										"description": "雙子葉植物。"
 									}
 								],
-								"correct_answer": "D"
+								"correct_answer": "D",
+								"explanation": "因為環狀排列，屬於雙子葉植物。"
 							},
 							{
 								"number": 46,
@@ -5698,7 +5743,8 @@
 										"description": "同學 4。"
 									}
 								],
-								"correct_answer": "D"
+								"correct_answer": "D",
+								"explanation": "環狀排列雙子葉為內層木質部與外層韌皮部之組成，木質部主要運輸水分，為單向 由下而上運輸；而·韌皮部運輸養分，可以雙向運輸。因此選Ｄ。"
 							}
 						],
 						"image": "111_nature_45-46.png"
@@ -5731,7 +5777,8 @@
 									}
 								],
 								"correct_answer": "A",
-								"image": "111_nature_47.png"
+								"image": "111_nature_47.png",
+								"explanation": "只有 A 的圖，正極經過乙安培器後並聯丙、丁電阻。因此選 A。"
 							},
 							{
 								"number": 48,
@@ -5756,7 +5803,9 @@
 										"description": "不合理，因為乙測得的電流值應為流過丙與丁的電流值相加，所以 $I_乙$ > $I_甲$ 才合理。"
 									}
 								],
-								"correct_answer": "D"
+								"correct_answer": "D",
+								"image": "111_nature_48.png",
+								"explanation": "甲安培器只有測量流經丙電阻的電流，但乙安培器測量全部的電流。所以乙必須大 於甲才合理。因此選Ｄ。"
 							}
 						],
 						"image": "111_nature_47-48.png"
@@ -5788,7 +5837,8 @@
 										"description": "小豪得 1 分，但小豪放置卡牌組合錯誤，會得分是因為阿明答錯。"
 									}
 								],
-								"correct_answer": "C"
+								"correct_answer": "C",
+								"explanation": "雖然阿明先搶答，但阿明放錯紙板，而小豪放對，所以小豪得一分。"
 							},
 							{
 								"number": 50,
@@ -5813,7 +5863,8 @@
 										"description": "命令經由運動神經元傳遞至手指以按鈴搶答。"
 									}
 								],
-								"correct_answer": "D"
+								"correct_answer": "D",
+								"explanation": "兩人是不同個體，反應時間不盡相同。而眼睛內接受刺激的是視網膜。感覺神經元 傳遞進入大腦整合並發出司令。因此選Ｄ正確"
 							}
 						],
 						"image": "111_nature_49-50.png"
