@@ -2916,19 +2916,19 @@
 						"choices": [
 							{
 								"answer": "A",
-								"description": "$\\abs{a}$"
+								"description": "$|a|$"
 							},
 							{
 								"answer": "B",
-								"description": "$\\abs{b}$"
+								"description": "$|b|$"
 							},
 							{
 								"answer": "C",
-								"description": "$\\abs{c}$"
+								"description": "$|c|$"
 							},
 							{
 								"answer": "D",
-								"description": "$\\abs{d}$"
+								"description": "$|d|$"
 							}
 						],
 						"correct_answer": "A",
@@ -3133,15 +3133,15 @@
 							},
 							{
 								"answer": "B",
-								"description": "\\frac{4}{6}"
+								"description": "$\\frac{4}{6}$"
 							},
 							{
 								"answer": "C",
-								"description": "\\frac{3}{7}"
+								"description": "$\\frac{3}{7}$"
 							},
 							{
 								"answer": "D",
-								"description": "\\frac{4}{7}"
+								"description": "$\\frac{4}{7}$"
 							}
 						],
 						"correct_answer": "C"
@@ -3261,19 +3261,19 @@
 						"choices": [
 							{
 								"answer": "A",
-								"description": "$6%$"
+								"description": "$6\\%$"
 							},
 							{
 								"answer": "B",
-								"description": "$50%$"
+								"description": "$50\\%$"
 							},
 							{
 								"answer": "C",
-								"description": "$68%$"
+								"description": "$68\\%$"
 							},
 							{
 								"answer": "D",
-								"description": "$73%$"
+								"description": "$73\\%$"
 							}
 						],
 						"correct_answer": "C",
@@ -3417,7 +3417,7 @@
 					{
 						"number": 20,
 						"type": "singleChoice",
-						"description": "左圖為一張正三角形紙片 $ABC$ ，其中 $D$ 點在上， $E$ 點在上。今以為摺線將 $B$ 點往右摺後， $\\overline{BD}、\\overline{BE}$ 分別與相交於 $F$ 點、 $G$ 點，如右圖所示。若 $\\overline{AD}=10，\\overline{AF}=16，\\overline{DF}=14，\\overline{BF}=8$ ，則的長度為多少？",
+						"description": "左圖為一張正三角形紙片 $ABC$ ，其中 $D$ 點 $\\overline{AB}$ 在上， $E$ 點在 $\\overline{BC}$ 上。今以為摺線將 $B$ 點往右摺後， $\\overline{BD}、\\overline{BE}$ 分別與 $\\overline{AC}$ 相交於 $F$ 點、 $G$ 點，如右圖所示。若 $\\overline{AD}=10，\\overline{AF}=16，\\overline{DF}=14，\\overline{BF}=8$ ，則 $\\overline{CG}$ 的長度為多少？",
 						"passing_rate": 0.5,
 						"discrimination_index": 0.43,
 						"choices": [
@@ -3450,19 +3450,19 @@
 						"choices": [
 							{
 								"answer": "A",
-								"description": "$\\overparen{AC}+\\overparen{AD}=\\overparen{AB}，\\overparen{AE}+\\overparen{AF}=\\overparen{AB}$"
+								"description": "$\\overset{\\frown}{AC}+\\overset{\\frown}{AD}=\\overset{\\frown}{AB}，\\overset{\\frown}{AE}+\\overset{\\frown}{AF}=\\overset{\\frown}{AB}$"
 							},
 							{
 								"answer": "B",
-								"description": "$\\overparen{AC}+\\overparen{AD}=\\overparen{AB}，\\overparen{AE}+\\overparen{AF}\\neq\\overparen{AB}$"
+								"description": "$\\overset{\\frown}{AC}+\\overset{\\frown}{AD}=\\overset{\\frown}{AB}，\\overset{\\frown}{AE}+\\overset{\\frown}{AF}\\neq\\overset{\\frown}{AB}$"
 							},
 							{
 								"answer": "C",
-								"description": "$\\overparen{AC}+\\overparen{AD}\\neq\\overparen{AB}，\\overparen{AE}+\\overparen{AF}=\\overparen{AB}$"
+								"description": "$\\overset{\\frown}{AC}+\\overset{\\frown}{AD}\\neq\\overset{\\frown}{AB}，\\overset{\\frown}{AE}+\\overset{\\frown}{AF}=\\overset{\\frown}{AB}$"
 							},
 							{
 								"answer": "D",
-								"description": "$\\overparen{AC}+\\overparen{AD}\\neq\\overparen{AB}，\\overparen{AE}+\\overparen{AF}\\neq\\overparen{AB}$"
+								"description": "$\\overset{\\frown}{AC}+\\overset{\\frown}{AD}\\neq\\overset{\\frown}{AB}，\\overset{\\frown}{AE}+\\overset{\\frown}{AF}\\neq\\overset{\\frown}{AB}$"
 							}
 						],
 						"correct_answer": "B",
@@ -3497,7 +3497,7 @@
 					{
 						"number": 23,
 						"type": "singleChoice",
-						"description": "$\\reiangle ABC$ 的邊上有 $D、E、F$ 三點，各點位置如圖所示。若 $\\angle B=\\angle FAC，\\overline{BD}=\\overline{AC}，\\angle BDE=\\angle C$ ，則根據圖中標示的長度，求四邊形 $ADEF$ 與 $\\triangle ABC$ 的面積比為何？",
+						"description": "$\\triangle ABC$ 的邊上有 $D、E、F$ 三點，各點位置如圖所示。若 $\\angle B=\\angle FAC，\\overline{BD}=\\overline{AC}，\\angle BDE=\\angle C$ ，則根據圖中標示的長度，求四邊形 $ADEF$ 與 $\\triangle ABC$ 的面積比為何？",
 						"passing_rate": 0.33,
 						"discrimination_index": 0.44,
 						"choices": [
