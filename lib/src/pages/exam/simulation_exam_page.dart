@@ -595,12 +595,22 @@ class GradeMarkings extends StatelessWidget {
 
   const GradeMarkings({Key? key, required this.subject}) : super(key: key);
 
-  Text _getGradeMarkingText(BuildContext context, int correctCount) {
+  Text _getGradeMarkingText(BuildContext context, int correctCount, int total) {
     final chart = subject.gradeMarkings;
-    final gradeMarking = chart.entries
-        .firstWhere((entry) => correctCount >= entry.value,
-            orElse: () => chart.entries.last)
-        .key;
+    final String gradeMarking;
+    if (subject.subjectId == CAPSubject.math) {
+      final percentage = (correctCount / total) * 100;
+      gradeMarking = chart.entries
+          .firstWhere((entry) => percentage >= entry.value,
+              orElse: () => chart.entries.last)
+          .key;
+    } else {
+      gradeMarking = chart.entries
+          .firstWhere((entry) => correctCount >= entry.value,
+              orElse: () => chart.entries.last)
+          .key;
+    }
+
     final Color color;
 
     // https://cap.rcpet.edu.tw/score3.html
@@ -635,7 +645,7 @@ class GradeMarkings extends StatelessWidget {
     return Column(
       children: [
         Text('等級加標示', style: textStyle),
-        _getGradeMarkingText(context, correctCount),
+        _getGradeMarkingText(context, correctCount, allQuestion.length),
         Text('答對題數（$correctCount / ${allQuestion.length}）', style: textStyle),
         Text('記得看看詳解了解問題，加油！', style: textStyle),
       ],

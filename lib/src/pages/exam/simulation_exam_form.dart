@@ -33,7 +33,7 @@ class _SimulationExamFormState extends State<SimulationExamForm> {
                     final exam = _exams[index];
                     final totalQuestions =
                         exam.subjects.expand((e) => e.getOptionalQuestions());
-                    late final double completeness;
+                    final double completeness;
                     if (totalQuestions.isEmpty) {
                       completeness = 0;
                     } else {
