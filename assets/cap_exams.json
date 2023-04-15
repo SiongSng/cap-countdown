@@ -6555,7 +6555,8 @@
                 "description": "甲不合理，乙合理"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "image": "110_nature_1.png"
           },
           {
             "number": 2,
