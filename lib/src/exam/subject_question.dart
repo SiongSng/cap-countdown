@@ -9,7 +9,7 @@ import 'example_question.dart';
 import 'group_choice_question.dart';
 import 'single_choice_question.dart';
 
-abstract class SubjectQuestion {
+abstract mixin class SubjectQuestion {
   QuestionType get type;
 
   Map<String, dynamic> toJson();

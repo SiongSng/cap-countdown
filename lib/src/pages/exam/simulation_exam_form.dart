@@ -13,7 +13,7 @@ class SimulationExamForm extends StatefulWidget {
 }
 
 class _SimulationExamFormState extends State<SimulationExamForm> {
-  final _exams = ExamLoader.exams.reversed.toList();
+  final _exams = ExamLoader.exams.toList();
 
   @override
   Widget build(BuildContext context) {
@@ -32,13 +32,15 @@ class _SimulationExamFormState extends State<SimulationExamForm> {
                   itemBuilder: (context, index) {
                     final exam = _exams[index];
                     final totalQuestions =
-                        exam.subjects.map((e) => e.getOptionalQuestions());
-                    final completeness = totalQuestions
-                            .map((e) => e.where((e) => e.isAnswered).length)
-                            .reduce((v, e) => v + e) /
-                        totalQuestions
-                            .map((e) => e.length)
-                            .reduce((v, e) => v + e);
+                        exam.subjects.expand((e) => e.getOptionalQuestions());
+                    final double completeness;
+                    if (totalQuestions.isEmpty) {
+                      completeness = 0;
+                    } else {
+                      completeness =
+                          totalQuestions.where((e) => e.isAnswered).length /
+                              totalQuestions.length;
+                    }
 
                     return Column(
                       children: [

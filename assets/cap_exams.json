@@ -446,7 +446,7 @@
               }
             ],
             "correct_answer": "A",
-            "explanation": "小鼓、寸板（類似響板），為說書人說書時使用的工具。"
+            "explanation": "小鼓、寸板(類似響板)，為說書人說書時使用的工具。"
           },
           {
             "type": "singleChoice",
@@ -869,7 +869,7 @@
           },
           {
             "type": "groupChoice",
-            "description": "請閱讀以下短文，並回答32～33題：\n\n日本 美秀美術館（Miho Museum）有一種奇特的「烏托邦式美學」，首先是載客的白色電動車安靜地穿梭接待中心與美術館間，有如過去科幻電影中，關於未來烏托邦世界的描述。\n白色電動車象徵著美秀美術館對於美學近乎潔癖的要求，電動車安靜地運作，不會干擾到青山綠水間的蟲鳴鳥叫，使得這座烏托邦式的美術館區，永遠呈現出一種寧靜的氛圍。更有趣的是，白色電動車的駕駛穿著白色制服，臉上表情肅穆，不禁令人懷疑這些駕駛是否為科幻片中的複製人或機械人？\n不過我們不得不佩服美秀美術館的周到服務：雨天下電動車時，館方提供踏腳墊，以及擦去雨滴的白抹布。即便是貴婦人，仍然可以輕鬆地在美術館中喝下午茶。然後乾乾淨淨，一塵不染地離去。\n當遊客在雨天蒞臨，美術館人員便會送來一整排赭紅色、印著MIHO字樣的雨傘，並要求大家將自己的傘留在車上。其用意是不希望旅客花花綠綠的雨傘，破壞了烏托邦視覺上的統一美感。\n―― 改寫自李清志〈烏托邦美術館：美秀美術館〉",
+            "description": "請閱讀以下短文，並回答32～33題：\n\n日本 美秀美術館(Miho Museum)有一種奇特的「烏托邦式美學」，首先是載客的白色電動車安靜地穿梭接待中心與美術館間，有如過去科幻電影中，關於未來烏托邦世界的描述。\n白色電動車象徵著美秀美術館對於美學近乎潔癖的要求，電動車安靜地運作，不會干擾到青山綠水間的蟲鳴鳥叫，使得這座烏托邦式的美術館區，永遠呈現出一種寧靜的氛圍。更有趣的是，白色電動車的駕駛穿著白色制服，臉上表情肅穆，不禁令人懷疑這些駕駛是否為科幻片中的複製人或機械人？\n不過我們不得不佩服美秀美術館的周到服務：雨天下電動車時，館方提供踏腳墊，以及擦去雨滴的白抹布。即便是貴婦人，仍然可以輕鬆地在美術館中喝下午茶。然後乾乾淨淨，一塵不染地離去。\n當遊客在雨天蒞臨，美術館人員便會送來一整排赭紅色、印著MIHO字樣的雨傘，並要求大家將自己的傘留在車上。其用意是不希望旅客花花綠綠的雨傘，破壞了烏托邦視覺上的統一美感。\n―― 改寫自李清志〈烏托邦美術館：美秀美術館〉",
             "options": [
               {
                 "number": 32,
@@ -1189,7 +1189,7 @@
         ]
       },
       {
-        "name": "英語科（閱讀）",
+        "name": "英語科(閱讀)",
         "duration": 60,
         "grade_markings": {
           "精熟": 37,
@@ -1741,7 +1741,7 @@
           },
           {
             "type": "groupChoice",
-            "description": "(21-22)\n\n\uD83D\uDCD6 補充說明：\naddress 地址",
+            "description": "(21-22)\n\n📖 補充說明：\naddress 地址",
             "image": "111_english_21-22.png",
             "options": [
               {
@@ -1773,7 +1773,7 @@
               {
                 "number": 22,
                 "description": "Here is the postcard Jason is going to send to Tea-Rock 20. What else does he need to put on the postcard before he sends it?",
-                "passing_rate": 0.70,
+                "passing_rate": 0.7,
                 "discrimination_index": 0.59,
                 "choices": [
                   {
@@ -1800,7 +1800,7 @@
           },
           {
             "type": "groupChoice",
-            "description": "(23-24)\nBelow is an infographic.\n\n\uD83D\uDCD6 補充說明：\ninfographic 資訊圖表",
+            "description": "(23-24)\nBelow is an infographic.\n\n📖 補充說明：\ninfographic 資訊圖表",
             "image": "111_english_23-24.png",
             "options": [
               {
@@ -1827,7 +1827,7 @@
                   }
                 ],
                 "correct_answer": "D",
-                "explanation": "(A)每 66 克冰淇淋中有 16 克糖\n(B)成年男性一天可食用 9 茶匙的糖，成年女性則是 6 茶匙\n(C)美國人一天所攝取的糖（18.75 茶匙）比台灣人還多（17.75 茶匙）。"
+                "explanation": "(A)每 66 克冰淇淋中有 16 克糖\n(B)成年男性一天可食用 9 茶匙的糖，成年女性則是 6 茶匙\n(C)美國人一天所攝取的糖(18.75 茶匙)比台灣人還多(17.75 茶匙)。"
               },
               {
                 "number": 24,
@@ -1917,12 +1917,12 @@
           },
           {
             "type": "groupChoice",
-            "description": "(27-29)\nTabata training is a very popular way of exercising these days. It doesn’t take much time or space, and it burns calories faster than other ways of exercising.\nThe idea of Tabata training is simple: exercise for 20 seconds, rest for 10 seconds, and then repeat (at least eight times). The moves for the 20-second exercise are not difficult to learn. Jumping jacks, high knees, squats, and planks are some of the most common moves. You can decide yourself what moves to do in your Tabata training.\nFor example, you can do more leg exercises if you want strong legs.\n\nOne great thing about Tabata training is that your body will keep burning calories for at least an hour after 4 minutes of Tabata training. But to have this wonderful “afterburn,” you need to exercise really hard during each 20 seconds. If you seldom exercise or have heart problems, this exercise may not be good for you. But for people who enjoy exercising but are too busy to go to the gym, Tabata training might just be the answer.\n\n\uD83D\uDCD6 補充說明：\ncalorie 卡路里（熱量單位）",
+            "description": "(27-29)\nTabata training is a very popular way of exercising these days. It doesn’t take much time or space, and it burns calories faster than other ways of exercising.\nThe idea of Tabata training is simple: exercise for 20 seconds, rest for 10 seconds, and then repeat (at least eight times). The moves for the 20-second exercise are not difficult to learn. Jumping jacks, high knees, squats, and planks are some of the most common moves. You can decide yourself what moves to do in your Tabata training.\nFor example, you can do more leg exercises if you want strong legs.\n\nOne great thing about Tabata training is that your body will keep burning calories for at least an hour after 4 minutes of Tabata training. But to have this wonderful “afterburn,” you need to exercise really hard during each 20 seconds. If you seldom exercise or have heart problems, this exercise may not be good for you. But for people who enjoy exercising but are too busy to go to the gym, Tabata training might just be the answer.\n\n📖 補充說明：\ncalorie 卡路里(熱量單位)",
             "image": "111_english_27-29.png",
             "options": [
               {
                 "number": 27,
-                "description": "Which idea is talked about in the first paragraph of the reading?\n\uD83D\uDCD6 補充說明：\nparagraph 段落",
+                "description": "Which idea is talked about in the first paragraph of the reading?\n📖 補充說明：\nparagraph 段落",
                 "passing_rate": 0.65,
                 "discrimination_index": 0.65,
                 "choices": [
@@ -2002,12 +2002,12 @@
           },
           {
             "type": "groupChoice",
-            "description": "(30-32)\nModern Workplace         June 5, 2016\n\n  The problem of long working hours is a real headache in our country. It kills many people every year (see Figure 1), and many companies are trying to change that. They have at least one “No Overtime Day” in a week, and it is often Wednesday. On “No Overtime Day,” workers are asked to leave their offices before 8 p.m. At 8 p.m., companies play the song “There’s Always Tomorrow” and turn off all the lights.\n  However, after the workers walk out of their offices, they don’t go home. Some go back later, turn on their table lamps, and keep working, and others find somewhere else to work until very late at night. Restaurants and coffee shops are busier on Wednesday evenings, and they have started selling drinks and meals for these workers.\n  But why do these people keep working? A study shows that workers who work more hours often have a bigger chance to get paid more and rise higher in their companies. This is true for both men and women (see Figure 2). Working long hours has become a way to show that people are hard-working. Clearly, $\\textcolor{red}{this}$ must be changed before the problem gets any worse.\n\n\uD83D\uDCD6 補充說明：\naverage 平均",
+            "description": "(30-32)\nModern Workplace         June 5, 2016\n\n  The problem of long working hours is a real headache in our country. It kills many people every year (see Figure 1), and many companies are trying to change that. They have at least one “No Overtime Day” in a week, and it is often Wednesday. On “No Overtime Day,” workers are asked to leave their offices before 8 p.m. At 8 p.m., companies play the song “There’s Always Tomorrow” and turn off all the lights.\n  However, after the workers walk out of their offices, they don’t go home. Some go back later, turn on their table lamps, and keep working, and others find somewhere else to work until very late at night. Restaurants and coffee shops are busier on Wednesday evenings, and they have started selling drinks and meals for these workers.\n  But why do these people keep working? A study shows that workers who work more hours often have a bigger chance to get paid more and rise higher in their companies. This is true for both men and women (see Figure 2). Working long hours has become a way to show that people are hard-working. Clearly, $\\textcolor{red}{this}$ must be changed before the problem gets any worse.\n\n📖 補充說明：\naverage 平均",
             "image": "111_english_30-32.png",
             "options": [
               {
                 "number": 30,
-                "description": "There are four important points in the report:\na. What “No Overtime Day” is\nb. Why “No Overtime Day” fails\nc. Why there is “No Overtime Day” in the country\nd. How workers deal with “No Overtime Day”\nHow are they ordered in the report?\n\uD83D\uDCD6 補充說明：\norder 排序",
+                "description": "There are four important points in the report:\na. What “No Overtime Day” is\nb. Why “No Overtime Day” fails\nc. Why there is “No Overtime Day” in the country\nd. How workers deal with “No Overtime Day”\nHow are they ordered in the report?\n📖 補充說明：\norder 排序",
                 "passing_rate": 0.44,
                 "discrimination_index": 0.53,
                 "choices": [
@@ -2061,7 +2061,7 @@
                 "number": 32,
                 "description": "What can we learn from Figure 1 and Figure 2?",
                 "passing_rate": 0.52,
-                "discrimination_index": 0.60,
+                "discrimination_index": 0.6,
                 "choices": [
                   {
                     "answer": "A",
@@ -2087,12 +2087,12 @@
           },
           {
             "type": "groupChoice",
-            "description": "(33-36)\n\uD83D\uDCD6 補充說明：official 官方的\ngovernment 政府",
+            "description": "(33-36)\n📖 補充說明：official 官方的\ngovernment 政府",
             "image": "111_english_33-36.png",
             "options": [
               {
                 "number": 33,
-                "description": "Which map is most likely the map of Cameroon in 1962?\n\uD83D\uDCD6 補充說明：\nlikely 可能",
+                "description": "Which map is most likely the map of Cameroon in 1962?\n📖 補充說明：\nlikely 可能",
                 "image": "111_english_33.png",
                 "passing_rate": 0.57,
                 "discrimination_index": 0.62,
@@ -2195,12 +2195,12 @@
           },
           {
             "type": "groupChoice",
-            "description": "(37-39)\nTHE SOUTHEND TRAIL has been popular with nature lovers for years.\nThe 120-km trail passes beautiful lakes, crosses rivers, and goes through mountains and hills. This gives bird lovers some of the best places for birdwatching. The trail also takes you to the Southend Museum and to two famous castles, Edward Castle and Sloan Castle.\nIt’s best to plan one day for one part of the trail and start your hike early in the morning, because each part takes at least seven hours. If you don’t want to walk, you can bike, but make sure you stay on the main trail, because the side trails are not wide enough for biking.\nThere are two types of $\\textcolor{red}{lodging}$ for visitors. Camping is popular in summer, but it is only allowed on a few campgrounds (see the map). A more comfortable one is to stay at a hotel in one of the towns. You can find some very nice ones that also have breakfast.\n\uD83D\uDCD6 補充說明：trail 步道",
+            "description": "(37-39)\nTHE SOUTHEND TRAIL has been popular with nature lovers for years.\nThe 120-km trail passes beautiful lakes, crosses rivers, and goes through mountains and hills. This gives bird lovers some of the best places for birdwatching. The trail also takes you to the Southend Museum and to two famous castles, Edward Castle and Sloan Castle.\nIt’s best to plan one day for one part of the trail and start your hike early in the morning, because each part takes at least seven hours. If you don’t want to walk, you can bike, but make sure you stay on the main trail, because the side trails are not wide enough for biking.\nThere are two types of $\\textcolor{red}{lodging}$ for visitors. Camping is popular in summer, but it is only allowed on a few campgrounds (see the map). A more comfortable one is to stay at a hotel in one of the towns. You can find some very nice ones that also have breakfast.\n📖 補充說明：trail 步道",
             "image": "111_english_37-39.png",
             "options": [
               {
                 "number": 37,
-                "description": "What is recommended to people who are visiting the Southend Trail?\n\uD83D\uDCD6 補充說明：\nrecommend 推薦",
+                "description": "What is recommended to people who are visiting the Southend Trail?\n📖 補充說明：\nrecommend 推薦",
                 "passing_rate": 0.58,
                 "discrimination_index": 0.57,
                 "choices": [
@@ -2388,7 +2388,7 @@
         ]
       },
       {
-        "name": "英語科（聽力）",
+        "name": "英語科(聽力)",
         "duration": 25,
         "grade_markings": {
           "基礎": 13,
@@ -2398,7 +2398,7 @@
         "questions": [
           {
             "type": "example",
-            "description": "第一部分：辨識句意（第1-3題）\n作答說明：每題均有三張圖片，請依據所聽到的句子，選出符合描述的圖片，每題播放兩次。\n\n示例題：你會看到\n然後你會聽到......（播音）。依據所播放的內容，正確答案應該選A",
+            "description": "第一部分：辨識句意(第1-3題)\n作答說明：每題均有三張圖片，請依據所聽到的句子，選出符合描述的圖片，每題播放兩次。\n\n示例題：你會看到\n然後你會聽到......(播音)。依據所播放的內容，正確答案應該選A",
             "image": "111_listening_example_1.png",
             "audio": "111_listening_example_1.mp3"
           },
@@ -2469,7 +2469,7 @@
           },
           {
             "type": "example",
-            "description": "第二部分：基本問答（第4-11題）\n作答說明：每題均有三個選項，請依據所聽到的內容，選出一個最適合的回應，每題播放兩次。\n\n示例題：你會看到\n(A) She is talking to the teacher.\n(B) She is a student in my class.\n(C) She is wearing a beautiful dress.\n然後你會聽到......(播音)。依據所播放的內容，正確回應應該選B",
+            "description": "第二部分：基本問答(第4-11題)\n作答說明：每題均有三個選項，請依據所聽到的內容，選出一個最適合的回應，每題播放兩次。\n\n示例題：你會看到\n(A) She is talking to the teacher.\n(B) She is a student in my class.\n(C) She is wearing a beautiful dress.\n然後你會聽到......(播音)。依據所播放的內容，正確回應應該選B",
             "audio": "111_listening_example_2.mp3"
           },
           {
@@ -2547,7 +2547,7 @@
             "description": "第 7 題",
             "audio": "111_listening_7.mp3",
             "passing_rate": 0.78,
-            "discrimination_index": 0.70,
+            "discrimination_index": 0.7,
             "choices": [
               {
                 "answer": "A",
@@ -2616,7 +2616,7 @@
             "description": "第 10 題",
             "audio": "111_listening_10.mp3",
             "passing_rate": 0.73,
-            "discrimination_index": 0.70,
+            "discrimination_index": 0.7,
             "choices": [
               {
                 "answer": "A",
@@ -2658,7 +2658,7 @@
           },
           {
             "type": "example",
-            "description": "第三部分：言談理解（第12-21題）\n作答說明：每題均有三個選項，請依據所聽到的對話或短文內容，選出一個最適合的答案，每題播放兩次。\n\n示例題：你會看到\n(A) 9:50.\n(B) 10:00\n.(C) 10:10.\n然後你會聽到......(播音)。依據所播放的內容，正確回應應該選B",
+            "description": "第三部分：言談理解(第12-21題)\n作答說明：每題均有三個選項，請依據所聽到的對話或短文內容，選出一個最適合的答案，每題播放兩次。\n\n示例題：你會看到\n(A) 9:50.\n(B) 10:00\n.(C) 10:10.\n然後你會聽到......(播音)。依據所播放的內容，正確回應應該選B",
             "audio": "111_listening_example_3.mp3"
           },
           {
@@ -2805,7 +2805,7 @@
             "description": "第 18 題",
             "audio": "111_listening_18.mp3",
             "passing_rate": 0.57,
-            "discrimination_index": 0.40,
+            "discrimination_index": 0.4,
             "choices": [
               {
                 "answer": "A",
@@ -2850,7 +2850,7 @@
             "type": "singleChoice",
             "description": "第 20 題",
             "audio": "111_listening_20.mp3",
-            "passing_rate": 0.60,
+            "passing_rate": 0.6,
             "discrimination_index": 0.46,
             "choices": [
               {
@@ -2874,7 +2874,7 @@
             "description": "第 21 題",
             "audio": "111_listening_21.mp3",
             "passing_rate": 0.45,
-            "discrimination_index": 0.40,
+            "discrimination_index": 0.4,
             "choices": [
               {
                 "answer": "A",
@@ -2894,24 +2894,23 @@
         ]
       },
       {
-        "name": "數學科（目前題目不完整，將在未來更新中新增）",
+        "name": "數學科",
         "duration": 80,
         "grade_markings": {
-          "A++": 96.60,
-          "A+": 89.80,
-          "A": 80.50,
-          "B++": 70.50,
-          "B+": 61.00,
-          "B": 39.70,
-          "C": 0.00
+          "A++": 96.6,
+          "A+": 89.8,
+          "A": 80.5,
+          "B++": 70.5,
+          "B+": 61.0,
+          "B": 39.7,
+          "C": 0.0
         },
         "subject_id": "Math",
         "questions": [
           {
             "number": 1,
             "type": "singleChoice",
-            "description": "圖（一）數線上的 A、B、C、D 四點所表示的數分別為 a、b、c、d，且 O 為原點。\n根據圖中各點的位置判斷，下列何者的值最小？",
-            "image": "111_math_1.png",
+            "description": "附圖數線上的 A、B、C、D 四點所表示的數分別為 a、b、c、d，且 O 為原點。根據圖中各點的位置判斷，下列何者的值最小？",
             "passing_rate": 0.87,
             "discrimination_index": 0.51,
             "choices": [
@@ -2933,6 +2932,7 @@
               }
             ],
             "correct_answer": "A",
+            "image": "111_math_1.png",
             "explanation": "$\\because$ A、B、C、D 四點到 O 點的距離中最小\n$\\therefore |a|$的值最小。"
           },
           {
@@ -2988,6 +2988,597 @@
             ],
             "correct_answer": "C",
             "explanation": "$\\begin{aligned}\\\\&2\\underline{|\\ 156\\quad \\ \\ \\ }\\\\&\\quad2\\underline{|\\ 78\\quad\\ }\\\\&\\qquad 3\\underline{|\\ 39\\ }\\\\&\\qquad \\quad 13\\\\ \\end{aligned}$\n$\\therefore$ 156的質因數有 2、3、13"
+          },
+          {
+            "number": 4,
+            "type": "singleChoice",
+            "description": "附圖為一個長方體的展開圖，且長方體的底面為正方形。根據圖中標示的長度，求此長方體的體積為何？",
+            "passing_rate": 0.78,
+            "discrimination_index": 0.57,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "144"
+              },
+              {
+                "answer": "B",
+                "description": "224"
+              },
+              {
+                "answer": "C",
+                "description": "264"
+              },
+              {
+                "answer": "D",
+                "description": "300"
+              }
+            ],
+            "correct_answer": "B",
+            "image": "111_math_4.png"
+          },
+          {
+            "number": 5,
+            "type": "singleChoice",
+            "description": "算式 $\\frac{9}{22}+\\frac{11}{18}-\\left(\\frac{23}{22}-\\frac{7}{18}\\right)$ 之值為何？",
+            "passing_rate": 0.81,
+            "discrimination_index": 0.58,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "$\\frac{4}{11}$"
+              },
+              {
+                "answer": "B",
+                "description": "$\\frac{9}{10}$"
+              },
+              {
+                "answer": "C",
+                "description": "$\\frac{1}{9}$"
+              },
+              {
+                "answer": "D",
+                "description": "$\\frac{5}{4}$"
+              }
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "number": 6,
+            "type": "singleChoice",
+            "description": "$\\sqrt{2022}$ 的值介於下列哪兩個數之間？",
+            "passing_rate": 0.75,
+            "discrimination_index": 0.64,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "25，30"
+              },
+              {
+                "answer": "B",
+                "description": "30，35"
+              },
+              {
+                "answer": "C",
+                "description": "35，40"
+              },
+              {
+                "answer": "D",
+                "description": "40，45"
+              }
+            ],
+            "correct_answer": "D"
+          },
+          {
+            "number": 7,
+            "type": "singleChoice",
+            "description": "已知坐標平面上有一直線 $L$ 與一點 $A$。若 $L$ 的方程式為 $x=-2$ ，$A$ 點坐標為 $(6 , 5)$ ，則 $A$ 點到直線 $L$ 的距離為何？",
+            "passing_rate": 0.69,
+            "discrimination_index": 0.56,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "3"
+              },
+              {
+                "answer": "B",
+                "description": "4"
+              },
+              {
+                "answer": "C",
+                "description": "7"
+              },
+              {
+                "answer": "D",
+                "description": "8"
+              }
+            ],
+            "correct_answer": "D"
+          },
+          {
+            "number": 8,
+            "type": "singleChoice",
+            "description": "多項式 $39x^2+5x-14$ 可因式分解成 $(3x+a)(bx+c)$ ，其中 a、b、c 均為整數，求 $a+2c$ 之值為何？",
+            "passing_rate": 0.71,
+            "discrimination_index": 0.61,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "-12"
+              },
+              {
+                "answer": "B",
+                "description": "-3"
+              },
+              {
+                "answer": "C",
+                "description": "3"
+              },
+              {
+                "answer": "D",
+                "description": "12"
+              }
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "number": 9,
+            "type": "singleChoice",
+            "description": "箱子內有分別標示號碼 1～6 的球，每個號碼各 2 顆，總共 12 顆。已知小茹先從箱內抽出 5 顆球且不將球放回箱內，這 5 顆球的號碼分別是 1、2、2、3、5。今阿純打算從此箱內剩下的球中抽出 1 顆球，若箱內剩下的每顆球被他抽出的機會相等，則他抽出的球的號碼，與小茹已抽出的 5 顆球中任意一顆球的號碼相同的機率是多少？",
+            "passing_rate": 0.73,
+            "discrimination_index": 0.56,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "$\\frac{3}{6}$"
+              },
+              {
+                "answer": "B",
+                "description": "$\\frac{4}{6}$"
+              },
+              {
+                "answer": "C",
+                "description": "$\\frac{3}{7}$"
+              },
+              {
+                "answer": "D",
+                "description": "$\\frac{4}{7}$"
+              }
+            ],
+            "correct_answer": "C"
+          },
+          {
+            "number": 10,
+            "type": "singleChoice",
+            "description": "已知一元二次方程式 $(x-2)^2=3$ 的兩根為 $a、b$ ，且 $a>b$，求 $2a+b$ 之值為何？",
+            "passing_rate": 0.64,
+            "discrimination_index": 0.52,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "$9$"
+              },
+              {
+                "answer": "B",
+                "description": "$-3$"
+              },
+              {
+                "answer": "C",
+                "description": "$6+\\sqrt{3}$"
+              },
+              {
+                "answer": "D",
+                "description": "$-6+\\sqrt{3}$"
+              }
+            ],
+            "correct_answer": "C"
+          },
+          {
+            "number": 11,
+            "type": "singleChoice",
+            "description": "根據附圖中兩人的對話紀錄，求出哥哥買遊戲機的預算為多少元？",
+            "passing_rate": 0.7,
+            "discrimination_index": 0.56,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "3800"
+              },
+              {
+                "answer": "B",
+                "description": "4800"
+              },
+              {
+                "answer": "C",
+                "description": "5800"
+              },
+              {
+                "answer": "D",
+                "description": "6800"
+              }
+            ],
+            "correct_answer": "C",
+            "image": "111_math_11.png"
+          },
+          {
+            "number": 12,
+            "type": "singleChoice",
+            "description": "已知 $p=7.52 \\times 10^{-6}$ ，下列關於 $p$ 值的敘述何者正確？",
+            "passing_rate": 0.64,
+            "discrimination_index": 0.59,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "小於 0"
+              },
+              {
+                "answer": "B",
+                "description": "介於 0 與 1 兩數之間，兩數中比較接近 0"
+              },
+              {
+                "answer": "C",
+                "description": "介於 0 與 1 兩數之間，兩數中比較接近 1"
+              },
+              {
+                "answer": "D",
+                "description": "大於 1"
+              }
+            ],
+            "correct_answer": "B"
+          },
+          {
+            "number": 13,
+            "type": "singleChoice",
+            "description": "如圖，為圓 $O$ 的一弦，且 $C$ 點在 $\\overline{AB}$ 上。若 $\\overline{AC}=6$ ， $\\overline{BC}=2$ ， $\\overline{AB}$ 的弦心距為 3，則 $\\overline{OC}$ 的長度為何？",
+            "passing_rate": 0.56,
+            "discrimination_index": 0.62,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "$3$"
+              },
+              {
+                "answer": "B",
+                "description": "$4$"
+              },
+              {
+                "answer": "C",
+                "description": "$\\sqrt{11}$"
+              },
+              {
+                "answer": "D",
+                "description": "$\\sqrt{13}$"
+              }
+            ],
+            "correct_answer": "D",
+            "image": "111_math_13.png"
+          },
+          {
+            "number": 14,
+            "type": "singleChoice",
+            "description": "某國主計處調查 2017 年該國所有受僱員工的年薪資料，並公布調查結果如附圖的直方圖所示。已知總調查人數為 750 萬人，根據圖中資訊計算，該國受僱員工年薪低於平均數的人數占總調查人數的百分率為下列何者？",
+            "passing_rate": 0.74,
+            "discrimination_index": 0.56,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "$6\\%$"
+              },
+              {
+                "answer": "B",
+                "description": "$50\\%$"
+              },
+              {
+                "answer": "C",
+                "description": "$68\\%$"
+              },
+              {
+                "answer": "D",
+                "description": "$73\\%$"
+              }
+            ],
+            "correct_answer": "C",
+            "image": "111_math_14.png"
+          },
+          {
+            "number": 15,
+            "type": "singleChoice",
+            "description": "如圖， $\\triangle ABC$ 中， $D$ 點在 $\\overline{AB}$ 上， $E$ 點在 $\\overline{BC}$ 上， $\\overline{DE}$ 為 $\\overline{BC}$ 的中垂線。若 $\\angle B=\\angle C$ ，且 $\\angle EAC>90^\\circ$ ，則根據圖中標示的角，判斷下列敘述何者正確？",
+            "passing_rate": 0.53,
+            "discrimination_index": 0.49,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "$\\angle 1 = \\angle 2，\\angle 1 < \\angle 3$"
+              },
+              {
+                "answer": "B",
+                "description": "$\\angle 1 = \\angle 2，\\angle 1 > \\angle 3$"
+              },
+              {
+                "answer": "C",
+                "description": "$\\angle 1 \\neq \\angle 2，\\angle 1 < \\angle 3$"
+              },
+              {
+                "answer": "D",
+                "description": "$\\angle 1 \\neq \\angle 2，\\angle 1 > \\angle 3$"
+              }
+            ],
+            "correct_answer": "B",
+            "image": "111_math_15.png"
+          },
+          {
+            "number": 16,
+            "type": "singleChoice",
+            "description": "緩降機是火災發生時避難的逃生設備，附圖是廠商提供的緩降機安裝示意圖，圖中呈現在三樓安裝緩降機時，使用此緩降機直接緩降到一樓地面的所需繩長(不計安全帶)。若某棟建築的每個樓層高度皆為 3 公尺，則根據附圖的安裝方式在該建築八樓安裝緩降機時，使用此緩降機直接緩降到一樓地面的所需繩長(不計安全帶)為多少公尺？",
+            "passing_rate": 0.55,
+            "discrimination_index": 0.58,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "21.7"
+              },
+              {
+                "answer": "B",
+                "description": "22.6"
+              },
+              {
+                "answer": "C",
+                "description": "24.7"
+              },
+              {
+                "answer": "D",
+                "description": "25.6"
+              }
+            ],
+            "correct_answer": "A",
+            "image": "111_math_16.png"
+          },
+          {
+            "number": 17,
+            "type": "singleChoice",
+            "description": "附圖為兩直線 $L、M$ 與 $\\triangle ABC$ 相交的情形，其中 $L、M$ 分別與 $\\overline{BC}、\\overline{AB}$ 平行。根據圖中標示的角度，求 $\\angle B$ 的度數為何？",
+            "passing_rate": 0.49,
+            "discrimination_index": 0.58,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "55"
+              },
+              {
+                "answer": "B",
+                "description": "60"
+              },
+              {
+                "answer": "C",
+                "description": "65"
+              },
+              {
+                "answer": "D",
+                "description": "70"
+              }
+            ],
+            "correct_answer": "A",
+            "image": "111_math_17.png"
+          },
+          {
+            "number": 18,
+            "type": "singleChoice",
+            "description": "某鞋店正舉辦開學特惠活動，附圖為活動說明。小徹打算在該店同時購買一雙球鞋及一雙皮鞋，且他有一張所有購買的商品定價皆打 8 折的折價券。若小徹計算後發現使用折價券與參加特惠活動兩者的花費相差 50 元，則下列敘述何者正確？",
+            "passing_rate": 0.51,
+            "discrimination_index": 0.47,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "使用折價券的花費較少，且兩雙鞋的定價相差 100 元"
+              },
+              {
+                "answer": "B",
+                "description": "使用折價券的花費較少，且兩雙鞋的定價相差 250 元"
+              },
+              {
+                "answer": "C",
+                "description": "參加特惠活動的花費較少，且兩雙鞋的定價相差 100 元"
+              },
+              {
+                "answer": "D",
+                "description": "參加特惠活動的花費較少，且兩雙鞋的定價相差 250 元"
+              }
+            ],
+            "correct_answer": "B",
+            "image": "111_math_18.png",
+            "explanation": "設皮鞋 $x$ 元，球鞋 $y$ 元，且 $x > y$ \n折價券 $= 0.8(x + y)$ ，活動售價 $= x + 0.6y$ \n折-售 $=0.8(x+y)−(x+0.6)=−0.2x+0.2y$ \n因 $x > y$ ，故此時為負數，可知折價券價 $<$ 售價\n $0.2y−0.2x=50$ ， $y−x=250$"
+          },
+          {
+            "number": 19,
+            "type": "singleChoice",
+            "description": "如圖， $\\triangle ABC$ 的重心為 $G$ ， $\\overline{BC}$ 的中點為 $D$，今以 $G$ 為圓心， $\\overline{GD}$ 長為半徑畫一圓，且作 $A$ 點到圓 $G$ 的兩切線段 $\\overline{AE}、\\overline{AF}$ ，其中 $E、F$ 均為切點。根據圖中標示的角與角度，求 $\\angle 1$ 與 $\\angle 2$ 的度數和為多少？",
+            "passing_rate": 0.5,
+            "discrimination_index": 0.4,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "30"
+              },
+              {
+                "answer": "B",
+                "description": "35"
+              },
+              {
+                "answer": "C",
+                "description": "40"
+              },
+              {
+                "answer": "D",
+                "description": "45"
+              }
+            ],
+            "correct_answer": "B",
+            "image": "111_math_19.png"
+          },
+          {
+            "number": 20,
+            "type": "singleChoice",
+            "description": "左圖為一張正三角形紙片 $ABC$ ，其中 $D$ 點 $\\overline{AB}$ 在上， $E$ 點在 $\\overline{BC}$ 上。今以為摺線將 $B$ 點往右摺後， $\\overline{BD}、\\overline{BE}$ 分別與 $\\overline{AC}$ 相交於 $F$ 點、 $G$ 點，如右圖所示。若 $\\overline{AD}=10，\\overline{AF}=16，\\overline{DF}=14，\\overline{BF}=8$ ，則 $\\overline{CG}$ 的長度為多少？",
+            "passing_rate": 0.5,
+            "discrimination_index": 0.43,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "7"
+              },
+              {
+                "answer": "B",
+                "description": "8"
+              },
+              {
+                "answer": "C",
+                "description": "9"
+              },
+              {
+                "answer": "D",
+                "description": "10"
+              }
+            ],
+            "correct_answer": "C",
+            "image": "111_math_20.png"
+          },
+          {
+            "number": 21,
+            "type": "singleChoice",
+            "description": "有一直徑為 $\\overline{AB}$ 的圓，且圓上有 $C、D、E、F$ 四點，其位置如圖所示。若 $\\overline{AC}=6，\\overline{AD}=8，\\overline{AE}=5，\\overline{AF}=9，\\overline{AB}=10$ ，則下列弧長關係何者正確？",
+            "passing_rate": 0.41,
+            "discrimination_index": 0.5,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "$\\overset{\\frown}{AC}+\\overset{\\frown}{AD}=\\overset{\\frown}{AB}，\\overset{\\frown}{AE}+\\overset{\\frown}{AF}=\\overset{\\frown}{AB}$"
+              },
+              {
+                "answer": "B",
+                "description": "$\\overset{\\frown}{AC}+\\overset{\\frown}{AD}=\\overset{\\frown}{AB}，\\overset{\\frown}{AE}+\\overset{\\frown}{AF}\\neq\\overset{\\frown}{AB}$"
+              },
+              {
+                "answer": "C",
+                "description": "$\\overset{\\frown}{AC}+\\overset{\\frown}{AD}\\neq\\overset{\\frown}{AB}，\\overset{\\frown}{AE}+\\overset{\\frown}{AF}=\\overset{\\frown}{AB}$"
+              },
+              {
+                "answer": "D",
+                "description": "$\\overset{\\frown}{AC}+\\overset{\\frown}{AD}\\neq\\overset{\\frown}{AB}，\\overset{\\frown}{AE}+\\overset{\\frown}{AF}\\neq\\overset{\\frown}{AB}$"
+              }
+            ],
+            "correct_answer": "B",
+            "image": "111_math_21.png"
+          },
+          {
+            "number": 22,
+            "type": "singleChoice",
+            "description": "已知坐標平面上有二次函數 $y=-(x+6)^2+5$ 的圖形，函數圖形與 $x$ 軸相交於 $(a , 0)、(b , 0)$ 兩點，其中 $a<b$ 。今將此函數圖形往上平移，平移後函數圖形與 $x$ 軸相交於 $(c , 0)、(d , 0)$ 兩點，其中 $c<d$，判斷下列敘述何者正確？",
+            "passing_rate": 0.4,
+            "discrimination_index": 0.44,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "$(a+b)=(c+d)$，$(b-a)<(d-c)$"
+              },
+              {
+                "answer": "B",
+                "description": "$(a+b)=(c+d)$，$(b-a)>(d-c)$"
+              },
+              {
+                "answer": "C",
+                "description": "$(a+b)<(c+d)$，$(b-a)<(d-c)$"
+              },
+              {
+                "answer": "D",
+                "description": "$(a+b)<(c+d)$，$(b-a)>(d-c)$"
+              }
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "number": 23,
+            "type": "singleChoice",
+            "description": "$\\triangle ABC$ 的邊上有 $D、E、F$ 三點，各點位置如圖所示。若 $\\angle B=\\angle FAC$，$\\overline{BD}=\\overline{AC}$，$\\angle BDE=\\angle C$ ，則根據圖中標示的長度，求四邊形 $ADEF$ 與 $\\triangle ABC$ 的面積比為何？",
+            "passing_rate": 0.33,
+            "discrimination_index": 0.44,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "$1:3$"
+              },
+              {
+                "answer": "B",
+                "description": "$1:4$"
+              },
+              {
+                "answer": "C",
+                "description": "$2:5$"
+              },
+              {
+                "answer": "D",
+                "description": "$3:8$"
+              }
+            ],
+            "correct_answer": "D",
+            "image": "111_math_23.png"
+          },
+          {
+            "type": "groupChoice",
+            "description": "表(一)、表(二)呈現 PA、PB 兩種日光燈管的相關數據，其中光通量用來衡量日光燈管的明亮程度。",
+            "options": [
+              {
+                "number": 24,
+                "description": "已知日光燈管的發光效率為光通量與功率的比值，甲、乙兩人根據表(一)、表(二)的資訊提出以下看法：\n(甲) PA-20 日光燈管的發光效率比 PB-14 日光燈管高\n(乙) PA 日光燈管中，功率較大的燈管其發光效率較高\n關於甲、乙兩人的看法，下列敘述何者正確？",
+                "passing_rate": 0.44,
+                "discrimination_index": 0.51,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "甲、乙皆正確"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "甲、乙皆錯誤"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "甲正確，乙錯誤"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "甲錯誤，乙正確"
+                  }
+                ],
+                "correct_answer": "D"
+              },
+              {
+                "number": 25,
+                "description": "有一間公司請水電工程廠商安裝日光燈管，廠商提供兩種方案如表(三)所示。已知 n 支功率皆為 w 瓦的燈管都使用 t 小時後消耗的電能(度) $=\\frac{n}{1000} \\times w \\times t$ ，若每支燈管使用時間皆相同，且只考慮燈管消耗的電能並以每度 5 元計算電費，則兩種方案相比，燈管使用時間至少要超過多少小時，採用省電方案所節省的電費才會高於兩者相差的施工費用？",
+                "passing_rate": 0.42,
+                "discrimination_index": 0.42,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "12200"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "12300"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "12400"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "12500"
+                  }
+                ],
+                "correct_answer": "D",
+                "image": "111_math_25.png"
+              }
+            ],
+            "image": "111_math_24-25.png"
           }
         ]
       },
@@ -3031,7 +3622,7 @@
             ],
             "correct_answer": "C",
             "image": "111_society_1.png",
-            "explanation": "從沙烏地阿拉伯、印尼、巴基斯坦、伊朗等，可知主要是伊斯蘭教國家。因此選 C。"
+            "explanation": "從沙烏地阿拉伯、印尼、巴基斯坦、伊朗等，可知主要是伊斯蘭教國家。因此選 C"
           },
           {
             "number": 2,
@@ -3059,7 +3650,7 @@
             ],
             "correct_answer": "B",
             "image": "111_society_2.png",
-            "explanation": "題目重點提示於板塊交界、海岸山脈最南端，因此選 B。"
+            "explanation": "題目重點提示於板塊交界、海岸山脈最南端，因此選 B"
           },
           {
             "number": 3,
@@ -3087,7 +3678,7 @@
             ],
             "correct_answer": "C",
             "image": "111_society_3.png",
-            "explanation": "題目顯示由濕熱變乾熱，重點是濕度，因此選逐漸遠離海邊的選項：C。"
+            "explanation": "題目顯示由濕熱變乾熱，重點是濕度，因此選逐漸遠離海邊的選項：Ｃ"
           },
           {
             "number": 4,
@@ -3114,7 +3705,7 @@
               }
             ],
             "correct_answer": "A",
-            "explanation": "水庫淤積原因主要因水庫周圍與上游沙土流入。除了積極清淤外，減少來源堆積也相當重要。因此選唯一可行的A。"
+            "explanation": "水庫淤積原因主要因水庫周圍與上游沙土流入。除了積極清淤外，減少來源堆積 也相當重要。因此選唯一可行的Ａ"
           },
           {
             "number": 5,
@@ -3142,7 +3733,7 @@
             ],
             "correct_answer": "D",
             "image": "111_society_5.png",
-            "explanation": "題目顯示爭取言論自由，報刊不必接受核准、新聞不必接受檢查等等，皆是戒嚴時期、解嚴前的關鍵字。因此選D。"
+            "explanation": "題目顯示爭取言論自由，報刊不必接受核准、新聞不必接受檢查等等，皆是戒嚴 時期、解嚴前的關鍵字。因此選Ｄ"
           },
           {
             "number": 6,
@@ -3169,12 +3760,13 @@
               }
             ],
             "correct_answer": "B",
-            "image": "111_society_6.png"
+            "image": "111_society_6.png",
+            "explanation": "題目圖片顯示為敦煌的戶籍登錄資料，日期則是建初十二年，題目附註是西元 416 年，當時人口普查的目的主要為賦稅和勞役。因此選Ｂ"
           },
           {
             "number": 7,
             "type": "singleChoice",
-            "description": "「柯因奈語」（Koine），又稱「通用希臘語」，是大約發源於西元前四世紀的國際性語言。此一語言因某帝國在政治上統一了愛琴海地區各希臘城邦，融合了該地區多種方言發展而成；其後又伴隨帝國對外武力征服，向埃及、西亞等地區擴散傳播，對於往後數百年間科學、文學和宗教的發展影響深遠。上述的「某帝國」，最可能為下列何者？",
+            "description": "「柯因奈語」(Koine)，又稱「通用希臘語」，是大約發源於西元前四世紀的國際性語言。此一語言因某帝國在政治上統一了愛琴海地區各希臘城邦，融合了該地區多種方言發展而成；其後又伴隨帝國對外武力征服，向埃及、西亞等地區擴散傳播，對於往後數百年間科學、文學和宗教的發展影響深遠。上述的「某帝國」，最可能為下列何者？",
             "passing_rate": 0.77,
             "discrimination_index": 0.43,
             "choices": [
@@ -3195,7 +3787,8 @@
                 "description": "阿茲提克帝國"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "時間是西元前四世紀，又此帝國除了統一希臘個城邦、甚至延伸到埃及和西亞，因此選亞歷山大帝國：Ｃ"
           },
           {
             "number": 8,
@@ -3222,7 +3815,8 @@
               }
             ],
             "correct_answer": "C",
-            "image": "111_society_8.png"
+            "image": "111_society_8.png",
+            "explanation": "關鍵字：研磨鐵器，顯然進入鐵器時代，因此選Ｃ。"
           },
           {
             "number": 9,
@@ -3248,7 +3842,8 @@
                 "description": "信仰宗教自由與人民財產權"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "題目顯示法律與宗教之間的衝突，因此選Ｂ"
           },
           {
             "number": 10,
@@ -3274,7 +3869,8 @@
                 "description": "警察局局長"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "題目的公職人員擁有公訴他人的權力，顯示是檢察官，選Ｃ"
           },
           {
             "number": 11,
@@ -3301,7 +3897,8 @@
               }
             ],
             "correct_answer": "B",
-            "image": "111_society_11.png"
+            "image": "111_society_11.png",
+            "explanation": "科技公司在廣告中提供優惠，而沒有宣傳自己品牌的優點，是價格競爭，因此 選Ｂ"
           },
           {
             "number": 12,
@@ -3328,7 +3925,8 @@
               }
             ],
             "correct_answer": "A",
-            "image": "111_society_12.png"
+            "image": "111_society_12.png",
+            "explanation": "1950 出生的婦女在 30 歲累計生 2.5 人，但 1980 出生的婦女在 30 歲卻只生 1 人 多一些。顯示出生率的下降。因此需要提高幼兒生育補助，選Ａ"
           },
           {
             "number": 13,
@@ -3355,12 +3953,13 @@
               }
             ],
             "correct_answer": "B",
-            "image": "111_society_13.png"
+            "image": "111_society_13.png",
+            "explanation": "只要父或母任一人有我國國籍，即可取得我國國籍。是血統主義為主、出生地主 義為輔。王大軒目前擔任我國立法委員，林小潔、王大軒出生時父母擁有我國國 籍，因此最可能沒有我國國籍的是李大賢，選Ｂ"
           },
           {
             "number": 14,
             "type": "singleChoice",
-            "description": "歐盟基於公眾健康及動物福利等理由，於 2012 年起，禁止境內農民以傳統格子籠方式飼養蛋雞，並立法規定市售雞蛋必須明確標示其飼養方式，讓消費者可以在平飼（即室內放養蛋雞）、放牧（除室內空間外，還提供蛋雞戶外活動空間）等友善生產的蛋品之間做出選擇。上述友善飼養方式逐漸在臺灣推行，但所產出的蛋品在臺灣市占率仍不高，其原因最可能為下列何者？",
+            "description": "歐盟基於公眾健康及動物福利等理由，於 2012 年起，禁止境內農民以傳統格子籠方式飼養蛋雞，並立法規定市售雞蛋必須明確標示其飼養方式，讓消費者可以在平飼(即室內放養蛋雞)、放牧(除室內空間外，還提供蛋雞戶外活動空間)等友善生產的蛋品之間做出選擇。上述友善飼養方式逐漸在臺灣推行，但所產出的蛋品在臺灣市占率仍不高，其原因最可能為下列何者？",
             "passing_rate": 0.71,
             "discrimination_index": 0.45,
             "choices": [
@@ -3381,7 +3980,8 @@
                 "description": "飲食習慣改變"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "題目顯示台灣沒有像歐洲一樣開始注重生蛋雞的飼養方式，市占率不高。猜測更 人道的飼養方式會提高成本，導致售價升高，因此消費者減少。選Ｃ"
           },
           {
             "number": 15,
@@ -3408,7 +4008,8 @@
               }
             ],
             "correct_answer": "D",
-            "image": "111_society_15.png"
+            "image": "111_society_15.png",
+            "explanation": "台灣氣候和美國東南部最相似，因此選Ｄ"
           },
           {
             "number": 16,
@@ -3435,7 +4036,8 @@
               }
             ],
             "correct_answer": "C",
-            "image": "111_society_16.png"
+            "image": "111_society_16.png",
+            "explanation": "圖顯示原始森林面積 50 年來逐漸減少，減少原因多數是因為人為開墾，因此 選 C，因為原始森林和野生動物棲地有高度關係。"
           },
           {
             "number": 17,
@@ -3461,7 +4063,8 @@
                 "description": "增加出口至東協國家的茶葉量"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "題幹顯示以科技提升台灣茶農的競爭力，精準計算水量、肥料是減少開銷，而農 業機具、無人機巡視也能減少人力成本，都是指向降低生產成本而提高競爭力。\n因此選Ｂ"
           },
           {
             "number": 18,
@@ -3488,7 +4091,8 @@
               }
             ],
             "correct_answer": "C",
-            "image": "111_society_18.png"
+            "image": "111_society_18.png",
+            "explanation": "歐亞大陸西岸是歐洲地區，經度接近 0 度（英國）。而且歐亞大陸在北 半球，緯度選北緯，因此只有Ｃ能選。"
           },
           {
             "number": 19,
@@ -3515,7 +4119,8 @@
               }
             ],
             "correct_answer": "C",
-            "image": "111_society_19.png"
+            "image": "111_society_19.png",
+            "explanation": "只有丙屬於歷史事實，其他選項都有筆者主觀的成分。選Ｃ"
           },
           {
             "number": 20,
@@ -3542,7 +4147,8 @@
               }
             ],
             "correct_answer": "A",
-            "image": "111_society_20.png"
+            "image": "111_society_20.png",
+            "explanation": "圖十一顯示已經有警察制度、而且已經有通往打狗的列車，顯示是日治時期之後 因為日治時期打狗更名為高雄，此文獻卻尚未更改，因此可知是日治時期的文 獻，因此選Ａ"
           },
           {
             "number": 21,
@@ -3568,12 +4174,13 @@
                 "description": "民主陣營為防堵共產勢力，派遣艦隊駐防太平洋"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "最早於幕府時期，日本已經與西方部分國家展開貿易交流，爾後才發生明治維 新。因此選Ｂ"
           },
           {
             "number": 22,
             "type": "singleChoice",
-            "description": "一列火車在德國官方祕密安排下，從蘇黎世出發前往俄國，車上乘客包括列寧及其布爾什維克黨同志，這些人曾因為反對俄國政府而流亡海外。列寧等人沿途經過德國、瑞典、芬蘭，最後抵達俄國的首都彼得格勒（今聖彼得堡）。半年後，他們領導革命，推翻臨時政府，組織新的政權，對俄國產生重大影響。當時德國官方安排這班列車的目的，最可能為下列何者？",
+            "description": "一列火車在德國官方祕密安排下，從蘇黎世出發前往俄國，車上乘客包括列寧及其布爾什維克黨同志，這些人曾因為反對俄國政府而流亡海外。列寧等人沿途經過德國、瑞典、芬蘭，最後抵達俄國的首都彼得格勒(今聖彼得堡)。半年後，他們領導革命，推翻臨時政府，組織新的政權，對俄國產生重大影響。當時德國官方安排這班列車的目的，最可能為下列何者？",
             "passing_rate": 0.6,
             "discrimination_index": 0.55,
             "choices": [
@@ -3594,7 +4201,8 @@
                 "description": "為使俄國退出第一次世界大戰"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "由蘇聯共產黨成立時間點可知，是一戰時期，因此選Ｄ"
           },
           {
             "number": 23,
@@ -3621,7 +4229,8 @@
               }
             ],
             "correct_answer": "D",
-            "image": "111_society_23.png"
+            "image": "111_society_23.png",
+            "explanation": "由圖片可知，是一個新聞自由相當不足的地方，甚至需要思想考試。儘管 2020 核發許多記者證，但新聞自由指數仍然全球倒數第四。顯示記者數量提升，但很 可能都必須接受審查，仍然沒有自由可言，因此選Ｄ"
           },
           {
             "number": 24,
@@ -3648,7 +4257,8 @@
               }
             ],
             "correct_answer": "B",
-            "image": "111_society_24.png"
+            "image": "111_society_24.png",
+            "explanation": "不具備選舉投票資格，很可能受到監護宣告。而褫奪公權仍然擁有投票權。因此 選Ｂ"
           },
           {
             "number": 25,
@@ -3674,7 +4284,8 @@
                 "description": "公務人員的選才制度是否有改善的空間"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "大法官具有解釋憲法、法律與命令的職務，因此選 C"
           },
           {
             "number": 26,
@@ -3701,7 +4312,8 @@
               }
             ],
             "correct_answer": "B",
-            "image": "111_society_26.png"
+            "image": "111_society_26.png",
+            "explanation": "圖十三顯示為瑞士，瑞士地理山地地形多，因此選Ｂ"
           },
           {
             "number": 27,
@@ -3728,7 +4340,8 @@
               }
             ],
             "correct_answer": "D",
-            "image": "111_society_27.png"
+            "image": "111_society_27.png",
+            "explanation": "圖片有畫出鴨綠江，顯然和甲港口位於不同地方。而甲緯度高，使中國船隻易於 通往北極海，因此選Ｄ"
           },
           {
             "number": 28,
@@ -3755,12 +4368,13 @@
               }
             ],
             "correct_answer": "D",
-            "image": "111_society_28.png"
+            "image": "111_society_28.png",
+            "explanation": "題目黑色地區是孟加拉，是人口密度非常稠密的地區。選丁為相似密度較為恰當"
           },
           {
             "number": 29,
             "type": "singleChoice",
-            "description": "世界氣象組織（WMO）定義熱浪標準為連續 5 日的每日最高氣溫，皆高於歷年最暖月的最高氣溫平均值 5 ℃以上。附表為臺北測站 1981 至 2010 年氣溫相關資料，根據上述定義，臺北在下列何種情形即達到此一熱浪標準？",
+            "description": "世界氣象組織(WMO)定義熱浪標準為連續 5 日的每日最高氣溫，皆高於歷年最暖月的最高氣溫平均值 5 ℃以上。附表為臺北測站 1981 至 2010 年氣溫相關資料，根據上述定義，臺北在下列何種情形即達到此一熱浪標準？",
             "passing_rate": 0.38,
             "discrimination_index": 0.48,
             "choices": [
@@ -3782,7 +4396,8 @@
               }
             ],
             "correct_answer": "D",
-            "image": "111_society_29.png"
+            "image": "111_society_29.png",
+            "explanation": "由題幹顯示，選最高氣溫 $34.3+5=39.3$ 。因此選Ｄ"
           },
           {
             "number": 30,
@@ -3808,7 +4423,8 @@
                 "description": "1966～1976 年文化大革命期間"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "題目中天津除了抵制日貨外，也排斥燒香與磕頭等傳統禮儀。但關鍵為，此時期 為國民黨執政時期，因此只能選 B"
           },
           {
             "number": 31,
@@ -3835,7 +4451,8 @@
               }
             ],
             "correct_answer": "D",
-            "image": "111_society_31.png"
+            "image": "111_society_31.png",
+            "explanation": "1650 年到 1700 年貿易量顯著減少，對照時期可知為清朝時期，是鄭成功在台灣 時期，因此選Ｄ"
           },
           {
             "number": 32,
@@ -3861,7 +4478,8 @@
                 "description": "王小姐可依《性別平等教育法》向謝先生求償"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "拘役是刑法中的自由刑，因此選 A。而保護令由法院核發而非警察局。"
           },
           {
             "number": 33,
@@ -3888,7 +4506,8 @@
               }
             ],
             "correct_answer": "A",
-            "image": "111_society_33.png"
+            "image": "111_society_33.png",
+            "explanation": "權宜問題屬於發生喧擾影響聽覺、而秩序問題是議題發生錯誤，而足以破外議事 秩序，例如討論超過議題範圍等等。因此選Ａ"
           },
           {
             "number": 34,
@@ -3914,7 +4533,8 @@
                 "description": "行政院部會首長進行施政報告"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "只有Ｄ屬於立法院的職責範疇。因此選Ｄ \nA 司法院，B 監察院、C 行政院"
           },
           {
             "number": 35,
@@ -3940,7 +4560,8 @@
                 "description": "遭友積欠債務，至調解委員會聲請調解"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "調解為訴訟前具有保障的程序。而Ｃ私下和解具有風險性。因此選Ｄ B 屬於公訴"
           },
           {
             "number": 36,
@@ -3967,7 +4588,8 @@
               }
             ],
             "correct_answer": "D",
-            "image": "111_society_36.png"
+            "image": "111_society_36.png",
+            "explanation": "對大華而言，到乙商店導致失去就近購買的機會。而對小年而言，去甲商店則會 買貴，因此選Ｄ"
           },
           {
             "number": 37,
@@ -3993,7 +4615,8 @@
                 "description": "主張全面改革思想文化，提倡西方科學精神與白話文學"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "文章中提出改革的許多問題，並且對改革表示失望，也暗示革命的可能性。因此 選Ｃ"
           },
           {
             "number": 38,
@@ -4020,7 +4643,8 @@
               }
             ],
             "correct_answer": "C",
-            "image": "111_society_38.png"
+            "image": "111_society_38.png",
+            "explanation": "關鍵字為南半球與 14 種原住民語，更重要的是英國女王頭像，可知是昔日大英 帝國之一，聯想到澳洲，因此選Ｃ"
           },
           {
             "number": 39,
@@ -4047,7 +4671,8 @@
               }
             ],
             "correct_answer": "C",
-            "image": "111_society_39.png"
+            "image": "111_society_39.png",
+            "explanation": "小強需要尋找支持性別不平等的證據，家暴受害者多為女性可以支持這個論點，因此選Ｃ"
           },
           {
             "number": 40,
@@ -4074,7 +4699,8 @@
               }
             ],
             "correct_answer": "D",
-            "image": "111_society_40.png"
+            "image": "111_society_40.png",
+            "explanation": "圖二十第一句顯示非洲國家進口商品捨近求遠，第二句顯示非洲主要為洲際貿 易而非洲內貿易。因此要尋找可以提升非洲洲內貿易的選項。因此選Ｄ"
           },
           {
             "number": 41,
@@ -4101,7 +4727,8 @@
               }
             ],
             "correct_answer": "B",
-            "image": "111_society_41.png"
+            "image": "111_society_41.png",
+            "explanation": "因為太平洋戰爭爆發後，美國參戰，美國在圖 21 中為敵對國。因此選 B"
           },
           {
             "number": 42,
@@ -4128,7 +4755,8 @@
               }
             ],
             "correct_answer": "D",
-            "image": "111_society_42.png"
+            "image": "111_society_42.png",
+            "explanation": "甲出口商品大幅增加，顯示甲國貨幣對乙國貨幣貶值。而甲國進口大幅增加，顯 示甲國貨幣對丙國貨幣升值，因此選 D"
           },
           {
             "number": 43,
@@ -4155,7 +4783,8 @@
               }
             ],
             "correct_answer": "A",
-            "image": "111_society_43.png"
+            "image": "111_society_43.png",
+            "explanation": "大手顯然是共產黨，而大韓民國正在抵抗共產黨的侵略。由此可知時間是二戰後 的韓戰時期，領導各國對抗共產黨的，最可能是聯合國。因此選Ａ"
           },
           {
             "type": "groupChoice",
@@ -4184,7 +4813,8 @@
                     "description": "當時臺灣已經對外開港,裕鐸仍阻撓洋商在臺貿易"
                   }
                 ],
-                "correct_answer": "B"
+                "correct_answer": "B",
+                "explanation": "因為文案顯示無法完全公開貿易，因此選尚未對外開港，但實際上有洋商貿易 的 B"
               },
               {
                 "number": 45,
@@ -4209,17 +4839,18 @@
                     "description": "許多府城商人組成「郊」與洋行合作"
                   }
                 ],
-                "correct_answer": "B"
+                "correct_answer": "B",
+                "explanation": "文案顯示重申不得在安平附近貿易的原因是泉州商人跑去向福建巡佐告狀，因 此選Ｂ"
               }
             ]
           },
           {
             "type": "groupChoice",
-            "description": "閱讀下列選文，回答下列各題：\n  臺灣和地形有關的地名，多是古人依照當時的地理環境所命名，隨著時間變化，原先的山丘、河或湖可能會變遷甚至消失，僅剩下地名而已。因此，透過地名可推估過去的地景樣貌，例如「墘」字代表位於某一地物或水體的旁邊，如厝墘、田墘、港墘與溪墘等，圖(一)為「墘」字地名的分布圖。\n  小瑜家鄉地名也有「墘」字，雖然現今已經看不到當時的地貌；為了印證上述命名原則，她找到 1921 年日治時期家鄉的地圖",
+            "description": "閱讀下列選文，回答下列各題：\n  臺灣和地形有關的地名，多是古人依照當時的地理環境所命名，隨著時間變化，原先的山丘、河或湖可能會變遷甚至消失，僅剩下地名而已。因此，透過地名可推估過去的地景樣貌，例如「墘」字代表位於某一地物或水體的旁邊，如厝墘、田墘、港墘與溪墘等，圖(二十四)為「墘」字地名的分布圖。\n  小瑜家鄉地名也有「墘」字，雖然現今已經看不到當時的地貌；為了印證上述命名原則，她找到 1921 年日治時期家鄉的地圖",
             "options": [
               {
                 "number": 46,
-                "description": "根據圖(一)中「墘」字地名的分布判斷，下列關於「墘」字地名的推論何者最為合理？",
+                "description": "根據圖(二十四)中「墘」字地名的分布判斷，下列關於「墘」字地名的推論何者最為合理？",
                 "passing_rate": 0.72,
                 "discrimination_index": 0.52,
                 "choices": [
@@ -4240,11 +4871,12 @@
                     "description": "受西班牙占領影響,為西班牙語音譯的地名"
                   }
                 ],
-                "correct_answer": "A"
+                "correct_answer": "A",
+                "explanation": "「墘」集中在西半部，又以平原較多，和閩南族群較為吻合，因此選Ａ"
               },
               {
                 "number": 47,
-                "description": "根據圖(二)判斷，在日治時期小瑜的家鄉最可能以哪種產業活動為主？",
+                "description": "根據圖(二十五)判斷，在日治時期小瑜的家鄉最可能以哪種產業活動為主？",
                 "passing_rate": 0.77,
                 "discrimination_index": 0.43,
                 "choices": [
@@ -4265,11 +4897,12 @@
                     "description": "海鹽晒製"
                   }
                 ],
-                "correct_answer": "A"
+                "correct_answer": "A",
+                "explanation": "小瑜家鄉多為田地，由圖 25、26 顯示可知，是河流旁的田地，最可能的應該是水稻耕作，因此選 A"
               },
               {
                 "number": 48,
-                "description": "根據上文中地名的命名原則及圖(二)與圖(三)的資訊判斷，小瑜的家鄉地名最可能為下列何者？",
+                "description": "根據上文中地名的命名原則及圖(二十五)與圖(二十六)的資訊判斷，小瑜的家鄉地名最可能為下列何者？",
                 "passing_rate": 0.74,
                 "discrimination_index": 0.46,
                 "choices": [
@@ -4290,14 +4923,15 @@
                     "description": "黑礁墘"
                   }
                 ],
-                "correct_answer": "B"
+                "correct_answer": "B",
+                "explanation": "在溪邊，應該叫做溪墘。在圖 25 中可知似乎是有靜止的水體，選潭墘適當，因此選Ｂ"
               }
             ],
             "image": "111_society_46-48.png"
           },
           {
             "type": "groupChoice",
-            "description": "閱讀下列選文，回答下列各題：\n  過去以茶文化為主的亞洲人，對咖啡的接受度越來越高，更逐漸在各地形成獨特的咖啡文化。近年臺灣也吹起喝咖啡的風潮，路上常看到人手一杯咖啡。其實早在日治時期，日本就已將飲用咖啡的習慣帶入臺灣，戰後有業者創立供內用的專業咖啡店，還有廠商生產即溶與罐裝咖啡，但直到九○年代末期，美式咖啡連鎖品牌進駐臺灣引進外帶現煮咖啡後，咖啡市場才出現了關鍵性的改變，讓喝咖啡變成日常生活的一部分。2018 年時，臺灣平均每人一年喝下超過 200 杯咖啡，咖啡豆的進口量是 2008 年時的兩倍以上，而且咖啡商機還在持續成長中。\n  而南韓人比臺灣人更愛喝咖啡，南韓在亞洲地區的咖啡飲用量名列前茅，根據相關調查報告推估，南韓平均每人一年喝下超過 500 杯咖啡。咖啡幾乎是南韓日常生活中不可缺少的一部分，不只是上班族的必備品，也相當受學生喜愛。在南韓的校園中，不少學生常因熬夜看書導致白天精神不濟，於是飲用咖啡來提神與增加專注力，但攝取過量咖啡因會有頭暈、心跳加速、睡眠障礙等症狀，可能不利於青少年神經及心血管系統的發育。南韓政府擔心校園內飲用咖啡的風氣，對於未來整體的國民健康、醫療資源會產生負面影響，因此修法規定自 2018 年 9 月起，全面禁止在高中以下校園內販售含有咖啡因的飲料。\n  或許臺灣人的咖啡癮還沒有南韓這麼嚴重，不過我國已有相關法令規範高中以下校園內飲品及點心的販售項目，違規販售不符規範的商品將被主管機關要求下架，以避免類似的問題在臺灣發生。",
+            "description": "閱讀下列選文，回答下列各題：\n  過去以茶文化為主的亞洲人，對咖啡的接受度越來越高，更逐漸在各地形成獨特的咖啡文化。近年臺灣也吹起喝咖啡的風潮，路上常看到人手一杯咖啡。其實早在日治時期，日本就已將飲用咖啡的習慣帶入臺灣，戰後有業者創立供內用的專業咖啡店，還有廠商生產即溶與罐裝咖啡，但直到九零年代末期，美式咖啡連鎖品牌進駐臺灣引進外帶現煮咖啡後，咖啡市場才出現了關鍵性的改變，讓喝咖啡變成日常生活的一部分。2018 年時，臺灣平均每人一年喝下超過 200 杯咖啡，咖啡豆的進口量是 2008 年時的兩倍以上，而且咖啡商機還在持續成長中。\n  而南韓人比臺灣人更愛喝咖啡，南韓在亞洲地區的咖啡飲用量名列前茅，根據相關調查報告推估，南韓平均每人一年喝下超過 500 杯咖啡。咖啡幾乎是南韓日常生活中不可缺少的一部分，不只是上班族的必備品，也相當受學生喜愛。在南韓的校園中，不少學生常因熬夜看書導致白天精神不濟，於是飲用咖啡來提神與增加專注力，但攝取過量咖啡因會有頭暈、心跳加速、睡眠障礙等症狀，可能不利於青少年神經及心血管系統的發育。南韓政府擔心校園內飲用咖啡的風氣，對於未來整體的國民健康、醫療資源會產生負面影響，因此修法規定自 2018 年 9 月起，全面禁止在高中以下校園內販售含有咖啡因的飲料。\n  或許臺灣人的咖啡癮還沒有南韓這麼嚴重，不過我國已有相關法令規範高中以下校園內飲品及點心的販售項目，違規販售不符規範的商品將被主管機關要求下架，以避免類似的問題在臺灣發生。",
             "options": [
               {
                 "number": 49,
@@ -4322,7 +4956,8 @@
                     "description": "國小內販售咖啡將會遭受刑罰處罰"
                   }
                 ],
-                "correct_answer": "C"
+                "correct_answer": "C",
+                "explanation": "文案顯示咖啡在我國非常盛行。從日本文化的引進到美式現煮的風潮都大大提升台灣人飲用咖啡的習慣，因此選 C"
               },
               {
                 "number": 50,
@@ -4347,7 +4982,8 @@
                     "description": "透過制度變革影響校內商品的販售種類"
                   }
                 ],
-                "correct_answer": "D"
+                "correct_answer": "D",
+                "explanation": "南韓政府透過立法保障高中以下學生不會在校園內接觸到含咖啡因的飲料。因此 選 D"
               },
               {
                 "number": 51,
@@ -4372,13 +5008,14 @@
                     "description": "家庭暴力受害者可聲請保護令以避免受到傷害"
                   }
                 ],
-                "correct_answer": "C"
+                "correct_answer": "C",
+                "explanation": "南韓政府透過修法保護青少年，和Ｃ選項透過修法保障孩童不能進入有害身心發展的場所類似，因此選Ｃ"
               }
             ]
           },
           {
             "type": "groupChoice",
-            "description": "閱讀下列選文，回答下列各題：\n  空氣汙染是當代世界嚴重的問題，過去的英國也曾深受空汙的危害。日本明治時代文學家夏目漱石在旅英期間的日記中寫道：「在倫敦的街上散步時吐了口痰，當我看到自己吐出一團全黑的物體時真是吃驚。幾百萬市民每天都吸著煤煙和塵埃，汙染著他們的肺。」當時人們以煤作為驅動蒸汽機以及家中暖爐、廚具的燃料，加上西歐地區盛行風的吹拂，使空氣汙染物不斷飄向城市的下風處，形成如圖(一)煙霧瀰漫的景觀。\n  燃煤帶來的空氣汙染會影響健康，可能降低新生兒存活率，或是使得兒童發育遲緩。十九世紀時英國部分城市的居民居住區域分布也反映出貧富差距，資本家與中產階級為了尋求較好的生活品質，紛紛遷往城市中汙染較少的區域，而較為窮困的低技術勞動階級，因受工作地點和經濟考量所限，只能居住於汙染嚴重的區域。因此，思想家恩格斯在當時就發出「只有勞動階級才會呼吸受汙染的空氣」的不平之鳴。\n\n圖(一)",
+            "description": "閱讀下列選文，回答下列各題：\n  空氣汙染是當代世界嚴重的問題，過去的英國也曾深受空汙的危害。日本明治時代文學家夏目漱石在旅英期間的日記中寫道：「在倫敦的街上散步時吐了口痰，當我看到自己吐出一團全黑的物體時真是吃驚。幾百萬市民每天都吸著煤煙和塵埃，汙染著他們的肺。」當時人們以煤作為驅動蒸汽機以及家中暖爐、廚具的燃料，加上西歐地區盛行風的吹拂，使空氣汙染物不斷飄向城市的下風處，形成如圖(一)煙霧瀰漫的景觀。\n  燃煤帶來的空氣汙染會影響健康，可能降低新生兒存活率，或是使得兒童發育遲緩。十九世紀時英國部分城市的居民居住區域分布也反映出貧富差距，資本家與中產階級為了尋求較好的生活品質，紛紛遷往城市中汙染較少的區域，而較為窮困的低技術勞動階級，因受工作地點和經濟考量所限，只能居住於汙染嚴重的區域。因此，思想家恩格斯在當時就發出「只有勞動階級才會呼吸受汙染的空氣」的不平之鳴。",
             "options": [
               {
                 "number": 52,
@@ -4403,7 +5040,8 @@
                     "description": "文藝復興"
                   }
                 ],
-                "correct_answer": "A"
+                "correct_answer": "A",
+                "explanation": "夏目漱石咳出煙煤和塵埃的痰液，顯示工業革命導致的空氣污染，選Ａ"
               },
               {
                 "number": 53,
@@ -4429,7 +5067,8 @@
                   }
                 ],
                 "correct_answer": "B",
-                "image": "111_society_53.png"
+                "image": "111_society_53.png",
+                "explanation": "因為西風吹拂，低技術勞工無法選擇，只能住在空氣污染的下風處，因此選乙。"
               },
               {
                 "number": 54,
@@ -4454,7 +5093,8 @@
                     "description": "法西斯主義"
                   }
                 ],
-                "correct_answer": "A"
+                "correct_answer": "A",
+                "explanation": "因為資本主義產生的資產階級與勞動階級，與隨之而來的不平等，是社會主義 關懷的重點之一，因此選 A"
               }
             ],
             "image": "111_society_52-54.png"
@@ -4462,7 +5102,7 @@
         ]
       },
       {
-        "name": "自然科（目前題目不完整，將在未來更新中新增）",
+        "name": "自然科",
         "duration": 70,
         "grade_markings": {
           "A++": 47,
@@ -4500,7 +5140,1423 @@
               }
             ],
             "correct_answer": "A",
-            "explanation": "氣壓的國際單位制是帕斯卡（或簡稱帕，符號是Pa），一般氣象學中人們使用百帕（hPa）作為氣壓單位。"
+            "explanation": "百帕(hPa)為氣象上常用的氣壓單位之一。"
+          },
+          {
+            "number": 2,
+            "type": "singleChoice",
+            "description": "成熟的蓮霧會自然從樹上掉落到地面，蓮霧在掉落的過程中，其速率逐漸增加。上述現象是下列何種能量減少而轉換成其他形式的能量所造成的？",
+            "passing_rate": 0.88,
+            "discrimination_index": 0.28,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "動能"
+              },
+              {
+                "answer": "B",
+                "description": "熱能"
+              },
+              {
+                "answer": "C",
+                "description": "重力位能"
+              },
+              {
+                "answer": "D",
+                "description": "彈力(性)位能"
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "地表附近的重力位能改變為: $\\delta U = mg \\delta h$ 。因此蓮霧掉落時高度下降會造成重力位 能的減少，進而轉換成動能。"
+          },
+          {
+            "number": 3,
+            "type": "singleChoice",
+            "description": "博物館的貴重畫冊常會保存在充滿氮氣的密閉容器中，以防止畫冊氧化。上述使用氮氣的原因，主要是考量氮氣具有下列何種性質？",
+            "passing_rate": 0.84,
+            "discrimination_index": 0.45,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "密度較大"
+              },
+              {
+                "answer": "B",
+                "description": "比熱較小"
+              },
+              {
+                "answer": "C",
+                "description": "沸點較大"
+              },
+              {
+                "answer": "D",
+                "description": "活性較小"
+              }
+            ],
+            "correct_answer": "D",
+            "explanation": "氮氣($N_2$)是常見的惰性氣體之一，特性為不容易與其他物質產生化學反應。"
+          },
+          {
+            "number": 4,
+            "type": "singleChoice",
+            "description": "人類將人工魚礁投入水底以增加藻類、珊瑚及魚類的棲息空間，這些魚礁最可能被置放在下列哪一地區？",
+            "passing_rate": 0.8,
+            "discrimination_index": 0.41,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "溪流區"
+              },
+              {
+                "answer": "B",
+                "description": "河口區"
+              },
+              {
+                "answer": "C",
+                "description": "淺海區"
+              },
+              {
+                "answer": "D",
+                "description": "大洋區"
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "珊瑚居住地為熱帶海洋，因此排除(A)；珊瑚不適合居住在含有大量泥沙處，因此 排除泥沙堆積處(B)；藻類需要在陽光可照射到的水域生存，因此排除過深的大洋區(D)。故選(C)。"
+          },
+          {
+            "number": 5,
+            "type": "singleChoice",
+            "description": "下列為四種植物對於環境刺激的感應，何者從接受刺激到出現反應，所需的時間最長？",
+            "passing_rate": 0.69,
+            "discrimination_index": 0.56,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "朱槿植株受光刺激後向光彎曲"
+              },
+              {
+                "answer": "B",
+                "description": "捕蠅草受昆蟲刺激後葉片閉合"
+              },
+              {
+                "answer": "C",
+                "description": "酢漿草在太陽下山後葉片下垂"
+              },
+              {
+                "answer": "D",
+                "description": "含羞草受外力觸碰後小葉閉合"
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "(A)為植物生長素不均造成，需要一段時間才會反映出來。(B)、(D)皆是立即的反 應；(C)小時等級以內的反應。故選(A)。"
+          },
+          {
+            "number": 6,
+            "type": "singleChoice",
+            "description": "住在英國的大介到紐西蘭歡度聖誕節(12/25)，他發現此時紐西蘭的氣候型態與常見慶祝活動和英國大不相同，其比較如表。根據表中資訊，下列何者也是大介當時在紐西蘭可發現的現象？",
+            "passing_rate": 0.83,
+            "discrimination_index": 0.37,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "紐西蘭的夜晚長度比英國長"
+              },
+              {
+                "answer": "B",
+                "description": "紐西蘭的白晝長度比英國長"
+              },
+              {
+                "answer": "C",
+                "description": "紐西蘭的白晝與夜晚長度大約相同"
+              },
+              {
+                "answer": "D",
+                "description": "紐西蘭的白晝與夜晚長度都和英國大約相同"
+              }
+            ],
+            "correct_answer": "B",
+            "explanation": "聖誕節(12/25)時太陽直射南半球，因此所在南半球的紐西蘭的白晝長度會比在北 半球的英國長。故選(B)。"
+          },
+          {
+            "number": 7,
+            "type": "singleChoice",
+            "description": "小真和小文到高山上旅遊，發現密封包裝的洋芋片其外包裝比在山下膨脹許多，如圖所示。以下為兩人對包裝的膨脹現象是否與氣溫有關的對話：\n\n小真：「包裝膨脹應該是因為山上氣溫較低，你看在山下的時候氣溫高就不會。」\n小文：「應該不是氣溫的關係吧！……」\n已知上述對話中小文不同意小真的論點，則下列說法何者最不適合用來反駁小真？",
+            "passing_rate": 0.77,
+            "discrimination_index": 0.43,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "我在平地的家中開冷氣時，溫度跟山上相同，洋芋片包裝卻沒有膨脹的現象"
+              },
+              {
+                "answer": "B",
+                "description": "你看這瓶玻璃瓶裝可樂，同樣到氣溫較低的山上，玻璃瓶卻沒有膨脹的現象"
+              },
+              {
+                "answer": "C",
+                "description": "山上的便利商店內有暖氣，溫度跟山下相同，可是洋芋片包裝也有膨脹的現象"
+              },
+              {
+                "answer": "D",
+                "description": "開車上山的過程中，車內空調讓溫度保持不變，可是洋芋片包裝也有膨脹的現象"
+              }
+            ],
+            "correct_answer": "B",
+            "image": "111_nature_7.png",
+            "explanation": "玻璃瓶的熱膨脹行為跟洋芋片包裝不同，因此就算沒有可觀測的膨脹現象，也無法 證明溫度對此的影響。其他選項選用的皆是一樣的洋芋片包裝與溫度關係的反例。故選(B)"
+          },
+          {
+            "number": 8,
+            "type": "singleChoice",
+            "description": "將月球、太陽、氫原子、口腔皮膜細胞依照體積大小，標示於附圖中的體積尺度示意圖。圖中愈靠近數線左端的物質，體積愈小；愈靠近數線右端的物質，體積愈大。則下列四項甲、乙、丙、丁的對應方式，何者最合理？",
+            "passing_rate": 0.77,
+            "discrimination_index": 0.52,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "甲—氫原子，乙—口腔皮膜細胞，丙—太陽，丁—月球"
+              },
+              {
+                "answer": "B",
+                "description": "甲—氫原子，乙—口腔皮膜細胞，丙—月球，丁—太陽"
+              },
+              {
+                "answer": "C",
+                "description": "甲—口腔皮膜細胞，乙—氫原子，丙—太陽，丁—月球"
+              },
+              {
+                "answer": "D",
+                "description": "甲—口腔皮膜細胞，乙—氫原子，丙—月球，丁—太陽"
+              }
+            ],
+            "correct_answer": "B",
+            "image": "111_nature_8.png",
+            "explanation": "氫原子尺寸為 Angstrom 等級($10^{-10}$ m)；皮膜細胞為微米($10^{-6}$ m)等級；太陽尺寸為 106 km 等級；月球尺寸為 103 km 等級。故選(B)。"
+          },
+          {
+            "number": 9,
+            "type": "singleChoice",
+            "description": "製作蛋糕時，常會在白色的鮮奶油中加入些許色素混合，使其顏色變化增加美觀，而鮮奶油仍維持原本的性質。做好的蛋糕需妥善冷藏，以防止鮮奶油腐壞變質。關於上述鮮奶油「變色」和鮮奶油「變質」兩者的說明，下列何者最合理？",
+            "passing_rate": 0.69,
+            "discrimination_index": 0.49,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "兩者都是化學變化"
+              },
+              {
+                "answer": "B",
+                "description": "兩者都不是化學變化"
+              },
+              {
+                "answer": "C",
+                "description": "只有後者是化學變化"
+              },
+              {
+                "answer": "D",
+                "description": "只有前者是化學變化"
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "變色由文中敘述可知，鮮奶油仍維持原本的性質，因此是一種物理變化。而變質是鮮奶油已經腐壞，其內部成份已經不同，因使此是一種化學變化。故選(C)。"
+          },
+          {
+            "number": 10,
+            "type": "singleChoice",
+            "description": "蘋果酸是蘋果等水果中含有的成分，化學式為 C4H6O5，分子中含有兩個－COOH 原子團，是蘋果的酸味來源，常作為食品添加劑。關於蘋果酸的說明，下列何者正確？",
+            "passing_rate": 0.68,
+            "discrimination_index": 0.39,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "屬於有機化合物，也是電解質"
+              },
+              {
+                "answer": "B",
+                "description": "屬於有機化合物，也是非電解質"
+              },
+              {
+                "answer": "C",
+                "description": "屬於無機化合物，也是電解質"
+              },
+              {
+                "answer": "D",
+                "description": "屬於無機化合物，也是非電解質"
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "含碳化合物且非碳氧化物、碳酸鹽類或氰化物，因此是有機化合物；有酸味代表會 在水中解離出 $H^+$ ，因此是電解質。故選(A)。"
+          },
+          {
+            "number": 11,
+            "type": "singleChoice",
+            "description": "人類的 ABO 血型是由一對遺傳因子(等位基因)控制，而控制此血型的遺傳因子有 $I^A$ 、 $I^B$ 和 i 三種型式，其中 $I^A$ 和 $I^B$ 是顯性，i 是隱性，血型和基因型的關係如左表所示。右表為甲～丁四組父母的血型配對，在不考慮突變的情況下，則右表中的何種組別不可能生下 O 型血型的子女？",
+            "passing_rate": 0.73,
+            "discrimination_index": 0.59,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "甲"
+              },
+              {
+                "answer": "B",
+                "description": "乙"
+              },
+              {
+                "answer": "C",
+                "description": "丙"
+              },
+              {
+                "answer": "D",
+                "description": "丁"
+              }
+            ],
+            "correct_answer": "C",
+            "image": "111_nature_11.png",
+            "explanation": "要生出 O 型子女前提是父母皆至少有一個 i 遺傳因子。因此丙的母親是 AB 型($I^AI^B$) 便不可能生下 O 型子女。"
+          },
+          {
+            "number": 12,
+            "type": "singleChoice",
+            "description": "小蘭想了解山坡地發生山崩時，不同因素對建築物破壞程度的影響，而設計以下實驗，裝置如附圖所示。$\\theta$ 為斜面與水平面間的夾角，實驗方式是讓石塊從斜面上滑落撞擊下方的模型房屋。附表則是小蘭 4 次實驗的一些參數。下列有關此實驗的敘述，何者正確？",
+            "passing_rate": 0.81,
+            "discrimination_index": 0.54,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "在實驗編號 1、2 中，石塊重量控制不變"
+              },
+              {
+                "answer": "B",
+                "description": "在實驗編號 3、4 中，斜面長度控制不變"
+              },
+              {
+                "answer": "C",
+                "description": "若要了解夾角θ的影響，可參考實驗編號 2、4 的結果"
+              },
+              {
+                "answer": "D",
+                "description": "若要了解斜面長度的影響，可參考實驗編號 1、3 的結果"
+              }
+            ],
+            "correct_answer": "A",
+            "image": "111_nature_12.png",
+            "explanation": "(B)選項兩組實驗的斜面長度不同；(C)選項並無適合的實驗組合可得知夾角θ的影 響；(D)選項應選編號 1、2 或編號 3、4。故選(A)。"
+          },
+          {
+            "number": 13,
+            "type": "singleChoice",
+            "description": "根據地震波波速變化可知，地球內部可分為地殼、地函、地核三層。上述分層與岩石圈和軟流圈厚度範圍的關係，下列何者最合理？",
+            "passing_rate": 0.6,
+            "discrimination_index": 0.41,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "岩石圈的厚度範圍與地殼相等"
+              },
+              {
+                "answer": "B",
+                "description": "軟流圈的厚度範圍與地函相等"
+              },
+              {
+                "answer": "C",
+                "description": "岩石圈包括了地殼與一部分的地函"
+              },
+              {
+                "answer": "D",
+                "description": "軟流圈包括了地函與一部分的地殼"
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "(A)岩石圈=地殼+上地函；(B)軟流圈在岩石圈以下中間圈以上，屬於地函的一部分，因此厚度小於地函厚度；(C)同(A)，為正確選項；(D)同(B)，軟流圈不包含地殼。"
+          },
+          {
+            "number": 14,
+            "type": "singleChoice",
+            "description": "下列選項中的四個活動，光線經過「 」中的裝置後，哪一個不會改變光的傳播方向？",
+            "passing_rate": 0.71,
+            "discrimination_index": 0.45,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "利用「針孔」成像觀察日食"
+              },
+              {
+                "answer": "B",
+                "description": "利用「放大鏡」觀察校園中的花朵"
+              },
+              {
+                "answer": "C",
+                "description": "利用「汽車後照鏡」觀察後方的車輛位置"
+              },
+              {
+                "answer": "D",
+                "description": "利用「三稜鏡」將陽光分散成七種不同顏色的光"
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "(A)針孔成像為光的直進性表現；(B)光經過放大鏡過程會發生折 折射現象，因此有改變方向；(C)光透過鏡子反 反射進眼中，有改變其行進方向；(D)三稜鏡是透過不同頻率的光有不同折 折射角達到色散效果，同(B)。"
+          },
+          {
+            "number": 15,
+            "type": "singleChoice",
+            "description": "附圖為某一地區的地層剖面示意圖，圖中灰色部分岩層飽含地下水。關於甲、乙、丙、丁所指的各種交界面，何者為地下水面？",
+            "passing_rate": 0.71,
+            "discrimination_index": 0.54,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "甲"
+              },
+              {
+                "answer": "B",
+                "description": "乙"
+              },
+              {
+                "answer": "C",
+                "description": "丙"
+              },
+              {
+                "answer": "D",
+                "description": "丁"
+              }
+            ],
+            "correct_answer": "C",
+            "image": "111_nature_15.png",
+            "explanation": "地下水面應和河面同高，故選(C)。"
+          },
+          {
+            "number": 16,
+            "type": "singleChoice",
+            "description": "水平桌面上畫有由大小相等正方形組成的方格，一條導線沿著桌面上的直線水平放置，將導線通入穩定電流，如圖所示。關於載流導線在桌面上 P、Q 兩點所產生的磁場強度及方向，下列何者正確？",
+            "passing_rate": 0.63,
+            "discrimination_index": 0.46,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "強度相同，方向相同"
+              },
+              {
+                "answer": "B",
+                "description": "強度相同，方向不同"
+              },
+              {
+                "answer": "C",
+                "description": "強度不同，方向相同"
+              },
+              {
+                "answer": "D",
+                "description": "強度不同，方向不同"
+              }
+            ],
+            "correct_answer": "B",
+            "image": "111_nature_16.png",
+            "explanation": "由無限長直導線的磁場分布公式 $B=\\frac{\\mu_0 I}{2\\pi r}$ 可知，在與導線垂直距離相同的位置會有同樣的磁場強度。由安培右手定則可知，兩處磁場方向相反。故選(B)。"
+          },
+          {
+            "number": 17,
+            "type": "singleChoice",
+            "description": "附圖為實驗課的兩臺顯微鏡，阿彥和阿秀想利用顯微鏡觀察一朵小花，若阿彥要觀察萼片細胞的葉綠體大小，而阿秀要觀察雄蕊的數目，則最適合他們使用的顯微鏡分別為何？",
+            "passing_rate": 0.68,
+            "discrimination_index": 0.46,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "兩人皆為複式顯微鏡"
+              },
+              {
+                "answer": "B",
+                "description": "兩人皆為解剖顯微鏡"
+              },
+              {
+                "answer": "C",
+                "description": "阿彥為複式顯微鏡，阿秀為解剖顯微鏡"
+              },
+              {
+                "answer": "D",
+                "description": "阿彥為解剖顯微鏡，阿秀為複式顯微鏡"
+              }
+            ],
+            "correct_answer": "C",
+            "image": "111_nature_17.png",
+            "explanation": "葉綠體尺寸較小且可製作成透光試片，適合使用有較大放大倍率的複式顯微鏡；觀 察雄蕊數目不需太大放大倍率，且不易製作透光試片，因此適合使用解剖顯微鏡。"
+          },
+          {
+            "number": 18,
+            "type": "singleChoice",
+            "description": "一株植物含有不同類型的細胞，以榕樹為例，關於其可行光合作用的細胞數目(甲)與可行呼吸作用的細胞數目(乙)之比較及其原因，下列何者最合理？",
+            "passing_rate": 0.5,
+            "discrimination_index": 0.6,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "甲大於乙，因植物的部分細胞不具有粒線體"
+              },
+              {
+                "answer": "B",
+                "description": "甲小於乙，因植物的部分細胞不具有粒線體"
+              },
+              {
+                "answer": "C",
+                "description": "甲小於乙，因植物的部分細胞不具有葉綠體"
+              },
+              {
+                "answer": "D",
+                "description": "甲等於乙，因植物細胞皆具有葉綠體與粒線體"
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "所有細胞都可以行呼吸作用，但不是所有植物細胞都具有葉綠體行光合作用。故選 (C)。"
+          },
+          {
+            "number": 19,
+            "type": "singleChoice",
+            "description": "「一氧化二氮無色、無味，在常溫常壓下為氣態。它會吸收地表輻射，也對人體的中樞神經有作用，常在醫療上作為麻醉使用。」根據上述介紹，可知一氧化二氮會造成溫室效應，其原因最可能是上述提到的何種特性？",
+            "passing_rate": 0.81,
+            "discrimination_index": 0.54,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "無色、無味"
+              },
+              {
+                "answer": "B",
+                "description": "會吸收地表輻射"
+              },
+              {
+                "answer": "C",
+                "description": "常溫常壓下為氣態"
+              },
+              {
+                "answer": "D",
+                "description": "對人體的中樞神經有作用"
+              }
+            ],
+            "correct_answer": "B",
+            "explanation": "溫室效應主要來源為大氣中的氣體吸收地表輻射。故選(B)。"
+          },
+          {
+            "number": 20,
+            "type": "singleChoice",
+            "description": "附圖是近 30 年臺北和恆春不同月的平均氣溫(折線圖)與平均降雨量(柱狀圖)情形。根據圖中數據所做的推論，下列何者最不合理？",
+            "passing_rate": 0.69,
+            "discrimination_index": 0.5,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "恆春的晝夜溫差較臺北小，約為 7 ℃"
+              },
+              {
+                "answer": "B",
+                "description": "臺北的每月平均降雨量都超過 50 mm"
+              },
+              {
+                "answer": "C",
+                "description": "相較於臺北，恆春大部分的降雨集中在 5～10 月"
+              },
+              {
+                "answer": "D",
+                "description": "臺北不同月的平均氣溫變化較恆春大，約為 13 ℃"
+              }
+            ],
+            "correct_answer": "A",
+            "image": "111_nature_20.png",
+            "explanation": "(A)由平均氣溫無法得知日夜溫差的情形。故選(A)。"
+          },
+          {
+            "number": 21,
+            "type": "singleChoice",
+            "description": "上圖為一則新聞報導，有一種「自熱罐」飲料，罐身下方隔層有 CaO 和水，兩者混合後會放出熱量，可使飲料溫度上升至 60 ℃左右，且續熱半小時以上，在寒冷的冬天相當方便。小禾認為附圖中說明產生的物質有誤，應更正為何種物質？",
+            "passing_rate": 0.61,
+            "discrimination_index": 0.57,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "碳酸鈉"
+              },
+              {
+                "answer": "B",
+                "description": "硫酸鈣"
+              },
+              {
+                "answer": "C",
+                "description": "氫氧化鈉"
+              },
+              {
+                "answer": "D",
+                "description": "氫氧化鈣"
+              }
+            ],
+            "correct_answer": "D",
+            "image": "111_nature_21.png",
+            "explanation": "$CaO + H_2O \\to Ca(OH)_2$ 。故選(D)。"
+          },
+          {
+            "number": 22,
+            "type": "singleChoice",
+            "description": "為避免攝取過量咖啡因，可先降低咖啡豆中的咖啡因含量。將咖啡豆浸泡在有機溶劑中，咖啡因會溶於溶劑中，之後取出咖啡豆加熱，使溶劑揮發掉。二氯甲烷是過往常用的有機溶劑，去除咖啡因效果好又易揮發，但後來因安全疑慮而棄用，並改用乙酸乙酯。因為酯類______，所以較無安全性疑慮，美國食品藥物管理局許可使用乙酸乙酯來去除咖啡因，且無明定殘留許可標準。依據上述資訊，畫線處最適合填入下列何者？",
+            "passing_rate": 0.49,
+            "discrimination_index": 0.52,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "只由碳和氫兩種原子所組成"
+              },
+              {
+                "answer": "B",
+                "description": "是香蕉、柳丁等水果就含有的物質"
+              },
+              {
+                "answer": "C",
+                "description": "沸點比二氯甲烷高，而不易揮發去除"
+              },
+              {
+                "answer": "D",
+                "description": "是油脂與鹼性物質進行皂化反應後的產物"
+              }
+            ],
+            "correct_answer": "B",
+            "explanation": "二氯甲烷含有氯，相對於 C、H 是較具毒性的成份。"
+          },
+          {
+            "number": 23,
+            "type": "singleChoice",
+            "description": "左圖為某地的一條食物鏈，右圖則為依據此食物鏈各層級生物體總能量所繪製成的能量塔示意圖(面積不代表實際能量大小)，若其中蛇類族群的總能量約為 10000 能量單位，則乙階層所含的總能量最接近下列何者？",
+            "passing_rate": 0.58,
+            "discrimination_index": 0.62,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "100 能量單位"
+              },
+              {
+                "answer": "B",
+                "description": "1000 能量單位"
+              },
+              {
+                "answer": "C",
+                "description": "10000 能量單位"
+              },
+              {
+                "answer": "D",
+                "description": "100000 能量單位"
+              }
+            ],
+            "correct_answer": "D",
+            "image": "111_nature_23.png",
+            "explanation": "蛇在能量塔中為丙，因此乙所具有的總能量應大於蛇的總能量 10000 能量單位。故 選(D)。"
+          },
+          {
+            "number": 24,
+            "type": "singleChoice",
+            "description": "附圖為臺灣附近的地面天氣簡圖，圖中黑色曲線為等壓線。此時全臺各地皆受天氣系統甲的影響，目前的地面風向大致以東北風為主。同時在呂宋島東方海面的天氣系統乙則有機會發展為輕度颱風。根據上述資訊，下列推論何者最合理？",
+            "passing_rate": 0.54,
+            "discrimination_index": 0.41,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "由天氣系統甲的位置判斷，其氣團性質與太平洋暖氣團相同"
+              },
+              {
+                "answer": "B",
+                "description": "由天氣簡圖判斷，當天呂宋島北部的地面風向大致為北風或東北風"
+              },
+              {
+                "answer": "C",
+                "description": "受天氣系統甲的影響，臺灣南部及東南部的雨勢比北部及東北部強"
+              },
+              {
+                "answer": "D",
+                "description": "未來若天氣系統乙移至呂宋島上方，會使呂宋島產生晴朗炎熱的天氣型態"
+              }
+            ],
+            "correct_answer": "B",
+            "image": "111_nature_24.png",
+            "explanation": "(A) 甲應為大陸冷氣團；(B)乙應為熱帶性低氣壓，故應沿等壓線切線並呈現逆 時針方向，故正確；(C)文中提到台灣是東北風，所以因為地形雨的關係，應是 台灣北部、東北部有較強的雨勢；(D)熱帶性低氣壓應不會產生晴朗的天氣型態。"
+          },
+          {
+            "number": 25,
+            "type": "singleChoice",
+            "description": "在筆直的道路上有甲、乙、丙、丁四輛車，附圖為四車的速度(v)與時間(t)關係圖。若 t = 0s 時，四車位於同一位置，則有關 t > 0s 車輛間距離的敘述，下列何者正確？",
+            "passing_rate": 0.6,
+            "discrimination_index": 0.54,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "甲、乙兩車的距離保持不變"
+              },
+              {
+                "answer": "B",
+                "description": "丙、丁兩車的距離保持不變"
+              },
+              {
+                "answer": "C",
+                "description": "甲、丙兩車的距離愈來愈近"
+              },
+              {
+                "answer": "D",
+                "description": "乙、丁兩車的距離愈來愈遠"
+              }
+            ],
+            "correct_answer": "D",
+            "image": "111_nature_25.png",
+            "explanation": "(A) 甲、乙速度差不為零，故距離無法保持不變；(B)同(A)；(C)甲、丁朝反方 向前進，因此距離越來越遠；(D)乙、丁速度差不為零，故兩車距離隨時間增加。"
+          },
+          {
+            "number": 26,
+            "type": "singleChoice",
+            "description": "附表為某人體心臟內甲、乙兩個心室的血液中 $O_2$ 含量，根據此表，推測此兩心室所連接的血管，下列敘述何者最合理？",
+            "passing_rate": 0.39,
+            "discrimination_index": 0.48,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "甲與大靜脈連接"
+              },
+              {
+                "answer": "B",
+                "description": "甲與肺靜脈連接"
+              },
+              {
+                "answer": "C",
+                "description": "乙與主動脈連接"
+              },
+              {
+                "answer": "D",
+                "description": "乙與肺動脈連接"
+              }
+            ],
+            "correct_answer": "D",
+            "image": "111_nature_26.png",
+            "explanation": "心房連接動脈，故刪除(A)、(B)。含氧量高的是連接主動脈，含氧量低的是連接肺 動脈。故選(D)。"
+          },
+          {
+            "number": 27,
+            "type": "singleChoice",
+            "description": "附圖為甲和乙兩國在 2015 年，以及 2030 年時預計達成的發電方式比例圖。\n參考附表資料，假設沿用同樣的發電機組，僅考慮發電方式的比例改變，不考慮其他因素，則與 2015 年相比，預測兩國在 2030 年平均每度電的碳排放量會如何變化？",
+            "passing_rate": 0.57,
+            "discrimination_index": 0.52,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "兩國都會增加"
+              },
+              {
+                "answer": "B",
+                "description": "兩國都會減少"
+              },
+              {
+                "answer": "C",
+                "description": "甲國增加，乙國減少"
+              },
+              {
+                "answer": "D",
+                "description": "甲國減少，乙國增加"
+              }
+            ],
+            "correct_answer": "B",
+            "image": "111_nature_27.png",
+            "explanation": "甲國具有碳排放的發電方式皆減少發電比例，故總碳排會下降；乙國雖然無碳排的 發電方式比例不變，但增加低碳排放的燃氣發電比例，故總碳排一樣會下降。故選 (B)。"
+          },
+          {
+            "number": 28,
+            "type": "singleChoice",
+            "description": "小禮將一杯 20 ℃的純水分為甲、乙兩杯，甲、乙兩杯純水的質量分別為 $M_甲$ 、 $M_乙$ ，他將兩杯水分別以相同的熱源加熱，並記錄其加熱時間與上升溫度。已知 $M_甲:M_乙＝3:2$ ，若熱源發出的熱量完全被水吸收，且水的蒸發忽略不計，則水的上升溫度與加熱時間之關係圖最接近下列何者？",
+            "passing_rate": 0.55,
+            "discrimination_index": 0.61,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "A"
+              },
+              {
+                "answer": "B",
+                "description": "B"
+              },
+              {
+                "answer": "C",
+                "description": "C"
+              },
+              {
+                "answer": "D",
+                "description": "D"
+              }
+            ],
+            "correct_answer": "B",
+            "image": "111_nature_28.png",
+            "explanation": "$\\delta H = m \\times s \\times \\delta T$ ，因此若熱源相同，甲乙兩杯的上升溫度應和 M 反比，即 $\\delta T_甲 : \\delta T_乙 = M_乙 : M_甲=2:3。故選(B)。"
+          },
+          {
+            "number": 29,
+            "type": "singleChoice",
+            "description": "「新聞報導某處養殖池的白蝦大量暴斃，調查後初步推測是高溫與暴雨，使養殖池的溶氧量和 pH 值劇烈變化，導致水質改變所造成的。專家建議為避免白蝦大量死亡，應注意水溫變化，可先用水車調整水中的溶氧量，並監控水中的 pH 值，投放熟石灰(氫氧化鈣)調整至合適的 pH 值。」關於上述專家建議的方法，下列說明何者最合理？(溶氧量：溶解於水中的氧氣量)",
+            "passing_rate": 0.51,
+            "discrimination_index": 0.46,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "使水中的溶氧量增加，pH 值增加"
+              },
+              {
+                "answer": "B",
+                "description": "使水中的溶氧量增加，pH 值減少"
+              },
+              {
+                "answer": "C",
+                "description": "使水中的溶氧量減少，pH 值增加"
+              },
+              {
+                "answer": "D",
+                "description": "使水中的溶氧量減少，pH 值減少"
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "利用水車增加水中含氧量，並投放鹼性的熟石灰增加水中 pH 值。故選(A) "
+          },
+          {
+            "number": 30,
+            "type": "singleChoice",
+            "description": "附圖分別為在鑰匙上鍍銅和鋅銅電池的裝置示意圖。已知圖中兩種顏色的箭頭，其中一個代表電子流動方向，另一個代表電流流動方向。依據圖中資訊判斷，鋅銅電池中乙電極進行的反應，應為下列何者？",
+            "passing_rate": 0.45,
+            "discrimination_index": 0.33,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "$Cu^{2+}+2e^- \\to Cu$"
+              },
+              {
+                "answer": "B",
+                "description": "$Cu \\to Cu^{2+}+2e^-$"
+              },
+              {
+                "answer": "C",
+                "description": "$Zn^{2+}+2e^－ \\to Zn$"
+              },
+              {
+                "answer": "D",
+                "description": "$Zn \\to Zn^{2+}+2e^-$"
+              }
+            ],
+            "correct_answer": "A",
+            "image": "111_nature_30.png",
+            "explanation": "由鍍銅示意圖可知，應有電子流入(或電流流出)鑰匙端與 $Cu^{2+}$ 結合以鍍上 Cu。因此判斷黑色箭號為電流。由此可知灰色箭號為電子流。因此可排除(B)、(D)。而由於 Zn 比 Cu 更容易失去電子，因此判斷甲為 Zn、乙為 Cu。故選(A)。"
+          },
+          {
+            "number": 31,
+            "type": "singleChoice",
+            "description": "有一個帶電的離子含有 X、Y、Z 三種粒子(質子、電子、中子，未依照順序排列)，且 X、Y、Z 的粒子數目依序為 $N_X$ 、 $N_Y$ 、 $N_Z$ 。已知 X 粒子的質量最小，關於此離子的說明，下列何者最合理？",
+            "passing_rate": 0.45,
+            "discrimination_index": 0.43,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "若為陽離子，且 $N_Y>N_X=N_Z$ ，則 Z 為質子"
+              },
+              {
+                "answer": "B",
+                "description": "若為陽離子，且 $N_Y>N_X=N_Z$ ，則 Z 為電子"
+              },
+              {
+                "answer": "C",
+                "description": "若為陰離子，且 $N_X>N_Y>N_Z$ ，則 Z 為質子"
+              },
+              {
+                "answer": "D",
+                "description": "若為陰離子，且 $N_X>N_Y=N_Z$ ，則 Z 為電子"
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "X 質量最小，因此 X 為電子，故排除(B)、(D)。(A) Y 為質子。故選(C)。"
+          },
+          {
+            "number": 32,
+            "type": "singleChoice",
+            "description": "已知蜂蜜中含有分解澱粉的酵素。現有甲、乙兩試管皆裝有等量且濃度相同的澱粉液，隨機在其中一支加入蜂蜜，另一支加入等量的水。將兩支試管充分搖勻，靜置於適宜的溫度，待足夠的反應時間後，以碘液檢測。結果顯示甲呈現藍黑色，乙呈現黃褐色。根據此結果，推測哪一支試管加入了蜂蜜及其理由，下列何者最合理？",
+            "passing_rate": 0.48,
+            "discrimination_index": 0.53,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "甲，因未檢測出澱粉"
+              },
+              {
+                "answer": "B",
+                "description": "甲，因有檢測出澱粉"
+              },
+              {
+                "answer": "C",
+                "description": "乙，因未檢測出澱粉"
+              },
+              {
+                "answer": "D",
+                "description": "乙，因有檢測出澱粉"
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "碘液原本為黃褐色，接觸澱粉後呈現藍黑色。因此甲仍含有澱粉、乙已經沒有澱粉 了。由於乙中的澱粉被蜂蜜中的酵素分解了，故選(C)。"
+          },
+          {
+            "number": 33,
+            "type": "singleChoice",
+            "description": "有一槓桿其轉軸 $O_1$ 點在槓桿中央，同時在距 $O_1$ 點兩側 20 cm 處，垂直槓桿施予大小為 F 的力，如左圖所示，兩力對此槓桿產生的合力矩大小為 $L_1$。另有一槓桿其轉軸 $O_2$ 點在槓桿的一端，在距 $O_2$ 點 40 cm 處，垂直槓桿施予大小為 F 的力，如右圖所示，此力對此槓桿產生的力矩大小為 $L_2$。關於 $L_1$ 及 $L_2$ 兩者的關係，下列何者正確？",
+            "passing_rate": 0.32,
+            "discrimination_index": 0.38,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "$L_1=L_2$"
+              },
+              {
+                "answer": "B",
+                "description": "$L_1=2L_2$"
+              },
+              {
+                "answer": "C",
+                "description": "$2L_1=L_2$"
+              },
+              {
+                "answer": "D",
+                "description": "$L_1=0$ ，且 $L_1<L_2$"
+              }
+            ],
+            "correct_answer": "A",
+            "image": "111_nature_33.png",
+            "explanation": "圖左總力矩為 $L_1=F\\times20\\ cm\\ +\\ F\\times20\\ cm = F\\times40\\ cm$ 。\n圖右總力矩為$L_2=F\\times40\\ cm=L_1$。\n故選(A)。"
+          },
+          {
+            "number": 34,
+            "type": "singleChoice",
+            "description": "一條輕繩的一端固定於水平桌面的桌緣上，拉直此繩使其呈水平後，再以固定頻率鉛直上下振動，產生相同頻率的繩波，其示意圖如圖所示。繩波上一點 P 與桌面水平線的鉛直高度與時間的關係如表所示，依據此表推論下列何者最可能是此繩波的週期？",
+            "passing_rate": 0.44,
+            "discrimination_index": 0.56,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "$1.0×10^{-2} s$"
+              },
+              {
+                "answer": "B",
+                "description": "$1.5×10^{-2} s$"
+              },
+              {
+                "answer": "C",
+                "description": "$2.0×10^{-2} s$"
+              },
+              {
+                "answer": "D",
+                "description": "$3.0×10^{-2} s$"
+              }
+            ],
+            "correct_answer": "D",
+            "image": "111_nature_34.png",
+            "explanation": "P 點花了 $3.0 × 10^{-2} s$ 回到依樣高度，因此週期為 $3.0 × 10^{-2} s$。故選(D)。"
+          },
+          {
+            "number": 35,
+            "type": "singleChoice",
+            "description": "小萍比較人體血液中的尿素與氧氣在「流出甲器官後」的濃度變化，結果如表所示。根據上述，推測甲器官最可能是下列何者？",
+            "passing_rate": 0.42,
+            "discrimination_index": 0.56,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "膀胱"
+              },
+              {
+                "answer": "B",
+                "description": "肝臟"
+              },
+              {
+                "answer": "C",
+                "description": "肺臟"
+              },
+              {
+                "answer": "D",
+                "description": "腎臟"
+              }
+            ],
+            "correct_answer": "B",
+            "explanation": "尿素在肝臟的尿素循環中製造出來，故選(B)。"
+          },
+          {
+            "number": 36,
+            "type": "singleChoice",
+            "description": "阿忠與小志想要移動地上的書櫃，發現書櫃裝滿書時，他們無法推動書櫃，因此將裡面的書先拿下，之後就可以輕鬆推動書櫃。兩人對此現象的解釋如下：\n阿忠：由牛頓第二運動定律 F＝ma 可知，書櫃裝滿書時，質量 m 較大，因此推動書櫃所需的力 F 也較大，而造成我們推不動書櫃。\n小志：書櫃裝滿書時，書櫃垂直作用於地面的力較大，因此書櫃與地面間的最大靜摩擦力較大，而造成我們推不動書櫃。\n關於兩人的解釋是否合理？",
+            "passing_rate": 0.23,
+            "discrimination_index": 0.18,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "兩人均合理"
+              },
+              {
+                "answer": "B",
+                "description": "兩人均不合理"
+              },
+              {
+                "answer": "C",
+                "description": "只有阿忠合理"
+              },
+              {
+                "answer": "D",
+                "description": "只有小志合理"
+              }
+            ],
+            "correct_answer": "D",
+            "explanation": "無法推動書櫃應和尚未達到最大靜摩擦力相關。且小志敘述合理。故選(D)。"
+          },
+          {
+            "number": 37,
+            "type": "singleChoice",
+            "description": "小淳和朋友到新竹的新月沙灣玩水，他們在早上 8 點到達。他觀察當地的海浪變化，發現下列現象：\n早上 10 點時，海浪打到沙灘上的位置，比他們 8 點剛到的時候低。\n中午 12 點用餐時，海浪打到沙灘上的位置比早上 10 點時更低了。\n下午 2 點，準備要離開時，海浪打到沙灘上的位置比中午 12 點時更高。\n已知海浪打到沙灘上的位置變化是受到潮汐的影響，根據小淳的發現，推算當地的滿潮或乾潮時間應在下列哪個時間範圍內？",
+            "passing_rate": 0.34,
+            "discrimination_index": 0.4,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "乾潮時間可能在早上 8 點～早上 10 點間"
+              },
+              {
+                "answer": "B",
+                "description": "乾潮時間可能在中午 12 點～下午 2 點間"
+              },
+              {
+                "answer": "C",
+                "description": "滿潮時間可能在早上 8 點～中午 12 點間"
+              },
+              {
+                "answer": "D",
+                "description": "滿潮時間可能在中午 12 點～下午 2 點間"
+              }
+            ],
+            "correct_answer": "B",
+            "explanation": "由文中可知上午 10 點到中午 12 點確定在退潮，且下午 2 點已在漲潮。故乾潮會在中午 12 點到下午 2 點之間發生。故選(B) "
+          },
+          {
+            "number": 38,
+            "type": "singleChoice",
+            "description": "附圖為一個內部為真空的密閉空心金屬球，其金屬成分為純銅。小詩將此金屬球放入水裡，球會完全沒入水中，測得排開水的體積為 V，再用天平量測其質量為 M，她發現利用密度 D＝M/V 計算出的 D 值與課本上記載的純銅密度 8.96 g/{cm^3} 明顯不同。若小詩的測量與計算過程皆無錯誤，則下列何者最合理？",
+            "passing_rate": 0.31,
+            "discrimination_index": 0.34,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "D < 8.96 $g/cm^3$ ，因為 M 為金屬成分的質量，但 V 大於金屬成分的體積"
+              },
+              {
+                "answer": "B",
+                "description": "D < 8.96 $g/cm^3$ ，因為 V 為金屬成分的體積，但 M 小於金屬成分的質量"
+              },
+              {
+                "answer": "C",
+                "description": "D > 8.96 $g/cm^3$ ，因為 M 為金屬成分的質量，但 V 小於金屬成分的體積"
+              },
+              {
+                "answer": "D",
+                "description": "D > 8.96 $g/cm^3$ ，因為 V 為金屬成分的體積，但 M 大於金屬成分的質量"
+              }
+            ],
+            "correct_answer": "A",
+            "image": "111_nature_38.png",
+            "explanation": "因為排水量到的 V 包含空心的部分，故選(A)。"
+          },
+          {
+            "number": 39,
+            "type": "singleChoice",
+            "description": "細胞內的染色體組成會因為細胞種類的不同而有差異，編號甲、乙、丙和丁分別代表人體中不同的細胞，如表所示，下列何者不具有成對的性染色體？",
+            "passing_rate": 0.31,
+            "discrimination_index": 0.41,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "只有甲"
+              },
+              {
+                "answer": "B",
+                "description": "甲和丁"
+              },
+              {
+                "answer": "C",
+                "description": "丙和丁"
+              },
+              {
+                "answer": "D",
+                "description": "乙、丙和丁"
+              }
+            ],
+            "correct_answer": "B",
+            "explanation": "甲只有單對染色體；丁無細胞核因此沒有染色體。其他皆含有成對染色體，故選 (B)。"
+          },
+          {
+            "number": 40,
+            "type": "singleChoice",
+            "description": "附圖為某地的地質剖面圖，已知此地地層未倒轉，且乙岩層的沉積年代為距今 15,000 年～10,000 年前之間，下列有關其他各岩層的沉積年代或形成年代，何者最合理？",
+            "passing_rate": 0.36,
+            "discrimination_index": 0.4,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "甲岩層的沉積年代距今至少 15000 年"
+              },
+              {
+                "answer": "B",
+                "description": "丙岩層的沉積年代距今不到 10000 年"
+              },
+              {
+                "answer": "C",
+                "description": "火成岩脈的形成時間距今至少 10000 年"
+              },
+              {
+                "answer": "D",
+                "description": "火成岩脈的形成時間距今不到 15000 年"
+              }
+            ],
+            "correct_answer": "D",
+            "image": "111_nature_40.png",
+            "explanation": "(A)甲岩層應較乙岩層年輕；(B)丙岩層較乙岩層老，因此應至少 10000~15000 年；(C)岩脈有入侵到乙岩層，因此年齡較乙岩層年輕，無法判斷是否至少 10000 年；(D)續(C)，因較乙岩層年輕，因此不到乙岩層年齡的上限是合理的推論。故選 (D)。"
+          },
+          {
+            "number": 41,
+            "type": "singleChoice",
+            "description": "附圖為老師進行實驗的步驟示意圖，在步驟四乙瓶溶液倒入前，若要預測甲瓶溶液顏色變化的可能情形，則下列的預測何者最合理？",
+            "passing_rate": 0.35,
+            "discrimination_index": 0.42,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "只有一種可能，會觀察到顏色由無色變成紅色"
+              },
+              {
+                "answer": "B",
+                "description": "只有一種可能，會觀察到顏色由紅色變成無色"
+              },
+              {
+                "answer": "C",
+                "description": "有兩種可能，會觀察到顏色由無色變成紅色或維持無色"
+              },
+              {
+                "answer": "D",
+                "description": "有兩種可能，會觀察到顏色由紅色變成無色或維持紅色"
+              }
+            ],
+            "correct_answer": "D",
+            "image": "111_nature_41.png",
+            "explanation": "Na 的氧化產物溶於水為鹼性，因此為混和前甲瓶有機會是紅色的。而 S 的氧化產 物溶於水是酸性，因此和甲瓶混和後有機會仍維持鹼性或變為中性甚至酸性，使試 劑顏色變回透明無色。故選(D)。"
+          },
+          {
+            "type": "groupChoice",
+            "description": "沼氣是指有機物經微生物厭氧(缺氧)發酵所產生的氣體，主成分為甲烷、二氧化碳和微量的硫化氫等氣體。下列實驗探討不同發酵條件對於沼氣產量的影響。步驟如下：\n1. 至生態池中挖取含有微生物的汙泥，並去除雜質。\n2. 將適量的廚餘、水、汙泥混合後，均分成三等分，分別置於三瓶發酵瓶中，再將發酵瓶分別放入不同溫度的恆溫水浴中，並組成三組排水集氣裝置。\n3. 次日開始，每隔 24 小時，定時測量一次集氣瓶中的排開水量，並記錄之。\n4. 檢測集氣瓶內的氣體，以確保收集氣體的過程，發酵還在進行。\n5. 每日於檢測後，將集氣瓶重新裝滿水再放回水槽中，繼續收集氣體。\n實驗結果如表所示。",
+            "options": [
+              {
+                "number": 42,
+                "description": "完成步驟 2 後的發酵裝置圖，應為下列何者才合理？(考慮橡皮塞的有無和橡皮管兩端的位置)",
+                "passing_rate": 0.64,
+                "discrimination_index": 0.44,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "A"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "B"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "C"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "D"
+                  }
+                ],
+                "correct_answer": "B",
+                "image": "111_nature_42.png",
+                "explanation": "發酵瓶端應有橡皮塞以避免待收集氣體逸出；集氣瓶端應不能有橡皮塞，以做排水；橡皮管在發酵瓶端不應泡在液體中。故選(B)。"
+              },
+              {
+                "number": 43,
+                "description": "牧牧和小歡兩人針對步驟 4，各自提出檢測方法：\n牧牧：如左圖所示，在集氣瓶中加入適量的澄清石灰水溶液，搖晃後，若變混濁，表示有二氧化碳，以推測收集氣體的過程，發酵還在進行。\n小歡：如右圖所示，將有火焰的線香放入集氣瓶內，若線香持續燃燒，表示有助燃性氣體，以推測收集氣體的過程，發酵還在進行。\n依據實驗內容，判斷兩人的檢測說明是否合理？",
+                "passing_rate": 0.47,
+                "discrimination_index": 0.48,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "兩人皆合理"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "兩人皆不合理"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "只有牧牧合理"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "只有小歡合理。"
+                  }
+                ],
+                "correct_answer": "C",
+                "image": "111_nature_43.png",
+                "explanation": "線香燃燒代表有助燃氣體的存在(可能是氧氣)，因此可能發酵已經結束了。故選 (C)。"
+              },
+              {
+                "number": 44,
+                "description": "依據實驗內容與結果，可以判斷出下列何者？",
+                "passing_rate": 0.57,
+                "discrimination_index": 0.56,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "厭氧發酵溫度愈高，微生物的活性反而會降低"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "此厭氧發酵所產生的氣體，都屬於易溶於水的氣體"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "三種溫度所產生的沼氣，甲烷的體積百分比都在 20％左右"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "表中排開水量數值愈大，可表示當天該條件下的發酵速率愈快。"
+                  }
+                ],
+                "correct_answer": "D",
+                "explanation": "(A)無明顯關係；(B)不溶於水才可使用排水集氣法；(C)不可得知；(D)正確"
+              }
+            ],
+            "image": "111_nature_42-44.png"
+          },
+          {
+            "type": "groupChoice",
+            "description": "老師在介紹維管束植物體內的運輸構造時，繪製了某植物莖的切面示意圖，如圖所示，並以甲、乙、丙及丁分別標示不同的構造。老師接著請 4 位同學上臺，各自寫出醣類與水在植物體內主要的運輸位置與方向，學生的作答結果如表所示。",
+            "options": [
+              {
+                "number": 45,
+                "description": "根據附圖，推論此植物屬於下列何者？",
+                "passing_rate": 0.63,
+                "discrimination_index": 0.55,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "藻類"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "蘚苔植物"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "單子葉植物"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "雙子葉植物。"
+                  }
+                ],
+                "correct_answer": "D",
+                "explanation": "因為環狀排列，屬於雙子葉植物。"
+              },
+              {
+                "number": 46,
+                "description": "根據本文，推論哪一位同學的作答結果正確？",
+                "passing_rate": 0.62,
+                "discrimination_index": 0.6,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "同學 1"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "同學 2"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "同學 3"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "同學 4。"
+                  }
+                ],
+                "correct_answer": "D",
+                "explanation": "環狀排列雙子葉為內層木質部與外層韌皮部之組成，木質部主要運輸水分，為單向 由下而上運輸；而·韌皮部運輸養分，可以雙向運輸。因此選Ｄ。"
+              }
+            ],
+            "image": "111_nature_45-46.png"
+          },
+          {
+            "type": "groupChoice",
+            "description": "左圖為兩個安培計、兩個電阻器、一個電池與數條導線，其中的電阻器為符合歐姆定律的導體，右圖為一電路圖。老師要求小玉將左圖中的器材依據右圖組裝，並將兩個安培計測得的電流值記錄於實驗報告中。",
+            "options": [
+              {
+                "number": 47,
+                "description": "下列哪一個組裝方式符合右圖的電路圖？",
+                "passing_rate": 0.62,
+                "discrimination_index": 0.51,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "A"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "B"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "C"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "D"
+                  }
+                ],
+                "correct_answer": "A",
+                "image": "111_nature_47.png",
+                "explanation": "只有 A 的圖，正極經過乙安培器後並聯丙、丁電阻。因此選 A。"
+              },
+              {
+                "number": 48,
+                "description": "附表為小玉報告中所記錄的電流值，若根據右圖來判斷表中 $I_甲$ > $I_乙$ 是否合理，下列的判斷與論述何者最適當？",
+                "passing_rate": 0.44,
+                "discrimination_index": 0.56,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "合理，因為負極為電子流流出端，而甲較靠近電池負極，所以 $I_甲$ > $I_乙$ 合理"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "合理，因為甲測得的電流值應為流過丙與丁的電流值相加，所以 $I_甲$ > $I_乙$ 合理"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "不合理，因為正極為電流流出端，而乙較靠近電池正極，所以 $I_乙$ > $I_甲$ 才合理"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "不合理，因為乙測得的電流值應為流過丙與丁的電流值相加，所以 $I_乙$ > $I_甲$ 才合理。"
+                  }
+                ],
+                "correct_answer": "D",
+                "image": "111_nature_48.png",
+                "explanation": "甲安培器只有測量流經丙電阻的電流，但乙安培器測量全部的電流。所以乙必須大 於甲才合理。因此選Ｄ。"
+              }
+            ],
+            "image": "111_nature_47-48.png"
+          },
+          {
+            "type": "groupChoice",
+            "description": "阿明和小豪正在試玩一套自行設計的月相卡牌遊戲，其規則與流程說明如圖所示。\n兩人在某次取牌後，阿明先放置好卡牌並按鈴，小豪聽到鈴聲數秒後，才將卡牌放置完成，兩人的卡牌組合如圖所示。",
+            "options": [
+              {
+                "number": 49,
+                "description": "關於此回合阿明和小豪的得分與卡牌放置組合，下列敘述何者正確？",
+                "passing_rate": 0.42,
+                "discrimination_index": 0.45,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "阿明得 2 分，且小豪的卡牌組合是錯誤的"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "阿明得 2 分，但小豪的卡牌組合也是正確的"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "小豪得 1 分，且小豪放置卡牌組合也是正確的"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "小豪得 1 分，但小豪放置卡牌組合錯誤，會得分是因為阿明答錯。"
+                  }
+                ],
+                "correct_answer": "C",
+                "explanation": "雖然阿明先搶答，但阿明放錯紙板，而小豪放對，所以小豪得一分。"
+              },
+              {
+                "number": 50,
+                "description": "根據本文，關於此回合兩人玩遊戲時的神經傳遞敘述，下列何者正確？",
+                "passing_rate": 0.67,
+                "discrimination_index": 0.5,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "兩人從接受刺激至產生反應的時間相同"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "眼睛內的肌肉接收刺激"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "刺激經由感覺神經元傳遞至腦幹並發出命令"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "命令經由運動神經元傳遞至手指以按鈴搶答。"
+                  }
+                ],
+                "correct_answer": "D",
+                "explanation": "兩人是不同個體，反應時間不盡相同。而眼睛內接受刺激的是視網膜。感覺神經元 傳遞進入大腦整合並發出司令。因此選Ｄ正確"
+              }
+            ],
+            "image": "111_nature_49-50.png"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 110,
+    "name": "110 年國中教育會考",
+    "subjects": [
+      {
+        "name": "自然科（目前題目不完整，將在未來更新中新增）",
+        "duration": 70,
+        "grade_markings": {
+          "A++": 52,
+          "A+": 51,
+          "A": 48,
+          "B++": 40,
+          "B+": 33,
+          "B": 20,
+          "C": 0
+        },
+        "subject_id": "Nature",
+        "questions": [
+          {
+            "type": "singleChoice",
+            "number": 1,
+            "description": "表(一)為阿梅整理的甲、乙二項使用上皿天平時的注意事項及其對應原因，關於其對應原因是否合理，下列敘述何者正確？",
+            "image": "110_nature_1.png",
+            "passing_rate": 0.81,
+            "discrimination_index": 0.33,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "兩者皆合理"
+              },
+              {
+                "answer": "B",
+                "description": "兩者皆不合理"
+              },
+              {
+                "answer": "C",
+                "description": "甲合理，乙不合理"
+              },
+              {
+                "answer": "D",
+                "description": "甲不合理，乙合理"
+              }
+            ],
+            "correct_answer": "C"
           }
         ]
       }
