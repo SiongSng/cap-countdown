@@ -6556,7 +6556,8 @@
               }
             ],
             "correct_answer": "A",
-            "image": "110_nature_1.png"
+            "image": "110_nature_1.png",
+            "explanation": "甲歸零的動作避免有額外，或是少了重量被計算乙若是用手拿取砝碼，則會增加砝碼表面氧化生鏽的機會，"
           },
           {
             "number": 2,
@@ -6582,7 +6583,8 @@
                 "description": "5 公尺"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "最高潮位和最低潮位的高度差為4公尺，故潮差不可能超過最高潮位和最低潮位的高度差，故選(D)，"
           },
           {
             "number": 3,
@@ -6609,7 +6611,8 @@
               }
             ],
             "correct_answer": "C",
-            "image": "110_nature_3.png"
+            "image": "110_nature_3.png",
+            "explanation": "地震規模是表示地震震源本身之大小，和量測地與震源距離無關；而震度則和量測地和震央之距離有關，通常兩地距離越遠，則震度數值越小，故選(C)，"
           },
           {
             "number": 4,
@@ -6635,7 +6638,8 @@
                 "description": "乙環境溫度>體溫>甲環境溫度"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "可硏判肌肉顫抖現象為遭遇寒冷天氣，愈使肌肉產生熱量而形成之反應；而血管擴張則為一散熱反應，故依題意判斷溫度：乙＞體溫＞甲"
           },
           {
             "number": 5,
@@ -6661,7 +6665,8 @@
                 "description": "鹽分的重量百分濃度"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "重量百分濃度之定義為：每100公克的溶液中含有溶質的公克數，題幹中描述了溶液總重及溶質重，相除即可得該溶液之重量百分濃度"
           },
           {
             "number": 6,
@@ -6687,7 +6692,8 @@
                 "description": "子房"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "植物之精細胞位於花粉；而花柱連接子房，傳粉時花粉落到柱頭上，並萌發出花粉管以到達胚珠，以達成授精之目的"
           },
           {
             "number": 7,
@@ -6713,7 +6719,9 @@
                 "description": "若將銀幣改成金幣進行相同的實驗，推測其檢測結果也是「未檢測出」"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "image": "110_nature_7.png",
+            "explanation": "(B)並無檢測出乙或丙之相對平均細菌數，故無法比較兩方法抑制細菌生長之優劣，(C)每杯常溫放置3小時牛奶的容量可能不同，生菌數可能會因為整體量不同而有所差異(D)針對尚未進行實驗之項目〈放入金幣〉，無法以已做實驗〈放入銀幣〉準確預測其結果"
           },
           {
             "number": 8,
@@ -6740,7 +6748,8 @@
               }
             ],
             "correct_answer": "B",
-            "image": "110_nature_8.png"
+            "image": "110_nature_8.png",
+            "explanation": "兩人的爭論點在於「不同振動頻率的音叉，是否會發生共振現象」，故兩音叉之頻率相同與否應為實驗之操作變因，即應該對「音叉頻率相同」和「音叉頻率不同兩對照組」進行實驗，故此題答案選(B)"
           },
           {
             "number": 9,
@@ -6766,7 +6775,8 @@
                 "description": "反射藍光"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "以該色卡反射紅光的現象來看，此卡為紅色圖卡，而其他顏色的光，都會被該顏色圖卡所吸收"
           },
           {
             "number": 10,
@@ -6792,7 +6802,8 @@
                 "description": "《維管束植物簡介》"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "蘇鐵為裸子植物，裸子植物之生殖器官為毬果"
           },
           {
             "number": 11,
@@ -6819,7 +6830,8 @@
               }
             ],
             "correct_answer": "C",
-            "image": "110_nature_11.png"
+            "image": "110_nature_11.png",
+            "explanation": "以甲和乙、丙兩對照組觀看，發現不管是將上表皮或是下表皮堵住，散失的水分量皆有所減少，故判斷氣孔在上下表皮皆有分布以乙、丙對照觀看，發現乙的水分散失量較多，或是說尚可行蒸散作用的氣孔比丙組為多，故判斷氣孔分布位置主要位於下表皮"
           },
           {
             "number": 12,
@@ -6846,7 +6858,8 @@
               }
             ],
             "correct_answer": "D",
-            "image": "110_nature_12.png"
+            "image": "110_nature_12.png",
+            "explanation": "甲為氮氣，乙為氧氣，兩者皆被稱為固定氣體，在地表附近空氣所占比例幾乎不隨地點而改變"
           },
           {
             "number": 13,
@@ -6872,7 +6885,8 @@
                 "description": "二氧化碳"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "碳酸氫鈉含有四種元素：「N、H、C、O」，四個選項的化學式為：(A) $N_2$ (B) $HCl$ (C) $H_2O$ (D) $C0_2$ ,碳酸氫鈉不含「 $Cl$ 」元素，故選(B)"
           },
           {
             "number": 14,
@@ -6898,7 +6912,8 @@
                 "description": "應朝東方天空尋找，因為地球繞太陽公轉的關係"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "因為地球自轉的關係，天空上的星體，除北極星外，皆會由東邊升起，西邊落下，故經過一段時間後，觀測星體會在前一段觀測點的相對西方處"
           },
           {
             "number": 15,
@@ -6924,7 +6939,8 @@
                 "description": "3~4；下降到 1~2"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "酸的PH值為＜7,故刪掉(B)、（D)，經中和後PH值應略等於中性，即PH蕊7"
           },
           {
             "number": 16,
@@ -6951,12 +6967,13 @@
               }
             ],
             "correct_answer": "C",
-            "image": "110_nature_16.png"
+            "image": "110_nature_16.png",
+            "explanation": "因慣性作用，中間圖到右邊圖間，由「嫌犯身體回到右後方角落」硏判，應有一向左和向前之加速度，故選(C)"
           },
           {
             "number": 17,
             "type": "singleChoice",
-            "description": "某日颱風的位置如圖所示，圖中等壓線上的數字單位為百帕。關於該颱風中心地表的空氣流動方向，下列敘述何者正確？［110 年會考］",
+            "description": "某日颱風的位置如圖所示，圖中等壓線上的數字單位為百帕。關於該颱風中心地表的空氣流動方向，下列敘述何者正確？",
             "passing_rate": 0.57,
             "discrimination_index": 0.51,
             "choices": [
@@ -6978,7 +6995,8 @@
               }
             ],
             "correct_answer": "A",
-            "image": "110_nature_17.png"
+            "image": "110_nature_17.png",
+            "explanation": "颱風為低氣壓之中心，而北半球的低氣壓氣體為逆時鐘方向往中心流入，可由右手大拇指及其餘四指方向記憶"
           },
           {
             "number": 18,
@@ -7005,7 +7023,8 @@
               }
             ],
             "correct_answer": "C",
-            "image": "110_nature_18.png"
+            "image": "110_nature_18.png",
+            "explanation": "將 $\\delta H = m \\times s \\times \\delta T$ 關係式代入題幹，甲和乙所吸收的熱量比為2:3,故選(C)"
           },
           {
             "number": 19,
@@ -7032,7 +7051,8 @@
               }
             ],
             "correct_answer": "B",
-            "image": "110_nature_19.png"
+            "image": "110_nature_19.png",
+            "explanation": "BB和Bb的基因型表現為深色，bb基因型表現為淺色，固可判斷圖中深色比例乃BB+Bb所構成，淺色比例只有bb基因型，故只有乙時期，兩色比例一致時，和題幹所述之數量相符，故選(B)"
           },
           {
             "number": 20,
@@ -7059,7 +7079,8 @@
               }
             ],
             "correct_answer": "C",
-            "image": "110_nature_20.png"
+            "image": "110_nature_20.png",
+            "explanation": "要避開「月光」光源之危害，故應選新月之時會較易觀察，新月為農曆每月之初，故選(C)"
           },
           {
             "number": 21,
@@ -7085,7 +7106,8 @@
                 "description": "只有小菲是依化學性質分類"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "物質在各個溫度的狀態「固、液、氣」，為其物理性質；而和其他物質產生反應與否則為化學性質之範疇"
           },
           {
             "number": 22,
@@ -7112,7 +7134,8 @@
               }
             ],
             "correct_answer": "A",
-            "image": "110_nature_22.png"
+            "image": "110_nature_22.png",
+            "explanation": "泥狀、丁狀、片狀、絲狀等狀態之表面積大小依序為；泥狀＞丁狀＞片狀＞絲狀(B)因胡羅蔔量為實驗控制變因，固量不變，濃度也不應有差(C)改變水量會影響雙氧水濃度，進而影響實驗測量數據(D)氧氣最終產量和反應物總量相關，表面積僅影響反應速率"
           },
           {
             "number": 23,
@@ -7138,7 +7161,8 @@
                 "description": "將 $NO$ 還原成 $NO_2$ ，以提高 $NO_2$ 的比例"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "依反應方程式判斷， $NO$ 、 $NO_2$ 的反應比例為1:1,若要將 $NO$ 、 $NO_2$ 完全消化完，最好將兩者反應比例調整至1:1,又 $NO$ 到 $NO_2$ 之反應為氧化，故選(C)"
           },
           {
             "number": 24,
@@ -7165,7 +7189,8 @@
               }
             ],
             "correct_answer": "A",
-            "image": "110_nature_24.png"
+            "image": "110_nature_24.png",
+            "explanation": "所消耗之電能=該電器電功率x使用時間，兩電器功率、使用時間相同，故選(A)"
           },
           {
             "number": 25,
@@ -7191,7 +7216,8 @@
                 "description": "往左下角移動"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "解剖顯微鏡之像和實物移動方向相同；複式顯微鏡之像和實物移動方向則相反"
           },
           {
             "number": 26,
@@ -7218,7 +7244,8 @@
               }
             ],
             "correct_answer": "D",
-            "image": "110_nature_26.png"
+            "image": "110_nature_26.png",
+            "explanation": "不同族代表與該元素在元素週期表上不同行；不同週期代表與該元素在元素週期表上不同列，故經篩選：玉芬將第二行及第二列之元素排除；小嵐將第三行及第一列排除；只剩左下之Sn和右下之I符合條件，故選(D)"
           },
           {
             "number": 27,
@@ -7245,7 +7272,8 @@
               }
             ],
             "correct_answer": "D",
-            "image": "110_nature_27.png"
+            "image": "110_nature_27.png",
+            "explanation": "假設實驗為「力學能守恆」之條件．動能差與位能差取絕對值後應相同〈|AE|=|AU|〉，甲和丙應處於位能最大，動能為零之點；而乙則是動能最大，位能為零之點，且甲和乙的動能差、甲和乙的位能差、丙和乙的動能差、丙和乙的位能差，四值取決對值後應相同，故選(D)\n要注意的是能量差值有正負號差異"
           },
           {
             "number": 28,
@@ -7272,7 +7300,8 @@
               }
             ],
             "correct_answer": "A",
-            "image": "110_nature_28.png"
+            "image": "110_nature_28.png",
+            "explanation": "反射反應之反應時間不可經由訓練而縮短，而所有反應皆須有受器、戚覺神經元、運動神經元、動器完成動作"
           },
           {
             "number": 29,
@@ -7299,7 +7328,8 @@
               }
             ],
             "correct_answer": "D",
-            "image": "110_nature_29.png"
+            "image": "110_nature_29.png",
+            "explanation": "第二步動作完成後，金屬棒上之負電轉移至甲，甲帶負電；第四步動作完成後，金屬甲上之負電轉移至乙，甲、乙皆帶負電，故選(D)"
           },
           {
             "number": 30,
@@ -7325,7 +7355,8 @@
                 "description": "$Fe^{2+}$ 的電子數 > $Fe^{3+}$ 的電子數"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "一 $Fe$ 原子含有26電子； $Fe^+$ 為 $Fe$ 損失一電子所致，故 $Fe^+$ 內含25電子; $Fe^{2+}$ 為 $Fe$ 損失兩電子所致，故 $Fe^{2+}$ 內含24電子，故選(D)"
           },
           {
             "number": 31,
@@ -7352,7 +7383,8 @@
               }
             ],
             "correct_answer": "B",
-            "image": "110_nature_31.png"
+            "image": "110_nature_31.png",
+            "explanation": "甲為「是否為恆溫動物」較為合適；丙為「是否需要鰓呼吸」較為合適；丁為「是否為卵生」較為合適，題目所測乃脊椎動物之分類及特徵"
           },
           {
             "number": 32,
@@ -7379,7 +7411,8 @@
               }
             ],
             "correct_answer": "B",
-            "image": "110_nature_32.png"
+            "image": "110_nature_32.png",
+            "explanation": "若太陽可直射該地區地表，則判定該區位於北緯"
           },
           {
             "number": 33,
@@ -7406,7 +7439,8 @@
               }
             ],
             "correct_answer": "B",
-            "image": "110_nature_33.png"
+            "image": "110_nature_33.png",
+            "explanation": "依電鍍實驗所判．紅色導線應為負（陰）極，黑色導線為正（陽）極圖十四：甲為負（陰）極，銅將附著於碳棒上，乙為正（陽）極，產生氧氣圖十五：甲為負（陰）極，銅將附著於碳棒上，乙為正（陽）極，銅將溶於水溶液中"
           },
           {
             "number": 34,
@@ -7432,7 +7466,8 @@
                 "description": "大靜脈和右心房之間"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "「逆流回心房」、「血為充氧血」，此二條件判斷此血應位於左心房及左心室間"
           },
           {
             "number": 35,
@@ -7459,7 +7494,8 @@
               }
             ],
             "correct_answer": "B",
-            "image": "110_nature_35.png"
+            "image": "110_nature_35.png",
+            "explanation": "甲丙間之反應為凝華，甲乙間之反應為液化，乙丙間之反應為凝固"
           },
           {
             "number": 36,
@@ -7486,7 +7522,8 @@
               }
             ],
             "correct_answer": "D",
-            "image": "110_nature_36.png"
+            "image": "110_nature_36.png",
+            "explanation": "(A)甲、乙位於食物鏈底層，是為生產者(B)丙和丁為競爭關係(C)丙被己所捕食，故己數量減少，利於丙生存"
           },
           {
             "number": 37,
@@ -7513,7 +7550,8 @@
               }
             ],
             "correct_answer": "D",
-            "image": "110_nature_37.png"
+            "image": "110_nature_37.png",
+            "explanation": "P點應為真空，R點內應有一氣體，其壓力使之液體高度和左邊水銀柱相同"
           },
           {
             "number": 38,
@@ -7540,7 +7578,8 @@
               }
             ],
             "correct_answer": "C",
-            "image": "110_nature_38.png"
+            "image": "110_nature_38.png",
+            "explanation": "冷鋒過境，甲應為大陸高壓冷氣團中心，而乙為海洋高壓暖氣團中心，推動右上暖峰行進"
           },
           {
             "number": 39,
@@ -7567,7 +7606,8 @@
               }
             ],
             "correct_answer": "D",
-            "image": "110_nature_39.png"
+            "image": "110_nature_39.png",
+            "explanation": "t=3s時，小球位於正東方，其速度方向為切線方向，即為正北方"
           },
           {
             "number": 40,
@@ -7594,7 +7634,8 @@
               }
             ],
             "correct_answer": "D",
-            "image": "110_nature_40.png"
+            "image": "110_nature_40.png",
+            "explanation": "甲完全沉入水中，從體積差判定，甲之體積應為50cm3,而乙無法從體積差得知其體積，因為乙有部分體積浮於水上"
           },
           {
             "number": 41,
@@ -7620,7 +7661,8 @@
                 "description": "232"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "乙酸異丁酯反應如下：CH3COOH+(CH山CHC比OH—-+CH3COOCH2CH(CH3)2+H20"
           },
           {
             "number": 42,
@@ -7647,7 +7689,8 @@
               }
             ],
             "correct_answer": "C",
-            "image": "110_nature_42.png"
+            "image": "110_nature_42.png",
+            "explanation": "已知酵素被破壞後，活性即消失，所以酵素於通過胃時，活性即消失，故選(C)"
           },
           {
             "number": 43,
@@ -7674,7 +7717,8 @@
               }
             ],
             "correct_answer": "B",
-            "image": "110_nature_43.png"
+            "image": "110_nature_43.png",
+            "explanation": "有一初始速度為正，經一秒後，其速度歸零(a=-9.Sm/secz)'且其為等加速度運動，故該運動於V-t圖上為一直線"
           },
           {
             "number": 44,
@@ -7701,7 +7745,8 @@
               }
             ],
             "correct_answer": "C",
-            "image": "110_nature_44.png"
+            "image": "110_nature_44.png",
+            "explanation": "(A)大陸地殼海洋地殼下為地函(B)乙有可能為大陸地殼海洋地殼或地函(D)甲乙丙可能為大陸地殼海洋地殼、地函之比較"
           },
           {
             "number": 45,
@@ -7728,7 +7773,8 @@
               }
             ],
             "correct_answer": "A",
-            "image": "110_nature_45.png"
+            "image": "110_nature_45.png",
+            "explanation": "反應物濃度越高，X越小，可將(B)(C)刪除，將應變變因倒數之後，與反應物濃度對照，即可得(A)"
           },
           {
             "type": "groupChoice",
@@ -7757,7 +7803,8 @@
                     "description": "無機化合物"
                   }
                 ],
-                "correct_answer": "B"
+                "correct_answer": "B",
+                "explanation": "聚乙烯為人工合成聚合物"
               },
               {
                 "number": 47,
@@ -7782,7 +7829,8 @@
                     "description": "乙烯<碳原子<柔珠"
                   }
                 ],
-                "correct_answer": "A"
+                "correct_answer": "A",
+                "explanation": "聚合物結構＞分子結構＞原子結構"
               }
             ]
           },
@@ -7813,7 +7861,8 @@
                     "description": "若要撲殺乙蚊，選擇 Y 牌殺蟲劑較 X 牌殺蟲劑有效"
                   }
                 ],
-                "correct_answer": "C"
+                "correct_answer": "C",
+                "explanation": "(A)X牌殺蟲劑撲殺乙蚊之效果比甲蚊好(B)Y牌殺蟲劑撲殺乙蚊之效果比甲蚊好(D)選擇X牌較有效，但考量誤差結果，兩牌殺蟲劑對乙蚊效果差不多"
               },
               {
                 "number": 49,
@@ -7838,7 +7887,8 @@
                     "description": "少數蚊子因沒有接觸到殺蟲劑，得以產生具有抵抗力的子代"
                   }
                 ],
-                "correct_answer": "C"
+                "correct_answer": "C",
+                "explanation": "原本具抵抗力的族群存活下來，繁殖，使抗殺蟲劑基因留存"
               }
             ],
             "image": "110_nature_48-49.png"
@@ -7870,7 +7920,8 @@
                     "description": "灰燼最大飛行高度與氣溫、溼度、大氣壓力三者的關係"
                   }
                 ],
-                "correct_answer": "C"
+                "correct_answer": "C",
+                "explanation": "操作變因－茶包長度，應變變因－飛行距離"
               },
               {
                 "number": 51,
@@ -7895,7 +7946,8 @@
                     "description": "鍋子的把手通常使用木頭或塑膠材質"
                   }
                 ],
-                "correct_answer": "B"
+                "correct_answer": "B",
+                "explanation": "冷氣機設於高處，是因冷空氣下沉，而使空間有較好降溫效果"
               }
             ],
             "image": "110_nature_50-51.png"
@@ -7927,7 +7979,8 @@
                     "description": "與暴龍在白堊紀有共同祖先"
                   }
                 ],
-                "correct_answer": "B"
+                "correct_answer": "B",
+                "explanation": "(A)三角龍於中生代滅亡，甲則存活於後面時代(B)於圖中所判斷，甲和劍龍於三疊纪有共同祖先(C)甲和始祖鳥於侏儸紀有所分枝(D)甲和暴龍於侏儸紀有共同祖先"
               },
               {
                 "number": 53,
@@ -7952,7 +8005,8 @@
                     "description": "D"
                   }
                 ],
-                "correct_answer": "D"
+                "correct_answer": "D",
+                "explanation": "越古老生物之化石會在地層越下方"
               },
               {
                 "number": 54,
@@ -7977,7 +8031,8 @@
                     "description": "於同一層火山灰岩層中發現劍龍與三角龍的化石"
                   }
                 ],
-                "correct_answer": "B"
+                "correct_answer": "B",
+                "explanation": "三角龍和暴龍曾在同個時代生存"
               }
             ],
             "image": "110_nature_52-54.png"
