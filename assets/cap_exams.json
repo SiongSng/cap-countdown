@@ -7004,7 +7004,8 @@
                 "description": "360"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "image": "110_nature_18.png"
           },
           {
             "number": 19,
@@ -7057,7 +7058,8 @@
                 "description": "雙子座流星雨"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "image": "110_nature_20.png"
           },
           {
             "number": 21,
@@ -7269,7 +7271,8 @@
                 "description": "經練習可縮短反應時間"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "image": "110_nature_28.png"
           },
           {
             "number": 29,
