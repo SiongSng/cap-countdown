@@ -7662,7 +7662,7 @@
               }
             ],
             "correct_answer": "A",
-            "explanation": "乙酸異丁酯反應如下：CH3COOH+(CH山CHC比OH—-+CH3COOCH2CH(CH3)2+H20"
+            "explanation": "乙酸異丁酯反應如下： $CH_3COOH+(CH_3)_2CHCH_2OH \\ \\xrightarrow {H_2SO_4} \\ CH_3COOCH_2CH(CH_3)_2+H_2O$ "
           },
           {
             "number": 42,
@@ -7718,7 +7718,7 @@
             ],
             "correct_answer": "B",
             "image": "110_nature_43.png",
-            "explanation": "有一初始速度為正，經一秒後，其速度歸零(a=-9.Sm/secz)'且其為等加速度運動，故該運動於V-t圖上為一直線"
+            "explanation": "有一初始速度為正，經一秒後，其速度歸零( $a=-9.8 m/s^2$ )'且其為等加速度運動，故該運動於V-t圖上為一直線"
           },
           {
             "number": 44,
