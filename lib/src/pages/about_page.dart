@@ -30,7 +30,7 @@ class AboutPage extends StatelessWidget {
               Row(
                 children: [
                   const Text('開發者: '),
-                  const Text('SiongSng（菘菘）'),
+                  const Text('SiongSng（菘菘）、Myster#7494'),
                   IconButton(
                       onPressed: () {
                         launchUrlString(
