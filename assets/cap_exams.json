@@ -3282,7 +3282,7 @@
           {
             "number": 15,
             "type": "singleChoice",
-            "description": "如圖， $\\triangle ABC$ 中， $D$ 點在 $\\overline{AB}$ 上， $E$ 點在 $\\overline{BC}$ 上， $\\overline{DE}$ 為 $\\overline{BC}$ 的中垂線。若 $\\angle B=\\angle C$ ，且 $\\angle EAC>90^\\circ$ ，則根據圖中標示的角，判斷下列敘述何者正確？",
+            "description": "如圖， $\\triangle ABC$ 中， $D$ 點在 $\\overline{AB}$ 上， $E$ 點在 $\\overline{BC}$ 上， $\\overline{DE}$ 為 $\\overline{AB}$ 的中垂線。若 $\\angle B=\\angle C$ ，且 $\\angle EAC>90^\\circ$ ，則根據圖中標示的角，判斷下列敘述何者正確？",
             "passing_rate": 0.53,
             "discrimination_index": 0.49,
             "choices": [
@@ -6049,7 +6049,7 @@
             ],
             "correct_answer": "D",
             "image": "111_nature_34.png",
-            "explanation": "P 點花了 $3.0 × 10^{-2} s$ 回到依樣高度，因此週期為 $3.0 × 10^{-2} s$。故選(D)。"
+            "explanation": "P 點花了 $3.0 × 10^{-2} s$ 回到一樣高度，因此週期為 $3.0 × 10^{-2} s$。故選(D)。"
           },
           {
             "number": 35,
@@ -6185,6 +6185,7 @@
               }
             ],
             "correct_answer": "B",
+            "image": "111_nature_39.png",
             "explanation": "甲只有單對染色體；丁無細胞核因此沒有染色體。其他皆含有成對染色體，故選 (B)。"
           },
           {
@@ -8006,6 +8007,7 @@
                   }
                 ],
                 "correct_answer": "D",
+                "image": "110_nature_53.png",
                 "explanation": "越古老生物之化石會在地層越下方"
               },
               {
