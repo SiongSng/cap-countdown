@@ -38,6 +38,20 @@ abstract mixin class SubjectQuestion {
       year: exam.year,
       subjectId: subject.subjectId,
       questionIndex: subject.questions.indexOf(this),
+      questionNumber:(){
+        final question = widget.subject.questions[widget.currentPage];
+      final String questionNumber;
+
+      if (question is SingleChoiceQuestion) {
+        questionNumber = question.number.toString();
+      } else if (question is GroupChoiceQuestion) {
+        questionNumber =
+        '${question.options.first.number}~${question.options.last.number}';
+      } else if (question is ExampleQuestion) {
+        questionNumber = '示例題';
+      } else {
+        throw Exception('Unknown question type');
+      };}
     );
   }
 
