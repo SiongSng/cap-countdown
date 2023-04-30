@@ -18,26 +18,26 @@
 
     <meta charset="UTF-8" />
     <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
-    <meta name="description" content=" 具有試題等豐富功能的會考沙漏計時器。" />
+    <meta content=" 具有試題等豐富功能的會考沙漏計時器。" name="description" />
 
     <!-- iOS meta tags & icons -->
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <meta name="apple-mobile-web-app-title" content="會考沙漏" />
-    <link rel="apple-touch-icon" href="icons/Icon-192.png" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="會考沙漏" name="apple-mobile-web-app-title" />
+    <link href="icons/Icon-192.png" rel="apple-touch-icon" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="favicon.png" rel="icon" type="image/png" />
 
     <title>會考沙漏</title>
-    <link rel="manifest" href="manifest.json" />
+    <link href="manifest.json" rel="manifest" />
 
     <script>
       // The value below is injected by flutter build, do not touch.
       var serviceWorkerVersion = null;
     </script>
     <!-- This script adds the flutter initialization JS code -->
-    <script src="flutter.js" defer></script>
+    <script defer src="flutter.js"></script>
   </head>
   <body>
     <style>
@@ -46,6 +46,35 @@
       }
     </style>
     <!-- Loading indicator -->
+    <p id="loading_text">載入中...
+    <style>
+      p {
+        color: #fff;
+        font-size: 1.6rem;
+        font-weight: 300;
+        text-align: center;
+        white-space: pre;
+        margin: 0;
+        position: absolute;
+        bottom: 12vh;
+        left: 0;
+        right: 0;
+      }
+
+      .loading_text_main_done {
+          animation: 0.33s ease-in-out 0s 1 forwards fade_out;
+      }
+
+      @keyframes fade_out {
+          from {
+                opacity: 1;
+          }
+          to {
+                opacity: 0;
+          }
+      }
+    </style>
+    </p>
     <div id="loading">
       <style>
         body {
@@ -99,11 +128,12 @@
           }
         }
       </style>
-      <img src="icons/Icon-192.png" alt="這是載入應用程式中的指示器..." />
+      <img alt="這是載入應用程式中的指示器..." src="icons/Icon-192.png" />
     </div>
     <script>
       window.addEventListener("load", function (ev) {
         var loading = document.querySelector("#loading");
+        var loadingText = document.querySelector("#loading_text");
 
         // Download main.dart.js
         _flutter.loader.loadEntrypoint({
@@ -112,6 +142,7 @@
           },
           onEntrypointLoaded: function (engineInitializer) {
             loading.classList.add("main_done");
+            loadingText.classList.add("loading_text_main_done");
             engineInitializer.initializeEngine().then(function (appRunner) {
               loading.classList.add("init_done");
               appRunner.runApp().then(function (app) {
