@@ -11,11 +11,10 @@ part 'optional_question.g.dart';
 
 @JsonSerializable()
 class OptionalQuestion {
+  final int number;
   final String? description;
   final String? image;
   final String? audio;
-  @JsonKey(name: 'number')
-  final int number;
   @JsonKey(name: 'passing_rate')
   final double passingRate;
   @JsonKey(name: 'discrimination_index')
