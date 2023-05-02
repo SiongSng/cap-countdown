@@ -74,7 +74,6 @@ class _MainPageState extends State<MainPage> {
           ],
         ),
         body: PageView(
-          physics: const NeverScrollableScrollPhysics(),
           controller: pageController,
           children: const [
             CountdownPage(),
