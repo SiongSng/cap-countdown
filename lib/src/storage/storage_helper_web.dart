@@ -3,23 +3,30 @@ import 'dart:convert';
 import 'dart:html' as html;
 
 class StorageHelper {
-  static late final Map _data;
-
   static Future<void> init() async {
-    final jsonString = html.window.localStorage['settings'] ??= '{}';
-    _data = jsonDecode(jsonString);
+    // No-op.
   }
 
   static T get<T>(String key, [T? defaultValue]) {
-    return _data[key] ?? defaultValue;
+    final value = html.window.localStorage[key];
+
+    if (value != null) {
+      return jsonDecode(value) as T;
+    } else {
+      return defaultValue as T;
+    }
   }
 
   static void set<T>(String key, T value) {
-    _data[key] = value;
-    save();
+    if (value == null) {
+      html.window.localStorage.remove(key);
+      return;
+    }
+
+    html.window.localStorage[key] = jsonEncode(value);
   }
 
   static Future<void> save() async {
-    html.window.localStorage['settings'] = jsonEncode(_data);
+    // No-op.
   }
 }

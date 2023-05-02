@@ -1,3 +1,4 @@
+import 'dart:typed_data';
 import 'dart:ui';
 
 import 'package:cap_countdown/src/exam/question_note.dart';
@@ -51,4 +52,18 @@ class LocalStorage {
 
   set answeredQuestions(List<String> value) =>
       StorageHelper.set<List<String>>('answered_questions', value);
+
+  Uint8List? get personalAvatar {
+    final bytes = StorageHelper.get<List?>('personal_avatar')?.cast<int>();
+
+    return bytes == null ? null : Uint8List.fromList(bytes);
+  }
+
+  set personalAvatar(Uint8List? value) =>
+      StorageHelper.set<List<int>?>('personal_avatar', value?.toList());
+
+  String? get personalName => StorageHelper.get<String?>('personal_name');
+
+  set personalName(String? value) =>
+      StorageHelper.set<String?>('personal_name', value);
 }
