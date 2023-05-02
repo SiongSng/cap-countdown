@@ -75,6 +75,11 @@ class _MainPageState extends State<MainPage> {
         ),
         body: PageView(
           controller: pageController,
+          onPageChanged: (index) {
+            setState(() {
+              selectedIndex = index;
+            });
+          },
           children: const [
             CountdownPage(),
             HomePage(),
