@@ -26,8 +26,6 @@ abstract mixin class SubjectQuestion {
     localStorage.favoriteQuestions = questions;
   }
 
-
-
   QuestionMeta get meta {
     final exams = ExamLoader.exams;
     final subject = exams
@@ -35,33 +33,14 @@ abstract mixin class SubjectQuestion {
         .firstWhere((s) => s.questions.contains(this));
 
     final exam = exams.firstWhere((e) => e.subjects.contains(subject));
-    final int questionIndex=subject.questions.indexOf(this);
-
-    String getQuestionNumber(){
-      final question = subject.questions[subject.questions.indexOf(this)];
-      final String questionNumber;
-
-      if (question is SingleChoiceQuestion) {
-        questionNumber = '${question.number.toString()}(i:${questionIndex.toString()})';
-      } else if (question is GroupChoiceQuestion) {
-        questionNumber = '${question.options.first.number}~${question.options.last.number}(i:${questionIndex.toString()})';
-      } else if (question is ExampleQuestion) {
-        questionNumber = '示例題(i:$questionIndex)';
-      } else {
-        throw Exception('Unknown question type');
-      }
-      return questionNumber;
-    }
+    final int questionIndex = subject.questions.indexOf(this);
 
     return QuestionMeta(
-      year: exam.year,
-      subjectId: subject.subjectId,
-      questionIndex: questionIndex,
-      questionNumber:getQuestionNumber()
-    );
+        year: exam.year,
+        subjectId: subject.subjectId,
+        questionIndex: questionIndex,
+        question: this);
   }
-
-
 
   String get hash {
     var bytes = utf8.encode(toJson().toString());

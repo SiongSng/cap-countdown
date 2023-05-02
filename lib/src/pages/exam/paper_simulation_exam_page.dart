@@ -51,8 +51,6 @@ class _PrepareSimulationExamPageState extends State<PrepareSimulationExamPage> {
             padding: const EdgeInsets.all(8.0),
             child: Column(
               children: [
-                Image.asset('assets/images/materials/awards.png'),
-                const SizedBox(height: 12),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -68,6 +66,10 @@ class _PrepareSimulationExamPageState extends State<PrepareSimulationExamPage> {
                 Text('準備好紙筆，點下方按鈕就立即開始囉！\n加油！',
                     textAlign: TextAlign.center,
                     style: Theme.of(context).textTheme.bodyLarge),
+                const SizedBox(height: 12),
+                Expanded(
+                  child: Image.asset('assets/images/materials/awards.png'),
+                )
               ],
             ),
           ),

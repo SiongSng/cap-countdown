@@ -129,29 +129,13 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                   itemBuilder: (context, index) {
                     final question = questions[index];
 
-                    String getQuestionNumber(){
-                      final String questionNumber;
-
-                      if (question is SingleChoiceQuestion) {
-                        questionNumber = '${question.number.toString()}(i:${index.toString()})';
-                      } else if (question is GroupChoiceQuestion) {
-                        questionNumber = '${question.options.first.number}~${question.options.last.number}(i:${index.toString()})';
-                      } else if (question is ExampleQuestion) {
-                        questionNumber = '示例題(i:$index)';
-                      } else {
-                        throw Exception('Unknown question type');
-                      }
-                      return questionNumber;
-                    }
-
                     return _QuestionPage(
                       question: question,
                       meta: QuestionMeta(
                           year: widget.year,
                           subjectId: widget.subject.subjectId,
                           questionIndex: index,
-                          questionNumber: getQuestionNumber()
-                      ),
+                          question: question),
                       option: QuestionViewOption(
                           showQuestionNumber: true,
                           submitted: _submitted,

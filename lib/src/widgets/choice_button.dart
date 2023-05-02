@@ -18,28 +18,25 @@ class ChoiceButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(children: <Widget>[
-      RadioListTile<QuestionChoice>(
-        // Use LaTexT to render LaTeX (math formula) in text.
-        title: LaTexT(
-            laTeXCode:
-                Text('(${choice.answer.name}) ${choice.description ?? ''}')),
-        value: choice,
-        groupValue: question.selectedChoice,
-        fillColor: _getFillColor(),
-        onChanged: (value) {
-          // If the question has been submitted, can't change the answer.
-          if (submitted) return;
+    return RadioListTile<QuestionChoice>(
+      // Use LaTexT to render LaTeX (math formula) in text.
+      title: LaTexT(
+          laTeXCode:
+              Text('(${choice.answer.name}) ${choice.description ?? ''}')),
+      value: choice,
+      groupValue: question.selectedChoice,
+      fillColor: _getFillColor(),
+      onChanged: (value) {
+        // If the question has been submitted, can't change the answer.
+        if (submitted) return;
 
-          if (value == question.selectedChoice) {
-            onChanged?.call(null);
-          } else {
-            onChanged?.call(value);
-          }
-        },
-      ),
-      //Column(_DisableOptionButton)
-    ]);
+        if (value == question.selectedChoice) {
+          onChanged?.call(null);
+        } else {
+          onChanged?.call(value);
+        }
+      },
+    );
   }
 
   MaterialStateProperty<Color>? _getFillColor() {
@@ -57,5 +54,3 @@ class ChoiceButton extends StatelessWidget {
     return null;
   }
 }
-
-class _DisableOptionButton {}
