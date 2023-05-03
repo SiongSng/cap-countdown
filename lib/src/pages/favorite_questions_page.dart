@@ -1,4 +1,5 @@
 import 'package:cap_countdown/main.dart';
+import 'package:cap_countdown/src/exam/exam_loader.dart';
 import 'package:cap_countdown/src/exam/group_choice_question.dart';
 import 'package:cap_countdown/src/exam/single_choice_question.dart';
 import 'package:cap_countdown/src/exam/subject_question.dart';
@@ -16,7 +17,9 @@ class FavoriteQuestionsPage extends StatefulWidget {
 class _FavoriteQuestionsPageState extends State<FavoriteQuestionsPage> {
   @override
   Widget build(BuildContext context) {
-    final List<SubjectQuestion> favorites = localStorage.favoriteQuestions;
+    final favorites = localStorage.questionRecords.entries
+        .where((entry) => entry.value.isFavorite)
+        .toList();
 
     return Scaffold(
       appBar: AppBar(
@@ -36,9 +39,16 @@ class _FavoriteQuestionsPageState extends State<FavoriteQuestionsPage> {
         child: ListView.builder(
             itemCount: favorites.length,
             itemBuilder: (context, index) {
-              final question = favorites[index];
-              final String? description;
+              final favorite = favorites[index];
+              final SubjectQuestion question;
+              try {
+                question = ExamLoader.getAllQuestions()
+                    .firstWhere((e) => e.hash == favorite.key);
+              } on StateError {
+                return const SizedBox.shrink();
+              }
 
+              final String? description;
               if (question is SingleChoiceQuestion) {
                 description = question.description;
               } else if (question is GroupChoiceQuestion) {

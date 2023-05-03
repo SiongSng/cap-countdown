@@ -7,7 +7,7 @@ import 'package:cap_countdown/src/exam/exam_subject.dart';
 import 'package:cap_countdown/src/exam/example_question.dart';
 import 'package:cap_countdown/src/exam/group_choice_question.dart';
 import 'package:cap_countdown/src/exam/question_meta.dart';
-import 'package:cap_countdown/src/exam/question_note.dart';
+import 'package:cap_countdown/src/exam/question_record.dart';
 import 'package:cap_countdown/src/exam/single_choice_question.dart';
 import 'package:cap_countdown/src/exam/subject_question.dart';
 import 'package:cap_countdown/src/widgets/optional_question_view.dart';
@@ -49,8 +49,9 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
   Widget build(BuildContext context) {
     final questions = widget.subject.questions;
     final question = questions[_currentPage];
-    final isFavorite = localStorage.favoriteQuestions.contains(question);
-    final tookNote = localStorage.questionNotes.containsKey(question.hash);
+    final isFavorite =
+        localStorage.questionRecords[question.hash]?.isFavorite ?? false;
+    final tookNote = localStorage.questionRecords[question.hash]?.note != null;
 
     return WillPopScope(
       onWillPop: () async {
@@ -287,7 +288,7 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
 
   void _showBackDialog() {
     if (_submitted) {
-      widget.subject.clearRecords();
+      widget.subject.clearSelectRecords();
       Navigator.of(context).popUntil((route) => route.isFirst);
       return;
     }
@@ -307,7 +308,7 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
               ),
               TextButton(
                 onPressed: () {
-                  widget.subject.clearRecords();
+                  widget.subject.clearSelectRecords();
                   Navigator.of(context).popUntil((route) => route.isFirst);
                 },
                 child: const Text('確定'),
@@ -333,7 +334,6 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                     final optionalQuestions =
                         widget.subject.getOptionalQuestions();
                     for (final question in optionalQuestions) {
-                      if (question.selectedChoice == null) continue;
                       question.makeAsAnswered();
                     }
                   });
@@ -344,9 +344,9 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
   }
 
   void _showNoteDialog(SubjectQuestion question) {
-    final notes = localStorage.questionNotes;
-    final note = notes[question.hashCode];
-    final noteController = TextEditingController(text: note?.text ?? '');
+    final records = localStorage.questionRecords;
+    QuestionRecord? record = records[question.hash] ?? const QuestionRecord();
+    final noteController = TextEditingController(text: record.note ?? '');
 
     showDialog(
         context: context,
@@ -369,15 +369,9 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
               TextButton(
                 onPressed: () {
                   final text = noteController.text;
-                  if (text.isNotEmpty) {
-                    notes[question.hash] = QuestionNote(text: text);
-                    localStorage.questionNotes = notes;
-                  }
-
-                  if (text.isEmpty && note != null && note.text.isNotEmpty) {
-                    notes.remove(question.hashCode);
-                    localStorage.questionNotes = notes;
-                  }
+                  records[question.hash] =
+                      record.copyWith(note: text.isEmpty ? null : text);
+                  localStorage.questionRecords = records;
 
                   Navigator.of(context).pop();
                   setState(() {});

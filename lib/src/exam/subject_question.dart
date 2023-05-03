@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:cap_countdown/main.dart';
 import 'package:cap_countdown/src/exam/question_meta.dart';
+import 'package:cap_countdown/src/exam/question_record.dart';
 import 'package:crypto/crypto.dart';
 
 import 'exam_loader.dart';
@@ -15,15 +16,22 @@ abstract mixin class SubjectQuestion {
   Map<String, dynamic> toJson();
 
   void addToFavorite() {
-    final questions = localStorage.favoriteQuestions;
-    questions.add(this);
-    localStorage.favoriteQuestions = questions;
+    final records = localStorage.questionRecords;
+    QuestionRecord? record =
+        records[hash] ?? const QuestionRecord(isFavorite: true);
+    record = record.copyWith(isFavorite: true);
+    records[hash] = record;
+
+    localStorage.questionRecords = records;
   }
 
   void removeFromFavorite() {
-    final questions = localStorage.favoriteQuestions;
-    questions.remove(this);
-    localStorage.favoriteQuestions = questions;
+    final records = localStorage.questionRecords;
+    QuestionRecord? record = records[hash] ?? const QuestionRecord();
+    record = record.copyWith(isFavorite: false);
+    records[hash] = record;
+
+    localStorage.questionRecords = records;
   }
 
   QuestionMeta get meta {

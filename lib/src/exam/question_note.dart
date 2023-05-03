@@ -6,7 +6,7 @@ part 'question_note.g.dart';
 class QuestionNote {
   final String text;
 
-  QuestionNote({
+  const QuestionNote({
     required this.text,
   });
 

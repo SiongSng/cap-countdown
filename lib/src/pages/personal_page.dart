@@ -13,6 +13,13 @@ class _PersonalPageState extends State<PersonalPage> {
   @override
   Widget build(BuildContext context) {
     final personalName = localStorage.personalName ?? '會考戰士';
+    final records = localStorage.questionRecords;
+    final todayRecords = records.entries
+        .where((e) => e.value.answerHistory.any((h) =>
+            h.date.isAfter(DateTime.now().subtract(const Duration(days: 1)))))
+        .toList();
+    final todayCorrect = todayRecords
+        .where((e) => e.value.answerHistory.any((h) => h.isCorrect));
 
     return Scaffold(
       appBar: AppBar(
@@ -41,20 +48,39 @@ class _PersonalPageState extends State<PersonalPage> {
             ],
           ),
           const SizedBox(height: 6),
-          Text('分析資料',
+          Text('統計資料',
               style: Theme.of(context).textTheme.headlineSmall,
               textAlign: TextAlign.center),
           const SizedBox(height: 6),
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            child: Column(
               children: [
-                Expanded(
-                  child: _buildDataCard('今日答題數', '12 題'),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Expanded(
+                      child:
+                          _buildDataCard('今日答題數', '${todayRecords.length} 題'),
+                    ),
+                    Expanded(
+                      child: _buildDataCard('今日答對率',
+                          '${((todayCorrect.length / todayRecords.length) * 100).toStringAsFixed(2)} %'),
+                    ),
+                  ],
                 ),
-                Expanded(
-                  child: _buildDataCard('今日答對率', '99%'),
+                const SizedBox(height: 8),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Expanded(
+                      child: _buildDataCard('已做過的題目',
+                          '${records.entries.where((e) => e.value.answerHistory.isNotEmpty).length} 題'),
+                    ),
+                    Expanded(
+                      child: _buildDataCard('近日答對率趨勢', 'COMING SOON'),
+                    ),
+                  ],
                 ),
               ],
             ),

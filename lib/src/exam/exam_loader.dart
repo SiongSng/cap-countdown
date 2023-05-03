@@ -17,12 +17,14 @@ class ExamLoader {
   }
 
   static SubjectQuestion getRandomQuestion() {
-    final allQuestions = exams
-        .expand((e) => e.subjects
-            .expand((s) => s.questions.where((e) => e is! ExampleQuestion)))
-        .toList();
+    final allQuestions =
+        getAllQuestions().where((q) => q is! ExampleQuestion).toList();
     final index = Random().nextInt(allQuestions.length);
 
     return allQuestions[index];
+  }
+
+  static List<SubjectQuestion> getAllQuestions() {
+    return exams.expand((e) => e.subjects.expand((s) => s.questions)).toList();
   }
 }
