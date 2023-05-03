@@ -8,15 +8,16 @@ class QuestionMeta {
   final int year;
   final CAPSubject subjectId;
   final int questionIndex;
-  late final String questionNumber;
-  final dynamic question;
+  final String questionNumber;
 
-  QuestionMeta({
-    required this.year,
-    required this.subjectId,
-    required this.questionIndex,
-    required this.question,
-  }) {
+  const QuestionMeta(
+      {required this.year,
+      required this.subjectId,
+      required this.questionIndex,
+      required this.questionNumber});
+
+  factory QuestionMeta.build({year, subjectId, questionIndex, question}) {
+    final String questionNumber;
     if (question is SingleChoiceQuestion) {
       questionNumber =
           '${question.number.toString()}(i:${questionIndex.toString()})';
@@ -28,5 +29,10 @@ class QuestionMeta {
     } else {
       throw Exception('Unknown question type');
     }
+    return QuestionMeta(
+        year: year,
+        subjectId: subjectId,
+        questionIndex: questionIndex,
+        questionNumber: questionNumber);
   }
 }

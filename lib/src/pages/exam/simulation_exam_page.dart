@@ -131,7 +131,7 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
 
                     return _QuestionPage(
                       question: question,
-                      meta: QuestionMeta(
+                      meta: QuestionMeta.build(
                           year: widget.year,
                           subjectId: widget.subject.subjectId,
                           questionIndex: index,

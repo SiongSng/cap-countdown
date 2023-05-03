@@ -35,7 +35,7 @@ abstract mixin class SubjectQuestion {
     final exam = exams.firstWhere((e) => e.subjects.contains(subject));
     final int questionIndex = subject.questions.indexOf(this);
 
-    return QuestionMeta(
+    return QuestionMeta.build(
         year: exam.year,
         subjectId: subject.subjectId,
         questionIndex: questionIndex,
