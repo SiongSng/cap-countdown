@@ -16,15 +16,23 @@ class ExamLoader {
     exams = json.map((e) => Exam.fromJson(e)).toList().cast<Exam>();
   }
 
+  static List<SubjectQuestion> _getAllQuestions() {
+    return exams.expand((e) => e.subjects.expand((s) => s.questions)).toList();
+  }
+
   static SubjectQuestion getRandomQuestion() {
     final allQuestions =
-        getAllQuestions().where((q) => q is! ExampleQuestion).toList();
+        _getAllQuestions().where((q) => q is! ExampleQuestion).toList();
     final index = Random().nextInt(allQuestions.length);
 
     return allQuestions[index];
   }
 
-  static List<SubjectQuestion> getAllQuestions() {
-    return exams.expand((e) => e.subjects.expand((s) => s.questions)).toList();
+  static SubjectQuestion? getQuestionByHash(String hash) {
+    try {
+      return _getAllQuestions().firstWhere((q) => q.hash == hash);
+    } on StateError {
+      return null;
+    }
   }
 }

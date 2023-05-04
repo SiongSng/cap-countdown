@@ -17,8 +17,7 @@ abstract mixin class SubjectQuestion {
 
   void addToFavorite() {
     final records = localStorage.questionRecords;
-    QuestionRecord? record =
-        records[hash] ?? const QuestionRecord(isFavorite: true);
+    var record = QuestionRecord.getByHash(hash);
     record = record.copyWith(isFavorite: true);
     records[hash] = record;
 
@@ -27,7 +26,7 @@ abstract mixin class SubjectQuestion {
 
   void removeFromFavorite() {
     final records = localStorage.questionRecords;
-    QuestionRecord? record = records[hash] ?? const QuestionRecord();
+    var record = QuestionRecord.getByHash(hash);
     record = record.copyWith(isFavorite: false);
     records[hash] = record;
 

@@ -2,9 +2,11 @@ import 'dart:convert';
 // ignore: avoid_web_libraries_in_flutter
 import 'dart:html' as html;
 
+import 'local_storage.dart';
+
 class StorageHelper {
   static Future<void> init() async {
-    // No-op.
+    LocalStorage.mergeQuestionRecords();
   }
 
   static T get<T>(String key, [T? defaultValue]) {

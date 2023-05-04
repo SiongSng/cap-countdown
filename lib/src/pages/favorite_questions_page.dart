@@ -40,13 +40,10 @@ class _FavoriteQuestionsPageState extends State<FavoriteQuestionsPage> {
             itemCount: favorites.length,
             itemBuilder: (context, index) {
               final favorite = favorites[index];
-              final SubjectQuestion question;
-              try {
-                question = ExamLoader.getAllQuestions()
-                    .firstWhere((e) => e.hash == favorite.key);
-              } on StateError {
-                return const SizedBox.shrink();
-              }
+              final SubjectQuestion? question =
+                  ExamLoader.getQuestionByHash(favorite.key);
+
+              if (question == null) return const SizedBox.shrink();
 
               final String? description;
               if (question is SingleChoiceQuestion) {

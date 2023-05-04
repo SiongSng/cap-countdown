@@ -1,3 +1,4 @@
+import 'package:cap_countdown/main.dart';
 import 'package:cap_countdown/src/exam/optional_question.dart';
 import 'package:json_annotation/json_annotation.dart';
 
@@ -31,12 +32,16 @@ class QuestionRecord {
       answerHistory: answerHistory ?? this.answerHistory,
     );
   }
+
+  static QuestionRecord getByHash(String hash) {
+    return localStorage.questionRecords[hash] ?? const QuestionRecord();
+  }
 }
 
 @JsonSerializable()
 class AnswerHistory {
   final DateTime date;
-  final QuestionAnswer selectedAnswer;
+  final QuestionAnswer? selectedAnswer;
   final bool isCorrect;
 
   const AnswerHistory({
