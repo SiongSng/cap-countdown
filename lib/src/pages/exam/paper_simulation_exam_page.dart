@@ -51,9 +51,7 @@ class _PrepareSimulationExamPageState extends State<PrepareSimulationExamPage> {
             padding: const EdgeInsets.all(8.0),
             child: Column(
               children: [
-                Expanded(
-                  child: Image.asset('assets/images/materials/awards.png'),
-                ),
+                Image.asset('assets/images/materials/awards.png'),
                 const SizedBox(height: 12),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
