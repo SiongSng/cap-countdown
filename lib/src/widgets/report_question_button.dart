@@ -13,7 +13,7 @@ class ReportQuestionButton extends StatelessWidget {
     return TextButton(
         onPressed: () {
           final value =
-              'CAP_${meta.year}_${meta.subjectId.id}_${meta.questionNumber} (ver:${config.appVersion})';
+              'CAP_${meta.year}_${meta.subjectId.id}_${meta.questionIndex} (${meta.questionNumber}/${config.appVersion})';
 
           launchUrlString(
               'https://docs.google.com/forms/d/e/1FAIpQLSd4UN6Eb2Tl616fYaze5tLfU-lN5UFrVg_iGhcZrA5LKqDEPw/viewform?usp=pp_url&entry.28993501=$value');
