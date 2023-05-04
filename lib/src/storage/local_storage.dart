@@ -3,6 +3,7 @@ import 'dart:ui';
 
 import 'package:cap_countdown/main.dart';
 import 'package:cap_countdown/src/exam/question_record.dart';
+import 'package:pub_semver/pub_semver.dart';
 
 import 'app_theme.dart';
 import 'storage.dart';
@@ -80,4 +81,12 @@ class LocalStorage {
     StorageHelper.set<Map<String, Map>>('question_records',
         value.map((key, value) => MapEntry(key, value.toJson())));
   }
+
+  Version? get lastVersion {
+    final version = StorageHelper.get<String?>('last_version');
+    return version == null ? null : Version.parse(version);
+  }
+
+  set lastVersion(Version? value) =>
+      StorageHelper.set<String?>('last_version', value?.toString());
 }

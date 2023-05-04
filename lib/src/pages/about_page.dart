@@ -54,7 +54,7 @@ class AboutPage extends StatelessWidget {
                       onPressed: () {
                         showLicensePage(
                             context: context,
-                            applicationVersion: config.appVersion);
+                            applicationVersion: config.appVersion.toString());
                       },
                       child: const Text('查看本應用程式所使用的開源軟體授權條款'))
                 ],

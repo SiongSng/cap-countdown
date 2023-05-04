@@ -1,8 +1,10 @@
 // ignore_for_file: use_build_context_synchronously
 
+import 'package:cap_countdown/main.dart';
 import 'package:cap_countdown/src/pages/countdown_page.dart';
 import 'package:cap_countdown/src/pages/exam/exam_page.dart';
 import 'package:cap_countdown/src/pages/home_page.dart';
+import 'package:cap_countdown/src/widgets/changelog_dialog.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
@@ -22,6 +24,17 @@ class _MainPageState extends State<MainPage> {
     pageController = PageController(initialPage: selectedIndex);
 
     super.initState();
+
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      final lastVersion = localStorage.lastVersion;
+      final hasNewVersion =
+          lastVersion == null || lastVersion != config.appVersion;
+
+      if (hasNewVersion && context.mounted) {
+        showDialog(
+            context: context, builder: (context) => const ChangelogDialog());
+      }
+    });
   }
 
   @override
