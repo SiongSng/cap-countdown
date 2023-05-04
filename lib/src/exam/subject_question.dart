@@ -33,6 +33,24 @@ abstract mixin class SubjectQuestion {
     localStorage.questionRecords = records;
   }
 
+  String get questionNumber {
+    final question = this;
+    final String questionNumber;
+
+    if (question is SingleChoiceQuestion) {
+      questionNumber = question.number.toString();
+    } else if (question is GroupChoiceQuestion) {
+      questionNumber =
+          '${question.options.first.number}~${question.options.last.number}';
+    } else if (question is ExampleQuestion) {
+      questionNumber = '示例題';
+    } else {
+      throw Exception('Unknown question type');
+    }
+
+    return questionNumber;
+  }
+
   QuestionMeta get meta {
     final exams = ExamLoader.exams;
     final subject = exams
@@ -40,12 +58,13 @@ abstract mixin class SubjectQuestion {
         .firstWhere((s) => s.questions.contains(this));
 
     final exam = exams.firstWhere((e) => e.subjects.contains(subject));
+    final int questionIndex = subject.questions.indexOf(this);
 
     return QuestionMeta(
-      year: exam.year,
-      subjectId: subject.subjectId,
-      questionIndex: subject.questions.indexOf(this),
-    );
+        year: exam.year,
+        subjectId: subject.subjectId,
+        questionIndex: questionIndex,
+        questionNumber: questionNumber);
   }
 
   String get hash {
