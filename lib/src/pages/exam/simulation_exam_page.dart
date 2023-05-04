@@ -4,7 +4,6 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:cap_countdown/main.dart';
 import 'package:cap_countdown/src/exam/cap_subject.dart';
 import 'package:cap_countdown/src/exam/exam_subject.dart';
-import 'package:cap_countdown/src/exam/example_question.dart';
 import 'package:cap_countdown/src/exam/group_choice_question.dart';
 import 'package:cap_countdown/src/exam/question_meta.dart';
 import 'package:cap_countdown/src/exam/question_note.dart';
@@ -131,11 +130,11 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
 
                     return _QuestionPage(
                       question: question,
-                      meta: QuestionMeta.build(
+                      meta: QuestionMeta(
                           year: widget.year,
                           subjectId: widget.subject.subjectId,
                           questionIndex: index,
-                          question: question),
+                          questionNumber: question.questionNumber),
                       option: QuestionViewOption(
                           showQuestionNumber: true,
                           submitted: _submitted,
@@ -456,19 +455,7 @@ class _QuestionNumberIndicatorState extends State<QuestionNumberIndicator> {
 
   String _getQuestionNumber() {
     final question = widget.subject.questions[widget.currentPage];
-    final String questionNumber;
-
-    if (question is SingleChoiceQuestion) {
-      questionNumber = question.number.toString();
-    } else if (question is GroupChoiceQuestion) {
-      questionNumber =
-          '${question.options.first.number}~${question.options.last.number}';
-    } else if (question is ExampleQuestion) {
-      questionNumber = '示例題';
-    } else {
-      throw Exception('Unknown question type');
-    }
-    return questionNumber;
+    return question.questionNumber;
   }
 
   @override
