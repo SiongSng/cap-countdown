@@ -20,6 +20,7 @@ class _PersonalPageState extends State<PersonalPage> {
         .toList();
     final todayCorrect = todayRecords
         .where((e) => e.value.answerHistory.any((h) => h.isCorrect));
+    final todayCorrectRate = todayCorrect.length / todayRecords.length * 100;
 
     return Scaffold(
       appBar: AppBar(
@@ -64,8 +65,11 @@ class _PersonalPageState extends State<PersonalPage> {
                           _buildDataCard('今日答題數', '${todayRecords.length} 題'),
                     ),
                     Expanded(
-                      child: _buildDataCard('今日答對率',
-                          '${((todayCorrect.length / todayRecords.length) * 100).toStringAsFixed(2)} %'),
+                      child: _buildDataCard(
+                          '今日答對率',
+                          todayCorrectRate.isNaN
+                              ? '尚無資料'
+                              : '${todayCorrectRate.toStringAsFixed(2)}%'),
                     ),
                   ],
                 ),
