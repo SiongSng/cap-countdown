@@ -8,6 +8,7 @@ import 'src/exam/exam_loader.dart';
 import 'src/pages/exam/simulation_exam_form.dart';
 import 'src/pages/favorite_questions_page.dart';
 import 'src/pages/main_page.dart';
+import 'src/pages/personal_page.dart';
 import 'src/pages/settings_page.dart';
 import 'src/storage/local_storage.dart';
 import 'src/storage/storage.dart';
@@ -43,22 +44,33 @@ class App extends StatelessWidget {
           switch (settings.name) {
             case '/settings':
               return MaterialPageRoute(
+                settings: settings,
                 builder: (context) => const SettingsPage(),
               );
             case '/exam/simulation':
               return MaterialPageRoute(
+                settings: settings,
                 builder: (context) => const SimulationExamForm(),
               );
             case '/favorite_questions':
               return MaterialPageRoute(
+                settings: settings,
                 builder: (context) => const FavoriteQuestionsPage(),
               );
             case '/about':
               return MaterialPageRoute(
+                settings: settings,
                 builder: (context) => const AboutPage(),
+              );
+            case '/personal':
+              return MaterialPageRoute(
+                settings: settings,
+                builder: (context) => const PersonalPage(),
               );
             default:
               return MaterialPageRoute(
+                settings:
+                    RouteSettings(name: '/', arguments: settings.arguments),
                 builder: (context) => const MainPage(),
               );
           }

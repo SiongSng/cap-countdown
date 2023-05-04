@@ -4,6 +4,8 @@ import 'dart:io';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 
+import 'local_storage.dart';
+
 class StorageHelper {
   static late final Map _data;
 
@@ -18,6 +20,7 @@ class StorageHelper {
     }
 
     _data = jsonDecode(jsonString);
+    LocalStorage.mergeQuestionRecords();
   }
 
   static T get<T>(String key, [T? defaultValue]) {

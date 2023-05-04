@@ -36,6 +36,12 @@ class _MainPageState extends State<MainPage> {
             ],
           ),
           actions: [
+            IconButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, '/personal');
+                },
+                tooltip: '個人分析',
+                icon: const Icon(Icons.account_circle_rounded)),
             PopupMenuButton(
               itemBuilder: (context) => [
                 PopupMenuItem(
@@ -112,7 +118,7 @@ class _MainPageState extends State<MainPage> {
               icon: Icon(Icons.quiz_outlined),
               selectedIcon: Icon(Icons.quiz_rounded),
               label: '題庫',
-            ),
+            )
           ],
         ));
   }

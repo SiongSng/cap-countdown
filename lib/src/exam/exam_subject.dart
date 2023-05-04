@@ -93,7 +93,7 @@ class ExamSubject {
   }
 
   /// Clear all selected choices.
-  void clearRecords() {
+  void clearSelectRecords() {
     for (final question in getOptionalQuestions()) {
       question.selectedChoice = null;
     }

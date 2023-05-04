@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:cap_countdown/main.dart';
+import 'package:cap_countdown/src/exam/question_record.dart';
 import 'package:crypto/crypto.dart';
 import 'package:flutter/foundation.dart';
 import 'package:json_annotation/json_annotation.dart';
@@ -45,12 +46,30 @@ class OptionalQuestion {
   bool get isCorrect => correctAnswer == selectedChoice?.answer;
 
   void makeAsAnswered() {
-    final questions = localStorage.answeredQuestions;
-    questions.add(hash);
-    localStorage.answeredQuestions = questions.toSet().toList();
+    final selectedAnswer = selectedChoice?.answer;
+    if (selectedAnswer == null) return;
+
+    final records = localStorage.questionRecords;
+
+    QuestionRecord? record = records[hash];
+    final history = AnswerHistory(
+        date: DateTime.now(),
+        selectedAnswer: selectedAnswer,
+        isCorrect: isCorrect);
+
+    if (record != null) {
+      record =
+          record.copyWith(answerHistory: record.answerHistory..add(history));
+      records[hash] = record;
+      return;
+    }
+
+    records[hash] = QuestionRecord(answerHistory: [history]);
+
+    localStorage.questionRecords = records;
   }
 
-  bool get isAnswered => localStorage.answeredQuestions.contains(hash);
+  bool get isAnswered => localStorage.questionRecords.containsKey(hash);
 
   String get hash {
     var bytes = utf8.encode(toJson().toString());
