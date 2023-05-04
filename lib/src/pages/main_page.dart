@@ -74,8 +74,12 @@ class _MainPageState extends State<MainPage> {
           ],
         ),
         body: PageView(
-          physics: const NeverScrollableScrollPhysics(),
           controller: pageController,
+          onPageChanged: (index) {
+            setState(() {
+              selectedIndex = index;
+            });
+          },
           children: const [
             CountdownPage(),
             HomePage(),
