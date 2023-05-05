@@ -32,12 +32,11 @@ class LocalStorage {
       final records = localStorage.questionRecords;
       for (String hash in answeredQuestions) {
         var record = QuestionRecord.getByHash(hash);
-        record = record.copyWith(
-            answerHistory: record.answerHistory
-              ..add(AnswerHistory(
-                  date: DateTime.now(),
-                  selectedAnswer: null,
-                  isCorrect: true)));
+        record = record.copyWith(answerHistory: [
+          ...record.answerHistory,
+          AnswerHistory(
+              date: DateTime.now(), selectedAnswer: null, isCorrect: true)
+        ]);
         records[hash] = record;
       }
       localStorage.questionRecords = records;

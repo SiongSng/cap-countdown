@@ -27,14 +27,14 @@ AnswerHistory _$AnswerHistoryFromJson(Map<String, dynamic> json) =>
     AnswerHistory(
       date: DateTime.parse(json['date'] as String),
       selectedAnswer:
-          $enumDecode(_$QuestionAnswerEnumMap, json['selectedAnswer']),
+          $enumDecodeNullable(_$QuestionAnswerEnumMap, json['selectedAnswer']),
       isCorrect: json['isCorrect'] as bool,
     );
 
 Map<String, dynamic> _$AnswerHistoryToJson(AnswerHistory instance) =>
     <String, dynamic>{
       'date': instance.date.toIso8601String(),
-      'selectedAnswer': _$QuestionAnswerEnumMap[instance.selectedAnswer]!,
+      'selectedAnswer': _$QuestionAnswerEnumMap[instance.selectedAnswer],
       'isCorrect': instance.isCorrect,
     };
 
