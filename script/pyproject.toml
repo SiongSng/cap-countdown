@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cap-countdown-script"
-version = "0.1.3"
+version = "0.1.4"
 description = "A script tool to fetch and tidy up the data from the CAP website."
 authors = ["SiongSng <rrt467778@gmail.com>"]
 packages = [{ include = "tools" }, { include = "models" }]
