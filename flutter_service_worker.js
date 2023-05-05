@@ -3,10 +3,10 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"version.json": "4600edb14a99e9c8cd8c9a7a1348f5d1",
+const RESOURCES = {"version.json": "90bf226d04aeac894932422bc84814cc",
 "assets/FontManifest.json": "9d3694b6aa5d83b9d872004a25e3be30",
 "assets/fonts/MaterialIcons-Regular.otf": "f4b3f5b77771e522964f253bfe9fd84e",
-"assets/assets/config.json": "dc37197823ed3430819926ed41835b1f",
+"assets/assets/config.json": "e1c5f4aa94803f180c8ce71b48393d50",
 "assets/assets/audios/exam/111_listening_1.mp3": "648415e142ab9e8c56036d735c6eda68",
 "assets/assets/audios/exam/111_listening_18.mp3": "9860753366de48f45bfed55fcdfea6d7",
 "assets/assets/audios/exam/111_listening_19.mp3": "3227d01105fd943f78179ad010bd92a0",
@@ -210,8 +210,8 @@ const RESOURCES = {"version.json": "4600edb14a99e9c8cd8c9a7a1348f5d1",
 "canvaskit/canvaskit.wasm": "f48eaf57cada79163ec6dec7929486ea",
 "privacy.html": "c3fb32b427f0ec50ae1929578ee8c78c",
 "manifest.json": "3c47eee05d8d86a8af517e2a4ab17b68",
-"index.html": "4f1a2aa5a7863208cf9f2fdc259e7a85",
-"/": "4f1a2aa5a7863208cf9f2fdc259e7a85",
+"index.html": "290ded15e368bc08d573af1177c3e961",
+"/": "290ded15e368bc08d573af1177c3e961",
 "favicon.png": "ff3de03be0b72d00ed03476236e9ef4e",
 "icons/Icon-192.png": "ff3de03be0b72d00ed03476236e9ef4e",
 "icons/Icon-512.png": "ff3de03be0b72d00ed03476236e9ef4e",
