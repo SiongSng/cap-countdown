@@ -21,7 +21,7 @@ Map<String, dynamic> _$GroupChoiceQuestionToJson(
       'type': _$QuestionTypeEnumMap[instance.type]!,
       'description': instance.description,
       'image': instance.image,
-      'options': GroupChoiceQuestion._optionsToJson(instance.options),
+      'options': instance.options.map((e) => e.toJson()).toList(),
     };
 
 const _$QuestionTypeEnumMap = {

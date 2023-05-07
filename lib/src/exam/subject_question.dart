@@ -4,12 +4,14 @@ import 'package:cap_countdown/main.dart';
 import 'package:cap_countdown/src/exam/question_meta.dart';
 import 'package:cap_countdown/src/exam/question_record.dart';
 import 'package:crypto/crypto.dart';
+import 'package:json_annotation/json_annotation.dart';
 
 import 'exam_loader.dart';
 import 'example_question.dart';
 import 'group_choice_question.dart';
 import 'single_choice_question.dart';
 
+@JsonSerializable()
 abstract mixin class SubjectQuestion {
   QuestionType get type;
 

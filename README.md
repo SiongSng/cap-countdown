@@ -8,6 +8,11 @@
 支援的平台包含 Linux、Android、iOS、macOS、Windows 還有 Web！  
 此外，手機版如果覺得看題目的圖片太小，可以直接用手去縮放，像是 IG 一樣。
 
+## ⏳ 下載
+
+Android 手機與平板：在 Google Play Store 中搜尋「會考沙漏」即可安裝。  
+iOS、iPadOS、Windows、Linux 發行版、macOS：https://SiongSng.github.io/cap-countdown
+
 ## 🖼️ 展示
 
 <img src="readme/screenshot.png" width="200px"/>
@@ -20,7 +25,7 @@
 
 ```shell
 flutter pub get
-flutter pub run build_runner build
+dart run build_runner build
 flutter run
 ```
 
@@ -33,10 +38,8 @@ flutter run
 
 - 本應用程式的程式碼皆採用 [GNU General Public License v3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.html)
   授權條款釋出，詳情請參閱 [LICENSE](LICENSE) 檔案。
--
-本應用程式內的國中教育會考歷屆試題（含聽力音檔）皆來自於 [國中教育會考全國試務會](https://cap.rcpet.edu.tw/NEAC/About/About)
+- 本應用程式內的國中教育會考歷屆試題（含聽力音檔）皆來自於 [國中教育會考全國試務會](https://cap.rcpet.edu.tw/NEAC/About/About)
 與 [國立臺灣師範大學心理與教育測驗研究發展中心](https://rcpet.edu.tw/)，且本應用程式與上述兩個單位無任何關係。
--
-本應用程式內的國中教育會考歷屆試題的詳解皆來自於 [甄戰一點通](https://www.reallygood.com.tw/newExam/inside?str=F7229F6ADD9F230A5FB41A782B73F2A0)
+- 本應用程式內的國中教育會考歷屆試題的詳解皆來自於 [甄戰一點通](https://www.reallygood.com.tw/newExam/inside?str=F7229F6ADD9F230A5FB41A782B73F2A0)
 ，且本應用程式與上述單位無任何關係。
 - [點我看](readme/image_material.md)圖片素材引用資訊

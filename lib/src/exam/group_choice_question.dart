@@ -6,14 +6,13 @@ import 'subject_question.dart';
 
 part 'group_choice_question.g.dart';
 
-@JsonSerializable()
+@JsonSerializable(explicitToJson: true)
 class GroupChoiceQuestion extends SubjectQuestion {
   @override
   @JsonKey(includeToJson: true)
   QuestionType get type => QuestionType.groupChoice;
   final String? description;
   final String? image;
-  @JsonKey(toJson: _optionsToJson)
   final List<OptionalQuestion> options;
 
   GroupChoiceQuestion({
@@ -24,11 +23,6 @@ class GroupChoiceQuestion extends SubjectQuestion {
 
   factory GroupChoiceQuestion.fromJson(Map<String, dynamic> json) =>
       _$GroupChoiceQuestionFromJson(json);
-
-  static List<Map<String, dynamic>> _optionsToJson(
-      List<OptionalQuestion> options) {
-    return options.map((e) => e.toJson()).toList();
-  }
 
   @override
   bool operator ==(Object other) {

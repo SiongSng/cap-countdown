@@ -7,7 +7,7 @@ import 'question_choice.dart';
 
 part 'single_choice_question.g.dart';
 
-@JsonSerializable()
+@JsonSerializable(explicitToJson: true)
 class SingleChoiceQuestion extends OptionalQuestion with SubjectQuestion {
   @override
   @JsonKey(includeToJson: true)
