@@ -10,7 +10,7 @@
 
 ## ⏳ 下載
 
-Android 手機與平板：在 Google Play Store 中搜尋「會考沙漏」即可安裝。
+Android 手機與平板：在 Google Play Store 中搜尋「會考沙漏」即可安裝。  
 iOS、iPadOS、Windows、Linux 發行版、macOS：https://SiongSng.github.io/cap-countdown
 
 ## 🖼️ 展示
