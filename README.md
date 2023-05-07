@@ -8,6 +8,11 @@
 支援的平台包含 Linux、Android、iOS、macOS、Windows 還有 Web！  
 此外，手機版如果覺得看題目的圖片太小，可以直接用手去縮放，像是 IG 一樣。
 
+## ⏳ 下載
+
+Android 手機與平板：在 Google Play Store 中搜尋「會考沙漏」即可安裝。
+iOS、iPadOS、Windows、Linux 發行版、macOS：https://SiongSng.github.io/cap-countdown
+
 ## 🖼️ 展示
 
 <img src="readme/screenshot.png" width="200px"/>
