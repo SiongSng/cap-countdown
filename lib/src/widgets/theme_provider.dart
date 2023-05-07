@@ -27,9 +27,8 @@ class _ThemeProviderState extends State<ThemeProvider> {
 
           switch (notifier.theme) {
             case AppTheme.followSystem:
-              brightness = WidgetsFlutterBinding.ensureInitialized()
-                  .window
-                  .platformBrightness;
+              brightness =
+                  View.of(context).platformDispatcher.platformBrightness;
               break;
             case AppTheme.light:
               brightness = Brightness.light;
