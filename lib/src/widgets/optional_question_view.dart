@@ -240,6 +240,10 @@ class _ChoiceButtonsState extends State<_ChoiceButtons> {
                   widget.question.disabledList[i] =
                       !widget.question.disabledList[i];
                 }
+                if (widget.question.selectedChoice ==
+                    widget.question.choices[i]) {
+                  widget.question.selectedChoice = null;
+                }
               });
             },
             icon: const Icon(Icons.highlight_remove))
