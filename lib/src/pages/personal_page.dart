@@ -1,5 +1,8 @@
+import 'dart:io';
+
 import 'package:cap_countdown/main.dart';
 import 'package:file_picker/file_picker.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class PersonalPage extends StatefulWidget {
@@ -147,7 +150,15 @@ class _PersonalPageState extends State<PersonalPage> {
                       return;
                     }
 
-                    localStorage.personalAvatar = file.bytes;
+                    final Uint8List bytes;
+
+                    if (kIsWeb) {
+                      bytes = file.bytes!;
+                    } else {
+                      bytes = File(file.path!).readAsBytesSync();
+                    }
+
+                    localStorage.personalAvatar = bytes;
                     setState(() {});
                   },
                   child: const Text('選擇個人頭貼')),
