@@ -217,23 +217,41 @@ class _ChoiceButtons extends StatefulWidget {
 }
 
 class _ChoiceButtonsState extends State<_ChoiceButtons> {
+  List<Widget> _getChildren() {
+    List<Widget> children = [];
+    for (int i = 0; i < widget.question.choices.length; i++) {
+      children.add(Row(children: [
+        Expanded(
+            child: ChoiceButton(
+          choice: widget.question.choices[i],
+          question: widget.question,
+          submitted: widget.submitted,
+          disabled: widget.question.disabledList[i],
+          onChanged: (value) {
+            setState(() {
+              widget.question.selectedChoice = value;
+            });
+          },
+        )),
+        IconButton(
+            onPressed: () {
+              setState(() {
+                if (!widget.submitted) {
+                  widget.question.disabledList[i] =
+                      !widget.question.disabledList[i];
+                }
+              });
+            },
+            icon: const Icon(Icons.highlight_remove))
+      ]));
+    }
+
+    return children;
+  }
+
   @override
   Widget build(BuildContext context) {
-    return Wrap(
-      runSpacing: 8,
-      children: widget.question.choices
-          .map((e) => ChoiceButton(
-                choice: e,
-                question: widget.question,
-                submitted: widget.submitted,
-                onChanged: (value) {
-                  setState(() {
-                    widget.question.selectedChoice = value;
-                  });
-                },
-              ))
-          .toList(),
-    );
+    return Wrap(runSpacing: 8, children: _getChildren());
   }
 }
 

@@ -31,6 +31,9 @@ class OptionalQuestion {
   @JsonKey(includeFromJson: false, includeToJson: false)
   QuestionChoice? selectedChoice;
 
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  List<bool> disabledList = [false, false, false, false];
+
   OptionalQuestion({
     required this.number,
     this.description,
