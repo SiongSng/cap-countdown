@@ -20,7 +20,7 @@ Map<String, dynamic> _$QuestionRecordToJson(QuestionRecord instance) =>
     <String, dynamic>{
       'note': instance.note,
       'isFavorite': instance.isFavorite,
-      'answerHistory': instance.answerHistory,
+      'answerHistory': instance.answerHistory.map((e) => e.toJson()).toList(),
     };
 
 AnswerHistory _$AnswerHistoryFromJson(Map<String, dynamic> json) =>

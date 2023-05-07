@@ -4,7 +4,7 @@ import 'package:json_annotation/json_annotation.dart';
 
 part 'question_record.g.dart';
 
-@JsonSerializable()
+@JsonSerializable(explicitToJson: true)
 class QuestionRecord {
   final String? note;
   final bool isFavorite;

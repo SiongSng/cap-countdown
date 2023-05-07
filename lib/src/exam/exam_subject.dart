@@ -8,7 +8,7 @@ import 'single_choice_question.dart';
 
 part 'exam_subject.g.dart';
 
-@JsonSerializable()
+@JsonSerializable(explicitToJson: true)
 class ExamSubject {
   final String name;
 
@@ -25,7 +25,6 @@ class ExamSubject {
       toJson: _subjectIdToJson)
   final CAPSubject subjectId;
 
-  @JsonKey(fromJson: _questionsFromJson)
   final List<SubjectQuestion> questions;
 
   ExamSubject({
@@ -35,11 +34,6 @@ class ExamSubject {
     required this.subjectId,
     required this.questions,
   });
-
-  static List<SubjectQuestion> _questionsFromJson(json) {
-    final list = json as List;
-    return list.map((e) => SubjectQuestion.fromJson(e)).toList();
-  }
 
   static Duration _durationFromJson(json) {
     return Duration(minutes: json as int);

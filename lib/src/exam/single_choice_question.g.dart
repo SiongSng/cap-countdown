@@ -15,7 +15,9 @@ SingleChoiceQuestion _$SingleChoiceQuestionFromJson(
       image: json['image'] as String?,
       passingRate: (json['passing_rate'] as num).toDouble(),
       discriminationIndex: (json['discrimination_index'] as num).toDouble(),
-      choices: QuestionChoice.choicesFromJson(json['choices'] as List),
+      choices: (json['choices'] as List<dynamic>)
+          .map((e) => QuestionChoice.fromJson(e as Map<String, dynamic>))
+          .toList(),
       correctAnswer:
           $enumDecode(_$QuestionAnswerEnumMap, json['correct_answer']),
       explanation: json['explanation'] as String?,
@@ -30,7 +32,7 @@ Map<String, dynamic> _$SingleChoiceQuestionToJson(
       'audio': instance.audio,
       'passing_rate': instance.passingRate,
       'discrimination_index': instance.discriminationIndex,
-      'choices': QuestionChoice.choicesToJson(instance.choices),
+      'choices': instance.choices.map((e) => e.toJson()).toList(),
       'correct_answer': _$QuestionAnswerEnumMap[instance.correctAnswer]!,
       'explanation': instance.explanation,
       'type': _$QuestionTypeEnumMap[instance.type]!,

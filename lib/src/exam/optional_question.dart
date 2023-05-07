@@ -10,7 +10,7 @@ import 'question_choice.dart';
 
 part 'optional_question.g.dart';
 
-@JsonSerializable()
+@JsonSerializable(explicitToJson: true)
 class OptionalQuestion {
   final int number;
   final String? description;
@@ -20,9 +20,6 @@ class OptionalQuestion {
   final double passingRate;
   @JsonKey(name: 'discrimination_index')
   final double discriminationIndex;
-  @JsonKey(
-      fromJson: QuestionChoice.choicesFromJson,
-      toJson: QuestionChoice.choicesToJson)
   final List<QuestionChoice> choices;
   @JsonKey(name: 'correct_answer')
   final QuestionAnswer correctAnswer;
