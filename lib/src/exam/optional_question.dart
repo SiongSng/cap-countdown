@@ -29,7 +29,7 @@ class OptionalQuestion {
   QuestionChoice? selectedChoice;
 
   @JsonKey(includeFromJson: false, includeToJson: false)
-  List<bool> disabledList = [false, false, false, false];
+  List<bool> disabledList = [];
 
   OptionalQuestion({
     required this.number,
@@ -41,7 +41,9 @@ class OptionalQuestion {
     required this.choices,
     required this.correctAnswer,
     this.explanation,
-  });
+  }) {
+    disabledList = List.generate(choices.length, (index) => false);
+  }
 
   bool get isCorrect => correctAnswer == selectedChoice?.answer;
 
