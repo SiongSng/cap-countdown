@@ -7,7 +7,7 @@ class ChoiceButton extends StatelessWidget {
   final QuestionChoice choice;
   final OptionalQuestion question;
   final bool submitted;
-  final bool disabled;
+  final bool isCrossOut;
   final ValueChanged<QuestionChoice?>? onChanged;
 
   const ChoiceButton(
@@ -15,38 +15,38 @@ class ChoiceButton extends StatelessWidget {
       required this.choice,
       required this.question,
       required this.submitted,
-      required this.disabled,
+      required this.isCrossOut,
       this.onChanged});
 
   @override
   Widget build(BuildContext context) {
+    final text = '(${choice.answer.name}) ${choice.description ?? ''}';
+
     return RadioListTile<QuestionChoice>(
       // Use LaTexT to render LaTeX (math formula) in text.
       title: LaTexT(
-          laTeXCode: disabled
-              ? Text(
-                  '(${choice.answer.name}) ${choice.description ?? ''}',
-                  style: const TextStyle(
-                      decoration: TextDecoration.lineThrough,
-                      color: Colors.grey),
-                )
-              : Text('(${choice.answer.name}) ${choice.description ?? ''}')),
+          laTeXCode: Text(
+        text,
+        style: isCrossOut
+            ? const TextStyle(
+                decoration: TextDecoration.lineThrough, color: Colors.grey)
+            : null,
+      )),
       value: choice,
       groupValue: question.selectedChoice,
       fillColor: _getFillColor(),
       onChanged: (value) {
         // If the question has been submitted, can't change the answer.
         if (submitted) return;
-        if (disabled) {
-          ScaffoldMessengerState scaffoldMessenger =
-              ScaffoldMessenger.of(context);
-          scaffoldMessenger.clearSnackBars();
-          scaffoldMessenger.showSnackBar(const SnackBar(
-            content: Text("無法選擇已刪除的選項！"),
-            duration: Duration(seconds: 2),
+        if (isCrossOut) {
+          ScaffoldMessengerState messenger = ScaffoldMessenger.of(context);
+          messenger.clearSnackBars();
+          messenger.showSnackBar(const SnackBar(
+            content: Text('無法選擇已劃掉的選項！'),
           ));
           return;
         }
+
         if (value == question.selectedChoice) {
           onChanged?.call(null);
         } else {

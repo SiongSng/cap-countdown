@@ -217,19 +217,21 @@ class _ChoiceButtons extends StatefulWidget {
 }
 
 class _ChoiceButtonsState extends State<_ChoiceButtons> {
-  List<Widget> _getChildren() {
-    List<Widget> children = [];
-    for (int i = 0; i < widget.question.choices.length; i++) {
-      children.add(Row(children: [
+  List<Widget> _getButtons() {
+    final question = widget.question;
+    final List<Widget> buttons = [];
+
+    question.choices.asMap().forEach((index, choice) {
+      buttons.add(Row(children: [
         Expanded(
             child: ChoiceButton(
-          choice: widget.question.choices[i],
-          question: widget.question,
+          choice: choice,
+          question: question,
           submitted: widget.submitted,
-          disabled: widget.question.disabledList[i],
+          isCrossOut: question.crossOutItems[index],
           onChanged: (value) {
             setState(() {
-              widget.question.selectedChoice = value;
+              question.selectedChoice = value;
             });
           },
         )),
@@ -237,25 +239,25 @@ class _ChoiceButtonsState extends State<_ChoiceButtons> {
             onPressed: () {
               setState(() {
                 if (!widget.submitted) {
-                  widget.question.disabledList[i] =
-                      !widget.question.disabledList[i];
+                  question.crossOutItems[index] =
+                      !question.crossOutItems[index];
                 }
-                if (widget.question.selectedChoice ==
-                    widget.question.choices[i]) {
-                  widget.question.selectedChoice = null;
+                if (question.selectedChoice == choice) {
+                  question.selectedChoice = null;
                 }
               });
             },
-            icon: const Icon(Icons.highlight_remove))
+            tooltip: '劃掉選項（）',
+            icon: const Icon(Icons.unpublished_outlined))
       ]));
-    }
+    });
 
-    return children;
+    return buttons;
   }
 
   @override
   Widget build(BuildContext context) {
-    return Wrap(runSpacing: 8, children: _getChildren());
+    return Wrap(runSpacing: 8, children: _getButtons());
   }
 }
 
