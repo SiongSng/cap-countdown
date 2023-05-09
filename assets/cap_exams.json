@@ -3445,25 +3445,25 @@
           {
             "number": 21,
             "type": "singleChoice",
-            "description": "有一直徑為 $\\overline{AB}$ 的圓，且圓上有 $C、D、E、F$ 四點，其位置如圖所示。若 $\\overline{AC}=6，\\overline{AD}=8，\\overline{AE}=5，\\overline{AF}=9，\\overline{AB}=10$ ，則下列弧長關係何者正確？",
+            "description": "有一直徑為 $\\overline{AB}$ 的圓，且圓上有 $C、D、E、F$ 四點，其位置如圖所示。若 $\\overline{AC}=6$，$\\overline{AD}=8$，$\\overline{AE}=5$，$\\overline{AF}=9$，$\\overline{AB}=10$ ，則下列弧長關係何者正確？",
             "passing_rate": 0.41,
             "discrimination_index": 0.5,
             "choices": [
               {
                 "answer": "A",
-                "description": "$\\overset{\\frown}{AC}+\\overset{\\frown}{AD}=\\overset{\\frown}{AB}，\\overset{\\frown}{AE}+\\overset{\\frown}{AF}=\\overset{\\frown}{AB}$"
+                "description": "$\\overset{\\frown}{AC}+\\overset{\\frown}{AD}=\\overset{\\frown}{AB}$，$\\overset{\\frown}{AE}+\\overset{\\frown}{AF}=\\overset{\\frown}{AB}$"
               },
               {
                 "answer": "B",
-                "description": "$\\overset{\\frown}{AC}+\\overset{\\frown}{AD}=\\overset{\\frown}{AB}，\\overset{\\frown}{AE}+\\overset{\\frown}{AF}\\neq\\overset{\\frown}{AB}$"
+                "description": "$\\overset{\\frown}{AC}+\\overset{\\frown}{AD}=\\overset{\\frown}{AB}$，$\\overset{\\frown}{AE}+\\overset{\\frown}{AF}\\neq\\overset{\\frown}{AB}$"
               },
               {
                 "answer": "C",
-                "description": "$\\overset{\\frown}{AC}+\\overset{\\frown}{AD}\\neq\\overset{\\frown}{AB}，\\overset{\\frown}{AE}+\\overset{\\frown}{AF}=\\overset{\\frown}{AB}$"
+                "description": "$\\overset{\\frown}{AC}+\\overset{\\frown}{AD}\\neq\\overset{\\frown}{AB}$，$\\overset{\\frown}{AE}+\\overset{\\frown}{AF}=\\overset{\\frown}{AB}$"
               },
               {
                 "answer": "D",
-                "description": "$\\overset{\\frown}{AC}+\\overset{\\frown}{AD}\\neq\\overset{\\frown}{AB}，\\overset{\\frown}{AE}+\\overset{\\frown}{AF}\\neq\\overset{\\frown}{AB}$"
+                "description": "$\\overset{\\frown}{AC}+\\overset{\\frown}{AD}\\neq\\overset{\\frown}{AB}$，$\\overset{\\frown}{AE}+\\overset{\\frown}{AF}\\neq\\overset{\\frown}{AB}$"
               }
             ],
             "correct_answer": "B",
