@@ -56,7 +56,7 @@ class AboutPage extends StatelessWidget {
                             context: context,
                             applicationVersion: config.appVersion.toString());
                       },
-                      child: const Text('查看本應用程式所使用的開源軟體授權條款'))
+                      child: const Text('看看我們用來造出「會考沙漏」的開放原始碼函式庫'))
                 ],
               ),
               const Divider(),
