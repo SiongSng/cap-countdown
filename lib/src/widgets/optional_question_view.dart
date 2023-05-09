@@ -247,7 +247,7 @@ class _ChoiceButtonsState extends State<_ChoiceButtons> {
                 }
               });
             },
-            tooltip: '劃掉選項（）',
+            tooltip: '劃掉選項（排除）',
             icon: const Icon(Icons.unpublished_outlined))
       ]));
     });
