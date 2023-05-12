@@ -110,42 +110,40 @@ class _MainPageState extends State<MainPage> {
 
   Row _buildPadBody(BuildContext context, LayoutBreakpoint breakpoint) {
     return Row(children: [
-      SingleChildScrollView(
-          child: IntrinsicHeight(
-              child: NavigationRail(
-                  leading: FloatingActionButton(
-                    onPressed: () {
-                      Navigator.pushNamed(context, '/exam/simulation');
-                    },
-                    tooltip: '開始練習試題',
-                    child: const Icon(Icons.edit_outlined),
-                  ),
-                  destinations: const [
-                    NavigationRailDestination(
-                        icon: Icon(Icons.calendar_month_outlined),
-                        selectedIcon: Icon(Icons.calendar_month_rounded),
-                        label: Text('倒數')),
-                    NavigationRailDestination(
-                        icon: Icon(Icons.home_outlined),
-                        selectedIcon: Icon(Icons.home_rounded),
-                        label: Text('首頁')),
-                    NavigationRailDestination(
-                        icon: Icon(Icons.quiz_outlined),
-                        selectedIcon: Icon(Icons.quiz_rounded),
-                        label: Text('題庫')),
-                    NavigationRailDestination(
-                        icon: Icon(Icons.account_circle_outlined),
-                        selectedIcon: Icon(Icons.account_circle_rounded),
-                        label: Text('個人分析')),
-                    NavigationRailDestination(
-                        icon: Icon(Icons.settings_outlined),
-                        selectedIcon: Icon(Icons.settings_rounded),
-                        label: Text('設定')),
-                  ],
-                  labelType: NavigationRailLabelType.all,
-                  groupAlignment: 0,
-                  onDestinationSelected: (value) => changePage(value),
-                  selectedIndex: selectedIndex))),
+      NavigationRail(
+          leading: FloatingActionButton(
+            onPressed: () {
+              Navigator.pushNamed(context, '/exam/simulation');
+            },
+            tooltip: '開始練習試題',
+            child: const Icon(Icons.edit_outlined),
+          ),
+          destinations: const [
+            NavigationRailDestination(
+                icon: Icon(Icons.calendar_month_outlined),
+                selectedIcon: Icon(Icons.calendar_month_rounded),
+                label: Text('倒數')),
+            NavigationRailDestination(
+                icon: Icon(Icons.home_outlined),
+                selectedIcon: Icon(Icons.home_rounded),
+                label: Text('首頁')),
+            NavigationRailDestination(
+                icon: Icon(Icons.quiz_outlined),
+                selectedIcon: Icon(Icons.quiz_rounded),
+                label: Text('題庫')),
+            NavigationRailDestination(
+                icon: Icon(Icons.account_circle_outlined),
+                selectedIcon: Icon(Icons.account_circle_rounded),
+                label: Text('個人分析')),
+            NavigationRailDestination(
+                icon: Icon(Icons.settings_outlined),
+                selectedIcon: Icon(Icons.settings_rounded),
+                label: Text('設定')),
+          ],
+          labelType: NavigationRailLabelType.all,
+          groupAlignment: 0,
+          onDestinationSelected: (value) => changePage(value),
+          selectedIndex: selectedIndex),
       Expanded(child: _buildPageView(breakpoint))
     ]);
   }
