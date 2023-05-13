@@ -1,0 +1,4 @@
+enum EventsEnum {
+  crossOutChoice,
+  searchTranslate;
+}

@@ -1,6 +1,7 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:cap_countdown/src/exam/optional_question.dart';
 import 'package:cap_countdown/src/exam/question_meta.dart';
+import 'package:cap_countdown/src/util/events_enum.dart';
 import 'package:cap_countdown/src/widgets/choice_button.dart';
 import 'package:cap_countdown/src/widgets/question_audio_player.dart';
 import 'package:cap_countdown/src/widgets/question_image.dart';
@@ -234,10 +235,9 @@ class _ChoiceButtonsState extends State<_ChoiceButtons> {
               question.selectedChoice = value;
             });
           },
-        )),
-        IconButton(
-            onPressed: () {
-              setState(() {
+          onEvent: (value) {
+            setState(() {
+              if (value == EventsEnum.crossOutChoice) {
                 if (!widget.submitted) {
                   question.crossOutItems[index] =
                       !question.crossOutItems[index];
@@ -245,10 +245,24 @@ class _ChoiceButtonsState extends State<_ChoiceButtons> {
                 if (question.selectedChoice == choice) {
                   question.selectedChoice = null;
                 }
-              });
-            },
-            tooltip: '劃掉選項（排除）',
-            icon: const Icon(Icons.unpublished_outlined))
+              }
+            });
+          },
+        )),
+        // IconButton(
+        //     onPressed: () {
+        //       setState(() {
+        //         if (!widget.submitted) {
+        //           question.crossOutItems[index] =
+        //               !question.crossOutItems[index];
+        //         }
+        //         if (question.selectedChoice == choice) {
+        //           question.selectedChoice = null;
+        //         }
+        //       });
+        //     },
+        //     tooltip: '劃掉選項（排除）',
+        //     icon: const Icon(Icons.unpublished_outlined))
       ]));
     });
 
