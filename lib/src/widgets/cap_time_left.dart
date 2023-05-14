@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:cap_countdown/main.dart';
 import 'package:cap_countdown/src/util/cap_util.dart';
 import 'package:flutter/material.dart';
 
@@ -27,7 +28,7 @@ class _CAPTimeLeftState extends State<CAPTimeLeft> {
   @override
   Widget build(BuildContext context) {
     final duration = CAPUtil.getDurationToCAP();
-    int day = duration.inDays;
+    final day = getDay(duration);
 
     return Padding(
       padding: const EdgeInsets.all(8.0),
@@ -112,5 +113,15 @@ class _CAPTimeLeftState extends State<CAPTimeLeft> {
         ),
       ),
     );
+  }
+
+  int getDay(Duration duration) {
+    final hour = duration.inHours % 24;
+
+    if (!widget.showDetail && localStorage.userFriendlyCountdown && hour > 12) {
+      return duration.inDays + 1;
+    }
+
+    return duration.inDays;
   }
 }
