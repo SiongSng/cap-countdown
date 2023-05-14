@@ -88,4 +88,10 @@ class LocalStorage {
 
   set lastVersion(Version? value) =>
       StorageHelper.set<String?>('last_version', value?.toString());
+
+  bool get userFriendlyCountdown =>
+      StorageHelper.get<bool>('user_friendly_countdown', true);
+
+  set userFriendlyCountdown(bool value) =>
+      StorageHelper.set<bool>('user_friendly_countdown', value);
 }
