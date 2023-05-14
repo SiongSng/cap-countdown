@@ -80,6 +80,7 @@ class _SettingsPageState extends State<SettingsPage> {
                             onPressed: () {
                               Navigator.of(context).pop();
                               ThemeProvider.of(context).setAccentColor(null);
+                              accentColor = localStorage.accentColor;
                               setState(() {});
                             },
                             child: const Text('預設'),
@@ -100,7 +101,23 @@ class _SettingsPageState extends State<SettingsPage> {
                 )
               ],
             ),
-          )
+          ),
+          ExpansionTile(
+              title: const Text('倒數'),
+              initiallyExpanded: true,
+              leading: const Icon(Icons.timer_outlined),
+              shape: Border.all(color: Colors.transparent),
+              children: [
+                SwitchListTile(
+                    value: localStorage.userFriendlyCountdown,
+                    onChanged: (value) {
+                      localStorage.userFriendlyCountdown = value;
+                      setState(() {});
+                    },
+                    title: const Text('更人性化的倒數計時'),
+                    subtitle:
+                        const Text('如果距離會考還有 23 小時就會被視為還有一天。\n本功能須重啟應用程式才會生效。'))
+              ]),
         ],
       ),
     );
