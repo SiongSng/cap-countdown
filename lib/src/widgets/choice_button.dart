@@ -1,9 +1,10 @@
+import 'dart:ui';
+
 import 'package:cap_countdown/src/exam/optional_question.dart';
 import 'package:cap_countdown/src/exam/question_choice.dart';
+import 'package:cap_countdown/src/util/events_enum.dart';
 import 'package:flutter/material.dart';
 import 'package:latext/latext.dart';
-
-import '../util/events_enum.dart';
 
 class ChoiceButton extends StatelessWidget {
   final QuestionChoice choice;
@@ -27,6 +28,14 @@ class ChoiceButton extends StatelessWidget {
     final text = '(${choice.answer.name}) ${choice.description ?? ''}';
 
     return GestureDetector(
+      onHorizontalDragEnd: (DragEndDetails dragEndDetails) {
+        if (dragEndDetails.velocity.pixelsPerSecond.dx < 0) {
+          onEvent?.call(EventsEnum.crossOutChoice);
+        }
+      },
+      supportedDevices: const <PointerDeviceKind>{PointerDeviceKind.touch},
+      behavior: HitTestBehavior.opaque,
+      excludeFromSemantics: true,
       child: RadioListTile<QuestionChoice>(
         // Use LaTexT to render LaTeX (math formula) in text.
         title: LaTexT(
@@ -59,9 +68,6 @@ class ChoiceButton extends StatelessWidget {
           }
         },
       ),
-      onDoubleTap: () {
-        onEvent?.call(EventsEnum.crossOutChoice);
-      },
     );
   }
 
