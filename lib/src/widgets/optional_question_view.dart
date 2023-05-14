@@ -1,6 +1,7 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:cap_countdown/src/exam/optional_question.dart';
 import 'package:cap_countdown/src/exam/question_meta.dart';
+import 'package:cap_countdown/src/util/events_enum.dart';
 import 'package:cap_countdown/src/widgets/choice_button.dart';
 import 'package:cap_countdown/src/widgets/question_audio_player.dart';
 import 'package:cap_countdown/src/widgets/question_image.dart';
@@ -217,23 +218,60 @@ class _ChoiceButtons extends StatefulWidget {
 }
 
 class _ChoiceButtonsState extends State<_ChoiceButtons> {
+  List<Widget> _getButtons() {
+    final question = widget.question;
+    final List<Widget> buttons = [];
+
+    question.choices.asMap().forEach((index, choice) {
+      buttons.add(Row(children: [
+        Expanded(
+            child: ChoiceButton(
+          choice: choice,
+          question: question,
+          submitted: widget.submitted,
+          isCrossOut: question.crossOutItems[index],
+          onChanged: (value) {
+            setState(() {
+              question.selectedChoice = value;
+            });
+          },
+          onEvent: (value) {
+            setState(() {
+              if (value == EventsEnum.crossOutChoice) {
+                if (!widget.submitted) {
+                  question.crossOutItems[index] =
+                      !question.crossOutItems[index];
+                }
+                if (question.selectedChoice == choice) {
+                  question.selectedChoice = null;
+                }
+              }
+            });
+          },
+        )),
+        // IconButton(
+        //     onPressed: () {
+        //       setState(() {
+        //         if (!widget.submitted) {
+        //           question.crossOutItems[index] =
+        //               !question.crossOutItems[index];
+        //         }
+        //         if (question.selectedChoice == choice) {
+        //           question.selectedChoice = null;
+        //         }
+        //       });
+        //     },
+        //     tooltip: '劃掉選項（排除）',
+        //     icon: const Icon(Icons.unpublished_outlined))
+      ]));
+    });
+
+    return buttons;
+  }
+
   @override
   Widget build(BuildContext context) {
-    return Wrap(
-      runSpacing: 8,
-      children: widget.question.choices
-          .map((e) => ChoiceButton(
-                choice: e,
-                question: widget.question,
-                submitted: widget.submitted,
-                onChanged: (value) {
-                  setState(() {
-                    widget.question.selectedChoice = value;
-                  });
-                },
-              ))
-          .toList(),
-    );
+    return Wrap(runSpacing: 8, children: _getButtons());
   }
 }
 

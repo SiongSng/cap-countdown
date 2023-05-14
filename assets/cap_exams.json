@@ -3445,7 +3445,7 @@
           {
             "number": 21,
             "type": "singleChoice",
-            "description": "有一直徑為 $\\overline{AB}$ 的圓，且圓上有 $C、D、E、F$ 四點，其位置如圖所示。若 $\\overline{AC}=6，\\overline{AD}=8，\\overline{AE}=5，\\overline{AF}=9，\\overline{AB}=10$ ，則下列弧長關係何者正確？",
+            "description": "有一直徑為 $\\overline{AB}$ 的圓，且圓上有 $C、D、E、F$ 四點，其位置如圖所示。若 $\\overline{AC}=6$，$\\overline{AD}=8$，$\\overline{AE}=5$，$\\overline{AF}=9$，$\\overline{AB}=10$ ，則下列弧長關係何者正確？",
             "passing_rate": 0.41,
             "discrimination_index": 0.5,
             "choices": [
@@ -4561,7 +4561,7 @@
               }
             ],
             "correct_answer": "D",
-            "explanation": "調解為訴訟前具有保障的程序。而Ｃ私下和解具有風險性。因此選Ｄ B 屬於公訴"
+            "explanation": "調解為訴訟前具有保障的程序。而Ｃ私下和解具有風險性。因此選Ｄ\nB 屬於公訴"
           },
           {
             "number": 36,

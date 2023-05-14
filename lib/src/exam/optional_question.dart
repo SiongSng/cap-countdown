@@ -28,6 +28,9 @@ class OptionalQuestion {
   @JsonKey(includeFromJson: false, includeToJson: false)
   QuestionChoice? selectedChoice;
 
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  List<bool> crossOutItems = [];
+
   OptionalQuestion({
     required this.number,
     this.description,
@@ -38,7 +41,9 @@ class OptionalQuestion {
     required this.choices,
     required this.correctAnswer,
     this.explanation,
-  });
+  }) {
+    crossOutItems = List.generate(choices.length, (_) => false);
+  }
 
   bool get isCorrect => correctAnswer == selectedChoice?.answer;
 
