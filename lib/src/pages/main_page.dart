@@ -226,10 +226,10 @@ class _MainPageState extends State<MainPage> {
     if (pageController.positions.isNotEmpty) {
       pageController.dispose();
 
-      //if (breakpoint.isPhone && selectedIndex > 2) {
-      //  // Because the NavigationBar in phone mode only has 3 items.
-      //  selectedIndex = 1;
-      //}
+      if (breakpoint.isPhone && selectedIndex > 2) {
+        // Because the NavigationBar in phone mode only has 3 items.
+        selectedIndex = 1;
+      }
 
       pageController = PageController(initialPage: selectedIndex);
     }
