@@ -242,13 +242,15 @@ class _MainPageState extends State<MainPage> {
           selectedIndex = index;
         });
       },
-      children: const [
-        CountdownPage(),
-        HomePage(),
-        ExamPage(),
-        PersonalPage(),
-        SettingsPage()
-      ],
+      children: breakpoint.isPhone
+          ? const [CountdownPage(), HomePage(), ExamPage()]
+          : const [
+              CountdownPage(),
+              HomePage(),
+              ExamPage(),
+              PersonalPage(),
+              SettingsPage()
+            ],
     );
   }
 

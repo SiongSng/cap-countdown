@@ -3451,19 +3451,19 @@
             "choices": [
               {
                 "answer": "A",
-                "description": "$\\overset{\\frown}{AC}+\\overset{\\frown}{AD}=\\overset{\\frown}{AB}，\\overset{\\frown}{AE}+\\overset{\\frown}{AF}=\\overset{\\frown}{AB}$"
+                "description": "$\\overset{\\frown}{AC}+\\overset{\\frown}{AD}=\\overset{\\frown}{AB}$，$\\overset{\\frown}{AE}+\\overset{\\frown}{AF}=\\overset{\\frown}{AB}$"
               },
               {
                 "answer": "B",
-                "description": "$\\overset{\\frown}{AC}+\\overset{\\frown}{AD}=\\overset{\\frown}{AB}，\\overset{\\frown}{AE}+\\overset{\\frown}{AF}\\neq\\overset{\\frown}{AB}$"
+                "description": "$\\overset{\\frown}{AC}+\\overset{\\frown}{AD}=\\overset{\\frown}{AB}$，$\\overset{\\frown}{AE}+\\overset{\\frown}{AF}\\neq\\overset{\\frown}{AB}$"
               },
               {
                 "answer": "C",
-                "description": "$\\overset{\\frown}{AC}+\\overset{\\frown}{AD}\\neq\\overset{\\frown}{AB}，\\overset{\\frown}{AE}+\\overset{\\frown}{AF}=\\overset{\\frown}{AB}$"
+                "description": "$\\overset{\\frown}{AC}+\\overset{\\frown}{AD}\\neq\\overset{\\frown}{AB}$，$\\overset{\\frown}{AE}+\\overset{\\frown}{AF}=\\overset{\\frown}{AB}$"
               },
               {
                 "answer": "D",
-                "description": "$\\overset{\\frown}{AC}+\\overset{\\frown}{AD}\\neq\\overset{\\frown}{AB}，\\overset{\\frown}{AE}+\\overset{\\frown}{AF}\\neq\\overset{\\frown}{AB}$"
+                "description": "$\\overset{\\frown}{AC}+\\overset{\\frown}{AD}\\neq\\overset{\\frown}{AB}$，$\\overset{\\frown}{AE}+\\overset{\\frown}{AF}\\neq\\overset{\\frown}{AB}$"
               }
             ],
             "correct_answer": "B",
