@@ -19,7 +19,7 @@ class _SimulationExamFormState extends State<SimulationExamForm> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('請選擇要測驗的年份'),
+        title: const Text('模擬歷屆會考'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
