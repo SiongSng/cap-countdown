@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage>
             onRefresh: () {
               setState(() {});
             }),
-        const SizedBox(height: 25)
+        const SizedBox(height: 75)
       ],
     );
   }
