@@ -50,37 +50,51 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return ResponsiveLayout(builder: (context, breakpoint) {
       return Scaffold(
-          appBar: AppBar(
-            title: Row(
-              children: [
-                Image.asset('assets/images/logo.png', width: 40, height: 40),
-                const SizedBox(width: 8),
-                const Column(
-                  children: [
-                    Text('會考沙漏'),
-                    SizedBox(height: 4),
-                  ],
-                ),
-              ],
-            ),
-            actions: [
-              breakpoint.isPhone
-                  ? _buildPhoneActions(context)
-                  : _buildPadActions(context),
+        appBar: AppBar(
+          title: Row(
+            children: [
+              Image.asset('assets/images/logo.png', width: 40, height: 40),
+              const SizedBox(width: 8),
+              const Column(
+                children: [
+                  Text('會考沙漏'),
+                  SizedBox(height: 4),
+                ],
+              ),
             ],
-            scrolledUnderElevation: 0,
           ),
-          body: breakpoint.isPhone
-              ? _buildPageView(breakpoint)
-              : _buildPadBody(context, breakpoint),
-          bottomNavigationBar: Builder(
-            builder: (context) {
-              if (!breakpoint.isPhone) return const SizedBox.shrink();
+          actions: [
+            breakpoint.isPhone ? _buildPhoneActions() : _buildPadActions(),
+          ],
+          scrolledUnderElevation: 0,
+        ),
+        body: breakpoint.isPhone
+            ? _buildPageView(breakpoint)
+            : _buildPadBody(breakpoint),
+        bottomNavigationBar: Builder(
+          builder: (context) {
+            if (!breakpoint.isPhone) return const SizedBox.shrink();
 
-              return _buildPhoneNavBar();
-            },
-          ));
+            return _buildPhoneNavBar();
+          },
+        ),
+        floatingActionButton: Builder(builder: (context) {
+          if (!breakpoint.isPhone) return const SizedBox.shrink();
+
+          return _buildPracticeButton();
+        }),
+      );
     });
+  }
+
+  FloatingActionButton _buildPracticeButton() {
+    return FloatingActionButton(
+      onPressed: () {
+        Navigator.pushNamed(context, '/exam/simulation');
+      },
+      tooltip: '開始練習試題',
+      child: const Icon(Icons.edit_outlined),
+    );
   }
 
   NavigationBar _buildPhoneNavBar() {
@@ -108,16 +122,10 @@ class _MainPageState extends State<MainPage> {
     );
   }
 
-  Row _buildPadBody(BuildContext context, LayoutBreakpoint breakpoint) {
+  Row _buildPadBody(LayoutBreakpoint breakpoint) {
     return Row(children: [
       NavigationRail(
-          leading: FloatingActionButton(
-            onPressed: () {
-              Navigator.pushNamed(context, '/exam/simulation');
-            },
-            tooltip: '開始練習試題',
-            child: const Icon(Icons.edit_outlined),
-          ),
+          leading: _buildPracticeButton(),
           destinations: const [
             NavigationRailDestination(
                 icon: Icon(Icons.calendar_month_outlined),
@@ -148,7 +156,7 @@ class _MainPageState extends State<MainPage> {
     ]);
   }
 
-  Row _buildPadActions(BuildContext context) {
+  Row _buildPadActions() {
     return Row(
       children: [
         IconButton(
@@ -174,7 +182,7 @@ class _MainPageState extends State<MainPage> {
     );
   }
 
-  Row _buildPhoneActions(BuildContext context) {
+  Row _buildPhoneActions() {
     return Row(
       children: [
         IconButton(
@@ -188,7 +196,7 @@ class _MainPageState extends State<MainPage> {
             PopupMenuItem(
               child: const Text('設定'),
               onTap: () async {
-                await _waitPopupMenu(context);
+                await _waitPopupMenu();
                 if (!context.mounted) return;
                 Navigator.pushNamed(context, '/settings');
               },
@@ -196,7 +204,7 @@ class _MainPageState extends State<MainPage> {
             PopupMenuItem(
               child: const Text('題目收藏庫'),
               onTap: () async {
-                await _waitPopupMenu(context);
+                await _waitPopupMenu();
                 if (!context.mounted) return;
                 Navigator.pushNamed(context, '/favorite_questions');
               },
@@ -211,7 +219,7 @@ class _MainPageState extends State<MainPage> {
             PopupMenuItem(
               child: const Text('關於'),
               onTap: () async {
-                await _waitPopupMenu(context);
+                await _waitPopupMenu();
                 if (!context.mounted) return;
                 Navigator.pushNamed(context, '/about');
               },
@@ -259,7 +267,7 @@ class _MainPageState extends State<MainPage> {
     });
   }
 
-  Future<void> _waitPopupMenu(BuildContext context) async {
+  Future<void> _waitPopupMenu() async {
     await Future.delayed(const Duration(milliseconds: 200));
   }
 }
