@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:math';
 
 import 'package:cap_countdown/main.dart';
 import 'package:cap_countdown/src/util/cap_util.dart';
@@ -14,8 +15,22 @@ class CAPTimeLeft extends StatefulWidget {
 }
 
 class _CAPTimeLeftState extends State<CAPTimeLeft> {
+  final encourageMessages = [
+    '加油！堅持到最後一刻～',
+    '不論結果如何，堅持到底就對了！',
+    '跟過去的自己比，每一次的努力都是一次成長。',
+    '相信自己一定做得到！',
+    '前方或許有挑戰，但你已經為此做好準備。',
+    '不要氣餒！會考只是人生中的一小部份。',
+    '從錯誤中學習，失敗為成功之母。',
+    '長風破浪會有時，直掛雲帆濟滄海。'
+  ];
+  late final String encourageMessage;
+
   @override
   void initState() {
+    encourageMessage =
+        encourageMessages[Random().nextInt(encourageMessages.length)];
     super.initState();
 
     Timer.periodic(const Duration(seconds: 1), (timer) {
@@ -26,10 +41,9 @@ class _CAPTimeLeftState extends State<CAPTimeLeft> {
 
   @override
   Widget build(BuildContext context) {
-    // final duration = CAPUtil.getDurationToCAP();
-
-    const duration = Duration(hours: 10, minutes: 59, seconds: 59);
-    final capIsAboutToStart = duration.inDays == 0;
+    final duration = CAPUtil.getDurationToCAP();
+    final capIsAboutToStart =
+        duration.inDays == 0 && duration.inMilliseconds > 0;
     final capIsStarted = duration.inMilliseconds == 0;
 
     return Padding(
@@ -39,13 +53,23 @@ class _CAPTimeLeftState extends State<CAPTimeLeft> {
           padding: const EdgeInsets.all(8.0),
           child: Column(
             children: [
+              if (capIsStarted) ...[
+                Text('會考已正式開始',
+                    style: Theme.of(context).textTheme.headlineLarge?.copyWith(
+                          fontWeight: FontWeight.bold,
+                        )),
+                const SizedBox(height: 8),
+                Text('祝你考試順利，未來就在你手中！',
+                    style: Theme.of(context).textTheme.titleLarge),
+              ],
               if (capIsAboutToStart)
                 Text(
-                  '加油！堅持到最後一刻～',
-                  style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                      color: Theme.of(context).colorScheme.secondary),
+                  encourageMessage,
+                  style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                        fontWeight: FontWeight.bold,
+                      ),
                 ),
-              if (!capIsAboutToStart)
+              if (duration.inDays > 0)
                 Text(
                   '距離會考只剩下',
                   style: Theme.of(context).textTheme.titleLarge,
@@ -68,7 +92,7 @@ class _CAPTimeLeftState extends State<CAPTimeLeft> {
                   )
                 ])),
               if (widget.showDetail || capIsAboutToStart)
-                _buildDetails(duration, context)
+                _buildDetails(duration),
             ],
           ),
         ),
@@ -76,7 +100,7 @@ class _CAPTimeLeftState extends State<CAPTimeLeft> {
     );
   }
 
-  Widget _buildDetails(Duration duration, BuildContext context) {
+  Widget _buildDetails(Duration duration) {
     return Wrap(spacing: 5, children: [
       RichText(
           text: TextSpan(children: [
