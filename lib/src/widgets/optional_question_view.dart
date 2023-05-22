@@ -2,6 +2,7 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:cap_countdown/src/exam/optional_question.dart';
 import 'package:cap_countdown/src/exam/question_meta.dart';
 import 'package:cap_countdown/src/util/events_enum.dart';
+import 'package:cap_countdown/src/util/layout.dart';
 import 'package:cap_countdown/src/widgets/choice_button.dart';
 import 'package:cap_countdown/src/widgets/question_audio_player.dart';
 import 'package:cap_countdown/src/widgets/question_image.dart';
@@ -249,20 +250,22 @@ class _ChoiceButtonsState extends State<_ChoiceButtons> {
             });
           },
         )),
-        // IconButton(
-        //     onPressed: () {
-        //       setState(() {
-        //         if (!widget.submitted) {
-        //           question.crossOutItems[index] =
-        //               !question.crossOutItems[index];
-        //         }
-        //         if (question.selectedChoice == choice) {
-        //           question.selectedChoice = null;
-        //         }
-        //       });
-        //     },
-        //     tooltip: '劃掉選項（排除）',
-        //     icon: const Icon(Icons.unpublished_outlined))
+        if (!CurrentDeviceType.currentIsPhone()) ...[
+          IconButton(
+              onPressed: () {
+                setState(() {
+                  if (!widget.submitted) {
+                    question.crossOutItems[index] =
+                        !question.crossOutItems[index];
+                  }
+                  if (question.selectedChoice == choice) {
+                    question.selectedChoice = null;
+                  }
+                });
+              },
+              tooltip: '劃掉選項（排除）',
+              icon: const Icon(Icons.unpublished_outlined))
+        ]
       ]));
     });
 

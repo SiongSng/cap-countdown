@@ -49,6 +49,7 @@ class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     return ResponsiveLayout(builder: (context, breakpoint) {
+      CurrentDeviceType.setCurrentDeviceType(breakpoint);
       return Scaffold(
         appBar: AppBar(
           title: Row(
