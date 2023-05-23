@@ -20,7 +20,7 @@ jobs:
       - name: Minify the json file of CAP exam data
         run: |
           cd ./assets
-          python3 minify_cpa_exam_data.py
+          python3 minify_cap_exam_data.py
       - name: Build Android
         run: |
           flutter pub get
@@ -48,7 +48,7 @@ jobs:
       - name: Minify the json file of CAP exam data
         run: |
           cd ./assets
-          python3 minify_cpa_exam_data.py
+          python3 minify_cap_exam_data.py
       - name: Build iOS
         run: |
           flutter pub get
@@ -70,7 +70,7 @@ jobs:
       - name: Minify the json file of CAP exam data
         run: |
           cd ./assets
-          python3 minify_cpa_exam_data.py
+          python3 minify_cap_exam_data.py
       - name: Build Web
         run: |
           flutter pub get
@@ -92,7 +92,7 @@ jobs:
       - name: Minify the json file of CAP exam data
         run: |
           cd ./assets
-          python3 minify_cpa_exam_data.py
+          python3 minify_cap_exam_data.py
       - name: Build Windows
         run: |
           flutter pub get
@@ -120,7 +120,7 @@ jobs:
       - name: Minify the json file of CAP exam data
         run: |
           cd ./assets
-          python3 minify_cpa_exam_data.py
+          python3 minify_cap_exam_data.py
       - name: Build Linux
         run: |
           flutter pub get
@@ -142,7 +142,7 @@ jobs:
       - name: Minify the json file of CAP exam data
         run: |
           cd ./assets
-          python3 minify_cpa_exam_data.py
+          python3 minify_cap_exam_data.py
       - name: Build macOS
         run: |
           flutter pub get

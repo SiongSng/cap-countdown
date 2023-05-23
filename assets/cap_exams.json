@@ -361,7 +361,7 @@
               },
               {
                 "answer": "D",
-                "description": "西式食法盡失中菜大鍋烹煮整肉的風味3"
+                "description": "西式食法盡失中菜大鍋烹煮整肉的風味"
               }
             ],
             "correct_answer": "C",
@@ -1794,6 +1794,7 @@
                   }
                 ],
                 "correct_answer": "C",
+                "image": "111_english_22.png",
                 "explanation": "明信片上缺少 Jason 的生日。"
               }
             ]
