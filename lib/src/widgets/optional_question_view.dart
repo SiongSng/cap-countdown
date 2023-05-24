@@ -250,22 +250,24 @@ class _ChoiceButtonsState extends State<_ChoiceButtons> {
             });
           },
         )),
-        if (!CurrentDeviceType.currentIsPhone()) ...[
-          IconButton(
-              onPressed: () {
-                setState(() {
-                  if (!widget.submitted) {
-                    question.crossOutItems[index] =
-                        !question.crossOutItems[index];
-                  }
-                  if (question.selectedChoice == choice) {
-                    question.selectedChoice = null;
-                  }
-                });
-              },
-              tooltip: '劃掉選項（排除）',
-              icon: const Icon(Icons.unpublished_outlined))
-        ]
+        ResponsiveLayout(builder: (context, breakpoint) {
+          return !breakpoint.isPhone
+              ? IconButton(
+                  onPressed: () {
+                    setState(() {
+                      if (!widget.submitted) {
+                        question.crossOutItems[index] =
+                            !question.crossOutItems[index];
+                      }
+                      if (question.selectedChoice == choice) {
+                        question.selectedChoice = null;
+                      }
+                    });
+                  },
+                  tooltip: '劃掉選項（排除）',
+                  icon: const Icon(Icons.unpublished_outlined))
+              : const SizedBox.shrink();
+        })
       ]));
     });
 

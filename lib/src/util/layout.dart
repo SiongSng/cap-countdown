@@ -35,19 +35,3 @@ class ResponsiveLayout extends StatelessWidget {
     });
   }
 }
-
-abstract class CurrentDeviceType {
-  static LayoutBreakpoint _currentDeviceType = LayoutBreakpoint.phone;
-
-  static LayoutBreakpoint getCurrentDeviceType() {
-    return _currentDeviceType;
-  }
-
-  static void setCurrentDeviceType(LayoutBreakpoint deviceType) {
-    _currentDeviceType = deviceType;
-  }
-
-  static bool currentIsPhone() {
-    return _currentDeviceType == LayoutBreakpoint.phone;
-  }
-}
