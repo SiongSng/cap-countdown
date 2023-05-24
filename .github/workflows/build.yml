@@ -14,13 +14,13 @@ jobs:
       - uses: actions/checkout@v3
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: "3.10.0-1.5.pre"
-          channel: "beta"
+          flutter-version: "3.10.1"
+          channel: "stable"
           cache: true
       - name: Minify the json file of CAP exam data
         run: |
           cd ./assets
-          python3 minify_cpa_exam_data.py
+          python3 minify_cap_exam_data.py
       - name: Build Android
         run: |
           flutter pub get
@@ -42,13 +42,13 @@ jobs:
       - uses: actions/checkout@v3
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: "3.10.0-1.5.pre"
-          channel: "beta"
+          flutter-version: "3.10.1"
+          channel: "stable"
           cache: true
       - name: Minify the json file of CAP exam data
         run: |
           cd ./assets
-          python3 minify_cpa_exam_data.py
+          python3 minify_cap_exam_data.py
       - name: Build iOS
         run: |
           flutter pub get
@@ -64,13 +64,13 @@ jobs:
       - uses: actions/checkout@v3
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: "3.10.0-1.5.pre"
-          channel: "beta"
+          flutter-version: "3.10.1"
+          channel: "stable"
           cache: true
       - name: Minify the json file of CAP exam data
         run: |
           cd ./assets
-          python3 minify_cpa_exam_data.py
+          python3 minify_cap_exam_data.py
       - name: Build Web
         run: |
           flutter pub get
@@ -86,13 +86,13 @@ jobs:
       - uses: actions/checkout@v3
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: "3.10.0-1.5.pre"
-          channel: "beta"
+          flutter-version: "3.10.1"
+          channel: "stable"
           cache: true
       - name: Minify the json file of CAP exam data
         run: |
           cd ./assets
-          python3 minify_cpa_exam_data.py
+          python3 minify_cap_exam_data.py
       - name: Build Windows
         run: |
           flutter pub get
@@ -108,8 +108,8 @@ jobs:
       - uses: actions/checkout@v3
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: "3.10.0-1.5.pre"
-          channel: "beta"
+          flutter-version: "3.10.1"
+          channel: "stable"
           cache: true
       - name: Install Dependencies
         # https://github.com/bluefireteam/audioplayers/blob/main/packages/audioplayers_linux/setup.md
@@ -120,7 +120,7 @@ jobs:
       - name: Minify the json file of CAP exam data
         run: |
           cd ./assets
-          python3 minify_cpa_exam_data.py
+          python3 minify_cap_exam_data.py
       - name: Build Linux
         run: |
           flutter pub get
@@ -136,13 +136,13 @@ jobs:
       - uses: actions/checkout@v3
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: "3.10.0-1.5.pre"
-          channel: "beta"
+          flutter-version: "3.10.1"
+          channel: "stable"
           cache: true
       - name: Minify the json file of CAP exam data
         run: |
           cd ./assets
-          python3 minify_cpa_exam_data.py
+          python3 minify_cap_exam_data.py
       - name: Build macOS
         run: |
           flutter pub get
