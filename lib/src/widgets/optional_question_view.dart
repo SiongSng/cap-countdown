@@ -219,7 +219,7 @@ class _ChoiceButtons extends StatefulWidget {
 }
 
 class _ChoiceButtonsState extends State<_ChoiceButtons> {
-  List<Widget> _getButtons() {
+  List<Widget> _getButtons(LayoutBreakpoint breakpoint) {
     final question = widget.question;
     final List<Widget> buttons = [];
 
@@ -250,24 +250,22 @@ class _ChoiceButtonsState extends State<_ChoiceButtons> {
             });
           },
         )),
-        ResponsiveLayout(builder: (context, breakpoint) {
-          return !breakpoint.isPhone
-              ? IconButton(
-                  onPressed: () {
-                    setState(() {
-                      if (!widget.submitted) {
-                        question.crossOutItems[index] =
-                            !question.crossOutItems[index];
-                      }
-                      if (question.selectedChoice == choice) {
-                        question.selectedChoice = null;
-                      }
-                    });
-                  },
-                  tooltip: '劃掉選項（排除）',
-                  icon: const Icon(Icons.unpublished_outlined))
-              : const SizedBox.shrink();
-        })
+        !breakpoint.isPhone
+            ? IconButton(
+                onPressed: () {
+                  setState(() {
+                    if (!widget.submitted) {
+                      question.crossOutItems[index] =
+                          !question.crossOutItems[index];
+                    }
+                    if (question.selectedChoice == choice) {
+                      question.selectedChoice = null;
+                    }
+                  });
+                },
+                tooltip: '劃掉選項（排除）',
+                icon: const Icon(Icons.unpublished_outlined))
+            : const SizedBox.shrink()
       ]));
     });
 
@@ -276,7 +274,9 @@ class _ChoiceButtonsState extends State<_ChoiceButtons> {
 
   @override
   Widget build(BuildContext context) {
-    return Wrap(runSpacing: 8, children: _getButtons());
+    return ResponsiveLayout(
+        builder: (context, breakpoint) =>
+            Wrap(runSpacing: 8, children: _getButtons(breakpoint)));
   }
 }
 
