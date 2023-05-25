@@ -29,7 +29,9 @@ class ChoiceButton extends StatelessWidget {
 
     return GestureDetector(
       onHorizontalDragEnd: (DragEndDetails dragEndDetails) {
-        if (dragEndDetails.velocity.pixelsPerSecond.dx < 0) {
+        final offset = dragEndDetails.velocity.pixelsPerSecond.dx;
+
+        if (offset != 0) {
           onEvent?.call(EventsEnum.crossOutChoice);
         }
       },
@@ -56,7 +58,7 @@ class ChoiceButton extends StatelessWidget {
             ScaffoldMessengerState messenger = ScaffoldMessenger.of(context);
             messenger.clearSnackBars();
             messenger.showSnackBar(const SnackBar(
-              content: Text('無法選擇已劃掉的選項！'),
+              content: Text('無法選擇已劃掉的選項，對選項左右滑動即可取消。'),
             ));
             return;
           }
