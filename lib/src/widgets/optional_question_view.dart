@@ -49,6 +49,8 @@ class _OptionalQuestionViewState extends State<OptionalQuestionView> {
     final imageName = widget.question.image;
     final audioFileName = widget.question.audio;
 
+    if (showMore && !widget.option.submitted) showMore = false;
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [

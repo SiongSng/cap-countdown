@@ -83,50 +83,59 @@ class _DailyQuestionState extends State<_DailyQuestion> {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
-        FilledButton.icon(
-            onPressed: () {
-              final isSelectAll =
-                  questions.every((q) => q.selectedChoice != null);
-              final messenger = ScaffoldMessenger.of(context);
-              messenger.clearSnackBars();
+        (!_submitted)
+            ? FilledButton.icon(
+                onPressed: () {
+                  final isSelectAll =
+                      questions.every((q) => q.selectedChoice != null);
+                  final messenger = ScaffoldMessenger.of(context);
+                  messenger.clearSnackBars();
 
-              if (!isSelectAll) {
-                messenger.showSnackBar(
-                  const SnackBar(
-                    content: Text('交卷前請先記得選擇答案喔！',
-                        style: TextStyle(fontWeight: FontWeight.bold)),
-                    backgroundColor: Colors.orange,
-                  ),
-                );
-                return;
-              }
+                  if (!isSelectAll) {
+                    messenger.showSnackBar(
+                      const SnackBar(
+                        content: Text('交卷前請先記得選擇答案喔！',
+                            style: TextStyle(fontWeight: FontWeight.bold)),
+                        backgroundColor: Colors.orange,
+                      ),
+                    );
+                    return;
+                  }
 
-              if (questions.every((q) => q.isCorrect)) {
-                messenger.showSnackBar(
-                  SnackBar(
-                    content:
-                        Text(questions.length > 1 ? '恭喜你全都答對了！' : '恭喜你答對了！'),
-                    backgroundColor: Colors.green,
-                  ),
-                );
-              } else {
-                messenger.showSnackBar(
-                  const SnackBar(
-                    content: Text('答錯了，再接再厲！記得看詳解修正錯誤呦！'),
-                    backgroundColor: Colors.red,
-                  ),
-                );
-              }
+                  if (questions.every((q) => q.isCorrect)) {
+                    messenger.showSnackBar(
+                      SnackBar(
+                        content: Text(
+                            questions.length > 1 ? '恭喜你全都答對了！' : '恭喜你答對了！'),
+                        backgroundColor: Colors.green,
+                      ),
+                    );
+                  } else {
+                    messenger.showSnackBar(
+                      const SnackBar(
+                        content: Text('答錯了，再接再厲！記得看詳解修正錯誤呦！'),
+                        backgroundColor: Colors.red,
+                      ),
+                    );
+                  }
 
-              setState(() {
-                _submitted = true;
-                for (final q in questions) {
-                  q.makeAsAnswered();
-                }
-              });
-            },
-            icon: const Icon(Icons.check),
-            label: const Text('交卷')),
+                  setState(() {
+                    _submitted = true;
+                    for (final q in questions) {
+                      q.makeAsAnswered();
+                    }
+                  });
+                },
+                icon: const Icon(Icons.check),
+                label: const Text('交卷'))
+            : FilledButton.icon(
+                onPressed: () {
+                  setState(() {
+                    _submitted = false;
+                  });
+                },
+                icon: const Icon(Icons.visibility_off_outlined),
+                label: const Text('收回交卷')),
         FilledButton.icon(
             onPressed: () {
               setState(() {

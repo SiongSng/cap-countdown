@@ -36,11 +36,13 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
   int _currentPage = 0;
   bool _submitted = false;
   late bool _disablePageChange;
+  late List<bool> _submittedList;
 
   @override
   void initState() {
     _disablePageChange =
         widget.subject.subjectId == CAPSubject.englishListening;
+    _submittedList = List.filled(widget.subject.questions.length, false);
     super.initState();
   }
 
@@ -138,13 +140,19 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                           questionNumber: question.questionNumber),
                       option: QuestionViewOption(
                           showQuestionNumber: true,
-                          submitted: _submitted,
-                          onlyPlayAudioOnce: !_submitted,
+                          submitted: (_submitted || _submittedList[index]),
+                          onlyPlayAudioOnce:
+                              !(_submitted || _submittedList[index]),
                           onAudioPlayStateChanged: (state) {
                             setState(() {
                               _disablePageChange = state == PlayerState.playing;
                             });
                           }),
+                      onQuestionSubmitted: (value) {
+                        setState(() {
+                          _submittedList[index] = value;
+                        });
+                      },
                     );
                   },
                   onPageChanged: (page) {
@@ -330,6 +338,7 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                 if (mounted) {
                   setState(() {
                     _submitted = true;
+                    _submittedList = List.filled(_submittedList.length, true);
 
                     final optionalQuestions =
                         widget.subject.getOptionalQuestions();
@@ -385,15 +394,16 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
 }
 
 class _QuestionPage extends StatefulWidget {
-  const _QuestionPage({
-    required this.question,
-    required this.meta,
-    required this.option,
-  });
+  const _QuestionPage(
+      {required this.question,
+      required this.meta,
+      required this.option,
+      required this.onQuestionSubmitted});
 
   final SubjectQuestion question;
   final QuestionMeta meta;
   final QuestionViewOption option;
+  final ValueChanged<bool>? onQuestionSubmitted;
 
   @override
   State<_QuestionPage> createState() => _QuestionPageState();
@@ -411,6 +421,70 @@ class _QuestionPageState extends State<_QuestionPage>
         question: widget.question,
         meta: widget.meta,
         option: widget.option,
+        actions: localStorage.simulationExamShowAnsBtn
+            ? (questions) => [
+                  Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        (!widget.option.submitted)
+                            ? FilledButton.icon(
+                                onPressed: () {
+                                  final isSelectAll = questions
+                                      .every((q) => q.selectedChoice != null);
+                                  final messenger =
+                                      ScaffoldMessenger.of(context);
+                                  messenger.clearSnackBars();
+
+                                  if (!isSelectAll) {
+                                    messenger.showSnackBar(
+                                      const SnackBar(
+                                        content: Text('交卷前請先記得選擇答案喔！',
+                                            style: TextStyle(
+                                                fontWeight: FontWeight.bold)),
+                                        backgroundColor: Colors.orange,
+                                      ),
+                                    );
+                                    return;
+                                  }
+
+                                  if (questions.every((q) => q.isCorrect)) {
+                                    messenger.showSnackBar(
+                                      SnackBar(
+                                        content: Text(questions.length > 1
+                                            ? '恭喜你全都答對了！'
+                                            : '恭喜你答對了！'),
+                                        backgroundColor: Colors.green,
+                                      ),
+                                    );
+                                  } else {
+                                    messenger.showSnackBar(
+                                      const SnackBar(
+                                        content: Text('答錯了，再接再厲！記得看詳解修正錯誤呦！'),
+                                        backgroundColor: Colors.red,
+                                      ),
+                                    );
+                                  }
+
+                                  setState(() {
+                                    widget.onQuestionSubmitted?.call(true);
+                                    for (final q in questions) {
+                                      q.makeAsAnswered();
+                                    }
+                                  });
+                                },
+                                icon: const Icon(Icons.check),
+                                label: const Text('對答案'))
+                            : FilledButton.icon(
+                                onPressed: () {
+                                  setState(() {
+                                    widget.onQuestionSubmitted?.call(false);
+                                  });
+                                },
+                                icon: const Icon(Icons.visibility_off_outlined),
+                                label: const Text('隱藏答案'))
+                      ])
+                ]
+            : null,
       ),
     ));
   }
