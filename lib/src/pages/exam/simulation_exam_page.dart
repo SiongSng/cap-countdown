@@ -37,12 +37,14 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
   bool _submitted = false;
   late bool _disablePageChange;
   late List<bool> _submittedList;
+  final Stopwatch _stopwatch = Stopwatch();
 
   @override
   void initState() {
     _disablePageChange =
         widget.subject.subjectId == CAPSubject.englishListening;
     _submittedList = List.filled(widget.subject.questions.length, false);
+    _stopwatch.start();
     super.initState();
   }
 
@@ -53,6 +55,24 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
     final isFavorite =
         localStorage.questionRecords[question.hash]?.isFavorite ?? false;
     final tookNote = localStorage.questionRecords[question.hash]?.note != null;
+
+    String getUsedTimeString() {
+      String toReturn = "用時：";
+      final hours = _stopwatch.elapsed.inHours % 24;
+      final minutes = _stopwatch.elapsed.inMinutes % 60;
+      final seconds = _stopwatch.elapsed.inSeconds % 60;
+
+      if (hours > 0) {
+        toReturn += "${hours.toString()}時";
+      }
+      if (minutes > 0) {
+        toReturn += "${minutes.toString()}分";
+      }
+
+      toReturn += "${seconds.toString()}秒";
+
+      return toReturn;
+    }
 
     return WillPopScope(
       onWillPop: () async {
@@ -96,7 +116,7 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
           ),
           body: Column(
             children: [
-              if (!_submitted)
+              if (!(_submitted || !localStorage.simulationExamTiming))
                 ExamTimer(
                   duration: widget.subject.duration,
                   onExamOver: () {
@@ -120,6 +140,11 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                   },
                 ),
               if (_submitted) GradeMarkings(subject: widget.subject),
+              if (_submitted)
+                Text(
+                  getUsedTimeString(),
+                  style: const TextStyle(fontSize: 20),
+                ),
               const Divider(),
               Expanded(
                 child: PageView.builder(
@@ -327,6 +352,7 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
   }
 
   void _submit() {
+    _stopwatch.stop();
     showDialog(
         context: context,
         builder: (context) => AlertDialog(

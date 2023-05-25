@@ -132,7 +132,7 @@ class _SettingsPageState extends State<SettingsPage> {
                     },
                     title: const Text('作答時間倒計時'),
                     subtitle:
-                        const Text('若啟用擇友作答時間限制，在該科作答時間結束後強制交卷；反之則無此限制。')),
+                        const Text('若啟用則有作答時間限制，在該科作答時間結束後強制交卷；反之則無此限制。')),
                 SwitchListTile(
                     value: localStorage.simulationExamShowAnsBtn,
                     onChanged: (value) {

@@ -5,6 +5,8 @@ import 'package:cap_countdown/src/pages/exam/simulation_exam_page.dart';
 import 'package:cap_countdown/src/util/layout.dart';
 import 'package:flutter/material.dart';
 
+import '../../../main.dart';
+
 class PrepareSimulationExamPage extends StatefulWidget {
   final int year;
   final String examName;
@@ -40,6 +42,58 @@ class _PrepareSimulationExamPageState extends State<PrepareSimulationExamPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('準備好了嗎？'),
+        actions: [
+          const Text("模擬試題設定"),
+          IconButton(
+              onPressed: () {
+                showDialog(
+                    context: context,
+                    builder: (context) {
+                      return StatefulBuilder(builder: (context, setState) {
+                        return AlertDialog(
+                          content: Container(
+                              child: Column(
+                                  mainAxisSize: MainAxisSize.min,
+                                  children: [
+                                ListTile(
+                                    title: const Text('模擬試題'),
+                                    leading: const Icon(Icons.edit),
+                                    shape:
+                                        Border.all(color: Colors.transparent)),
+                                SwitchListTile(
+                                    value: localStorage.simulationExamTiming,
+                                    onChanged: (value) {
+                                      localStorage.simulationExamTiming = value;
+                                      setState(() {});
+                                    },
+                                    title: const Text('作答時間倒計時'),
+                                    subtitle: const Text(
+                                        '若啟用則有作答時間限制，在該科作答時間結束後強制交卷；反之則無此限制。')),
+                                SwitchListTile(
+                                    value:
+                                        localStorage.simulationExamShowAnsBtn,
+                                    onChanged: (value) {
+                                      localStorage.simulationExamShowAnsBtn =
+                                          value;
+                                      setState(() {});
+                                    },
+                                    title: const Text('即時對答案'),
+                                    subtitle: const Text(
+                                        '為每道試題增加一個「對答案」答案按鈕，可單獨提交該題答案，並查看詳解。'))
+                              ])),
+                          actions: [
+                            TextButton(
+                                onPressed: () {
+                                  Navigator.of(context).pop();
+                                },
+                                child: const Text('確定'))
+                          ],
+                        );
+                      });
+                    });
+              },
+              icon: const Icon(Icons.settings))
+        ],
       ),
       body: Stack(
         children: [
