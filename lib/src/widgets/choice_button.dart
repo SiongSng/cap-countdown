@@ -2,7 +2,6 @@ import 'dart:ui';
 
 import 'package:cap_countdown/src/exam/optional_question.dart';
 import 'package:cap_countdown/src/exam/question_choice.dart';
-import 'package:cap_countdown/src/util/events_enum.dart';
 import 'package:flutter/material.dart';
 import 'package:latext/latext.dart';
 
@@ -12,7 +11,7 @@ class ChoiceButton extends StatelessWidget {
   final bool submitted;
   final bool isCrossOut;
   final ValueChanged<QuestionChoice?>? onChanged;
-  final ValueChanged<EventsEnum?>? onEvent;
+  final ValueChanged<ChoiceEventsEnum?>? onEvent;
 
   const ChoiceButton(
       {super.key,
@@ -32,7 +31,7 @@ class ChoiceButton extends StatelessWidget {
         final offset = dragEndDetails.velocity.pixelsPerSecond.dx;
 
         if (offset != 0) {
-          onEvent?.call(EventsEnum.crossOutChoice);
+          onEvent?.call(ChoiceEventsEnum.crossOutChoice);
         }
       },
       supportedDevices: const <PointerDeviceKind>{PointerDeviceKind.touch},
@@ -87,4 +86,9 @@ class ChoiceButton extends StatelessWidget {
 
     return null;
   }
+}
+
+enum ChoiceEventsEnum {
+  crossOutChoice,
+  searchTranslate;
 }

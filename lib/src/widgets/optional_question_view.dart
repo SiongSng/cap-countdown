@@ -1,7 +1,7 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:cap_countdown/src/exam/optional_question.dart';
+import 'package:cap_countdown/src/exam/question_choice.dart';
 import 'package:cap_countdown/src/exam/question_meta.dart';
-import 'package:cap_countdown/src/util/events_enum.dart';
 import 'package:cap_countdown/src/util/layout.dart';
 import 'package:cap_countdown/src/widgets/choice_button.dart';
 import 'package:cap_countdown/src/widgets/question_audio_player.dart';
@@ -223,6 +223,17 @@ class _ChoiceButtonsState extends State<_ChoiceButtons> {
     final question = widget.question;
     final List<Widget> buttons = [];
 
+    crossItemFunc(int index, QuestionChoice choice) {
+      setState(() {
+        if (!widget.submitted) {
+          question.crossOutItems[index] = !question.crossOutItems[index];
+        }
+        if (question.selectedChoice == choice) {
+          question.selectedChoice = null;
+        }
+      });
+    }
+
     question.choices.asMap().forEach((index, choice) {
       buttons.add(Row(children: [
         Expanded(
@@ -236,32 +247,16 @@ class _ChoiceButtonsState extends State<_ChoiceButtons> {
               question.selectedChoice = value;
             });
           },
-          onEvent: (value) {
-            setState(() {
-              if (value == EventsEnum.crossOutChoice) {
-                if (!widget.submitted) {
-                  question.crossOutItems[index] =
-                      !question.crossOutItems[index];
-                }
-                if (question.selectedChoice == choice) {
-                  question.selectedChoice = null;
-                }
-              }
-            });
+          onEvent: (event) {
+            if (event == ChoiceEventsEnum.crossOutChoice) {
+              crossItemFunc(index, choice);
+            }
           },
         )),
         !breakpoint.isPhone
             ? IconButton(
                 onPressed: () {
-                  setState(() {
-                    if (!widget.submitted) {
-                      question.crossOutItems[index] =
-                          !question.crossOutItems[index];
-                    }
-                    if (question.selectedChoice == choice) {
-                      question.selectedChoice = null;
-                    }
-                  });
+                  crossItemFunc(index, choice);
                 },
                 tooltip: '劃掉選項（排除）',
                 icon: const Icon(Icons.unpublished_outlined))
