@@ -223,7 +223,7 @@ class _ChoiceButtonsState extends State<_ChoiceButtons> {
     final question = widget.question;
     final List<Widget> buttons = [];
 
-    crossItemFunc(int index, QuestionChoice choice) {
+    void crossOut(int index, QuestionChoice choice) {
       setState(() {
         if (!widget.submitted) {
           question.crossOutItems[index] = !question.crossOutItems[index];
@@ -249,14 +249,14 @@ class _ChoiceButtonsState extends State<_ChoiceButtons> {
           },
           onEvent: (event) {
             if (event == ChoiceButtonEvent.crossOutChoice) {
-              crossItemFunc(index, choice);
+              crossOut(index, choice);
             }
           },
         )),
         !breakpoint.isPhone
             ? IconButton(
                 onPressed: () {
-                  crossItemFunc(index, choice);
+                  crossOut(index, choice);
                 },
                 tooltip: '劃掉選項（排除）',
                 icon: const Icon(Icons.unpublished_outlined))
