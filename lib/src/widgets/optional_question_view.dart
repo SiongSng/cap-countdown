@@ -248,7 +248,7 @@ class _ChoiceButtonsState extends State<_ChoiceButtons> {
             });
           },
           onEvent: (event) {
-            if (event == ChoiceEventsEnum.crossOutChoice) {
+            if (event == ChoiceButtonEvent.crossOutChoice) {
               crossItemFunc(index, choice);
             }
           },

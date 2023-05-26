@@ -11,7 +11,7 @@ class ChoiceButton extends StatelessWidget {
   final bool submitted;
   final bool isCrossOut;
   final ValueChanged<QuestionChoice?>? onChanged;
-  final ValueChanged<ChoiceEventsEnum?>? onEvent;
+  final ValueChanged<ChoiceButtonEvent?>? onEvent;
 
   const ChoiceButton(
       {super.key,
@@ -31,7 +31,7 @@ class ChoiceButton extends StatelessWidget {
         final offset = dragEndDetails.velocity.pixelsPerSecond.dx;
 
         if (offset != 0) {
-          onEvent?.call(ChoiceEventsEnum.crossOutChoice);
+          onEvent?.call(ChoiceButtonEvent.crossOutChoice);
         }
       },
       supportedDevices: const <PointerDeviceKind>{PointerDeviceKind.touch},
@@ -88,7 +88,7 @@ class ChoiceButton extends StatelessWidget {
   }
 }
 
-enum ChoiceEventsEnum {
+enum ChoiceButtonEvent {
   crossOutChoice,
   searchTranslate;
 }
