@@ -1,6 +1,8 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:cap_countdown/src/exam/optional_question.dart';
+import 'package:cap_countdown/src/exam/question_choice.dart';
 import 'package:cap_countdown/src/exam/question_meta.dart';
+import 'package:cap_countdown/src/util/layout.dart';
 import 'package:cap_countdown/src/widgets/choice_button.dart';
 import 'package:cap_countdown/src/widgets/question_audio_player.dart';
 import 'package:cap_countdown/src/widgets/question_image.dart';
@@ -217,23 +219,59 @@ class _ChoiceButtons extends StatefulWidget {
 }
 
 class _ChoiceButtonsState extends State<_ChoiceButtons> {
+  List<Widget> _getButtons(LayoutBreakpoint breakpoint) {
+    final question = widget.question;
+    final List<Widget> buttons = [];
+
+    void crossOut(int index, QuestionChoice choice) {
+      setState(() {
+        if (!widget.submitted) {
+          question.crossOutItems[index] = !question.crossOutItems[index];
+        }
+        if (question.selectedChoice == choice) {
+          question.selectedChoice = null;
+        }
+      });
+    }
+
+    question.choices.asMap().forEach((index, choice) {
+      buttons.add(Row(children: [
+        Expanded(
+            child: ChoiceButton(
+          choice: choice,
+          question: question,
+          submitted: widget.submitted,
+          isCrossOut: question.crossOutItems[index],
+          onChanged: (value) {
+            setState(() {
+              question.selectedChoice = value;
+            });
+          },
+          onEvent: (event) {
+            if (event == ChoiceButtonEvent.crossOutChoice) {
+              crossOut(index, choice);
+            }
+          },
+        )),
+        !breakpoint.isPhone
+            ? IconButton(
+                onPressed: () {
+                  crossOut(index, choice);
+                },
+                tooltip: '劃掉選項（排除）',
+                icon: const Icon(Icons.unpublished_outlined))
+            : const SizedBox.shrink()
+      ]));
+    });
+
+    return buttons;
+  }
+
   @override
   Widget build(BuildContext context) {
-    return Wrap(
-      runSpacing: 8,
-      children: widget.question.choices
-          .map((e) => ChoiceButton(
-                choice: e,
-                question: widget.question,
-                submitted: widget.submitted,
-                onChanged: (value) {
-                  setState(() {
-                    widget.question.selectedChoice = value;
-                  });
-                },
-              ))
-          .toList(),
-    );
+    return ResponsiveLayout(
+        builder: (context, breakpoint) =>
+            Wrap(runSpacing: 8, children: _getButtons(breakpoint)));
   }
 }
 
