@@ -14,6 +14,8 @@ import 'package:cap_countdown/src/widgets/subject_question_view.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
+import '../../exam/example_question.dart';
+
 class SimulationExamPage extends StatefulWidget {
   final int year;
   final String examName;
@@ -165,12 +167,17 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                           questionNumber: question.questionNumber),
                       option: QuestionViewOption(
                           showQuestionNumber: true,
-                          submitted: (_submitted || _submittedList[index]),
+                          submitted: (_submittedList[index]),
                           onlyPlayAudioOnce:
                               !(_submitted || _submittedList[index]),
                           onAudioPlayStateChanged: (state) {
                             setState(() {
-                              _disablePageChange = state == PlayerState.playing;
+                              _disablePageChange =
+                                  (state == PlayerState.playing);
+                              if (localStorage.simulationExamShowAnsBtn &&
+                                  question is ExampleQuestion) {
+                                _submittedList[index] = true;
+                              }
                             });
                           }),
                       onQuestionSubmitted: (value) {
