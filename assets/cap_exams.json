@@ -2659,7 +2659,7 @@
           },
           {
             "type": "example",
-            "description": "第三部分：言談理解(第12-21題)\n作答說明：每題均有三個選項，請依據所聽到的對話或短文內容，選出一個最適合的答案，每題播放兩次。\n\n示例題：你會看到\n(A) 9:50.\n(B) 10:00\n.(C) 10:10.\n然後你會聽到......(播音)。依據所播放的內容，正確回應應該選B",
+            "description": "第三部分：言談理解(第12-21題)\n作答說明：每題均有三個選項，請依據所聽到的對話或短文內容，選出一個最適合的答案，每題播放兩次。\n\n示例題：你會看到\n(A) 9:50.\n(B) 10:00.\n(C) 10:10.\n然後你會聽到......(播音)。依據所播放的內容，正確回應應該選B",
             "audio": "111_listening_example_3.mp3"
           },
           {
@@ -3446,7 +3446,7 @@
           {
             "number": 21,
             "type": "singleChoice",
-            "description": "有一直徑為 $\\overline{AB}$ 的圓，且圓上有 $C、D、E、F$ 四點，其位置如圖所示。若 $\\overline{AC}=6，\\overline{AD}=8，\\overline{AE}=5，\\overline{AF}=9，\\overline{AB}=10$ ，則下列弧長關係何者正確？",
+            "description": "有一直徑為 $\\overline{AB}$ 的圓，且圓上有 $C、D、E、F$ 四點，其位置如圖所示。若 $\\overline{AC}=6$，$\\overline{AD}=8$，$\\overline{AE}=5$，$\\overline{AF}=9$，$\\overline{AB}=10$ ，則下列弧長關係何者正確？",
             "passing_rate": 0.41,
             "discrimination_index": 0.5,
             "choices": [
@@ -4562,7 +4562,7 @@
               }
             ],
             "correct_answer": "D",
-            "explanation": "調解為訴訟前具有保障的程序。而Ｃ私下和解具有風險性。因此選Ｄ B 屬於公訴"
+            "explanation": "調解為訴訟前具有保障的程序。而Ｃ私下和解具有風險性。因此選Ｄ\nB 屬於公訴"
           },
           {
             "number": 36,
