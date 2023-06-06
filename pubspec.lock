@@ -437,10 +437,10 @@ packages:
     dependency: "direct main"
     description:
       name: latext
-      sha256: b733547d37d92c3f4c4dc2a7d48bcc7deed0e3d2a36f9b93639fad9a34e628f8
+      sha256: e3e1f8ebd32b3eb973630d2f805da65bff69498af888580dbbefe8c7f710e017
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.3"
+    version: "0.1.0"
   line_icons:
     dependency: "direct main"
     description:
