@@ -1,4 +1,105 @@
 {
-  "cap_start_time": "2024-05-18T08:20:00+0800",
-  "app_version": "0.1.6"
+  "app_version": "0.1.6",
+  "cap_start_time": "2024-05-18T08:20:00+08:00",
+  "exam_result_announced_time": "2023-06-09T08:00:00+0800",
+  "choice_filling": {
+    "high_school": [
+      {
+        "name": "基北區",
+        "link": "https://ttk.entry.edu.tw/NoExamImitate_TP/NoExamImitate/Apps/Page/Public/ChooseSys.aspx",
+        "start_time": "2023-06-21T12:00:00+0800",
+        "end_time": "2023-06-29T12:00:00+0800"
+      },
+      {
+        "name": "桃連區",
+        "link": "https://tyc.entry.edu.tw/NoExamImitate_TL/NoExamImitate/Apps/Page/Public/ChooseSys.aspx",
+        "start_time": "2023-06-21T12:00:00+0800",
+        "end_time": "2023-06-29T12:00:00+0800"
+      },
+      {
+        "name": "竹苗區",
+        "link": "https://hhm.entry.edu.tw/NoExamImitate_HM/NoExamImitate/Apps/Page/Public/ChooseSys.aspx",
+        "start_time": "2023-06-21T16:00:00+0800",
+        "end_time": "2023-06-28T12:00:00+0800"
+      },
+      {
+        "name": "宜蘭區",
+        "link": "https://iln.entry.edu.tw/NoExamImitate_IL/NoExamImitate/Apps/Page/Public/ChooseSys.aspx",
+        "start_time": "2023-06-21T12:00:00+0800",
+        "end_time": "2023-06-29T17:00:00+0800"
+      },
+      {
+        "name": "中投區",
+        "link": "https://ct.entry.edu.tw/NoExamImitate_CT/NoExamImitate/Apps/Page/Public/ChooseSys.aspx",
+        "start_time": "2023-06-21T08:00:00+0800",
+        "end_time": "2023-06-27T17:00:00+0800"
+      },
+      {
+        "name": "彰化區",
+        "link": "https://chc.entry.edu.tw/NoExamImitate_CH/NoExamImitate/Apps/Page/Public/ChooseSys.aspx",
+        "start_time": "2023-06-21T13:00:00+0800",
+        "end_time": "2023-06-27T12:00:00+0800"
+      },
+      {
+        "name": "雲林區",
+        "link": "https://ylc.entry.edu.tw/NoExamImitate_YL/NoExamImitate/Apps/Page/Public/ChooseSys.aspx",
+        "start_time": "2023-06-21T12:00:00+0800",
+        "end_time": "2023-06-29T12:00:00+0800"
+      },
+      {
+        "name": "嘉義區",
+        "link": "https://cyc.entry.edu.tw/NoExamImitate_CY/NoExamImitate/Apps/Page/Public/ChooseSys.aspx",
+        "start_time": "2023-06-21T17:00:00+0800",
+        "end_time": "2023-06-29T23:00:00+0800"
+      },
+      {
+        "name": "台南區",
+        "link": "https://tn.entry.edu.tw/NoExamImitate_TN/NoExamImitate/Apps/Page/Public/ChooseSys.aspx",
+        "start_time": "2023-06-21T12:00:00+0800",
+        "end_time": "2023-06-25T17:00:00+0800"
+      },
+      {
+        "name": "高雄區",
+        "link": "https://kh.entry.edu.tw/signup.php",
+        "start_time": "2023-06-21T17:00:00+0800",
+        "end_time": "2023-06-28T12:00:00+0800"
+      },
+      {
+        "name": "屏東區",
+        "link": "https://ptc.entry.edu.tw/NoExamImitate_PT/NoExamImitate/Apps/Page/Public/ChooseSys.aspx",
+        "start_time": "2023-06-21T12:00:00+0800",
+        "end_time": "2023-06-28T12:00:00+0800"
+      },
+      {
+        "name": "花蓮區",
+        "link": "https://hlc.entry.edu.tw/NoExamImitate_HL/NoExamImitate/Apps/Page/Public/ChooseSys.aspx",
+        "start_time": "2023-06-21T14:00:00+0800",
+        "end_time": "2023-06-27T17:00:00+0800"
+      },
+      {
+        "name": "台東區",
+        "link": "https://ttf.entry.edu.tw/NoExamImitate_TT/NoExamImitate/Apps/Page/Public/ChooseSys.aspx",
+        "start_time": "2023-06-21T12:00:00+0800",
+        "end_time": "2023-06-29T16:00:00+0800"
+      },
+      {
+        "name": "澎湖區",
+        "link": "https://ph.entry.edu.tw/",
+        "start_time": "2023-06-21T14:00:00+0800",
+        "end_time": "2023-06-29T17:00:00+0800"
+      },
+      {
+        "name": "金門區",
+        "link": "https://km.entry.edu.tw/NoExamImitate_KM/NoExamImitate/Apps/Page/Public/ChooseSys.aspx",
+        "start_time": "2023-06-21T14:00:00+0800",
+        "end_time": "2023-06-29T17:00:00+0800"
+      }
+    ],
+    "five_year_college": {
+      "name": "五專優先免試入學（全國）",
+      "link": "https://www.jctv.ntut.edu.tw/u5/contents.php?academicYear=112&subId=265",
+      "start_time": "2023-06-08T10:00:00+0800",
+      "end_time": "2023-06-12T17:00:00+0800"
+    }
+  }
 }
