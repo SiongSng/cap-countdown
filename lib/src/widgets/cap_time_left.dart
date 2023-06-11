@@ -44,7 +44,7 @@ class _CAPTimeLeftState extends State<CAPTimeLeft> {
     final duration = CAPUtil.getDurationToCAP();
     final capIsAboutToStart =
         duration.inDays == 0 && duration.inMilliseconds > 0;
-    final capIsStarted = duration.inMilliseconds == 0;
+    final capIsStarted = duration.inMilliseconds <= 0;
 
     return Padding(
       padding: const EdgeInsets.all(8.0),
@@ -74,7 +74,7 @@ class _CAPTimeLeftState extends State<CAPTimeLeft> {
                   '距離會考只剩下',
                   style: Theme.of(context).textTheme.titleLarge,
                 ),
-              if (widget.showDetail || duration.inDays > 0)
+              if (!capIsStarted && (widget.showDetail || duration.inDays > 0))
                 RichText(
                     text: TextSpan(children: [
                   TextSpan(
@@ -91,7 +91,7 @@ class _CAPTimeLeftState extends State<CAPTimeLeft> {
                     style: Theme.of(context).textTheme.titleLarge,
                   )
                 ])),
-              if (widget.showDetail || capIsAboutToStart)
+              if (!capIsStarted && (widget.showDetail || capIsAboutToStart))
                 _buildDetails(duration),
             ],
           ),
