@@ -13,8 +13,8 @@ SingleChoiceQuestion _$SingleChoiceQuestionFromJson(
       description: json['description'] as String?,
       audio: json['audio'] as String?,
       image: json['image'] as String?,
-      passingRate: (json['passing_rate'] as num).toDouble(),
-      discriminationIndex: (json['discrimination_index'] as num).toDouble(),
+      passingRate: (json['passing_rate'] as num?)?.toDouble(),
+      discriminationIndex: (json['discrimination_index'] as num?)?.toDouble(),
       choices: (json['choices'] as List<dynamic>)
           .map((e) => QuestionChoice.fromJson(e as Map<String, dynamic>))
           .toList(),

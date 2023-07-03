@@ -5,7 +5,12 @@ from config import *
 from models.exam import Exam
 from models.exam_subject import ExamSubject
 from tools.downloader import *
-from tools.parser import parse_exam_paper, save_parse_result, parse_exam_answer, parse_exam_indicator
+from tools.parser import (
+    parse_exam_paper,
+    save_parse_result,
+    parse_exam_answer,
+    parse_exam_indicator,
+)
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -54,12 +59,28 @@ def parse_exam_papers():
 
         for subject in subjects:
             answers = parse_exam_answer(get_exam_file_path(year, ExamFileType.Answer))
-            passing_rate = parse_exam_indicator(get_exam_file_path(year, ExamFileType.Passing_Rate))
-            discrimination_index = parse_exam_indicator(get_exam_file_path(year, ExamFileType.DISCRIMINATION_INDEX))
-            questions = parse_exam_paper(get_paper_file_path(year, subject), subject, answers, passing_rate,
-                                         discrimination_index)
+            passing_rate = parse_exam_indicator(
+                get_exam_file_path(year, ExamFileType.Passing_Rate)
+            )
+            discrimination_index = parse_exam_indicator(
+                get_exam_file_path(year, ExamFileType.DISCRIMINATION_INDEX)
+            )
+            questions = parse_exam_paper(
+                get_paper_file_path(year, subject),
+                subject,
+                answers,
+                passing_rate,
+                discrimination_index,
+            )
 
-            exam_subjects.append(ExamSubject(subject.get_chinese_name(), questions))
+            exam_subjects.append(
+                ExamSubject(
+                    subject.get_chinese_name(),
+                    subject.get_duration(),
+                    subject.value,
+                    questions,
+                )
+            )
 
         exam = Exam(year, f"{year} 年國中教育會考", exam_subjects)
         exams.append(exam)
@@ -68,7 +89,9 @@ def parse_exam_papers():
     save_parse_result(exams)
 
     elapsed_time = time.time() - start_time
-    logger.info(f"Finished parsing CAP exam papers in about {elapsed_time:.2f} seconds.")
+    logger.info(
+        f"Finished parsing CAP exam papers in about {elapsed_time:.2f} seconds."
+    )
 
 
 def start():
@@ -78,8 +101,8 @@ def start():
     if not os.path.exists("temp"):
         os.makedirs("temp")
 
-    download_exam_papers()
-    download_exam_answers_and_indicators()
+    # download_exam_papers()
+    # download_exam_answers_and_indicators()
     parse_exam_papers()
 
     elapsed_time = time.time() - start_time

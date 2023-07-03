@@ -17,9 +17,9 @@ class OptionalQuestion {
   final String? image;
   final String? audio;
   @JsonKey(name: 'passing_rate')
-  final double passingRate;
+  final double? passingRate;
   @JsonKey(name: 'discrimination_index')
-  final double discriminationIndex;
+  final double? discriminationIndex;
   final List<QuestionChoice> choices;
   @JsonKey(name: 'correct_answer')
   final QuestionAnswer correctAnswer;
