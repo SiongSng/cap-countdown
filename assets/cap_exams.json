@@ -2766,7 +2766,7 @@
           {
             "type": "singleChoice",
             "number": 1,
-            "description": "(−3)3 之值為何？",
+            "description": "$(−3)^3$ 之值為何？",
             "passing_rate": 0.89,
             "discrimination_index": 0.4,
             "choices": [
@@ -2792,25 +2792,25 @@
           {
             "type": "singleChoice",
             "number": 2,
-            "description": "下列何者為多項式 x2 − 36 的因式？",
+            "description": "下列何者為多項式 $x^2−36$ 的因式？",
             "passing_rate": 0.87,
             "discrimination_index": 0.44,
             "choices": [
               {
                 "answer": "A",
-                "description": "x − 3"
+                "description": "$x-3$"
               },
               {
                 "answer": "B",
-                "description": "x − 4"
+                "description": "$x-4$"
               },
               {
                 "answer": "C",
-                "description": "x − 6"
+                "description": "$x-6$"
               },
               {
                 "answer": "D",
-                "description": "x − 9"
+                "description": "$x-9$"
               }
             ],
             "correct_answer": "C"
@@ -2818,7 +2818,7 @@
           {
             "type": "singleChoice",
             "number": 3,
-            "description": "圖 ( 一 ) 的立體圖形由相同大小的正方體積木堆疊而成。判斷拿走圖 ( 一 ) 的哪一個積木後，此圖形前視圖的形狀會改變？\n( 一 )",
+            "description": "圖 ( 一 ) 的立體圖形由相同大小的正方體積木堆疊而成。判斷拿走圖 ( 一 ) 的哪一個積木後，此圖形前視圖的形狀會改變？",
             "passing_rate": 0.89,
             "discrimination_index": 0.39,
             "choices": [
@@ -2836,7 +2836,7 @@
               },
               {
                 "answer": "D",
-                "description": "丁圖"
+                "description": "丁"
               }
             ],
             "correct_answer": "B"
@@ -2844,25 +2844,25 @@
           {
             "type": "singleChoice",
             "number": 4,
-            "description": "化簡 135 的結果為下列何者？",
+            "description": "化簡 $\\sqrt{135}$ 的結果為下列何者？",
             "passing_rate": 0.8,
             "discrimination_index": 0.57,
             "choices": [
               {
                 "answer": "A",
-                "description": "35"
+                "description": "$3\\sqrt{5}$"
               },
               {
                 "answer": "B",
-                "description": "275"
+                "description": "$27\\sqrt{5}$"
               },
               {
                 "answer": "C",
-                "description": "3 15"
+                "description": "$3\\sqrt{15}$"
               },
               {
                 "answer": "D",
-                "description": "9 151"
+                "description": "$9\\sqrt{15}$"
               }
             ],
             "correct_answer": "C"
@@ -2870,21 +2870,25 @@
           {
             "type": "singleChoice",
             "number": 5,
-            "description": "坐標平面上，一次函數 y = −2x − 6 的圖形通過下列哪一個點？\n(−4 , 1 )\n(−4 , 2 )\n(−4 , −1)\n(−4 , −2)",
+            "description": "坐標平面上，一次函數 $y=−2x−6$ 的圖形通過下列哪一個點？",
             "passing_rate": 0.77,
             "discrimination_index": 0.57,
             "choices": [
               {
-                "answer": "A"
+                "answer": "A",
+                "description": "$(-4,1)$"
               },
               {
-                "answer": "B"
+                "answer": "B",
+                "description": "$(-4,2)$"
               },
               {
-                "answer": "C"
+                "answer": "C",
+                "description": "$(-4,-1)$"
               },
               {
-                "answer": "D"
+                "answer": "D",
+                "description": "$(-4,-2)$"
               }
             ],
             "correct_answer": "B"
@@ -2892,25 +2896,25 @@
           {
             "type": "singleChoice",
             "number": 6,
-            "description": "已知 a = −1，b = −1 34  ，c = −1 58  ，下列關於 a、b、c 三數的大小關係，何者正確？",
+            "description": "已知 $a=-1$，$b=-1\\frac{3}{4}$，$c=−1\\frac{5}{8}$，下列關於 a、b、c 三數的大小關係，何者正確？",
             "passing_rate": 0.77,
             "discrimination_index": 0.57,
             "choices": [
               {
                 "answer": "A",
-                "description": "a > c > b"
+                "description": "a>c>b"
               },
               {
                 "answer": "B",
-                "description": "a > b > c"
+                "description": "a>b>c"
               },
               {
                 "answer": "C",
-                "description": "b > c > a"
+                "description": "b>c>a"
               },
               {
                 "answer": "D",
-                "description": "c > b > a"
+                "description": "c>b>a"
               }
             ],
             "correct_answer": "A"
@@ -2924,19 +2928,19 @@
             "choices": [
               {
                 "answer": "A",
-                "description": "a < −5，b > −3"
+                "description": "a<−5，b>−3"
               },
               {
                 "answer": "B",
-                "description": "a < −5，b < −3"
+                "description": "a<−5，b<−3"
               },
               {
                 "answer": "C",
-                "description": "a > −5，b > −3"
+                "description": "a>−5，b>−3"
               },
               {
                 "answer": "D",
-                "description": "a > −5，b < −3圖"
+                "description": "a>−5，b<−3"
               }
             ],
             "correct_answer": "A"
@@ -2944,7 +2948,7 @@
           {
             "type": "singleChoice",
             "number": 8,
-            "description": "如圖 ( 三 )，梯形 ABCD 中，AD // BC。若 ∠ ADC = 140°，且 BD⊥CD，\nAD\n則 ∠ DBC 的度數為何？\n( 三 )",
+            "description": "如圖 ( 三 )，梯形 ABCD 中，$\\overline{AD} // \\overline{BC}$。若 $\\angle ADC = 140^\\circle$，且 $\\overline{BD}\\perp \\overline{CD}$，\nAD\n則 $\\angle DBC$ 的度數為何？",
             "passing_rate": 0.7,
             "discrimination_index": 0.56,
             "choices": [
@@ -2958,11 +2962,11 @@
               },
               {
                 "answer": "C",
-                "description": "50B\nC圖"
+                "description": "50"
               },
               {
                 "answer": "D",
-                "description": "60請翻頁繼續作答\n2"
+                "description": "60"
               }
             ],
             "correct_answer": "C"
@@ -2996,25 +3000,25 @@
           {
             "type": "singleChoice",
             "number": 10,
-            "description": "利用公式解可得一元二次方程式 3x2 − 11x − 1 = 0 的兩解為 a、b，且 a > b，\n求 a 值為何？",
+            "description": "利用公式解可得一元二次方程式 $3x^2-11x-1=0$ 的兩解為 a、b，且 a > b，求 a 值為何？",
             "passing_rate": 0.58,
             "discrimination_index": 0.59,
             "choices": [
               {
                 "answer": "A",
-                "description": "−11 + 1096"
+                "description": "$$"
               },
               {
                 "answer": "B",
-                "description": "−11 + 1336"
+                "description": "$$"
               },
               {
                 "answer": "C",
-                "description": "11 + 1096"
+                "description": "$$"
               },
               {
                 "answer": "D",
-                "description": "11 + 1336"
+                "description": "$$"
               }
             ],
             "correct_answer": "D"
@@ -3040,7 +3044,7 @@
               },
               {
                 "answer": "D",
-                "description": "不符合我國，符合歐盟3"
+                "description": "不符合我國，符合歐盟"
               }
             ],
             "correct_answer": "D"
