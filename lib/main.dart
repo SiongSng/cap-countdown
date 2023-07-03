@@ -14,7 +14,7 @@ import 'src/pages/personal_page.dart';
 import 'src/pages/settings_page.dart';
 import 'src/storage/local_storage.dart';
 import 'src/storage/storage.dart';
-import 'src/widgets/theme_provider.dart';
+import 'src/widgets/data_provider.dart';
 
 final ConfigInstance config = ConfigInstance();
 final LocalStorage localStorage = LocalStorage();
@@ -38,7 +38,7 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ThemeProvider(builder: (context, themeData) {
+    return DataProvider(builder: (context, themeData) {
       return MaterialApp(
         title: '會考沙漏',
         theme: themeData,
