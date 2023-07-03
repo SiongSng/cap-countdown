@@ -64,7 +64,7 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
   build_runner: ^2.4.6
-  json_serializable: ^6.7.0
+  json_serializable: ^6.7.1
 
 dependency_overrides:
   # https://github.com/simpleclub-extended/flutter_math_fork/pull/64
