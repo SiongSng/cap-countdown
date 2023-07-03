@@ -66,7 +66,7 @@ class _SubjectQuestionViewState extends State<SubjectQuestionView> {
             children: [
               if (!widget.option.showQuestionNumber)
                 Text('${entry.key + 1}.',
-                    style: Theme.of(context).textTheme.titleLarge),
+                    style: Theme.of(context).textTheme.titleMedium),
               OptionalQuestionView(
                   question: entry.value,
                   meta: widget.meta,
