@@ -12,7 +12,7 @@ class ChangelogDialog extends StatelessWidget {
       scrollable: true,
       content: MarkdownBody(
           data:
-              '歡迎您使用會考沙漏 ${config.appVersion} 版。  \n本次更新共包含以下新功能與修復：\n\n### * 修復翻轉螢幕時每日一題中的題目不會被重置。'),
+              '歡迎您使用會考沙漏 ${config.appVersion} 版。  \n本次更新共包含以下新功能與修復：\n\n### * 修復翻轉螢幕時每日一題中的題目會被重置。'),
       actions: [
         TextButton(
           onPressed: () {
