@@ -14,9 +14,9 @@ class CAPSubject(Enum):
             case self.CHINESE:
                 return "國文科"
             case self.ENGLISH_Reading:
-                return "英文科 (閱讀)"
+                return "英語科(閱讀)"
             case self.ENGLISH_LISTENING:
-                return "英文科 (聽力)"
+                return "英語科(聽力)"
             case self.MATH:
                 return "數學科"
             case self.NATURE:
