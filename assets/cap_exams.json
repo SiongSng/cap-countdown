@@ -1105,7 +1105,11 @@
       {
         "name": "英語科（閱讀）",
         "duration": 60,
-        "grade_markings": {},
+        "grade_markings": {
+          "精熟": 38,
+          "基礎": 14,
+          "待加強": 0
+        },
         "subject_id": "English",
         "questions": [
           {
@@ -2336,7 +2340,7 @@
               }
             ],
             "correct_answer": "C",
-            "explanation": "How many eggs do we have? I want to make fried rice."
+            "explanation": "How many eggs do we have?\nI want to make fried rice."
           },
           {
             "number": 5,
@@ -2366,7 +2370,7 @@
             "number": 6,
             "type": "singleChoice",
             "description": "第 6 題",
-            "audio": "111_listening_6.mp3",
+            "audio": "112_listening_6.mp3",
             "passing_rate": 0.80,
             "discrimination_index": 0.66,
             "choices": [
@@ -2390,7 +2394,7 @@
             "number": 7,
             "type": "singleChoice",
             "description": "第 7 題",
-            "audio": "111_listening_7.mp3",
+            "audio": "112_listening_7.mp3",
             "passing_rate": 0.80,
             "discrimination_index": 0.55,
             "choices": [
@@ -2408,7 +2412,346 @@
               }
             ],
             "correct_answer": "A",
-            "explanation": "I heard you invited Elisa to your party. What did she say?"
+            "explanation": "I heard you invited Elisa to your party.\nWhat did she say?"
+          },
+          {
+            "number": 8,
+            "type": "singleChoice",
+            "description": "第 8 題",
+            "audio": "112_listening_8.mp3",
+            "passing_rate": 0.74,
+            "discrimination_index": 0.54,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "No, I haven’t."
+              },
+              {
+                "answer": "B",
+                "description": "Good, thanks."
+              },
+              {
+                "answer": "C",
+                "description": "How are you?"
+              }
+            ],
+            "correct_answer": "B",
+            "explanation": "It’s been a long time since we last met.\nHow have you been?"
+          },
+          {
+            "number": 9,
+            "type": "singleChoice",
+            "description": "第 9 題",
+            "audio": "112_listening_9.mp3",
+            "passing_rate": 0.68,
+            "discrimination_index": 0.54,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "Where did you find him?"
+              },
+              {
+                "answer": "B",
+                "description": "Oh yeah, I’ve already told him."
+              },
+              {
+                "answer": "C",
+                "description": "Wait a minute, please. I’ll get him for you."
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "Excuse me.\nI’m looking for a John Smith.\nI was told that I could find him here."
+          },
+          {
+            "number": 10,
+            "type": "singleChoice",
+            "description": "第 10 題",
+            "audio": "112_listening_10.mp3",
+            "passing_rate": 0.67,
+            "discrimination_index": 0.63,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "Well, it’s good to know."
+              },
+              {
+                "answer": "B",
+                "description": "Well, I don’t remember."
+              },
+              {
+                "answer": "C",
+                "description": "Well, he won’t listen to me."
+              }
+            ],
+            "correct_answer": "B",
+            "explanation": "Hey, listen! What’s the name of this song?\nGrandpa used to sing it to us."
+          },
+          {
+            "number": 11,
+            "type": "singleChoice",
+            "description": "第 11 題",
+            "audio": "112_listening_11.mp3",
+            "passing_rate": 0.58,
+            "discrimination_index": 0.46,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "Yes, I’ll order now."
+              },
+              {
+                "answer": "B",
+                "description": "Yes, I can have a drink."
+              },
+              {
+                "answer": "C",
+                "description": "Yes, I’ll have a coffee, please."
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "Can I get you something to drink while you’re looking at the menu?"
+          },
+          {
+            "type": "example",
+            "description": "第三部分：言談理解(第12-21題)\n作答說明：每題均有三個選項，請依據所聽到的對話或短文內容，選出一個最適合的答案，每題播放兩次。\n\n示例題：你會看到\n(A) 9:50.\n(B) 10:00.\n(C) 10:10.\n然後你會聽到......(播音)。依據所播放的內容，正確回應應該選B",
+            "audio": "111_listening_example_3.mp3"
+          },
+          {
+            "number": 12,
+            "type": "singleChoice",
+            "description": "第 12 題",
+            "audio": "112_listening_12.mp3",
+            "passing_rate": 0.81,
+            "discrimination_index": 0.61,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "The girl’s brother."
+              },
+              {
+                "answer": "B",
+                "description": "The girl’s neighbor."
+              },
+              {
+                "answer": "C",
+                "description": "The girl’s classmate."
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "Girl: Hey Ted, what did the teacher just say?\nTed: Lesson 1 and 4 will be on the test tomorrow.\nGirl: Oh, no! Can I go to your house and study?\nTed: Er... Why?\nGirl: My neighbor is going to have a party tonight. I can’t study with all that noise.\nTed: Oh, OK, but I need to ask my mom and dad first.\nGirl: Thanks!\n\nQuestion: Who is the boy?"
+          },
+          {
+            "number": 13,
+            "type": "singleChoice",
+            "description": "第 13 題",
+            "audio": "112_listening_13.mp3",
+            "passing_rate": 0.84,
+            "discrimination_index": 0.63,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "She needs to study. "
+              },
+              {
+                "answer": "B",
+                "description": "She isn’t wearing sports shoes. "
+              },
+              {
+                "answer": "C",
+                "description": "She doesn’t like to play basketball."
+              }
+            ],
+            "correct_answer": "B",
+            "explanation": "Man: Hey, Ariana, let’s play basketball together.\nWoman: Well, I’d like to, but I can’t.\nMan: Why not? Do you need to study?\nWoman: No. I don’t have the right shoes today. Maybe next time.\nMan: OK.\n\nQuestion: Why doesn’t the woman play basketball with the man?"
+          },
+          {
+            "number": 14,
+            "type": "singleChoice",
+            "description": "第 14 題",
+            "audio": "112_listening_14.mp3",
+            "passing_rate": 0.74,
+            "discrimination_index": 0.67,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "To keep themselves safe."
+              },
+              {
+                "answer": "B",
+                "description": "To help move their desks. "
+              },
+              {
+                "answer": "C",
+                "description": "To do exercises with their teachers. "
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "（警報聲響起）\nAttention, please. Attention, please.\nThere’s an earthquake happening right now.\nEveryone, hide under your desk.\nStay on your knees and hold on to your head with your arms and hands.\nBe careful. Things may drop from above.\nKeep quiet and do not come out until your teachers tell you to.\n\nQuestion: What does the man tell the students to do?"
+          },
+          {
+            "number": 15,
+            "type": "singleChoice",
+            "description": "第 15 題",
+            "audio": "112_listening_15.mp3",
+            "passing_rate": 0.69,
+            "discrimination_index": 0.58,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "Because her show was not successful."
+              },
+              {
+                "answer": "B",
+                "description": "Because she got a bad seat in the theater."
+              },
+              {
+                "answer": "C",
+                "description": "Because he did not stay until the end of the show."
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "Man: I heard you had a theater show last night.\nWoman: Yeah, my first one.\nMan: So, tell me about it. Did a lot of people come?\nWoman: Oh, it was a very small show, in a very small theater with just a few seats, but I think they both liked it.\nMan: Both? There were only two people there?\nWoman: Er... by the end, yeah.\nMan: Oh, sorry.\n\nQuestion: Why did the man say he was sorry to the woman?"
+          },
+          {
+            "number": 16,
+            "type": "singleChoice",
+            "description": "第 16 題",
+            "audio": "112_listening_16.mp3",
+            "passing_rate": 0.69,
+            "discrimination_index": 0.61,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "She was in Mr. Anderson’s class."
+              },
+              {
+                "answer": "B",
+                "description": "She asked a lot of questions in class."
+              },
+              {
+                "answer": "C",
+                "description": "She started a study group for the class."
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "Woman: What’s wrong, Jason. You look worried.\nMan: Yeah. I’m going to Mr. Anderson’s class later. I feel like I’m dying.\nWoman: Oh, I know. I’ve been there.\nMan: Oh, you were in his class, too?\nWoman: Yeah, he always asked difficult questions that I couldn’t answer.\nMan: Yes. I spend a lot of time studying, but sometimes I can’t even understand his questions.\nWoman: Well, I started a study group for this class, and it helped a lot.\nMan: That’s a great idea. I’ll try it.\n\nQuestion: What does the woman mean when she says, “I’ve been there”?"
+          },
+          {
+            "number": 17,
+            "type": "singleChoice",
+            "description": "第 17 題",
+            "audio": "112_listening_17.mp3",
+            "passing_rate": 0.65,
+            "discrimination_index": 0.65,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "She was in Mr. Anderson’s class."
+              },
+              {
+                "answer": "B",
+                "description": "She asked a lot of questions in class."
+              },
+              {
+                "answer": "C",
+                "description": "She started a study group for the class."
+              }
+            ],
+            "correct_answer": "B",
+            "explanation": "Man: So, for Thanksgiving dinner, I’ll still make a pumpkin pie like last year?\nWoman: Er... Let’s just buy one from the bakery. We wouldn’t want you to be tired every year.\nMan: It’s no problem. Besides, everyone liked it.\nWoman: Well...\nMan: What? Everyone said they never had such a great pie.\nWoman: Everyone said they never had such a pie.\nMan: They finished it all real quick.\nWoman: Hmm, did you actually see them eat it?\nMan: Well, John said they wanted to enjoy it on the balcony, and Karen and Rose wanted to have it by the pond in the front yard while watching the ducks.\nWoman: I can only tell you that our neighbor’s dogs and the birds all enjoyed your pie.\n\nQuestion: Why does the woman want to buy a pie for Thanksgiving this year?"
+          },
+          {
+            "number": 18,
+            "type": "singleChoice",
+            "description": "第 18 題",
+            "image": "112_listening_18.png",
+            "audio": "112_listening_18.mp3",
+            "passing_rate": 0.61,
+            "discrimination_index": 0.56,
+            "choices": [
+              {
+                "answer": "A"
+              },
+              {
+                "answer": "B"
+              },
+              {
+                "answer": "C"
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "（開門聲）\nPlease, come in. Let me show you the apartment.\nThis is the living room.\nThe kitchen and dining room are on your left.\nThe bedroom and bathroom are on the other side.\nThe bathroom is by the front door, and you can get to it from both the bedroom and the living room.\nThis way, visitors can use the bathroom without walking through your bedroom.\nRight across from the bathroom is the dining room, and you can see in here, the only door to the kitchen.\nThis way, any smoke in the kitchen won’t get into the living room.\nHow do you like the apartment?\n\nQuestion: Which picture shows the apartment the man is talking about?"
+          },
+          {
+            "number": 19,
+            "type": "singleChoice",
+            "description": "第 19 題",
+            "audio": "112_listening_19.mp3",
+            "passing_rate": 0.71,
+            "discrimination_index": 0.60,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "In a restroom."
+              },
+              {
+                "answer": "B",
+                "description": "In a restaurant."
+              },
+              {
+                "answer": "C",
+                "description": "In a movie theater."
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "Woman: Oh, no. We got the middle seats.\nMan: Isn’t that good? Everyone wants middle seats.\nWoman: It usually is, but it’ll be a lot of trouble when you need to go to the restroom. You know, I just had a large cup of coke at the restaurant. Oh, I really hate to keep saying excuse me, excuse me, excuse me to people.\nMan: Then, go to the restroom now. There are still ten minutes before the movie starts.\nWoman: Oh, stupid me.\nMan: Well, go now before there are a lot of people waiting.\n\nQuestion: Where are the man and the woman?"
+          },
+          {
+            "number": 20,
+            "type": "singleChoice",
+            "description": "第 20 題",
+            "audio": "112_listening_20.mp3",
+            "passing_rate": 0.57,
+            "discrimination_index": 0.53,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "Ideas for creating a painting."
+              },
+              {
+                "answer": "B",
+                "description": "The stories behind a painting."
+              },
+              {
+                "answer": "C",
+                "description": "Tips for understanding a painting."
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "（掌聲）\nAs an art lover, I visit museums a lot.\nMost of the time, I see people stand in front of a painting, take a picture of it, and then go on to the next painting.\nThey spend less than 10 seconds at each painting.\nThey don’t know what they’re missing.\nYou need to look at a painting and study it from different angles.\nWhat colors or shapes are used in the painting? How do they make you feel?\nIf you don’t feel a thing, that’s OK.\nGo and find out stories behind the artwork online.\nIt helps you have a better idea of how the painting was created.\n\nQuestion: What is the woman talking about?"
+          },
+          {
+            "number": 21,
+            "type": "singleChoice",
+            "description": "第 21 題",
+            "audio": "112_listening_21.mp3",
+            "passing_rate": 0.49,
+            "discrimination_index": 0.52,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "They have no idea at the moment."
+              },
+              {
+                "answer": "B",
+                "description": "They’ll ask them to stop the noise right away."
+              },
+              {
+                "answer": "C",
+                "description": "They’ll have a meeting with them the next day."
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "（機車發動聲）\nWoman: Do you hear that? The Browns are making so much noise again.\nMan: Oh, no.\nWoman: It’s two o’clock in the morning. I have to get up early for a meeting, and now I can’t sleep at all.\nMan: OK, OK. Don’t worry. I’ll go tell them to stop.\nWoman: But last time you knocked on their door, they didn’t even answer it.\nMan: Yeah, you’re right. We should think of some other way to deal with them.\n\nQuestion: How are the man and the woman going to deal with the Browns?"
           }
         ]
       },
