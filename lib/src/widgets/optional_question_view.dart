@@ -112,8 +112,8 @@ class _OptionalQuestionViewState extends State<OptionalQuestionView> {
 }
 
 class _Indicator extends StatelessWidget {
-  final double passingRate;
-  final double discriminationIndex;
+  final double? passingRate;
+  final double? discriminationIndex;
 
   const _Indicator(
       {required this.passingRate, required this.discriminationIndex});
@@ -140,14 +140,24 @@ class _Indicator extends StatelessWidget {
                         style: Theme.of(context).textTheme.bodyLarge,
                       ),
                       const SizedBox(height: 6),
-                      Text(
-                        '${(passingRate * 100).toInt()}%',
-                        style: TextStyle(
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold,
-                          color: passRateColor,
+                      if (passingRate == null)
+                        Text(
+                          '無',
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                            color: passRateColor,
+                          ),
+                        )
+                      else
+                        Text(
+                          '${(passingRate! * 100).toInt()}%',
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                            color: passRateColor,
+                          ),
                         ),
-                      ),
                     ],
                   ),
                 ),
@@ -179,8 +189,10 @@ class _Indicator extends StatelessWidget {
     );
   }
 
-  String getDiscriminationLabel(double discrimination) {
-    if (discrimination < 0.2) {
+  String getDiscriminationLabel(double? discrimination) {
+    if (discrimination == null) {
+      return '無';
+    } else if (discrimination < 0.2) {
       return '低';
     } else if (discrimination < 0.5) {
       return '中';
@@ -189,8 +201,10 @@ class _Indicator extends StatelessWidget {
     }
   }
 
-  Color getColorFromDiscrimination(double discrimination) {
-    if (discrimination < 0.2) {
+  Color getColorFromDiscrimination(double? discrimination) {
+    if (discrimination == null) {
+      return Colors.grey;
+    } else if (discrimination < 0.2) {
       return Colors.red;
     } else if (discrimination < 0.5) {
       return Colors.orange;
@@ -199,8 +213,10 @@ class _Indicator extends StatelessWidget {
     }
   }
 
-  Color getColorFromPassingRate(double passingRate) {
-    if (passingRate < 0.3) {
+  Color getColorFromPassingRate(double? passingRate) {
+    if (passingRate == null) {
+      return Colors.grey;
+    } else if (passingRate < 0.3) {
       return Colors.red;
     } else if (passingRate < 0.5) {
       return Colors.orange;

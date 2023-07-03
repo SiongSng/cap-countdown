@@ -1,7 +1,6 @@
-import 'package:cap_countdown/src/exam/exam_loader.dart';
 import 'package:cap_countdown/src/exam/optional_question.dart';
-import 'package:cap_countdown/src/exam/subject_question.dart';
 import 'package:cap_countdown/src/widgets/cap_time_left.dart';
+import 'package:cap_countdown/src/widgets/data_provider.dart';
 import 'package:cap_countdown/src/widgets/optional_question_view.dart';
 import 'package:cap_countdown/src/widgets/subject_question_view.dart';
 import 'package:flutter/material.dart';
@@ -19,17 +18,11 @@ class _HomePageState extends State<HomePage>
   Widget build(BuildContext context) {
     super.build(context);
 
-    final question = ExamLoader.getRandomQuestion();
-
     return ListView(
-      children: [
-        const CAPTimeLeft(showDetail: false),
-        _DailyQuestion(
-            question: question,
-            onRefresh: () {
-              setState(() {});
-            }),
-        const SizedBox(height: 75)
+      children: const [
+        CAPTimeLeft(showDetail: false),
+        _DailyQuestion(),
+        SizedBox(height: 75)
       ],
     );
   }
@@ -39,10 +32,7 @@ class _HomePageState extends State<HomePage>
 }
 
 class _DailyQuestion extends StatefulWidget {
-  final SubjectQuestion question;
-  final VoidCallback onRefresh;
-
-  const _DailyQuestion({required this.question, required this.onRefresh});
+  const _DailyQuestion();
 
   @override
   State<_DailyQuestion> createState() => _DailyQuestionState();
@@ -53,6 +43,8 @@ class _DailyQuestionState extends State<_DailyQuestion> {
 
   @override
   Widget build(BuildContext context) {
+    final question = DataProvider.of(context).dailyQuestion;
+
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: Card(
@@ -67,8 +59,8 @@ class _DailyQuestionState extends State<_DailyQuestion> {
               const Text('趁還有時間的時候來練練題目吧！'),
               const SizedBox(height: 8),
               SubjectQuestionView(
-                  question: widget.question,
-                  meta: widget.question.meta,
+                  question: question,
+                  meta: question.meta,
                   option: QuestionViewOption(
                       showQuestionNumber: false, submitted: _submitted),
                   actions: (questions) => [_submitAnswer(questions)]),
@@ -145,7 +137,9 @@ class _DailyQuestionState extends State<_DailyQuestion> {
                 _submitted = false;
               });
 
-              widget.onRefresh();
+              setState(() {
+                DataProvider.of(context).refreshDailyQuestion();
+              });
             },
             icon: const Icon(Icons.refresh),
             label: const Text('再來一題')),

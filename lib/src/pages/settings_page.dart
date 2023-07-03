@@ -1,6 +1,6 @@
 import 'package:cap_countdown/main.dart';
 import 'package:cap_countdown/src/storage/app_theme.dart';
-import 'package:cap_countdown/src/widgets/theme_provider.dart';
+import 'package:cap_countdown/src/widgets/data_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_colorpicker/flutter_colorpicker.dart';
 
@@ -39,7 +39,7 @@ class _SettingsPageState extends State<SettingsPage> {
                     onSelectionChanged: (value) {
                       final theme = value.first;
                       localStorage.appTheme = theme;
-                      ThemeProvider.of(context).setTheme(theme);
+                      DataProvider.of(context).setTheme(theme);
                       setState(() {});
                     }),
                 const SizedBox(height: 12),
@@ -79,7 +79,7 @@ class _SettingsPageState extends State<SettingsPage> {
                           TextButton(
                             onPressed: () {
                               Navigator.of(context).pop();
-                              ThemeProvider.of(context).setAccentColor(null);
+                              DataProvider.of(context).setAccentColor(null);
                               accentColor = localStorage.accentColor;
                               setState(() {});
                             },
@@ -88,7 +88,7 @@ class _SettingsPageState extends State<SettingsPage> {
                           TextButton(
                             onPressed: () {
                               Navigator.of(context).pop();
-                              ThemeProvider.of(context)
+                              DataProvider.of(context)
                                   .setAccentColor(accentColor);
                               setState(() {});
                             },

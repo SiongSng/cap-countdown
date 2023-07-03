@@ -9,6 +9,7 @@ enum LayoutBreakpoint {
   const LayoutBreakpoint(this.width);
 
   bool get isPhone => this == LayoutBreakpoint.phone;
+  bool get isPad => this == LayoutBreakpoint.pad;
 }
 
 typedef ResponsiveLayoutBuilder = Widget Function(

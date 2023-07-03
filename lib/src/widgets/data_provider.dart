@@ -1,28 +1,31 @@
 import 'package:cap_countdown/main.dart';
+import 'package:cap_countdown/src/exam/exam_loader.dart';
+import 'package:cap_countdown/src/exam/subject_question.dart';
 import 'package:cap_countdown/src/storage/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-class ThemeProvider extends StatefulWidget {
+class DataProvider extends StatefulWidget {
   final Widget Function(BuildContext context, ThemeData themeData) builder;
 
-  const ThemeProvider({Key? key, required this.builder}) : super(key: key);
+  const DataProvider({Key? key, required this.builder}) : super(key: key);
 
-  static ThemeChangeNotifier of(BuildContext context) {
-    return Provider.of<ThemeChangeNotifier>(context, listen: false);
+  static DataChangeNotifier of(BuildContext context) {
+    return Provider.of<DataChangeNotifier>(context, listen: false);
   }
 
   @override
-  State<ThemeProvider> createState() => _ThemeProviderState();
+  State<DataProvider> createState() => _DataProviderState();
 }
 
-class _ThemeProviderState extends State<ThemeProvider> {
+class _DataProviderState extends State<DataProvider> {
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider<ThemeChangeNotifier>(
-        create: (_) => ThemeChangeNotifier(localStorage.appTheme),
+    return ChangeNotifierProvider<DataChangeNotifier>(
+        create: (_) => DataChangeNotifier(
+            localStorage.appTheme, ExamLoader.getRandomQuestion()),
         child:
-            Consumer<ThemeChangeNotifier>(builder: (context, notifier, child) {
+            Consumer<DataChangeNotifier>(builder: (context, notifier, child) {
           final Brightness brightness;
 
           switch (notifier.theme) {
@@ -50,12 +53,14 @@ class _ThemeProviderState extends State<ThemeProvider> {
   }
 }
 
-class ThemeChangeNotifier extends ChangeNotifier implements ReassembleHandler {
+class DataChangeNotifier extends ChangeNotifier implements ReassembleHandler {
   AppTheme _theme;
+  SubjectQuestion _dailyQuestion;
 
   AppTheme get theme => _theme;
+  SubjectQuestion get dailyQuestion => _dailyQuestion;
 
-  ThemeChangeNotifier(this._theme);
+  DataChangeNotifier(this._theme, this._dailyQuestion);
 
   void setTheme(AppTheme theme) {
     _theme = theme;
@@ -64,6 +69,11 @@ class ThemeChangeNotifier extends ChangeNotifier implements ReassembleHandler {
 
   void setAccentColor(Color? color) {
     localStorage.accentColor = color;
+    notifyListeners();
+  }
+
+  void refreshDailyQuestion() {
+    _dailyQuestion = ExamLoader.getRandomQuestion();
     notifyListeners();
   }
 

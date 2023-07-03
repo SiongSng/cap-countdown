@@ -23,3 +23,18 @@ class CAPSubject(Enum):
                 return "自然科"
             case self.SOCIETY:
                 return "社會科"
+
+    def get_duration(self) -> int:
+        match self:
+            case self.CHINESE:
+                return 70
+            case self.ENGLISH_Reading:
+                return 60
+            case self.ENGLISH_LISTENING:
+                return 25
+            case self.MATH:
+                return 80
+            case self.NATURE:
+                return 70
+            case self.SOCIETY:
+                return 70

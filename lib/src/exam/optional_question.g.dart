@@ -12,8 +12,8 @@ OptionalQuestion _$OptionalQuestionFromJson(Map<String, dynamic> json) =>
       description: json['description'] as String?,
       image: json['image'] as String?,
       audio: json['audio'] as String?,
-      passingRate: (json['passing_rate'] as num).toDouble(),
-      discriminationIndex: (json['discrimination_index'] as num).toDouble(),
+      passingRate: (json['passing_rate'] as num?)?.toDouble(),
+      discriminationIndex: (json['discrimination_index'] as num?)?.toDouble(),
       choices: (json['choices'] as List<dynamic>)
           .map((e) => QuestionChoice.fromJson(e as Map<String, dynamic>))
           .toList(),
