@@ -1103,7 +1103,7 @@
         ]
       },
       {
-        "name": "英文科 (閱讀)",
+        "name": "英語科（閱讀）",
         "duration": 60,
         "grade_markings": {},
         "subject_id": "English",
@@ -2225,6 +2225,190 @@
               }
             ],
             "correct_answer": "A"
+          }
+        ]
+      },
+      {
+        "name": "英語科（聽力）",
+        "duration": 25,
+        "grade_markings": {
+          "基礎": 13,
+          "待加強": 0
+        },
+        "subject_id": "Listening",
+        "questions": [
+          {
+            "type": "example",
+            "description": "第一部分：辨識句意（第1-3題）\n作答說明：每題均有三張圖片，請依據所聽到的句子，選出符合描述的圖片，每題播放兩次。\n\n示例題：你會看到\n然後你會聽到......(播音)。依據所播放的內容，正確答案應該選A",
+            "image": "111_listening_example_1.png",
+            "audio": "111_listening_example_1.mp3"
+          },
+          {
+            "number": 1,
+            "type": "singleChoice",
+            "description": "第 1 題",
+            "image": "112_listening_1.png",
+            "audio": "112_listening_1.mp3",
+            "passing_rate": 0.91,
+            "discrimination_index": 0.49,
+            "choices": [
+              {
+                "answer": "A"
+              },
+              {
+                "answer": "B"
+              },
+              {
+                "answer": "C"
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "Some ducks are swimming in the pond, and some turtles are sitting on the rocks."
+          },
+          {
+            "number": 2,
+            "type": "singleChoice",
+            "description": "第 2 題",
+            "image": "112_listening_2.png",
+            "audio": "112_listening_2.mp3",
+            "passing_rate": 0.75,
+            "discrimination_index": 0.61,
+            "choices": [
+              {
+                "answer": "A"
+              },
+              {
+                "answer": "B"
+              },
+              {
+                "answer": "C"
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "The umbrella is lying under the window."
+          },
+          {
+            "number": 3,
+            "type": "singleChoice",
+            "description": "第 3 題",
+            "image": "112_listening_3.png",
+            "audio": "112_listening_3.mp3",
+            "passing_rate": 0.82,
+            "discrimination_index": 0.44,
+            "choices": [
+              {
+                "answer": "A"
+              },
+              {
+                "answer": "B"
+              },
+              {
+                "answer": "C"
+              }
+            ],
+            "correct_answer": "B",
+            "explanation": "The girl looks very tired with all the shopping bags in her hands."
+          },
+          {
+            "type": "example",
+            "description": "第二部分：基本問答(第4-11題)\n作答說明：每題均有三個選項，請依據所聽到的內容，選出一個最適合的回應，每題播放兩次。\n\n示例題：你會看到\n(A) She is talking to the teacher.\n(B) She is a student in my class.\n(C) She is wearing a beautiful dress.\n然後你會聽到......(播音)。依據所播放的內容，正確回應應該選B",
+            "audio": "111_listening_example_2.mp3"
+          },
+          {
+            "number": 4,
+            "type": "singleChoice",
+            "description": "第 4 題",
+            "audio": "112_listening_4.mp3",
+            "passing_rate": 0.75,
+            "discrimination_index": 0.65,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "Tea eggs are my favorite."
+              },
+              {
+                "answer": "B",
+                "description": "We have thirty-five dollars."
+              },
+              {
+                "answer": "C",
+                "description": "There are five in the refrigerator."
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "How many eggs do we have? I want to make fried rice."
+          },
+          {
+            "number": 5,
+            "type": "singleChoice",
+            "description": "第 5 題",
+            "audio": "112_listening_5.mp3",
+            "passing_rate": 0.82,
+            "discrimination_index": 0.50,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "Oh, you’re hungry, too?"
+              },
+              {
+                "answer": "B",
+                "description": "Why not? That’s my seat."
+              },
+              {
+                "answer": "C",
+                "description": "Oh, sorry. I didn’t know that."
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "Excuse me, but you can’t eat in the metro."
+          },
+          {
+            "number": 6,
+            "type": "singleChoice",
+            "description": "第 6 題",
+            "audio": "111_listening_6.mp3",
+            "passing_rate": 0.80,
+            "discrimination_index": 0.66,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "I like dogs very much."
+              },
+              {
+                "answer": "B",
+                "description": "I usually go swimming."
+              },
+              {
+                "answer": "C",
+                "description": "I exercise three times a week."
+              }
+            ],
+            "correct_answer": "B",
+            "explanation": "What do you like to do on the weekend?"
+          },
+          {
+            "number": 7,
+            "type": "singleChoice",
+            "description": "第 7 題",
+            "audio": "111_listening_7.mp3",
+            "passing_rate": 0.80,
+            "discrimination_index": 0.55,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "She said yes."
+              },
+              {
+                "answer": "B",
+                "description": "She enjoyed it"
+              },
+              {
+                "answer": "C",
+                "description": "She is very fast."
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "I heard you invited Elisa to your party. What did she say?"
           }
         ]
       },
@@ -6769,7 +6953,7 @@
         ]
       },
       {
-        "name": "英語科(閱讀)",
+        "name": "英語科（閱讀）",
         "duration": 60,
         "grade_markings": {
           "精熟": 37,
@@ -7969,7 +8153,7 @@
         ]
       },
       {
-        "name": "英語科(聽力)",
+        "name": "英語科（聽力）",
         "duration": 25,
         "grade_markings": {
           "基礎": 13,
@@ -7979,7 +8163,7 @@
         "questions": [
           {
             "type": "example",
-            "description": "第一部分：辨識句意(第1-3題)\n作答說明：每題均有三張圖片，請依據所聽到的句子，選出符合描述的圖片，每題播放兩次。\n\n示例題：你會看到\n然後你會聽到......(播音)。依據所播放的內容，正確答案應該選A",
+            "description": "第一部分：辨識句意（第1-3題）\n作答說明：每題均有三張圖片，請依據所聽到的句子，選出符合描述的圖片，每題播放兩次。\n\n示例題：你會看到\n然後你會聽到......(播音)。依據所播放的內容，正確答案應該選A",
             "image": "111_listening_example_1.png",
             "audio": "111_listening_example_1.mp3"
           },
