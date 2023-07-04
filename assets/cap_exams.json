@@ -1863,7 +1863,7 @@
               },
               {
                 "answer": "D",
-                "description": "South & Southeast Asia has a higher percentage of food waste at Stage 4 than the  \n      other two areas.\n6"
+                "description": "South & Southeast Asia has a higher percentage of food waste at Stage 4 than the  \n      other two areas."
               }
             ],
             "correct_answer": "D"
@@ -2019,7 +2019,7 @@
               },
               {
                 "answer": "D",
-                "description": "Elise Barensfeld was Beethoven’s student.\n8"
+                "description": "Elise Barensfeld was Beethoven’s student."
               }
             ],
             "correct_answer": "B"
@@ -2097,7 +2097,7 @@
               },
               {
                 "answer": "D",
-                "description": "“If they do, they may miss something more important than just getting a chance to play  \n      with�different�toys.”�\n10"
+                "description": "“If they do, they may miss something more important than just getting a chance to play  \n      with�different�toys.”�"
               }
             ],
             "correct_answer": "B"
@@ -5766,7 +5766,7 @@
           {
             "type": "singleChoice",
             "number": 41,
-            "description": "圖(十三)是一座歷史建築，根據圖中內容判斷，該建築最可能興建於下列何時何地？\n(十三)\n10",
+            "description": "圖(十三)是一座歷史建築，根據圖中內容判斷，該建築最可能興建於下列何時何地？\n(十三)",
             "passing_rate": 0.26,
             "discrimination_index": 0.17,
             "choices": [
