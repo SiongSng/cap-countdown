@@ -1863,7 +1863,7 @@
               },
               {
                 "answer": "D",
-                "description": "South & Southeast Asia has a higher percentage of food waste at Stage 4 than the  \n      other two areas.\n6請翻頁繼續作答"
+                "description": "South & Southeast Asia has a higher percentage of food waste at Stage 4 than the  \n      other two areas.\n6"
               }
             ],
             "correct_answer": "D"
@@ -2019,7 +2019,7 @@
               },
               {
                 "answer": "D",
-                "description": "Elise Barensfeld was Beethoven’s student.\n8請翻頁繼續作答"
+                "description": "Elise Barensfeld was Beethoven’s student.\n8"
               }
             ],
             "correct_answer": "B"
@@ -2097,7 +2097,7 @@
               },
               {
                 "answer": "D",
-                "description": "“If they do, they may miss something more important than just getting a chance to play  \n      with�different�toys.”�\n10請翻頁繼續作答"
+                "description": "“If they do, they may miss something more important than just getting a chance to play  \n      with�different�toys.”�\n10"
               }
             ],
             "correct_answer": "B"
@@ -2839,7 +2839,8 @@
                 "description": "丁"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "image": "112_math_3.png"
           },
           {
             "type": "singleChoice",
@@ -2943,7 +2944,8 @@
                 "description": "a>−5，b<−3"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "image": "112_math_7.png"
           },
           {
             "type": "singleChoice",
@@ -2969,7 +2971,8 @@
                 "description": "60"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "image": "112_math_8.png"
           },
           {
             "type": "singleChoice",
@@ -3047,7 +3050,8 @@
                 "description": "不符合我國，符合$\\underline{歐盟}$"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "image": "112_math_11.png"
           },
           {
             "type": "singleChoice",
@@ -3073,7 +3077,8 @@
                 "description": "$\\frac{3}{11}$"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "image": "112_math_12.png"
           },
           {
             "type": "singleChoice",
@@ -3099,7 +3104,8 @@
                 "description": "$\\angle ACB  >  \\angle FDE，\\angle AEB  <  \\angle ACB$"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "image": "112_math_13.png"
           },
           {
             "type": "singleChoice",
@@ -3125,7 +3131,8 @@
                 "description": "10"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "image": "112_math_14.png"
           },
           {
             "type": "singleChoice",
@@ -3182,7 +3189,7 @@
           {
             "type": "singleChoice",
             "number": 17,
-            "description": "圖 ( 八 ) 的方格紙中，每個方格的邊長為 1，A、O 兩點皆在格線的交點上。\n今在此方格紙格線的交點上另外找兩點 \nB、C， 使 得 ΔABC 的 外 心 為 O， 求 \nBC 的長度為何？\n( 八 )\n( 三 )",
+            "description": "圖 ( 八 ) 的方格紙中，每個方格的邊長為 1，A、O 兩點皆在格線的交點上。今在此方格紙格線的交點上另外找兩點 B、C， 使得 $\\triangle ABC$ 的外心為O， 求 $\\overline{BC}$ 的長度為何？",
             "passing_rate": 0.49,
             "discrimination_index": 0.6,
             "choices": [
@@ -3192,49 +3199,51 @@
               },
               {
                 "answer": "B",
-                "description": "5圖"
+                "description": "5"
               },
               {
                 "answer": "C",
-                "description": "10"
+                "description": "$\\sqrt{10}$"
               },
               {
                 "answer": "D",
-                "description": "20表"
+                "description": "$\\sqrt{20}$"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "image": "112_math_17.png"
           },
           {
             "type": "singleChoice",
             "number": 18,
-            "description": "樂樂停車場為 24 小時營業，其收費方式如表 ( 三 ) 所示。已知阿虹某日 10:00 進場停車，停了 x 小時後離場，x 為整數。若阿虹離場的時間介於當日的 20:00 ~ 24:00 \n間，則他此次停車的費用為多少元？",
+            "description": "$\\underline{樂樂停車場}$為 24 小時營業，其收費方式如表 ( 三 ) 所示。已知$\\underline{阿虹}$某日 10:00 進場停車，停了 x 小時後離場，x 為整數。若$\\underline{阿虹}$離場的時間介於當日的 20:00 ~ 24:00 間，則他此次停車的費用為多少元？",
             "passing_rate": 0.43,
             "discrimination_index": 0.56,
             "choices": [
               {
                 "answer": "A",
-                "description": "5x + 30"
+                "description": "$5x + 30$"
               },
               {
                 "answer": "B",
-                "description": "5x + 50"
+                "description": "$5x + 50$"
               },
               {
                 "answer": "C",
-                "description": "5x + 150"
+                "description": "$5x + 150$"
               },
               {
                 "answer": "D",
-                "description": "5x + 200"
+                "description": "$5x + 200$"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "image": "112_math_18.png"
           },
           {
             "type": "singleChoice",
             "number": 19,
-            "description": "圖 ( 九 ) 為一圓形紙片，A、B、C 為圓周上三點，其中 AC 為直徑。今以 \nAB 為摺線將紙片向右摺後，紙片蓋住部分的 AC，而 AB 上與 AC 重疊的點為 D，如圖 ( 十 ) 所示。若 BC = 35°，則 AD 的度數為何？\n( 十 )\n圖 ( 九 )\n請翻頁繼續作答6",
+            "description": "圖 ( 九 ) 為一圓形紙片，A、B、C 為圓周上三點，其中 $\\overline{AC}$ 為直徑。今以 $\\overline{AB}$ 為摺線將紙片向右摺後，紙片蓋住部分的 $\\overline{AC}$，而 $\\overset{\\frown}{AB}$ 上與 $\\overset{\\frown}{AC}$ 重疊的點為 D，如圖 ( 十 ) 所示。若 $\\overset{\\frown}{BC} = 35^\\circ$，則 $\\overset{\\frown}{AD}$ 的度數為何？",
             "passing_rate": 0.48,
             "discrimination_index": 0.49,
             "choices": [
@@ -3252,41 +3261,43 @@
               },
               {
                 "answer": "D",
-                "description": "145圖"
+                "description": "145"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "image": "112_math_19.png"
           },
           {
             "type": "singleChoice",
             "number": 20,
-            "description": "如圖 ( 十一 )，ΔABC 中，D 點在 BC 上，且 BD的中垂線與 AB 相交於 E 點，CD 的中垂線與 AC \n相交於 F 點。已知 ΔABC 的三個內角皆不相等，\n根據圖 ( 十一 ) 中標示的角，  判斷下列敘述何者正確？\n( 十一 )",
+            "description": "如圖 ( 十一 )，$\\triangle ABC$ 中，D 點在 $\\overline{BC}$ 上，且 $\\overline{BD}$ 的中垂線與 $\\overline{AB}$ 相交於 E 點，$\\overline{CD}$ 的中垂線與 $\\overline{AC}$ 相交於 F 點。已知 $\\triangle ABC$ 的三個內角皆不相等，根據圖 ( 十一 ) 中標示的角，  判斷下列敘述何者正確？",
             "passing_rate": 0.43,
             "discrimination_index": 0.52,
             "choices": [
               {
                 "answer": "A",
-                "description": "\\angle 1 = \\angle 3，\\angle 2 = \\angle 4圖"
+                "description": "$\\angle 1 = \\angle 3$，$\\angle 2 = \\angle 4$"
               },
               {
                 "answer": "B",
-                "description": "\\angle 1 = \\angle 3，\\angle 2 ≠ \\angle 4"
+                "description": "$\\angle 1 = \\angle 3$，$\\angle 2 \\neq \\angle 4$"
               },
               {
                 "answer": "C",
-                "description": "\\angle 1 ≠ \\angle 3，\\angle 2 = \\angle 4"
+                "description": "$\\angle 1 \\neq \\angle 3$，$\\angle 2 = \\angle 4$"
               },
               {
                 "answer": "D",
-                "description": "\\angle 1 ≠ \\angle 3，\\angle 2 ≠ \\angle 4"
+                "description": "$\\angle 1 \\neq \\angle 3$，$\\angle 2 \\neq \\angle 4$"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "image": "112_math_20.png"
           },
           {
             "type": "singleChoice",
             "number": 21,
-            "description": "圖 ( 十二 )\n \n有一東西向的直線吊橋橫跨溪谷，小維、阿良分別從西橋頭、東橋頭同時開始往吊橋的另一頭筆直地走過去，  如圖 ( 十二 ) 所示。 已知小維從西橋頭走了 \n84 步，阿良從東橋頭走了 60 步時，兩人在吊橋上的某點交會，且交會之後阿良再走 70 步恰好走到西橋頭。若小維每步的距離相等，阿良每步的距離相等，則交會之後小維再走多少步會恰好走到東橋頭？",
+            "description": "有一東西向的直線吊橋橫跨溪谷，$\\underline{小維}$、$\\underline{阿良}$分別從西橋頭、東橋頭同時開始往吊橋的另一頭筆直地走過去，  如圖 ( 十二 ) 所示。 已知$\\underline{小維}$從西橋頭走了 84 步，$\\underline{阿良}$從東橋頭走了 60 步時，兩人在吊橋上的某點交會，且交會之後$\\underline{阿良}$再走 70 步恰好走到西橋頭。若$\\underline{小維}$每步的距離相等，$\\underline{阿良}$每步的距離相等，則交會之後$\\underline{小維}$再走多少步會恰好走到東橋頭？",
             "passing_rate": 0.41,
             "discrimination_index": 0.53,
             "choices": [
@@ -3304,114 +3315,122 @@
               },
               {
                 "answer": "D",
-                "description": "727"
+                "description": "72"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "image": "112_math_21.png"
           },
           {
             "type": "singleChoice",
             "number": 22,
-            "description": "如圖 ( 十三 )，正方形 ABCD 與 ΔEBC 中，AD 分別與 \nEB、EC 相交於 F 點、G 點。若 ΔEBG 的面積為 6，\n正方形 ABCD 的面積為 16，則 FG 與 BC 的長度比為何？\n( 十三 )",
+            "description": "如圖 ( 十三 )，正方形 ABCD 與 $\\triangle EBC$ 中，$\\overline{AD}$ 分別與 $\\overline{EB}$、$\\overline{EC}$ 相交於 F 點、G 點。若 $\\triangle EBG$ 的面積為 6，正方形 ABCD 的面積為 16，則 $\\overline{FG}$ 與 $\\overline{BC}$ 的長度比為何？",
             "passing_rate": 0.27,
             "discrimination_index": 0.32,
             "choices": [
               {
                 "answer": "A",
-                "description": "3 : 5"
+                "description": "3:5"
               },
               {
                 "answer": "B",
-                "description": "3 : 6"
+                "description": "3:6"
               },
               {
                 "answer": "C",
-                "description": "3 : 7"
+                "description": "3:7"
               },
               {
                 "answer": "D",
-                "description": "3 : 8圖"
+                "description": "3:8"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "image": "112_math_22.png"
           },
           {
             "type": "singleChoice",
             "number": 23,
-            "description": "如圖 ( 十四 )，矩形 ABCD 中，  AB = 6，AD = 8，且有一點 P 從 B 點沿著 \nBD 往 D 點移動。若過 P 點作 AB 的垂線交 AB 於 E 點，過 P 點作 AD 的垂線交 AD 於 F 點，則 EF 的長度最小為多少？\n( 十四 )\n(含)\n且未達 14% 時稱作「高齡化社會」，14% 以上(含)且未達 20% 時稱作「高齡社會」，  20% 以上(含)時稱作「超高齡社會」。\n百分比＝百分率",
+            "description": "如圖 ( 十四 )，矩形 ABCD 中，$\\overline{AB} = 6$，$\\overline{AD} = 8$，且有一點 P 從 B 點沿著 $\\overline{BD}$ 往 D 點移動。若過 P 點作 $\\overline{AB}$ 的垂線交 $\\overline{AB}$ 於 E 點，過 P 點作 $\\overline{AD}$ 的垂線交 $\\overline{AD}$ 於 F 點，則 $\\overline{EF}$ 的長度最小為多少？",
             "passing_rate": 0.23,
             "discrimination_index": 0.06,
             "choices": [
               {
                 "answer": "A",
-                "description": "145"
+                "description": "$\\frac{14}{5}$"
               },
               {
                 "answer": "B",
-                "description": "245"
+                "description": "$\\frac{24}{5}$"
               },
               {
                 "answer": "C",
-                "description": "5圖"
+                "description": "5"
               },
               {
                 "answer": "D",
-                "description": "7請翻頁繼續作答\n8請閱讀下列敘述後，回答 24 ～ 25 題\n \n人口老化是國家人口分布向高年齡偏移的現象，許多國家已開始面臨此問題。\n依國際常用定義，一個國家中的 65 歲以上人口占總人口的百分比為 7% 以上"
+                "description": "7"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "image": "112_math_23.png"
           },
           {
-            "type": "singleChoice",
-            "number": 24,
-            "description": "圖 ( 十五 ) 為某機構於 2020 年繪製的四個國家 65 歲以上人口占總人口百分比之折線圖，其中 2020 年之後的數值為推估值。\n圖 ( 十五 )\n \n根據圖 ( 十五 ) 推測，下列哪一個國家從進入「高齡社會」到進入「超高齡社會」所花的時間最短？",
-            "passing_rate": 0.69,
-            "discrimination_index": 0.46,
-            "choices": [
+            "type": "groupChoice",
+            "description": "請閱讀下列敘述後，回答24～25題：\n\n    人口老化是國家人口分布向高年齡偏移的現象，許多國家已開始面臨此問題。依國際常用定義，一個國家中的 65 歲以上人口占總人口的百分比為 7% 以上(含)且未達 14% 時稱作「高齡化社會」，14% 以上(含)且未達 20% 時稱作「高齡社會」， 20% 以上(含)時稱作「超高齡社會」。\n\n\uD83D\uDCD6 補充說明：百分比=百分率",
+            "options": [
               {
-                "answer": "A",
-                "description": "法國"
+                "number": 24,
+                "description": "圖(十五)為某機構於 2020 年繪製的四個國家 65 歲以上人口占總人口百分比之折線圖，其中 2020 年之後的數值為推估值。根據圖(十五)推測，下列哪一個國家從進入「高齡社會」到進入「超高齡社會」所花的時間最短？",
+                "passing_rate": 0.69,
+                "discrimination_index": 0.46,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "$\\underline{法國}$"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "$\\underline{義大利}$"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "$\\underline{美國}$"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "$\\underline{韓國}$"
+                  }
+                ],
+                "correct_answer": "D",
+                "image": "112_math_24.png"
               },
               {
-                "answer": "B",
-                "description": "義大利"
-              },
-              {
-                "answer": "C",
-                "description": "美國"
-              },
-              {
-                "answer": "D",
-                "description": "韓國"
+                "number": 25,
+                "description": "已知 2019 年我國進入「高齡社會」，預測 2025 年會進入「超高齡社會」。假設我國 2019 年與 2025 年總人口數皆為 2300 萬人，且 2019 年我國 65 歲以上人口占總人口的百分比恰好達到「高齡社會」的最低標準，則根據上述預測， 關於我國 65 歲以上人口數，2025 年與 2019 年相比至少增加了多少萬人？",
+                "passing_rate": 0.59,
+                "discrimination_index": 0.58,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "138"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "161"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "322"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "460"
+                  }
+                ],
+                "correct_answer": "A"
               }
-            ],
-            "correct_answer": "D"
-          },
-          {
-            "type": "singleChoice",
-            "number": 25,
-            "description": "已知 2019 年我國進入「高齡社會」，預測 2025 年會進入「超高齡社會」。\n假設我國 2019 年與 2025 年總人口數皆為 2300 萬人，且 2019 年我國 65 歲以上人口占總人口的百分比恰好達到「高齡社會」的最低標準，則根據上述預測，  關於我國 65 歲以上人口數，2025 年與 2019 年相比至少增加了多少萬人？\n(1 ～ 2 題 )\n1. \nA、B 兩廠牌的疫苗皆進行實驗以計算其疫苗效力。兩廠牌的疫苗實驗人數皆為 30000 人，各廠牌實驗人數中一半的人施打疫苗，另一半的人施打不具疫苗成分的安慰劑。經過一段時間後觀察得知，在 A 廠牌的實驗中，施打疫苗後仍感染的人數為 50 人，施打安慰劑後感染的人數為 500 人。而疫苗效力的算式如下：\n�\n \n請根據上述資訊回答下列問題，完整寫出你的解題過程並詳細解釋：\n \n(1) 根據實驗數據算出 A 廠牌的疫苗效力為多少？ \n \n(2) 若 B 廠牌的實驗數據算出的疫苗效力高於 A 廠牌，請詳細說明 B 廠牌的實驗中\n \n   施打疫苗後仍感染的人數，是否一定低於 A 廠牌實驗中施打疫苗後仍感染的\n \n   人數？\n請翻頁繼續作答10\n2. \n小儀利用一副撲克牌摺疊出一個環套，如圖 ( 十六 ) 所示。環套的上視圖為邊長 6 公分的正八邊形，如圖 ( 十七 ) 所示。\n \n圖 ( 十六 )\n圖 ( 十七 )\n \n請根據上述資訊回答下列問題，完整寫出你的解題過程並詳細解釋：\n \n(1) 圖 ( 十七 ) 的正八邊形的一個內角度數為多少？\n \n(2) 已知有一個圓柱形花瓶其底面半徑為 8 公分，  假設不考慮花瓶與環套厚度，  \n \n   判斷圖 ( 十六 ) 的環套是否能在不變形的前提下， 套在此圓柱形花瓶側面\n \n   外圍？\n \n   \n圖(十八)呈現 45° − 45° − 90° 的三角形與 \n22.5° − 67.5° − 90° 的三角形，當斜邊為 1 \n時的兩股近似值，供作答時參考。\n圖 ( 十八 )\n11",
-            "passing_rate": 0.59,
-            "discrimination_index": 0.58,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "138"
-              },
-              {
-                "answer": "B",
-                "description": "161"
-              },
-              {
-                "answer": "C",
-                "description": "322"
-              },
-              {
-                "answer": "D",
-                "description": "4609\n第二部分：非選擇題"
-              }
-            ],
-            "correct_answer": "A"
+            ]
           }
         ]
       },
@@ -5104,7 +5123,7 @@
           {
             "type": "singleChoice",
             "number": 16,
-            "description": "某地區於2017年入選為世界遺產，該地區涵蓋了森林、谷地、潟湖及珊瑚礁等景觀，遺產的中心是玻里尼西亞普遍可見的毛利集會中心，此遺產是毛利文化極具代表性的見證。根據上文描述判斷，該遺產最可能位於下列何處？\n(11.88°N，2.49°E)\n(49.93°N，115.43°E)\n(16.84°S，151.37°W)\n(42.85°S，71.87°W)\n4請翻頁繼續作答",
+            "description": "某地區於2017年入選為世界遺產，該地區涵蓋了森林、谷地、潟湖及珊瑚礁等景觀，遺產的中心是玻里尼西亞普遍可見的毛利集會中心，此遺產是毛利文化極具代表性的見證。根據上文描述判斷，該遺產最可能位於下列何處？\n(11.88°N，2.49°E)\n(49.93°N，115.43°E)\n(16.84°S，151.37°W)\n(42.85°S，71.87°W)\n4",
             "passing_rate": 0.54,
             "discrimination_index": 0.43,
             "choices": [
@@ -5747,7 +5766,7 @@
           {
             "type": "singleChoice",
             "number": 41,
-            "description": "圖(十三)是一座歷史建築，根據圖中內容判斷，該建築最可能興建於下列何時何地？\n(十三)\n10請翻頁繼續作答",
+            "description": "圖(十三)是一座歷史建築，根據圖中內容判斷，該建築最可能興建於下列何時何地？\n(十三)\n10",
             "passing_rate": 0.26,
             "discrimination_index": 0.17,
             "choices": [
