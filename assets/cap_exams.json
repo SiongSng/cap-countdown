@@ -2922,7 +2922,7 @@
           {
             "type": "singleChoice",
             "number": 7,
-            "description": "如圖 ( 二 )，坐標平面上直線 L 的方程式為 x = −5，\n直線 M 的方程式為 y = −3，P 點的坐標為 (a , b )。\n根據圖 ( 二 ) 中 P 點位置判斷，下列關係何者正確？\n( 二 )",
+            "description": "如圖 ( 二 )，坐標平面上直線 L 的方程式為 $x=−5$，直線 M 的方程式為 $y=−3$，P 點的坐標為 $(a,b)$。根據圖 ( 二 ) 中 P 點位置判斷，下列關係何者正確？",
             "passing_rate": 0.7,
             "discrimination_index": 0.61,
             "choices": [
@@ -2948,7 +2948,7 @@
           {
             "type": "singleChoice",
             "number": 8,
-            "description": "如圖 ( 三 )，梯形 ABCD 中，$\\overline{AD} // \\overline{BC}$。若 $\\angle ADC = 140^\\circle$，且 $\\overline{BD}\\perp \\overline{CD}$，\nAD\n則 $\\angle DBC$ 的度數為何？",
+            "description": "如圖 ( 三 )，梯形 ABCD 中，$\\overline{AD} // \\overline{BC}$。若 $\\angle ADC = 140^\\circ$，且 $\\overline{BD}\\perp \\overline{CD}$，則 $\\angle DBC$ 的度數為何？",
             "passing_rate": 0.7,
             "discrimination_index": 0.56,
             "choices": [
@@ -3006,19 +3006,19 @@
             "choices": [
               {
                 "answer": "A",
-                "description": "$$"
+                "description": "$\\frac{-11+\\sqrt{109}}{6}$"
               },
               {
                 "answer": "B",
-                "description": "$$"
+                "description": "$\\frac{-11+\\sqrt{133}}{6}$"
               },
               {
                 "answer": "C",
-                "description": "$$"
+                "description": "$\\frac{11+\\sqrt{109}}{6}$"
               },
               {
                 "answer": "D",
-                "description": "$$"
+                "description": "$\\frac{11+\\sqrt{133}}{6}$"
               }
             ],
             "correct_answer": "D"
@@ -3026,25 +3026,25 @@
           {
             "type": "singleChoice",
             "number": 11,
-            "description": "業者販售含咖啡因飲料時通常會以紅、黃、綠三色來標示每杯飲料的咖啡因含量，各顏色的意義如表 ( 一 ) 所示。\n表 ( 二 )\n表 ( ㄧ )\n \n我國建議每位成人一日的咖啡因攝取量不超過 300 毫克，歐盟則建議一日不超過 400 毫克。表 ( 二 ) 為某商店美式咖啡的容量及咖啡因含量標示，已知該店美式咖啡每毫升的咖啡因含量相同，判斷一位成人一日喝 2 杯該店中杯的美式咖啡，其咖啡因攝取量是否符合我國或歐盟的建議？",
+            "description": "業者販售含咖啡因飲料時通常會以紅、黃、綠三色來標示每杯飲料的咖啡因含量，各顏色的意義如表 ( 一 ) 所示。我國建議每位成人一日的咖啡因攝取量不超過 300 毫克，$\\underline{歐盟}$則建議一日不超過 400 毫克。表 ( 二 ) 為某商店$\\underline{美}$式咖啡的容量及咖啡因含量標示，已知該店$\\underline{美}$式咖啡每毫升的咖啡因含量相同，判斷一位成人一日喝 2 杯該店中杯的$\\underline{美}$式咖啡，其咖啡因攝取量是否符合我國或$\\underline{歐盟}$的建議？",
             "passing_rate": 0.66,
             "discrimination_index": 0.44,
             "choices": [
               {
                 "answer": "A",
-                "description": "符合我國也符合歐盟"
+                "description": "符合我國也符合$\\underline{歐盟}$"
               },
               {
                 "answer": "B",
-                "description": "不符合我國也不符合歐盟"
+                "description": "不符合我國也不符合$\\underline{歐盟}$"
               },
               {
                 "answer": "C",
-                "description": "符合我國，不符合歐盟"
+                "description": "符合我國，不符合$\\underline{歐盟}$"
               },
               {
                 "answer": "D",
-                "description": "不符合我國，符合歐盟"
+                "description": "不符合我國，符合$\\underline{歐盟}$"
               }
             ],
             "correct_answer": "D"
@@ -3052,25 +3052,25 @@
           {
             "type": "singleChoice",
             "number": 12,
-            "description": "盒玩的販售方式是將一款玩具裝在盒子中販賣，購買者只能從外盒知道購買的是哪一系列玩具，但無法知道是系列中的哪一款。圖 ( 四 )、圖 ( 五 ) 分別為動物系列、汽車系列盒玩中所有可能出現的款式。\n圖 ( 四 )\n圖 ( 五 )\n \n已知小友喜歡圖 ( 四 ) 中的 A 款、C 款，喜歡圖 ( 五 ) 中的 B 款，若他打算購買圖 ( 四 ) 的盒玩一盒，且他買到圖 ( 四 ) 中每款玩具的機會相等；他也打算購買圖 ( 五 ) 的盒玩一盒，且他買到圖 ( 五 ) 中每款玩具的機會相等，則他買到的兩盒盒玩內的玩具都是他喜歡的款式的機率為何？",
+            "description": "盒玩的販售方式是將一款玩具裝在盒子中販賣，購買者只能從外盒知道購買的是哪一系列玩具，但無法知道是系列中的哪一款。圖 ( 四 )、圖 ( 五 ) 分別為動物系列、汽車系列盒玩中所有可能出現的款式。已知$\\underline{小友}$喜歡圖 ( 四 ) 中的 A 款、C 款，喜歡圖 ( 五 ) 中的 B 款，若他打算購買圖 ( 四 ) 的盒玩一盒，且他買到圖 ( 四 ) 中每款玩具的機會相等；他也打算購買圖 ( 五 ) 的盒玩一盒，且他買到圖 ( 五 ) 中每款玩具的機會相等，則他買到的兩盒盒玩內的玩具都是他喜歡的款式的機率為何？",
             "passing_rate": 0.58,
             "discrimination_index": 0.66,
             "choices": [
               {
                 "answer": "A",
-                "description": "115"
+                "description": "$\\frac{1}{15}$"
               },
               {
                 "answer": "B",
-                "description": "110"
+                "description": "$\\frac{1}{10}$"
               },
               {
                 "answer": "C",
-                "description": "211"
+                "description": "$\\frac{2}{11}$"
               },
               {
                 "answer": "D",
-                "description": "311"
+                "description": "$\\frac{3}{11}$"
               }
             ],
             "correct_answer": "A"
@@ -3078,25 +3078,25 @@
           {
             "type": "singleChoice",
             "number": 13,
-            "description": "如圖 ( 六 )，直角柱 ABCDEF 的底面為直角三角形。\n若 ∠ ABC = ∠ DEF = 90°，  BC > AB > BE，則連接 AE \n後，下列敘述何者正確？\n( 六 )",
+            "description": "如圖 ( 六 )，直角柱 ABCDEF 的底面為直角三角形。若 $\\angle ABC = \\angle DEF = 90^\\circ$，$\\overline{BC}>\\overline{AB}>\\overline{BE}$，則連接 $\\overline{AE}$ 後，下列敘述何者正確？",
             "passing_rate": 0.5,
             "discrimination_index": 0.48,
             "choices": [
               {
                 "answer": "A",
-                "description": "∠ ACB  <  ∠ FDE，∠ AEB  >  ∠ ACB"
+                "description": "$\\angle ACB  <  \\angle FDE，\\angle AEB  >  \\angle ACB$"
               },
               {
                 "answer": "B",
-                "description": "∠ ACB  <  ∠ FDE，∠ AEB  <  ∠ ACB"
+                "description": "$\\angle ACB  <  \\angle FDE，\\angle AEB  <  \\angle ACB$"
               },
               {
                 "answer": "C",
-                "description": "∠ ACB  >  ∠ FDE，∠ AEB  >  ∠ ACB圖"
+                "description": "$\\angle ACB  >  \\angle FDE，\\angle AEB  >  \\angle ACB$"
               },
               {
                 "answer": "D",
-                "description": "∠ ACB  >  ∠ FDE，∠ AEB  <  ∠ ACB請翻頁繼續作答\n4"
+                "description": "$\\angle ACB  >  \\angle FDE，\\angle AEB  <  \\angle ACB$"
               }
             ],
             "correct_answer": "A"
@@ -3104,7 +3104,7 @@
           {
             "type": "singleChoice",
             "number": 14,
-            "description": "坐標平面上有兩個二次函數的圖形，其頂點 P、Q 皆在 x 軸上，且有一水平線與兩圖形相交於 A、B、C、D 四點，各點位置如圖 ( 七 ) 所示。若 AB = 10，\nBC = 5，CD = 6，則 PQ 的長度為何？\n( 七 )",
+            "description": "坐標平面上有兩個二次函數的圖形，其頂點 P、Q 皆在 x 軸上，且有一水平線與兩圖形相交於 A、B、C、D 四點，各點位置如圖 ( 七 ) 所示。若 $\\overline{AB} = 10$，$\\overline{BC} = 5$，$\\overline{CD} = 6$，則 $\\overline{PQ}$ 的長度為何？",
             "passing_rate": 0.56,
             "discrimination_index": 0.56,
             "choices": [
@@ -3118,7 +3118,7 @@
               },
               {
                 "answer": "C",
-                "description": "9圖"
+                "description": "9"
               },
               {
                 "answer": "D",
@@ -3130,7 +3130,7 @@
           {
             "type": "singleChoice",
             "number": 15,
-            "description": "若想在等差數列 1 , 2 , 3 , 4 , 5中插入一些數，使得新的數列也是等差數列，且新的數列的首項仍是 1，末項仍是 5，則新的數列的項數可能為下列何者？",
+            "description": "若想在等差數列 $1 , 2 , 3 , 4 , 5$ 中插入一些數，使得新的數列也是等差數列，且新的數列的首項仍是 1，末項仍是 5，則新的數列的項數可能為下列何者？",
             "passing_rate": 0.42,
             "discrimination_index": 0.59,
             "choices": [
@@ -3156,7 +3156,7 @@
           {
             "type": "singleChoice",
             "number": 16,
-            "description": "已知某速食店販售的套餐內容為一片雞排和一杯可樂，且一份套餐的價錢比單點一片雞排再單點一杯可樂的總價錢便宜 40 元。阿俊打算到該速食店買兩份套餐，若他發現店內有單點一片雞排就再送一片雞排的促銷活動，\n且單點一片雞排再單點兩杯可樂的總價錢，比兩份套餐的總價錢便宜 10 元，\n則根據題意可得到下列哪一個結論？",
+            "description": "已知某速食店販售的套餐內容為一片雞排和一杯可樂，且一份套餐的價錢比單點一片雞排再單點一杯可樂的總價錢便宜 40 元。$\\underline{阿俊}$打算到該速食店買兩份套餐，若他發現店內有單點一片雞排就再送一片雞排的促銷活動，且單點一片雞排再單點兩杯可樂的總價錢，比兩份套餐的總價錢便宜 10 元，則根據題意可得到下列哪一個結論？",
             "passing_rate": 0.5,
             "discrimination_index": 0.47,
             "choices": [
@@ -3174,7 +3174,7 @@
               },
               {
                 "answer": "D",
-                "description": "單點一片雞排的價錢必為 70 元5"
+                "description": "單點一片雞排的價錢必為 70 元"
               }
             ],
             "correct_answer": "C"
@@ -3266,19 +3266,19 @@
             "choices": [
               {
                 "answer": "A",
-                "description": "∠ 1 = ∠ 3，∠ 2 = ∠ 4圖"
+                "description": "\\angle 1 = \\angle 3，\\angle 2 = \\angle 4圖"
               },
               {
                 "answer": "B",
-                "description": "∠ 1 = ∠ 3，∠ 2 ≠ ∠ 4"
+                "description": "\\angle 1 = \\angle 3，\\angle 2 ≠ \\angle 4"
               },
               {
                 "answer": "C",
-                "description": "∠ 1 ≠ ∠ 3，∠ 2 = ∠ 4"
+                "description": "\\angle 1 ≠ \\angle 3，\\angle 2 = \\angle 4"
               },
               {
                 "answer": "D",
-                "description": "∠ 1 ≠ ∠ 3，∠ 2 ≠ ∠ 4"
+                "description": "\\angle 1 ≠ \\angle 3，\\angle 2 ≠ \\angle 4"
               }
             ],
             "correct_answer": "C"
