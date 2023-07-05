@@ -41,7 +41,8 @@
                 "description": "閱讀興趣、閱讀素養"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "因為文章主要主題是描述閱讀興趣與閱讀素養的情況，故該以此為關鍵詞。"
           },
           {
             "type": "singleChoice",
@@ -67,7 +68,8 @@
                 "description": "與其讓你在事後落淚，難道讓你犯錯懊悔"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "(D)有語病，事後落淚與犯錯懊悔都是負面的詞彙，並不適合使用「與其」、「難道」。"
           },
           {
             "type": "singleChoice",
@@ -93,7 +95,8 @@
                 "description": "丁"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "「有些……有些」句型適合使用分號。"
           },
           {
             "type": "singleChoice",
@@ -119,7 +122,8 @@
                 "description": "若非我故意和你唱反調，實在是你的做法不合理"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "(A)「豈非」並不恰當，應該改為「怎麼會」。\n(B)「並非」並不恰當，應該改為「若非」。\n(C)  恰當\n(D)「若非」並不價當，應該改為「並非」。"
           },
           {
             "type": "singleChoice",
@@ -145,7 +149,8 @@
                 "description": "千叮萬「囑」／引人「矚」目"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "(A) ㄑㄧˋ/ㄧˋ\n(B) ㄑㄧㄢ/ㄎㄢˇ\n(C) ㄌㄧㄠˊ/ㄇㄧㄡˋ\n(D) ㄓㄨˇ"
           },
           {
             "type": "singleChoice",
@@ -172,7 +177,8 @@
                 "description": "指事／會意"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "文字跟物體形狀很像屬象形。\n用部首的聲音來作為整個詞的聲音為形聲。"
           },
           {
             "type": "singleChoice",
@@ -198,7 +204,8 @@
                 "description": "滿足居住需求"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "純粹建築主義者嘲諷永續住宅並不好看，故純粹建築主義者在乎的是審美要求。"
           },
           {
             "type": "singleChoice",
@@ -221,7 +228,8 @@
                 "answer": "D"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "陽刻代表文字會突出，又需要選擇隸書，故蓋出來的文字是 A。"
           },
           {
             "type": "singleChoice",
@@ -244,7 +252,8 @@
                 "answer": "D"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "版築有功適合用在建築業上面，不適合用在家具店上。"
           },
           {
             "type": "singleChoice",
@@ -270,7 +279,8 @@
                 "description": "驟降消暑的大雨"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "心情轉變的轉折在「忽然疾樹澎湃之聲」為大雨，故選 D。"
           },
           {
             "type": "singleChoice",
@@ -296,7 +306,8 @@
                 "description": "這項工程是讓我國邁向現代化的里程盃"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "(A)「瑣」碎\n(B)「陌」生\n(C)正確\n(D) 里程「碑」"
           },
           {
             "type": "singleChoice",
@@ -322,7 +333,8 @@
                 "description": "解釋"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "「知賢而讓」的行為適合當作典範，故訓的意思為典範。"
           },
           {
             "type": "singleChoice",
@@ -348,7 +360,8 @@
                 "description": "沒有付出就沒有收穫"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "文章最後一句提到有「術」，「術」講求的是技術與方法，故選 B。"
           },
           {
             "type": "singleChoice",
@@ -374,7 +387,8 @@
                 "description": "期末將近，大家都「庸庸碌碌」，忙得不可開交"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "(A) 若即若離形容兩個人的關係乎近乎遠，不適用。\n(B) 急公好義描述熱心助人，不適用。\n(C) 正確\n(D) 庸庸碌碌為負面詞彙，不適用。"
           },
           {
             "type": "singleChoice",
@@ -400,7 +414,8 @@
                 "description": "兩詩皆屬七絕，只有偶句用韻"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "(A) 日西應該是傍晚而非清晨。\n(B) 正確\n(C) 乙第一句「陰陰」與「小雨」並無對仗。\n(D) 甲第一句也有押韻，故錯誤。"
           },
           {
             "type": "singleChoice",
@@ -426,7 +441,8 @@
                 "description": "隨著所知的增長，會修正自己原本的觀點"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "因為君子會修正自己的觀點，如果做不到這一點沒有辦法成為君子，故選 D。"
           },
           {
             "type": "singleChoice",
@@ -453,7 +469,8 @@
                 "description": "丁：2018 年至少有30%的20 至24 歲南亞女性結過婚"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "(A)圖案只有說 18% 在過去 12 個月經歷過性暴力，但是沒有說 82%的人是完全沒經歷過性暴力。"
           },
           {
             "type": "singleChoice",
@@ -479,7 +496,8 @@
                 "description": "鐵器廣泛使用"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "(C)題目提到鐵器讓生產力大大提高，耕作時間縮短。與「(C)耕作時間延長」相違背。"
           },
           {
             "type": "singleChoice",
@@ -505,7 +523,8 @@
                 "description": "以整齊的杵音宣告祭儀開始"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "文章說需要「製作小米酒」，故 A 是正確的。其他皆為過度推論。"
           },
           {
             "type": "singleChoice",
@@ -531,7 +550,8 @@
                 "description": "「中秋誰與共孤光」流露想與親友團聚的心願"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "(B)從前後文推論，客少主要是對於歲月流逝的感慨，與難以維持生計無關。"
           },
           {
             "type": "singleChoice",
@@ -547,23 +567,24 @@
               },
               {
                 "answer": "B",
-                "description": "1900 年歐洲茶葉市場總交易量較 1886 年少"
+                "description": "1900 年$\\underline{歐洲}$茶葉市場總交易量較 1886 年少"
               },
               {
                 "answer": "C",
-                "description": "1900 年甲國茶葉出口歐洲總額衰退至 1886 年的 50%"
+                "description": "1900 年甲國茶葉出口$\\underline{歐洲}$總額衰退至 1886 年的 50%"
               },
               {
                 "answer": "D",
                 "description": "1866 至 1900 年間，甲國從茶葉出口國變成茶葉進口國"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "(A)無法得知生產技術是否有改變，只能知道出口下降。\n(B)從文中無法得知茶葉市場交易量如何改變。\n(C)正確\n(D)無法知道"
           },
           {
             "type": "singleChoice",
             "number": 22,
-            "description": "「復北上，行石罅中，石峰片片夾起，路宛轉石間，塞者鑿之，陡者級之，斷者架木通之，懸者植梯接之。下瞰峭壑陰森，楓松相間，五色紛披，燦若圖繡。\n因念黃山當生平奇覽，而有奇若此，前未一探，茲遊快且愧矣！」根據這段文字，下列敘述何者最恰當？",
+            "description": "「復北上，行石罅中，石峰片片夾起，路宛轉石間，塞者鑿之，陡者級之，斷者架木通之，懸者植梯接之。下瞰峭壑陰森，楓松相間，五色紛披，燦若圖繡。\n因念$\\underline{黃山}$當生平奇覽，而有奇若此，前未一探，茲遊快且愧矣！」根據這段文字，下列敘述何者最恰當？",
             "passing_rate": 0.64,
             "discrimination_index": 0.44,
             "choices": [
@@ -573,33 +594,34 @@
               },
               {
                 "answer": "B",
-                "description": "黃山片片石峰色彩繽紛，有如織錦"
+                "description": "$\\underline{黃山}$片片石峰色彩繽紛，有如織錦"
               },
               {
                 "answer": "C",
-                "description": "作者北上舊地重遊，乃因懷念黃山冬季美景"
+                "description": "作者北上舊地重遊，乃因懷念$\\underline{黃山}$冬季美景"
               },
               {
                 "answer": "D",
-                "description": "此遊窺得黃山奇景，作者心中因而喜愧交集"
+                "description": "此遊窺得$\\underline{黃山}$奇景，作者心中因而喜愧交集"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "文章最後一句提到「遊快且愧」符合 D 所描述的心境。A、C 皆為過度推論。\nC 並不符合實際情況，因為作者並沒有看過黃山奇景。"
           },
           {
             "type": "singleChoice",
             "number": 23,
-            "description": "往歲士人多尚對偶為文，穆脩、張景輩始為平文，當時謂之古文。穆、張嘗同造朝，適見有奔馬踐死一犬，二人各記其事。穆脩曰：「馬逸1，有黃犬遇蹄而斃。」張景曰：「有犬死奔馬之下。」時文體新變，二人之語皆拙澀，\n當時已謂之工，傳之至今。\n\n1.逸：奔跑根據這段文字，關於穆脩、張景針對奔馬踐死一犬的記事，下列敘述何者最恰當？",
+            "description": "往歲士人多尚對偶為文，$\\underline{穆脩}$、$\\underline{張景}$輩始為平文，當時謂之古文。$\\underline{穆}$、$\\underline{張}$嘗同造朝，適見有奔馬踐死一犬，二人各記其事。$\\underline{穆脩}$曰：「馬$逸_1$，有黃犬遇蹄而斃。」$\\underline{張景}$曰：「有犬死奔馬之下。」時文體新變，二人之語皆拙澀，\n當時已謂之工，傳之至今。\n\n根據這段文字，關於$\\underline{穆脩}$、$\\underline{張景}$針對奔馬踐死一犬的記事，下列敘述何者最恰當？\n\n📖 補充說明：\n1.逸：奔跑",
             "passing_rate": 0.51,
             "discrimination_index": 0.44,
             "choices": [
               {
                 "answer": "A",
-                "description": "穆脩記事只著眼於犬"
+                "description": "$\\underline{穆脩}$記事只著眼於犬"
               },
               {
                 "answer": "B",
-                "description": "張景記事只著眼於馬"
+                "description": "$\\underline{張景}$記事只著眼於馬"
               },
               {
                 "answer": "C",
@@ -607,21 +629,22 @@
               },
               {
                 "answer": "D",
-                "description": "二人用語皆為時人稱頌5"
+                "description": "二人用語皆為時人稱頌"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "(A)(B)並不正確，因為兩者皆著眼於犬與馬。\n(D)正確，因為最後一句說明「已謂之工，傳之至今」。"
           },
           {
             "type": "singleChoice",
             "number": 24,
-            "description": "「錢塘江石堤為洪濤所激，歲歲摧決。杜偉長為轉運使，人有獻說，自浙江稅場以東，移退數里為月堤，以避怒水。眾水工皆以為善，獨一老水工以為不然，\n密諭其黨：『移堤則歲無水患，吾等何所衣食？』眾人樂其利，乃從而和之。\n偉長不悟其計，費以巨萬，而江堤之害仍歲有之。」根據這段文字，下列敘述何者最恰當？",
+            "description": "「$\\underline{錢塘江}$石堤為洪濤所激，歲歲摧決。$\\underline{杜偉長}$為轉運使，人有獻說，自$\\underline{浙江}$稅場以東，移退數里為月堤，以避怒水。眾水工皆以為善，獨一老水工以為不然，密諭其黨：『移堤則歲無水患，吾等何所衣食？』眾人樂其利，乃從而和之。$\\underline{偉長}$不悟其計，費以巨萬，而江堤之害仍歲有之。」根據這段文字，下列敘述何者最恰當？",
             "passing_rate": 0.39,
             "discrimination_index": 0.34,
             "choices": [
               {
                 "answer": "A",
-                "description": "月堤耗時過久，使杜偉長浪費公帑"
+                "description": "月堤耗時過久，使$\\underline{杜偉長}$浪費公帑"
               },
               {
                 "answer": "B",
@@ -633,474 +656,531 @@
               },
               {
                 "answer": "D",
-                "description": "杜偉長堅持移堤，導致年年發生水患二、題組：（25 ～ 42題）\n請閱讀以下詩作，並回答25 ～ 26題："
+                "description": "$\\underline{杜偉長}堅持移堤，導致年年發生水患"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "文中題到移堤確實可以改善水患，但水工會沒工作，只有 B 符合題目描述的狀況。"
           },
           {
-            "type": "singleChoice",
-            "number": 25,
-            "description": "根據本詩，下列敘述何者最恰當？",
-            "passing_rate": 0.76,
-            "discrimination_index": 0.33,
-            "choices": [
+            "type": "groupChoice",
+            "description": "請閱讀以下詩作，並回答25 ～ 26題：",
+            "image": "112_chinese_25-26.png",
+            "options": [
               {
-                "answer": "A",
-                "description": "第一節顯示車行至八堵之後天氣不佳"
+                "number": 25,
+                "description": "根據本詩，下列敘述何者最恰當？",
+                "passing_rate": 0.76,
+                "discrimination_index": 0.33,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "第一節顯示車行至$\\underline{八堵}$之後天氣不佳"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "第二節說明作者此行目的地是$\\underline{暖暖}$"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "第三節可看出$\\underline{那那社}$名稱的由來"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "第四節點出作者珍惜當下的心境"
+                  }
+                ],
+                "correct_answer": "D",
+                "explanation": "(A) 天氣很好而非不佳。\n(B) 並非目的是暖暖，作者說這是「空檔」。\n(C) 詩並沒有說明那那社名稱由來。\n(D) 「暖暖」此二字暗示自己內心當中的溫暖以及想要珍惜當下的心情。"
               },
               {
-                "answer": "B",
-                "description": "第二節說明作者此行目的地是暖暖"
-              },
-              {
-                "answer": "C",
-                "description": "第三節可看出那那社名稱的由來"
-              },
-              {
-                "answer": "D",
-                "description": "第四節點出作者珍惜當下的心境"
+                "number": 26,
+                "description": "關於本詩的寫作手法，下列敘述何者$\\underline{\\underline{錯誤}}$？",
+                "passing_rate": 0.73,
+                "discrimination_index": 0.52,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "以天氣的變化象徵越來越沉重的心情"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "以重複出現的字詞形成詩歌的韻律"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "運用諧音及詞義的雙關增添詩意"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "預想尚未發生的情景收束全詩"
+                  }
+                ],
+                "correct_answer": "A",
+                "explanation": "(A)錯，此詩主要傳達的意境節奏明亮、強調珍惜當下的心情，而非強調越來越沉重的心情。"
               }
-            ],
-            "correct_answer": "D"
+            ]
           },
           {
-            "type": "singleChoice",
-            "number": 26,
-            "description": "關於本詩的寫作手法，下列敘述何者錯誤？",
-            "passing_rate": 0.73,
-            "discrimination_index": 0.52,
-            "choices": [
+            "type": "groupChoice",
+            "description": "以下圖文改寫自$\\underline{亞當．斯金納}$《運動大百科》，請閱讀並回答27 ～ 29題：\n\n挑戰勇氣的跳水，是世界上最吸睛的運動比賽之一。跳水選手必須體態優美且靈活。他們會從數公尺高的跳臺躍入水中，同時做出大膽的動作。首先，選手必須站上跳臺，以直立或倒立的姿勢起跳。而有些比賽採用跳板起跳，可以輔助跳水者跳得更高，騰空的時間更久。跳水選手會在身體開始下降時，表演一系列抱膝、旋轉、騰翻、轉體與其他大膽精巧的動作，最後盡可能的順暢入水。歷史上有紀錄的第一場跳水比賽是在 1871 年舉行，當時的選手要從$\\underline{倫敦橋}$跳下$\\underline{泰晤士河}$。現今的跳水有個人比賽，也有雙人比賽。",
+            "image": "112_chinese_27-29.png",
+            "options": [
               {
-                "answer": "A",
-                "description": "以天氣的變化象徵越來越沉重的心情"
+                "number": 27,
+                "description": "根據圖文，下列關於跳水比賽的敘述，何者最恰當？",
+                "passing_rate": 0.94,
+                "discrimination_index": 0.41,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "入水時水花的大小會影響分數高低"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "史上第一場跳水比賽是在室內舉行"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "奧運比賽的雙人賽必須配置7名評審"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "使用跳板起跳就可以獲得比較高的分數"
+                  }
+                ],
+                "correct_answer": "A",
+                "explanation": "(B)是在室外 (C)雙人賽 11 位評審 (D)並非如此"
               },
               {
-                "answer": "B",
-                "description": "以重複出現的字詞形成詩歌的韻律"
+                "number": 28,
+                "description": "根據圖文，下列關於跳水比賽規則的敘述，何者最恰當？",
+                "passing_rate": 0.9,
+                "discrimination_index": 0.46,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "毋須採計每一跳的得分，可擇優計算最後成績"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "選手完成一次跳水，每名評審最高只能給 10 分"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "若完成的動作比預定的難度更高，分數也會越高"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "選手每一跳須完成的難度係數，由現場抽籤決定"
+                  }
+                ],
+                "correct_answer": "B",
+                "explanation": "(B)符合題目說明，其他皆為過度推論。"
               },
               {
-                "answer": "C",
-                "description": "運用諧音及詞義的雙關增添詩意"
-              },
-              {
-                "answer": "D",
-                "description": "預想尚未發生的情景收束全詩以下圖文改寫自亞當．斯金納《運動大百科》，請閱讀並回答27 ～ 29題：\n7"
+                "number": 29,
+                "description": "亞當是奧運跳水個人賽選手，他在比賽時某次的動作難度係數是 3.0，當他完成後，評審團給的分數表如下：\n\n根據圖文，亞當此次跳水得分的計算方式應是下列何者？",
+                "image": "112_chinese_29.png",
+                "passing_rate": 0.82,
+                "discrimination_index": 0.53,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "$(7+7+7) \\times 3.0$"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "$(7+7+8) \\times 3.$0"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "$(7+8+8) \\times 3.0$"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "$(8+7+9) \\times 3.0$"
+                  }
+                ],
+                "correct_answer": "C",
+                "explanation": "兩個最高與兩個最低的不計，再乘上難度係數。"
               }
-            ],
-            "correct_answer": "A"
+            ]
           },
           {
-            "type": "singleChoice",
-            "number": 27,
-            "description": "根據圖文，下列關於跳水比賽的敘述，何者最恰當？",
-            "passing_rate": 0.94,
-            "discrimination_index": 0.41,
-            "choices": [
+            "type": "groupChoice",
+            "description": "請閱讀以下短文，並回答30 ～ 31題：\n\n    寒假期間的圖書館，呈現一種難得的閒逸姿態。這一棟半圓形的八層樓建築，環壁皆書，中間留下跟應用坪數相等的半圓形空間。從五樓俯望，偌大的建築顯得十分空洞。陰冷盤踞了多餘的空間，恍如進入一座潔淨，但森冷的納骨塔。整齊有序的書本，宛如一個個編號的骨灰罈，罈子裡都裝載著作者的魂。也許讀書的心都冬眠去了，這些思考宇宙大道，辯解生命本質的沉重書魂，都顯得有些黯然。\n    我通過文字開啟深邃寬廣的知識世界，同時釋放囚在罈子裡的書魂。我們的交談安靜而無聲。這種滅音的交談沒有負擔，對方的想法不盡完善，就在架上搜尋互為補強的觀點，讓不同意見的寄魂去辯駁。年輕的書魂總是按捺不住脾氣，氣勢凌厲且偏激；老書魂則不動如山，總能敗部復活，在逆境裡扭轉乾坤。讀書比看戲更令人著迷，難怪有不少讀者活著的時候就心甘情願把自己埋進納骨塔，想來精彩的書還真有勾魂攝魄的魅力。\n\n——改寫自$\\underline{鍾怡雯}$〈藏魂〉",
+            "options": [
               {
-                "answer": "A",
-                "description": "入水時水花的大小會影響分數高低"
+                "number": 30,
+                "description": "文中「活著的時候就心甘情願把自己埋進納骨塔」的涵義，與下列何者最接近？",
+                "passing_rate": 0.78,
+                "discrimination_index": 0.57,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "獲得精神食糧，沉浸書堆"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "倡導終身學習，推廣閱讀"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "喪失生命熱情，心如死灰"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "甘心隱姓埋名，不慕榮利"
+                  }
+                ],
+                "correct_answer": "A",
+                "explanation": "作者描述喜歡看書的心情，「骨塔」是譬喻唸書時候情境，故為 A。"
               },
               {
-                "answer": "B",
-                "description": "史上第一場跳水比賽是在室內舉行"
-              },
-              {
-                "answer": "C",
-                "description": "奧運比賽的雙人賽必須配置7名評審"
-              },
-              {
-                "answer": "D",
-                "description": "使用跳板起跳就可以獲得比較高的分數"
+                "number": 31,
+                "description": "關於本文的寫作手法，下列敘述何者最恰當？",
+                "passing_rate": 0.79,
+                "discrimination_index": 0.51,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "藉由宏偉的建築，對比個人的渺小"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "以不同年齡層的閱讀習慣，凸顯世代差異"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "將靜態的閱讀比擬為交談，產生動態的效果"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "視線推移自室內延伸至室外，強調知識的寬廣"
+                  }
+                ],
+                "correct_answer": "C",
+                "explanation": "文章強調唸書的時候與作者互動的情況、並且將閱讀比擬為與作者的靈魂交談，故為 C。"
               }
-            ],
-            "correct_answer": "A"
+            ]
           },
           {
-            "type": "singleChoice",
-            "number": 28,
-            "description": "根據圖文，下列關於跳水比賽規則的敘述，何者最恰當？",
-            "passing_rate": 0.9,
-            "discrimination_index": 0.46,
-            "choices": [
+            "type": "groupChoice",
+            "description": "請閲讀以下兩篇短文，並回答32 ～ 33題：\n【甲】\n    1968 年$\\underline{霍普}$創辦$\\underline{月球大使館公司}$，推出購買月球土地的服務，只要 19.99 $\\underline{美}$元就能買下月球上的一$\\underline{英}$畝土地。這間位於$\\underline{內華達州}$的公司宣稱握有好幾個星體的土地產權。\n   $\\underline{霍普}$創立公司時正值失業、離婚，一切都糟透了。當時他想，如果他有土地，狀況或許會好一點。$\\underline{霍普}$回憶：「接著我看到了月亮，我想著，那裡有好多土地啊。」\n   於是$\\underline{霍普}$調查《外太空條約》，發現條約僅明文禁止地球的國家主張其他星球的土地所有權，卻未規範私營公司。在當時，沒人想到會有公司這麼做。於是$\\underline{霍普}$飛奔去跑流程，而且從未有任何地球政府挑戰他販賣外太空地產的權限。\n—— 改寫自$\\underline{樂羽嘉}$〈你真的能買下月球的土地嗎？〉 \n【乙】\n    1969 年$\\underline{美國}$太空人$\\underline{阿姆斯壯}$在月球上踏出人類的第一步，在此之前的兩年，$\\underline{聯合國大會}$才通過《外太空條約》並開放各國簽署，至今已有超過 100 個國家簽署。條約規定必須和平進行太空探索，並造福所有國家。此條約也提到，所有的締約國都不可以主張天體的所有權，並要求締約國不可破壞他國的探測器或基地，例如不能降落在這些物體之上或附近。但這也產生了漏洞，讓國家或私人企業能以先占先贏的手段獨占有利的地點。\n   2016 年，$\\underline{美國}$天文物理學家$\\underline{艾維斯}$在《太空政策》期刊上提到：國家或私人企業都不能主張月球土地的所有權，否則將會引發「瓜分月球」效應，在某些方面就像 1880 年代許多國家開始「瓜分$\\underline{非洲}$」，在$\\underline{剛果}$爭相主張礦物資源的所有權 一樣。\n—— 改寫自$\\underline{曼恩}$〈月球土地先占先贏〉",
+            "options": [
               {
-                "answer": "A",
-                "description": "毋須採計每一跳的得分，可擇優計算最後成績"
+                "number": 32,
+                "description": "根據甲、乙兩文，下列敘述何者最恰當？",
+                "passing_rate": 0.78,
+                "discrimination_index": 0.57,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "1880 年代$\\underline{剛果}$曾提出瓜分$\\underline{非洲}$礦產的主張"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "$\\underline{月球大使館公司}$成立時，人類尚未踏上月球"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "沒人能挑戰$\\underline{霍普}$販賣月球地產是因《太空政策》期刊的論文"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "國家需實際登陸月球後，方可成為《外太空條約》的締約國"
+                  }
+                ],
+                "correct_answer": "B",
+                "explanation": "(B)1968 年才踏到月球，因此 1968 成立月球大使館前，人類並未踏上月球，其他皆為過度推論。"
               },
               {
-                "answer": "B",
-                "description": "選手完成一次跳水，每名評審最高只能給 10 分"
-              },
-              {
-                "answer": "C",
-                "description": "若完成的動作比預定的難度更高，分數也會越高"
-              },
-              {
-                "answer": "D",
-                "description": "選手每一跳須完成的難度係數，由現場抽籤決定"
+                "number": 33,
+                "description": "$\\underline{小貞}$讀過甲、乙兩文後，發現甲文中的$\\underline{霍普}$與乙文中的$\\underline{艾維斯}$對某項議題有歧見，這項議題最可能是下列何者？",
+                "passing_rate": 0.82,
+                "discrimination_index": 0.55,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "太空探索是否應以和平進行為原則"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "國家是否可以獨占有利的登月地點"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "私人是否可以主張月球土地的所有權"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "非締約國是否可以破壞他國的探測器"
+                  }
+                ],
+                "correct_answer": "C",
+                "explanation": "(C)前者認為私人可能有太空地產的權限，但是後者不認為任何國家或私人企業可以主張有月球土地的擁有權。"
               }
-            ],
-            "correct_answer": "B"
+            ]
           },
           {
-            "type": "singleChoice",
-            "number": 29,
-            "description": "亞當是奧運跳水個人賽選手，他在比賽時某次的動作難度係數是 3.0，當他完成後，評審團給的分數表如下：\n評審一評審二\n評審三評審四\n評審五評審六\n評審七7分\n8分8分\n7分9分\n7分9分\n根據圖文，亞當此次跳水得分的計算方式應是下列何者？\n( 7 + 7 + 7 ) × 3.0 \n( 7 + 7 + 8 ) × 3.0\n( 7 + 8 + 8 ) × 3.0 \n( 8 + 7 + 9 ) × 3.0",
-            "passing_rate": 0.82,
-            "discrimination_index": 0.53,
-            "choices": [
+            "type": "groupChoice",
+            "description": "    「隱私」是一種多元流動的概念，窗簾代表一種隱私，提款卡密碼是一種隱私，筆電防窺貼片是一種隱私。在我讀高中的年代，「隱私」意謂著上鎖的日記本、父母進房間前先敲門。\n    如今在網路上，瀏覽紀錄、按讚喜好、地理位置、基本個資等這些看不到的數據，都是商業可變現、政治可操縱的黑箱資料。\n    以往，我們常嘲笑將網站密碼設為「1234」或自己生日的朋友，然而，真實世界更幽微：\n    你是否知道，Google的智慧音箱、臉書的語音通話，都被他們錄下來，並交由人力聽取並抄錄，理由是「優化人工智慧」？\n    你是否知道，YouTube因未經監護人同意，違法蒐集兒童隱私，被$\\underline{美國}$政府重罰？\n   你是否知道，看似無關隱私的掃地機器人龍頭iRobot，執行長一度動念將機器人蒐集的用戶住家平面圖出售作為「智慧家庭」的數據資料庫，後因輿論反彈才作罷？\n    這些例子，說明數位時代「隱私」的高度複雜性，更別提，我們點閱特定產品網頁後，不管逛到哪個網站，同一產品廣告如影隨形。未來可能無論我們走到哪裡，戶外廣告牆會自動掃描每個人的眼球，播放符合個人興趣特徵的廣告。\n    關於網路隱私，當前最重要的挑戰是，當我們同意使用某一網路服務，形同自願交出私密資料。然而，我們完全不知道，誰可能取得這些資料，又會用在哪些地方？\n——改寫自$\\underline{黃哲斌}$〈個資可以吃嗎？給現代公民的網路隱私守則〉            ",
+            "options": [
               {
-                "answer": "A"
+                "number": 34,
+                "description": "根據本文，下列敘述何者最恰當？",
+                "passing_rate": 0.81,
+                "discrimination_index": 0.58,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "「智慧家庭」的數據資料庫能保護網路隱私"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "網路上的瀏覽紀錄、按讚喜好具有商業價值"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "只要設好高強度的密碼，就不用擔心個資外洩"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "「優化人工智慧」是指電腦全面取代人類工作"
+                  }
+                ],
+                "correct_answer": "B",
+                "explanation": "(B)正確，有提到每一個人的瀏覽紀錄可以具有商業價值。(A)、(C)文章說的事實不符。\n(D)選項中說的優化人工智慧與文章所提的並不相符。"
               },
               {
-                "answer": "B"
-              },
-              {
-                "answer": "C"
-              },
-              {
-                "answer": "D"
+                "number": 35,
+                "description": "下列何者最符合本文的觀點？",
+                "passing_rate": 0.85,
+                "discrimination_index": 0.54,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "廣告客製化意謂著消費者主導了市場走向"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "生活中使用網路服務，其實是用隱私換來的"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "企業與政府受到輿論壓力而開始保護個人資料"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "科技日新月異，可以保護我們的隱私不受侵犯"
+                  }
+                ],
+                "correct_answer": "B",
+                "explanation": "文章大量提到隱私權被侵犯以提供商業利益的例子，B 最符合本文的觀點。"
               }
-            ],
-            "correct_answer": "C"
+            ]
           },
           {
-            "type": "singleChoice",
-            "number": 30,
-            "description": "文中「活著的時候就心甘情願把自己埋進納骨塔」的涵義，與下列何者最接近？",
-            "passing_rate": 0.78,
-            "discrimination_index": 0.57,
-            "choices": [
+            "type": "groupChoice",
+            "description": "    名畫〈拿破崙的加冕禮〉現藏於$\\underline{羅浮宮}$，由首席宮廷繪師$\\underline{雅克路易．大衛}$在加冕禮隔年開始起草，約兩年多完成。\n    過去25代的$\\underline{法國}$國王都在$\\underline{巴黎}$東北方的$\\underline{蘭斯聖母院大教堂}$加冕。但$\\underline{拿破崙}$不願意被當成$\\underline{波旁王朝}$的繼承者，而自稱為「法國人的皇帝」，因此拒絕在蘭斯加冕，選擇在$\\underline{巴黎聖母院}$舉行加冕。同時仿效一千多年前的「$\\underline{羅馬}$人的皇帝」$\\underline{查理曼大帝}$，由$\\underline{羅馬}$教皇$\\underline{庇護七世}$主持，而不是$\\underline{蘭斯}$大主教。\n   當年$\\underline{查理曼大帝}$都還是親自前往$\\underline{梵蒂岡}$，$\\underline{拿破崙}$卻要求教皇至$\\underline{巴黎}$主持加冕典禮。在大典開始前，$\\underline{拿破崙}$已經身著絳紅色皇袍，頭戴金質$\\underline{羅馬}$式的桂冠，手持權杖，且未等教皇拿祭壇上的皇冠，就自己戴上，接著又親手為皇后$\\underline{約瑟芬}$授冠。但對教會如此傲慢的態度，若如實畫出，真的好嗎？因此$\\underline{大衛}$決定採用皇帝給皇后加冕的畫面，而不談誰為$\\underline{拿破崙}$加冕。\n   畫面的正中央是代表神權的十字架。從十字架、$\\underline{拿破崙}$、教皇由高到低的位置可看出$\\underline{拿破崙}$成了領軍人物，他跳過了代理神權的教會中介，直接實現了君權神授的完美結合。畫中$\\underline{拿破崙}$替皇后$\\underline{約瑟芬}$加冕，教皇$\\underline{庇護七世}$坐在$\\underline{拿破崙}$身後，面色凝重，但從教皇舉起的右手，還是可看出他正在為這一場面祝福。但這畫面仍有$\\underline{大衛}$虛構之處：當時$\\underline{拿破崙}$的母親根本沒有出席，也一併被畫在畫作裡。後來成為$\\underline{法國}$皇太后的她十分反對加冕典禮，擔憂兒子稱帝後將引發許多恐怖之事，因此遠走$\\underline{米蘭}$，在典禮結束後才回$\\underline{巴黎}$，將皇太后放入畫中是$\\underline{拿破崙}$本人提出的要求。至於畫作主角$\\underline{拿破崙}$，畫裡的他成了體型瘦高的男子，這自然是為了迎合身型矮小的$\\underline{拿破崙}$的虛榮心，好宣揚其驍勇善戰的英勇姿態，及帝王居高臨下、無人能左右的威權。\n——改寫自$\\underline{中野京子}$《療癒羅浮宮》",
+            "options": [
               {
-                "answer": "A",
-                "description": "獲得精神食糧，沉浸書堆"
+                "number": 36,
+                "description": "根據本文，拿破崙選擇在巴黎聖母院加冕的原因，最可能是下列何者？",
+                "passing_rate": 0.57,
+                "discrimination_index": 0.48,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "仿效查理曼大帝的做法"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "承襲歷代法國王室的傳統"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "強調自己是新帝國的開創者"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "希望由教皇而非蘭斯大主教加冕"
+                  }
+                ],
+                "correct_answer": "C",
+                "explanation": "最後一段說拿破崙想強調自己「帝王居高臨下，無人能左右的威權」符合 C 的說法。"
               },
               {
-                "answer": "B",
-                "description": "倡導終身學習，推廣閱讀"
+                "number": 37,
+                "description": "根據本文，大衛選擇採用拿破崙為約瑟芬加冕的畫面，原因最可能是下列何者？",
+                "passing_rate": 0.64,
+                "discrimination_index": 0.6,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "強調皇后的重要性"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "避免損及教廷顏面"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "滿足拿破崙的虛榮"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "聽從拿破崙的指示"
+                  }
+                ],
+                "correct_answer": "B",
+                "explanation": "文章提到「對教會如此傲慢的態度，若如實畫出，真的好嗎？因此大衛決定採用皇帝給皇后加冕的畫面，而不談誰為拿破崙加冕。」符合 B 的敘述。"
               },
               {
-                "answer": "C",
-                "description": "喪失生命熱情，心如死灰"
-              },
-              {
-                "answer": "D",
-                "description": "甘心隱姓埋名，不慕榮利"
+                "number": 38,
+                "description": "小銘畫了以下這張〈拿破崙的加冕禮〉的模擬圖，根據本文對雅克路易．大衛原畫的描述，小銘的模擬圖與原畫相比後有明顯的錯誤，下列何者最可能是這個錯誤？",
+                "image": "112_chinese_38.png",
+                "passing_rate": 0.75,
+                "discrimination_index": 0.52,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "十字架擺放的位置"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "拿破崙加冕的對象"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "教皇給予祝福的手"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "拿破崙母親的出席"
+                  }
+                ],
+                "correct_answer": "A",
+                "explanation": "文章提到「十字架、拿破崙、教皇」由高而低，十字架擺放的位置與圖案不符。"
               }
-            ],
-            "correct_answer": "A"
+            ]
           },
           {
-            "type": "singleChoice",
-            "number": 31,
-            "description": "關於本文的寫作手法，下列敘述何者最恰當？",
-            "passing_rate": 0.79,
-            "discrimination_index": 0.51,
-            "choices": [
+            "type": "groupChoice",
+            "description": "    大將軍$\\underline{仇鸞}$，始為$\\underline{曾銑}$所劾，欲倚$\\underline{嚴嵩}$以抗$\\underline{曾銑}$，故約為父子。已而$\\underline{鸞}$得帝重，$\\underline{嵩}$猶視之若子，遂浸相惡。$\\underline{嵩}$密疏毀$\\underline{鸞}$，帝不聽，而頗納$\\underline{鸞}$所陳$\\underline{嵩}$父子過，少疏之。$\\underline{嵩}$當入值，不召者數矣。$\\underline{嵩}$見$\\underline{徐階}$、$\\underline{李本}$入西$內_1$，即與俱入。至$\\underline{西華門}$，門者以非詔旨格之。$\\underline{嵩}$還第，父子對泣。時$\\underline{陸炳}$掌錦衣，與$\\underline{鸞}$爭寵，$\\underline{嵩}$乃結$\\underline{炳}$共圖$\\underline{鸞}$。會$\\underline{鸞}$病死，$\\underline{炳}$訐$\\underline{鸞}$陰事，帝追戮之。於是益信任$\\underline{嵩}$，遣所乘龍舟過海子召$\\underline{嵩}$，載值西內如故。\n——改寫自《明史．奸臣》\n\n📖 補充說明：\n1.內：宮廷",
+            "options": [
               {
-                "answer": "A",
-                "description": "藉由宏偉的建築，對比個人的渺小"
+                "number": 39,
+                "description": "根據本文，下列何者最可能是$\\underline{仇鸞}$與$\\underline{嚴嵩}$一開始交惡的原因？",
+                "passing_rate": 0.55,
+                "discrimination_index": 0.51,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "$\\underline{嚴嵩}$私下上奏，詆毀$\\underline{仇鸞}$"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "$\\underline{嚴嵩}$與曾銑結盟，疏遠$\\underline{仇鸞}$"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "$\\underline{仇鸞}$向皇帝稟告$\\underline{嚴嵩}$父子的罪行"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "$\\underline{仇鸞}$權位日重，不願$\\underline{嚴嵩}$仍以子視之"
+                  }
+                ],
+                "correct_answer": "D",
+                "explanation": "「已而鸞得帝重，嵩猶視之若子，遂浸相惡」符合 D 的描述。"
               },
               {
-                "answer": "B",
-                "description": "以不同年齡層的閱讀習慣，凸顯世代差異"
-              },
-              {
-                "answer": "C",
-                "description": "將靜態的閱讀比擬為交談，產生動態的效果"
-              },
-              {
-                "answer": "D",
-                "description": "視線推移自室內延伸至室外，強調知識的寬廣請閲讀以下兩篇短文，並回答32 ～ 33題：\n【甲】\n1968 年霍普創辦月球大使館公司，推出購買月球土地的服務，只要19.99美元就能買下月球上的一英畝土地。這間位於內華達州的公司宣稱握有好幾個星體的土地產權。\n霍普創立公司時正值失業、離婚，一切都糟透了。當時他想，如果他有土地，狀況或許會好一點。霍普回憶：「接著我看到了月亮，我想著，那裡有好多土地啊。」\n於是霍普調查《外太空條約》，發現條約僅明文禁止地球的國家主張其他星球的土地所有權，卻未規範私營公司。在當時，沒人想到會有公司這麼做。於是霍普飛奔去跑流程，而且從未有任何地球政府挑戰他販賣外太空地產的權限。\n—— 改寫自樂羽嘉〈你真的能買下月球的土地嗎？〉 \n【乙】\n1969 年美國太空人阿姆斯壯在月球上踏出人類的第一步，在此之前的兩年，\n聯合國大會才通過《外太空條約》並開放各國簽署，至今已有超過 100 個國家簽署。條約規定必須和平進行太空探索，並造福所有國家。此條約也提到，所有的締約國都不可以主張天體的所有權，並要求締約國不可破壞他國的探測器或基地，例如不能降落在這些物體之上或附近。但這也產生了漏洞，讓國家或私人企業能以先占先贏的手段獨占有利的地點。\n2016 年，美國天文物理學家艾維斯在《太空政策》期刊上提到：國家或私人企業都不能主張月球土地的所有權，否則將會引發「瓜分月球」效應，在某些方面就像 1880 年代許多國家開始「瓜分非洲」，在剛果爭相主張礦物資源的所有權 \n一樣。\n—— 改寫自曼恩〈月球土地先占先贏〉"
+                "number": 40,
+                "description": "下列文句的解說，何者最恰當？",
+                "passing_rate": 0.49,
+                "discrimination_index": 0.46,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "門者以非詔旨格之：守門者將$\\underline{徐階}$、$\\underline{李本}$擋下"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "$\\underline{嵩}$還第，父子對泣：$\\underline{嚴嵩}$與$\\underline{仇鸞}$兩人盡釋前嫌"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "$\\underline{炳}$訐$\\underline{鸞}$陰事，帝追戮之：皇帝認為$\\underline{陸炳}$毀謗死者，憤而殺之"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "遣所乘龍舟過海子召$\\underline{嵩}$：皇帝以高規格召回$\\underline{嚴嵩}$，以示禮遇"
+                  }
+                ],
+                "correct_answer": "D",
+                "explanation": "(A) 徐階、李本有進入。\n(B) 並無如此，後面有說嵩與炳共圖鶯鸞。\n(C) 並非因為誹謗死者而殺之。\n(D) 正確"
               }
-            ],
-            "correct_answer": "C"
+            ]
           },
           {
-            "type": "singleChoice",
-            "number": 32,
-            "description": "根據甲、乙兩文，下列敘述何者最恰當？",
-            "passing_rate": 0.78,
-            "discrimination_index": 0.57,
-            "choices": [
+            "type": "groupChoice",
+            "description": "    $\\underline{楊朱}$見$\\underline{梁王}$，言治天下如運諸掌。$\\underline{梁王}$曰：「先生有三畝之園而不能耘，而言治天下如運諸掌，何也？」對曰：「君不見牧羊者乎？百羊而群，使五尺童子荷杖隨之，欲東而東，欲西而西。使$\\underline{堯}$牽一羊，$\\underline{舜}$荷杖隨之，則不能前矣。且臣聞之：吞舟之魚，不游支流；鴻鵠高飛，不集汙池。何則？其志遠也。黃鐘大呂不可從繁奏之舞。何則？其音疏也。將治大者不治細，成大功者不成小，此之謂矣。」\n——改寫自《列子．楊朱》",
+            "options": [
               {
-                "answer": "A",
-                "description": "1880年代剛果曾提出瓜分非洲礦產的主張"
+                "number": 41,
+                "description": "根據本文，關於梁王與楊朱的敘述，下列何者最恰當？",
+                "passing_rate": 0.48,
+                "discrimination_index": 0.42,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "梁王認為治理天下應重視禮樂之道"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "梁王質疑楊朱是否具有治理天下的能力"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "楊朱貶抑堯、舜，能治天下卻不能牧羊"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "楊朱以牧羊為例，說明治天下須從小事做起"
+                  }
+                ],
+                "correct_answer": "B",
+                "explanation": "(A)文中並沒說梁王認為治理天下要怎樣。\n(B)梁王質疑楊朱連三畝的園都管理不好怎麼可能能治理天下，符合文章的情況。\n(C)牧羊只是譬喻，並沒有說堯舜會不會牧羊。\n(D)他想說會作大事的人會不拘小節，並非如 D 所述。"
               },
               {
-                "answer": "B",
-                "description": "月球大使館公司成立時，人類尚未踏上月球"
-              },
-              {
-                "answer": "C",
-                "description": "沒人能挑戰霍普販賣月球地產是因《太空政策》期刊的論文"
-              },
-              {
-                "answer": "D",
-                "description": "國家需實際登陸月球後，方可成為《外太空條約》的締約國"
+                "number": 42,
+                "description": "下列文句，何者最能呼應文中「吞舟之魚，不游支流；鴻鵠高飛，不集汙池」的涵義？",
+                "passing_rate": 0.41,
+                "discrimination_index": 0.43,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "狡兔死，良狗烹；高鳥盡，良弓藏"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "高飛之鳥，死於美食；深泉之魚，死於芳餌"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "騏驥千里，一日而達；駑馬十駕，旬亦至之"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "剖三寸之蚌，難得明月之珠；探枳棘之巢，難求鳳凰之雛14"
+                  }
+                ],
+                "correct_answer": "D",
+                "explanation": "(D)此句藉由對比的手法呈現「高貴的東西」與「不高貴的東西」根本不同鄉比較，與 D 的意思最為類似。"
               }
-            ],
-            "correct_answer": "B"
-          },
-          {
-            "type": "singleChoice",
-            "number": 33,
-            "description": "小貞讀過甲、乙兩文後，發現甲文中的霍普與乙文中的艾維斯對某項議題有 \n歧見，這項議題最可能是下列何者？",
-            "passing_rate": 0.82,
-            "discrimination_index": 0.55,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "太空探索是否應以和平進行為原則"
-              },
-              {
-                "answer": "B",
-                "description": "國家是否可以獨占有利的登月地點"
-              },
-              {
-                "answer": "C",
-                "description": "私人是否可以主張月球土地的所有權"
-              },
-              {
-                "answer": "D",
-                "description": "非締約國是否可以破壞他國的探測器9"
-              }
-            ],
-            "correct_answer": "C"
-          },
-          {
-            "type": "singleChoice",
-            "number": 34,
-            "description": "根據本文，下列敘述何者最恰當？",
-            "passing_rate": 0.81,
-            "discrimination_index": 0.58,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "「智慧家庭」的數據資料庫能保護網路隱私"
-              },
-              {
-                "answer": "B",
-                "description": "網路上的瀏覽紀錄、按讚喜好具有商業價值"
-              },
-              {
-                "answer": "C",
-                "description": "只要設好高強度的密碼，就不用擔心個資外洩"
-              },
-              {
-                "answer": "D",
-                "description": "「優化人工智慧」是指電腦全面取代人類工作"
-              }
-            ],
-            "correct_answer": "B"
-          },
-          {
-            "type": "singleChoice",
-            "number": 35,
-            "description": "下列何者最符合本文的觀點？",
-            "passing_rate": 0.85,
-            "discrimination_index": 0.54,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "廣告客製化意謂著消費者主導了市場走向"
-              },
-              {
-                "answer": "B",
-                "description": "生活中使用網路服務，其實是用隱私換來的"
-              },
-              {
-                "answer": "C",
-                "description": "企業與政府受到輿論壓力而開始保護個人資料"
-              },
-              {
-                "answer": "D",
-                "description": "科技日新月異，可以保護我們的隱私不受侵犯"
-              }
-            ],
-            "correct_answer": "B"
-          },
-          {
-            "type": "singleChoice",
-            "number": 36,
-            "description": "根據本文，拿破崙選擇在巴黎聖母院加冕的原因，最可能是下列何者？",
-            "passing_rate": 0.57,
-            "discrimination_index": 0.48,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "仿效查理曼大帝的做法"
-              },
-              {
-                "answer": "B",
-                "description": "承襲歷代法國王室的傳統"
-              },
-              {
-                "answer": "C",
-                "description": "強調自己是新帝國的開創者"
-              },
-              {
-                "answer": "D",
-                "description": "希望由教皇而非蘭斯大主教加冕"
-              }
-            ],
-            "correct_answer": "C"
-          },
-          {
-            "type": "singleChoice",
-            "number": 37,
-            "description": "根據本文，大衛選擇採用拿破崙為約瑟芬加冕的畫面，原因最可能是下列何者？",
-            "passing_rate": 0.64,
-            "discrimination_index": 0.6,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "強調皇后的重要性"
-              },
-              {
-                "answer": "B",
-                "description": "避免損及教廷顏面"
-              },
-              {
-                "answer": "C",
-                "description": "滿足拿破崙的虛榮"
-              },
-              {
-                "answer": "D",
-                "description": "聽從拿破崙的指示11"
-              }
-            ],
-            "correct_answer": "B"
-          },
-          {
-            "type": "singleChoice",
-            "number": 38,
-            "description": "小銘畫了以下這張〈拿破崙的加冕禮〉的模擬圖，根據本文對雅克路易．大衛原畫的描述，小銘的模擬圖與原畫相比後有明顯的錯誤，下列何者最可能是這個錯誤？",
-            "passing_rate": 0.75,
-            "discrimination_index": 0.52,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "十字架擺放的位置"
-              },
-              {
-                "answer": "B",
-                "description": "拿破崙加冕的對象"
-              },
-              {
-                "answer": "C",
-                "description": "教皇給予祝福的手"
-              },
-              {
-                "answer": "D",
-                "description": "拿破崙母親的出席11.內：宮廷"
-              }
-            ],
-            "correct_answer": "A"
-          },
-          {
-            "type": "singleChoice",
-            "number": 39,
-            "description": "根據本文，下列何者最可能是仇鸞與嚴嵩一開始交惡的原因？",
-            "passing_rate": 0.55,
-            "discrimination_index": 0.51,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "嚴嵩私下上奏，詆毀仇鸞"
-              },
-              {
-                "answer": "B",
-                "description": "嚴嵩與曾銑結盟，疏遠仇鸞"
-              },
-              {
-                "answer": "C",
-                "description": "仇鸞向皇帝稟告嚴嵩父子的罪行"
-              },
-              {
-                "answer": "D",
-                "description": "仇鸞權位日重，不願嚴嵩仍以子視之"
-              }
-            ],
-            "correct_answer": "D"
-          },
-          {
-            "type": "singleChoice",
-            "number": 40,
-            "description": "下列文句的解說，何者最恰當？",
-            "passing_rate": 0.49,
-            "discrimination_index": 0.46,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "門者以非詔旨格之：守門者將徐階、李本擋下"
-              },
-              {
-                "answer": "B",
-                "description": "嵩還第，父子對泣：嚴嵩與仇鸞兩人盡釋前嫌"
-              },
-              {
-                "answer": "C",
-                "description": "炳訐鸞陰事，帝追戮之：皇帝認為陸炳毀謗死者，憤而殺之"
-              },
-              {
-                "answer": "D",
-                "description": "遣所乘龍舟過海子召嵩：皇帝以高規格召回嚴嵩，以示禮遇13"
-              }
-            ],
-            "correct_answer": "D"
-          },
-          {
-            "type": "singleChoice",
-            "number": 41,
-            "description": "根據本文，關於梁王與楊朱的敘述，下列何者最恰當？",
-            "passing_rate": 0.48,
-            "discrimination_index": 0.42,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "梁王認為治理天下應重視禮樂之道"
-              },
-              {
-                "answer": "B",
-                "description": "梁王質疑楊朱是否具有治理天下的能力"
-              },
-              {
-                "answer": "C",
-                "description": "楊朱貶抑堯、舜，能治天下卻不能牧羊"
-              },
-              {
-                "answer": "D",
-                "description": "楊朱以牧羊為例，說明治天下須從小事做起"
-              }
-            ],
-            "correct_answer": "B"
-          },
-          {
-            "type": "singleChoice",
-            "number": 42,
-            "description": "下列文句，何者最能呼應文中「吞舟之魚，不游支流；鴻鵠高飛，不集汙池」\n的涵義？",
-            "passing_rate": 0.41,
-            "discrimination_index": 0.43,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "狡兔死，良狗烹；高鳥盡，良弓藏"
-              },
-              {
-                "answer": "B",
-                "description": "高飛之鳥，死於美食；深泉之魚，死於芳餌"
-              },
-              {
-                "answer": "C",
-                "description": "騏驥千里，一日而達；駑馬十駕，旬亦至之"
-              },
-              {
-                "answer": "D",
-                "description": "剖三寸之蚌，難得明月之珠；探枳棘之巢，難求鳳凰之雛14"
-              }
-            ],
-            "correct_answer": "D"
+            ]
           }
         ]
       },
