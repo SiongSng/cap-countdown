@@ -273,7 +273,8 @@ def save_parse_result(exams: list[Exam]):
 
 def fix_question_text(text: str) -> str:
     text = re.sub(r"(\w+)\n(\w+)", r"\1\2", text)
-    text = re.sub(r"(\w+)\d\n請翻頁繼續作答", r"\1", text)
-    text = re.sub(r" \n\d請翻頁繼續作答", r"", text)
+    text = re.sub(r"(\w+)\d+\n請翻頁繼續作答", r"\1", text)
+    text = re.sub(r"\n\d+請翻頁繼續作答", r"", text)
+    text = re.sub(r"請翻頁繼續作答(\n?)\d+", r"", text)
 
     return text.strip()
