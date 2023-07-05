@@ -3122,7 +3122,7 @@
               }
             ],
             "correct_answer": "D",
-            "explanation": "若一一元二次方程式為 $ax^2+bx+c=0$，則其公式解為 $x =\\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$\n令 $a=3$ 、 $b=-11$ 、 $c=-1 代入公式解\n$\\Rightarrow$$x =\\frac{-(-11) \\pm \\sqrt{(-11)^2-4\\times3\\times(-1)}}{2\\times3}$\n$\\Rightarrow$$x =\\frac{11 \\pm \\sqrt{121-(-12)}}{6}$\n$\\Rightarrow$$x =\\frac{11 \\pm \\sqrt{133)}}{6}$\n又a>b，得$a =\\frac{11 + \\sqrt{133)}}{6}$\n故選D"
+            "explanation": "若一一元二次方程式為 $ax^2+bx+c=0$，則其公式解為 $x =\\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$\n令 $a=3$ 、 $b=-11$ 、 $c=-1$ 代入公式解\n$\\Rightarrow$$x =\\frac{-(-11) \\pm \\sqrt{(-11)^2-4\\times3\\times(-1)}}{2\\times3}$\n$\\Rightarrow$$x =\\frac{11 \\pm \\sqrt{121-(-12)}}{6}$\n$\\Rightarrow$$x =\\frac{11 \\pm \\sqrt{133)}}{6}$\n又a>b，得$a =\\frac{11 + \\sqrt{133)}}{6}$\n故選D"
           },
           {
             "type": "singleChoice",
@@ -3150,7 +3150,7 @@
             ],
             "correct_answer": "D",
             "image": "112_math_11.png",
-            "explanation": "設該店$\\underline{美}$式咖啡每毫升咖啡因含量為x毫克\n大杯咖啡為480毫升且咖啡因含量標示為紅色，方程式為 $480x>200$\n$\\Rightarrow$$x>\\frac{200}{480}$$=\\frac{5}{12}$\n每杯中杯咖啡為360毫升，咖啡因含 $360x>150$ 毫克，故不符合我國建議、符合$\\underline{歐盟}$建議"
+            "explanation": "設該店$\\underline{美}$式咖啡每毫升咖啡因含量為x毫克\n大杯咖啡為480毫升且咖啡因含量標示為紅色，方程式為 $480x>200$\n$\\Rightarrow$$x>\\frac{200}{480}$$=\\frac{5}{12}$\n每杯中杯咖啡為360毫升，咖啡因含 $360x>150$ 毫克，所以不符合我國建議、符合$\\underline{歐盟}$建議\n故選D"
           },
           {
             "type": "singleChoice",
@@ -3178,7 +3178,7 @@
             ],
             "correct_answer": "A",
             "image": "112_math_12.png",
-            "explanation": "圖四共有六款，所以抽中圖四中的A款或C款事件機率為 $\\frac{2}{6}=\\frac{1}{3}$\n圖五共有五款，所以抽中圖四中的B款事件機率為 $\\frac{1}{5}$\n則兩事件同時發生的機率為 $\\frac{1}{3} \\times \\frac{1}{5} = \\frac{1}{15}$"
+            "explanation": "圖四共有六款，所以抽中圖四中的A款或C款事件機率為 $\\frac{2}{6}=\\frac{1}{3}$\n圖五共有五款，所以抽中圖四中的B款事件機率為 $\\frac{1}{5}$\n則兩事件同時發生的機率為 $\\frac{1}{3} \\times \\frac{1}{5} = \\frac{1}{15}$\n故選A"
           },
           {
             "type": "singleChoice",
@@ -3189,19 +3189,19 @@
             "choices": [
               {
                 "answer": "A",
-                "description": "$\\angle ACB  <  \\angle FDE，\\angle AEB  >  \\angle ACB$"
+                "description": "$\\angle ACB  <  \\angle FDE$，$\\angle AEB  >  \\angle ACB$"
               },
               {
                 "answer": "B",
-                "description": "$\\angle ACB  <  \\angle FDE，\\angle AEB  <  \\angle ACB$"
+                "description": "$\\angle ACB  <  \\angle FDE$，$\\angle AEB  <  \\angle ACB$"
               },
               {
                 "answer": "C",
-                "description": "$\\angle ACB  >  \\angle FDE，\\angle AEB  >  \\angle ACB$"
+                "description": "$\\angle ACB  >  \\angle FDE$，$\\angle AEB  >  \\angle ACB$"
               },
               {
                 "answer": "D",
-                "description": "$\\angle ACB  >  \\angle FDE，\\angle AEB  <  \\angle ACB$"
+                "description": "$\\angle ACB  >  \\angle FDE$，$\\angle AEB  <  \\angle ACB$"
               }
             ],
             "correct_answer": "A",
@@ -3316,7 +3316,7 @@
             ],
             "correct_answer": "D",
             "image": "112_math_17.png",
-            "explanation": "建立直角坐標系，以O(0,0)點為圓點，點A座標為(1,3)。因點O為 $\\triangle ABC$ 之外心，因此 $\\overline{OA}$$=\\sqrt{1^2+3^2}$$=\\sqrt{10}$$=\\overline{OB}$$\\overline{OC}$ 在方格紙上符合的兩點只有(-1,3)和(3,1)，此兩點距離為 $\\sqrt{((-1)-3)^2+(3-1)^2}$$=\\sqrt{(-4)^2+2^2}$$=\\sqrt{16+4}$$=\\sqrt{20}$"
+            "explanation": "建立直角坐標系，以O(0,0)點為圓點，點A座標為(1,3)。因點O為 $\\triangle ABC$ 之外心，因此 $\\overline{OA}$$=\\sqrt{1^2+3^2}$$=\\sqrt{10}$$=\\overline{OB}$$\\overline{OC}$ 在方格紙上符合的兩點只有(-1,3)和(3,1)，此兩點距離為 $\\sqrt{((-1)-3)^2+(3-1)^2}$$=\\sqrt{(-4)^2+2^2}$$=\\sqrt{16+4}$$=\\sqrt{20}$\n故選D"
           },
           {
             "type": "singleChoice",
@@ -3372,7 +3372,7 @@
             ],
             "correct_answer": "B",
             "image": "112_math_19.png",
-            "explanation": "因 $\\overline{AC} 為直徑，所以 $\\overset{\\frown}{ABC}$ 為 $180^\\circ$，$\\overset{\\frown}{AB}$$=\\overset{\\frown}{AC}-\\overset{\\frown}{BC}$$=180^\\circ-35^\\circ$$=145^\\circ$，又$\\overset{\\frown}{BD}$$=2\\times\\angle BAC$$=\\overset{\\frown}{BC}$$=35^\\circ$，得 $\\overset{\\frown}{AD}$$=\\overset{\\frown}{AB}-\\overset{\\frown}{BD}$$=145^\\circ-35^\\circ$$=110^\\circ$"
+            "explanation": "因 $\\overline{AC}$ 為直徑，所以 $\\overset{\\frown}{ABC}$ 為 $180^\\circ$，$\\overset{\\frown}{AB}$$=\\overset{\\frown}{AC}-\\overset{\\frown}{BC}$$=180^\\circ-35^\\circ$$=145^\\circ$，又$\\overset{\\frown}{BD}$$=2\\times\\angle BAC$$=\\overset{\\frown}{BC}$$=35^\\circ$，得 $\\overset{\\frown}{AD}$$=\\overset{\\frown}{AB}-\\overset{\\frown}{BD}$$=145^\\circ-35^\\circ$$=110^\\circ$"
           },
           {
             "type": "singleChoice",
@@ -3484,7 +3484,7 @@
             ],
             "correct_answer": "B",
             "image": "112_math_23.png",
-            "explanation": "因 $\\overline{EF}$ 和 \\overline{AP} 皆為矩形AEPF的對角線，所以 $\\overline{EF}$$=\\overline{AP}$，又 $\\overline{AP} \\perp \\overline{BD}$ 時 $\\overline{AP}$ 最短，此時 $\\overline{AP}$ 為直角$\\triangle ABD$ 斜邊上的高 $=\\frac{\\overline{AB}\\times\\overline{AD}}{BD}$$=\\frac{6\\times8}{\\sqrt{6^2+8^2}}$$=\\frac{48}{10}$$=\\frac{24}{5}$\n故選B"
+            "explanation": "因 $\\overline{EF}$ 和 $\\overline{AP}$ 皆為矩形AEPF的對角線，所以 $\\overline{EF}$$=\\overline{AP}$，又 $\\overline{AP} \\perp \\overline{BD}$ 時 $\\overline{AP}$ 最短，此時 $\\overline{AP}$ 為直角$\\triangle ABD$ 斜邊上的高 $=\\frac{\\overline{AB}\\times\\overline{AD}}{BD}$$=\\frac{6\\times8}{\\sqrt{6^2+8^2}}$$=\\frac{48}{10}$$=\\frac{24}{5}$\n故選B"
           },
           {
             "type": "groupChoice",
@@ -3541,7 +3541,7 @@
                   }
                 ],
                 "correct_answer": "A",
-                "explanation": "$2300萬人\\times(20%-14%)$$=2300萬人\\times6%$$2300萬人\\times\\frac{60}{100}$$=138萬人$\n故選A"
+                "explanation": "$2300萬人\\times (20\\%-14\\%)$$=2300萬人\\times 6\\%$$=2300萬人\\times\\frac{60}{100}$$=138萬人$\n故選A"
               }
             ]
           }
