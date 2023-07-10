@@ -9260,7 +9260,8 @@
               }
             ],
             "correct_answer": "B",
-            "image": "111_math_4.png"
+            "image": "111_math_4.png",
+            "explanation": "令底面正方形的邊長為x、長方體的高為y，依題意列方程式 $3x=12$ 、 $2x+y=22$，解得 $x=4$ 、 $y=14$，長方體體積=底面積 $\\times$ 高 $=4^2\\times14$$=16\\times14$$=(15+1)(15-1)$$=15^2-1^2$$=225-1$$=224$\n故選B"
           },
           {
             "number": 5,
@@ -9286,7 +9287,8 @@
                 "description": "$\\frac{5}{4}$"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "$\\frac{9}{22}+\\frac{11}{18}-(\\frac{23}{22}-\\frac{7}{18})$$=\\frac{9}{22}+\\frac{11}{18}-\\frac{23}{22}+\\frac{7}{18}$$=\\frac{-14}{22}+\\frac{18}{18}$$=\\frac{-7}{1}+\\frac{11}{11}$$=\\frac{4}{11}$\n故選A"
           },
           {
             "number": 6,
@@ -9312,7 +9314,8 @@
                 "description": "40，45"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "依題意設 a,b 屬於正整數，符合 $a<\\sqrt{2022}<b$$\\Rightarrow$$a^2<2022<b^2$，將選項依次代入，唯D選項 $40^2<2022<45^2$$\\Rightarrow$$1600<2022<2025$ 符合\n故選D"
           },
           {
             "number": 7,
@@ -9338,7 +9341,8 @@
                 "description": "8"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": ""
           },
           {
             "number": 8,
@@ -9364,7 +9368,8 @@
                 "description": "12"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": ""
           },
           {
             "number": 9,
@@ -9390,7 +9395,8 @@
                 "description": "$\\frac{4}{7}$"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": ""
           },
           {
             "number": 10,
@@ -9416,7 +9422,8 @@
                 "description": "$-6+\\sqrt{3}$"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": ""
           },
           {
             "number": 11,
@@ -9443,7 +9450,8 @@
               }
             ],
             "correct_answer": "C",
-            "image": "111_math_11.png"
+            "image": "111_math_11.png",
+            "explanation": ""
           },
           {
             "number": 12,
@@ -9469,7 +9477,8 @@
                 "description": "大於 1"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": ""
           },
           {
             "number": 13,
@@ -9496,7 +9505,8 @@
               }
             ],
             "correct_answer": "D",
-            "image": "111_math_13.png"
+            "image": "111_math_13.png",
+            "explanation": ""
           },
           {
             "number": 14,
@@ -9523,7 +9533,8 @@
               }
             ],
             "correct_answer": "C",
-            "image": "111_math_14.png"
+            "image": "111_math_14.png",
+            "explanation": ""
           },
           {
             "number": 15,
@@ -9550,7 +9561,8 @@
               }
             ],
             "correct_answer": "B",
-            "image": "111_math_15.png"
+            "image": "111_math_15.png",
+            "explanation": ""
           },
           {
             "number": 16,
@@ -9577,7 +9589,8 @@
               }
             ],
             "correct_answer": "A",
-            "image": "111_math_16.png"
+            "image": "111_math_16.png",
+            "explanation": ""
           },
           {
             "number": 17,
@@ -9604,7 +9617,8 @@
               }
             ],
             "correct_answer": "A",
-            "image": "111_math_17.png"
+            "image": "111_math_17.png",
+            "explanation": ""
           },
           {
             "number": 18,
@@ -9659,7 +9673,8 @@
               }
             ],
             "correct_answer": "B",
-            "image": "111_math_19.png"
+            "image": "111_math_19.png",
+            "explanation": ""
           },
           {
             "number": 20,
@@ -9686,7 +9701,8 @@
               }
             ],
             "correct_answer": "C",
-            "image": "111_math_20.png"
+            "image": "111_math_20.png",
+            "explanation": ""
           },
           {
             "number": 21,
@@ -9713,7 +9729,8 @@
               }
             ],
             "correct_answer": "B",
-            "image": "111_math_21.png"
+            "image": "111_math_21.png",
+            "explanation": ""
           },
           {
             "number": 22,
@@ -9739,7 +9756,8 @@
                 "description": "$(a+b)<(c+d)$，$(b-a)>(d-c)$"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": ""
           },
           {
             "number": 23,
@@ -9766,7 +9784,8 @@
               }
             ],
             "correct_answer": "D",
-            "image": "111_math_23.png"
+            "image": "111_math_23.png",
+            "explanation": ""
           },
           {
             "type": "groupChoice",
@@ -9795,7 +9814,8 @@
                     "description": "甲錯誤，乙正確"
                   }
                 ],
-                "correct_answer": "D"
+                "correct_answer": "D",
+                "explanation": ""
               },
               {
                 "number": 25,
@@ -9821,7 +9841,8 @@
                   }
                 ],
                 "correct_answer": "D",
-                "image": "111_math_25.png"
+                "image": "111_math_25.png",
+                "explanation": ""
               }
             ],
             "image": "111_math_24-25.png"
