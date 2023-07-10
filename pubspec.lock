@@ -453,10 +453,10 @@ packages:
     dependency: "direct main"
     description:
       name: line_icons
-      sha256: "609ce366e38fb046199b7b8f627a703ca4e07018216f4e60d2d7027e7f666b71"
+      sha256: "249d781d922f5437ac763d9c8f5a02cf5b499a6dc3f85e4b92e074cff0a932ab"
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.1"
+    version: "2.0.3"
   lints:
     dependency: transitive
     description:
