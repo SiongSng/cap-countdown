@@ -54,6 +54,7 @@ class _OptionalQuestionViewState extends State<OptionalQuestionView> {
 
     final imageName = widget.question.image;
     final audioFileName = widget.question.audio;
+    final explainImageName = widget.question.explanationImage;
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -101,7 +102,11 @@ class _OptionalQuestionViewState extends State<OptionalQuestionView> {
           const SizedBox(height: 8),
           QuestionText(
               text:
-                  '本試題參考答案為：${widget.question.correctAnswer.name}\n\n${widget.question.explanation ?? '本題暫無詳解，將在未來更新中新增。\n倘若造成您的困擾，我們深感抱歉！'}'),
+                  '本試題參考答案為：${widget.question.correctAnswer.name}\n\n${widget.question.explanation == null && explainImageName == null ? '本題暫無詳解，將在未來更新中新增。\n倘若造成您的困擾，我們深感抱歉！' : widget.question.explanation}'),
+          if (explainImageName != null) ...[
+            const SizedBox(height: 8),
+            QuestionImage(imageFileName: explainImageName)
+          ],
           const SizedBox(height: 10),
           _Indicator(
               passingRate: widget.question.passingRate,
