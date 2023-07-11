@@ -10,6 +10,7 @@ from tools.parser import (
     save_parse_result,
     parse_exam_answer,
     parse_exam_indicator,
+    parse_exam_explanation,
 )
 
 logging.basicConfig(level=logging.INFO)
@@ -49,6 +50,21 @@ def download_exam_answers_and_indicators():
     )
 
 
+def download_exam_explanations():
+    start_time = time.time()
+
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        for year in CAP_EXPLANATION_FILES:
+            executor.submit(
+                download_exam_explanation_files, year, CAP_EXPLANATION_FILES[year]
+            )
+
+    elapsed_time = time.time() - start_time
+    logger.info(
+        f"Finished downloading CAP exam explanations in about {elapsed_time:.2f} seconds."
+    )
+
+
 def parse_exam_papers():
     start_time = time.time()
 
@@ -57,13 +73,17 @@ def parse_exam_papers():
     for year in years:
         exam_subjects: list[ExamSubject] = []
 
+        answers = parse_exam_answer(get_exam_file_path(year, ExamFileType.Answer))
+        passing_rate = parse_exam_indicator(
+            get_exam_file_path(year, ExamFileType.Passing_Rate)
+        )
+        discrimination_index = parse_exam_indicator(
+            get_exam_file_path(year, ExamFileType.DISCRIMINATION_INDEX)
+        )
+
         for subject in subjects:
-            answers = parse_exam_answer(get_exam_file_path(year, ExamFileType.Answer))
-            passing_rate = parse_exam_indicator(
-                get_exam_file_path(year, ExamFileType.Passing_Rate)
-            )
-            discrimination_index = parse_exam_indicator(
-                get_exam_file_path(year, ExamFileType.DISCRIMINATION_INDEX)
+            explanations = parse_exam_explanation(
+                get_explanation_file_path(year, subject)
             )
             questions = parse_exam_paper(
                 get_paper_file_path(year, subject),
@@ -71,6 +91,7 @@ def parse_exam_papers():
                 answers,
                 passing_rate,
                 discrimination_index,
+                explanations,
             )
 
             exam_subjects.append(
@@ -84,6 +105,7 @@ def parse_exam_papers():
 
         exam = Exam(year, f"{year} 年國中教育會考", exam_subjects)
         exams.append(exam)
+        exams.reverse()
         logger.info(f"Parsed CAP exam papers for year {year}.")
 
     save_parse_result(exams)
@@ -101,8 +123,9 @@ def start():
     if not os.path.exists("temp"):
         os.makedirs("temp")
 
-    # download_exam_papers()
-    # download_exam_answers_and_indicators()
+    download_exam_papers()
+    download_exam_answers_and_indicators()
+    download_exam_explanations()
     parse_exam_papers()
 
     elapsed_time = time.time() - start_time

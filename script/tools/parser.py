@@ -1,5 +1,6 @@
 import json
 import re
+import os
 from typing import NewType
 
 from fitz import Document, Page
@@ -12,7 +13,7 @@ from models.single_choice_question import SingleChoiceQuestion
 from models.subject_question import SubjectQuestion
 
 ANSWERS_TYPE = NewType("ANSWERS_TYPE", dict[CAPSubject, list[QuestionAnswer]])
-EXAM_INDICATOR = NewType("EXAM_INDICATOR", dict[CAPSubject, float])
+EXAM_INDICATOR = NewType("EXAM_INDICATOR", dict[CAPSubject, list[float]])
 
 
 # TODO: Support image and table parsing
@@ -22,6 +23,7 @@ def parse_exam_paper(
     answers: ANSWERS_TYPE,
     passing_rates: EXAM_INDICATOR,
     discrimination_indexes: EXAM_INDICATOR,
+    explanations: list[str] | None,
 ) -> list[SubjectQuestion]:
     """
     Parse the exam paper and return a list of exam result.
@@ -86,6 +88,11 @@ def parse_exam_paper(
         passing_rate = passing_rates[subject][number - 1]
         discrimination_index = discrimination_indexes[subject][number - 1]
 
+        if explanations is None:
+            explanation = None
+        else:
+            explanation = explanations[number - 1]
+
         parsed_choices: list[QuestionChoice] = []
 
         for choice in choices:
@@ -110,6 +117,7 @@ def parse_exam_paper(
             correct_answer,
             passing_rate,
             discrimination_index,
+            explanation,
         )
         result.append(question)
 
@@ -265,6 +273,25 @@ def parse_exam_indicator(file_path: str) -> EXAM_INDICATOR:
     return result
 
 
+def parse_exam_explanation(file_path: str) -> list[str] | None:
+    if not os.path.exists(file_path):
+        return None
+
+    result: list[str] = []
+
+    doc = Document(file_path)
+
+    for page in doc:
+        text: str = get_text(page, sort=True)
+        explanations = re.findall(r"\d+\.\([A-D]\)[^\d+\.]+", text)
+
+        for explanation in explanations:
+            explanation = re.sub(r"\d+\.\([A-D]\)\n", "", explanation)
+            result.append(explanation.strip())
+
+    return result
+
+
 def save_parse_result(exams: list[Exam]):
     json_str = json.dumps([exam.to_dict() for exam in exams], ensure_ascii=False)
     with open("temp/cap_exams.json", "w") as f:
@@ -273,7 +300,8 @@ def save_parse_result(exams: list[Exam]):
 
 def fix_question_text(text: str) -> str:
     text = re.sub(r"(\w+)\n(\w+)", r"\1\2", text)
-    text = re.sub(r"(\w+)\d\n請翻頁繼續作答", r"\1", text)
-    text = re.sub(r" \n\d請翻頁繼續作答", r"", text)
+    text = re.sub(r"(\w+)\d+\n請翻頁繼續作答", r"\1", text)
+    text = re.sub(r"\n\d+請翻頁繼續作答", r"", text)
+    text = re.sub(r"請翻頁繼續作答(\n?)\d+", r"", text)
 
     return text.strip()

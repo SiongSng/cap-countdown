@@ -5,6 +5,7 @@ import requests
 
 from config import CAP_BASE_URL
 from models.cap_subject import CAPSubject
+from models.explanation_file import ExplanationFile
 from models.file_type import ExamFileType
 
 logger = logging.getLogger(__name__)
@@ -40,12 +41,16 @@ def download_exam_paper(year: int, subject: CAPSubject):
     """
     logger.info(f"Downloading the {subject.value.lower()} exam paper ({year})...")
     special_years = [105, 106, 108, 109]
+    file_path = get_paper_file_path(year, subject)
+
+    if os.path.exists(file_path):
+        return
 
     url = f"{CAP_BASE_URL}{year}/{year}P_{subject.value}.pdf"
     if year in special_years:
         url = url.replace(".pdf", "150DPI.pdf")
 
-    __download_file(url, get_paper_file_path(year, subject))
+    __download_file(url, file_path)
 
 
 def download_exam_answer(year: int):
@@ -58,8 +63,12 @@ def download_exam_answer(year: int):
     logger.info(f"Downloading the exam answer file ({year})...")
 
     url = f"{CAP_BASE_URL}{year}/{year}P_Answer.pdf"
+    file_path = get_exam_file_path(year, ExamFileType.Answer)
 
-    __download_file(url, get_exam_file_path(year, ExamFileType.Answer))
+    if os.path.exists(file_path):
+        return
+
+    __download_file(url, file_path)
 
 
 def download_exam_passing_rate(year: int):
@@ -74,8 +83,12 @@ def download_exam_passing_rate(year: int):
     url = f"{CAP_BASE_URL}{year}/{year}各科通過率.pdf"
     if year <= 106:
         url = url.replace("各科通過率", "年國中教育會考各題通過率")
+    file_path = get_exam_file_path(year, ExamFileType.Passing_Rate)
 
-    __download_file(url, get_exam_file_path(year, ExamFileType.Passing_Rate))
+    if os.path.exists(file_path):
+        return
+
+    __download_file(url, file_path)
 
 
 def download_exam_discrimination_index(year: int):
@@ -91,7 +104,31 @@ def download_exam_discrimination_index(year: int):
     if year <= 106:
         url = url.replace("各科鑑別度", "年國中教育會考各題鑑別度")
 
-    __download_file(url, get_exam_file_path(year, ExamFileType.DISCRIMINATION_INDEX))
+    file_path = get_exam_file_path(year, ExamFileType.DISCRIMINATION_INDEX)
+
+    if os.path.exists(file_path):
+        return
+
+    __download_file(url, file_path)
+
+
+def download_exam_explanation_files(year: int, files: list[ExplanationFile]):
+    """
+    Download the CAP exam explanation files for a given year.
+
+    Args:
+        year (int): The R.O.C year of the file to download.
+        files (list[ExplanationFile]): The list of the explanation files to download.
+    """
+    logger.info(f"Downloading the exam explanation files ({year})...")
+
+    for file in files:
+        file_path = get_explanation_file_path(year, file.subject)
+
+        if os.path.exists(file_path):
+            continue
+
+        file.download(file_path)
 
 
 def get_paper_file_path(year: int, subject: CAPSubject):
@@ -107,3 +144,7 @@ def get_exam_file_path(year: int, file_type: ExamFileType):
         file_type (ExamFileType): The type of the file to get the path.
     """
     return os.path.join("temp", f"{year}_{file_type.value.title()}.pdf")
+
+
+def get_explanation_file_path(year: int, subject: CAPSubject):
+    return os.path.join("temp", f"{year}_{subject.value}_Explanation.pdf")
