@@ -9261,7 +9261,8 @@
             ],
             "correct_answer": "B",
             "image": "111_math_4.png",
-            "explanation": "令底面正方形的邊長為x、長方體的高為y，依題意列方程式 $3x=12$ 、 $2x+y=22$，解得 $x=4$ 、 $y=14$，長方體體積=底面積 $\\times$ 高 $=4^2\\times14$$=16\\times14$$=(15+1)(15-1)$$=15^2-1^2$$=225-1$$=224$\n故選B"
+            "explanation_image": "111_math_4_explanation.png",
+            "explanation": "令底面正方形的邊長為x、長方體的高為y，如附圖。依題意列方程式 $3x=12$ 、 $2x+y=22$，解得 $x=4$ 、 $y=14$，長方體體積=底面積 $\\times$ 高 $=4^2\\times14$$=16\\times14$$=(15+1)(15-1)$$=15^2-1^2$$=225-1$$=224$\n故選B"
           },
           {
             "number": 5,
@@ -9342,7 +9343,7 @@
               }
             ],
             "correct_answer": "D",
-            "explanation": ""
+            "explanation": "A點到直線L的垂直距離為 $6-(-2)=8$\n故選D"
           },
           {
             "number": 8,
@@ -9369,7 +9370,7 @@
               }
             ],
             "correct_answer": "A",
-            "explanation": ""
+            "explanation": "$39x^2+5x-14$$=(3x+a)(bx+c)$$=3bx^2+3cx+abx+ac$$=3bx^2+(3c+ab)x+ac$，得 $3b=39$$\\Rightarrow$$b=13$ 、 $3c+ab=5$$\\Rightarrow$$3c+13a=5$$\\Rightarrow$$3c=5-13a$ 、 $ac=-14$$\\Rightarrow$$3ac$$=a(5-13a)$$=5a-13a^2$$=-42$$\\Rightarrow$$13a^2-5a-42=0$$\\Rightarrow$$(a-2)(13a+21)=0$$\\Rightarrow$$a=2$ 或 $a=\\frac{-21}{13}$(不符) 、 $ac=2c=-14$$\\Rightarrow$$c=-7$，$a+2c$$=2+(-14)$$=-12$\n故選A"
           },
           {
             "number": 9,
@@ -9396,7 +9397,8 @@
               }
             ],
             "correct_answer": "C",
-            "explanation": ""
+            "explanation_image": "111_math_9_explanation.png",
+            "explanation": "箱內原有12顆球，抽出5顆後剩 $12-5=7$ 顆，為1號1顆、2號0顆、3號1顆、4號2顆、5號1顆、6號2顆。從7顆球中抽出1號的機率為 $\\frac{1}{7}$、2號的機率為 $\\frac{0}{7}$、3號的機率為 $\\frac{1}{7}$、4號的機率為 $\\frac{2}{7}$、5號的機率為 $\\frac{1}{7}$、6號的機率為 $\\frac{2}{7}$，而抽出1、2、3、5其中之一的機率為抽出1之機率+抽出2之機率、抽出3之機率、抽出5之機率 $=\\frac{1}{7}+\\frac{0}{7}+\\frac{1}{7}+\\frac{1}{7}$$=\\frac{3}{7}$\n也可繪製樹狀圖(樹枝圖)，如附圖\n故選C"
           },
           {
             "number": 10,
@@ -9423,7 +9425,7 @@
               }
             ],
             "correct_answer": "C",
-            "explanation": ""
+            "explanation": "$(x-2)^2=3$$\\Rightarrow$$x-2=\\pm\\sqrt{3}$$\\Rightarrow$$x=2\\pm\\sqrt{3}$，因 $a>b$，$a=2+\\sqrt{3}$ 、 $b=2-\\sqrt{3}$，$2a+b$$=2\\times(2+\\sqrt{3})+(2-\\sqrt{3})$$=4+2\\sqrt{3}+2-\\sqrt{3}$$=6+\\sqrt{3}$\n故選C"
           },
           {
             "number": 11,
@@ -9451,7 +9453,7 @@
             ],
             "correct_answer": "C",
             "image": "111_math_11.png",
-            "explanation": ""
+            "explanation": "令預算為x元、原售價為 $x+1200$、打折後售價為 $0.8(x+1200)=0.8x+960$，依題意列得方程式 $x-(0.8x+960)=200$$\\Rightarrow$$0.2x-960=200$$\\Rightarrow$$0.2x=1160$$\\Rightarrow$$x=5800$\n故選C"
           },
           {
             "number": 12,
@@ -9478,7 +9480,7 @@
               }
             ],
             "correct_answer": "B",
-            "explanation": ""
+            "explanation": "$p$$=7.52 \\times 10^{-6}$$=0.00000752$，$0<0.00000752<0.5<1$\n故選B"
           },
           {
             "number": 13,
@@ -9506,7 +9508,8 @@
             ],
             "correct_answer": "D",
             "image": "111_math_13.png",
-            "explanation": ""
+            "explanation_image": "111_math_13_explanation.png",
+            "explanation": "做 $\\overline{AB}$ 之弦心距 $\\overline{OH}=3$ 於P點，因弦心距垂直平分弦，故 $\\overline{AH}$$=\\overline{BH}$$\\Rightarrow$$\\overline{AC}-\\overline{CH}$$=\\overline{BC}+\\overline{CH}$$2\\overline{CH}=\\overline{AC}-\\overline{BC}$$=6-2$$=4$$\\Rightarrow$$\\overline{CH}$$=2$，因 $\\triangle OHC$ 為直角三角形，使用畢氏定理 $\\overline{OC}$$=\\sqrt{\\overline{OH}^2+\\overline{CH}^2}$$=\\sqrt{3^2+2^2}$$=\\sqrt{9+4}$$=\\sqrt{13}$\n故選D"
           },
           {
             "number": 14,
@@ -9534,7 +9537,7 @@
             ],
             "correct_answer": "C",
             "image": "111_math_14.png",
-            "explanation": ""
+            "explanation": "該國受雇員工年薪低於平均數的人數為 $5+5+10+40+80+100$$+80+80+65+45=510$ 萬人，占總調查人數的比率為 $\\frac{510萬}{750萬}$$=\\frac{17}{25}$$=\\frac{68}{100}$$=68\\%$\n故選C"
           },
           {
             "number": 15,
@@ -9562,7 +9565,7 @@
             ],
             "correct_answer": "B",
             "image": "111_math_15.png",
-            "explanation": ""
+            "explanation": "因 $\\overline{DE}$ 為 $\\overline{AB}$ 之中垂線，故 $\\overline{AD}$$=\\overline{BD}$ 、 $\\angle ADE$$=\\angle BDE$$=90^\\circ$，又 $\\overline{DE}=\\overline{DE}$ (共用邊)，所以 $\\triangle ADE\\cong\\triangle BDE (SAS)$，故 $\\angle 1=\\angle 2$\n$\\angle 1=180^\\circ-\\angle B-\\angle BDE$ 、 $\\angle 2=180^\\circ-\\angle C-\\angle EAC$，因 $\\angle B=\\angle C$ 、 $\\angle D=90^\\circ<\\angle EAC$，故 $\\angle 1>\\angle 3$\n故選B"
           },
           {
             "number": 16,
@@ -9590,7 +9593,7 @@
             ],
             "correct_answer": "A",
             "image": "111_math_16.png",
-            "explanation": ""
+            "explanation": "落地架底部距離1樓地面 $(8-1)\\times3$$=7\\times3$$=21$ 公尺，所需繩長 $=21+1.6$(落第架高)$-0.4$(緩降機與落第架間距)$-0.5$(安全帶長度)$=21.7$ 公尺\n故選A"
           },
           {
             "number": 17,
@@ -9618,7 +9621,8 @@
             ],
             "correct_answer": "A",
             "image": "111_math_17.png",
-            "explanation": ""
+            "explanation_image": "111_math_17_explanation.png",
+            "explanation": "因為 $\\overline{PQ}$$//$$\\overline{BC}$ 、 $\\overline{RS}$$//$$\\overline{AB}$，所以 $\\angle APQ$$=\\angle B$$=\\angle RSC$\n根據外角定理 $\\angle PQR$$=\\angle A+\\angle APQ$$=\\angle A+\\angle B$ 、 $\\angle QRS$$=\\angle C+\\angle RSC$$=\\angle C+\\angle B$，兩式相加 $\\angle PQR + \\angle QRS$$=\\angle A + \\angle B + \\angle C +\\angle B$$=180^\\circ+\\angle B$$=120^\\circ+115^\\circ$$=235^\\circ$，移項得 $\\angle B$$=55^\\circ$\n故選A"
           },
           {
             "number": 18,
@@ -9646,7 +9650,7 @@
             ],
             "correct_answer": "B",
             "image": "111_math_18.png",
-            "explanation": "設皮鞋 $x$ 元，球鞋 $y$ 元，且 $x > y$ \n折價券 $= 0.8(x + y)$ ，活動售價 $= x + 0.6y$ \n折-售 $=0.8(x+y)−(x+0.6)=−0.2x+0.2y$ \n因 $x > y$ ，故此時為負數，可知折價券價 $<$ 售價\n $0.2y−0.2x=50$ ， $y−x=250$"
+            "explanation": "設皮鞋 $x$ 元，球鞋 $y$ 元，且 $x > y$ \n折價券 $= 0.8(x + y)$ ，活動售價 $= x + 0.6y$ \n折-售 $=0.8(x+y)−(x+0.6)$$=−0.2x+0.2y$ \n因 $x > y$ ，故此時為負數，可知折價券價 $<$ 售價\n $0.2y−0.2x=50$ ， $y−x=250$"
           },
           {
             "number": 19,
@@ -9674,7 +9678,8 @@
             ],
             "correct_answer": "B",
             "image": "111_math_19.png",
-            "explanation": ""
+            "explanation_image": "111_math_19_explanation.png",
+            "explanation": "因EGF皆在圓G上，所以$\\overline{GD}$$=\\overline{GE}$$=\\overline{GF}$，又 G 為 $\\triangle ABC$ 之重心、D為 $\\overline{BC}$ 之中點，故 $\\overline{AG}:\\overline{GD}$$\\overline{AG}:\\overline{ED}$$=2:1$，又因 $\\overline{AE}$ 為圓之切線，故 $\\angle AEG$ 為直角，$\\triangle AEG$ 為直角三角形，$\\angle EAG$$=30^\\circ$\n$\\overline{AF}$ 為圓之切線，故 $\\angle AFG$$\\angle AEG$$=90^\\circ$，又 $\\overline{AG}$$=\\overline{AG}$ (共用邊)，故 $\\triangle AEG$$\\cong$$\\triangle AFG(RHS)$，$\\angle EAG$$=\\angle FAG$$=30^\\circ$\n$\\angle 1+\\angle 2$$+\\angle EAG+\\angle FAG$$=\\angle 1+\\angle 2$$+\\angle 30^\\circ+\\angle 30^\\circ$$=\\angle 1+\\angle 2$$+\\angle 60^\\circ$$=\\angle A$$=180^\\circ-\\angle B-\\angle C$$=180^\\circ-40^\\circ-45^\\circ$$=95^\\circ$\n$\\angle 1+\\angle 2$$=95^\\circ-60^\\circ$$=35^\\circ$\n故選B"
           },
           {
             "number": 20,
@@ -9702,7 +9707,8 @@
             ],
             "correct_answer": "C",
             "image": "111_math_20.png",
-            "explanation": ""
+            "explanation_image": "111_math_20_explanation.png",
+            "explanation": "因為 $\\triangle ABC$ 為正三角形，所以 $\\angle A$$=\\angle B^\\prime$$=\\angle B$$=60^\\circ$、$\\overline{AB^\\prime}$$=\\overline{AC}$，又 $\\angle BFG$$=\\angle AFD$ (對頂角)，故 $\\triangle AFD \\sim \\triangle BFG$，$\\overline{AF}:\\overline{BF}$$=\\overline{DF}:\\overline{GF}$$\\Rightarrow$$16:8$$=14:\\overline{GF}$$\\overline{GF}=7$\n$\\overline{CG}$$=\\overline{AC}-\\overline{AG}$$=\\overline{AB^\\prime}-(\\overline{AF}+\\overline{FG})$$=(\\overline{AD}+\\overline{DB^\\prime})-(16+7)$$=(\\overline{AD}+\\overline{DB})-23$$=(\\overline{AD}+\\overline{DF}+\\overline{FB})-23$$=(10+14+8)-23$$=32-23$$=9$\n故選C"
           },
           {
             "number": 21,
@@ -9730,7 +9736,8 @@
             ],
             "correct_answer": "B",
             "image": "111_math_21.png",
-            "explanation": ""
+            "explanation_image": "111_math_21_explanation.png",
+            "explanation": "連接 $\\overline{BC}$ 、 $\\overline{BD}$ 、 $\\overline{BE}$ 、 $\\overline{BF}$，因 $\\overline{AB}$ 為直徑，故 $\\overset{\\frown}{ACDB}$$=\\overset{\\frown}{AEFB}$$=180^\\circ$，其所對應之圓周角 $\\angle ACB$$=\\angle ADB$$=\\angle AEB$$=\\angle AFB$$=90^\\circ$，根據畢氏定理得出 $\\overline{BC}=8$$=\\overline{AD}$、$\\overline{BD}=6$$=\\overline{AC}$、$\\overline{BE}$$=5\\sqrt{3}$、$\\overline{BF}$$=\\sqrt{19}$，又 $\\overline{AB}$$=\\overline{AB}$，故 $\\triangle ACB $$\\cong$$ \\triangle ADB$，$\\angle ABC$$=\\angle DAB$、$\\overset{\\frown}{AC}$$=\\overset{\\frown}{BD}$、$\\overset{\\frown}{AC}+\\overset{\\frown}{AD}$$=\\overset{\\frown}{BD}+\\overset{\\frown}{AD}$$=\\overset{\\frown}{AB}$\n而 $\\triangle AEB$ 和 $\\triangle AFB$ 不全等，因此 $\\angle ABE$$\\neq $$\\angle BAF$ 、 $\\overset{\\frown}{AE}$$\\neq$$\\overset{\\frown}{BF}$ 、 $\\overset{\\frown}{AE}+\\overset{\\frown}{AF}$$\\neq\\overset{\\frown}{BF}+\\overset{\\frown}{AF}$$\\neq\\overset{\\frown}{AB}$\n故選B"
           },
           {
             "number": 22,
@@ -9757,7 +9764,7 @@
               }
             ],
             "correct_answer": "A",
-            "explanation": ""
+            "explanation": "$(a,0)$、$(b,0)$ 和 $(c,0)$、$(d,0)$ 為兩組對稱點，且二次函數向上平移對稱軸方程式不變，故 $\\frac{a+b}{2}$$=\\frac{c+d}{2}$$=-6$$\\Rightarrow$$a+b$$=c+d$$=-12$\n$y=0$ 代入函數，得 $0=-(x+6)^2+5$$\\Rightarrow$$-x^2-12x-31=0$$x=\\frac{12\\pm\\sqrt{144-124}}{-2}$$\\Rightarrow$$x=-\\sqrt{5}-6$ 或 $x=\\sqrt{5}-6$，$b-a$$=(\\sqrt{5}-6)-(-\\sqrt{5}-6)=2\\sqrt{5}$\n設函數向上平移n單位(n>0)，得新函數 $y=-(x+6)^2+5+n$$\\Rightarrow$$-x^2-12x-(31-n)$，將 $y=0$ 代入，利用公式解球得 $x=\\frac{12\\pm\\sqrt{144-124+4n}}{-2}$$\\Rightarrow$$x=-\\sqrt{n+5}-6$ 或 $x=\\sqrt{n+5}-6$，得 $d-c$$=(\\sqrt{n+5}-6)-(-\\sqrt{n+5}-6)$$=2\\sqrt{n+5}$，$2\\sqrt{n+5}>2\\sqrt{5}$，(d-c)>(b-a)\n故選A"
           },
           {
             "number": 23,
@@ -9785,7 +9792,7 @@
             ],
             "correct_answer": "D",
             "image": "111_math_23.png",
-            "explanation": ""
+            "explanation": "因題目的三個條件，$\\triangle AFC$$\\cong$$\\triangle BED$$(ASA)$\n令 $\\triangle AFC$$=\\triangle BED$$=5t$，因為 $\\triangle ABF$ 與 $\\triangle ACF$ 為同高三角形，故 面積比=底邊比 $\\triangle ABF$$:\\triangle ACF$$=5:11$$\\Rightarrow$$\\triangle ABF=11t$ 、 $ADEF$$=\\triangle ABF-\\triangle DEF$$=11t-5t$$=6t$ 、 $\\triangle ABC$$=\\triangle ABF+\\triangle ACF$$=5t+11t$$=16t$，$ADEF$$:\\triangle ABC$$=6t:16t$$=3:8$\n故選D"
           },
           {
             "type": "groupChoice",
@@ -9815,7 +9822,7 @@
                   }
                 ],
                 "correct_answer": "D",
-                "explanation": ""
+                "explanation": "PA-20日光燈管發光效率 $=\\frac{1440}{20}$$=72$，PB-14日光燈管發光效率 $=\\frac{1200}{14}$$=85\\frac{5}{7}$，$72$$<85\\frac{5}{7}$ 、 PA-20日光燈管發光效率<PB-14日光燈管發光效率\nPA-30日光燈管發光效率 $=\\frac{2340}{30}$$=78$，PA-40日光燈管發光效率 $=\\frac{3360}{40}$$=84$，$72<78<84$ 、 PA-20日光燈管發光效率<PA-30日光燈管發光效率<PA-40日光燈管發光效率\n故選D"
               },
               {
                 "number": 25,
@@ -9842,7 +9849,7 @@
                 ],
                 "correct_answer": "D",
                 "image": "111_math_25.png",
-                "explanation": ""
+                "explanation": "90支PA-40日光燈管一小時消耗的電費為 $\\frac{90}{1000}\\times40\\times1\\times5$$=18$ 元，120支PB-28日光燈管一小時消耗的電費為 $\\frac{120}{1000}\\times28\\times1\\times5$$=16.8$ 元，90支PB-28日光燈管電費較120支PA-40日光燈管電費每小時省下 $18-16.8$$=1.2$ 元，90支PB-28日光燈管安裝費較120支PA-40日光燈管安裝費貴 $60000-45000$$=15000$ 元，需使用120支PA-40日光燈管 $15000\\div 1.2$$=12500$ 小時才能補回安裝費價差\n故選D"
               }
             ],
             "image": "111_math_24-25.png"
