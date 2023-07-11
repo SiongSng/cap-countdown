@@ -15,6 +15,7 @@ class OptionalQuestion {
   final int number;
   final String? description;
   final String? image;
+
   final String? audio;
   @JsonKey(name: 'passing_rate')
   final double? passingRate;
@@ -24,6 +25,8 @@ class OptionalQuestion {
   @JsonKey(name: 'correct_answer')
   final QuestionAnswer correctAnswer;
   final String? explanation;
+  @JsonKey(name: 'explanation_image')
+  final String? explanationImage;
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   QuestionChoice? selectedChoice;
@@ -41,6 +44,7 @@ class OptionalQuestion {
     required this.choices,
     required this.correctAnswer,
     this.explanation,
+    this.explanationImage,
   }) {
     crossOutItems = List.generate(choices.length, (_) => false);
   }
@@ -97,7 +101,8 @@ class OptionalQuestion {
           discriminationIndex == other.discriminationIndex &&
           listEquals(choices, other.choices) &&
           correctAnswer == other.correctAnswer &&
-          explanation == other.explanation;
+          explanation == other.explanation &&
+          explanationImage == other.explanationImage;
 
   @override
   int get hashCode =>
@@ -109,7 +114,8 @@ class OptionalQuestion {
       discriminationIndex.hashCode ^
       choices.hashCode ^
       correctAnswer.hashCode ^
-      explanation.hashCode;
+      explanation.hashCode ^
+      explanationImage.hashCode;
 }
 
 enum QuestionAnswer { A, B, C, D }
