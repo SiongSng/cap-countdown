@@ -1,3 +1,4 @@
+import 'package:cap_countdown/src/exam/question_rich_content.dart';
 import 'package:flutter/foundation.dart';
 import 'package:json_annotation/json_annotation.dart';
 
@@ -14,10 +15,13 @@ class GroupChoiceQuestion extends SubjectQuestion {
   final String? description;
   final String? image;
   final List<OptionalQuestion> options;
+  @JsonKey(name: 'rich_content')
+  final List<QuestionRichContent>? richContentList;
 
   GroupChoiceQuestion({
     this.description,
     this.image,
+    this.richContentList,
     required this.options,
   });
 
@@ -32,11 +36,13 @@ class GroupChoiceQuestion extends SubjectQuestion {
         other.type == type &&
         other.description == description &&
         other.image == image &&
+        listEquals(other.richContentList, richContentList) &&
         listEquals(other.options, options);
   }
 
   @override
-  int get hashCode => Object.hash(type, description, image, options);
+  int get hashCode =>
+      Object.hash(type, description, image, richContentList, options);
 
   @override
   Map<String, dynamic> toJson() => _$GroupChoiceQuestionToJson(this);

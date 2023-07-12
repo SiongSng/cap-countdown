@@ -10,6 +10,9 @@ GroupChoiceQuestion _$GroupChoiceQuestionFromJson(Map<String, dynamic> json) =>
     GroupChoiceQuestion(
       description: json['description'] as String?,
       image: json['image'] as String?,
+      richContentList: (json['rich_content'] as List<dynamic>?)
+          ?.map((e) => QuestionRichContent.fromJson(e as Map<String, dynamic>))
+          .toList(),
       options: (json['options'] as List<dynamic>)
           .map((e) => OptionalQuestion.fromJson(e as Map<String, dynamic>))
           .toList(),
@@ -22,6 +25,7 @@ Map<String, dynamic> _$GroupChoiceQuestionToJson(
       'description': instance.description,
       'image': instance.image,
       'options': instance.options.map((e) => e.toJson()).toList(),
+      'rich_content': instance.richContentList?.map((e) => e.toJson()).toList(),
     };
 
 const _$QuestionTypeEnumMap = {

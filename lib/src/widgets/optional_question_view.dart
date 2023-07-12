@@ -6,6 +6,7 @@ import 'package:cap_countdown/src/util/layout.dart';
 import 'package:cap_countdown/src/widgets/choice_button.dart';
 import 'package:cap_countdown/src/widgets/question_audio_player.dart';
 import 'package:cap_countdown/src/widgets/question_image.dart';
+import 'package:cap_countdown/src/widgets/question_rich_content_view.dart';
 import 'package:cap_countdown/src/widgets/question_text.dart';
 import 'package:cap_countdown/src/widgets/report_question_button.dart';
 import 'package:flutter/material.dart';
@@ -50,15 +51,23 @@ class _OptionalQuestionViewState extends State<OptionalQuestionView> {
 
     final imageName = widget.question.image;
     final audioFileName = widget.question.audio;
+    final richContentList = widget.question.richContentList;
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        if (imageName != null) ...[
+        if (richContentList != null)
+          QuestionRichContentView(
+            richContentList: richContentList,
+            prefixText: widget.option.showQuestionNumber
+                ? '${widget.question.number}.'
+                : null,
+          ),
+        if (imageName != null && richContentList == null) ...[
           QuestionImage(imageFileName: imageName),
           const SizedBox(height: 8)
         ],
-        if (description != null) ...[
+        if (description != null && richContentList == null) ...[
           // Use LaTexT to render LaTeX (math formula) in text.
           QuestionText(text: description),
           const SizedBox(height: 8)

@@ -424,7 +424,20 @@
           {
             "type": "singleChoice",
             "number": 16,
-            "description": "某古典戲曲中有一段唱詞：「俺讀些稗官詞寄牢騷，對江山吃一斗苦松醪$\\scriptsize{1}$小鼓兒顫杖輕敲，寸板兒軟手頻搖。一字字臣忠子孝，一聲聲龍吟虎嘯。快舌尖鋼刀出鞘，響喉嚨轟雷烈炮。呀！似這般冷嘲、熱挑，用不著筆抄、墨描，勸英豪一盤錯帳速勾了。」據此判斷，唱詞中「俺」的職業最可能是下列何者？\n\n📖 補充說明：\n1.醪：音ㄌㄠˊ，混含渣滓的濁酒",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "某古典戲曲中有一段唱詞：「俺讀些稗官詞寄牢騷，對江山吃一斗苦松醪₁小鼓兒顫杖輕敲，寸板兒軟手頻搖。一字字臣忠子孝，一聲聲龍吟虎嘯。快舌尖鋼刀出鞘，響喉嚨轟雷烈炮。呀！似這般冷嘲、熱挑，用不著筆抄、墨描，勸英豪一盤錯帳速勾了。」據此判斷，唱詞中「俺」的職業最可能是下列何者？"
+              },
+              {
+                "type": "border",
+                "child": {
+                  "type": "text",
+                  "content": "\uD83D\uDCD6 補充說明：\n1.醪：音ㄌㄠˊ，混含渣滓的濁酒"
+                },
+                "alignment": "end"
+              }
+            ],
             "passing_rate": 0.58,
             "discrimination_index": 0.3,
             "choices": [
@@ -532,7 +545,20 @@
           {
             "type": "singleChoice",
             "number": 20,
-            "description": "「江南二月試羅衣$\\scriptsize{1}$，春盡燕山雪尚飛。應是子規$\\scriptsize{2}$啼不到，故鄉雖好不思歸。」關於這首詩的分析，下列說明何者最恰當？\n\n📖 補充說明：\n1.羅衣：絲質的衣服\n2.子規：杜鵑鳥，啼聲如「不如歸去」",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "「江南二月試羅衣₁，春盡燕山雪尚飛。應是子規₂啼不到，故鄉雖好不思歸。」關於這首詩的分析，下列說明何者最恰當？"
+              },
+              {
+                "type": "border",
+                "child": {
+                  "type": "text",
+                  "content": "\uD83D\uDCD6 補充說明：\n1.羅衣：絲質的衣服\n2.子規：杜鵑鳥，啼聲如「不如歸去」"
+                },
+                "alignment": "end"
+              }
+            ],
             "passing_rate": 0.52,
             "discrimination_index": 0.48,
             "choices": [
@@ -610,7 +636,20 @@
           {
             "type": "singleChoice",
             "number": 23,
-            "description": "莊子釣於濮水，楚王使大夫二人往先焉，曰：「願以境內累矣$\\scriptsize{1}$！」莊子持竿不顧，曰：「吾聞楚有神龜，死已三千歲矣，王巾笥$\\scriptsize{2}$而藏之廟堂之上。\n此龜者，寧其死為留骨而貴乎，寧其生而曳尾於塗中乎？」二大夫曰：「寧生而曳尾塗中。」莊子曰：「往矣！吾將曳尾於塗中。」\n根據這段文字，下列何者與莊子的想法最接近？\n\n📖 補充說明：\n1.願以境內累矣：希望勞煩您協助國事\n2.笥：放物品的竹器",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "莊子釣於濮水，楚王使大夫二人往先焉，曰：「願以境內累矣₁！」莊子持竿不顧，曰：「吾聞楚有神龜，死已三千歲矣，王巾笥₂而藏之廟堂之上。\n此龜者，寧其死為留骨而貴乎，寧其生而曳尾於塗中乎？」二大夫曰：「寧生而曳尾塗中。」莊子曰：「往矣！吾將曳尾於塗中。」\n根據這段文字，下列何者與莊子的想法最接近？"
+              },
+              {
+                "type": "border",
+                "child": {
+                  "type": "text",
+                  "content": "\uD83D\uDCD6 補充說明：\n1.願以境內累矣：希望勞煩您協助國事\n2.笥：放物品的竹器"
+                },
+                "alignment": "end"
+              }
+            ],
             "passing_rate": 0.47,
             "discrimination_index": 0.43,
             "choices": [
@@ -869,7 +908,17 @@
           },
           {
             "type": "groupChoice",
-            "description": "請閱讀以下短文，並回答32～33題：\n\n日本 美秀美術館(Miho Museum)有一種奇特的「烏托邦式美學」，首先是載客的白色電動車安靜地穿梭接待中心與美術館間，有如過去科幻電影中，關於未來烏托邦世界的描述。\n白色電動車象徵著美秀美術館對於美學近乎潔癖的要求，電動車安靜地運作，不會干擾到青山綠水間的蟲鳴鳥叫，使得這座烏托邦式的美術館區，永遠呈現出一種寧靜的氛圍。更有趣的是，白色電動車的駕駛穿著白色制服，臉上表情肅穆，不禁令人懷疑這些駕駛是否為科幻片中的複製人或機械人？\n不過我們不得不佩服美秀美術館的周到服務：雨天下電動車時，館方提供踏腳墊，以及擦去雨滴的白抹布。即便是貴婦人，仍然可以輕鬆地在美術館中喝下午茶。然後乾乾淨淨，一塵不染地離去。\n當遊客在雨天蒞臨，美術館人員便會送來一整排赭紅色、印著MIHO字樣的雨傘，並要求大家將自己的傘留在車上。其用意是不希望旅客花花綠綠的雨傘，破壞了烏托邦視覺上的統一美感。\n―― 改寫自李清志〈烏托邦美術館：美秀美術館〉",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "請閱讀以下短文，並回答32～33題：\n\n日本 美秀美術館(Miho Museum)有一種奇特的「烏托邦式美學」，首先是載客的白色電動車安靜地穿梭接待中心與美術館間，有如過去科幻電影中，關於未來烏托邦世界的描述。\n白色電動車象徵著美秀美術館對於美學近乎潔癖的要求，電動車安靜地運作，不會干擾到青山綠水間的蟲鳴鳥叫，使得這座烏托邦式的美術館區，永遠呈現出一種寧靜的氛圍。更有趣的是，白色電動車的駕駛穿著白色制服，臉上表情肅穆，不禁令人懷疑這些駕駛是否為科幻片中的複製人或機械人？\n不過我們不得不佩服美秀美術館的周到服務：雨天下電動車時，館方提供踏腳墊，以及擦去雨滴的白抹布。即便是貴婦人，仍然可以輕鬆地在美術館中喝下午茶。然後乾乾淨淨，一塵不染地離去。\n當遊客在雨天蒞臨，美術館人員便會送來一整排赭紅色、印著MIHO字樣的雨傘，並要求大家將自己的傘留在車上。其用意是不希望旅客花花綠綠的雨傘，破壞了烏托邦視覺上的統一美感。"
+              },
+              {
+                "type": "text",
+                "content": "⸺ 改寫自李清志〈烏托邦美術館：美秀美術館〉",
+                "alignment": "end"
+              }
+            ],
             "options": [
               {
                 "number": 32,
@@ -927,7 +976,17 @@
           },
           {
             "type": "groupChoice",
-            "description": "請閱讀以下短文，並回答34~35題：\n\n很多人早就預言紙本書會消失，被網路閱讀取代，但我相信紙本書有其獨特價值。我不時自問：要怎麼描述紙本書的獨特價值？今天和未來，大家為何要透過紙本書來閱讀？\n我一度覺得紙本書的價值比較接近藝術品，但藝術品是陽春白雪，和一般人的距離較遠。我想找出來的是：紙本書對一般人也是必需的獨特價值。思索十幾年後，我試著將「數位及網路閱讀」與「紙本閱讀」的特質分述兩邊，列出右邊的圖像：\n我發現這兩列特質的總結，不就是白晝與黑夜的對比嗎？網路閱讀的特質，可喻為白晝；紙本閱讀的特質，可喻為黑夜。而一旦把紙本的獨特價值和黑夜連接，答案就跳出來了。人類從來都是需要代表黑夜和白晝的閱讀並存，也就是書和書以外的閱讀並存。\n就像人類有電燈後，雖然可以延長白晝，但還是需要黑夜，我們對紙本書的需求也是。不論我們可以從網路、手機得到多少訊息、知識、多媒體的閱讀樂趣，最後還是有打開紙本書的需求。人，沒有黑夜，是會生病的。我們沒有紙本書的閱讀，也如此。不論從心理或生理上來說，都如此。黑夜不是和少數人相關的藝術品，而是每個人不可或缺的必需品。\n我們現今透過簡訊、臉書，隨時都在使用文字表達自己、與人溝通，對文字的需求日益提高，而紙本書是最能讓我們學習、體會文字力量的一種媒介。一首雋永的古詩，印在紙本書上，和呈現在電子書上，會有截然不同的氣場，我們閱讀的感受也截然不同。這就是紙本書對每個人都具備的意義，不論這個社會多麼網路化、數位化。\n―― 改寫自郝明義〈當紙本書是一個黑夜〉",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "請閱讀以下短文，並回答34~35題：\n\n很多人早就預言紙本書會消失，被網路閱讀取代，但我相信紙本書有其獨特價值。我不時自問：要怎麼描述紙本書的獨特價值？今天和未來，大家為何要透過紙本書來閱讀？\n我一度覺得紙本書的價值比較接近藝術品，但藝術品是陽春白雪，和一般人的距離較遠。我想找出來的是：紙本書對一般人也是必需的獨特價值。思索十幾年後，我試著將「數位及網路閱讀」與「紙本閱讀」的特質分述兩邊，列出右邊的圖像：\n我發現這兩列特質的總結，不就是白晝與黑夜的對比嗎？網路閱讀的特質，可喻為白晝；紙本閱讀的特質，可喻為黑夜。而一旦把紙本的獨特價值和黑夜連接，答案就跳出來了。人類從來都是需要代表黑夜和白晝的閱讀並存，也就是書和書以外的閱讀並存。\n就像人類有電燈後，雖然可以延長白晝，但還是需要黑夜，我們對紙本書的需求也是。不論我們可以從網路、手機得到多少訊息、知識、多媒體的閱讀樂趣，最後還是有打開紙本書的需求。人，沒有黑夜，是會生病的。我們沒有紙本書的閱讀，也如此。不論從心理或生理上來說，都如此。黑夜不是和少數人相關的藝術品，而是每個人不可或缺的必需品。\n我們現今透過簡訊、臉書，隨時都在使用文字表達自己、與人溝通，對文字的需求日益提高，而紙本書是最能讓我們學習、體會文字力量的一種媒介。一首雋永的古詩，印在紙本書上，和呈現在電子書上，會有截然不同的氣場，我們閱讀的感受也截然不同。這就是紙本書對每個人都具備的意義，不論這個社會多麼網路化、數位化。"
+              },
+              {
+                "type": "text",
+                "content": "⸺ 改寫自郝明義〈當紙本書是一個黑夜〉",
+                "alignment": "end"
+              }
+            ],
             "image": "111_chinese_34-35.png",
             "options": [
               {
@@ -1072,7 +1131,34 @@
           },
           {
             "type": "groupChoice",
-            "description": "請閱讀以下兩篇短文，並回答39～40題：\n\n【甲】\n文帝時，莢錢$\\scriptsize{1}$益多，輕，乃更鑄四銖錢，上鑄「半兩」字樣，民亦得自鑄錢。故吳王就山鑄錢，富等天子，其後以此叛逆。又有大夫鄧通者，亦以鑄錢富甲天下。故吳、鄧氏錢布天下，而後乃生鑄錢之禁。\n―― 改寫自《史記．平準書》\n\n【乙】\n漢文帝時，鄧通得賜蜀銅山，聽得鑄錢，形制文字重量，皆與天子四銖錢同。時吳王亦有銅山鑄錢，故有吳錢，微重，形制文字，與天子錢不異。\n―― 改寫自《西京雜記》\n\n📖 補充說明：\n1.莢錢：西漢初年所鑄銅錢，形如榆莢，故名",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "請閱讀以下兩篇短文，並回答39～40題：\n\n【甲】\n文帝時，莢錢₁益多，輕，乃更鑄四銖錢，上鑄「半兩」字樣，民亦得自鑄錢。故吳王就山鑄錢，富等天子，其後以此叛逆。又有大夫鄧通者，亦以鑄錢富甲天下。故吳、鄧氏錢布天下，而後乃生鑄錢之禁。"
+              },
+              {
+                "type": "text",
+                "content": "⸺ 改寫自《史記．平準書》",
+                "alignment": "end"
+              },
+              {
+                "type": "text",
+                "content": "【乙】\n漢文帝時，鄧通得賜蜀銅山，聽得鑄錢，形制文字重量，皆與天子四銖錢同。時吳王亦有銅山鑄錢，故有吳錢，微重，形制文字，與天子錢不異。"
+              },
+              {
+                "type": "text",
+                "content": "⸺ 改寫自《西京雜記》",
+                "alignment": "end"
+              },
+              {
+                "type": "border",
+                "child": {
+                  "type": "text",
+                  "content": "\uD83D\uDCD6 補充說明：\n1.莢錢：西漢初年所鑄銅錢，形如榆莢，故名"
+                },
+                "alignment": "end"
+              }
+            ],
             "options": [
               {
                 "number": 39,
@@ -1130,7 +1216,25 @@
           },
           {
             "type": "groupChoice",
-            "description": "王起主文柄$\\scriptsize{1}$，欲以白敏中為狀元，病其與賀拔惎為友。惎有文而落拓。乃密令門人申意，俾敏中與惎絕。門人復約敏中，具以告之。敏中曰：「皆如所教。」既而惎果造門，左右欺以敏中他適，惎遲留不言而去。俄頃，敏中躍出，連呼左右召惎，悉以實告，曰：「一第何患不致，奈輕負至交！」相與歡醉。門人睹之，大怒而去。懇告於起，且云不可必矣。起曰：「我原只得白敏中，今當更取賀拔惎矣。」\n―― 改寫自《唐摭言》\n\n📖 補充說明：\n1.主文柄:主持科舉考試",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "王起主文柄₁，欲以白敏中為狀元，病其與賀拔惎為友。惎有文而落拓。乃密令門人申意，俾敏中與惎絕。門人復約敏中，具以告之。敏中曰：「皆如所教。」既而惎果造門，左右欺以敏中他適，惎遲留不言而去。俄頃，敏中躍出，連呼左右召惎，悉以實告，曰：「一第何患不致，奈輕負至交！」相與歡醉。門人睹之，大怒而去。懇告於起，且云不可必矣。起曰：「我原只得白敏中，今當更取賀拔惎矣。」"
+              },
+              {
+                "type": "text",
+                "content": "⸺ 改寫自《唐摭言》",
+                "alignment": "end"
+              },
+              {
+                "type": "border",
+                "child": {
+                  "type": "text",
+                  "content": "\uD83D\uDCD6 補充說明：\n1.主文柄:主持科舉考試"
+                },
+                "alignment": "end"
+              }
+            ],
             "options": [
               {
                 "number": 41,
@@ -1715,7 +1819,23 @@
           {
             "type": "singleChoice",
             "number": 20,
-            "description": "While reading this story, Brad saw the word “trolling” and didn’t know what it meant.\n\nJosh turned off the screen and sat back.  “Why are they trolling me like this?”  He didn’t understand.  They wanted him to share what he thought about the show, and he did.  And now look what he got.  In the end, all they wanted was nice words.\n\nHe found several meanings of the word in a dictionary.  Which one should Brad choose?",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "While reading this story, Brad saw the word “trolling” and didn’t know what it meant."
+              },
+              {
+                "type": "border",
+                "child": {
+                  "type": "text",
+                  "content": "Josh turned off the screen and sat back.  “Why are they trolling me like this?”  He didn’t understand.  They wanted him to share what he thought about the show, and he did.  And now look what he got.  In the end, all they wanted was nice words."
+                }
+              },
+              {
+                "type": "text",
+                "content": "He found several meanings of the word in a dictionary.  Which one should Brad choose?"
+              }
+            ],
             "passing_rate": 0.52,
             "discrimination_index": 0.58,
             "choices": [
@@ -1741,8 +1861,24 @@
           },
           {
             "type": "groupChoice",
-            "description": "(21-22)\n\n📖 補充說明：\naddress 地址",
-            "image": "111_english_21-22.png",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "(21-22)"
+              },
+              {
+                "type": "image",
+                "content": "111_english_21-22.png"
+              },
+              {
+                "type": "border",
+                "child": {
+                  "type": "text",
+                  "content": "\uD83D\uDCD6 補充說明：\naddress 地址"
+                },
+                "alignment": "end"
+              }
+            ],
             "options": [
               {
                 "number": 21,
@@ -1801,8 +1937,24 @@
           },
           {
             "type": "groupChoice",
-            "description": "(23-24)\nBelow is an infographic.\n\n📖 補充說明：\ninfographic 資訊圖表",
-            "image": "111_english_23-24.png",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "(23-24)\nBelow is an infographic."
+              },
+              {
+                "type": "image",
+                "content": "111_english_23-24.png"
+              },
+              {
+                "type": "border",
+                "child": {
+                  "type": "text",
+                  "content": "\uD83D\uDCD6 補充說明：\ninfographic 資訊圖表"
+                },
+                "alignment": "end"
+              }
+            ],
             "options": [
               {
                 "number": 23,
@@ -1918,12 +2070,45 @@
           },
           {
             "type": "groupChoice",
-            "description": "(27-29)\nTabata training is a very popular way of exercising these days. It doesn’t take much time or space, and it burns calories faster than other ways of exercising.\nThe idea of Tabata training is simple: exercise for 20 seconds, rest for 10 seconds, and then repeat (at least eight times). The moves for the 20-second exercise are not difficult to learn. Jumping jacks, high knees, squats, and planks are some of the most common moves. You can decide yourself what moves to do in your Tabata training.\nFor example, you can do more leg exercises if you want strong legs.\n\nOne great thing about Tabata training is that your body will keep burning calories for at least an hour after 4 minutes of Tabata training. But to have this wonderful “afterburn,” you need to exercise really hard during each 20 seconds. If you seldom exercise or have heart problems, this exercise may not be good for you. But for people who enjoy exercising but are too busy to go to the gym, Tabata training might just be the answer.\n\n📖 補充說明：\ncalorie 卡路里(熱量單位)",
-            "image": "111_english_27-29.png",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "(27-29)\nTabata training is a very popular way of exercising these days. It doesn’t take much time or space, and it burns calories faster than other ways of exercising.\nThe idea of Tabata training is simple: exercise for 20 seconds, rest for 10 seconds, and then repeat (at least eight times). The moves for the 20-second exercise are not difficult to learn. Jumping jacks, high knees, squats, and planks are some of the most common moves. You can decide yourself what moves to do in your Tabata training.For example, you can do more leg exercises if you want strong legs."
+              },
+              {
+                "type": "image",
+                "content": "111_english_27-29.png"
+              },
+              {
+                "type": "text",
+                "content": "One great thing about Tabata training is that your body will keep burning calories for at least an hour after 4 minutes of Tabata training. But to have this wonderful “afterburn,” you need to exercise really hard during each 20 seconds. If you seldom exercise or have heart problems, this exercise may not be good for you. But for people who enjoy exercising but are too busy to go to the gym, Tabata training might just be the answer."
+              },
+              {
+                "type": "border",
+                "child": {
+                  "type": "text",
+                  "content": "\uD83D\uDCD6 補充說明：\ncalorie 卡路里(熱量單位)"
+                },
+                "alignment": "end"
+              }
+            ],
             "options": [
               {
                 "number": 27,
-                "description": "Which idea is talked about in the first paragraph of the reading?\n📖 補充說明：\nparagraph 段落",
+                "rich_content": [
+                  {
+                    "type": "text",
+                    "content": "Which idea is talked about in the first paragraph of the reading?"
+                  },
+                  {
+                    "type": "border",
+                    "child": {
+                      "type": "text",
+                      "content": "\uD83D\uDCD6 補充說明：\nparagraph 段落"
+                    },
+                    "alignment": "end"
+                  }
+                ],
                 "passing_rate": 0.65,
                 "discrimination_index": 0.65,
                 "choices": [
@@ -2003,12 +2188,50 @@
           },
           {
             "type": "groupChoice",
-            "description": "(30-32)\nModern Workplace         June 5, 2016\n\n  The problem of long working hours is a real headache in our country. It kills many people every year (see Figure 1), and many companies are trying to change that. They have at least one “No Overtime Day” in a week, and it is often Wednesday. On “No Overtime Day,” workers are asked to leave their offices before 8 p.m. At 8 p.m., companies play the song “There’s Always Tomorrow” and turn off all the lights.\n  However, after the workers walk out of their offices, they don’t go home. Some go back later, turn on their table lamps, and keep working, and others find somewhere else to work until very late at night. Restaurants and coffee shops are busier on Wednesday evenings, and they have started selling drinks and meals for these workers.\n  But why do these people keep working? A study shows that workers who work more hours often have a bigger chance to get paid more and rise higher in their companies. This is true for both men and women (see Figure 2). Working long hours has become a way to show that people are hard-working. Clearly, $\\textcolor{red}{this}$ must be changed before the problem gets any worse.\n\n📖 補充說明：\naverage 平均",
-            "image": "111_english_30-32.png",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "(30-32)\nModern Workplace"
+              },
+              {
+                "type": "text",
+                "content": "June 5, 2016",
+                "alignment": "end"
+              },
+              {
+                "type": "text",
+                "content": "The problem of long working hours is a real headache in our country. It kills many people every year (see Figure 1), and many companies are trying to change that. They have at least one “No Overtime Day” in a week, and it is often Wednesday. On “No Overtime Day,” workers are asked to leave their offices before 8 p.m. At 8 p.m., companies play the song “There’s Always Tomorrow” and turn off all the lights.\n  However, after the workers walk out of their offices, they don’t go home. Some go back later, turn on their table lamps, and keep working, and others find somewhere else to work until very late at night. Restaurants and coffee shops are busier on Wednesday evenings, and they have started selling drinks and meals for these workers.\n  But why do these people keep working? A study shows that workers who work more hours often have a bigger chance to get paid more and rise higher in their companies. This is true for both men and women (see Figure 2). Working long hours has become a way to show that people are hard-working. Clearly, $\\textcolor{red}{this}$ must be changed before the problem gets any worse."
+              },
+              {
+                "type": "image",
+                "content": "111_english_30-32.png"
+              },
+              {
+                "type": "border",
+                "child": {
+                  "type": "text",
+                  "content": "\uD83D\uDCD6 補充說明：\naverage 平均"
+                },
+                "alignment": "end"
+              }
+            ],
             "options": [
               {
                 "number": 30,
-                "description": "There are four important points in the report:\na. What “No Overtime Day” is\nb. Why “No Overtime Day” fails\nc. Why there is “No Overtime Day” in the country\nd. How workers deal with “No Overtime Day”\nHow are they ordered in the report?\n📖 補充說明：\norder 排序",
+                "rich_content": [
+                  {
+                    "type": "text",
+                    "content": "There are four important points in the report:\na. What “No Overtime Day” is\nb. Why “No Overtime Day” fails\nc. Why there is “No Overtime Day” in the country\nd. How workers deal with “No Overtime Day”\nHow are they ordered in the report?"
+                  },
+                  {
+                    "type": "border",
+                    "child": {
+                      "type": "text",
+                      "content": "\uD83D\uDCD6 補充說明：\norder 排序"
+                    },
+                    "alignment": "end"
+                  }
+                ],
                 "passing_rate": 0.44,
                 "discrimination_index": 0.53,
                 "choices": [
@@ -2088,13 +2311,45 @@
           },
           {
             "type": "groupChoice",
-            "description": "(33-36)\n📖 補充說明：official 官方的\ngovernment 政府",
-            "image": "111_english_33-36.png",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "(33-36)"
+              },
+              {
+                "type": "image",
+                "content": "111_english_33-36.png"
+              },
+              {
+                "type": "border",
+                "child": {
+                  "type": "text",
+                  "content": "\uD83D\uDCD6 補充說明：official 官方的\ngovernment 政府"
+                },
+                "alignment": "end"
+              }
+            ],
             "options": [
               {
                 "number": 33,
-                "description": "Which map is most likely the map of Cameroon in 1962?\n📖 補充說明：\nlikely 可能",
-                "image": "111_english_33.png",
+                "rich_content": [
+                  {
+                    "type": "text",
+                    "content": "Which map is most likely the map of Cameroon in 1962?"
+                  },
+                  {
+                    "type": "border",
+                    "child": {
+                      "type": "text",
+                      "content": "\uD83D\uDCD6 補充說明：\nlikely 可能"
+                    },
+                    "alignment": "end"
+                  },
+                  {
+                    "type": "image",
+                    "content": "111_english_33.png"
+                  }
+                ],
                 "passing_rate": 0.57,
                 "discrimination_index": 0.62,
                 "choices": [
@@ -2196,12 +2451,41 @@
           },
           {
             "type": "groupChoice",
-            "description": "(37-39)\nTHE SOUTHEND TRAIL has been popular with nature lovers for years.\nThe 120-km trail passes beautiful lakes, crosses rivers, and goes through mountains and hills. This gives bird lovers some of the best places for birdwatching. The trail also takes you to the Southend Museum and to two famous castles, Edward Castle and Sloan Castle.\nIt’s best to plan one day for one part of the trail and start your hike early in the morning, because each part takes at least seven hours. If you don’t want to walk, you can bike, but make sure you stay on the main trail, because the side trails are not wide enough for biking.\nThere are two types of $\\textcolor{red}{lodging}$ for visitors. Camping is popular in summer, but it is only allowed on a few campgrounds (see the map). A more comfortable one is to stay at a hotel in one of the towns. You can find some very nice ones that also have breakfast.\n📖 補充說明：trail 步道",
-            "image": "111_english_37-39.png",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "(37-39)\nTHE SOUTHEND TRAIL has been popular with nature lovers for years.\nThe 120-km trail passes beautiful lakes, crosses rivers, and goes through mountains and hills. This gives bird lovers some of the best places for birdwatching. The trail also takes you to the Southend Museum and to two famous castles, Edward Castle and Sloan Castle.\nIt’s best to plan one day for one part of the trail and start your hike early in the morning, because each part takes at least seven hours. If you don’t want to walk, you can bike, but make sure you stay on the main trail, because the side trails are not wide enough for biking.\nThere are two types of $\\textcolor{red}{lodging}$ for visitors. Camping is popular in summer, but it is only allowed on a few campgrounds (see the map). A more comfortable one is to stay at a hotel in one of the towns. You can find some very nice ones that also have breakfast."
+              },
+              {
+                "type": "image",
+                "content": "111_english_37-39.png"
+              },
+              {
+                "type": "border",
+                "child": {
+                  "type": "text",
+                  "content": "\uD83D\uDCD6 補充說明：trail 步道"
+                },
+                "alignment": "end"
+              }
+            ],
             "options": [
               {
                 "number": 37,
-                "description": "What is recommended to people who are visiting the Southend Trail?\n📖 補充說明：\nrecommend 推薦",
+                "rich_content": [
+                  {
+                    "type": "text",
+                    "content": "What is recommended to people who are visiting the Southend Trail?"
+                  },
+                  {
+                    "type": "border",
+                    "child": {
+                      "type": "text",
+                      "content": "\uD83D\uDCD6 補充說明：\nrecommend 推薦"
+                    },
+                    "alignment": "end"
+                  }
+                ],
                 "passing_rate": 0.58,
                 "discrimination_index": 0.57,
                 "choices": [
@@ -2281,8 +2565,20 @@
           },
           {
             "type": "groupChoice",
-            "description": "(40-43)\nEnglish words are made of 26 letters, and palindromes and anagrams are two kinds of word games about spelling. A palindrome is a word or a sentence that reads the same from left to right or from right to left, $\\underline{~~~~40~~~~}$ , “eye,” “Bob,” “my gym,” and “Was it a car or a cat I saw?” An anagram of a word or words is made by putting the letters of the word or words in a different way. Look at the words and their anagrams below. Can you think of other possible anagrams of these words?\nAnagrams are often longer words that don’t really mean anything but are fun to say. Sometimes they can even mean something $\\underline{~~~~42~~~~}$ , like when a common word, “restaurant,” becomes “Eat rats, run!”\nActually, palindromes and anagrams are $\\underline{~~~~43~~~~}$ . Palindromes can be used to learn mathematics and make music. Anagrams are also a good way to hide something. In history, people often hid their important studies in anagrams. Can you think of any other way to use them?",
-            "image": "111_english_40-43.png",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "(40-43)\nEnglish words are made of 26 letters, and palindromes and anagrams are two kinds of word games about spelling. A palindrome is a word or a sentence that reads the same from left to right or from right to left, $\\underline{~~~~40~~~~}$ , “eye,” “Bob,” “my gym,” and “Was it a car or a cat I saw?” An anagram of a word or words is made by putting the letters of the word or words in a different way. Look at the words and their anagrams below. Can you think of other possible anagrams of these words?"
+              },
+              {
+                "type": "image",
+                "content": "111_english_40-43.png"
+              },
+              {
+                "type": "text",
+                "content": "Anagrams are often longer words that don’t really mean anything but are fun to say. Sometimes they can even mean something $\\underline{~~~~42~~~~}$ , like when a common word, “restaurant,” becomes “Eat rats, run!”\nActually, palindromes and anagrams are $\\underline{~~~~43~~~~}$ . Palindromes can be used to learn mathematics and make music. Anagrams are also a good way to hide something. In history, people often hid their important studies in anagrams. Can you think of any other way to use them?"
+              }
+            ],
             "options": [
               {
                 "number": 40,
