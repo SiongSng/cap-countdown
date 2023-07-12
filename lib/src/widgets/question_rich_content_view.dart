@@ -19,8 +19,7 @@ class QuestionRichContentView extends StatelessWidget {
 
     void addAlignWidget(MainAxisAlignment? alignment, Widget widget) {
       richWidgetList.add(alignment != null
-          ? Row(
-              mainAxisAlignment: alignment, children: [Expanded(child: widget)])
+          ? Row(mainAxisAlignment: alignment, children: [widget])
           : widget);
     }
 
