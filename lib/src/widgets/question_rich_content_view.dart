@@ -55,11 +55,9 @@ class QuestionRichContentView extends StatelessWidget {
               Container(
                 padding: const EdgeInsets.all(5),
                 decoration: BoxDecoration(border: Border.all()),
-                child: Column(children: [
-                  QuestionRichContentView(
-                    richContentList: [richContent.child!],
-                  )
-                ]),
+                child: QuestionRichContentView(
+                  richContentList: [richContent.child!],
+                ),
               ));
           break;
         default:
