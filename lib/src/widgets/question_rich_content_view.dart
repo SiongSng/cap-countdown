@@ -33,21 +33,21 @@ class QuestionRichContentView extends StatelessWidget {
                       "${prefixText != null && richContentList.first == richContent ? "${prefixText!} " : ""}${richContent.content}"));
           break;
         case RichContentTypeEnum.image:
-          if (prefixText != null) {
+          if (prefixText != null && richContentList.first == richContent) {
             richWidgetList.add(QuestionText(text: prefixText!));
-          } else {
-            richWidgetList.add(const SizedBox(
-              height: 8,
-            ));
-            addAlignWidget(
-                richContent.alignment,
-                QuestionImage(
-                  imageFileName: richContent.content!,
-                ));
-            richWidgetList.add(const SizedBox(
-              height: 8,
-            ));
           }
+          richWidgetList.add(const SizedBox(
+            height: 8,
+          ));
+          addAlignWidget(
+              richContent.alignment,
+              QuestionImage(
+                imageFileName: richContent.content!,
+              ));
+          richWidgetList.add(const SizedBox(
+            height: 8,
+          ));
+
           break;
         case RichContentTypeEnum.border:
           addAlignWidget(
@@ -55,9 +55,11 @@ class QuestionRichContentView extends StatelessWidget {
               Container(
                 padding: const EdgeInsets.all(5),
                 decoration: BoxDecoration(border: Border.all()),
-                child: QuestionRichContentView(
-                  richContentList: [richContent.child!],
-                ),
+                child: Column(children: [
+                  QuestionRichContentView(
+                    richContentList: [richContent.child!],
+                  )
+                ]),
               ));
           break;
         default:
