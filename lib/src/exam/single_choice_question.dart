@@ -19,7 +19,7 @@ class SingleChoiceQuestion extends OptionalQuestion with SubjectQuestion {
       super.description,
       super.audio,
       super.image,
-      super.richContentList,
+      super.richContents,
       required super.passingRate,
       required super.discriminationIndex,
       required super.choices,
@@ -38,7 +38,7 @@ class SingleChoiceQuestion extends OptionalQuestion with SubjectQuestion {
         other.number == number &&
         other.description == description &&
         other.image == image &&
-        other.richContentList == richContentList &&
+        other.richContents == richContents &&
         other.passingRate == passingRate &&
         other.discriminationIndex == discriminationIndex &&
         listEquals(other.choices, choices) &&
@@ -52,7 +52,7 @@ class SingleChoiceQuestion extends OptionalQuestion with SubjectQuestion {
       number,
       description,
       image,
-      richContentList,
+      richContents,
       passingRate,
       discriminationIndex,
       choices,

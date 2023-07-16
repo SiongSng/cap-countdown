@@ -431,10 +431,7 @@
               },
               {
                 "type": "border",
-                "child": {
-                  "type": "text",
-                  "content": "\uD83D\uDCD6 補充說明：\n1.醪：音ㄌㄠˊ，混含渣滓的濁酒"
-                },
+                "content": "\uD83D\uDCD6 補充說明：\n1.醪：音ㄌㄠˊ，混含渣滓的濁酒",
                 "alignment": "end"
               }
             ],
@@ -552,10 +549,7 @@
               },
               {
                 "type": "border",
-                "child": {
-                  "type": "text",
-                  "content": "\uD83D\uDCD6 補充說明：\n1.羅衣：絲質的衣服\n2.子規：杜鵑鳥，啼聲如「不如歸去」"
-                },
+                "content": "\uD83D\uDCD6 補充說明：\n1.羅衣：絲質的衣服\n2.子規：杜鵑鳥，啼聲如「不如歸去」",
                 "alignment": "end"
               }
             ],
@@ -643,10 +637,7 @@
               },
               {
                 "type": "border",
-                "child": {
-                  "type": "text",
-                  "content": "\uD83D\uDCD6 補充說明：\n1.願以境內累矣：希望勞煩您協助國事\n2.笥：放物品的竹器"
-                },
+                "content": "\uD83D\uDCD6 補充說明：\n1.願以境內累矣：希望勞煩您協助國事\n2.笥：放物品的竹器",
                 "alignment": "end"
               }
             ],
@@ -1152,10 +1143,7 @@
               },
               {
                 "type": "border",
-                "child": {
-                  "type": "text",
-                  "content": "\uD83D\uDCD6 補充說明：\n1.莢錢：西漢初年所鑄銅錢，形如榆莢，故名"
-                },
+                "content": "\uD83D\uDCD6 補充說明：\n1.莢錢：西漢初年所鑄銅錢，形如榆莢，故名",
                 "alignment": "end"
               }
             ],
@@ -1228,10 +1216,7 @@
               },
               {
                 "type": "border",
-                "child": {
-                  "type": "text",
-                  "content": "\uD83D\uDCD6 補充說明：\n1.主文柄:主持科舉考試"
-                },
+                "content": "\uD83D\uDCD6 補充說明：\n1.主文柄:主持科舉考試",
                 "alignment": "end"
               }
             ],
@@ -1826,10 +1811,7 @@
               },
               {
                 "type": "border",
-                "child": {
-                  "type": "text",
-                  "content": "Josh turned off the screen and sat back.  “Why are they trolling me like this?”  He didn’t understand.  They wanted him to share what he thought about the show, and he did.  And now look what he got.  In the end, all they wanted was nice words."
-                }
+                "content": "Josh turned off the screen and sat back.  “Why are they trolling me like this?”  He didn’t understand.  They wanted him to share what he thought about the show, and he did.  And now look what he got.  In the end, all they wanted was nice words."
               },
               {
                 "type": "text",
@@ -1872,10 +1854,7 @@
               },
               {
                 "type": "border",
-                "child": {
-                  "type": "text",
-                  "content": "\uD83D\uDCD6 補充說明：\naddress 地址"
-                },
+                "content": "\uD83D\uDCD6 補充說明：\naddress 地址",
                 "alignment": "end"
               }
             ],
@@ -1948,10 +1927,7 @@
               },
               {
                 "type": "border",
-                "child": {
-                  "type": "text",
-                  "content": "\uD83D\uDCD6 補充說明：\ninfographic 資訊圖表"
-                },
+                "content": "\uD83D\uDCD6 補充說明：\ninfographic 資訊圖表",
                 "alignment": "end"
               }
             ],
@@ -2085,10 +2061,7 @@
               },
               {
                 "type": "border",
-                "child": {
-                  "type": "text",
-                  "content": "\uD83D\uDCD6 補充說明：\ncalorie 卡路里(熱量單位)"
-                },
+                "content": "\uD83D\uDCD6 補充說明：\ncalorie 卡路里(熱量單位)",
                 "alignment": "end"
               }
             ],
@@ -2102,10 +2075,7 @@
                   },
                   {
                     "type": "border",
-                    "child": {
-                      "type": "text",
-                      "content": "\uD83D\uDCD6 補充說明：\nparagraph 段落"
-                    },
+                    "content": "\uD83D\uDCD6 補充說明：\nparagraph 段落",
                     "alignment": "end"
                   }
                 ],
@@ -2208,10 +2178,7 @@
               },
               {
                 "type": "border",
-                "child": {
-                  "type": "text",
-                  "content": "\uD83D\uDCD6 補充說明：\naverage 平均"
-                },
+                "content": "\uD83D\uDCD6 補充說明：\naverage 平均",
                 "alignment": "end"
               }
             ],
@@ -2225,10 +2192,7 @@
                   },
                   {
                     "type": "border",
-                    "child": {
-                      "type": "text",
-                      "content": "\uD83D\uDCD6 補充說明：\norder 排序"
-                    },
+                    "content": "\uD83D\uDCD6 補充說明：\norder 排序",
                     "alignment": "end"
                   }
                 ],
@@ -2322,10 +2286,7 @@
               },
               {
                 "type": "border",
-                "child": {
-                  "type": "text",
-                  "content": "\uD83D\uDCD6 補充說明：official 官方的\ngovernment 政府"
-                },
+                "content": "\uD83D\uDCD6 補充說明：official 官方的\ngovernment 政府",
                 "alignment": "end"
               }
             ],
@@ -2339,10 +2300,7 @@
                   },
                   {
                     "type": "border",
-                    "child": {
-                      "type": "text",
-                      "content": "\uD83D\uDCD6 補充說明：\nlikely 可能"
-                    },
+                    "content": "\uD83D\uDCD6 補充說明：\nlikely 可能",
                     "alignment": "end"
                   },
                   {
@@ -2462,10 +2420,7 @@
               },
               {
                 "type": "border",
-                "child": {
-                  "type": "text",
-                  "content": "\uD83D\uDCD6 補充說明：trail 步道"
-                },
+                "content": "\uD83D\uDCD6 補充說明：trail 步道",
                 "alignment": "end"
               }
             ],
@@ -2479,10 +2434,7 @@
                   },
                   {
                     "type": "border",
-                    "child": {
-                      "type": "text",
-                      "content": "\uD83D\uDCD6 補充說明：\nrecommend 推薦"
-                    },
+                    "content": "\uD83D\uDCD6 補充說明：\nrecommend 推薦",
                     "alignment": "end"
                   }
                 ],

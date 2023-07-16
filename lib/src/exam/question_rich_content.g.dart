@@ -8,14 +8,8 @@ part of 'question_rich_content.dart';
 
 QuestionRichContent _$QuestionRichContentFromJson(Map<String, dynamic> json) =>
     QuestionRichContent(
-      type: $enumDecode(_$RichContentTypeEnumEnumMap, json['type']),
+      type: $enumDecode(_$RichContentTypeEnumMap, json['type']),
       content: json['content'] as String?,
-      child: json['child'] == null
-          ? null
-          : QuestionRichContent.fromJson(json['child'] as Map<String, dynamic>),
-      children: (json['children'] as List<dynamic>?)
-          ?.map((e) => QuestionRichContent.fromJson(e as Map<String, dynamic>))
-          .toList(),
       alignment:
           $enumDecodeNullable(_$MainAxisAlignmentEnumMap, json['alignment']),
     );
@@ -23,17 +17,15 @@ QuestionRichContent _$QuestionRichContentFromJson(Map<String, dynamic> json) =>
 Map<String, dynamic> _$QuestionRichContentToJson(
         QuestionRichContent instance) =>
     <String, dynamic>{
-      'type': _$RichContentTypeEnumEnumMap[instance.type]!,
+      'type': _$RichContentTypeEnumMap[instance.type]!,
       'content': instance.content,
-      'child': instance.child,
-      'children': instance.children,
       'alignment': _$MainAxisAlignmentEnumMap[instance.alignment],
     };
 
-const _$RichContentTypeEnumEnumMap = {
-  RichContentTypeEnum.text: 'text',
-  RichContentTypeEnum.image: 'image',
-  RichContentTypeEnum.border: 'border',
+const _$RichContentTypeEnumMap = {
+  RichContentType.text: 'text',
+  RichContentType.image: 'image',
+  RichContentType.border: 'border',
 };
 
 const _$MainAxisAlignmentEnumMap = {

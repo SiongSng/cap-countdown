@@ -26,7 +26,7 @@ class OptionalQuestion {
   final QuestionAnswer correctAnswer;
   final String? explanation;
   @JsonKey(name: 'rich_content')
-  final List<QuestionRichContent>? richContentList;
+  final List<QuestionRichContent>? richContents;
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   QuestionChoice? selectedChoice;
@@ -44,7 +44,7 @@ class OptionalQuestion {
     required this.choices,
     required this.correctAnswer,
     this.explanation,
-    this.richContentList,
+    this.richContents,
   }) {
     crossOutItems = List.generate(choices.length, (_) => false);
   }
@@ -102,7 +102,7 @@ class OptionalQuestion {
           listEquals(choices, other.choices) &&
           correctAnswer == other.correctAnswer &&
           explanation == other.explanation &&
-          richContentList == other.richContentList;
+          listEquals(richContents, other.richContents);
 
   @override
   int get hashCode =>
@@ -115,7 +115,7 @@ class OptionalQuestion {
       choices.hashCode ^
       correctAnswer.hashCode ^
       explanation.hashCode ^
-      richContentList.hashCode;
+      richContents.hashCode;
 }
 
 enum QuestionAnswer { A, B, C, D }

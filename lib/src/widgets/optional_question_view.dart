@@ -41,33 +41,33 @@ class _OptionalQuestionViewState extends State<OptionalQuestionView> {
   @override
   Widget build(BuildContext context) {
     late final String? description;
+    final String questionNumber = '${widget.question.number}.';
 
     if (widget.option.showQuestionNumber &&
         widget.question.description != null) {
-      description = '${widget.question.number}. ${widget.question.description}';
+      description = '$questionNumber ${widget.question.description}';
     } else {
       description = widget.question.description;
     }
 
     final imageName = widget.question.image;
     final audioFileName = widget.question.audio;
-    final richContentList = widget.question.richContentList;
+    final richContents = widget.question.richContents;
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        if (richContentList != null)
+        if (richContents != null)
           QuestionRichContentView(
-            richContentList: richContentList,
-            prefixText: widget.option.showQuestionNumber
-                ? '${widget.question.number}.'
-                : null,
+            richContents: richContents,
+            prefixText:
+                widget.option.showQuestionNumber ? questionNumber : null,
           ),
-        if (imageName != null && richContentList == null) ...[
+        if (imageName != null) ...[
           QuestionImage(imageFileName: imageName),
           const SizedBox(height: 8)
         ],
-        if (description != null && richContentList == null) ...[
+        if (description != null) ...[
           // Use LaTexT to render LaTeX (math formula) in text.
           QuestionText(text: description),
           const SizedBox(height: 8)

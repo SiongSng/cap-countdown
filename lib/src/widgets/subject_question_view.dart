@@ -50,21 +50,23 @@ class _SubjectQuestionViewState extends State<SubjectQuestionView> {
   Widget _buildGroupChoice(GroupChoiceQuestion question) {
     final description = question.description;
     final imageFileName = question.image;
-    final richContentList = question.richContentList;
+    final richContents = question.richContents;
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        if (richContentList != null)
-          QuestionRichContentView(richContentList: richContentList),
-        if (description != null && richContentList == null)
-          QuestionText(text: description),
-        if (imageFileName != null && richContentList == null) ...[
+        if (richContents != null)
+          QuestionRichContentView(richContents: richContents),
+        if (description != null) QuestionText(text: description),
+        if (imageFileName != null) ...[
           const SizedBox(height: 8),
           QuestionImage(imageFileName: imageFileName),
           const SizedBox(height: 8)
         ],
-        if (description != null || imageFileName != null) const Divider(),
+        if (description != null ||
+            imageFileName != null ||
+            richContents != null)
+          const Divider(),
         for (final entry in question.options.asMap().entries)
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,

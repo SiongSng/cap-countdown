@@ -13,7 +13,7 @@ SingleChoiceQuestion _$SingleChoiceQuestionFromJson(
       description: json['description'] as String?,
       audio: json['audio'] as String?,
       image: json['image'] as String?,
-      richContentList: (json['rich_content'] as List<dynamic>?)
+      richContents: (json['rich_content'] as List<dynamic>?)
           ?.map((e) => QuestionRichContent.fromJson(e as Map<String, dynamic>))
           .toList(),
       passingRate: (json['passing_rate'] as num?)?.toDouble(),
@@ -38,7 +38,7 @@ Map<String, dynamic> _$SingleChoiceQuestionToJson(
       'choices': instance.choices.map((e) => e.toJson()).toList(),
       'correct_answer': _$QuestionAnswerEnumMap[instance.correctAnswer]!,
       'explanation': instance.explanation,
-      'rich_content': instance.richContentList?.map((e) => e.toJson()).toList(),
+      'rich_content': instance.richContents?.map((e) => e.toJson()).toList(),
       'type': _$QuestionTypeEnumMap[instance.type]!,
     };
 
