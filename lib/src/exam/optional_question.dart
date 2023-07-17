@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:cap_countdown/main.dart';
 import 'package:cap_countdown/src/exam/question_record.dart';
+import 'package:cap_countdown/src/exam/question_rich_content.dart';
 import 'package:crypto/crypto.dart';
 import 'package:flutter/foundation.dart';
 import 'package:json_annotation/json_annotation.dart';
@@ -24,6 +25,8 @@ class OptionalQuestion {
   @JsonKey(name: 'correct_answer')
   final QuestionAnswer correctAnswer;
   final String? explanation;
+  @JsonKey(name: 'rich_content')
+  final List<QuestionRichContent>? richContents;
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   QuestionChoice? selectedChoice;
@@ -41,6 +44,7 @@ class OptionalQuestion {
     required this.choices,
     required this.correctAnswer,
     this.explanation,
+    this.richContents,
   }) {
     crossOutItems = List.generate(choices.length, (_) => false);
   }
@@ -97,7 +101,8 @@ class OptionalQuestion {
           discriminationIndex == other.discriminationIndex &&
           listEquals(choices, other.choices) &&
           correctAnswer == other.correctAnswer &&
-          explanation == other.explanation;
+          explanation == other.explanation &&
+          listEquals(richContents, other.richContents);
 
   @override
   int get hashCode =>
@@ -109,7 +114,8 @@ class OptionalQuestion {
       discriminationIndex.hashCode ^
       choices.hashCode ^
       correctAnswer.hashCode ^
-      explanation.hashCode;
+      explanation.hashCode ^
+      richContents.hashCode;
 }
 
 enum QuestionAnswer { A, B, C, D }

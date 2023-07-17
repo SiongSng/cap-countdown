@@ -5,6 +5,7 @@ import 'package:cap_countdown/src/exam/question_meta.dart';
 import 'package:cap_countdown/src/exam/single_choice_question.dart';
 import 'package:cap_countdown/src/exam/subject_question.dart';
 import 'package:cap_countdown/src/widgets/question_audio_player.dart';
+import 'package:cap_countdown/src/widgets/question_rich_content_view.dart';
 import 'package:cap_countdown/src/widgets/report_question_button.dart';
 import 'package:flutter/material.dart';
 
@@ -49,17 +50,23 @@ class _SubjectQuestionViewState extends State<SubjectQuestionView> {
   Widget _buildGroupChoice(GroupChoiceQuestion question) {
     final description = question.description;
     final imageFileName = question.image;
+    final richContents = question.richContents;
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        if (richContents != null)
+          QuestionRichContentView(richContents: richContents),
         if (description != null) QuestionText(text: description),
         if (imageFileName != null) ...[
           const SizedBox(height: 8),
           QuestionImage(imageFileName: imageFileName),
           const SizedBox(height: 8)
         ],
-        if (description != null || imageFileName != null) const Divider(),
+        if (description != null ||
+            imageFileName != null ||
+            richContents != null)
+          const Divider(),
         for (final entry in question.options.asMap().entries)
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
