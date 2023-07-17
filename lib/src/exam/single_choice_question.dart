@@ -4,6 +4,7 @@ import 'package:json_annotation/json_annotation.dart';
 
 import 'optional_question.dart';
 import 'question_choice.dart';
+import 'question_rich_content.dart';
 
 part 'single_choice_question.g.dart';
 
@@ -24,6 +25,7 @@ class SingleChoiceQuestion extends OptionalQuestion with SubjectQuestion {
     required super.correctAnswer,
     required super.explanation,
     super.explanationImage,
+    super.richContents,
   });
 
   factory SingleChoiceQuestion.fromJson(Map<String, dynamic> json) =>
@@ -38,6 +40,7 @@ class SingleChoiceQuestion extends OptionalQuestion with SubjectQuestion {
         other.number == number &&
         other.description == description &&
         other.image == image &&
+        listEquals(other.richContents, richContents) &&
         other.passingRate == passingRate &&
         other.discriminationIndex == discriminationIndex &&
         listEquals(other.choices, choices) &&
@@ -52,6 +55,7 @@ class SingleChoiceQuestion extends OptionalQuestion with SubjectQuestion {
       number,
       description,
       image,
+      richContents,
       passingRate,
       discriminationIndex,
       choices,

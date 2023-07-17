@@ -6,6 +6,7 @@ import 'package:cap_countdown/src/util/layout.dart';
 import 'package:cap_countdown/src/widgets/choice_button.dart';
 import 'package:cap_countdown/src/widgets/question_audio_player.dart';
 import 'package:cap_countdown/src/widgets/question_image.dart';
+import 'package:cap_countdown/src/widgets/question_rich_content_view.dart';
 import 'package:cap_countdown/src/widgets/question_text.dart';
 import 'package:cap_countdown/src/widgets/report_question_button.dart';
 import 'package:flutter/material.dart';
@@ -40,14 +41,11 @@ class _OptionalQuestionViewState extends State<OptionalQuestionView> {
   @override
   Widget build(BuildContext context) {
     late final String? description;
+    final String questionNumber = '${widget.question.number}.';
 
-    if (widget.option.showQuestionNumber) {
-      if (widget.question.description != null) {
-        description =
-            '${widget.question.number}. ${widget.question.description}';
-      } else {
-        description = '${widget.question.number}.';
-      }
+    if (widget.option.showQuestionNumber &&
+        widget.question.description != null) {
+      description = '$questionNumber ${widget.question.description}';
     } else {
       description = widget.question.description;
     }
@@ -55,10 +53,17 @@ class _OptionalQuestionViewState extends State<OptionalQuestionView> {
     final imageName = widget.question.image;
     final audioFileName = widget.question.audio;
     final explainImageName = widget.question.explanationImage;
+    final richContents = widget.question.richContents;
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        if (richContents != null)
+          QuestionRichContentView(
+            richContents: richContents,
+            prefixText:
+                widget.option.showQuestionNumber ? questionNumber : null,
+          ),
         if (imageName != null) ...[
           QuestionImage(imageFileName: imageName),
           const SizedBox(height: 8)
