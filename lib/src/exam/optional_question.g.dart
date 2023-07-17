@@ -20,6 +20,9 @@ OptionalQuestion _$OptionalQuestionFromJson(Map<String, dynamic> json) =>
       correctAnswer:
           $enumDecode(_$QuestionAnswerEnumMap, json['correct_answer']),
       explanation: json['explanation'] as String?,
+      richContents: (json['rich_content'] as List<dynamic>?)
+          ?.map((e) => QuestionRichContent.fromJson(e as Map<String, dynamic>))
+          .toList(),
     );
 
 Map<String, dynamic> _$OptionalQuestionToJson(OptionalQuestion instance) =>
@@ -33,6 +36,7 @@ Map<String, dynamic> _$OptionalQuestionToJson(OptionalQuestion instance) =>
       'choices': instance.choices.map((e) => e.toJson()).toList(),
       'correct_answer': _$QuestionAnswerEnumMap[instance.correctAnswer]!,
       'explanation': instance.explanation,
+      'rich_content': instance.richContents?.map((e) => e.toJson()).toList(),
     };
 
 const _$QuestionAnswerEnumMap = {

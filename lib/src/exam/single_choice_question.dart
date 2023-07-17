@@ -4,6 +4,7 @@ import 'package:json_annotation/json_annotation.dart';
 
 import 'optional_question.dart';
 import 'question_choice.dart';
+import 'question_rich_content.dart';
 
 part 'single_choice_question.g.dart';
 
@@ -18,6 +19,7 @@ class SingleChoiceQuestion extends OptionalQuestion with SubjectQuestion {
       super.description,
       super.audio,
       super.image,
+      super.richContents,
       required super.passingRate,
       required super.discriminationIndex,
       required super.choices,
@@ -36,6 +38,7 @@ class SingleChoiceQuestion extends OptionalQuestion with SubjectQuestion {
         other.number == number &&
         other.description == description &&
         other.image == image &&
+        listEquals(other.richContents, richContents) &&
         other.passingRate == passingRate &&
         other.discriminationIndex == discriminationIndex &&
         listEquals(other.choices, choices) &&
@@ -44,8 +47,17 @@ class SingleChoiceQuestion extends OptionalQuestion with SubjectQuestion {
   }
 
   @override
-  int get hashCode => Object.hash(type, number, description, image, passingRate,
-      discriminationIndex, choices, correctAnswer, explanation);
+  int get hashCode => Object.hash(
+      type,
+      number,
+      description,
+      image,
+      richContents,
+      passingRate,
+      discriminationIndex,
+      choices,
+      correctAnswer,
+      explanation);
 
   @override
   Map<String, dynamic> toJson() => _$SingleChoiceQuestionToJson(this);
