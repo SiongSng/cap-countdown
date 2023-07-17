@@ -432,7 +432,7 @@
               {
                 "type": "border",
                 "content": "\uD83D\uDCD6 補充說明：\n1.醪：音ㄌㄠˊ，混含渣滓的濁酒",
-                "alignment": "end"
+                "alignment": "centerRight"
               }
             ],
             "passing_rate": 0.58,
@@ -550,7 +550,7 @@
               {
                 "type": "border",
                 "content": "\uD83D\uDCD6 補充說明：\n1.羅衣：絲質的衣服\n2.子規：杜鵑鳥，啼聲如「不如歸去」",
-                "alignment": "end"
+                "alignment": "centerRight"
               }
             ],
             "passing_rate": 0.52,
@@ -638,7 +638,7 @@
               {
                 "type": "border",
                 "content": "\uD83D\uDCD6 補充說明：\n1.願以境內累矣：希望勞煩您協助國事\n2.笥：放物品的竹器",
-                "alignment": "end"
+                "alignment": "centerRight"
               }
             ],
             "passing_rate": 0.47,
@@ -907,7 +907,7 @@
               {
                 "type": "text",
                 "content": "⸺ 改寫自李清志〈烏托邦美術館：美秀美術館〉",
-                "alignment": "end"
+                "alignment": "centerRight"
               }
             ],
             "options": [
@@ -975,7 +975,7 @@
               {
                 "type": "text",
                 "content": "⸺ 改寫自郝明義〈當紙本書是一個黑夜〉",
-                "alignment": "end"
+                "alignment": "centerRight"
               }
             ],
             "image": "111_chinese_34-35.png",
@@ -1130,7 +1130,7 @@
               {
                 "type": "text",
                 "content": "⸺ 改寫自《史記．平準書》",
-                "alignment": "end"
+                "alignment": "centerRight"
               },
               {
                 "type": "text",
@@ -1139,12 +1139,12 @@
               {
                 "type": "text",
                 "content": "⸺ 改寫自《西京雜記》",
-                "alignment": "end"
+                "alignment": "centerRight"
               },
               {
                 "type": "border",
                 "content": "\uD83D\uDCD6 補充說明：\n1.莢錢：西漢初年所鑄銅錢，形如榆莢，故名",
-                "alignment": "end"
+                "alignment": "centerRight"
               }
             ],
             "options": [
@@ -1212,12 +1212,12 @@
               {
                 "type": "text",
                 "content": "⸺ 改寫自《唐摭言》",
-                "alignment": "end"
+                "alignment": "centerRight"
               },
               {
                 "type": "border",
                 "content": "\uD83D\uDCD6 補充說明：\n1.主文柄:主持科舉考試",
-                "alignment": "end"
+                "alignment": "centerRight"
               }
             ],
             "options": [
@@ -1855,7 +1855,7 @@
               {
                 "type": "border",
                 "content": "\uD83D\uDCD6 補充說明：\naddress 地址",
-                "alignment": "end"
+                "alignment": "centerRight"
               }
             ],
             "options": [
@@ -1928,7 +1928,7 @@
               {
                 "type": "border",
                 "content": "\uD83D\uDCD6 補充說明：\ninfographic 資訊圖表",
-                "alignment": "end"
+                "alignment": "centerRight"
               }
             ],
             "options": [
@@ -2062,7 +2062,7 @@
               {
                 "type": "border",
                 "content": "\uD83D\uDCD6 補充說明：\ncalorie 卡路里(熱量單位)",
-                "alignment": "end"
+                "alignment": "centerRight"
               }
             ],
             "options": [
@@ -2076,7 +2076,7 @@
                   {
                     "type": "border",
                     "content": "\uD83D\uDCD6 補充說明：\nparagraph 段落",
-                    "alignment": "end"
+                    "alignment": "centerRight"
                   }
                 ],
                 "passing_rate": 0.65,
@@ -2166,7 +2166,7 @@
               {
                 "type": "text",
                 "content": "June 5, 2016",
-                "alignment": "end"
+                "alignment": "centerRight"
               },
               {
                 "type": "text",
@@ -2179,7 +2179,7 @@
               {
                 "type": "border",
                 "content": "\uD83D\uDCD6 補充說明：\naverage 平均",
-                "alignment": "end"
+                "alignment": "centerRight"
               }
             ],
             "options": [
@@ -2193,7 +2193,7 @@
                   {
                     "type": "border",
                     "content": "\uD83D\uDCD6 補充說明：\norder 排序",
-                    "alignment": "end"
+                    "alignment": "centerRight"
                   }
                 ],
                 "passing_rate": 0.44,
@@ -2287,7 +2287,7 @@
               {
                 "type": "border",
                 "content": "\uD83D\uDCD6 補充說明：official 官方的\ngovernment 政府",
-                "alignment": "end"
+                "alignment": "centerRight"
               }
             ],
             "options": [
@@ -2301,7 +2301,7 @@
                   {
                     "type": "border",
                     "content": "\uD83D\uDCD6 補充說明：\nlikely 可能",
-                    "alignment": "end"
+                    "alignment": "centerRight"
                   },
                   {
                     "type": "image",
@@ -2421,7 +2421,7 @@
               {
                 "type": "border",
                 "content": "\uD83D\uDCD6 補充說明：trail 步道",
-                "alignment": "end"
+                "alignment": "centerRight"
               }
             ],
             "options": [
@@ -2435,7 +2435,7 @@
                   {
                     "type": "border",
                     "content": "\uD83D\uDCD6 補充說明：\nrecommend 推薦",
-                    "alignment": "end"
+                    "alignment": "centerRight"
                   }
                 ],
                 "passing_rate": 0.58,

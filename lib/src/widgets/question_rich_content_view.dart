@@ -29,9 +29,9 @@ class QuestionRichContentView extends StatelessWidget {
     );
   }
 
-  Widget alignWidget(MainAxisAlignment? alignment, Widget widget) {
+  Widget alignWidget(Alignment? alignment, Widget widget) {
     return alignment != null
-        ? Row(mainAxisAlignment: alignment, children: [widget])
+        ? Align(alignment: alignment, child: widget)
         : widget;
   }
 

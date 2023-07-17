@@ -11,7 +11,7 @@ QuestionRichContent _$QuestionRichContentFromJson(Map<String, dynamic> json) =>
       type: $enumDecode(_$RichContentTypeEnumMap, json['type']),
       content: json['content'] as String?,
       alignment:
-          $enumDecodeNullable(_$MainAxisAlignmentEnumMap, json['alignment']),
+          QuestionRichContent._alignmentFromJson(json['alignment'] as String?),
     );
 
 Map<String, dynamic> _$QuestionRichContentToJson(
@@ -19,20 +19,11 @@ Map<String, dynamic> _$QuestionRichContentToJson(
     <String, dynamic>{
       'type': _$RichContentTypeEnumMap[instance.type]!,
       'content': instance.content,
-      'alignment': _$MainAxisAlignmentEnumMap[instance.alignment],
+      'alignment': QuestionRichContent._alignmentToJson(instance.alignment),
     };
 
 const _$RichContentTypeEnumMap = {
   RichContentType.text: 'text',
   RichContentType.image: 'image',
   RichContentType.border: 'border',
-};
-
-const _$MainAxisAlignmentEnumMap = {
-  MainAxisAlignment.start: 'start',
-  MainAxisAlignment.end: 'end',
-  MainAxisAlignment.center: 'center',
-  MainAxisAlignment.spaceBetween: 'spaceBetween',
-  MainAxisAlignment.spaceAround: 'spaceAround',
-  MainAxisAlignment.spaceEvenly: 'spaceEvenly',
 };
