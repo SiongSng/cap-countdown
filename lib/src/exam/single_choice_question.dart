@@ -38,7 +38,7 @@ class SingleChoiceQuestion extends OptionalQuestion with SubjectQuestion {
         other.number == number &&
         other.description == description &&
         other.image == image &&
-        other.richContents == richContents &&
+        listEquals(other.richContents, richContents) &&
         other.passingRate == passingRate &&
         other.discriminationIndex == discriminationIndex &&
         listEquals(other.choices, choices) &&
