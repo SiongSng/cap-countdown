@@ -1197,7 +1197,8 @@
           {
             "type": "singleChoice",
             "number": 1,
-            "description": "Look at the picture.  The man is holding a 　　　 of grapes in his hands.",
+            "description": "Look at the picture.  The man is holding a ＿＿＿＿ of grapes in his hands.",
+            "image": "112_english_1.png",
             "passing_rate": null,
             "discrimination_index": null,
             "choices": [
@@ -1218,12 +1219,13 @@
                 "description": "box"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "在圖中，男人抱著一＿＿葡萄在手中。\n(A)袋  (B)籃  (C)碗  (D)箱。"
           },
           {
             "type": "singleChoice",
             "number": 2,
-            "description": "Dennis enjoys 　　　 in public.  He is proud of his beautiful voice.",
+            "description": "Dennis enjoys ＿＿＿＿ in public.  He is proud of his beautiful voice.",
             "passing_rate": 0.73,
             "discrimination_index": 0.67,
             "choices": [
@@ -1244,12 +1246,13 @@
                 "description": "singing"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "Dennis 喜歡在公共場合＿＿。他對自己美妙的聲音感到驕傲。\n(A)跳舞  (B)畫圖  (C)購物  (D)唱歌。"
           },
           {
             "type": "singleChoice",
             "number": 3,
-            "description": "Mrs. Johnson can’t hear very well.  If you need to talk to her, you must 　　　 .",
+            "description": "Mrs. Johnson can’t hear very well.  If you need to talk to her, you must ＿＿＿＿ .",
             "passing_rate": 0.71,
             "discrimination_index": 0.68,
             "choices": [
@@ -1270,12 +1273,13 @@
                 "description": "shout"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "Mrs. Johnson 聽不清楚。如果你需要和他說話，你必須＿＿。\n(A)解釋 (B)加快 (C)聆聽 (D)大聲說。"
           },
           {
             "type": "singleChoice",
             "number": 4,
-            "description": "People got very excited when they watched Ms. Smith 　　　 at the party.",
+            "description": "People got very excited when they watched Ms. Smith ＿＿＿＿ at the party.",
             "passing_rate": 0.6,
             "discrimination_index": 0.57,
             "choices": [
@@ -1296,12 +1300,13 @@
                 "description": "to dance"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "當 Ms. Smith 在派對上＿＿時人們會非常興奮。\n(A)過去式 (B)現在分詞 (C)現在完成式 (D)to + 原形動詞。"
           },
           {
             "type": "singleChoice",
             "number": 5,
-            "description": "�\nI�tried�on�these�shoes�in�several�different�　　　 , and I thought the white pair looked best on me.",
+            "description": "I tried on these shoes in several different ＿＿＿＿, and I thought the white pair looked best on me.",
             "passing_rate": 0.72,
             "discrimination_index": 0.63,
             "choices": [
@@ -1322,12 +1327,13 @@
                 "description": "sizes"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "我試了這雙鞋子的不同＿＿，我覺得白色的這些穿在我身上最好看。\n(A)顏色  (B)價錢  (C)形狀  (D)尺寸。"
           },
           {
             "type": "singleChoice",
             "number": 6,
-            "description": "Rex did not feel the earthquake this morning.  He 　　　 in the park at the time.",
+            "description": "Rex did not feel the earthquake this morning.  He ＿＿＿＿ in the park at the time.",
             "passing_rate": 0.76,
             "discrimination_index": 0.57,
             "choices": [
@@ -1348,38 +1354,40 @@
                 "description": "would jog"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "Rex 沒有感覺到今天早上地震。他當時在公園＿＿。\n(A)過去式 (B)過去進行式  (C)現在完成式  (D)would"
           },
           {
             "type": "singleChoice",
             "number": 7,
-            "description": "Mr. Lee has worked in the same store for ten years; he’s never thought about 　　　 his job.",
+            "description": "Mr. Lee has worked in the same store for ten years; he’s never thought about ＿＿＿＿ his job.",
             "passing_rate": 0.72,
             "discrimination_index": 0.68,
             "choices": [
               {
                 "answer": "A",
-                "description": "�changing�"
+                "description": "changing"
               },
               {
                 "answer": "B",
-                "description": "�finding�"
+                "description": "finding"
               },
               {
                 "answer": "C",
-                "description": "�remembering�"
+                "description": "remembering"
               },
               {
                 "answer": "D",
-                "description": "�starting"
+                "description": "starting"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "Mr. Lee 在同一家店工作十年了。他從沒想過＿＿他的工作。(A)改變 (B)尋找 (C)記得 (D)開始。"
           },
           {
             "type": "singleChoice",
             "number": 8,
-            "description": "I didn’t take the bus today because it was 　　　 .  All the seats were taken and a lot of \nstudents were standing.",
+            "description": "I didn’t take the bus today because it was ＿＿＿＿ .  All the seats were taken and a lot of students were standing.",
             "passing_rate": 0.74,
             "discrimination_index": 0.65,
             "choices": [
@@ -1400,12 +1408,13 @@
                 "description": "wrong"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "我今天沒有搭公車因為公車＿＿。所有的座位都有人了而且很多學生站著。\n(A)骯髒  (B)很快  (C)滿了  (D)錯誤。"
           },
           {
             "type": "singleChoice",
             "number": 9,
-            "description": "Don’t go away when you’re cooking, 　　　 the food might burn.",
+            "description": "Don’t go away when you’re cooking, ＿＿＿＿ the food might burn.",
             "passing_rate": 0.64,
             "discrimination_index": 0.71,
             "choices": [
@@ -1426,12 +1435,13 @@
                 "description": "so"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "不要在煮飯時離開，＿＿食物會燒起來。\n(A)但是  (B)如果  (C)否則  (D)所以。"
           },
           {
             "type": "singleChoice",
             "number": 10,
-            "description": "Jerry wanted to know 　　　 he was kicked off the soccer team, but no one gave him a \ngood reason.",
+            "description": "Jerry wanted to know ＿＿＿＿ he was kicked off the soccer team, but no one gave him a good reason.",
             "passing_rate": 0.65,
             "discrimination_index": 0.67,
             "choices": [
@@ -1452,12 +1462,13 @@
                 "description": "why"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "Jerry 想知道他＿＿被足球隊剔除，但沒人給他一個好的理由。\n(A)哪裡  (B)何時  (C)是否  (D)為什麼。"
           },
           {
             "type": "singleChoice",
             "number": 11,
-            "description": "Jenny is already forty, doesn’t have a job and often makes trouble for her parents.  To them, \nshe is really a(n) 　　　 .",
+            "description": "Jenny is already forty, doesn’t have a job and often makes trouble for her parents.  To them, she is really a(n) ＿＿＿＿ .",
             "passing_rate": 0.65,
             "discrimination_index": 0.7,
             "choices": [
@@ -1478,12 +1489,13 @@
                 "description": "headache1"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "Jenny 已經四十歲了卻沒有工作還常常給父母惹麻煩。對父母來說，她真是一個＿＿。\n(A)女兒  (B)範例  (C)禮物  (D)頭痛人物。"
           },
           {
             "type": "singleChoice",
             "number": 12,
-            "description": "Ed and Jill 　　　�camping�this�weekend,�so�they�have�to�finish�their�homework�by�Friday.",
+            "description": "Ed and Jill ＿＿＿＿ camping this weekend, so they have to finish their homework by Friday.",
             "passing_rate": 0.63,
             "discrimination_index": 0.61,
             "choices": [
@@ -1504,12 +1516,13 @@
                 "description": "have gone"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "Ed 和 Jill＿＿在週末去露營，所以他們必須在禮拜五以前完成作業。\n(A)過去式 (B) 過去進行式 (C) 現在進行式 (D) 現在完成式。\n現在進行式也可以用來表達未來即將發生的事情"
           },
           {
             "type": "singleChoice",
             "number": 13,
-            "description": "Doraemon, a blue Japanese robot cat, has hated mice since his ears 　　　 by a mouse.",
+            "description": "Doraemon, a blue Japanese robot cat, has hated mice since his ears ＿＿＿＿ by a mouse.",
             "passing_rate": 0.58,
             "discrimination_index": 0.56,
             "choices": [
@@ -1530,12 +1543,13 @@
                 "description": "have bitten"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "Doraemon，日本的藍色機器貓，討厭老鼠自從他的耳朵被老鼠＿＿。\n(A)過去式  (B)現在式  (C)被動式  (D)現在完成式。"
           },
           {
             "type": "singleChoice",
             "number": 14,
-            "description": "If we play some interesting games in class, there 　　　 more fun in learning English.",
+            "description": "If we play some interesting games in class, there ＿＿＿＿ more fun in learning English.",
             "passing_rate": 0.62,
             "discrimination_index": 0.48,
             "choices": [
@@ -1556,12 +1570,13 @@
                 "description": "will have"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "如果我們在課程中玩一些有趣的遊戲，學習英文＿＿更有趣。\n(A)be 動詞  (B)有  (C)將會  (D)將會有。"
           },
           {
             "type": "singleChoice",
             "number": 15,
-            "description": "The 　　　 of this shop was so bad; I never got any answer after I emailed them my questions.",
+            "description": "The ＿＿＿＿ of this shop was so bad; I never got any answer after I emailed them my questions.",
             "passing_rate": 0.58,
             "discrimination_index": 0.7,
             "choices": [
@@ -1582,64 +1597,67 @@
                 "description": "service"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "這間店的＿＿實在是很糟。我寄 email 告知他們我的問題，但他們始終沒有回應我。\n(A)品項  (B)事業  (C)價格  (D)服務。"
           },
           {
             "type": "singleChoice",
             "number": 16,
-            "description": "It’s not easy to see those islands clearly from here on sunny days, and it’s even less 　　　 \nto see them on cloudy days.",
+            "description": "It’s not easy to see those islands clearly from here on sunny days, and it’s even less ＿＿＿＿ to see them on cloudy days.",
             "passing_rate": 0.52,
             "discrimination_index": 0.61,
             "choices": [
               {
                 "answer": "A",
-                "description": "�difficult�"
+                "description": "difficult"
               },
               {
                 "answer": "B",
-                "description": "�lucky���"
+                "description": "lucky"
               },
               {
                 "answer": "C",
-                "description": "�possible���"
+                "description": "possible"
               },
               {
                 "answer": "D",
-                "description": "�special"
+                "description": "special"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "在晴天時都不容易清楚地從這裡看見那些島嶼，在陰天時更是不＿＿看見。\n(A)困難  (B)幸運  (C)可能  (D)特別。"
           },
           {
             "type": "singleChoice",
             "number": 17,
-            "description": "Do you remember the CD I was looking for for months?  I 　　　 found it in a small shop.\nLook, here it is!",
+            "description": "Do you remember the CD I was looking for for months?  I ＿＿＿＿ found it in a small shop.\nLook, here it is!",
             "passing_rate": 0.63,
             "discrimination_index": 0.68,
             "choices": [
               {
                 "answer": "A",
-                "description": "�almost�"
+                "description": "almost"
               },
               {
                 "answer": "B",
-                "description": "�even�"
+                "description": "even"
               },
               {
                 "answer": "C",
-                "description": "�finally�"
+                "description": "finally"
               },
               {
                 "answer": "D",
-                "description": "�still"
+                "description": "still"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "你記得我找了好幾個月的 CD 嗎? 我＿＿在一間小店找到了。你看，它在這裡！\n(A)幾乎  (B)甚至 (C)終於  (D)仍然。"
           },
           {
             "type": "singleChoice",
             "number": 18,
-            "description": "Business at Jane’s shop has not been good these days.  And the new supermarket across the \nstreet only makes things 　　　 .",
+            "description": "Business at Jane’s shop has not been good these days.  And the new supermarket across the street only makes things ＿＿＿＿ .",
             "passing_rate": 0.49,
             "discrimination_index": 0.56,
             "choices": [
@@ -1660,12 +1678,13 @@
                 "description": "more convenient"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "Jane 的店裡最近生意不太好。而對街新開的超市讓事情＿＿。\n(A)更容易 (B)更糟糕 (C)更無聊 (D)更方便。"
           },
           {
             "type": "singleChoice",
             "number": 19,
-            "description": "Scott wasn’t sure if the young woman before him was 　　　�pulled�him�out�of�a�car�on�fire.",
+            "description": "Scott wasn’t sure if the young woman before him was ＿＿＿＿ pulled him out of a car on fire.",
             "passing_rate": 0.56,
             "discrimination_index": 0.65,
             "choices": [
@@ -1686,12 +1705,13 @@
                 "description": "the one who"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "Scott 不確定他前面的年輕女子＿＿將他從火燒車中救出。\n(A)who  (B)the one  (C)the one she  (D)the one who。\n選 D 因為 the one who 的 who 是關係代名詞"
           },
           {
             "type": "singleChoice",
             "number": 20,
-            "description": "I 　　　 swimming for several years before I went to this high school.  I gave it up because of \nheavy schoolwork.",
+            "description": "I ＿＿＿＿ swimming for several years before I went to this high school.  I gave it up because of \nheavy schoolwork.",
             "passing_rate": 0.36,
             "discrimination_index": 0.28,
             "choices": [
@@ -1712,12 +1732,13 @@
                 "description": "would practice"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "在我進到這所高中之前，我＿＿游泳很多年。我因為繁重課的課業而放棄它。\n(A)現在完成式 (B)現在進行式 (C)過去式 (D)would"
           },
           {
             "type": "singleChoice",
             "number": 21,
-            "description": "� Frank�Kane�is�so�good�in�the�movie�that�many�people�　　　 he will win the best actor prize.",
+            "description": "Frank Kane is so good in the movie that many people ＿＿＿＿ he will win the best actor prize.",
             "passing_rate": 0.49,
             "discrimination_index": 0.43,
             "choices": [
@@ -1738,12 +1759,13 @@
                 "description": "plan"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "Frank Kane 在電影裡表現得非常好以至於許多人＿＿他將會贏得最佳演員獎。\n(A)期待 (B)忘記 (C)注意 (D)計畫。"
           },
           {
             "type": "singleChoice",
             "number": 22,
-            "description": "The new medicine that just came out on the market 　　　 thousands of lives.",
+            "description": "The new medicine that just came out on the market ＿＿＿＿ thousands of lives.",
             "passing_rate": 0.47,
             "discrimination_index": 0.5,
             "choices": [
@@ -1764,12 +1786,13 @@
                 "description": "to save"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "剛上市的藥＿＿許多生命。\n(A) and saved (B) has saved (C) saving (D) to save。\n選 B 因為需要動詞，has saved 代表上市之後到現在這段時間"
           },
           {
             "type": "singleChoice",
             "number": 23,
-            "description": "Now I often think of those days with Pip, my pet dog.  When I read in my room, he 　　　 \nquietly beside me.\n(第24 - 43題，共20題)\n(24-25)",
+            "description": "Now I often think of those days with Pip, my pet dog.  When I read in my room, he ＿＿＿＿ quietly beside me.",
             "passing_rate": 0.45,
             "discrimination_index": 0.5,
             "choices": [
@@ -1787,322 +1810,401 @@
               },
               {
                 "answer": "D",
-                "description": "used to come and sit第二部分：題組"
+                "description": "used to come and sit"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "我時常想起我和我的狗 Pip 在一起的日子。當我在屋子裡閱讀時，他＿＿安靜的在我身邊。\n(A)will come and sit (B)comes and sits (C)has come and sat (D)used to come and sit。\n選 D，因為是過去式"
           },
           {
-            "type": "singleChoice",
-            "number": 24,
-            "description": "� Amy�went�to�Four�Seasons’�Kitchen�with�her�mother�after�she�collected�15�stars.��They� \nordered two Garden Sandwiches, an Autumn Wind, and a Winter Snow.  After using the \nstars, how much did they pay for their meals?",
-            "passing_rate": 0.75,
-            "discrimination_index": 0.59,
-            "choices": [
+            "type": "groupChoice",
+            "image": "112_english_24-25.png",
+            "options": [
               {
-                "answer": "A",
-                "description": "$290."
+                "number": 24,
+                "description": "Amy went to Four Seasons’ Kitchen with her mother after she collected 15 stars.  They ordered two Garden Sandwiches, an Autumn Wind, and a Winter Snow.  After using the stars, how much did they pay for their meals?",
+                "passing_rate": 0.75,
+                "discrimination_index": 0.59,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "$290."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "$230."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "$220."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "$160."
+                  }
+                ],
+                "correct_answer": "B",
+                "explanation": "他們的餐點在使用點數之後多少錢\n(A)290\n(B)230\n(C)220\n(D)160\nGarden sandwich 80 * 2 = 160 / Autumn Wind 60 / Winter snow 70\n使用點數可以折抵 60 元的飲料，所以是 160+70 = 230 元"
               },
               {
-                "answer": "B",
-                "description": "$230."
-              },
-              {
-                "answer": "C",
-                "description": "$220."
-              },
-              {
-                "answer": "D",
-                "description": "$160."
+                "number": 25,
+                "rich_content": [
+                  {
+                    "type": "text",
+                    "content": "Amy wants to bring her friends to Four Seasons’ Kitchen in August.  She looks at her calendar to pick a time to go there.  Which are the time and date she can choose?"
+                  },
+                  {
+                    "type": "border",
+                    "content": "\uD83D\uDCD6 calendar 月曆",
+                    "alignment": "centerRight"
+                  },
+                  {
+                    "type": "image",
+                    "content": "112_english_25.png"
+                  }
+                ],
+                "passing_rate": 0.76,
+                "discrimination_index": 0.61,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "8:30 pm, August 1."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "5:00 pm, August 11."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "3:00 pm, August 13."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "2:00 pm, August 28."
+                  }
+                ],
+                "correct_answer": "B",
+                "explanation": "(A)8/1 下午 8:30\n(B)8/11 下午 5:00\n(C)8/13 下午 3:00\n(D)8/28 下午 2:00\n8/11 一整天都沒事"
               }
-            ],
-            "correct_answer": "B"
+            ]
           },
           {
-            "type": "singleChoice",
-            "number": 25,
-            "description": "� Amy�wants�to�bring�her�friends�to�Four�Seasons’�Kitchen�in�August.��She�looks�at�her�\n calendar 月曆calendar to pick a time to go there.  Which are the time and date she \ncan choose?\n(26-27)\n nest 鳥巢　feather 羽毛",
-            "passing_rate": 0.76,
-            "discrimination_index": 0.61,
-            "choices": [
+            "type": "groupChoice",
+            "rich_content": [
               {
-                "answer": "A",
-                "description": "8:30 pm, August 1."
+                "type": "image",
+                "content": "112_english_26-27.png"
               },
               {
-                "answer": "B",
-                "description": "5:00 pm, August 11."
-              },
-              {
-                "answer": "C",
-                "description": "3:00 pm, August 13."
-              },
-              {
-                "answer": "D",
-                "description": "2:00 pm, August 28.\n3"
+                "type": "border",
+                "content": "\uD83D\uDCD6 nest 鳥巢　feather 羽毛",
+                "alignment": "centerRight"
               }
             ],
-            "correct_answer": "B"
+            "options": [
+              {
+                "number": 26,
+                "description": "According to the notes, which is the WRONG way to help a baby bird that is out of its nest?",
+                "passing_rate": 0.65,
+                "discrimination_index": 0.71,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "Feed it before you take it to a hospital."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "Leave it alone if it is not hurt and has feathers."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "Call the animal center if you can’t find its nest."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "Put it back in its nest if it is not hurt and has few feathers."
+                  }
+                ],
+                "correct_answer": "A",
+                "explanation": "根據筆記，要幫助幼鳥離開他的巢，下列哪一個是錯誤的方法\n(A)去醫院前餵他\n(B)如果他沒有受傷而且有羽毛就不要碰他\n(C)打給動物相關機構如果你找不到鳥巢\n(D)把他放回巢內如果他沒有受傷而且有些許羽毛\n筆記內有 keep it warm and don’t give it any food!"
+              },
+              {
+                "type": "singleChoice",
+                "number": 27,
+                "description": "According to the notes, what do birds do if their babies have the smell of people on them?",
+                "passing_rate": 0.56,
+                "discrimination_index": 0.64,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "They keep taking care of them."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "They push them out of the nest."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "They clean them until the smell goes away."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "They leave them behind and move to a new nest."
+                  }
+                ],
+                "correct_answer": "A",
+                "explanation": "根據筆記，鳥會做什麼當他們的寶寶身上有人類的味道？\n(A)繼續照顧他們\n(B)推出鳥巢\n(C)一直清潔直到味道消失\n(D)離開到新的鳥巢\n筆記內有 Wrong! Birds don’t care!"
+              }
+            ]
           },
           {
-            "type": "singleChoice",
-            "number": 26,
-            "description": "According to the notes, which is the WRONG way to help a baby bird that is out of its nest?",
-            "passing_rate": 0.65,
-            "discrimination_index": 0.71,
-            "choices": [
+            "type": "groupChoice",
+            "rich_content": [
               {
-                "answer": "A",
-                "description": "�Feed�it�before�you�take�it�to�a�hospital."
+                "type": "image",
+                "content": "112_english_28-29.png"
               },
               {
-                "answer": "B",
-                "description": "Leave it alone if it is not hurt and has feathers."
-              },
-              {
-                "answer": "C",
-                "description": "�Call�the�animal�center�if�you�can’t�find�its�nest."
-              },
-              {
-                "answer": "D",
-                "description": "Put it back in its nest if it is not hurt and has few feathers."
+                "type": "border",
+                "content": "\uD83D\uDCD6 stage 階段　waste 浪費　percentage 百分比",
+                "alignment": "centerRight"
               }
             ],
-            "correct_answer": "A"
+            "options": [
+              {
+                "number": 28,
+                "description": "According to the reading, which is one of the reasons for food waste?",
+                "passing_rate": 0.67,
+                "discrimination_index": 0.61,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "Stores do not know how to pack food well."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "Farmers do not have enough machines to collect food."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "There is no refrigerator on the truck to keep food fresh."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "Factories do not have enough trucks to carry food to stores."
+                  }
+                ],
+                "correct_answer": "C",
+                "explanation": "根據閱讀，哪一個選項是食物浪費的原因\n(A)商店不知道如何完善的包裝\n(B)農民沒有足夠的機器來收成\n(C)貨車沒有冰箱來保鮮\n(D)工廠沒有足夠的貨車運送食物到商店\nStage 2 有寫答案是 C"
+              },
+              {
+                "number": 29,
+                "description": "Which is true about food waste at each stage in the three parts of the world?",
+                "passing_rate": 0.63,
+                "discrimination_index": 0.68,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "For each area, the highest percentage of food waste happens at Stage 5."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "Europe has a lower percentage of food waste at Stage 3 than the other two areas."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "North America & Oceania has a higher percentage of food waste at Stage 1 than \n      Europe."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "South & Southeast Asia has a higher percentage of food waste at Stage 4 than the  \n      other two areas."
+                  }
+                ],
+                "correct_answer": "D",
+                "explanation": "關於在世界上的三個地區中每個階段的食物浪費問題，哪一項是正確的\n(A)每個地區最高的食物浪費比例發生在階段\n(B)歐洲的食物浪費比例在階段 3 最低\n(C)北美和大洋洲比歐洲在階段 1 有更高的食物浪費比例\n(D)南亞和東南亞比其他兩區在階段 4 有較高的食物浪費比例\n選 D，因為 2.7 > 2.4 & 2.2"
+              }
+            ]
           },
           {
-            "type": "singleChoice",
-            "number": 27,
-            "description": "According to the notes, what do birds do if their babies have the smell of people on them?\n(28-29)\n stage 階段　waste 浪費　percentage 百分比5",
-            "passing_rate": 0.56,
-            "discrimination_index": 0.64,
-            "choices": [
+            "type": "groupChoice",
+            "rich_content": [
               {
-                "answer": "A",
-                "description": "They keep taking care of them."
+                "type": "image",
+                "content": "112_english_30-32.png"
               },
               {
-                "answer": "B",
-                "description": "They push them out of the nest."
+                "type": "text",
+                "content": "Sometimes when the rain falls hard and fast on you, it might hurt a little.\nBut what happens when it hits a mosquito?  A 2012 study says when a raindrop falls on a mosquito, it’s like when a bus hits a person.  Besides, the little insect is hit by a raindrop about once every 20 seconds.   \nSo why don’t we see many dead mosquitoes after it rains?\n\nA mosquito is as big as a raindrop, but it is much lighter — 0.002 g only.  This saves its life in raindrop attacks.  Because the mosquito is so light, when it is hit by a raindrop, it won’t experience a force that is strong enough to kill it.\n\nThe study also found that when a mosquito is hit by a raindrop, the insect is pushed by the raindrop and falls together with it.  But the mosquito doesn’t get wet easily because it is covered with hairs which keep off water.  After dropping about 6 cm, it will roll off the raindrop and fly away.\n\nHowever, this $\\underline{\\underline{trick}}$ isn’t always successful.  If the mosquito flies too low when it is hit by the raindrop, it won’t have time to fly off.  Then it will hit the ground and meet its death."
               },
               {
-                "answer": "C",
-                "description": "They clean them until the smell goes away."
-              },
-              {
-                "answer": "D",
-                "description": "They leave them behind and move to a new nest."
+                "type": "border",
+                "content": "\uD83D\uDCD6 force 力量",
+                "alignment": "centerRight"
               }
             ],
-            "correct_answer": "A"
+            "options": [
+              {
+                "number": 30,
+                "description": "What is the $\\underline{\\underline{trick}}$ that the mosquito uses in rain?",
+                "passing_rate": 0.61,
+                "discrimination_index": 0.61,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "It shakes its body fast enough to get water off."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "It drops with the raindrop and then rolls off it."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "It flies behind the raindrop and pushes it away."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "It rides on the raindrop and lands on the ground."
+                  }
+                ],
+                "correct_answer": "B",
+                "explanation": "蚊子在雨中用了什麼技巧？\n(A)他快速的震動身體將雨滴震掉\n(B)他和雨滴一起降落接著就能擺脫它\n(C)他飛到雨水後面把雨滴推開\n(D)他騎在雨滴上和他一起降落到地上\n選 B，因為這句 After dropping about"
+              },
+              {
+                "number": 31,
+                "description": "What keeps a mosquito safe in the rain?",
+                "passing_rate": 0.58,
+                "discrimination_index": 0.67,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "It is very light."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "It has no body hairs."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "It is as big as a raindrop."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "It is strong enough to fight the force of a raindrop."
+                  }
+                ],
+                "correct_answer": "A",
+                "explanation": "什麼讓蚊子能安全地在雨中\n(A)他輕盈的重量\n(B)他沒有體毛\n(C)他和雨滴一樣大\n(D)他足夠強壯能和雨滴對抗\n選 A，因為 Because the mosquito is so light, when it is hit by a raindrop, it won’t experience a force that is strong enough to kill it"
+              },
+              {
+                "number": 32,
+                "description": "When would it be dangerous for a mosquito in the rain?",
+                "passing_rate": 0.51,
+                "discrimination_index": 0.63,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "When it flies too close to the ground. "
+                  },
+                  {
+                    "answer": "B",
+                    "description": "When the rain falls too hard and too fast."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "When it is hit by raindrops too many times."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "When it drops for more than 6 cm in the rain."
+                  }
+                ],
+                "correct_answer": "A",
+                "explanation": "什麼時候蚊子在雨中是危險的？\n(A)飛得太靠近地面\n(B)雨下得太大太快\n(C)被雨滴擊中太多次\n(D)當他降落超過"
+              }
+            ]
           },
           {
-            "type": "singleChoice",
-            "number": 28,
-            "description": "According to the reading, which is one of the reasons for food waste?",
-            "passing_rate": 0.67,
-            "discrimination_index": 0.61,
-            "choices": [
+            "type": "groupChoice",
+            "options": [
               {
-                "answer": "A",
-                "description": "Stores do not know how to pack food well."
+                "number": 33,
+                "description": "\n(33-35)\nYou probably have heard Beethoven’s famous piano piece “For Elise,” \nbut do you know who “Elise” was?\nOne story is that Elise was Elisabeth Röckel.  She once sang in \nBeethoven’s opera Fidelio, and the two became very good friends. \nBeethoven called her “Elise.”  When Röckel was leaving the city of \nVienna, Beethoven wrote “For Elise” to say goodbye to her.  Another \nstory is that Elise was Therese Malfatti.  Beethoven was in love with \nher.  He wrote a piece for her and put “For Therese” on the manuscript.  Malfatti kept the \nmanuscript and left it to her family when she died.  Later, a man copied the manuscript \nand wrote “For Elise” by mistake.  There is another possible Elise: Elise Barensfeld.  She \nlearned the piano from Malfatti, the same Malfatti in the second story.  To help Malfatti, \nBeethoven wrote the piece for her to use to teach Barensfeld.  \nThese are just some guesses about who Elise was.  We may never know the right answer. \nNo one knew about the piece until 1867, when the manuscript was found.  This was 40 years \nafter Beethoven’s death, so he wasn’t around to tell us who Elise was.  Only one thing is for \nsure: “For Elise” will always be enjoyed.\n opera 歌劇　manuscript 手稿\nWhat do the three stories in the reading all talk about?",
+                "passing_rate": 0.66,
+                "discrimination_index": 0.64,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "Who Beethoven’s true love was."
+                  },
+                  {
+                    "answer": "B",
+                    "description": " Who played “For Elise” the best."
+                  },
+                  {
+                    "answer": "C",
+                    "description": " How “For Elise” became popular. "
+                  },
+                  {
+                    "answer": "D",
+                    "description": " Why Beethoven wrote “For Elise.”"
+                  }
+                ],
+                "correct_answer": "D",
+                "explanation": "閱讀中的三則故事在說什麼？\n(A)誰是貝多芬的真愛\n(B)誰彈奏”For Elise”的最好\n(C) ”For Elise”是如何聞名的\n(D)為什麼貝多芬要寫”For Elise”\n第一則說為了和好友 Elisabeth Röckel 道別\n第二則說是寫給愛人 Therese Malfatti，手稿上的原名是“For Therese”，後人抄寫錯誤變成”For Elise”\n第三則是說貝多芬為了幫助愛人 Therese Malfatti 教他的學生 Elise Barensfeld 彈奏而寫"
               },
               {
-                "answer": "B",
-                "description": "�Farmers�do�not�have�enough�machines�to�collect�food."
+                "number": 34,
+                "description": "What do we know about “For Elise” from the reading?",
+                "passing_rate": 0.63,
+                "discrimination_index": 0.63,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": " It first appeared in the opera Fidelio."
+                  },
+                  {
+                    "answer": "B",
+                    "description": " The true “Elise” was Elise Barensfeld."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "The manuscript was found after Beethoven died."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "The manuscript is now kept by the city of Vienna."
+                  }
+                ],
+                "correct_answer": "C",
+                "explanation": "我們可以從閱讀中可以得知”For Elise”\n(A)在 Fidelio 歌劇中第一次登場\n(B)真正的 Elise 是 Elise Barensfeld\n(C)手稿是在貝多芬死後被發現的\n(D)手稿被收藏在維也納\n選 C，因為 No one knew about the piece until"
               },
               {
-                "answer": "C",
-                "description": "There is no refrigerator on the truck to keep food fresh."
-              },
-              {
-                "answer": "D",
-                "description": "�Factories�do�not�have�enough�trucks�to�carry�food�to�stores."
+                "number": 35,
+                "description": "What can we learn about the three women from the stories?\n(36-38)\nWhich would you give a boy for his birthday, a toy truck or a doll?  If you choose the \ntruck, well, you’re not alone.  Most people think that some toys are for boys and some \nare for girls.  We might pick building toys for boys and kitchen toys for girls.  But why \ndo we do this?  Are boys and girls really born with different interests in toys?\nNo, they are not.  Children start to show different interests in toys at age three, but \nonly because at this time, they begin to learn about gender and to follow what others \nof their gender do.  If you give a girl kitchen toys, she will think they are girls’ toys \nbecause she sees other girls playing with them.  But if you give a girl a toy car and \nshow her a group of girls who are playing with cars, she’ll play with the toy car and \nthink it is a girls’ toy.  This “watch and follow” habit often becomes a rule for both \nboys and girls in choosing the “right” toys.\nHowever, this rule can be bad for children.  Different toys teach children different \nthings.  Dolls help with their early language use, and building toys are good for \nlearning math and science.  By playing with different toys, children can find out what \nthey are interested in or what they are good at.  If they only play one kind of toy, they \nmay lose this important chance.  They may also get a wrong idea about what boys \nor girls are able to do.  Some doctors worry that children may use the same kind of \nthinking when they look for jobs in the future.  If they do, they may miss something \nmore important than just getting a chance to play with different toys.  They may miss \nmany, perhaps better, chances in life. \n gender 性別",
+                "passing_rate": 0.56,
+                "discrimination_index": 0.59,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": " They were called “Elise” by their friends. "
+                  },
+                  {
+                    "answer": "B",
+                    "description": "Elisabeth Röckel was a close friend of Beethoven’s."
+                  },
+                  {
+                    "answer": "C",
+                    "description": " Therese Malfatti changed “For Elise” to “For Therese.”"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "Elise Barensfeld was Beethoven’s student."
+                  }
+                ],
+                "correct_answer": "B",
+                "explanation": "我們可以從故事中的三位女人得知？\n(A)他們都被朋友稱呼為 Elise\n(B)Elisabeth Röckel 是貝多芬的摯友\n(C) Therese Malfatti 把”For Therese”改成”For Elise”\n(D)Elisabeth Röckel 是貝多芬的學生\n選 B，見 story"
               }
-            ],
-            "correct_answer": "C"
-          },
-          {
-            "type": "singleChoice",
-            "number": 29,
-            "description": "Which is true about food waste at each stage in the three parts of the world?\n(30-32)\nSometimes when the rain falls hard and fast on you, it might hurt a little. \nBut what happens when it hits a mosquito?  A 2012 study says when a \nraindrop falls on a mosquito, it’s like when a bus hits a person.  Besides, \nthe little insect is hit by a raindrop about once every 20 seconds.   \nSo why don’t we see many dead mosquitoes after it rains?\nA mosquito is as big as a raindrop, but it is much lighter — 0.002 g only.  This saves its life \nin raindrop attacks.  Because the mosquito is so light, when it is hit by a raindrop, it won’t \nexperience a force that is strong enough to kill it.\nThe study also found that when a mosquito is hit by a raindrop, the insect is pushed by \nthe raindrop and falls together with it.  But the mosquito doesn’t get wet easily because it \nis�covered�with�hairs�which�keep�off�water.��After�dropping�about�6 cm,�it�will�roll�off�the�\nraindrop�and�fly�away.\nHowever, this trick�isn’t�always�successful.��If�the�mosquito�flies�too�low�when�it�is�hit�by�the�\nraindrop,�it�won’t�have�time�to�fly�off.��Then�it�will�hit�the�ground�and�meet�its�death.\n force 力量",
-            "passing_rate": 0.63,
-            "discrimination_index": 0.68,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "�For�each�area,�the�highest�percentage�of�food�waste�happens�at�Stage�5."
-              },
-              {
-                "answer": "B",
-                "description": "Europe has a lower percentage of food waste at Stage 3 than the other two areas."
-              },
-              {
-                "answer": "C",
-                "description": "North America & Oceania has a higher percentage of food waste at Stage 1 than \n      Europe."
-              },
-              {
-                "answer": "D",
-                "description": "South & Southeast Asia has a higher percentage of food waste at Stage 4 than the  \n      other two areas."
-              }
-            ],
-            "correct_answer": "D"
-          },
-          {
-            "type": "singleChoice",
-            "number": 30,
-            "description": "What is the trick that the mosquito uses in rain?",
-            "passing_rate": 0.61,
-            "discrimination_index": 0.61,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "�It�shakes�its�body�fast�enough�to�get�water�off."
-              },
-              {
-                "answer": "B",
-                "description": "�It�drops�with�the�raindrop�and�then�rolls�off�it."
-              },
-              {
-                "answer": "C",
-                "description": "�It�flies�behind�the�raindrop�and�pushes�it�away."
-              },
-              {
-                "answer": "D",
-                "description": "It rides on the raindrop and lands on the ground."
-              }
-            ],
-            "correct_answer": "B"
-          },
-          {
-            "type": "singleChoice",
-            "number": 31,
-            "description": "What keeps a mosquito safe in the rain?",
-            "passing_rate": 0.58,
-            "discrimination_index": 0.67,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "It is very light."
-              },
-              {
-                "answer": "B",
-                "description": "It has no body hairs."
-              },
-              {
-                "answer": "C",
-                "description": "It is as big as a raindrop."
-              },
-              {
-                "answer": "D",
-                "description": "�It�is�strong�enough�to�fight�the�force�of�a�raindrop."
-              }
-            ],
-            "correct_answer": "A"
-          },
-          {
-            "type": "singleChoice",
-            "number": 32,
-            "description": "When would it be dangerous for a mosquito in the rain?\n(33-35)\nYou�probably�have�heard�Beethoven’s�famous�piano�piece�“For�Elise,”�\nbut�do�you�know�who�“Elise”�was?\nOne story is that Elise was Elisabeth Röckel.  She once sang in \nBeethoven’s opera Fidelio, and the two became very good friends. \nBeethoven�called�her�“Elise.”��When�Röckel�was�leaving�the�city�of�\nVienna,�Beethoven�wrote�“For�Elise”�to�say�goodbye�to�her.��Another�\nstory is that Elise was Therese Malfatti.  Beethoven was in love with \nher.��He�wrote�a�piece�for�her�and�put�“For�Therese”�on�the�manuscript.��Malfatti�kept�the�\nmanuscript and left it to her family when she died.  Later, a man copied the manuscript \nand�wrote�“For�Elise”�by�mistake.��There�is�another�possible�Elise:�Elise�Barensfeld.��She�\nlearned the piano from Malfatti, the same Malfatti in the second story.  To help Malfatti, \nBeethoven wrote the piece for her to use to teach Barensfeld.  \nThese are just some guesses about who Elise was.  We may never know the right answer. \nNo one knew about the piece until 1867, when the manuscript was found.  This was 40 years \nafter Beethoven’s death, so he wasn’t around to tell us who Elise was.  Only one thing is for \nsure:�“For�Elise”�will�always�be�enjoyed.\n opera 歌劇　manuscript 手稿",
-            "passing_rate": 0.51,
-            "discrimination_index": 0.63,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "�When�it�flies�too�close�to�the�ground.�"
-              },
-              {
-                "answer": "B",
-                "description": "When the rain falls too hard and too fast."
-              },
-              {
-                "answer": "C",
-                "description": "When it is hit by raindrops too many times."
-              },
-              {
-                "answer": "D",
-                "description": "When it drops for more than 6 cm in the rain.\n7"
-              }
-            ],
-            "correct_answer": "A"
-          },
-          {
-            "type": "singleChoice",
-            "number": 33,
-            "description": "What do the three stories in the reading all talk about?",
-            "passing_rate": 0.66,
-            "discrimination_index": 0.64,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "Who Beethoven’s true love was."
-              },
-              {
-                "answer": "B",
-                "description": "�Who�played�“For�Elise”�the�best."
-              },
-              {
-                "answer": "C",
-                "description": "�How�“For�Elise”�became�popular.�"
-              },
-              {
-                "answer": "D",
-                "description": "�Why�Beethoven�wrote�“For�Elise.”"
-              }
-            ],
-            "correct_answer": "D"
-          },
-          {
-            "type": "singleChoice",
-            "number": 34,
-            "description": "� What�do�we�know�about�“For�Elise”�from�the�reading?",
-            "passing_rate": 0.63,
-            "discrimination_index": 0.63,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "�It�first�appeared�in�the�opera�Fidelio."
-              },
-              {
-                "answer": "B",
-                "description": "�The�true�“Elise”�was�Elise�Barensfeld."
-              },
-              {
-                "answer": "C",
-                "description": "The manuscript was found after Beethoven died."
-              },
-              {
-                "answer": "D",
-                "description": "The manuscript is now kept by the city of Vienna."
-              }
-            ],
-            "correct_answer": "C"
-          },
-          {
-            "type": "singleChoice",
-            "number": 35,
-            "description": "What can we learn about the three women from the stories?\n(36-38)\nWhich would you give a boy for his birthday, a toy truck or a doll?  If you choose the \ntruck, well, you’re not alone.  Most people think that some toys are for boys and some \nare for girls.  We might pick building toys for boys and kitchen toys for girls.  But why \ndo we do this?  Are boys and girls really born with different interests in toys?\nNo, they are not.  Children start to show different interests in toys at age three, but \nonly because at this time, they begin to learn about gender and to follow what others \nof their gender do.  If you give a girl kitchen toys, she will think they are girls’ toys \nbecause she sees other girls playing with them.  But if you give a girl a toy car and \nshow her a group of girls who are playing with cars, she’ll play with the toy car and \nthink it is a girls’ toy.  This “watch and follow” habit often becomes a rule for both \nboys and girls in choosing the “right” toys.\nHowever, this rule can be bad for children.  Different toys teach children different \nthings.  Dolls help with their early language use, and building toys are good for \nlearning math and science.  By playing with different toys, children can find out what \nthey are interested in or what they are good at.  If they only play one kind of toy, they \nmay lose this important chance.  They may also get a wrong idea about what boys \nor girls are able to do.  Some doctors worry that children may use the same kind of \nthinking when they look for jobs in the future.  If they do, they may miss something \nmore important than just getting a chance to play with different toys.  They may miss \nmany, perhaps better, chances in life. \n gender 性別",
-            "passing_rate": 0.56,
-            "discrimination_index": 0.59,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "�They�were�called�“Elise”�by�their�friends.�"
-              },
-              {
-                "answer": "B",
-                "description": "Elisabeth Röckel was a close friend of Beethoven’s."
-              },
-              {
-                "answer": "C",
-                "description": "�Therese�Malfatti�changed�“For�Elise”�to�“For�Therese.”"
-              },
-              {
-                "answer": "D",
-                "description": "Elise Barensfeld was Beethoven’s student."
-              }
-            ],
-            "correct_answer": "B"
+            ]
           },
           {
             "type": "singleChoice",
@@ -2133,7 +2235,7 @@
           {
             "type": "singleChoice",
             "number": 37,
-            "description": "� In�the�third�paragraph,�why�does�Jesse�Cohen�think�“this�rule�can�be�bad�for�children”?\n  paragraph 段落",
+            "description": "  In the third paragraph, why does Jesse Cohen think “this rule can be bad for children”?\n  paragraph 段落",
             "passing_rate": 0.59,
             "discrimination_index": 0.62,
             "choices": [
@@ -2151,7 +2253,7 @@
               },
               {
                 "answer": "D",
-                "description": "�Children�may�miss�the�chance�to�find�out�what�they�really�like."
+                "description": " Children may miss the chance to find out what they really like."
               }
             ],
             "correct_answer": "D"
@@ -2159,25 +2261,25 @@
           {
             "type": "singleChoice",
             "number": 38,
-            "description": "In the reading, after Jesse Cohen talks about an idea, he often gives an example to make it clear.  \nBelow are four of the sentences in the third paragraph.  Which is used as an example? \n(39-41)\n　　Marie Colvin was a world-famous war reporter.  She was born in New York, USA,  \nin 1956 and died in Homs, Syria, in 2012.\n　　When she was a student at Yale University, Colvin decided that she wanted to be a \nreporter in the future.  She joined the Sunday Times,�a�UK�newspaper,�in�1985�and�soon�\nbecame its Middle East reporter.  Besides the Middle East, she also reported from other \nparts�of�the�world:�Chechnya,�Kosovo�and�Sri�Lanka,�for�example.��When�she�was�reporting�\non the war in Sri Lanka, she lost her left eye.  But that never stopped her.  She still went to \ndangerous places that few reporters wanted to visit and stayed when others left.\n　　Colvin showed great empathy�in�her�stories.��For�her,�war�reporting�was�not�just�some�\nquick interviews and a few photos.  She wrote about real people and their real lives.  Her \nwriting made you feel so strongly about these people’s stories, just like they were your own.  \nShe hoped that through her work the world would understand what really happened in war, \nand�would�take�action�to�stop�the�fighting.\n　　On�February�22,�2012,�the�day�after�she�gave�her�report�on�the�war�in�Homs,�Colvin�\nwas killed when the house she was staying in was attacked.  She always knew what price a \nwar reporter might have to pay.  She already lost an eye before.  This time, she gave her life \nto the work she could not give up — telling the true stories to the world.\n war 戰爭",
+            "description": "In the reading, after Jesse Cohen talks about an idea, he often gives an example to make it clear.  \nBelow are four of the sentences in the third paragraph.  Which is used as an example? \n(39-41)\n　　Marie Colvin was a world-famous war reporter.  She was born in New York, USA,  \nin 1956 and died in Homs, Syria, in 2012.\n　　When she was a student at Yale University, Colvin decided that she wanted to be a \nreporter in the future.  She joined the Sunday Times, a UK newspaper, in 1985 and soon \nbecame its Middle East reporter.  Besides the Middle East, she also reported from other \nparts of the world: Chechnya, Kosovo and Sri Lanka, for example.  When she was reporting \non the war in Sri Lanka, she lost her left eye.  But that never stopped her.  She still went to \ndangerous places that few reporters wanted to visit and stayed when others left.\n　　Colvin showed great empathy in her stories.  For her, war reporting was not just some \nquick interviews and a few photos.  She wrote about real people and their real lives.  Her \nwriting made you feel so strongly about these people’s stories, just like they were your own.  \nShe hoped that through her work the world would understand what really happened in war, \nand would take action to stop the fighting.\n　　On February 22, 2012, the day after she gave her report on the war in Homs, Colvin \nwas killed when the house she was staying in was attacked.  She always knew what price a \nwar reporter might have to pay.  She already lost an eye before.  This time, she gave her life \nto the work she could not give up — telling the true stories to the world.\n war 戰爭",
             "passing_rate": 0.44,
             "discrimination_index": 0.43,
             "choices": [
               {
                 "answer": "A",
-                "description": "�“However,�this�rule�can�be�bad�for�children.”�"
+                "description": " “However, this rule can be bad for children.” "
               },
               {
                 "answer": "B",
-                "description": "“Dolls help with their early language use, and building toys are good for learning math and \n      science.”�"
+                "description": "“Dolls help with their early language use, and building toys are good for learning math and \n      science.” "
               },
               {
                 "answer": "C",
-                "description": "“Some doctors worry that children may use the same kind of thinking when they look for \n      jobs�in�the�future.”�"
+                "description": "“Some doctors worry that children may use the same kind of thinking when they look for \n      jobs in the future.” "
               },
               {
                 "answer": "D",
-                "description": "“If they do, they may miss something more important than just getting a chance to play  \n      with�different�toys.”�"
+                "description": "“If they do, they may miss something more important than just getting a chance to play  \n      with different toys.” "
               }
             ],
             "correct_answer": "B"
@@ -2277,11 +2379,11 @@
               },
               {
                 "answer": "C",
-                "description": "�why�different�languages�are�spoken"
+                "description": " why different languages are spoken"
               },
               {
                 "answer": "D",
-                "description": "�what�words�are�often�spelled�differently"
+                "description": " what words are often spelled differently"
               }
             ],
             "correct_answer": "A"
@@ -4276,7 +4378,7 @@
           {
             "type": "singleChoice",
             "number": 29,
-            "description": "小泉暑假時到武嶺一日遊，他從臺中住家開車出發，途中經清境農場稍作休息後，再開車上武嶺，之後再返回臺中住家，如圖(十五)所示。根據圖中資訊，當天不同時間時，小泉所在環境的氣壓與氣溫關係圖，何者最合理？\n��\n圖(十五)",
+            "description": "小泉暑假時到武嶺一日遊，他從臺中住家開車出發，途中經清境農場稍作休息後，再開車上武嶺，之後再返回臺中住家，如圖(十五)所示。根據圖中資訊，當天不同時間時，小泉所在環境的氣壓與氣溫關係圖，何者最合理？\n  \n圖(十五)",
             "passing_rate": 0.55,
             "discrimination_index": 0.6,
             "choices": [
@@ -5080,7 +5182,7 @@
           {
             "type": "singleChoice",
             "number": 10,
-            "description": "圖(三)為某島國周邊範圍的示意圖，甲\n���\n�\n�\n�\n�\n�\n�\n����\n區塊為該國的土地，乙、丙區塊為環繞在甲周圍的海域，而丁、戊、己區塊則分別為甲、乙、丙所對應大氣層內的空中領域。根據圖中內容判斷，該國完整的領土範圍應為下列何者？\n(三)",
+            "description": "圖(三)為某島國周邊範圍的示意圖，甲\n   \n \n \n \n \n \n \n    \n區塊為該國的土地，乙、丙區塊為環繞在甲周圍的海域，而丁、戊、己區塊則分別為甲、乙、丙所對應大氣層內的空中領域。根據圖中內容判斷，該國完整的領土範圍應為下列何者？\n(三)",
             "passing_rate": 0.62,
             "discrimination_index": 0.35,
             "choices": [
@@ -5106,7 +5208,7 @@
           {
             "type": "singleChoice",
             "number": 11,
-            "description": "圖(四)是小強在網路上張貼的問題\n� �� �\n������������������\n������������������\n����\n及四位網友的回答，根據圖中內容判斷，下列何者的回答可以給小強適當的協助？\n(四)",
+            "description": "圖(四)是小強在網路上張貼的問題\n      \n                  \n                  \n    \n及四位網友的回答，根據圖中內容判斷，下列何者的回答可以給小強適當的協助？\n(四)",
             "passing_rate": 0.88,
             "discrimination_index": 0.37,
             "choices": [
@@ -5210,7 +5312,7 @@
           {
             "type": "singleChoice",
             "number": 15,
-            "description": "圖(七)為跨太平洋夥伴全面8\n12\n59\n34\n106\n117\n��������\n圖(七)\n進步協定(CPTPP)的11個成員國。該協定於2018年12月30日生效，各成員國之間將階段性的廢除關稅，以促進貿易往來。此協定生效後，\n下列何者最可能因關稅劣勢而受到衝擊？",
+            "description": "圖(七)為跨太平洋夥伴全面8\n12\n59\n34\n106\n117\n        \n圖(七)\n進步協定(CPTPP)的11個成員國。該協定於2018年12月30日生效，各成員國之間將階段性的廢除關稅，以促進貿易往來。此協定生效後，\n下列何者最可能因關稅劣勢而受到衝擊？",
             "passing_rate": 0.48,
             "discrimination_index": 0.36,
             "choices": [
@@ -5310,7 +5412,7 @@
           {
             "type": "singleChoice",
             "number": 19,
-            "description": "圖(八)是霞喀羅國家步道的介紹圖，其舊名為「霞喀羅、薩克亞金警備道路」。\n此道路的開闢，是因為過去臺灣統治者為達到某一目的而下令修築。根據圖中內容判斷，統治者最初開闢這條道路的目的，最可能與下列何者有關？\n���������\n� ������������\n� �������������\n����\n���\n����\n�������\n�������\n�������\n�������\n������������������\n圖(八)",
+            "description": "圖(八)是霞喀羅國家步道的介紹圖，其舊名為「霞喀羅、薩克亞金警備道路」。\n此道路的開闢，是因為過去臺灣統治者為達到某一目的而下令修築。根據圖中內容判斷，統治者最初開闢這條道路的目的，最可能與下列何者有關？\n         \n              \n               \n    \n   \n    \n       \n       \n       \n       \n                  \n圖(八)",
             "passing_rate": 0.65,
             "discrimination_index": 0.52,
             "choices": [
@@ -5414,7 +5516,7 @@
           {
             "type": "singleChoice",
             "number": 23,
-            "description": "圖(九)呈現我國1998至2018年間，\n��\n��\n��\n�\n�\n�\n�\n�\n�\n�\n�\n��\n�\n�\n�\n�\n�\n���\n��\n���\n���\n收入最高20%家庭與收入最低20%\n家庭的可支配所得成長率變化，其中灰階區塊是曾發生經濟成長率大\n幅衰退的兩段時間。根據圖中內容判斷，上述兩個灰階區塊的數據，\n呈現出下列哪一現象？\n����\n����\n����\n����\n���\n����\n����\n���������\n���������\n& 家庭可支配所得：家庭可以自由使用 \n     於消費或儲蓄的所得。\n圖(九)",
+            "description": "圖(九)呈現我國1998至2018年間，\n  \n  \n  \n \n \n \n \n \n \n \n \n  \n \n \n \n \n \n   \n  \n   \n   \n收入最高20%家庭與收入最低20%\n家庭的可支配所得成長率變化，其中灰階區塊是曾發生經濟成長率大\n幅衰退的兩段時間。根據圖中內容判斷，上述兩個灰階區塊的數據，\n呈現出下列哪一現象？\n    \n    \n    \n    \n   \n    \n    \n         \n         \n& 家庭可支配所得：家庭可以自由使用 \n     於消費或儲蓄的所得。\n圖(九)",
             "passing_rate": 0.8,
             "discrimination_index": 0.46,
             "choices": [
@@ -5466,7 +5568,7 @@
           {
             "type": "singleChoice",
             "number": 25,
-            "description": "圖(十)為世界銀行繪製用來展現世界各60,00050,000\n��\n�\n�\n�\n�\n�\n40,00030,000\n��\n��\n�\n�\n20,00013,460\n�����\n10,000\n����\n00\n�����������������\n10 20 30 40 50 60 70 80 90 100國經濟實力的示意圖，圖中矩形面積的大小可呈現2011年該國經濟規模的大\n小。圖中甲國最可能是下列何者？\n(十)",
+            "description": "圖(十)為世界銀行繪製用來展現世界各60,00050,000\n  \n \n \n \n \n \n40,00030,000\n  \n  \n \n \n20,00013,460\n     \n10,000\n    \n00\n                 \n10 20 30 40 50 60 70 80 90 100國經濟實力的示意圖，圖中矩形面積的大小可呈現2011年該國經濟規模的大\n小。圖中甲國最可能是下列何者？\n(十)",
             "passing_rate": 0.56,
             "discrimination_index": 0.41,
             "choices": [
@@ -5492,7 +5594,7 @@
           {
             "type": "singleChoice",
             "number": 26,
-            "description": "圖(十一)為貫穿美洲的泛美\n�\n��\n�\n���\n�\n�\n�\n�\n�\n�\n�\n�\n�\n���\n��\n�����\n���\n圖(十一)\n公路示意圖，主幹線北起美國 阿拉斯加，南至智利。美洲多國可透過這個公路系統\n相互連結，但巴拿馬到哥倫比亞之間的路段至今尚未修\n建。根據圖中資訊判斷，該路段未修建的原因之一最可\n能為下列何者？",
+            "description": "圖(十一)為貫穿美洲的泛美\n \n  \n \n   \n \n \n \n \n \n \n \n \n \n   \n  \n     \n   \n圖(十一)\n公路示意圖，主幹線北起美國 阿拉斯加，南至智利。美洲多國可透過這個公路系統\n相互連結，但巴拿馬到哥倫比亞之間的路段至今尚未修\n建。根據圖中資訊判斷，該路段未修建的原因之一最可\n能為下列何者？",
             "passing_rate": 0.42,
             "discrimination_index": 0.27,
             "choices": [
@@ -5510,7 +5612,7 @@
               },
               {
                 "answer": "D",
-                "description": "維護因紐特人文化\n�������\n�������"
+                "description": "維護因紐特人文化\n       \n       "
               }
             ],
             "correct_answer": "B"
@@ -5518,7 +5620,7 @@
           {
             "type": "singleChoice",
             "number": 27,
-            "description": "西班牙海外島嶼的某座火\n����\n��\n���������\n���������\n��\n���������\n�����\n�\n�������\n�����������\n圖(十二)\n山於2021年9月噴發，圖\n(十二)為其噴發後熔岩流及 火 山 灰 落 塵 分 布 的 狀況。根據圖中資訊判斷，\n下列推論何者較為合理？\n(三)",
+            "description": "西班牙海外島嶼的某座火\n    \n  \n         \n         \n  \n         \n     \n \n       \n           \n圖(十二)\n山於2021年9月噴發，圖\n(十二)為其噴發後熔岩流及 火 山 灰 落 塵 分 布 的 狀況。根據圖中資訊判斷，\n下列推論何者較為合理？\n(三)",
             "passing_rate": 0.46,
             "discrimination_index": 0.51,
             "choices": [
@@ -5845,7 +5947,7 @@
               },
               {
                 "answer": "D",
-                "description": "46,655\n�\n�\n�\n�\n�\n�\n�\n�\n�\n�\n�\n�\n�\n�\n�\n�\n5,1465,4303,44413,7943,6629,9980\n��\n��\n��\n��\n��\n��\n��\n��\n���\n���\n���\n���"
+                "description": "46,655\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n5,1465,4303,44413,7943,6629,9980\n  \n  \n  \n  \n  \n  \n  \n  \n   \n   \n   \n   "
               }
             ],
             "correct_answer": "A"
@@ -6009,7 +6111,7 @@
           {
             "type": "singleChoice",
             "number": 46,
-            "description": "上文中登山步道開放的起始時間，主要是因為此時已具備下列何項條件？\n����\n����",
+            "description": "上文中登山步道開放的起始時間，主要是因為此時已具備下列何項條件？\n    \n    ",
             "passing_rate": 0.6,
             "discrimination_index": 0.53,
             "choices": [
@@ -6027,7 +6129,7 @@
               },
               {
                 "answer": "D",
-                "description": "西北季風盛行，天氣涼爽\n����\n����\n����\n����\n����\n����"
+                "description": "西北季風盛行，天氣涼爽\n    \n    \n    \n    \n    \n    "
               }
             ],
             "correct_answer": "B"
@@ -6035,7 +6137,7 @@
           {
             "type": "singleChoice",
             "number": 47,
-            "description": "圖(十四)為其中一條登山路\n����\n����\n����\n�����\n�\n����\n��\n��\n��\n線，依據圖中資訊判斷，最可能為表(九)中的何者？\n(十四)",
+            "description": "圖(十四)為其中一條登山路\n    \n    \n    \n     \n \n    \n  \n  \n  \n線，依據圖中資訊判斷，最可能為表(九)中的何者？\n(十四)",
             "passing_rate": 0.83,
             "discrimination_index": 0.47,
             "choices": [
@@ -6079,7 +6181,7 @@
               },
               {
                 "answer": "D",
-                "description": "小婷選丁；體力、經驗較為不足的民眾選甲1閱讀下列選文，回答第 49 至 51 題：\n位於非洲西南端的開普敦，是影\n����������\n��\n���\n������\n����\n�����\n���\n���\n�������\n���\n������\n�����\n�\n����\n�������\n響世界歷史的重要都市。荷蘭人在1652年來到此地，因當地氣候適合，\n可種植歐洲常見的蔬果並釀製葡萄酒，用以補充船隻上的飲食，於是逐步將其建造為海上貿易的補給站。圖"
+                "description": "小婷選丁；體力、經驗較為不足的民眾選甲1閱讀下列選文，回答第 49 至 51 題：\n位於非洲西南端的開普敦，是影\n          \n  \n   \n      \n    \n     \n   \n   \n       \n   \n      \n     \n \n    \n       \n響世界歷史的重要都市。荷蘭人在1652年來到此地，因當地氣候適合，\n可種植歐洲常見的蔬果並釀製葡萄酒，用以補充船隻上的飲食，於是逐步將其建造為海上貿易的補給站。圖"
               }
             ],
             "correct_answer": "D"
@@ -6157,7 +6259,7 @@
               },
               {
                 "answer": "D",
-                "description": "有助於疏解前往南美洲擁擠的航路13\n閱讀下列選文，回答第 52 至 54 題：\n美國的反體罰組織於1998年發起「不打小孩日」的活動，目的是藉著這一\n�������\n���\n��������\n���������\n������\n������\n������\n圖"
+                "description": "有助於疏解前往南美洲擁擠的航路13\n閱讀下列選文，回答第 52 至 54 題：\n美國的反體罰組織於1998年發起「不打小孩日」的活動，目的是藉著這一\n       \n   \n        \n         \n      \n      \n      \n圖"
               }
             ],
             "correct_answer": "A"

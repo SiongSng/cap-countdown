@@ -17,7 +17,7 @@ class QuestionRichContentView extends StatelessWidget {
     List<Widget> widgets = [];
 
     for (QuestionRichContent content in richContents) {
-      widgets.addAll(buildRichContent(content));
+      widgets.addAll(buildRichContent(context, content));
     }
     if (widgets.length > 1) {
       widgets.add(const SizedBox(height: 8));
@@ -35,7 +35,8 @@ class QuestionRichContentView extends StatelessWidget {
         : widget;
   }
 
-  List<Widget> buildRichContent(QuestionRichContent richContent) {
+  List<Widget> buildRichContent(
+      BuildContext context, QuestionRichContent richContent) {
     final List<Widget> widgets = [];
     final bool showPrefixText =
         prefixText != null && richContents.first == richContent;
@@ -53,11 +54,11 @@ class QuestionRichContentView extends StatelessWidget {
           widgets.add(QuestionText(text: prefixText!));
         }
         widgets.add(const SizedBox(height: 8));
-        alignWidget(
+        widgets.add(alignWidget(
             richContent.alignment,
             QuestionImage(
               imageFileName: richContent.content!,
-            ));
+            )));
         widgets.add(const SizedBox(height: 8));
         break;
       case RichContentType.border:
@@ -69,7 +70,8 @@ class QuestionRichContentView extends StatelessWidget {
             richContent.alignment,
             Container(
               padding: const EdgeInsets.all(5),
-              decoration: BoxDecoration(border: Border.all()),
+              decoration: BoxDecoration(
+                  border: Border.all(color: Theme.of(context).hintColor)),
               child: QuestionText(text: richContent.content!),
             )));
         break;
