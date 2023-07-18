@@ -3684,7 +3684,8 @@
           {
             "type": "singleChoice",
             "number": 2,
-            "description": "在太魯閣地區常見到岩層或岩石受力而彎曲成美麗圖案，如圖(一)所示。這種彎曲的現象稱為下列何者？\n(一)",
+            "description": "在$\\underline{太魯閣}$地區常見到岩層或岩石受力而彎曲成美麗圖案，如圖(一)所示。這種彎曲的現象稱為下列何者？",
+            "image": "112_nature_2.png",
             "passing_rate": 0.85,
             "discrimination_index": 0.44,
             "choices": [
@@ -3702,7 +3703,7 @@
               },
               {
                 "answer": "D",
-                "description": "逆向坡圖"
+                "description": "逆向坡"
               }
             ],
             "correct_answer": "D"
@@ -3710,7 +3711,8 @@
           {
             "type": "singleChoice",
             "number": 3,
-            "description": "圖(二)為自製運動飲料的成分說明圖，圖中X所指應為下列何類物質？\n(二)",
+            "description": "圖(二)為自製運動飲料的成分說明圖，圖中X所指應為下列何類物質？",
+            "image": "112_nature_3.png",
             "passing_rate": 0.93,
             "discrimination_index": 0.33,
             "choices": [
@@ -3728,7 +3730,7 @@
               },
               {
                 "answer": "D",
-                "description": "電解質圖"
+                "description": "電解質"
               }
             ],
             "correct_answer": "A"
@@ -3762,7 +3764,8 @@
           {
             "type": "singleChoice",
             "number": 5,
-            "description": "圖(三)為某港口8/11～8/14的潮汐變化圖，根據圖中資訊判斷，8/11的潮差與8/14的潮差約相差多少公尺？\n(三)\n1",
+            "description": "圖(三)為某港口8/11～8/14的潮汐變化圖，根據圖中資訊判斷，8/11的潮差與8/14的潮差約相差多少公尺？",
+            "image": "112_nature_5.png",
             "passing_rate": 0.78,
             "discrimination_index": 0.46,
             "choices": [
@@ -3780,7 +3783,7 @@
               },
               {
                 "answer": "D",
-                "description": "8 \n圖"
+                "description": "8"
               }
             ],
             "correct_answer": "A"
@@ -3788,7 +3791,8 @@
           {
             "type": "singleChoice",
             "number": 6,
-            "description": "阿東進行「水溫與加熱時間的關係」實驗，其裝置如圖(四)所示。老師看到實驗裝置後，建議他改善測量水溫的方式，阿東進行下列哪一個改善方式最合適？\n(四)",
+            "description": "$\\underline{阿東}$進行「水溫與加熱時間的關係」實驗，其裝置如圖(四)所示。老師看到實驗裝置後，建議他改善測量水溫的方式，$\\underline{阿東}$進行下列哪一個改善方式最合適？",
+            "image": "112_nature_6.png",
             "passing_rate": 0.83,
             "discrimination_index": 0.41,
             "choices": [
@@ -3806,7 +3810,7 @@
               },
               {
                 "answer": "D",
-                "description": "將酒精燈的酒精裝滿，使火焰大小固定圖"
+                "description": "將酒精燈的酒精裝滿，使火焰大小固定"
               }
             ],
             "correct_answer": "C"
@@ -3814,7 +3818,20 @@
           {
             "type": "singleChoice",
             "number": 7,
-            "description": "氫氣因燃燒過程不會產生二氧化碳，是能源轉型的目標之一。依據製造方法的不同，可將氫氣分成幾類，其中四類如表(一)所示。在減碳環保的要求下，期望產生的氫氣要盡量是綠氫。\n表(一)\n依據表中資訊，下列說明何者最合理？",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "氫氣因燃燒過程不會產生二氧化碳，是能源轉型的目標之一。依據製造方法的不同，可將氫氣分成幾類，其中四類如表(一)所示。在減碳環保的要求下，期望產生的氫氣要盡量是綠氫。"
+              },
+              {
+                "type": "image",
+                "content": "112_nature_7.png"
+              },
+              {
+                "type": "text",
+                "content": "依據表中資訊，下列說明何者最合理？"
+              }
+            ],
             "passing_rate": 0.78,
             "discrimination_index": 0.52,
             "choices": [
@@ -3892,7 +3909,8 @@
           {
             "type": "singleChoice",
             "number": 10,
-            "description": "圖(五)為網友分享的海蝕平臺與火成岩脈圖(五)\n照片，有研究指出此地的火成岩脈是岩漿侵入原有的岩層而形成，由於火成岩脈抵抗海水侵蝕的能力較原有的岩層\n強，因此會像牆一樣，立於海蝕平臺之上。根據上述說明，下列有關此地的火成岩脈、平臺上原有的岩層以及海水侵蝕作用的發生先後順序，何者最合理？",
+            "description": "圖(五)為網友分享的海蝕平臺與火成岩脈圖(五)照片，有研究指出此地的火成岩脈是岩漿侵入原有的岩層而形成，由於火成岩脈抵抗海水侵蝕的能力較原有的岩層強，因此會像牆一樣，立於海蝕平臺之上。根據上述說明，下列有關此地的火成岩脈、平臺上原有的岩層以及海水侵蝕作用的發生先後順序，何者最合理？",
+            "image": "112_nature_10.png",
             "passing_rate": 0.71,
             "discrimination_index": 0.54,
             "choices": [
@@ -3918,7 +3936,20 @@
           {
             "type": "singleChoice",
             "number": 11,
-            "description": "圖(六)為小琪進行實驗的步驟示意圖： \n+\n+\n圖(六)\n關於此實驗，下列說明何者正確？",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "圖(六)為小琪進行實驗的步驟示意圖："
+              },
+              {
+                "type": "image",
+                "content": "112_nature_11.png"
+              },
+              {
+                "type": "text",
+                "content": "關於此實驗，下列說明何者正確？"
+              }
+            ],
             "passing_rate": 0.78,
             "discrimination_index": 0.48,
             "choices": [
@@ -3944,7 +3975,7 @@
           {
             "type": "singleChoice",
             "number": 12,
-            "description": "道耳頓提出原子說後，越來越多的科學發現及證據顯示，原始的原子說需要修正。下列哪一項最可能是因為電子的發現，原子說需要修正的內容？",
+            "description": "$\\underline{道耳頓}$提出原子說後，越來越多的科學發現及證據顯示，原始的原子說需要修正。下列哪一項最可能是因為電子的發現，原子說需要修正的內容？",
             "passing_rate": 0.59,
             "discrimination_index": 0.49,
             "choices": [
@@ -3962,7 +3993,7 @@
               },
               {
                 "answer": "D",
-                "description": "化學反應是原子的重新排列組合，形成新的物質\n \n3"
+                "description": "化學反應是原子的重新排列組合，形成新的物質"
               }
             ],
             "correct_answer": "D"
