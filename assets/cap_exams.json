@@ -3679,7 +3679,8 @@
                 "description": "生態系變得比較不穩定"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "只有單一物種食物網會變簡單，排除(A)、(B)、(C)。故選(D)"
           },
           {
             "type": "singleChoice",
@@ -3706,7 +3707,8 @@
                 "description": "逆向坡"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "圖中岩層成波浪彎曲狀，而褶皺會使岩層成波浪彎曲現象，故選(B)"
           },
           {
             "type": "singleChoice",
@@ -3733,7 +3735,8 @@
                 "description": "電解質"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "X 被用來補充流失的鈉和鉀離子，因此，X 應該是一種可以提供鈉和鉀離子的物質，而這些物質通常被稱為電解質。"
           },
           {
             "type": "singleChoice",
@@ -3759,7 +3762,8 @@
                 "description": "不具細胞壁"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "毛黴菌屬於真菌，具有細胞壁、孢子、粒線體，而不具有葉綠體，故而選(C)。"
           },
           {
             "type": "singleChoice",
@@ -3786,7 +3790,8 @@
                 "description": "8"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "8/11的潮差約為5公尺，而8/14的潮差約為3公尺，故8/11與8/14的潮差相差約為2公尺。故選(A)"
           },
           {
             "type": "singleChoice",
@@ -3813,7 +3818,8 @@
                 "description": "將酒精燈的酒精裝滿，使火焰大小固定"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "將溫度計懸吊在水中，不接觸杯底，才可以確保溫度計測量到的是水的溫度，而不是受到杯底或其他外部因素的影響。故選(A)"
           },
           {
             "type": "singleChoice",
@@ -3852,7 +3858,8 @@
                 "description": "氫氣被分成表中的四類顏色，主要是依據製造過程消耗掉的電能多寡來分類"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "綠氫的製造方式是使用可再生能源，因此，將風力發電所產生的電能用來電解水而產生的氫氣，符合綠氫的製造方式。故而選(B)\n(A)藍氫也有使用化石燃料。\n(C)燃燒過程中皆需要氧氣。\n(D)從表中並不能得知製造過程消耗掉多少電能。"
           },
           {
             "type": "singleChoice",
@@ -3878,7 +3885,8 @@
                 "description": "是由胰島分泌的升糖素"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "造成血糖快速下降為胰島素導致，胰島素為胰臟內的胰島分泌，其主要功能是降低血糖濃度，通過促進細胞對葡萄糖的吸收和利用，以及抑制肝臟對葡萄糖的產生。故而選(C)"
           },
           {
             "type": "singleChoice",
@@ -3904,7 +3912,8 @@
                 "description": "觀眾眼睛發出的光線照射在演員上，演員折射這些光線，因此觀眾能看見演員"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "觀眾處於演出區域之外，接收到反射光線的眼睛，因此能夠看見演員在舞臺上的表演。\n故選(C)"
           },
           {
             "type": "singleChoice",
@@ -3931,7 +3940,8 @@
                 "description": "火成岩脈最先形成，海水再侵蝕，最後岩層沉積"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "根據題目說明，岩層最先形成，岩漿侵入原有岩層產生火成岩，最後因為海水侵蝕作用發生，對平臺上的岩層和火成岩脈進行侵蝕，而火成岩脈抵抗海水侵蝕能力較強，因此相對於岩層，火成岩會更長時間保持在海蝕平台上。故而選(B)"
           },
           {
             "type": "singleChoice",
@@ -4001,7 +4011,16 @@
           {
             "type": "singleChoice",
             "number": 13,
-            "description": "「白噪音」為一種人類可聽見的聲波，此聲波在各頻率的響度大致相同。在自然界中，類似的聲音包括雨聲、海浪聲等，而家中電風扇所製造出的聲音也與白噪音相似。科學家研究發現，嬰兒處在有此種白噪音的環境下，會比較容易入睡。根據上述，下列響度與頻率的關係圖，何者最適合用來表示此種幫助入睡的白噪音？",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "「白噪音」為一種人類可聽見的聲波，此聲波在各頻率的響度大致相同。在自然界中，類似的聲音包括雨聲、海浪聲等，而家中電風扇所製造出的聲音也與白噪音相似。科學家研究發現，嬰兒處在有此種白噪音的環境下，會比較容易入睡。根據上述，下列響度與頻率的關係圖，何者最適合用來表示此種幫助入睡的白噪音？"
+              },
+              {
+                "type": "image",
+                "content": "112_nature_13.png"
+              }
+            ],
             "passing_rate": 0.67,
             "discrimination_index": 0.44,
             "choices": [
@@ -4023,7 +4042,7 @@
           {
             "type": "singleChoice",
             "number": 14,
-            "description": "已知DDT是一種作為殺蟲劑的化合物，難以被生物代謝。表(二)為某地區表(二)\n食物鏈中甲、乙、丙、丁四種生物體內含有的DDT濃度。已知其中一種生物為生產者，根據上述，下列推論何者正確？",
+            "description": "已知DDT是一種作為殺蟲劑的化合物，難以被生物代謝。表(二)為某地區食物鏈中甲、乙、丙、丁四種生物體內含有的DDT濃度。已知其中一種生物為生產者，根據上述，下列推論何者正確？",
             "passing_rate": 0.56,
             "discrimination_index": 0.5,
             "choices": [
@@ -4049,7 +4068,8 @@
           {
             "type": "singleChoice",
             "number": 15,
-            "description": "阿正閱讀一篇報導寫著：日本學者分析史前圖(七)\n人類遺骸後，認為當時住在沖繩的史前人類很可能來自於臺灣，研究團隊為了驗證從臺灣航海遷徙的可能性，於2019年進行實驗。如圖(七)\n所示，阿正認為研究團隊會選在夏天進行實驗，\n是因為這時的洋流與季風風向有助於從臺灣航海向北至沖繩列島，進而到達日本列島。根據阿正的判斷，研究團隊進行實驗時的季風風向與洋流應為下列何者？",
+            "description": "$\\underline{阿正}$閱讀一篇報導寫著：$\\underline{日本}$學者分析史前圖(七)人類遺骸後，認為當時住在$\\underline{沖繩}$的史前人類很可能來自於$\\underline{臺灣}$，研究團隊為了驗證從$\\underline{臺灣}$航海遷徙的可能性，於2019年進行實驗。如圖(七)所示，$\\underline{阿正}$認為研究團隊會選在夏天進行實驗，是因為這時的洋流與季風風向有助於從$\\underline{臺灣}$航海向北至$\\underline{沖繩列島}$，進而到達$\\underline{日本列島}$。根據$\\underline{阿正}$的判斷，研究團隊進行實驗時的季風風向與洋流應為下列何者？",
+            "image": "112_nature_15.png",
             "passing_rate": 0.74,
             "discrimination_index": 0.56,
             "choices": [
@@ -4063,11 +4083,11 @@
               },
               {
                 "answer": "C",
-                "description": "東北季風與中國沿岸流"
+                "description": "東北季風與$\\underline{中國}$沿岸流"
               },
               {
                 "answer": "D",
-                "description": "西南季風與中國沿岸流"
+                "description": "西南季風與$\\underline{中國}$沿岸流"
               }
             ],
             "correct_answer": "A"
@@ -4075,7 +4095,7 @@
           {
             "type": "singleChoice",
             "number": 16,
-            "description": "已知維管束植物可進行某種代謝作用，其反應式為：「甲+二氧化碳→氧氣+乙+水」。 \n有關甲的名稱及其在植物體內主要運送的構造，下列何者最合理？\n(三)",
+            "description": "已知維管束植物可進行某種代謝作用，其反應式為：「甲+二氧化碳→氧氣+乙+水」。有關甲的名稱及其在植物體內主要運送的構造，下列何者最合理？",
             "passing_rate": 0.59,
             "discrimination_index": 0.54,
             "choices": [
@@ -4102,24 +4122,25 @@
             "type": "singleChoice",
             "number": 17,
             "description": "表(三)為四位學生對於有機化合物、無機化合物中組成元素的說明，哪一位學生的說明最合理？",
+            "image": "112_nature_17.png",
             "passing_rate": 0.6,
             "discrimination_index": 0.59,
             "choices": [
               {
                 "answer": "A",
-                "description": "小玉"
+                "description": "$\\underline{小玉}$"
               },
               {
                 "answer": "B",
-                "description": "小如"
+                "description": "$\\underline{小如}$"
               },
               {
                 "answer": "C",
-                "description": "小方"
+                "description": "$\\underline{小方}$"
               },
               {
                 "answer": "D",
-                "description": "阿德"
+                "description": "$\\underline{阿德}$"
               }
             ],
             "correct_answer": "A"
@@ -4127,7 +4148,8 @@
           {
             "type": "singleChoice",
             "number": 18,
-            "description": "400米賽跑的距離剛好是室外標準跑道最內圈一圈的長度，比賽中選手需跑在自1\n23\n4己的跑道上，因內、外圈跑道長度的差異，不同跑道的選手起跑位置需作對應調整，如圖(八)所示。在這項比賽中最先跑完400米的選手，他在比賽過程哪一項物理量的大小必高於其他所有選手？\n(八)",
+            "description": "400米賽跑的距離剛好是室外標準跑道最內圈一圈的長度，比賽中選手需跑在自己的跑道上，因內、外圈跑道長度的差異，不同跑道的選手起跑位置需作對應調整，如圖(八)所示。在這項比賽中最先跑完400米的選手，他在比賽過程哪一項物理量的大小必高於其他所有選手？",
+            "image": "112_nature_18.png",
             "passing_rate": 0.59,
             "discrimination_index": 0.54,
             "choices": [
@@ -4145,7 +4167,7 @@
               },
               {
                 "answer": "D",
-                "description": "過程中速度的最大值1\n23\n45\n67\n8圖"
+                "description": "過程中速度的最大值"
               }
             ],
             "correct_answer": "A"
@@ -4153,7 +4175,8 @@
           {
             "type": "singleChoice",
             "number": 19,
-            "description": "如圖(九)所示，一個半圓形軌道固定在水平桌面，\n軌道兩端均距水平桌面高度0.5 m，將一顆小球在距水平桌面高度1.0 m處，由靜止自由落下滑入半圓形軌道，若不計任何摩擦力或阻力，且小球滑過軌道最低點後，向上達到最高點時的動能為0，則最高點距水平桌面高度為下列何者？\n(九)",
+            "description": "如圖(九)所示，一個半圓形軌道固定在水平桌面，軌道兩端均距水平桌面高度0.5 m，將一顆小球在距水平桌面高度1.0 m處，由靜止自由落下滑入半圓形軌道，若不計任何摩擦力或阻力，且小球滑過軌道最低點後，向上達到最高點時的動能為0，則最高點距水平桌面高度為下列何者？",
+            "image": "112_nature_19.png",
             "passing_rate": 0.62,
             "discrimination_index": 0.44,
             "choices": [
@@ -4171,7 +4194,7 @@
               },
               {
                 "answer": "D",
-                "description": "1.5 m圖"
+                "description": "1.5 m"
               }
             ],
             "correct_answer": "D"
@@ -4179,7 +4202,8 @@
           {
             "type": "singleChoice",
             "number": 20,
-            "description": "表(四)為生物研究保育中心網頁中四種植物的部分資料，有關此四種植物在分類表(四)\n階層上的敘述，下列何者無法確定？",
+            "description": "表(四)為$\\underline{生物研究保育中心}$網頁中四種植物的部分資料，有關此四種植物在分類表(四)階層上的敘述，下列何者無法確定？",
+            "image": "112_nature_20.png",
             "passing_rate": 0.65,
             "discrimination_index": 0.57,
             "choices": [
@@ -4197,7 +4221,7 @@
               },
               {
                 "answer": "D",
-                "description": "Lil-2和Myr-6為不同屬的植物 \n5"
+                "description": "Lil-2和Myr-6為不同屬的植物"
               }
             ],
             "correct_answer": "A"
@@ -4205,25 +4229,26 @@
           {
             "type": "singleChoice",
             "number": 21,
-            "description": "圖(十)為太陽系中幾顆行星的比較，根據這些星球的特性來判斷，圖中的 X 軸與 Y 軸單位依序最可能為下列何者？\n(cm3)、與太陽的平均距離(AU)\n(AU)、體積(cm3)\n(AU)、密度(g/cm3)\n(g/cm3)、與太陽的平均距離(AU)\n圖(十)",
+            "description": "圖(十)為太陽系中幾顆行星的比較，根據這些星球的特性來判斷，圖中的 X 軸與 Y 軸單位依序最可能為下列何者？",
+            "image": "112_nature_21.png",
             "passing_rate": 0.54,
             "discrimination_index": 0.53,
             "choices": [
               {
                 "answer": "A",
-                "description": "體積"
+                "description": "體積($cm^3$)、與太陽的平均距離(AU)"
               },
               {
                 "answer": "B",
-                "description": "與太陽的平均距離"
+                "description": "與太陽的平均距離(AU)、體積($cm^3$)"
               },
               {
                 "answer": "C",
-                "description": "與太陽的平均距離"
+                "description": "與太陽的平均距離(AU)、密度($g/cm^3$)"
               },
               {
                 "answer": "D",
-                "description": "密度"
+                "description": "密度($g/cm^3$)、與太陽的平均距離(AU)"
               }
             ],
             "correct_answer": "B"
@@ -4231,7 +4256,8 @@
           {
             "type": "singleChoice",
             "number": 22,
-            "description": "人體感染微生物到發病前所經過的時間稱為「潛伏期」。圖(十一)為小杉體溫恆定範圍及近十天每天早上的體溫紀錄，已知此段時間小杉感染了微生物X，\n其潛伏期為1～3天，發病時的症狀之一為體溫無法維持在恆定範圍內，則下列哪一天最可能為小杉初次感染此微生物的時間？\n(十一)",
+            "description": "人體感染微生物到發病前所經過的時間稱為「潛伏期」。圖(十一)為$\\underline{小杉}$體溫恆定範圍及近十天每天早上的體溫紀錄，已知此段時間$\\underline{小杉}$感染了微生物X，\n其潛伏期為1～3天，發病時的症狀之一為體溫無法維持在恆定範圍內，則下列哪一天最可能為$\\underline{小杉}$初次感染此微生物的時間？",
+            "image": "112_nature_22.png",
             "passing_rate": 0.69,
             "discrimination_index": 0.51,
             "choices": [
@@ -4249,7 +4275,7 @@
               },
               {
                 "answer": "D",
-                "description": "第8天圖"
+                "description": "第8天"
               }
             ],
             "correct_answer": "B"
@@ -4257,25 +4283,26 @@
           {
             "type": "singleChoice",
             "number": 23,
-            "description": "甲、乙兩個質量相同的物體，靜置於無摩擦力的水平桌面上，甲、乙分別受到水平外力F甲、F乙後作直線運動，兩外力分別施力不同長短的時間後移除。已知兩物體在時間t＝0～60 s期間的速度(v)與時間(t)關係圖，如圖(十二)所示，則有關兩物體在此期間受力情形的敘述，下列何者正確？\n(十二)",
+            "description": "甲、乙兩個質量相同的物體，靜置於無摩擦力的水平桌面上，甲、乙分別受到水平外力$F_甲$、$F_乙$後作直線運動，兩外力分別施力不同長短的時間後移除。已知兩物體在時間 $t=0～60s$ 期間的速度(v)與時間(t)關係圖，如圖(十二)所示，則有關兩物體在此期間受力情形的敘述，下列何者正確？",
+            "image": "112_nature_23.png",
             "passing_rate": 0.65,
             "discrimination_index": 0.55,
             "choices": [
               {
                 "answer": "A",
-                "description": "F甲施力時間較長，且外力大小F甲＞F乙"
+                "description": "F甲施力時間較長，且外力大小$F_甲>F_乙$"
               },
               {
                 "answer": "B",
-                "description": "F甲施力時間較長，但外力大小F甲＜F乙"
+                "description": "F甲施力時間較長，但外力大小$F_甲<F_乙$"
               },
               {
                 "answer": "C",
-                "description": "F乙施力時間較長，但外力大小F甲＞F乙"
+                "description": "F乙施力時間較長，但外力大小$F_甲>F_乙$"
               },
               {
                 "answer": "D",
-                "description": "F乙施力時間較長，且外力大小F甲＜F乙圖"
+                "description": "F乙施力時間較長，且外力大小$F_甲<F_乙$"
               }
             ],
             "correct_answer": "C"
@@ -4283,7 +4310,8 @@
           {
             "type": "singleChoice",
             "number": 24,
-            "description": "圖(十三)為物質進出膜的實驗裝置，先在試管中裝入圖(十三)\n葡萄糖液，並將試管口用一層膜密封，再倒置於裝有澱粉液的燒杯中。已知葡萄糖能通過此膜，但澱粉不能通過此膜，若靜置一段時間平衡後，分別取出溶液以試劑進行檢測，則出現下列何現象最合理？",
+            "description": "圖(十三)為物質進出膜的實驗裝置，先在試管中裝入葡萄糖液，並將試管口用一層膜密封，再倒置於裝有澱粉液的燒杯中。已知葡萄糖能通過此膜，但澱粉不能通過此膜，若靜置一段時間平衡後，分別取出溶液以試劑進行檢測，則出現下列何現象最合理？",
+            "image": "112_nature_24.png",
             "passing_rate": 0.55,
             "discrimination_index": 0.56,
             "choices": [
@@ -4309,7 +4337,16 @@
           {
             "type": "singleChoice",
             "number": 25,
-            "description": "在超市買到的蘋果可能是幾個月前就已經採摘下來了。為了長時間保存，會在蘋果表面塗上食用蠟，減少與氧氣接觸。蘋果熟化過程會將澱粉轉成糖，過程中會需要氧氣並產生二氧化碳，所以可藉由調整蘋果存放環境的氣體比例，減緩蘋果的熟化過程，延長保存期限。上述提及調整存放環境的氣體比例，其示意圖最可能為下列何者？",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "在超市買到的蘋果可能是幾個月前就已經採摘下來了。為了長時間保存，會在蘋果表面塗上食用蠟，減少與氧氣接觸。蘋果熟化過程會將澱粉轉成糖，過程中會需要氧氣並產生二氧化碳，所以可藉由調整蘋果存放環境的氣體比例，減緩蘋果的熟化過程，延長保存期限。上述提及調整存放環境的氣體比例，其示意圖最可能為下列何者？"
+              },
+              {
+                "type": "image",
+                "content": "112_nature_25.png"
+              }
+            ],
             "passing_rate": 0.5,
             "discrimination_index": 0.3,
             "choices": [
@@ -4331,7 +4368,7 @@
           {
             "type": "singleChoice",
             "number": 26,
-            "description": "砒霜是一種毒物，主成分為三氧化二砷(As 2O3)。古代製作砒霜的技術較不成熟，砒霜中會含有少量的不純物質――硫或硫化物，硫或硫化物接觸到銀，\n會使銀氧化產生黑色的硫化銀(Ag 2S)，這就是古裝劇中常見的以銀針試毒，\n銀針變黑即表示有毒。依據上述，下列推論何者最合理？",
+            "description": "砒霜是一種毒物，主成分為三氧化二砷($As_2O_3$)。古代製作砒霜的技術較不成熟，砒霜中會含有少量的不純物質――硫或硫化物，硫或硫化物接觸到銀，會使銀氧化產生黑色的硫化銀($Ag_2S$)，這就是古裝劇中常見的以銀針試毒，銀針變黑即表示有毒。依據上述，下列推論何者最合理？",
             "passing_rate": 0.53,
             "discrimination_index": 0.45,
             "choices": [
@@ -4357,7 +4394,7 @@
           {
             "type": "singleChoice",
             "number": 27,
-            "description": "取甲、乙兩種化合物，分別在足量的氧氣中燃燒，反應式分別為：\n關於甲、乙兩種化合物的比較與說明，下列何者正確？",
+            "description": "取甲、乙兩種化合物，分別在足量的氧氣中燃燒，反應式分別為：\n$甲+3O_2$$\\to2CO_2$$+3H_2O$\n$乙+3O2$$\\to2CO_2$$+2H_2O$\n關於甲、乙兩種化合物的比較與說明，下列何者正確？",
             "passing_rate": 0.52,
             "discrimination_index": 0.45,
             "choices": [
@@ -4383,7 +4420,8 @@
           {
             "type": "singleChoice",
             "number": 28,
-            "description": "圖(十四)為小佐某天前往圖中甲地旅遊前所查詢圖(十四)\n的地面天氣簡圖，圖中黑色實線為等壓線，已知圖中 H 和 L 的天氣系統未來會向圖中箭頭所指的方向移動，因此他認為接下來甲地應為晴朗的天氣。下列關於天氣系統H的敘述，何者最能用來說明小佐的看法？",
+            "description": "圖(十四)為$\\underline{小佐}$某天前往圖中甲地旅遊前所查詢的地面天氣簡圖，圖中黑色實線為等壓線，已知圖中 H 和 L 的天氣系統未來會向圖中箭頭所指的方向移動，因此他認為接下來甲地應為晴朗的天氣。下列關於天氣系統H的敘述，何者最能用來說明$\\underline{小佐}$的看法？",
+            "image": "112_nature_28.png",
             "passing_rate": 0.57,
             "discrimination_index": 0.62,
             "choices": [
@@ -4401,7 +4439,7 @@
               },
               {
                 "answer": "D",
-                "description": "中心近地面氣壓比附近外圍高，水氣含量較高7"
+                "description": "中心近地面氣壓比附近外圍高，水氣含量較高"
               }
             ],
             "correct_answer": "A"
@@ -4409,7 +4447,20 @@
           {
             "type": "singleChoice",
             "number": 29,
-            "description": "小泉暑假時到武嶺一日遊，他從臺中住家開車出發，途中經清境農場稍作休息後，再開車上武嶺，之後再返回臺中住家，如圖(十五)所示。根據圖中資訊，當天不同時間時，小泉所在環境的氣壓與氣溫關係圖，何者最合理？\n  \n圖(十五)",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "$\\underline{小泉}$暑假時到$\\underline{武嶺}$一日遊，他從$\\underline{臺中}$住家開車出發，途中經$\\underline{清境農場}$稍作休息後，再開車上$\\underline{武嶺}$，之後再返回$\\underline{臺中}$住家，如圖(十五)所示。根據圖中資訊，當天不同時間時，$\\underline{小泉}$所在環境的氣壓與氣溫關係圖，何者最合理？"
+              },
+              {
+                "type": "image",
+                "content": "112_nature_29-1.png"
+              },
+              {
+                "type": "image",
+                "content": "112_nature_29-2.png"
+              }
+            ],
             "passing_rate": 0.55,
             "discrimination_index": 0.6,
             "choices": [
@@ -4431,7 +4482,21 @@
           {
             "type": "singleChoice",
             "number": 30,
-            "description": "圖(十六)為阿榮在購物網站上搜尋黑麻油所獲得的部分結果，圖中的數值為黑麻油的內容物含量及價格，他比較甲、乙兩種品牌的含量，覺得數值有不合理之處。下列關於甲、乙兩牌標示的敘述，何者最合理？\n3\n1 c.c.＝1 cm圖(十六)",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "圖(十六)為$\\underline{阿榮}$在購物網站上搜尋黑麻油所獲得的部分結果，圖中的數值為黑麻油的內容物含量及價格，他比較甲、乙兩種品牌的含量，覺得數值有不合理之處。下列關於甲、乙兩牌標示的敘述，何者最合理？"
+              },
+              {
+                "type": "image",
+                "content": "112_nature_30.png"
+              },
+              {
+                "type": "border",
+                "content": "\uD83D\uDCD6 補充說明：1 c.c.=1 $cm^3$",
+                "alignment": "centerRight"
+              }
+            ],
             "passing_rate": 0.53,
             "discrimination_index": 0.5,
             "choices": [
@@ -4457,7 +4522,8 @@
           {
             "type": "singleChoice",
             "number": 31,
-            "description": "阿芳利用複式顯微鏡觀察小魚尾鰭內血液流動的方向，所觀察到的視野影像如圖(十七)所示，圖中的箭頭表示血液流動方向。若將培養皿往左緩慢地移動，則在視野中依序消失的血管，應為下列何者？\n(十七)",
+            "description": "$\\underline{阿芳}$利用複式顯微鏡觀察小魚尾鰭內血液流動的方向，所觀察到的視野影像如圖(十七)所示，圖中的箭頭表示血液流動方向。若將培養皿往左緩慢地移動，則在視野中依序消失的血管，應為下列何者？",
+            "image": "112_nature_31.png",
             "passing_rate": 0.5,
             "discrimination_index": 0.38,
             "choices": [
@@ -4475,7 +4541,7 @@
               },
               {
                 "answer": "D",
-                "description": "小靜脈、小動脈、微血管 \n圖"
+                "description": "小靜脈、小動脈、微血管"
               }
             ],
             "correct_answer": "C"
@@ -4483,7 +4549,20 @@
           {
             "type": "singleChoice",
             "number": 32,
-            "description": "下列為某牌口香糖廣告的說明： \n人體口腔中的環境接近中性，在用餐後一段時間會變酸，而增加蛀牙機率。除了每日正確刷牙外，在餐後嚼食無糖口香糖，可刺激唾液分泌，有效「平衡」口中酸性。此廣告搭配了兩張圖用以輔助說明，一張為圖(十八)，另一張 \n圖最可能為下列何者？\n圖(十八)",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "下列為某牌口香糖廣告的說明：\n人體口腔中的環境接近中性，在用餐後一段時間會變酸，而增加蛀牙機率。除了每日正確刷牙外，在餐後嚼食無糖口香糖，可刺激唾液分泌，有效「平衡」口中酸性。此廣告搭配了兩張圖用以輔助說明，一張為圖(十八)，另一張圖最可能為下列何者？"
+              },
+              {
+                "type": "image",
+                "content": "112_nature_32-1.png"
+              },
+              {
+                "type": "image",
+                "content": "112_nature_32-2.png"
+              }
+            ],
             "passing_rate": 0.45,
             "discrimination_index": 0.39,
             "choices": [
@@ -4505,25 +4584,26 @@
           {
             "type": "singleChoice",
             "number": 33,
-            "description": "一木塊靜置於粗糙的水平面上，分別對此木塊施以不同大小的水平外力，\n表(五)\n木塊與水平面間對應的摩擦力大小及運動狀態如表(五)所示。若木塊與水平面間的最大靜摩擦力大小為f s，根據表中資訊，推論f s的大小關係，下列何者最合理？",
+            "description": "一木塊靜置於粗糙的水平面上，分別對此木塊施以不同大小的水平外力，木塊與水平面間對應的摩擦力大小及運動狀態如表(五)所示。若木塊與水平面間的最大靜摩擦力大小為 $f_s$，根據表中資訊，推論 $f_s$ 的大小關係，下列何者最合理？",
+            "image": "112_nature_33.png",
             "passing_rate": 0.43,
             "discrimination_index": 0.38,
             "choices": [
               {
                 "answer": "A",
-                "description": "fs＜200 gw"
+                "description": "$f_s<200 gw$"
               },
               {
                 "answer": "B",
-                "description": "200 gw＜fs＜250 gw"
+                "description": "$200 gw<f_s<250 gw$"
               },
               {
                 "answer": "C",
-                "description": "250 gw＜fs＜300 gw"
+                "description": "$250 gw<f_s<300 gw$"
               },
               {
                 "answer": "D",
-                "description": "fs＞300 gw\n \n9"
+                "description": "$f_s>300 gw$"
               }
             ],
             "correct_answer": "C"
@@ -4531,7 +4611,8 @@
           {
             "type": "singleChoice",
             "number": 34,
-            "description": "秀春買了一個電火鍋，圖(十九)為電火鍋上的\n \n圖(十九)\n電器標示，依據標示的資訊，在正常使用的情形下，此電火鍋達到最大功率時，每分鐘消耗多少的電能？",
+            "description": "$\\underline{秀春}$買了一個電火鍋，圖(十九)為電火鍋上的電器標示，依據標示的資訊，在正常使用的情形下，此電火鍋達到最大功率時，每分鐘消耗多少的電能？",
+            "image": "112_nature_34.png",
             "passing_rate": 0.42,
             "discrimination_index": 0.52,
             "choices": [
@@ -4557,7 +4638,8 @@
           {
             "type": "singleChoice",
             "number": 35,
-            "description": "圖(二十)為草莓花朵構造及其發育的示意圖，已知草莓是由花托處膨大而來，若圖(二十一)中的  構造是由草莓的子房發育而成，則此  構造應稱為下列何者？\n圖(二十)\n圖(二十一)",
+            "description": "圖(二十)為草莓花朵構造及其發育的示意圖，已知草莓是由花托處膨大而來，若圖(二十一)中的＊構造是由草莓的子房發育而成，則此＊構造應稱為下列何者？",
+            "image": "112_nature_35.png",
             "passing_rate": 0.36,
             "discrimination_index": 0.49,
             "choices": [
@@ -4583,7 +4665,8 @@
           {
             "type": "singleChoice",
             "number": 36,
-            "description": "小逸每天中午都會記錄升旗臺上的竿影變圖(二十二)\n化，他經過多年的測量發現在不考慮天氣因素的情況下，每年的1月底及11月底各有1次中午無竿影的紀錄。已知升旗臺上的旗竿鉛直立於水平地面上，根據上述資訊，升旗臺的所在位置最可能位於圖(二十二)中甲、乙、丙、丁的哪一點？",
+            "description": "$\\underline{小逸}$每天中午都會記錄升旗臺上的竿影變化，他經過多年的測量發現在不考慮天氣因素的情況下，每年的1月底及11月底各有1次中午無竿影的紀錄。已知升旗臺上的旗竿鉛直立於水平地面上，根據上述資訊，升旗臺的所在位置最可能位於圖(二十二)中甲、乙、丙、丁的哪一點？",
+            "image": "112_nature_36.png",
             "passing_rate": 0.34,
             "discrimination_index": 0.52,
             "choices": [
@@ -4609,7 +4692,8 @@
           {
             "type": "singleChoice",
             "number": 37,
-            "description": "如圖(二十三)所示，有一電路裝置固定放置圖(二十三)\n在水平面上，甲、乙兩段南北向的導線分別置於兩馬蹄型磁鐵所形成的磁場中，磁場恰好與甲、乙兩段導線垂直。判斷甲、乙兩段導線在磁場中所受磁力的方向，下列敘述何者正確？",
+            "description": "如圖(二十三)所示，有一電路裝置固定放置在水平面上，甲、乙兩段南北向的導線分別置於兩馬蹄型磁鐵所形成的磁場中，磁場恰好與甲、乙兩段導線垂直。判斷甲、乙兩段導線在磁場中所受磁力的方向，下列敘述何者正確？",
+            "image": "112_nature_37.png",
             "passing_rate": 0.37,
             "discrimination_index": 0.58,
             "choices": [
@@ -4635,7 +4719,7 @@
           {
             "type": "singleChoice",
             "number": 38,
-            "description": "軟骨發育不全症是體染色體中FGFR3基因發生突變所造成，患者具有身材矮小、\n四肢短小變形等特徵，若親代只有其中一方為患者，子代就會有50%以上的罹病率。已知阿佑因發生突變而患有軟骨發育不全症，但其父母皆未患病，\n若以F代表突變的FGFR3遺傳因子，f代表正常的FGFR3遺傳因子，則關於阿佑父母基因型的推論，下列何者最合理？",
+            "description": "軟骨發育不全症是體染色體中FGFR3基因發生突變所造成，患者具有身材矮小、四肢短小變形等特徵，若親代只有其中一方為患者，子代就會有50%以上的罹病率。已知$\\underline{阿佑}$因發生突變而患有軟骨發育不全症，但其父母皆未患病，若以F代表突變的FGFR3遺傳因子，f代表正常的FGFR3遺傳因子，則關於$\\underline{阿佑}$父母基因型的推論，下列何者最合理？",
             "passing_rate": 0.29,
             "discrimination_index": 0.44,
             "choices": [
@@ -4661,7 +4745,8 @@
           {
             "type": "singleChoice",
             "number": 39,
-            "description": "小櫻查詢了網路上的資料後，在月曆上圖(二十四)\n把2個有特殊天文現象的日子作記號，如圖(二十四)所示。資料顯示在當月9日晚間可見到月食，而23日早上則可見到日食。\n根據此月曆，下列有關不同日期的月相何者最合理？",
+            "description": "$\\underline{小櫻}$查詢了網路上的資料後，在月曆上把2個有特殊天文現象的日子作記號，如圖(二十四)所示。資料顯示在當月9日晚間可見到月食，而23日早上則可見到日食。根據此月曆，下列有關不同日期的月相何者最合理？",
+            "image": "112_nature_39.png",
             "passing_rate": 0.47,
             "discrimination_index": 0.58,
             "choices": [
@@ -4687,7 +4772,20 @@
           {
             "type": "singleChoice",
             "number": 40,
-            "description": "下列為一則新聞報導：\n一場泳池慶生派對中，工作人員在泳池中倒入大量的液態氮，以製造煙霧效果並且炒熱氣氛，最後卻造成數人昏迷送醫。有人分析：「氮氣和池水中的氯會反應產生有毒的三氯化氮，對皮膚和呼吸道相當刺激。」\n小莫看完報導後，認為三氯化氮雖然有毒，但應該不是此次意外的原因，應是其他因素所致，下列何者最可能是她認為不是三氯化氮的理由？",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "下列為一則新聞報導："
+              },
+              {
+                "type": "border",
+                "content": "一場泳池慶生派對中，工作人員在泳池中倒入大量的液態氮，以製造煙霧效果並且炒熱氣氛，最後卻造成數人昏迷送醫。有人分析：「氮氣和池水中的氯會反應產生有毒的三氯化氮，對皮膚和呼吸道相當刺激。」"
+              },
+              {
+                "type": "text",
+                "content": "$\\underline{小莫}$看完報導後，認為三氯化氮雖然有毒，但應該不是此次意外的原因，應是其他因素所致，下列何者最可能是她認為不是三氯化氮的理由？"
+              }
+            ],
             "passing_rate": 0.52,
             "discrimination_index": 0.58,
             "choices": [
@@ -4713,7 +4811,20 @@
           {
             "type": "singleChoice",
             "number": 41,
-            "description": "有甲、乙、丙三種固體純物質，三者對水的溶解情形及沸點如表(六)所示。有一份參雜甲、乙、丙的混合物，可經由兩步驟(加熱、加水過濾)而分離出甲、乙、丙，\n如圖(二十五)所示。\n表(六)\n圖(二十五)\n依據上述資訊，下列推論何者最合理？",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "有甲、乙、丙三種固體純物質，三者對水的溶解情形及沸點如表(六)所示。有一份參雜甲、乙、丙的混合物，可經由兩步驟(加熱、加水過濾)而分離出甲、乙、丙，如圖(二十五)所示。"
+              },
+              {
+                "type": "image",
+                "content": "112_nature_41.png"
+              },
+              {
+                "type": "text",
+                "content": "依據上述資訊，下列推論何者最合理？"
+              }
+            ],
             "passing_rate": 0.52,
             "discrimination_index": 0.57,
             "choices": [
@@ -4731,7 +4842,7 @@
               },
               {
                 "answer": "D",
-                "description": "○可能是丙，步驟二需加熱至1500℃，才可使甲、乙分離 \n11"
+                "description": "○可能是丙，步驟二需加熱至1500℃，才可使甲、乙分離"
               }
             ],
             "correct_answer": "A"
@@ -4739,7 +4850,8 @@
           {
             "type": "singleChoice",
             "number": 42,
-            "description": "圖(二十六)、圖(二十七)兩種連接方式皆為甲、乙兩個燈泡並聯，小明與阿華皆認為圖(二十七)的接法，燈泡甲較不會因為線路故障而不亮，以下為兩人的解釋：\n小明：若燈泡乙的燈絲燒斷，在圖(二十六)  \n      中會使得燈泡甲不亮，而在圖(二十七)\n圖(二十六)\n圖(二十七)\n                中燈泡甲仍會發亮。\n阿華：若導線丙、丁其中一條斷裂，在圖(二十六)中會使得燈泡甲不亮，而在\n              圖(二十七)中燈泡甲仍會發亮。\n關於兩人的解釋是否合理？\n(七)為X牌燕麥奶與Y牌牛奶的營養比較表。\n       部分消費者選擇牛奶與植物奶(米漿、豆漿、燕麥奶、杏仁奶)的過程中，也可能會同時考量牛奶和植物奶對於環境造成的影響。圖(二十八)為某學術單位研究：每生產出200 mL的牛奶和特定濃度植物奶時產生的碳排放量、使用的土地面積與所需的用水量。\n表(七)\n圖(二十八)",
+            "description": "圖(二十六)、圖(二十七)兩種連接方式皆為甲、乙兩個燈泡並聯，$\\underline{小明}$與$\\underline{阿華}$皆認為圖(二十七)的接法，燈泡甲較不會因為線路故障而不亮，以下為兩人的解釋：\n$\\underline{小明}$：若燈泡乙的燈絲燒斷，在圖(二十六)中會使得燈泡甲不亮，而在圖(二十七)中燈泡甲仍會發亮。\n$\\underline{阿華}$：若導線丙、丁其中一條斷裂，在圖(二十六)中會使得燈泡甲不亮，而在圖(二十七)中燈泡甲仍會發亮。\n關於兩人的解釋是否合理？",
+            "image": "112_nature_42.png",
             "passing_rate": 0.38,
             "discrimination_index": 0.41,
             "choices": [
@@ -4753,222 +4865,303 @@
               },
               {
                 "answer": "C",
-                "description": "只有小明合理"
+                "description": "只有$\\underline{小明}$合理"
               },
               {
                 "answer": "D",
-                "description": "只有阿華合理\n 請閱讀下列敘述後，回答43～44題\n　　燕麥奶與牛奶常被拿來做比較。燕麥奶是燕麥和水混合後的成品，其營養組成成分和牛奶有些不同，表"
+                "description": "只有$\\underline{阿華}$合理"
               }
             ],
             "correct_answer": "D"
           },
           {
-            "type": "singleChoice",
-            "number": 43,
-            "description": "若壯壯跟安安兩人對於早餐飲品的需求為：\n壯壯：我想要攝取較多的胺基酸。\n安安：我要減少攝取糖。\n則根據營養比較表，在攝取相同容量飲品的情況下，推論兩人的選擇，下列何者最合理？",
-            "passing_rate": 0.57,
-            "discrimination_index": 0.55,
-            "choices": [
+            "type": "groupChoice",
+            "rich_content": [
               {
-                "answer": "A",
-                "description": "兩人皆宜選擇牛奶"
+                "type": "text",
+                "content": "請閱讀下列敘述後，回答43～44題："
               },
               {
-                "answer": "B",
-                "description": "兩人皆宜選擇燕麥奶"
+                "type": "border",
+                "content": "    燕麥奶與牛奶常被拿來做比較。燕麥奶是燕麥和水混合後的成品，其營養組成成分和牛奶有些不同，表(七)為X牌燕麥奶與Y牌牛奶的營養比較表。\n    部分消費者選擇牛奶與植物奶(米漿、豆漿、燕麥奶、杏仁奶)的過程中，也可能會同時考量牛奶和植物奶對於環境造成的影響。圖(二十八)為某學術單位研究：每生產出200 mL的牛奶和特定濃度植物奶時產生的碳排放量、使用的土地面積與所需的用水量。"
               },
               {
-                "answer": "C",
-                "description": "壯壯選擇牛奶，安安選擇燕麥奶"
-              },
-              {
-                "answer": "D",
-                "description": "壯壯選擇燕麥奶，安安選擇牛奶"
+                "type": "image",
+                "content": "112_nature_43-44.png"
               }
             ],
-            "correct_answer": "A"
+            "options": [
+              {
+                "type": "singleChoice",
+                "number": 43,
+                "description": "若壯壯跟安安兩人對於早餐飲品的需求為：\n$\\underline{壯壯}$：我想要攝取較多的胺基酸。\n$\\underline{安安}$：我要減少攝取糖。\n則根據營養比較表，在攝取相同容量飲品的情況下，推論兩人的選擇，下列何者最合理？",
+                "passing_rate": 0.57,
+                "discrimination_index": 0.55,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "兩人皆宜選擇牛奶"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "兩人皆宜選擇燕麥奶"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "$\\underline{壯壯}$選擇牛奶，$\\underline{安安}$選擇燕麥奶"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "$\\underline{壯壯}$選擇燕麥奶，$\\underline{安安}$選擇牛奶"
+                  }
+                ],
+                "correct_answer": "A"
+              },
+              {
+                "type": "singleChoice",
+                "number": 44,
+                "description": "根據本文，若只考量碳排放對於環境的影響，在相同的碳排放量下，推論下列何種飲品生產的量最多？",
+                "passing_rate": 0.51,
+                "discrimination_index": 0.6,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "牛奶"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "米漿"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "燕麥奶"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "杏仁奶"
+                  }
+                ],
+                "correct_answer": "D"
+              }
+            ]
           },
           {
-            "type": "singleChoice",
-            "number": 44,
-            "description": "根據本文，若只考量碳排放對於環境的影響，在相同的碳排放量下，推論下列何種飲品生產的量最多？\n(二十九)為風力發電過程的示意圖，原始的風速為v1，在通過發電機後，最後風速變為v2，德國科學家圖(二十九)\n貝茲通過理論計算，獲得理想情形下Cp與 \n 的理論關係，其關係圖如圖(三十)所示。\nCp與v1、v2的關係式\n      如下：\n圖(三十)",
-            "passing_rate": 0.51,
-            "discrimination_index": 0.6,
-            "choices": [
+            "type": "groupChoice",
+            "rich_content": [
               {
-                "answer": "A",
-                "description": "牛奶"
+                "type": "text",
+                "content": "請閱讀下列敘述後，回答45～46題："
               },
               {
-                "answer": "B",
-                "description": "米漿"
+                "type": "border",
+                "content": "    $\\underline{臺灣}$西部海岸建構多部風力發電機，透過風力發電機可以將風能轉換為電能，而在轉換過程中，能量無法百分之百轉換。科學上會使用功率係數 $C_p$ 來呈現發電機葉片由風力獲取能量的效率，可表示如下：\n$C_p=\\frac{發電機葉片由風力中獲取的功率}{通過發電機前風力原始的功率}$\n    圖(二十九)為風力發電過程的示意圖，原始的風速為$v_1$，在通過發電機後，最後風速變為 $v_2$，$\\underline{德國}$科學家$\\underline{貝茲}$通過理論計算，獲得理想情形下 $C_p$ 與 $(\\frac{v_2}{v_1})$ 的理論關係，其關係圖如圖(三十)所示。"
               },
               {
-                "answer": "C",
-                "description": "燕麥奶"
+                "type": "image",
+                "content": "112_nature_45-46.png"
               },
               {
-                "answer": "D",
-                "description": "杏仁奶1請閱讀下列敘述後，回答45～46題\n　　臺灣西部海岸建構多部風力發電機，透過風力發電機可以將風能轉換為電能，而在轉換過程中，能量無法百分之百轉換。科學上會使用功率係數Cp來呈現發電機葉片由風力獲取能量的效率，可表示如下：\n　　圖"
+                "type": "border",
+                "content": "\uD83D\uDCD6 補充說明： $C_p$ 與 $v_1$ 、 $v_2$ 的關係式如下：\n$C_p$$=\\frac{1}{2}[1-(\\frac{v_2}{V_1})^2][1+(\\frac{v_2}{V_1})]$",
+                "alignment": "centerRight"
               }
             ],
-            "correct_answer": "D"
+            "options": [
+              {
+                "type": "singleChoice",
+                "number": 45,
+                "description": "根據本文第一段的資訊，下列有關 $C_p$ 的敘述，何者最合理？",
+                "passing_rate": 0.57,
+                "discrimination_index": 0.41,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "風力發電機葉片轉動的速率愈快，$C_p$ 值會愈大"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "風力發電機葉片轉動的速率愈快，$C_p$ 值會愈小"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "風力發電機葉片由風力獲得能量的比例愈高，$C_p$ 值會愈大"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "風力發電機葉片由風力獲得能量的比例愈高，$C_p$ 值會愈小"
+                  }
+                ],
+                "correct_answer": "C"
+              },
+              {
+                "type": "singleChoice",
+                "number": 46,
+                "description": "根據圖(三十)，假設原始的風速 $v_1$ 為 $10 m/s$，通過發電機後，最後的風速 $v_2$ 為多少時，會接近最大的 $C_p $值？",
+                "passing_rate": 0.46,
+                "discrimination_index": 0.41,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "0"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "$3.3 m/s$"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "$5.9 m/s$"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "$10 m/s$"
+                  }
+                ],
+                "correct_answer": "B"
+              }
+            ]
           },
           {
-            "type": "singleChoice",
-            "number": 45,
-            "description": "根據本文第一段的資訊，下列有關Cp的敘述，何者最合理？",
-            "passing_rate": 0.57,
-            "discrimination_index": 0.41,
-            "choices": [
+            "type": "groupChoice",
+            "rich_content": [
               {
-                "answer": "A",
-                "description": "風力發電機葉片轉動的速率愈快，Cp值會愈大"
+                "type": "text",
+                "content": "請閱讀下列敘述後，回答47～48題："
               },
               {
-                "answer": "B",
-                "description": "風力發電機葉片轉動的速率愈快，Cp值會愈小"
+                "type": "border",
+                "content": "    $\\underline{阿洋}$進行實驗，探討「不同的洗滌方法，對小白菜農藥殘留量的影響」，他以相同的方式種植一批小白菜且未噴灑農藥，採收小白菜後先做「前處理」，接著分成五組，分別經由甲～戊的洗滌方法後，再做檢測，結果如表(八)所示。"
               },
               {
-                "answer": "C",
-                "description": "風力發電機葉片由風力獲得能量的比例愈高，Cp值會愈大"
-              },
-              {
-                "answer": "D",
-                "description": "風力發電機葉片由風力獲得能量的比例愈高，Cp值會愈小"
+                "type": "image",
+                "content": "112_nature_47-48.png"
               }
             ],
-            "correct_answer": "C"
+            "options": [
+              {
+                "type": "singleChoice",
+                "number": 47,
+                "description": "$\\underline{阿洋}$提出以下觀點：\n①清水浸泡洗滌方法中，不用添加物比使用添加物的洗滌效果好\n②清水直接沖洗比各種浸泡洗滌方法的效果好\n根據本文，關於$\\underline{阿洋}$的觀點，下列敘述何者合理？",
+                "passing_rate": 0.64,
+                "discrimination_index": 0.48,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "比較乙、丙的結果，可知觀點①不恰當"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "比較乙、丁的結果，可知觀點①不恰當"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "比較甲、戊的結果，可知觀點②不恰當"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "比較乙、戊的結果，可知觀點②不恰當"
+                  }
+                ],
+                "correct_answer": "B"
+              },
+              {
+                "type": "singleChoice",
+                "number": 48,
+                "description": "根據本文，「前處理」最可能為下列何者？\n(三十一)為某種分析土壤液化潛勢的方式，透過地層組成、地下水位高度的資料，加上模擬地震參數得到當地可能的搖晃程度後，評估出土壤液化潛勢。土壤液化潛勢可分為低潛勢、中潛勢和高潛勢，如圖(三十二)所示，潛勢越高代表發生地震時該地越有機會發生土壤液化。在初步調查後，可利用工程方法，\n減少發生土壤液化的機會。\n圖(三十一)\n圖(三十二)",
+                "passing_rate": 0.74,
+                "discrimination_index": 0.55,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "所有小白菜皆不浸泡農藥"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "所有小白菜浸泡相同濃度的同一種農藥"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "小白菜分別浸泡相同濃度的不同種農藥"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "小白菜分別浸泡不同濃度的同一種農藥"
+                  }
+                ],
+                "correct_answer": "B"
+              }
+            ]
           },
           {
-            "type": "singleChoice",
-            "number": 46,
-            "description": "根據圖(三十)，假設原始的風速v1為10 m/s，通過發電機後，最後的風速v2為多少時，會接近最大的Cp值？\n(八)所示。\n表(八)\n           說明：對檢測用酵素的抑制率越高，代表小白菜的農藥殘留量越高。\n13",
-            "passing_rate": 0.46,
-            "discrimination_index": 0.41,
-            "choices": [
+            "type": "groupChoice",
+            "rich_content": [
               {
-                "answer": "A",
-                "description": "0"
+                "type": "text",
+                "content": "請閱讀下列敘述後，回答49～50題："
               },
               {
-                "answer": "B",
-                "description": "3.3 m/s"
+                "type": "border",
+                "content": "    土壤液化是地震時可能伴隨出現的災害，當建築物下方具有易發生液化的鬆散砂土層，且受到強烈的震動時，會使砂土層及層中的水重新排列，而讓上方的建築下陷或傾斜。圖(三十一)為某種分析土壤液化潛勢的方式，透過地層組成、地下水位高度的資料，加上模擬地震參數得到當地可能的搖晃程度後，評估出土壤液化潛勢。土壤液化潛勢可分為低潛勢、中潛勢和高潛勢，如圖(三十二)所示，潛勢越高代表發生地震時該地越有機會發生土壤液化。在初步調查後，可利用工程方法，減少發生土壤液化的機會。"
               },
               {
-                "answer": "C",
-                "description": "5.9 m/s"
-              },
-              {
-                "answer": "D",
-                "description": "10 m/s請閱讀下列敘述後，回答47～48題\n　　阿洋進行實驗，探討「不同的洗滌方法，對小白菜農藥殘留量的影響」，他以相同的方式種植一批小白菜且未噴灑農藥，採收小白菜後先做「前處理」，接著分成五組，分別經由甲～戊的洗滌方法後，再做檢測，結果如表"
+                "type": "image",
+                "content": "112_nature_49-50.png"
               }
             ],
-            "correct_answer": "B"
-          },
-          {
-            "type": "singleChoice",
-            "number": 47,
-            "description": "阿洋提出以下觀點：\n清水浸泡洗滌方法中，不用添加物比使用添加物的洗滌效果好清水直接沖洗比各種浸泡洗滌方法的效果好\n根據本文，關於阿洋的觀點，下列敘述何者合理？",
-            "passing_rate": 0.64,
-            "discrimination_index": 0.48,
-            "choices": [
+            "options": [
               {
-                "answer": "A",
-                "description": "比較乙、丙的結果，可知觀點不恰當"
+                "type": "singleChoice",
+                "number": 49,
+                "description": "根據本文，圖(三十一)中模擬地震參數所得到的結果，與下列何種資料所呈現的特性最直接相關？",
+                "passing_rate": 0.64,
+                "discrimination_index": 0.54,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "地震強度"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "地震規模"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "地震的位置"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "斷層的類型"
+                  }
+                ],
+                "correct_answer": "A"
               },
               {
-                "answer": "B",
-                "description": "比較乙、丁的結果，可知觀點不恰當"
-              },
-              {
-                "answer": "C",
-                "description": "比較甲、戊的結果，可知觀點不恰當"
-              },
-              {
-                "answer": "D",
-                "description": "比較乙、戊的結果，可知觀點不恰當"
+                "type": "singleChoice",
+                "number": 50,
+                "description": "根據本文，當模擬的地震參數固定時，可利用圖(三十二)來說明下列何者？",
+                "passing_rate": 0.75,
+                "discrimination_index": 0.49,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "當岩層越厚時，可能會有較高的土壤液化潛勢"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "當砂土層越厚時，可能會有較高的土壤液化潛勢"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "當地下水位越高時，可能會有較高的土壤液化潛勢"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "當地層組成以砂土為主時，可能會有較高的土壤液化潛勢"
+                  }
+                ],
+                "correct_answer": "C"
               }
-            ],
-            "correct_answer": "B"
-          },
-          {
-            "type": "singleChoice",
-            "number": 48,
-            "description": "根據本文，「前處理」最可能為下列何者？\n(三十一)為某種分析土壤液化潛勢的方式，透過地層組成、地下水位高度的資料，加上模擬地震參數得到當地可能的搖晃程度後，評估出土壤液化潛勢。土壤液化潛勢可分為低潛勢、中潛勢和高潛勢，如圖(三十二)所示，潛勢越高代表發生地震時該地越有機會發生土壤液化。在初步調查後，可利用工程方法，\n減少發生土壤液化的機會。\n圖(三十一)\n圖(三十二)",
-            "passing_rate": 0.74,
-            "discrimination_index": 0.55,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "所有小白菜皆不浸泡農藥"
-              },
-              {
-                "answer": "B",
-                "description": "所有小白菜浸泡相同濃度的同一種農藥"
-              },
-              {
-                "answer": "C",
-                "description": "小白菜分別浸泡相同濃度的不同種農藥"
-              },
-              {
-                "answer": "D",
-                "description": "小白菜分別浸泡不同濃度的同一種農藥請閱讀下列敘述後，回答49～50題\n　　土壤液化是地震時可能伴隨出現的災害，當建築物下方具有易發生液化的鬆散砂土層，且受到強烈的震動時，會使砂土層及層中的水重新排列，而讓上方的建築下陷或傾斜。圖"
-              }
-            ],
-            "correct_answer": "B"
-          },
-          {
-            "type": "singleChoice",
-            "number": 49,
-            "description": "根據本文，圖(三十一)中模擬地震參數所得到的結果，與下列何種資料所呈現的特性最直接相關？",
-            "passing_rate": 0.64,
-            "discrimination_index": 0.54,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "地震強度"
-              },
-              {
-                "answer": "B",
-                "description": "地震規模"
-              },
-              {
-                "answer": "C",
-                "description": "地震的位置"
-              },
-              {
-                "answer": "D",
-                "description": "斷層的類型"
-              }
-            ],
-            "correct_answer": "A"
-          },
-          {
-            "type": "singleChoice",
-            "number": 50,
-            "description": "根據本文，當模擬的地震參數固定時，可利用圖(三十二)來說明下列何者？",
-            "passing_rate": 0.75,
-            "discrimination_index": 0.49,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "當岩層越厚時，可能會有較高的土壤液化潛勢"
-              },
-              {
-                "answer": "B",
-                "description": "當砂土層越厚時，可能會有較高的土壤液化潛勢"
-              },
-              {
-                "answer": "C",
-                "description": "當地下水位越高時，可能會有較高的土壤液化潛勢"
-              },
-              {
-                "answer": "D",
-                "description": "當地層組成以砂土為主時，可能會有較高的土壤液化潛勢14"
-              }
-            ],
-            "correct_answer": "C"
+            ]
           }
         ]
       },
@@ -6116,7 +6309,7 @@
           {
             "type": "singleChoice",
             "number": 45,
-            "description": "上文提及「政治局勢發生變化」，造成「唐手」向外傳播，此一變化最可能是指下列何者？\n(起點)後，再進入步道挑戰登頂。\n小婷登山經驗豐富，表(九)是她整理的四條登山路線部分資訊，她這次計畫選擇其中平均坡度最陡的路線攀登以挑戰自我。\n表(九)\n          路線項目\n甲乙\n丙丁\n起點海拔高度(公尺)\n2,3051,970 \n1,440 \n2,380 \n終點海拔高度(公尺)\n3,7203,720 \n3,715 \n3,715 \n上山路線長度(公里)\n    7.5 \n    7.8 \n  11.0 \n    5.0 \n上山路線平均坡度(%)\n  18.9 \n  22.4 \n  20.7 \n  26.7 \n註：路線平均坡度(%)＝(終點高度– 起點高度)/路線長度100%",
+            "description": "上文提及「政治局勢發生變化」，造成「唐手」向外傳播，此一變化最可能是指下列何者？\n(起點)後，再進入步道挑戰登頂。\n小婷登山經驗豐富，表(九)是她整理的四條登山路線部分資訊，她這次計畫選擇其中平均坡度最陡的路線攀登以挑戰自我。\n表(九)\n          路線項目\n甲乙\n丙丁\n起點海拔高度(公尺)\n2,3051,970 \n1,440 \n2,380 \n終點海拔高度(公尺)\n3,7203,720 \n3,715 \n3,715 \n上山路線長度(公里)\n    7.5 \n    7.8 \n  11.0 \n    5.0 \n上山路線平均坡度(%)\n  18.9 \n  22.4 \n  20.7 \n  26.7 \n註：路線平均坡度(%)=(終點高度– 起點高度)/路線長度100%",
             "passing_rate": 0.49,
             "discrimination_index": 0.51,
             "choices": [
@@ -7534,19 +7727,19 @@
                 "choices": [
                   {
                     "answer": "A",
-                    "description": "四銖錢 ＞ 吳錢 ＞ 鄧通錢"
+                    "description": "四銖錢 > 吳錢 > 鄧通錢"
                   },
                   {
                     "answer": "B",
-                    "description": "四銖錢 ＝ 鄧通錢 ＞ 吳錢"
+                    "description": "四銖錢 = 鄧通錢 > 吳錢"
                   },
                   {
                     "answer": "C",
-                    "description": "吳錢 ＞ 四銖錢 ＞ 鄧通錢"
+                    "description": "吳錢 > 四銖錢 > 鄧通錢"
                   },
                   {
                     "answer": "D",
-                    "description": "吳錢 ＞ 鄧通錢 ＝ 四銖錢"
+                    "description": "吳錢 > 鄧通錢 = 四銖錢"
                   }
                 ],
                 "correct_answer": "D",
@@ -12516,7 +12709,7 @@
           {
             "number": 28,
             "type": "singleChoice",
-            "description": "小禮將一杯 20 ℃的純水分為甲、乙兩杯，甲、乙兩杯純水的質量分別為 $M_甲$ 、 $M_乙$ ，他將兩杯水分別以相同的熱源加熱，並記錄其加熱時間與上升溫度。已知 $M_甲:M_乙＝3:2$ ，若熱源發出的熱量完全被水吸收，且水的蒸發忽略不計，則水的上升溫度與加熱時間之關係圖最接近下列何者？",
+            "description": "小禮將一杯 20 ℃的純水分為甲、乙兩杯，甲、乙兩杯純水的質量分別為 $M_甲$ 、 $M_乙$ ，他將兩杯水分別以相同的熱源加熱，並記錄其加熱時間與上升溫度。已知 $M_甲:M_乙=3:2$ ，若熱源發出的熱量完全被水吸收，且水的蒸發忽略不計，則水的上升溫度與加熱時間之關係圖最接近下列何者？",
             "passing_rate": 0.55,
             "discrimination_index": 0.61,
             "choices": [
@@ -12737,7 +12930,7 @@
           {
             "number": 36,
             "type": "singleChoice",
-            "description": "阿忠與小志想要移動地上的書櫃，發現書櫃裝滿書時，他們無法推動書櫃，因此將裡面的書先拿下，之後就可以輕鬆推動書櫃。兩人對此現象的解釋如下：\n阿忠：由牛頓第二運動定律 F＝ma 可知，書櫃裝滿書時，質量 m 較大，因此推動書櫃所需的力 F 也較大，而造成我們推不動書櫃。\n小志：書櫃裝滿書時，書櫃垂直作用於地面的力較大，因此書櫃與地面間的最大靜摩擦力較大，而造成我們推不動書櫃。\n關於兩人的解釋是否合理？",
+            "description": "阿忠與小志想要移動地上的書櫃，發現書櫃裝滿書時，他們無法推動書櫃，因此將裡面的書先拿下，之後就可以輕鬆推動書櫃。兩人對此現象的解釋如下：\n阿忠：由牛頓第二運動定律 F=ma 可知，書櫃裝滿書時，質量 m 較大，因此推動書櫃所需的力 F 也較大，而造成我們推不動書櫃。\n小志：書櫃裝滿書時，書櫃垂直作用於地面的力較大，因此書櫃與地面間的最大靜摩擦力較大，而造成我們推不動書櫃。\n關於兩人的解釋是否合理？",
             "passing_rate": 0.23,
             "discrimination_index": 0.18,
             "choices": [
@@ -12791,7 +12984,7 @@
           {
             "number": 38,
             "type": "singleChoice",
-            "description": "附圖為一個內部為真空的密閉空心金屬球，其金屬成分為純銅。小詩將此金屬球放入水裡，球會完全沒入水中，測得排開水的體積為 V，再用天平量測其質量為 M，她發現利用密度 D＝M/V 計算出的 D 值與課本上記載的純銅密度 8.96 g/{cm^3} 明顯不同。若小詩的測量與計算過程皆無錯誤，則下列何者最合理？",
+            "description": "附圖為一個內部為真空的密閉空心金屬球，其金屬成分為純銅。小詩將此金屬球放入水裡，球會完全沒入水中，測得排開水的體積為 V，再用天平量測其質量為 M，她發現利用密度 D=M/V 計算出的 D 值與課本上記載的純銅密度 8.96 g/{cm^3} 明顯不同。若小詩的測量與計算過程皆無錯誤，則下列何者最合理？",
             "passing_rate": 0.31,
             "discrimination_index": 0.34,
             "choices": [
@@ -13296,7 +13489,7 @@
               }
             ],
             "correct_answer": "D",
-            "explanation": "可硏判肌肉顫抖現象為遭遇寒冷天氣，愈使肌肉產生熱量而形成之反應；而血管擴張則為一散熱反應，故依題意判斷溫度：乙＞體溫＞甲"
+            "explanation": "可硏判肌肉顫抖現象為遭遇寒冷天氣，愈使肌肉產生熱量而形成之反應；而血管擴張則為一散熱反應，故依題意判斷溫度：乙>體溫>甲"
           },
           {
             "number": 5,
@@ -13597,7 +13790,7 @@
               }
             ],
             "correct_answer": "A",
-            "explanation": "酸的PH值為＜7,故刪掉(B)、（D)，經中和後PH值應略等於中性，即PH蕊7"
+            "explanation": "酸的PH值為<7,故刪掉(B)、（D)，經中和後PH值應略等於中性，即PH蕊7"
           },
           {
             "number": 16,
@@ -13792,7 +13985,7 @@
             ],
             "correct_answer": "A",
             "image": "110_nature_22.png",
-            "explanation": "泥狀、丁狀、片狀、絲狀等狀態之表面積大小依序為；泥狀＞丁狀＞片狀＞絲狀(B)因胡羅蔔量為實驗控制變因，固量不變，濃度也不應有差(C)改變水量會影響雙氧水濃度，進而影響實驗測量數據(D)氧氣最終產量和反應物總量相關，表面積僅影響反應速率"
+            "explanation": "泥狀、丁狀、片狀、絲狀等狀態之表面積大小依序為；泥狀>丁狀>片狀>絲狀(B)因胡羅蔔量為實驗控制變因，固量不變，濃度也不應有差(C)改變水量會影響雙氧水濃度，進而影響實驗測量數據(D)氧氣最終產量和反應物總量相關，表面積僅影響反應速率"
           },
           {
             "number": 23,
@@ -14487,7 +14680,7 @@
                   }
                 ],
                 "correct_answer": "A",
-                "explanation": "聚合物結構＞分子結構＞原子結構"
+                "explanation": "聚合物結構>分子結構>原子結構"
               }
             ]
           },
