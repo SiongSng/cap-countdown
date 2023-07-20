@@ -3652,7 +3652,15 @@
       {
         "name": "自然科",
         "duration": 70,
-        "grade_markings": {},
+        "grade_markings": {
+          "A++": 48,
+          "A+": 47,
+          "A": 44,
+          "B++": 37,
+          "B+": 30,
+          "B": 19,
+          "C": 0
+        },
         "subject_id": "Nature",
         "questions": [
           {
@@ -3980,7 +3988,8 @@
                 "description": "步驟四的目的是為了分離不同的生成物"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "(A)乙醇並不直接參與反應，因此不被算為反應物。\n(B)為了讓反應速率加快。\n(C)水並不是催化劑，其在反應過程中與脂肪酸和鹼進行水解反應，形成肥皂分子和甘油分子。故選(D)"
           },
           {
             "type": "singleChoice",
@@ -4006,7 +4015,8 @@
                 "description": "化學反應是原子的重新排列組合，形成新的物質"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "電子的發現顯示了原子是由更小的粒子組成，因此原子是可再分割的，而非不可再分割。故選(A)"
           },
           {
             "type": "singleChoice",
@@ -4037,7 +4047,8 @@
                 "answer": "D"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "人類可聽見的聲波頻率介於20赫茲-20000赫茲，而其分貝數也不能太大，會影響入眠。\n故選(A)"
           },
           {
             "type": "singleChoice",
@@ -4063,7 +4074,8 @@
                 "description": "甲生物最可能為此食物鏈中的三級消費者"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "根據表(二)中甲、乙、丙、丁四種生物體內含有的 DDT 濃度，我們可以推測食性關係可能為丁→乙→甲→丙。故選(B)\n(C)丁最可能為此食物鏈中的生產者。\n(D)甲生物可能為此食物鏈中的二級消費者。"
           },
           {
             "type": "singleChoice",
@@ -4090,7 +4102,8 @@
                 "description": "西南季風與$\\underline{中國}$沿岸流"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "夏天為西南季風，並依圖中潮流位置為太平洋應為黑潮。故選(B)"
           },
           {
             "type": "singleChoice",
@@ -4116,7 +4129,8 @@
                 "description": "葡萄糖，由韌皮部運送表"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "根據反應式判斷甲應該為水，而水主要由植物體的木質部進行運送。故選(A)"
           },
           {
             "type": "singleChoice",
@@ -4143,7 +4157,8 @@
                 "description": "$\\underline{阿德}$"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "有機化合物是由碳元素及其他元素組成，而無機化合物則可以包含各種元素。故選(B)"
           },
           {
             "type": "singleChoice",
@@ -4170,7 +4185,8 @@
                 "description": "過程中速度的最大值"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "平均速率是整個比賽期間所跑的總距離除以總時間，而平均速度則是整個比賽期間的位移除以總時間，因此要最先跑完其平均速率必高於其他選手。故選(A)"
           },
           {
             "type": "singleChoice",
@@ -4197,7 +4213,8 @@
                 "description": "1.5 m"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "根據能量守恆定律，在不受外力影響的情況下，動能+位能保持恆定。故選(C)"
           },
           {
             "type": "singleChoice",
@@ -4224,7 +4241,8 @@
                 "description": "Lil-2和Myr-6為不同屬的植物"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "根據二名法命名規則為屬名+種小名，因此Lil-2與Myr-6為不同目的植物。故選(B)"
           },
           {
             "type": "singleChoice",
@@ -4251,7 +4269,8 @@
                 "description": "密度($g/cm^3$)、與太陽的平均距離(AU)"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "體積最大為木星因此排除，接下來依照離太陽的平均距離與密度，距離為土星最遠，密度為地球最大。故選(D)"
           },
           {
             "type": "singleChoice",
@@ -4278,7 +4297,8 @@
                 "description": "第8天"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "依照圖中體溫所示，發病時間應為第六天，潛伏期為1~3天。故選(B)"
           },
           {
             "type": "singleChoice",
@@ -4305,7 +4325,8 @@
                 "description": "F乙施力時間較長，且外力大小$F_甲<F_乙$"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "依圖十二關係圖所示，可看出乙受力時間為30秒、甲為20秒，而最終甲速度高於乙，因此外力大小為甲較高。故選(C)"
           },
           {
             "type": "singleChoice",
@@ -4332,7 +4353,8 @@
                 "description": "以本氏液檢測，試管和燒杯中的溶液皆變色"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "僅葡萄糖液可通過葡萄糖膜，本氏液用於檢測醣類的存在，碘液則用於檢測澱粉的存在，因此以本氏液檢測其試管及燒杯皆會變色。故選(D)"
           },
           {
             "type": "singleChoice",
@@ -4363,7 +4385,8 @@
                 "answer": "D"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "熟化過程會耗氧並產生二氧化碳。故選(D)"
           },
           {
             "type": "singleChoice",
@@ -4389,7 +4412,8 @@
                 "description": "將銀針改成活性較小的金屬如黃金，也會反應產生硫化物"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "由於砒霜中含有少量的硫或硫化物，當這些硫化物接觸到銀時，會進行還原反應，產生黑色的硫化銀。故選(A)"
           },
           {
             "type": "singleChoice",
@@ -4415,7 +4439,8 @@
                 "description": "乙的分子量大於甲，且乙可能為烴類"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "依照反應式可推斷出，甲為 $C_2H_6O$，乙為 $C_2H_4$。故選(A)"
           },
           {
             "type": "singleChoice",
@@ -4442,7 +4467,8 @@
                 "description": "中心近地面氣壓比附近外圍高，水氣含量較高"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "當天氣系統為高氣壓時，中心近地面的氣流通常呈現下沉的情況。下沉的氣流使得空氣下降，壓縮並加熱，進而降低了水氣的相對濕度，使得水氣不易凝結成雲或降水。\n故選(A)"
           },
           {
             "type": "singleChoice",
@@ -4477,7 +4503,8 @@
                 "answer": "D"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "依照海拔高度可依序列列出其溫度及氣壓排序，溫度及氣壓由低到高為17:00→13:00→10:00=21:00。故選(B)"
           },
           {
             "type": "singleChoice",
@@ -4517,7 +4544,8 @@
                 "description": "乙牌有誤：黑麻油會浮於水面，所以g前面的數值應大於mL前面的數值"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "由於黑麻油的密度較小，所以相同質量下的體積應該較小，即「mL」數值應該大於「g」的數值。故選(C)"
           },
           {
             "type": "singleChoice",
@@ -4544,7 +4572,8 @@
                 "description": "小靜脈、小動脈、微血管"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "在複式顯微鏡成像與實物上下顛倒、左右相反，因此依序消失的血管為小靜脈→微血管→小動脈。故選(C)"
           },
           {
             "type": "singleChoice",
@@ -4579,7 +4608,8 @@
                 "answer": "D"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "依題目所述，用餐後口腔內環境會呈現酸性pH值較低，在嚼食口香糖後能刺激唾液分泌恢復至中性環境(pH值大約等於7)。故選(C)"
           },
           {
             "type": "singleChoice",
@@ -4606,7 +4636,8 @@
                 "description": "$f_s>300 gw$"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "最大靜摩擦力為物體接受力作用後，恰巧由靜止狀態開始運動時的靜摩擦力，其值略大於滑動摩擦力，從表中可判斷出開始運動時滑動摩擦力為250(gw)。故選(C)"
           },
           {
             "type": "singleChoice",
@@ -4633,7 +4664,8 @@
                 "description": "72000 J"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "1W等於每秒1J，因此$1200\\times60$$=72000$。故選(D)"
           },
           {
             "type": "singleChoice",
@@ -4660,7 +4692,8 @@
                 "description": "花粉"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "由草莓子房發育而成，則該構造應該被稱為果實。故選(C)"
           },
           {
             "type": "singleChoice",
@@ -4687,7 +4720,8 @@
                 "description": "丁"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "立竿無影是太陽直射南北回歸線的那天就是夏至，一月跟十一月的夏至是南半球所以只剩甲丁，然後他有兩天但北回歸線上只會有一天，因此是甲。故選(A)"
           },
           {
             "type": "singleChoice",
@@ -4714,7 +4748,8 @@
                 "description": "甲向西，乙向東"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "根據右手定則，考慮甲段導線，當電流從南向北流經導線時，磁場由上往下，導線會受到指向西方的磁力；考慮乙段導線，當電流從北向南流經導線時，磁場由下往上，導線會受到指向西方的磁力。故選(B)"
           },
           {
             "type": "singleChoice",
@@ -4740,7 +4775,8 @@
                 "description": "父：ff、母：ff"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "依題目所述，親帶只有其中一方為患者，子代就有50%以上的罹病率，代表此疾病是顯性，因此阿佑其父母皆未患病，故其基因皆為正常的FGFR3遺傳因子。故選(D)"
           },
           {
             "type": "singleChoice",
@@ -4767,7 +4803,8 @@
                 "description": "30日應為上弦月"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "日食為農曆初一，月食為農曆十五。故選(D)"
           },
           {
             "type": "singleChoice",
@@ -4806,7 +4843,8 @@
                 "description": "液態氮汽化後所產生的氣體會溶於池水中，與池水中的氯接觸機會增加"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "(A) 選項指出空氣中有大量氮氣，池水也會接觸氮氣，但一般泳池並沒有類似的意外情況，因此小莫可能認為其他因素而非三氯化氮導致了此次意外。故選(A)"
           },
           {
             "type": "singleChoice",
@@ -4845,7 +4883,8 @@
                 "description": "○可能是丙，步驟二需加熱至1500℃，才可使甲、乙分離"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "由於步驟1可從甲乙丙中分離出兩邊，因此步驟1為加水過濾，而將甲乙分離出後，步驟二只需加熱至超過340度即可。故選(A)"
           },
           {
             "type": "singleChoice",
@@ -4872,7 +4911,8 @@
                 "description": "只有$\\underline{阿華}$合理"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "小明的說法，燈泡甲皆不會發亮。故選(D)"
           },
           {
             "type": "groupChoice",
@@ -4915,7 +4955,8 @@
                     "description": "$\\underline{壯壯}$選擇燕麥奶，$\\underline{安安}$選擇牛奶"
                   }
                 ],
-                "correct_answer": "A"
+                "correct_answer": "A",
+                "explanation": "胺基酸組成蛋白質因此比較兩者，牛奶相對有較高的胺基酸及較低的糖，因此兩人都應選擇牛奶。故選(A)"
               },
               {
                 "type": "singleChoice",
@@ -4941,7 +4982,8 @@
                     "description": "杏仁奶"
                   }
                 ],
-                "correct_answer": "D"
+                "correct_answer": "D",
+                "explanation": "參考表七，製作時碳排放量最低的飲品，在相同碳排放的情況下，製作量最高，因此為杏仁奶。故選(D)"
               }
             ]
           },
@@ -4991,7 +5033,8 @@
                     "description": "風力發電機葉片由風力獲得能量的比例愈高，$C_p$ 值會愈小"
                   }
                 ],
-                "correct_answer": "C"
+                "correct_answer": "C",
+                "explanation": "從 $C_p$ 的計算公式可發現，$C_p$ 值與發電機葉片於風力獲取的功率呈正相關。故選(C)"
               },
               {
                 "type": "singleChoice",
@@ -5017,7 +5060,8 @@
                     "description": "$10 m/s$"
                   }
                 ],
-                "correct_answer": "B"
+                "correct_answer": "B",
+                "explanation": "圖30可見，$C_p$ 值於 $\\frac{v_2}{v_1}$ 接近 0.3-0.4 間時達最大值，若 $v_1$ 為10，則 $v_2$ 介於3-4間時為最大值。故選(B)"
               }
             ]
           },
@@ -5062,7 +5106,8 @@
                     "description": "比較乙、戊的結果，可知觀點②不恰當"
                   }
                 ],
-                "correct_answer": "B"
+                "correct_answer": "B",
+                "explanation": "依照觀點1的敘述，找出以清水浸泡洗滌為基礎的的乙丙丁做比較，當比較乙跟丁時，可發現加蔬果洗滌劑的效果較沒有添加物的好，因此觀點1並不符合事實。故選(B)"
               },
               {
                 "type": "singleChoice",
@@ -5088,7 +5133,8 @@
                     "description": "小白菜分別浸泡不同濃度的同一種農藥"
                   }
                 ],
-                "correct_answer": "B"
+                "correct_answer": "B",
+                "explanation": "文中一開始提及種植時不添加農藥，因此若要比較不同洗滌方法對農藥殘留度的影響，則需先建立有農藥的前提,並且要是相同藥劑才能減少比較的變異數。故選(B)"
               }
             ]
           },
@@ -5133,7 +5179,8 @@
                     "description": "斷層的類型"
                   }
                 ],
-                "correct_answer": "A"
+                "correct_answer": "A",
+                "explanation": "如文中第四句所述，模擬地震參數是評估地震搖晃程度，即地震強度，而文中並無提及地震的規模、位置跟類型。故選(A)"
               },
               {
                 "type": "singleChoice",
@@ -5159,7 +5206,8 @@
                     "description": "當地層組成以砂土為主時，可能會有較高的土壤液化潛勢"
                   }
                 ],
-                "correct_answer": "C"
+                "correct_answer": "C",
+                "explanation": "圖32可見的地下水位與潛勢有正相關\n(A)三張圖的岩層高度相同沒有比較性\n(B)(D) 如圖，潛勢與砂層厚度呈逆相關。故選(C)"
               }
             ]
           }
