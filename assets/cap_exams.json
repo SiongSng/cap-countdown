@@ -1855,7 +1855,7 @@
                   },
                   {
                     "type": "border",
-                    "content": "\uD83D\uDCD6 calendar 月曆",
+                    "content": "📖 calendar 月曆",
                     "alignment": "centerRight"
                   },
                   {
@@ -1897,7 +1897,7 @@
               },
               {
                 "type": "border",
-                "content": "\uD83D\uDCD6 nest 鳥巢　feather 羽毛",
+                "content": "📖 nest 鳥巢　feather 羽毛",
                 "alignment": "centerRight"
               }
             ],
@@ -1966,7 +1966,7 @@
               },
               {
                 "type": "border",
-                "content": "\uD83D\uDCD6 stage 階段　waste 浪費　percentage 百分比",
+                "content": "📖 stage 階段　waste 浪費　percentage 百分比",
                 "alignment": "centerRight"
               }
             ],
@@ -2013,11 +2013,11 @@
                   },
                   {
                     "answer": "C",
-                    "description": "North America & Oceania has a higher percentage of food waste at Stage 1 than \n      Europe."
+                    "description": "North America & Oceania has a higher percentage of food waste at Stage 1 than Europe."
                   },
                   {
                     "answer": "D",
-                    "description": "South & Southeast Asia has a higher percentage of food waste at Stage 4 than the  \n      other two areas."
+                    "description": "South & Southeast Asia has a higher percentage of food waste at Stage 4 than the other two areas."
                   }
                 ],
                 "correct_answer": "D",
@@ -2038,7 +2038,7 @@
               },
               {
                 "type": "border",
-                "content": "\uD83D\uDCD6 force 力量",
+                "content": "📖 force 力量",
                 "alignment": "centerRight"
               }
             ],
@@ -2125,10 +2125,25 @@
           },
           {
             "type": "groupChoice",
+            "rich_content": [
+              {
+                "type": "image",
+                "content": "112_english_33-35.png"
+              },
+              {
+                "type": "text",
+                "content": "You probably have heard Beethoven’s famous piano piece “For Elise,” but do you know who “Elise” was?\n\nOne story is that Elise was Elisabeth Röckel.  She once sang in Beethoven’s opera $\\mathit{Fidelio}$, and the two became very good friends. Beethoven called her “Elise.”  When Röckel was leaving the city of Vienna, Beethoven wrote “For Elise” to say goodbye to her.  Another story is that Elise was Therese Malfatti.  Beethoven was in love with her.  He wrote a piece for her and put “For Therese” on the manuscript.  Malfatti kept the manuscript and left it to her family when she died.  Later, a man copied the manuscript and wrote “For Elise” by mistake.  There is another possible Elise: Elise Barensfeld.  She learned the piano from Malfatti, the same Malfatti in the second story.  To help Malfatti, Beethoven wrote the piece for her to use to teach Barensfeld.  \n\nThese are just some guesses about who Elise was.  We may never know the right answer. \nNo one knew about the piece until 1867, when the manuscript was found.  This was 40 years \nafter Beethoven’s death, so he wasn’t around to tell us who Elise was.  Only one thing is for \nsure: “For Elise” will always be enjoyed.\nWhat do the three stories in the reading all talk about?"
+              },
+              {
+                "type": "border",
+                "content": "📖 opera 歌劇　manuscript 手稿",
+                "alignment": "centerRight"
+              }
+            ],
             "options": [
               {
                 "number": 33,
-                "description": "\n(33-35)\nYou probably have heard Beethoven’s famous piano piece “For Elise,” \nbut do you know who “Elise” was?\nOne story is that Elise was Elisabeth Röckel.  She once sang in \nBeethoven’s opera Fidelio, and the two became very good friends. \nBeethoven called her “Elise.”  When Röckel was leaving the city of \nVienna, Beethoven wrote “For Elise” to say goodbye to her.  Another \nstory is that Elise was Therese Malfatti.  Beethoven was in love with \nher.  He wrote a piece for her and put “For Therese” on the manuscript.  Malfatti kept the \nmanuscript and left it to her family when she died.  Later, a man copied the manuscript \nand wrote “For Elise” by mistake.  There is another possible Elise: Elise Barensfeld.  She \nlearned the piano from Malfatti, the same Malfatti in the second story.  To help Malfatti, \nBeethoven wrote the piece for her to use to teach Barensfeld.  \nThese are just some guesses about who Elise was.  We may never know the right answer. \nNo one knew about the piece until 1867, when the manuscript was found.  This was 40 years \nafter Beethoven’s death, so he wasn’t around to tell us who Elise was.  Only one thing is for \nsure: “For Elise” will always be enjoyed.\n opera 歌劇　manuscript 手稿\nWhat do the three stories in the reading all talk about?",
+                "description": "What do the three stories in the reading all talk about?",
                 "passing_rate": 0.66,
                 "discrimination_index": 0.64,
                 "choices": [
@@ -2138,15 +2153,15 @@
                   },
                   {
                     "answer": "B",
-                    "description": " Who played “For Elise” the best."
+                    "description": "Who played “For Elise” the best."
                   },
                   {
                     "answer": "C",
-                    "description": " How “For Elise” became popular. "
+                    "description": "How “For Elise” became popular. "
                   },
                   {
                     "answer": "D",
-                    "description": " Why Beethoven wrote “For Elise.”"
+                    "description": "Why Beethoven wrote “For Elise.”"
                   }
                 ],
                 "correct_answer": "D",
@@ -2160,7 +2175,7 @@
                 "choices": [
                   {
                     "answer": "A",
-                    "description": " It first appeared in the opera Fidelio."
+                    "description": " It first appeared in the opera $\\mathit{Fidelio}$."
                   },
                   {
                     "answer": "B",
@@ -2180,13 +2195,13 @@
               },
               {
                 "number": 35,
-                "description": "What can we learn about the three women from the stories?\n(36-38)\nWhich would you give a boy for his birthday, a toy truck or a doll?  If you choose the \ntruck, well, you’re not alone.  Most people think that some toys are for boys and some \nare for girls.  We might pick building toys for boys and kitchen toys for girls.  But why \ndo we do this?  Are boys and girls really born with different interests in toys?\nNo, they are not.  Children start to show different interests in toys at age three, but \nonly because at this time, they begin to learn about gender and to follow what others \nof their gender do.  If you give a girl kitchen toys, she will think they are girls’ toys \nbecause she sees other girls playing with them.  But if you give a girl a toy car and \nshow her a group of girls who are playing with cars, she’ll play with the toy car and \nthink it is a girls’ toy.  This “watch and follow” habit often becomes a rule for both \nboys and girls in choosing the “right” toys.\nHowever, this rule can be bad for children.  Different toys teach children different \nthings.  Dolls help with their early language use, and building toys are good for \nlearning math and science.  By playing with different toys, children can find out what \nthey are interested in or what they are good at.  If they only play one kind of toy, they \nmay lose this important chance.  They may also get a wrong idea about what boys \nor girls are able to do.  Some doctors worry that children may use the same kind of \nthinking when they look for jobs in the future.  If they do, they may miss something \nmore important than just getting a chance to play with different toys.  They may miss \nmany, perhaps better, chances in life. \n gender 性別",
+                "description": "What can we learn about the three women from the stories?",
                 "passing_rate": 0.56,
                 "discrimination_index": 0.59,
                 "choices": [
                   {
                     "answer": "A",
-                    "description": " They were called “Elise” by their friends. "
+                    "description": "They were called “Elise” by their friends. "
                   },
                   {
                     "answer": "B",
@@ -2194,7 +2209,7 @@
                   },
                   {
                     "answer": "C",
-                    "description": " Therese Malfatti changed “For Elise” to “For Therese.”"
+                    "description": "Therese Malfatti changed “For Elise” to “For Therese.”"
                   },
                   {
                     "answer": "D",
@@ -2207,212 +2222,278 @@
             ]
           },
           {
-            "type": "singleChoice",
-            "number": 36,
-            "description": "What idea does Jesse Cohen talk about in the reading?",
-            "passing_rate": 0.67,
-            "discrimination_index": 0.69,
-            "choices": [
+            "type": "groupChoice",
+            "rich_content": [
               {
-                "answer": "A",
-                "description": "Not all kinds of toys are helpful for children’s learning."
+                "type": "image",
+                "content": "112_english_36-38.png"
               },
               {
-                "answer": "B",
-                "description": "Parents should give their children the right toys for their age."
+                "type": "text",
+                "content": "Which would you give a boy for his birthday, a toy truck or a doll?  If you choose the truck, well, you’re not alone.  Most people think that some toys are for boys and some are for girls.  We might pick building toys for boys and kitchen toys for girls.  But why do we do this?  Are boys and girls really born with different interests in toys?\n\nNo, they are not.  Children start to show different interests in toys at age three, but only because at this time, they begin to learn about gender and to follow what others of their gender do.  If you give a girl kitchen toys, she will think they are girls’ toys because she sees other girls playing with them.  But if you give a girl a toy car and show her a group of girls who are playing with cars, she’ll play with the toy car and think it is a girls’ toy.  This “watch and follow” habit often becomes a rule for both boys and girls in choosing the “right” toys.\n\nHowever, this rule can be bad for children.  Different toys teach children different things.  Dolls help with their early language use, and building toys are good for learning math and science.  By playing with different toys, children can find out what they are interested in or what they are good at.  If they only play one kind of toy, they may lose this important chance.  They may also get a wrong idea about what boys or girls are able to do.  Some doctors worry that children may use the same kind of thinking when they look for jobs in the future.  If they do, they may miss something more important than just getting a chance to play with different toys.  They may miss many, perhaps better, chances in life."
               },
               {
-                "answer": "C",
-                "description": "Children should learn about their gender from playing with toys."
-              },
-              {
-                "answer": "D",
-                "description": "We should not let gender decide which toys children can play with.\n9"
+                "type": "border",
+                "content": "📖 gender 性別",
+                "alignment": "centerRight"
               }
             ],
-            "correct_answer": "D"
+            "options": [
+              {
+                "number": 36,
+                "description": "What idea does Jesse Cohen talk about in the reading?",
+                "passing_rate": 0.67,
+                "discrimination_index": 0.69,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "Not all kinds of toys are helpful for children’s learning."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "Parents should give their children the right toys for their age."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "Children should learn about their gender from playing with toys."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "We should not let gender decide which toys children can play with."
+                  }
+                ],
+                "correct_answer": "D",
+                "explanation": "Jesse Cohen 在文中的主旨是\n(A)不是所有種類的玩具都對孩童學習有幫助\n(B) 父母應該根據孩童的年齡給對應的玩具\n(C) 孩童應該從玩玩具中理解到自己的性別\n(D)我們不該讓性別決定孩童能玩哪些玩具"
+              },
+              {
+                "number": 37,
+                "rich_content": [
+                  {
+                    "type": "text",
+                    "content": "In the third paragraph, why does Jesse Cohen think “this rule can be bad for children”?"
+                  },
+                  {
+                    "type": "border",
+                    "content": "📖 paragraph 段落"
+                  }
+                ],
+                "passing_rate": 0.59,
+                "discrimination_index": 0.62,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "Children may not want to share their toys with others."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "Children may have the wrong idea about following rules."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "Children may not be able to learn from playing with toys."
+                  },
+                  {
+                    "answer": "D",
+                    "description": " Children may miss the chance to find out what they really like."
+                  }
+                ],
+                "correct_answer": "D",
+                "explanation": "第三段，為什麼 Jesse Cohen 認為”這個規則對孩童不好”?\n(A)孩童可能不想分享玩具\n(B)孩童可能誤會這個規則\n(C)孩童可能無法從玩玩具中學習\n(D)孩童可能錯失發現自己真正喜歡的事物的機會"
+              },
+              {
+                "number": 38,
+                "description": "In the reading, after Jesse Cohen talks about an idea, he often gives an example to make it clear.  \nBelow are four of the sentences in the third paragraph.  Which is used as an example?",
+                "passing_rate": 0.44,
+                "discrimination_index": 0.43,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "“However, this rule can be bad for children.”"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "“Dolls help with their early language use, and building toys are good for learning math and science.”"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "“Some doctors worry that children may use the same kind of thinking when they look for jobs in the future.”"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "“If they do, they may miss something more important than just getting a chance to play with different toys.”"
+                  }
+                ],
+                "correct_answer": "B",
+                "explanation": "文中 Jesse Cohen 喜歡用舉例來更清楚的闡釋自己的想法。下方四個在段落 3 的句子，哪一個是被用來當作舉例的？\n(A)不是例子，(C)是陳述醫生的話，(D)是作者個人意見"
+              }
+            ]
           },
           {
-            "type": "singleChoice",
-            "number": 37,
-            "description": "  In the third paragraph, why does Jesse Cohen think “this rule can be bad for children”?\n  paragraph 段落",
-            "passing_rate": 0.59,
-            "discrimination_index": 0.62,
-            "choices": [
+            "type": "groupChoice",
+            "rich_content": [
               {
-                "answer": "A",
-                "description": "Children may not want to share their toys with others."
+                "type": "text",
+                "content": "Marie Colvin was a world-famous war reporter.  She was born in New York, USA, in 1956 and died in Homs, Syria, in 2012.\n　　When she was a student at Yale University, Colvin decided that she wanted to be a reporter in the future.  She joined the Sunday Times, a UK newspaper, in 1985 and soon became its Middle East reporter.  Besides the Middle East, she also reported from other parts of the world: Chechnya, Kosovo and Sri Lanka, for example.  When she was reporting on the war in Sri Lanka, she lost her left eye.  But that never stopped her.  She still went to dangerous places that few reporters wanted to visit and stayed when others left.\n　　Colvin showed great $\\underline{\\underline{empathy}}$ in her stories.  For her, war reporting was not just some quick interviews and a few photos.  She wrote about real people and their real lives.  Her writing made you feel so strongly about these people’s stories, just like they were your own.  \nShe hoped that through her work the world would understand what really happened in war, and would take action to stop the fighting.\n　　On February 22, 2012, the day after she gave her report on the war in Homs, Colvin was killed when the house she was staying in was attacked.  She always knew what price a war reporter might have to pay.  She already lost an eye before.  This time, she gave her life to the work she could not give up — telling the true stories to the world."
               },
               {
-                "answer": "B",
-                "description": "Children may have the wrong idea about following rules."
-              },
-              {
-                "answer": "C",
-                "description": "Children may not be able to learn from playing with toys."
-              },
-              {
-                "answer": "D",
-                "description": " Children may miss the chance to find out what they really like."
+                "type": "border",
+                "content": "📖 war 戰爭",
+                "aligment": "centerRight"
               }
             ],
-            "correct_answer": "D"
+            "options": [
+              {
+                "number": 39,
+                "description": "What is the reading mostly about?",
+                "passing_rate": 0.54,
+                "discrimination_index": 0.56,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "Marie Colvin’s war reports."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "Marie Colvin’s working life."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "Marie Colvin’s schooldays at Yale."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "Marie Colvin’s experiences in Homs."
+                  }
+                ],
+                "correct_answer": "B",
+                "explanation": "閱讀在說什麼?\n(A) Marie Colvin 的戰爭報告\n(B) Marie Colvin 的工作生活\n(C) Marie Colvin 在耶魯的學生時代\n(D) Marie Colvin 在 Homs 的經歷"
+              },
+              {
+                "type": "singleChoice",
+                "number": 40,
+                "description": "What does it mean when someone has $\\underline{\\underline{empathy}}$?",
+                "passing_rate": 0.52,
+                "discrimination_index": 0.54,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "They are good at taking war photos."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "They like to read other people’s life stories."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "They are able to understand how other people feel."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "They are good at helping people change their own lives."
+                  }
+                ],
+                "correct_answer": "C",
+                "explanation": "某人有 empathy 的意思是\n(A)他們擅長拍攝戰爭照片\n(B)他們喜歡閱讀別人的人生故事\n(C)他們能理解別人的感受\n(D)他們擅長幫助別人改變他們的人生\n選 C，empathy 是同理心的意思"
+              },
+              {
+                "type": "singleChoice",
+                "number": 41,
+                "description": "Which is true about Marie Colvin?",
+                "passing_rate": 0.6,
+                "discrimination_index": 0.66,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "The chance to study at Yale made her leave her job in the Middle East."
+                  },
+                  {
+                    "answer": "B",
+                    "description": "The experience in Sri Lanka did not change her way of reporting news."
+                  },
+                  {
+                    "answer": "C",
+                    "description": "She was killed in Homs when she was interviewing soldiers there for her report."
+                  },
+                  {
+                    "answer": "D",
+                    "description": "She was not sure what to do in the future until she worked for the Sunday Times."
+                  }
+                ],
+                "correct_answer": "B",
+                "explanation": "下列關於 Marie Colvin 何者為真\n(A)在耶魯唸書的機會是讓他放棄在中東的工作的原因\n(B)在斯里蘭卡的經驗沒有改變他報導的風格\n(C)他在採訪士兵時，在 Homs 被殺害\n(D)他一直不確定未來的志向直到在 Sunday Times 工作\n選 B，因為這段\nWhen she was reporting on the war in Sri Lanka, she lost her left eye"
+              }
+            ]
           },
           {
-            "type": "singleChoice",
-            "number": 38,
-            "description": "In the reading, after Jesse Cohen talks about an idea, he often gives an example to make it clear.  \nBelow are four of the sentences in the third paragraph.  Which is used as an example? \n(39-41)\n　　Marie Colvin was a world-famous war reporter.  She was born in New York, USA,  \nin 1956 and died in Homs, Syria, in 2012.\n　　When she was a student at Yale University, Colvin decided that she wanted to be a \nreporter in the future.  She joined the Sunday Times, a UK newspaper, in 1985 and soon \nbecame its Middle East reporter.  Besides the Middle East, she also reported from other \nparts of the world: Chechnya, Kosovo and Sri Lanka, for example.  When she was reporting \non the war in Sri Lanka, she lost her left eye.  But that never stopped her.  She still went to \ndangerous places that few reporters wanted to visit and stayed when others left.\n　　Colvin showed great empathy in her stories.  For her, war reporting was not just some \nquick interviews and a few photos.  She wrote about real people and their real lives.  Her \nwriting made you feel so strongly about these people’s stories, just like they were your own.  \nShe hoped that through her work the world would understand what really happened in war, \nand would take action to stop the fighting.\n　　On February 22, 2012, the day after she gave her report on the war in Homs, Colvin \nwas killed when the house she was staying in was attacked.  She always knew what price a \nwar reporter might have to pay.  She already lost an eye before.  This time, she gave her life \nto the work she could not give up — telling the true stories to the world.\n war 戰爭",
-            "passing_rate": 0.44,
-            "discrimination_index": 0.43,
-            "choices": [
+            "type": "groupChoice",
+            "rich_content": [
               {
-                "answer": "A",
-                "description": " “However, this rule can be bad for children.” "
+                "type": "image",
+                "content": "112_english_42-43.png"
               },
               {
-                "answer": "B",
-                "description": "“Dolls help with their early language use, and building toys are good for learning math and \n      science.” "
+                "type": "text",
+                "content": "Speaking American is a great book!\nLucia Leisure  ★★★★★\n\nI just love Josh Katz’s new book!  It’s about $\\underline{~~~~42~~~~}$ in different parts of the US.  \nThe information in the book was collected from the quiz that Katz built on the website in 2013.  The quiz asked what words people use for something, and their answers showed interesting facts.  For example, there are different names for sports shoes.  In most parts of the US, people say “tennis shoes.”  In the northeast of the country, people wear “sneakers.”  In some towns, “tennis shoes” and “sneakers” become “gym shoes.”\n\nThe use of words tells us where people are from, like Katz’s book says.  But in my experience, it also shows $\\underline{~~~~43~~~~}$ .  My family has lived in New York since my grandparents.  It’s not surprising that I say “sneakers.”  But my grandfather says “plimsolls,” and my daughter says “kicks” or “vans.”  Maybe Katz can study this difference for his next book."
               },
               {
-                "answer": "C",
-                "description": "“Some doctors worry that children may use the same kind of thinking when they look for \n      jobs in the future.” "
-              },
-              {
-                "answer": "D",
-                "description": "“If they do, they may miss something more important than just getting a chance to play  \n      with different toys.” "
+                "type": "border",
+                "content": "📖 website 網站",
+                "aligment": "centerRight"
               }
             ],
-            "correct_answer": "B"
-          },
-          {
-            "type": "singleChoice",
-            "number": 39,
-            "description": "What is the reading mostly about?",
-            "passing_rate": 0.54,
-            "discrimination_index": 0.56,
-            "choices": [
+            "options": [
               {
-                "answer": "A",
-                "description": "Marie Colvin’s war reports."
+                "number": 42,
+                "passing_rate": 0.4,
+                "discrimination_index": 0.48,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "what things are called"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "how sports are played"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "why different languages are spoken"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "what words are often spelled differently"
+                  }
+                ],
+                "correct_answer": "A",
+                "explanation": "選 A，因為下面的舉例，在美國大部分地區，運動鞋被稱呼為 tennis shoes、東北區稱呼為 sneakers，在某些小鎮則稱為 gym shoes，所以這本書是關於不同的物品在美國的不同地區有不同的名稱。"
               },
               {
-                "answer": "B",
-                "description": "Marie Colvin’s working life."
-              },
-              {
-                "answer": "C",
-                "description": "Marie Colvin’s schooldays at Yale."
-              },
-              {
-                "answer": "D",
-                "description": "Marie Colvin’s experiences in Homs."
+                "type": "singleChoice",
+                "number": 43,
+                "passing_rate": 0.4,
+                "discrimination_index": 0.55,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "how old they are"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "who they speak to"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "where they grew up"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "whether they are men or women12"
+                  }
+                ],
+                "correct_answer": "A",
+                "explanation": "選 A，因為下面的舉例提到作者自幾稱呼運動鞋為 sneakers，而他的祖父稱呼運動鞋為 plimsolls、女兒稱呼 kicks 或 vans，代表不同年齡層有不同的稱呼方式"
               }
-            ],
-            "correct_answer": "B"
-          },
-          {
-            "type": "singleChoice",
-            "number": 40,
-            "description": "What does it mean when someone has empathy?",
-            "passing_rate": 0.52,
-            "discrimination_index": 0.54,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "They are good at taking war photos."
-              },
-              {
-                "answer": "B",
-                "description": "They like to read other people’s life stories."
-              },
-              {
-                "answer": "C",
-                "description": "They are able to understand how other people feel."
-              },
-              {
-                "answer": "D",
-                "description": "They are good at helping people change their own lives."
-              }
-            ],
-            "correct_answer": "C"
-          },
-          {
-            "type": "singleChoice",
-            "number": 41,
-            "description": "Which is true about Marie Colvin? \n(42-43)\nSpeaking American is a great book!\nLucia Leisure  ★★★★★\nI just love Josh Katz’s new book!  It’s about    42    in different parts of the US.  \nThe information in the book was collected from the quiz that Katz built on the \nwebsite in 2013.  The quiz asked what words people use for something, and their \nanswers showed interesting facts.  For example, there are different names for \nsports shoes.  In most parts of the US, people say “tennis shoes.”  In the northeast \nof the country, people wear “sneakers.”  In some towns, “tennis shoes” and \n“sneakers” become “gym shoes.”  \nThe use of words tells us where people are from, like Katz’s book says.  But in \nmy experience, it also shows    43   .  My family has lived in New York since my \ngrandparents.  It’s not surprising that I say “sneakers.”  But my grandfather says \n“plimsolls,” and my daughter says “kicks” or “vans.”  Maybe Katz can study this \ndifference for his next book.\n website 網站",
-            "passing_rate": 0.6,
-            "discrimination_index": 0.66,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "The chance to study at Yale made her leave her job in the Middle East."
-              },
-              {
-                "answer": "B",
-                "description": "The experience in Sri Lanka did not change her way of reporting news."
-              },
-              {
-                "answer": "C",
-                "description": "She was killed in Homs when she was interviewing soldiers there for her report."
-              },
-              {
-                "answer": "D",
-                "description": "She was not sure what to do in the future until she worked for the Sunday Times.\n11"
-              }
-            ],
-            "correct_answer": "B"
-          },
-          {
-            "type": "singleChoice",
-            "number": 42,
-            "description": "",
-            "passing_rate": 0.4,
-            "discrimination_index": 0.48,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "what things are called"
-              },
-              {
-                "answer": "B",
-                "description": "how sports are played"
-              },
-              {
-                "answer": "C",
-                "description": " why different languages are spoken"
-              },
-              {
-                "answer": "D",
-                "description": " what words are often spelled differently"
-              }
-            ],
-            "correct_answer": "A"
-          },
-          {
-            "type": "singleChoice",
-            "number": 43,
-            "description": "",
-            "passing_rate": 0.4,
-            "discrimination_index": 0.55,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "how old they are"
-              },
-              {
-                "answer": "B",
-                "description": "who they speak to"
-              },
-              {
-                "answer": "C",
-                "description": "where they grew up"
-              },
-              {
-                "answer": "D",
-                "description": "whether they are men or women12"
-              }
-            ],
-            "correct_answer": "A"
+            ]
           }
         ]
       },
@@ -2532,7 +2613,7 @@
             "description": "第 5 題",
             "audio": "112_listening_5.mp3",
             "passing_rate": 0.82,
-            "discrimination_index": 0.50,
+            "discrimination_index": 0.5,
             "choices": [
               {
                 "answer": "A",
@@ -2555,7 +2636,7 @@
             "type": "singleChoice",
             "description": "第 6 題",
             "audio": "112_listening_6.mp3",
-            "passing_rate": 0.80,
+            "passing_rate": 0.8,
             "discrimination_index": 0.66,
             "choices": [
               {
@@ -2579,7 +2660,7 @@
             "type": "singleChoice",
             "description": "第 7 題",
             "audio": "112_listening_7.mp3",
-            "passing_rate": 0.80,
+            "passing_rate": 0.8,
             "discrimination_index": 0.55,
             "choices": [
               {
@@ -2871,7 +2952,7 @@
             "description": "第 19 題",
             "audio": "112_listening_19.mp3",
             "passing_rate": 0.71,
-            "discrimination_index": 0.60,
+            "discrimination_index": 0.6,
             "choices": [
               {
                 "answer": "A",
@@ -2944,11 +3025,11 @@
         "duration": 80,
         "grade_markings": {
           "A++": 91.6,
-          "A+": 85.70,
-          "A": 76.20,
-          "B++": 66.20,
-          "B+": 56.90,
-          "B": 38.80,
+          "A+": 85.7,
+          "A": 76.2,
+          "B++": 66.2,
+          "B+": 56.9,
+          "B": 38.8,
           "C": 0
         },
         "subject_id": "Math",
@@ -3590,7 +3671,7 @@
           },
           {
             "type": "groupChoice",
-            "description": "請閱讀下列敘述後，回答24～25題：\n\n    人口老化是國家人口分布向高年齡偏移的現象，許多國家已開始面臨此問題。依國際常用定義，一個國家中的 65 歲以上人口占總人口的百分比為 7% 以上(含)且未達 14% 時稱作「高齡化社會」，14% 以上(含)且未達 20% 時稱作「高齡社會」， 20% 以上(含)時稱作「超高齡社會」。\n\n\uD83D\uDCD6 補充說明：百分比=百分率",
+            "description": "請閱讀下列敘述後，回答24～25題：\n\n    人口老化是國家人口分布向高年齡偏移的現象，許多國家已開始面臨此問題。依國際常用定義，一個國家中的 65 歲以上人口占總人口的百分比為 7% 以上(含)且未達 14% 時稱作「高齡化社會」，14% 以上(含)且未達 20% 時稱作「高齡社會」， 20% 以上(含)時稱作「超高齡社會」。\n\n📖 補充說明：百分比=百分率",
             "options": [
               {
                 "number": 24,
@@ -7050,7 +7131,7 @@
               },
               {
                 "type": "border",
-                "content": "\uD83D\uDCD6 補充說明：\n1.醪：音ㄌㄠˊ，混含渣滓的濁酒",
+                "content": "📖 補充說明：\n1.醪：音ㄌㄠˊ，混含渣滓的濁酒",
                 "alignment": "centerRight"
               }
             ],
@@ -7168,7 +7249,7 @@
               },
               {
                 "type": "border",
-                "content": "\uD83D\uDCD6 補充說明：\n1.羅衣：絲質的衣服\n2.子規：杜鵑鳥，啼聲如「不如歸去」",
+                "content": "📖 補充說明：\n1.羅衣：絲質的衣服\n2.子規：杜鵑鳥，啼聲如「不如歸去」",
                 "alignment": "centerRight"
               }
             ],
@@ -7256,7 +7337,7 @@
               },
               {
                 "type": "border",
-                "content": "\uD83D\uDCD6 補充說明：\n1.願以境內累矣：希望勞煩您協助國事\n2.笥：放物品的竹器",
+                "content": "📖 補充說明：\n1.願以境內累矣：希望勞煩您協助國事\n2.笥：放物品的竹器",
                 "alignment": "centerRight"
               }
             ],
@@ -7762,7 +7843,7 @@
               },
               {
                 "type": "border",
-                "content": "\uD83D\uDCD6 補充說明：\n1.莢錢：西漢初年所鑄銅錢，形如榆莢，故名",
+                "content": "📖 補充說明：\n1.莢錢：西漢初年所鑄銅錢，形如榆莢，故名",
                 "alignment": "centerRight"
               }
             ],
@@ -7835,7 +7916,7 @@
               },
               {
                 "type": "border",
-                "content": "\uD83D\uDCD6 補充說明：\n1.主文柄:主持科舉考試",
+                "content": "📖 補充說明：\n1.主文柄:主持科舉考試",
                 "alignment": "centerRight"
               }
             ],
@@ -8473,7 +8554,7 @@
               },
               {
                 "type": "border",
-                "content": "\uD83D\uDCD6 補充說明：\naddress 地址",
+                "content": "📖 補充說明：\naddress 地址",
                 "alignment": "centerRight"
               }
             ],
@@ -8546,7 +8627,7 @@
               },
               {
                 "type": "border",
-                "content": "\uD83D\uDCD6 補充說明：\ninfographic 資訊圖表",
+                "content": "📖 補充說明：\ninfographic 資訊圖表",
                 "alignment": "centerRight"
               }
             ],
@@ -8680,7 +8761,7 @@
               },
               {
                 "type": "border",
-                "content": "\uD83D\uDCD6 補充說明：\ncalorie 卡路里(熱量單位)",
+                "content": "📖 補充說明：\ncalorie 卡路里(熱量單位)",
                 "alignment": "centerRight"
               }
             ],
@@ -8694,7 +8775,7 @@
                   },
                   {
                     "type": "border",
-                    "content": "\uD83D\uDCD6 補充說明：\nparagraph 段落",
+                    "content": "📖 補充說明：\nparagraph 段落",
                     "alignment": "centerRight"
                   }
                 ],
@@ -8797,7 +8878,7 @@
               },
               {
                 "type": "border",
-                "content": "\uD83D\uDCD6 補充說明：\naverage 平均",
+                "content": "📖 補充說明：\naverage 平均",
                 "alignment": "centerRight"
               }
             ],
@@ -8811,7 +8892,7 @@
                   },
                   {
                     "type": "border",
-                    "content": "\uD83D\uDCD6 補充說明：\norder 排序",
+                    "content": "📖 補充說明：\norder 排序",
                     "alignment": "centerRight"
                   }
                 ],
@@ -8905,7 +8986,7 @@
               },
               {
                 "type": "border",
-                "content": "\uD83D\uDCD6 補充說明：official 官方的\ngovernment 政府",
+                "content": "📖 補充說明：official 官方的\ngovernment 政府",
                 "alignment": "centerRight"
               }
             ],
@@ -8919,7 +9000,7 @@
                   },
                   {
                     "type": "border",
-                    "content": "\uD83D\uDCD6 補充說明：\nlikely 可能",
+                    "content": "📖 補充說明：\nlikely 可能",
                     "alignment": "centerRight"
                   },
                   {
@@ -9039,7 +9120,7 @@
               },
               {
                 "type": "border",
-                "content": "\uD83D\uDCD6 補充說明：trail 步道",
+                "content": "📖 補充說明：trail 步道",
                 "alignment": "centerRight"
               }
             ],
@@ -9053,7 +9134,7 @@
                   },
                   {
                     "type": "border",
-                    "content": "\uD83D\uDCD6 補充說明：\nrecommend 推薦",
+                    "content": "📖 補充說明：\nrecommend 推薦",
                     "alignment": "centerRight"
                   }
                 ],
@@ -9139,7 +9220,7 @@
             "rich_content": [
               {
                 "type": "text",
-                "content": "(40-43)\nEnglish words are made of 26 letters, and palindromes and anagrams are two kinds of word games about spelling. A palindrome is a word or a sentence that reads the same from left to right or from right to left, $\\underline{~~~~40~~~~}$ , “eye,” “Bob,” “my gym,” and “Was it a car or a cat I saw?” An anagram of a word or words is made by putting the letters of the word or words in a different way. Look at the words and their anagrams below. Can you think of other possible anagrams of these words?"
+                "content": "English words are made of 26 letters, and palindromes and anagrams are two kinds of word games about spelling. A palindrome is a word or a sentence that reads the same from left to right or from right to left, $\\underline{~~~~40~~~~}$ , “eye,” “Bob,” “my gym,” and “Was it a car or a cat I saw?” An anagram of a word or words is made by putting the letters of the word or words in a different way. Look at the words and their anagrams below. Can you think of other possible anagrams of these words?"
               },
               {
                 "type": "image",
@@ -9769,9 +9850,9 @@
           "A+": 89.8,
           "A": 80.5,
           "B++": 70.5,
-          "B+": 61.0,
+          "B+": 61,
           "B": 39.7,
-          "C": 0.0
+          "C": 0
         },
         "subject_id": "Math",
         "questions": [
