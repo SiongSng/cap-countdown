@@ -1,7 +1,6 @@
 import 'package:cap_countdown/src/exam/question_rich_content.dart';
 import 'package:cap_countdown/src/widgets/question_image.dart';
 import 'package:cap_countdown/src/widgets/question_text.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class QuestionRichContentView extends StatelessWidget {

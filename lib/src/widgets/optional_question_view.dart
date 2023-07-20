@@ -40,12 +40,15 @@ class _OptionalQuestionViewState extends State<OptionalQuestionView> {
 
   @override
   Widget build(BuildContext context) {
-    late final String? description;
+    final String? description;
     final String questionNumber = '${widget.question.number}.';
 
-    if (widget.option.showQuestionNumber &&
-        widget.question.description != null) {
-      description = '$questionNumber ${widget.question.description}';
+    if (widget.option.showQuestionNumber) {
+      if (widget.question.description == null) {
+        description = questionNumber;
+      } else {
+        description = '$questionNumber ${widget.question.description}';
+      }
     } else {
       description = widget.question.description;
     }

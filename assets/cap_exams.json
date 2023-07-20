@@ -1711,7 +1711,7 @@
           {
             "type": "singleChoice",
             "number": 20,
-            "description": "I ＿＿＿＿ swimming for several years before I went to this high school.  I gave it up because of \nheavy schoolwork.",
+            "description": "I ＿＿＿＿ swimming for several years before I went to this high school.  I gave it up because of heavy schoolwork.",
             "passing_rate": 0.36,
             "discrimination_index": 0.28,
             "choices": [
