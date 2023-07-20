@@ -1,11 +1,10 @@
 import json
-import re
 import os
+import re
 from typing import NewType
 
 from fitz import Document, Page
-from fitz.utils import get_text, search_for
-
+from fitz.utils import get_text
 from models.cap_subject import CAPSubject
 from models.exam import Exam
 from models.optional_question import QuestionChoice, QuestionAnswer
@@ -18,12 +17,12 @@ EXAM_INDICATOR = NewType("EXAM_INDICATOR", dict[CAPSubject, list[float]])
 
 # TODO: Support image and table parsing
 def parse_exam_paper(
-    file_path: str,
-    subject: CAPSubject,
-    answers: ANSWERS_TYPE,
-    passing_rates: EXAM_INDICATOR,
-    discrimination_indexes: EXAM_INDICATOR,
-    explanations: list[str] | None,
+        file_path: str,
+        subject: CAPSubject,
+        answers: ANSWERS_TYPE,
+        passing_rates: EXAM_INDICATOR,
+        discrimination_indexes: EXAM_INDICATOR,
+        explanations: list[str] | None,
 ) -> list[SubjectQuestion]:
     """
     Parse the exam paper and return a list of exam result.
@@ -125,8 +124,8 @@ def parse_exam_paper(
 
 
 def parse_tabular_file(
-    file_path: str,
-    is_indicator: bool,
+        file_path: str,
+        is_indicator: bool,
 ) -> dict[CAPSubject, list[str]]:
     doc = Document(file_path)
     pages: list[Page] = list(doc.pages())
@@ -294,7 +293,8 @@ def parse_exam_explanation(file_path: str) -> list[str] | None:
 
 def save_parse_result(exams: list[Exam]):
     json_str = json.dumps([exam.to_dict() for exam in exams], ensure_ascii=False)
-    with open("temp/cap_exams.json", "w") as f:
+    # Must set encoding="utf-8" since Windows default use cp950
+    with open("temp/cap_exams.json", "w", encoding="utf-8") as f:
         f.write(json_str)
 
 
