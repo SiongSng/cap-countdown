@@ -120,10 +120,10 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                           });
                     },
                   ),
-                const SizedBox(
-                  width: 20,
-                ),
-                if (widget.subject.subjectId == CAPSubject.math)
+                if (widget.subject.subjectId == CAPSubject.math) ...[
+                  const SizedBox(
+                    width: 20,
+                  ),
                   InkWell(
                       child: Container(
                           padding: const EdgeInsets.all(5),
@@ -194,6 +194,7 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                               );
                             });
                       })
+                ]
               ]),
               if (_submitted) GradeMarkings(subject: widget.subject),
               const Divider(),
