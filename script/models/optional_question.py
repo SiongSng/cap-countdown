@@ -29,8 +29,8 @@ class OptionalQuestion:
         description: str,
         choices: list[QuestionChoice],
         correct_answer: QuestionAnswer,
-        passing_rate: float,
-        discrimination_index: float,
+        passing_rate: float | None,
+        discrimination_index: float | None,
         explanation: str | None,
     ):
         self.number = number

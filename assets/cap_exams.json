@@ -5332,13 +5332,13 @@
                 "description": "確保米食安全管理"
               }
             ],
-            "correct_answer": "D",
+            "correct_answer": "C",
             "explanation": "開發多種米產品無法降低生產成本、減少人力以及確保安全管理，然而可以減低因稻米過剩所出現的壓力。因此選 C"
           },
           {
             "type": "singleChoice",
             "number": 2,
-            "description": "$\\underline{\\underline{交通部}} \\underline{\\underline{公路總局}}$為了滿足部分地區民眾就學、就醫及洽公的需求，以及達成某項目的，推動「幸福巴士」政策。圖(一)為2019年8月時設有營運路線的行政區分布。根據上述及右圖資訊推論，該目的最可能為下列何者？",
+            "description": "$\\underline{交通部}$ $\\underline{公路總局}$為了滿足部分地區民眾就學、就醫及洽公的需求，以及達成某項目的，推動「幸福巴士」政策。圖(一)為2019年8月時設有營運路線的行政區分布。根據上述及右圖資訊推論，該目的最可能為下列何者？",
             "image": "112_society_2.png",
             "passing_rate": 0.87,
             "discrimination_index": 0.49,
@@ -5360,12 +5360,14 @@
                 "description": "彌補公共運輸網的不足圖"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "D",
+            "explanation": "圖(一)黑標處多為台灣公共運輸較不足鄉鎮，因此選 D。"
           },
           {
             "type": "singleChoice",
             "number": 3,
-            "description": "格陵蘭島位處北極圈附近，某研究針對島上居民進行「氣候變遷對人類心理影響」的抽樣調查，結果顯示大部分受訪者曾親身經歷全球暖化對生活帶來的影響，氣候變遷正為北極地區居民帶來前所未有的壓力和焦慮。下列何者最可能為當地居民擔憂的事情？",
+            "description": "$\\underline{格陵蘭島}$位處北極圈附近，某研究針對島上居民進行「氣候變遷對人類心理影響」的抽樣調查，結果顯示大部分受訪者曾親身經歷全球暖化對生活帶來的影響，氣候變遷正為北極地區居民帶來前所未有的壓力和焦慮。下列何者最可能為當地居民擔憂的事情？",
+            "image": "112_society_3.png",
             "passing_rate": 0.82,
             "discrimination_index": 0.5,
             "choices": [
@@ -5386,16 +5388,36 @@
                 "description": "氣溫逐年變化使得冬天變長夏天變短"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "A",
+            "explanation": "格陵蘭位處北極圈，無耕作、珊瑚等資源、全球暖化應造成夏長冬短，因此選 A。"
           },
           {
             "type": "singleChoice",
             "number": 4,
-            "description": "表(一)為中國不同年分的人口普查部分資料。觀察表中幼年人口比例的變動，\n下列何者最可能是造成2010到2020年微幅變化的原因之一？\n表(一)\n單位：%\n年分年齡組成\n19531964\n19821990\n20002010\n20200-14 歲36.2840.6933.5927.6922.8916.6017.9515-64 歲59.3155.7561.5066.7470.1574.5368.5565 歲以上\n  4.41\n  3.56\n  4.91",
+            "description": "表(一)為中國不同年分的人口普查部分資料。觀察表中幼年人口比例的變動，下列何者最可能是造成2010到2020年微幅變化的原因之一？",
+            "image": "112_society_4.png",
             "passing_rate": 0.69,
             "discrimination_index": 0.4,
-            "choices": [],
-            "correct_answer": "C"
+            "choices": [
+              {
+                "answer": "A",
+                "description": "開放生育第二胎"
+              },
+              {
+                "answer": "B",
+                "description": "實施一胎化政策"
+              },
+              {
+                "answer": "C",
+                "description": "重男輕女觀念式微"
+              },
+              {
+                "answer": "D",
+                "description": "嚴格限制人口移入"
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "2010 至 2020 人口比例些微增加，因此選影響胎兒政策且會增加幼年比例的 A。"
           },
           {
             "type": "singleChoice",
@@ -5404,7 +5426,8 @@
             "passing_rate": 0.91,
             "discrimination_index": 0.43,
             "choices": [],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "關鍵字為「婦女」、「毀壞人體的風俗」。因此選 A"
           },
           {
             "type": "singleChoice",
@@ -5462,7 +5485,8 @@
                 "description": "聲援六四天安門事件，發動遊行"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "C",
+            "explanation": "自由中國與美麗島事件皆為因自由言論所造成的入獄案件。因此選對人民權利限制的 C\n選項"
           },
           {
             "type": "singleChoice",
@@ -5488,7 +5512,8 @@
                 "description": "「經濟大恐慌」蔓延，社會嚴重失序圖"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "C",
+            "explanation": "圖中四個時間點皆有法國參與的重大戰爭發生，包括萊比錫戰役、普法戰爭、一戰與二\n戰，因此選Ｃ"
           },
           {
             "type": "singleChoice",
@@ -5514,7 +5539,8 @@
                 "description": "清帝國與鄭氏政權互相敵對"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "D",
+            "explanation": "鄭成功於"
           },
           {
             "type": "singleChoice",
@@ -5540,12 +5566,13 @@
                 "description": "國家權力應受制衡以免遭濫用"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "題幹所述為保證人民基本人權，因此選 C"
           },
           {
             "type": "singleChoice",
             "number": 10,
-            "description": "圖(三)為某島國周邊範圍的示意圖，甲\n   \n \n \n \n \n \n \n    \n區塊為該國的土地，乙、丙區塊為環繞在甲周圍的海域，而丁、戊、己區塊則分別為甲、乙、丙所對應大氣層內的空中領域。根據圖中內容判斷，該國完整的領土範圍應為下列何者？\n(三)",
+            "description": "圖(三)為某島國周邊範圍的示意圖，甲\n\n\n\n\n\n\n\n\n區塊為該國的土地，乙、丙區塊為環繞在甲周圍的海域，而丁、戊、己區塊則分別為甲、乙、丙所對應大氣層內的空中領域。根據圖中內容判斷，該國完整的領土範圍應為下列何者？\n(三)",
             "passing_rate": 0.62,
             "discrimination_index": 0.35,
             "choices": [
@@ -5566,12 +5593,13 @@
                 "description": "甲、乙、丙、丁、戊\n& 大氣層：圍繞地球周圍的空氣。"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "C",
+            "explanation": "領土範圍為土地範圍"
           },
           {
             "type": "singleChoice",
             "number": 11,
-            "description": "圖(四)是小強在網路上張貼的問題\n      \n                  \n                  \n    \n及四位網友的回答，根據圖中內容判斷，下列何者的回答可以給小強適當的協助？\n(四)",
+            "description": "圖(四)是小強在網路上張貼的問題\n  \n\n\n\n及四位網友的回答，根據圖中內容判斷，下列何者的回答可以給小強適當的協助？\n(四)",
             "passing_rate": 0.88,
             "discrimination_index": 0.37,
             "choices": [
@@ -5592,7 +5620,8 @@
                 "description": "小俊圖"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "B",
+            "explanation": "題幹為民事案件，與 ACD 選項皆不符，因此選Ｂ"
           },
           {
             "type": "singleChoice",
@@ -5618,7 +5647,8 @@
                 "description": "尊重多元文化，促進部落文化傳承3"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "D",
+            "explanation": "將不同族群傳統祭典或儀式納入法律保障中，為尊重不同文化之行為，選 D"
           },
           {
             "type": "singleChoice",
@@ -5644,7 +5674,8 @@
                 "description": "東南亞"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "關鍵字；熱帶乾燥地區，BCD 皆不符合，選 A"
           },
           {
             "type": "singleChoice",
@@ -5670,12 +5701,13 @@
                 "description": "在沙洲下游河段興築大型堤壩導致水位的變化"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "ACD 選項較不為週期性固定發生事件，B 選項較符合題幹所述之原因"
           },
           {
             "type": "singleChoice",
             "number": 15,
-            "description": "圖(七)為跨太平洋夥伴全面8\n12\n59\n34\n106\n117\n        \n圖(七)\n進步協定(CPTPP)的11個成員國。該協定於2018年12月30日生效，各成員國之間將階段性的廢除關稅，以促進貿易往來。此協定生效後，\n下列何者最可能因關稅劣勢而受到衝擊？",
+            "description": "圖(七)為跨太平洋夥伴全面8\n12\n59\n34\n106\n117\n\n圖(七)\n進步協定(CPTPP)的11個成員國。該協定於2018年12月30日生效，各成員國之間將階段性的廢除關稅，以促進貿易往來。此協定生效後，\n下列何者最可能因關稅劣勢而受到衝擊？",
             "passing_rate": 0.48,
             "discrimination_index": 0.36,
             "choices": [
@@ -5696,12 +5728,13 @@
                 "description": "馬來西亞的石油出口至印度"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "A",
+            "explanation": "台灣並無參與 CPTPP 組織中，出口產品容易因關稅問題而受到衝擊，因此選 A"
           },
           {
             "type": "singleChoice",
             "number": 16,
-            "description": "某地區於2017年入選為世界遺產，該地區涵蓋了森林、谷地、潟湖及珊瑚礁等景觀，遺產的中心是玻里尼西亞普遍可見的毛利集會中心，此遺產是毛利文化極具代表性的見證。根據上文描述判斷，該遺產最可能位於下列何處？\n(11.88°N，2.49°E)\n(49.93°N，115.43°E)\n(16.84°S，151.37°W)\n(42.85°S，71.87°W)\n4",
+            "description": "某地區於2017年入選為世界遺產，該地區涵蓋了森林、谷地、潟湖及珊瑚礁等景觀，遺產的中心是玻里尼西亞普遍可見的毛利集會中心，此遺產是毛利文化極具代表性的見證。根據上文描述判斷，該遺產最可能位於下列何處？\n(11.88°N，2.49°E)\n(49.93°N，115.43°E)\n(16.84°S，151.37°W)\n(42.85°S，71.87°W)",
             "passing_rate": 0.54,
             "discrimination_index": 0.43,
             "choices": [
@@ -5718,7 +5751,8 @@
                 "answer": "D"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "C",
+            "explanation": "關鍵字：森林、谷地、潟湖及珊瑚礁，因此選南北緯<"
           },
           {
             "type": "singleChoice",
@@ -5744,7 +5778,8 @@
                 "description": "鴉片"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "A",
+            "explanation": "淡水、基隆分別於"
           },
           {
             "type": "singleChoice",
@@ -5770,12 +5805,13 @@
                 "description": "孟德斯鳩闡明三權分立的觀點"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "題幹為描述人民組成政府、守法即自由等理念，為主權在民的概念，因此選 A"
           },
           {
             "type": "singleChoice",
             "number": 19,
-            "description": "圖(八)是霞喀羅國家步道的介紹圖，其舊名為「霞喀羅、薩克亞金警備道路」。\n此道路的開闢，是因為過去臺灣統治者為達到某一目的而下令修築。根據圖中內容判斷，統治者最初開闢這條道路的目的，最可能與下列何者有關？\n         \n              \n               \n    \n   \n    \n       \n       \n       \n       \n                  \n圖(八)",
+            "description": "圖(八)是霞喀羅國家步道的介紹圖，其舊名為「霞喀羅、薩克亞金警備道路」。\n此道路的開闢，是因為過去臺灣統治者為達到某一目的而下令修築。根據圖中內容判斷，統治者最初開闢這條道路的目的，最可能與下列何者有關？\n\n \n \n\n\n\n\n\n\n\n\n圖(八)",
             "passing_rate": 0.65,
             "discrimination_index": 0.52,
             "choices": [
@@ -5796,7 +5832,8 @@
                 "description": "理蕃政策的實施"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "D",
+            "explanation": "關鍵字：砲台、重機槍以及總督府，推論為"
           },
           {
             "type": "singleChoice",
@@ -5822,7 +5859,8 @@
                 "description": "攘外必先安內，全力剿滅共產黨5"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "A",
+            "explanation": "西安事變是第一次國共內戰末期的一場軍事政變。"
           },
           {
             "type": "singleChoice",
@@ -5848,7 +5886,8 @@
                 "description": "群島國家國土的擴張"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "B",
+            "explanation": "題幹描述為討論首都遷移與環境保育的平衡點。因此選Ｂ"
           },
           {
             "type": "singleChoice",
@@ -5874,12 +5913,13 @@
                 "description": "資訊傳達受限使得國內治安風險升高"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "題幹描述因一個中國所造成資訊受限，對於犯罪者身分不清楚所造成的治安風險，因\n此選Ｄ"
           },
           {
             "type": "singleChoice",
             "number": 23,
-            "description": "圖(九)呈現我國1998至2018年間，\n  \n  \n  \n \n \n \n \n \n \n \n \n  \n \n \n \n \n \n   \n  \n   \n   \n收入最高20%家庭與收入最低20%\n家庭的可支配所得成長率變化，其中灰階區塊是曾發生經濟成長率大\n幅衰退的兩段時間。根據圖中內容判斷，上述兩個灰階區塊的數據，\n呈現出下列哪一現象？\n    \n    \n    \n    \n   \n    \n    \n         \n         \n& 家庭可支配所得：家庭可以自由使用 \n     於消費或儲蓄的所得。\n圖(九)",
+            "description": "圖(九)呈現我國1998至2018年間，\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n收入最高20%家庭與收入最低20%\n家庭的可支配所得成長率變化，其中灰階區塊是曾發生經濟成長率大\n幅衰退的兩段時間。根據圖中內容判斷，上述兩個灰階區塊的數據，\n呈現出下列哪一現象？\n\n\n\n\n\n\n\n\n\n& 家庭可支配所得：家庭可以自由使用 \n     於消費或儲蓄的所得。\n圖(九)",
             "passing_rate": 0.8,
             "discrimination_index": 0.46,
             "choices": [
@@ -5900,7 +5940,8 @@
                 "description": "經濟大幅衰退反而縮小了貧富差距"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "由圖片可知，收入最低"
           },
           {
             "type": "singleChoice",
@@ -5926,12 +5967,13 @@
                 "description": "由行政院院長提請總統任命70,000"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "題幹中甲為質詢衛福部長的身分，應為立法委員，為中央層級選舉負責審查中央政府\n預算之職。因此選Ｂ"
           },
           {
             "type": "singleChoice",
             "number": 25,
-            "description": "圖(十)為世界銀行繪製用來展現世界各60,00050,000\n  \n \n \n \n \n \n40,00030,000\n  \n  \n \n \n20,00013,460\n     \n10,000\n    \n00\n                 \n10 20 30 40 50 60 70 80 90 100國經濟實力的示意圖，圖中矩形面積的大小可呈現2011年該國經濟規模的大\n小。圖中甲國最可能是下列何者？\n(十)",
+            "description": "圖(十)為世界銀行繪製用來展現世界各60,00050,000\n\n\n\n\n\n\n40,00030,000\n\n\n\n\n20,00013,460\n\n10,000\n\n00\n\n10 20 30 40 50 60 70 80 90 100國經濟實力的示意圖，圖中矩形面積的大小可呈現2011年該國經濟規模的大\n小。圖中甲國最可能是下列何者？\n(十)",
             "passing_rate": 0.56,
             "discrimination_index": 0.41,
             "choices": [
@@ -5952,12 +5994,13 @@
                 "description": "奈及利亞圖"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "甲國佔了全世界人口約"
           },
           {
             "type": "singleChoice",
             "number": 26,
-            "description": "圖(十一)為貫穿美洲的泛美\n \n  \n \n   \n \n \n \n \n \n \n \n \n \n   \n  \n     \n   \n圖(十一)\n公路示意圖，主幹線北起美國 阿拉斯加，南至智利。美洲多國可透過這個公路系統\n相互連結，但巴拿馬到哥倫比亞之間的路段至今尚未修\n建。根據圖中資訊判斷，該路段未修建的原因之一最可\n能為下列何者？",
+            "description": "圖(十一)為貫穿美洲的泛美\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n圖(十一)\n公路示意圖，主幹線北起美國 阿拉斯加，南至智利。美洲多國可透過這個公路系統\n相互連結，但巴拿馬到哥倫比亞之間的路段至今尚未修\n建。根據圖中資訊判斷，該路段未修建的原因之一最可\n能為下列何者？",
             "passing_rate": 0.42,
             "discrimination_index": 0.27,
             "choices": [
@@ -5975,15 +6018,16 @@
               },
               {
                 "answer": "D",
-                "description": "維護因紐特人文化\n       \n       "
+                "description": "維護因紐特人文化"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "圖中未修建路段為熱帶雨林生態，此處無年溫差大、運河阻隔或因紐特人文化影響，因\n此選Ｂ"
           },
           {
             "type": "singleChoice",
             "number": 27,
-            "description": "西班牙海外島嶼的某座火\n    \n  \n         \n         \n  \n         \n     \n \n       \n           \n圖(十二)\n山於2021年9月噴發，圖\n(十二)為其噴發後熔岩流及 火 山 灰 落 塵 分 布 的 狀況。根據圖中資訊判斷，\n下列推論何者較為合理？\n(三)",
+            "description": "西班牙海外島嶼的某座火\n\n\n\n\n\n\n\n\n\n\n圖(十二)\n山於2021年9月噴發，圖\n(十二)為其噴發後熔岩流及 火 山 灰 落 塵 分 布 的 狀況。根據圖中資訊判斷，\n下列推論何者較為合理？\n(三)",
             "passing_rate": 0.46,
             "discrimination_index": 0.51,
             "choices": [
@@ -6004,7 +6048,8 @@
                 "description": "火山噴發地點距海約6公里表"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "推論當時為東風、地勢東高西低、流向大西洋，因此選 D"
           },
           {
             "type": "singleChoice",
@@ -6030,7 +6075,8 @@
                 "description": "丁7"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "題幹四個地點大致為台灣東部、北部、南部、中部，因此選年降雨量最多的 B 北部"
           },
           {
             "type": "singleChoice",
@@ -6056,7 +6102,8 @@
                 "description": "追尋宇宙創世真理，崇奉一神信仰"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "一年為"
           },
           {
             "type": "singleChoice",
@@ -6082,7 +6129,8 @@
                 "description": "實施改革開放，設經濟特區表"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "日本戰後於"
           },
           {
             "type": "singleChoice",
@@ -6108,7 +6156,8 @@
                 "description": "美國反對無限制潛艇政策，援助協約國"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "第一次世界大戰支援斯拉夫兄弟為俄羅斯所為，結束則是因為國內共產政權成立，俄\n羅斯也因此於一戰走向共產制度，因此選 C"
           },
           {
             "type": "singleChoice",
@@ -6134,7 +6183,8 @@
                 "description": "依據貴族的身分等級，授予土地與冊封爵位"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "周朝統治者設置由上至下的封建制度，由尖至錐的宗法制度，再以禮樂制度與井田制\n鞏固，維繫周王與諸侯國、官員、國人、野人的關係，因此選 D"
           },
           {
             "type": "singleChoice",
@@ -6160,7 +6210,8 @@
                 "description": "西元十八世紀的啟蒙運動思想家"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "歐洲歷史三大傳統分為「古典時代」、「中世紀」和「近現代」，題幹所述為三大時代中的\n中世紀，中世紀始於西羅馬帝國（公元"
           },
           {
             "type": "singleChoice",
@@ -6186,7 +6237,8 @@
                 "description": "相對於其他地區，丙地區的醫療資源最為不足"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "老年人口最多：甲，人口總數最少：丁，醫療資源最為不足：丙。因此選Ｄ"
           },
           {
             "type": "singleChoice",
@@ -6212,7 +6264,8 @@
                 "description": "民眾的購物意願受非金錢誘因影響而提高"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "飢餓行銷讓民眾因為行銷手法而關注度不僅限於金錢誘因上，更多的非金錢誘因增加\n民眾購買欲望。因此選Ｄ"
           },
           {
             "type": "singleChoice",
@@ -6238,7 +6291,8 @@
                 "description": "因為觸犯告訴乃論之罪而受到刑事處罰"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "題幹指出觸犯刑法、投票時須滿"
           },
           {
             "type": "singleChoice",
@@ -6264,7 +6318,8 @@
                 "description": "增加公立幼兒托育中心9\n表"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "關鍵字：社會增加的方向，思考提高國民人數的對策，與鼓勵人才回流以及歸化相符。\n因此選 B"
           },
           {
             "type": "singleChoice",
@@ -6290,7 +6345,8 @@
                 "description": "乙→丙→甲"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "先是抵抗日軍殖民的乙、再來參加文化協會與農民運動抗爭殖民的丙、最後被派至南洋\n戰場台灣青年的甲，因此選乙>丙>甲的 D 選項"
           },
           {
             "type": "singleChoice",
@@ -6310,10 +6366,11 @@
               },
               {
                 "answer": "D",
-                "description": "46,655\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n5,1465,4303,44413,7943,6629,9980\n  \n  \n  \n  \n  \n  \n  \n  \n   \n   \n   \n   "
+                "description": "46,655\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n5,1465,4303,44413,7943,6629,9980"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "中國自"
           },
           {
             "type": "singleChoice",
@@ -6339,7 +6396,8 @@
                 "description": "乙國進口的甲國商品價格下降"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "一甲幣可兌換的乙幣變多，可能會造成甲國物品在乙國的銷售量下滑、價格上升，反之\n造成乙國物品在甲國銷售量上升情況、價格下降。因此選 A"
           },
           {
             "type": "singleChoice",
@@ -6365,7 +6423,8 @@
                 "description": "西元十九世紀的南美地區圖"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": ""
           },
           {
             "type": "singleChoice",
@@ -6391,7 +6450,8 @@
                 "description": "父母縱容少年抽菸而遭行政處分"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "題幹所述與 D 選項皆為行政處分，A 選項為民事，B 為刑事，C 為政治責任，因此選 D"
           },
           {
             "type": "singleChoice",
@@ -6417,7 +6477,8 @@
                 "description": "勞雇間的權力與資源不對等二、題組："
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "圖中無法看出老年人口比例上升、家庭職能弱化以及勞雇權力不對等之情形，反而可見\n仍有大部分女性因需照顧幼兒與老人因此未就業的狀況。因此選 C"
           },
           {
             "type": "singleChoice",
@@ -6443,12 +6504,13 @@
                 "description": "訂定澶淵之盟，以兄弟相稱"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "44.(C)本題為宗主國(中國)與藩屬國(琉球)的關係，選 C"
           },
           {
             "type": "singleChoice",
             "number": 45,
-            "description": "上文提及「政治局勢發生變化」，造成「唐手」向外傳播，此一變化最可能是指下列何者？\n(起點)後，再進入步道挑戰登頂。\n小婷登山經驗豐富，表(九)是她整理的四條登山路線部分資訊，她這次計畫選擇其中平均坡度最陡的路線攀登以挑戰自我。\n表(九)\n          路線項目\n甲乙\n丙丁\n起點海拔高度(公尺)\n2,3051,970 \n1,440 \n2,380 \n終點海拔高度(公尺)\n3,7203,720 \n3,715 \n3,715 \n上山路線長度(公里)\n    7.5 \n    7.8 \n  11.0 \n    5.0 \n上山路線平均坡度(%)\n  18.9 \n  22.4 \n  20.7 \n  26.7 \n註：路線平均坡度(%)=(終點高度– 起點高度)/路線長度100%",
+            "description": "上文提及「政治局勢發生變化」，造成「唐手」向外傳播，此一變化最可能是指下列何者？\n(起點)後，再進入步道挑戰登頂。\n小婷登山經驗豐富，表(九)是她整理的四條登山路線部分資訊，她這次計畫選擇其中平均坡度最陡的路線攀登以挑戰自我。\n表(九)\n          路線項目\n甲乙\n丙丁\n起點海拔高度(公尺)\n2,3051,970 \n1,440 \n2,380 \n終點海拔高度(公尺)\n3,7203,720 \n3,715 \n3,715 \n上山路線長度(公里)\n    7.5 \n    7.8 \n  11.0 \n    5.0 \n上山路線平均坡度(%)\n  18.9 \n  22.4 \n  20.7 \n  26.7 \n註：路線平均坡度(%)＝(終點高度– 起點高度)/路線長度100%",
             "passing_rate": 0.49,
             "discrimination_index": 0.51,
             "choices": [
@@ -6469,12 +6531,13 @@
                 "description": "日本藉由牡丹社事件擴張勢力11\n閱讀下列選文，回答第 46 至 48 題：\n日本 富士山為一近似圓錐狀的火山，有四條主要的登山路線，開放時間為每年7月上旬至9月上旬，不同路線的開放時間會視情況而有幾天的差距。四條路線雖特色各異，但皆一路向上爬升，民眾可根據自身狀況及喜好選擇適合的上山路線，例如體力、經驗較為不足的人，會選擇坡度較緩的路線；而體力較好且經驗豐富者，則可以挑戰難度較高的上山路線。民眾需先搭乘巴士或其他代步工具至登山口"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "清朝統治大約"
           },
           {
             "type": "singleChoice",
             "number": 46,
-            "description": "上文中登山步道開放的起始時間，主要是因為此時已具備下列何項條件？\n    \n    ",
+            "description": "上文中登山步道開放的起始時間，主要是因為此時已具備下列何項條件？",
             "passing_rate": 0.6,
             "discrimination_index": 0.53,
             "choices": [
@@ -6492,15 +6555,16 @@
               },
               {
                 "answer": "D",
-                "description": "西北季風盛行，天氣涼爽\n    \n    \n    \n    \n    \n    "
+                "description": "西北季風盛行，天氣涼爽"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "會影響登山安全的以積雪影響較大，故選 B。A 與季節無關，CD 與安全關係較小"
           },
           {
             "type": "singleChoice",
             "number": 47,
-            "description": "圖(十四)為其中一條登山路\n    \n    \n    \n     \n \n    \n  \n  \n  \n線，依據圖中資訊判斷，最可能為表(九)中的何者？\n(十四)",
+            "description": "圖(十四)為其中一條登山路\n\n\n\n\n\n\n\n\n\n線，依據圖中資訊判斷，最可能為表(九)中的何者？\n(十四)",
             "passing_rate": 0.83,
             "discrimination_index": 0.47,
             "choices": [
@@ -6521,7 +6585,8 @@
                 "description": "丁圖"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "起點海拔為"
           },
           {
             "type": "singleChoice",
@@ -6544,10 +6609,11 @@
               },
               {
                 "answer": "D",
-                "description": "小婷選丁；體力、經驗較為不足的民眾選甲1閱讀下列選文，回答第 49 至 51 題：\n位於非洲西南端的開普敦，是影\n          \n  \n   \n      \n    \n     \n   \n   \n       \n   \n      \n     \n \n    \n       \n響世界歷史的重要都市。荷蘭人在1652年來到此地，因當地氣候適合，\n可種植歐洲常見的蔬果並釀製葡萄酒，用以補充船隻上的飲食，於是逐步將其建造為海上貿易的補給站。圖"
+                "description": "小婷選丁；體力、經驗較為不足的民眾選甲1閱讀下列選文，回答第 49 至 51 題：\n位於非洲西南端的開普敦，是影\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n響世界歷史的重要都市。荷蘭人在1652年來到此地，因當地氣候適合，\n可種植歐洲常見的蔬果並釀製葡萄酒，用以補充船隻上的飲食，於是逐步將其建造為海上貿易的補給站。圖"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "小婷要選平均坡度最陡的路線，而丁路線坡度"
           },
           {
             "type": "singleChoice",
@@ -6573,7 +6639,8 @@
                 "description": "終年有雨且夏雨較多"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "開普敦位置約在南緯"
           },
           {
             "type": "singleChoice",
@@ -6599,7 +6666,8 @@
                 "description": "夏威夷群島"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "文中已提示奴隸來自荷蘭在亞洲的殖民地輸出，即是約為東南亞範圍的南洋群島或稱\n東印度群島"
           },
           {
             "type": "singleChoice",
@@ -6622,10 +6690,11 @@
               },
               {
                 "answer": "D",
-                "description": "有助於疏解前往南美洲擁擠的航路13\n閱讀下列選文，回答第 52 至 54 題：\n美國的反體罰組織於1998年發起「不打小孩日」的活動，目的是藉著這一\n       \n   \n        \n         \n      \n      \n      \n圖"
+                "description": "有助於疏解前往南美洲擁擠的航路13\n閱讀下列選文，回答第 52 至 54 題：\n美國的反體罰組織於1998年發起「不打小孩日」的活動，目的是藉著這一\n\n\n\n\n\n\n\n圖"
               }
             ],
-            "correct_answer": "A"
+            "correct_answer": "A",
+            "explanation": "船隻從東南亞回到歐洲若可經由蘇伊士運河，就不用越過非洲最南端，可縮短大量航程"
           },
           {
             "type": "singleChoice",
@@ -6651,7 +6720,8 @@
                 "description": "全球化下的文化交流"
               }
             ],
-            "correct_answer": "D"
+            "correct_answer": "D",
+            "explanation": "這是來自其他國家的倡議，屬於全球化的文化交流"
           },
           {
             "type": "singleChoice",
@@ -6677,7 +6747,8 @@
                 "description": "推廣法治教育教導兒童保護自身權益"
               }
             ],
-            "correct_answer": "B"
+            "correct_answer": "B",
+            "explanation": "題目問的是宣傳標語，宣傳標語並未提到任何法律或訴訟，故較適合的答案為 B"
           },
           {
             "type": "singleChoice",
@@ -6703,7 +6774,8 @@
                 "description": "以修法程序而言，皆可由行政機關自行修訂14"
               }
             ],
-            "correct_answer": "C"
+            "correct_answer": "C",
+            "explanation": "法律位階分為憲法、法律、行政法，若是法律則末尾為(法、律、條例、通則)，故本文中兩\n條皆為法律位階，須由總統公布後生效"
           }
         ]
       }

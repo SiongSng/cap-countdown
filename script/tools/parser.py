@@ -12,17 +12,17 @@ from models.single_choice_question import SingleChoiceQuestion
 from models.subject_question import SubjectQuestion
 
 ANSWERS_TYPE = NewType("ANSWERS_TYPE", dict[CAPSubject, list[QuestionAnswer]])
-EXAM_INDICATOR = NewType("EXAM_INDICATOR", dict[CAPSubject, list[float]])
+EXAM_INDICATOR = NewType("EXAM_INDICATOR", dict[CAPSubject, list[float | None]])
 
 
 # TODO: Support image and table parsing
 def parse_exam_paper(
-        file_path: str,
-        subject: CAPSubject,
-        answers: ANSWERS_TYPE,
-        passing_rates: EXAM_INDICATOR,
-        discrimination_indexes: EXAM_INDICATOR,
-        explanations: list[str] | None,
+    file_path: str,
+    subject: CAPSubject,
+    answers: ANSWERS_TYPE,
+    passing_rates: EXAM_INDICATOR,
+    discrimination_indexes: EXAM_INDICATOR,
+    explanations: list[str] | None,
 ) -> list[SubjectQuestion]:
     """
     Parse the exam paper and return a list of exam result.
@@ -124,8 +124,8 @@ def parse_exam_paper(
 
 
 def parse_tabular_file(
-        file_path: str,
-        is_indicator: bool,
+    file_path: str,
+    is_indicator: bool,
 ) -> dict[CAPSubject, list[str]]:
     doc = Document(file_path)
     pages: list[Page] = list(doc.pages())
@@ -182,13 +182,20 @@ def parse_tabular_file(
 
         # Handle question number range.
         if question_number <= english_listening_end:
-            subjects = [subject for subject in CAPSubject]
-
             if is_indicator:
                 subjects = [
                     CAPSubject.CHINESE,
                     CAPSubject.ENGLISH_LISTENING,
                     CAPSubject.ENGLISH_Reading,
+                    CAPSubject.MATH,
+                    CAPSubject.SOCIETY,
+                    CAPSubject.NATURE,
+                ]
+            else:
+                subjects = [
+                    CAPSubject.CHINESE,
+                    CAPSubject.ENGLISH_Reading,
+                    CAPSubject.ENGLISH_LISTENING,
                     CAPSubject.MATH,
                     CAPSubject.SOCIETY,
                     CAPSubject.NATURE,
@@ -303,5 +310,6 @@ def fix_question_text(text: str) -> str:
     text = re.sub(r"(\w+)\d+\n請翻頁繼續作答", r"\1", text)
     text = re.sub(r"\n\d+請翻頁繼續作答", r"", text)
     text = re.sub(r"請翻頁繼續作答(\n?)\d+", r"", text)
+    text = text.replace("�", "")
 
     return text.strip()
