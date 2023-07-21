@@ -119,28 +119,33 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
           body: Column(
             children: [
               if (!(_submitted || !localStorage.simulationExamTiming))
-                ExamTimer(
-                  duration: widget.subject.duration,
-                  onExamOver: () {
-                    showDialog(
-                        context: context,
-                        barrierDismissible: false,
-                        builder: (context) {
-                          return AlertDialog(
-                            title: const Text('警告'),
-                            content: const Text('考試時間已到，請勿繼續作答！'),
-                            actions: [
-                              TextButton(
-                                  onPressed: () {
-                                    Navigator.of(context).pop();
-                                    _submit();
-                                  },
-                                  child: const Text('確定'))
-                            ],
-                          );
-                        });
-                  },
-                ),
+                Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                  ExamTimer(
+                    duration: widget.subject.duration,
+                    onExamOver: () {
+                      showDialog(
+                          context: context,
+                          barrierDismissible: false,
+                          builder: (context) {
+                            return AlertDialog(
+                              title: const Text('警告'),
+                              content: const Text('考試時間已到，請勿繼續作答！'),
+                              actions: [
+                                TextButton(
+                                    onPressed: () {
+                                      Navigator.of(context).pop();
+                                      _submit();
+                                    },
+                                    child: const Text('確定'))
+                              ],
+                            );
+                          });
+                    },
+                  ),
+                  const SizedBox(
+                    width: 10,
+                  ),
+                ]),
               if (_submitted) GradeMarkings(subject: widget.subject),
               if (_submitted)
                 Text(

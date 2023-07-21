@@ -51,15 +51,16 @@ class _PrepareSimulationExamPageState extends State<PrepareSimulationExamPage> {
                     builder: (context) {
                       return StatefulBuilder(builder: (context, setState) {
                         return AlertDialog(
-                          content: Container(
+                          insetPadding: const EdgeInsets.all(5),
+                          contentPadding: const EdgeInsets.all(5),
+                          title: ListTile(
+                              title: const Text('模擬試題設定'),
+                              leading: const Icon(Icons.edit),
+                              shape: Border.all(color: Colors.transparent)),
+                          content: SingleChildScrollView(
                               child: Column(
                                   mainAxisSize: MainAxisSize.min,
                                   children: [
-                                ListTile(
-                                    title: const Text('模擬試題'),
-                                    leading: const Icon(Icons.edit),
-                                    shape:
-                                        Border.all(color: Colors.transparent)),
                                 SwitchListTile(
                                     value: localStorage.simulationExamTiming,
                                     onChanged: (value) {
