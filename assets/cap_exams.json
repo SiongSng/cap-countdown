@@ -5367,7 +5367,6 @@
             "type": "singleChoice",
             "number": 3,
             "description": "$\\underline{格陵蘭島}$位處北極圈附近，某研究針對島上居民進行「氣候變遷對人類心理影響」的抽樣調查，結果顯示大部分受訪者曾親身經歷全球暖化對生活帶來的影響，氣候變遷正為北極地區居民帶來前所未有的壓力和焦慮。下列何者最可能為當地居民擔憂的事情？",
-            "image": "112_society_3.png",
             "passing_rate": 0.82,
             "discrimination_index": 0.5,
             "choices": [
@@ -5422,36 +5421,20 @@
           {
             "type": "singleChoice",
             "number": 5,
-            "description": "57",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "清末一位知識分子提到：「今日多數的中國婦女終身只待在家中，不曾見過什麼人、沒去過其他城市、身邊沒有學習的夥伴而孤陋寡聞，只能學一些無關緊要的東西，而這些東西遠比不上有用的知識。這是因為現在還有毀壞人體的風俗，這樣的風俗沒有廢除，新式的女子學校就無法設立。這項風俗延續了數百年直到今日，是外國人眼中的笑柄。」上述「風俗」最可能是下列何者？"
+              },
+              {
+                "type": "border",
+                "content": "📖 剃度出家：是指剃髮並接受佛教戒律，成為僧侶。\n薙髮留辮：剃除大部分頭髮，僅在腦後編成髮辮的滿族髪式。",
+                "alignment": "centerRight"
+              }
+            ],
             "passing_rate": 0.91,
             "discrimination_index": 0.43,
-            "choices": [],
-            "correct_answer": "A",
-            "explanation": "關鍵字為「婦女」、「毀壞人體的風俗」。因此選 A"
-          },
-          {
-            "type": "singleChoice",
-            "number": 6,
-            "description": "96\n  8.8713.50\n(二)\n雜  誌  社成    員自由中國\n雷震等人美麗島\n黃信介等人6. \n表(二)為兩個雜誌社的成員，他們在某時期曾遭法院判刑入獄。隨著時局更迭，2019年政府撤銷原本的有罪判決，讓他們獲得平反。\n表中人員當時被判刑，最可能與下列何者有關？",
-            "passing_rate": 0.82,
-            "discrimination_index": 0.53,
             "choices": [
-              {
-                "answer": "A",
-                "description": "開放生育第二胎"
-              },
-              {
-                "answer": "B",
-                "description": "實施一胎化政策"
-              },
-              {
-                "answer": "C",
-                "description": "重男輕女觀念式微"
-              },
-              {
-                "answer": "D",
-                "description": "嚴格限制人口移入1\n& 剃度出家：是指剃髮並接受佛教戒律，成為僧侶。\n薙髮留辮：剃除大部分頭髮，僅在腦後編成髮辮的滿族髪式。\n5. \n清末一位知識分子提到：「今日多數的中國婦女終身只待在家中，不曾見過什麼人、沒去過其他城市、身邊沒有學習的夥伴而孤陋寡聞，只能學一些無關緊要的東西，而這些東西遠比不上有用的知識。這是因為現在還有毀壞人體的風俗，這樣的風俗沒有廢除，新式的女子學校就無法設立。這項風俗延續了數百年直到今日，是外國人眼中的笑柄。」上述「風俗」最可能是下列何者？"
-              },
               {
                 "answer": "A",
                 "description": "自幼纏足"
@@ -5466,11 +5449,23 @@
               },
               {
                 "answer": "D",
-                "description": "薙髮留辮表"
-              },
+                "description": "薙髮留辮"
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "關鍵字為「婦女」、「毀壞人體的風俗」。因此選 A"
+          },
+          {
+            "type": "singleChoice",
+            "number": 6,
+            "description": "表(二)為兩個雜誌社的成員，他們在某時期曾遭法院判刑入獄。隨著時局更迭，2019年政府撤銷原本的有罪判決，讓他們獲得平反。\n表中人員當時被判刑，最可能與下列何者有關？",
+            "image": "112_society_6.png",
+            "passing_rate": 0.82,
+            "discrimination_index": 0.53,
+            "choices": [
               {
                 "answer": "A",
-                "description": "受威爾遜的影響，主張民族自決"
+                "description": "受$\\underline{威爾遜}$的影響，主張民族自決"
               },
               {
                 "answer": "B",
@@ -5482,16 +5477,17 @@
               },
               {
                 "answer": "D",
-                "description": "聲援六四天安門事件，發動遊行"
+                "description": "聲援六四$\\underline{天安門}$事件，發動遊行"
               }
             ],
             "correct_answer": "C",
-            "explanation": "自由中國與美麗島事件皆為因自由言論所造成的入獄案件。因此選對人民權利限制的 C\n選項"
+            "explanation": "自由中國與美麗島事件皆為因自由言論所造成的入獄案件。因此選對人民權利限制的 C 選項"
           },
           {
             "type": "singleChoice",
             "number": 7,
-            "description": "圖(二)是法國1750至2000年人民平均壽命曲線圖。下列何者最能合理解釋圖中甲、\n乙、丙、丁四個箭頭處，平均壽命變動的主要原因？\n(二)",
+            "description": "圖(二)是法國1750至2000年人民平均壽命曲線圖。下列何者最能合理解釋圖中甲、乙、丙、丁四個箭頭處，平均壽命變動的主要原因？",
+            "image": "112_society_7.png",
             "passing_rate": 0.79,
             "discrimination_index": 0.45,
             "choices": [
@@ -5513,34 +5509,34 @@
               }
             ],
             "correct_answer": "C",
-            "explanation": "圖中四個時間點皆有法國參與的重大戰爭發生，包括萊比錫戰役、普法戰爭、一戰與二\n戰，因此選Ｃ"
+            "explanation": "圖中四個時間點皆有法國參與的重大戰爭發生，包括萊比錫戰役、普法戰爭、一戰與二戰，因此選Ｃ。"
           },
           {
             "type": "singleChoice",
             "number": 8,
-            "description": "李科羅是一位天主教傳教士，1655年前往廈門傳教，並得到當地統治者「國姓爺」的關照；他也為國姓爺父子擔任使者，出使菲律賓。但1663年李科羅結束使者任務返回廈門時，卻遭當地的新統治者逮捕；他擔心被送往北京，\n因此在洪水氾濫期間，趁亂逃亡，最後輾轉逃到臺灣。李科羅逃亡的原因，\n最可能與下列何者有關？",
+            "description": "$\\underline{李科羅}$是一位$\\underline{天主教}$傳教士，1655年前往$\\underline{廈門}$傳教，並得到當地統治者「國姓爺」的關照；他也為國姓爺父子擔任使者，出使$\\underline{菲律賓}$。但1663年$\\underline{李科羅}$結束使者任務返回$\\underline{廈門}$時，卻遭當地的新統治者逮捕；他擔心被送往北京，因此在洪水氾濫期間，趁亂逃亡，最後輾轉逃到$\\underline{臺灣}$。$\\underline{李科羅}$逃亡的原因，最可能與下列何者有關？",
             "passing_rate": 0.76,
             "discrimination_index": 0.5,
             "choices": [
               {
                 "answer": "A",
-                "description": "日本與荷蘭互相合作"
+                "description": "$\\underline{日本}$與$\\underline{荷蘭}$互相合作"
               },
               {
                 "answer": "B",
-                "description": "荷蘭與西班牙互相敵對"
+                "description": "$\\underline{荷蘭}$與$\\underline{西班牙}$互相敵對"
               },
               {
                 "answer": "C",
-                "description": "鄭氏政權與英國互相合作"
+                "description": "$\\underline{鄭}$氏政權與$\\underline{英國}$互相合作"
               },
               {
                 "answer": "D",
-                "description": "清帝國與鄭氏政權互相敵對"
+                "description": "$\\underline{清帝國}$與$\\underline{鄭}$氏政權互相敵對"
               }
             ],
             "correct_answer": "D",
-            "explanation": "鄭成功於"
+            "explanation": "鄭成功於 1661 年率軍渡海來臺，擊敗荷蘭人，因此選 D。"
           },
           {
             "type": "singleChoice",
@@ -5572,7 +5568,21 @@
           {
             "type": "singleChoice",
             "number": 10,
-            "description": "圖(三)為某島國周邊範圍的示意圖，甲\n\n\n\n\n\n\n\n\n區塊為該國的土地，乙、丙區塊為環繞在甲周圍的海域，而丁、戊、己區塊則分別為甲、乙、丙所對應大氣層內的空中領域。根據圖中內容判斷，該國完整的領土範圍應為下列何者？\n(三)",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "圖(三)為某島國周邊範圍的示意圖，甲區塊為該國的土地，乙、丙區塊為環繞在甲周圍的海域，而丁、戊、己區塊則分別為甲、乙、丙所對應大氣層內的空中領域。根據圖中內容判斷，該國完整的領土範圍應為下列何者？"
+              },
+              {
+                "type": "image",
+                "content": "112_society_10.png"
+              },
+              {
+                "type": "border",
+                "content": "📖 大氣層：圍繞地球周圍的空氣。",
+                "alignment": "centerRight"
+              }
+            ],
             "passing_rate": 0.62,
             "discrimination_index": 0.35,
             "choices": [
@@ -5582,7 +5592,7 @@
               },
               {
                 "answer": "B",
-                "description": "甲、乙、丁圖"
+                "description": "甲、乙、丁"
               },
               {
                 "answer": "C",
@@ -5590,11 +5600,11 @@
               },
               {
                 "answer": "D",
-                "description": "甲、乙、丙、丁、戊\n& 大氣層：圍繞地球周圍的空氣。"
+                "description": "甲、乙、丙、丁、戊"
               }
             ],
             "correct_answer": "C",
-            "explanation": "領土範圍為土地範圍"
+            "explanation": "領土範圍為土地範圍 12 浬的陸海空範圍，選Ｃ。"
           },
           {
             "type": "singleChoice",

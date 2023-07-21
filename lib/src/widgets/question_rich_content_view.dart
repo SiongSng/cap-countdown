@@ -65,6 +65,7 @@ class QuestionRichContentView extends StatelessWidget {
           throw Exception("Border content cannot be null");
         }
 
+        widgets.add(const SizedBox(height: 8));
         widgets.add(alignWidget(
             richContent.alignment,
             Container(
