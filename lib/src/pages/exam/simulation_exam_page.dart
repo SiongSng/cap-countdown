@@ -14,6 +14,8 @@ import 'package:cap_countdown/src/widgets/subject_question_view.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
+import '../../widgets/question_text.dart';
+
 class SimulationExamPage extends StatefulWidget {
   final int year;
   final String examName;
@@ -94,29 +96,105 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
           ),
           body: Column(
             children: [
-              if (!_submitted)
-                ExamTimer(
-                  duration: widget.subject.duration,
-                  onExamOver: () {
-                    showDialog(
-                        context: context,
-                        barrierDismissible: false,
-                        builder: (context) {
-                          return AlertDialog(
-                            title: const Text('警告'),
-                            content: const Text('考試時間已到，請勿繼續作答！'),
-                            actions: [
-                              TextButton(
-                                  onPressed: () {
-                                    Navigator.of(context).pop();
-                                    _submit();
-                                  },
-                                  child: const Text('確定'))
-                            ],
-                          );
-                        });
-                  },
+              Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                if (!_submitted)
+                  ExamTimer(
+                    duration: widget.subject.duration,
+                    onExamOver: () {
+                      showDialog(
+                          context: context,
+                          barrierDismissible: false,
+                          builder: (context) {
+                            return AlertDialog(
+                              title: const Text('警告'),
+                              content: const Text('考試時間已到，請勿繼續作答！'),
+                              actions: [
+                                TextButton(
+                                    onPressed: () {
+                                      Navigator.of(context).pop();
+                                      _submit();
+                                    },
+                                    child: const Text('確定'))
+                              ],
+                            );
+                          });
+                    },
+                  ),
+                const SizedBox(
+                  width: 20,
                 ),
+                if (widget.subject.subjectId == CAPSubject.math)
+                  InkWell(
+                      child: Container(
+                          padding: const EdgeInsets.all(5),
+                          child: const Column(
+                            children: [Icon(Icons.list), Text("數學公式")],
+                          )),
+                      onTap: () {
+                        showDialog(
+                            context: context,
+                            builder: (context) {
+                              return AlertDialog(
+                                insetPadding: const EdgeInsets.all(10),
+                                contentPadding: const EdgeInsets.all(10),
+                                title: ListTile(
+                                    title: const Text('數學公式'),
+                                    leading: const Icon(Icons.list),
+                                    shape:
+                                        Border.all(color: Colors.transparent)),
+                                content: const SingleChildScrollView(
+                                    child: Column(
+                                        mainAxisSize: MainAxisSize.min,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                      Row(
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.start,
+                                          children: [
+                                            Text("📖"),
+                                            Column(children: [
+                                              QuestionText(
+                                                  text:
+                                                      "和的平方公式：\$(a+b)^2\$\$=a^2\$\$+2ab\$\$+b^2\$"),
+                                              QuestionText(
+                                                  text:
+                                                      "差的平方公式：\$(a-b)^2\$\$=a^2\$\$-2ab\$\$+b^2\$"),
+                                              QuestionText(
+                                                  text:
+                                                      "平方差公式：\$a^2-b^2\$\$=(a+b)(a-b)\$"),
+                                            ])
+                                          ]),
+                                      QuestionText(
+                                          text:
+                                              "📖若直角三角形兩股長為 \$a\$ 、 \$b\$，斜邊長為 \$c\$，則 \$c^2\$\$=a^2\$\$+b^2\$"),
+                                      QuestionText(
+                                          text:
+                                              "📖若圓的半徑為 \$r\$,圓周率為 \$\\pi\$,則圓面積 \$=\\pi r^2\$，圓周長 \$=2 \\pi r\$"),
+                                      QuestionText(
+                                          text:
+                                              "📖凸 n 邊形的內角和為 \$(n − 2)\$\$ \\times 180^\\circ\$ ， \$n \\geq 3\$"),
+                                      QuestionText(
+                                          text:
+                                              "📖若一個等差數列的首項為 \$a_1\$，公差為 \$d\$，第 \$n\$ 項為 \$a_n\$,前 \$n\$ 項和為 \$S_n\$，則 \$a_n\$\$ = a_1 \$\$+ (n − 1) d\$，\$S_n\$\$ =\\frac{n (a_1 + a_n)}{2}\$"),
+                                      QuestionText(
+                                          text:
+                                              "📖若一個等比數列的首項為 \$a_1\$，公比為 \$r\$，第 \$n\$ 項為 \$a_n\$，則 \$a_n\$ \$= a_1r^{n − 1}\$"),
+                                      QuestionText(
+                                          text:
+                                              "📖一元二次方程式 \$ax^2 \$\$+ bx \$\$+ c \$\$= 0\$ 的解為 \$x \$\$=\\frac{ −b\\pm \\sqrt{b^2 − 4ac}}{2a}\$")
+                                    ])),
+                                actions: [
+                                  TextButton(
+                                      onPressed: () {
+                                        Navigator.of(context).pop();
+                                      },
+                                      child: const Text('確定'))
+                                ],
+                              );
+                            });
+                      })
+              ]),
               if (_submitted) GradeMarkings(subject: widget.subject),
               const Divider(),
               Expanded(
