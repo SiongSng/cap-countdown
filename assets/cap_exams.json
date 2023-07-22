@@ -5609,34 +5609,50 @@
           {
             "type": "singleChoice",
             "number": 11,
-            "description": "圖(四)是小強在網路上張貼的問題\n  \n\n\n\n及四位網友的回答，根據圖中內容判斷，下列何者的回答可以給小強適當的協助？\n(四)",
+            "description": "圖(四)是$\\underline{小強}$在網路上張貼的問題及四位網友的回答，根據圖中內容判斷，下列何者的回答可以給$\\underline{小強}$適當的協助？",
+            "image": "112_society_11.png",
             "passing_rate": 0.88,
             "discrimination_index": 0.37,
             "choices": [
               {
                 "answer": "A",
-                "description": "小臻"
+                "description": "$\\underline{小臻}$"
               },
               {
                 "answer": "B",
-                "description": "小康"
+                "description": "$\\underline{小康}$"
               },
               {
                 "answer": "C",
-                "description": "小芬"
+                "description": "$\\underline{小芬}$"
               },
               {
                 "answer": "D",
-                "description": "小俊圖"
+                "description": "$\\underline{小俊}$"
               }
             ],
             "correct_answer": "B",
-            "explanation": "題幹為民事案件，與 ACD 選項皆不符，因此選Ｂ"
+            "explanation": "題幹為民事案件，與 ACD 選項皆不符，因此選Ｂ。"
           },
           {
             "type": "singleChoice",
             "number": 12,
-            "description": "某日，小晴沒來上課，班上同學們問\n《紀念日及節日實施辦法》第4條：\n下列民俗節日，除春節放假三日外，其餘均放假一日：\n一、春節。\n六、原住民族歲時祭儀：各該原住民族放假日期，由行政院原住民族委員會參酌各該原住民族\n習俗公告，並刊登政府公報。\n圖(五)\n了老師才知道，因為小晴是太魯閣族的原住民，所以他今天放假和家人一起返回部落參與感恩祭。老師也藉機以圖(五)中的法律規範，向同學們說明小晴可以放假的依據。根據上述內容判斷，主管機關將原住民族的傳統祭儀納入法律規範的原因，其主要考量最可能是下列何者？",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "某日，$\\underline{小晴}$沒來上課，班上同學們問了老師才知道，因為$\\underline{小晴}$是$\\underline{太魯閣族}$的原住民，所以他今天放假和家人一起返回部落參與感恩祭。老師也藉機以圖(五)中的法律規範，向同學們說明$\\underline{小晴}$可以放假的依據。根據上述內容判斷，主管機關將原住民族的傳統祭儀納入法律規範的原因，其主要考量最可能是下列何者？"
+              },
+              {
+                "type": "border",
+                "content": "《紀念日及節日實施辦法》第4條：下列民俗節日，除春節放假三日外，其餘均放假一日：\n一、春節。\n           ...\n           ...\n           ...\n六、原住民族歲時祭儀：各該原住民族放假日期，由行政院原住民族委員會參酌各該原住民族習俗公告，並刊登政府公報。",
+                "alignment": "centerRight"
+              },
+              {
+                "type": "text",
+                "content": "圖(五)",
+                "alignment": "center"
+              }
+            ],
             "passing_rate": 0.93,
             "discrimination_index": 0.28,
             "choices": [
