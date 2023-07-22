@@ -6242,7 +6242,20 @@
           {
             "type": "singleChoice",
             "number": 34,
-            "description": "在探討一國國內不同地區醫療資源差異時，通常會先觀察醫師人數和病床數，由相關數據與人口數的相對關係，可大致推論一個地區的醫療資源是否不足。表(五)是某國2018年四個地區關於人口與醫療資源的資料：\n表(五)\n人口總數醫師人數\n病床數地\n區\n(人)\n老年人口比例(%)\n(人)\n平均每位醫師負擔人數(人)\n(張)\n平均每張病床負擔人數(人)\n甲2,562,73819.509,719263.719,951128.5乙\n2,272,45913.263,824594.311,988189.6丙\n   673,30919.42\n  881764.3\n  3,204210.1丁\n   322,83617.95\n  820393.7\n  4,073\n  79.3根據表中資料判斷，關於甲、乙、丙、丁四個地區的醫療資源，下列何項推論最適當？",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "在探討一國國內不同地區醫療資源差異時，通常會先觀察醫師人數和病床數，由相關數據與人口數的相對關係，可大致推論一個地區的醫療資源是否不足。表(五)是某國2018年四個地區關於人口與醫療資源的資料："
+              },
+              {
+                "type": "image",
+                "content": "112_society_34.png"
+              },
+              {
+                "type": "text",
+                "content": "根據表中資料判斷，關於甲、乙、丙、丁四個地區的醫療資源，下列何項推論最適當？"
+              }
+            ],
             "passing_rate": 0.71,
             "discrimination_index": 0.49,
             "choices": [
@@ -6269,7 +6282,7 @@
           {
             "type": "singleChoice",
             "number": 35,
-            "description": "「飢餓行銷」是一種常見的行銷手法，指的是業者在短時間內利用各種管道宣傳大批民眾排隊購買的熱潮，營造該項商品都會很快被搶購一空的情況，\n透過媒體將商品炒作成為時下流行的話題，進而引起民眾的消費欲望。關於上述行銷手法對於消費市場的影響，下列敘述何者最適當？",
+            "description": "「飢餓行銷」是一種常見的行銷手法，指的是業者在短時間內利用各種管道宣傳大批民眾排隊購買的熱潮，營造該項商品都會很快被搶購一空的情況，透過媒體將商品炒作成為時下流行的話題，進而引起民眾的消費欲望。關於上述行銷手法對於消費市場的影響，下列敘述何者最適當？",
             "passing_rate": 0.62,
             "discrimination_index": 0.52,
             "choices": [
@@ -6291,7 +6304,7 @@
               }
             ],
             "correct_answer": "D",
-            "explanation": "飢餓行銷讓民眾因為行銷手法而關注度不僅限於金錢誘因上，更多的非金錢誘因增加\n民眾購買欲望。因此選Ｄ"
+            "explanation": "飢餓行銷讓民眾因為行銷手法而關注度不僅限於金錢誘因上，更多的非金錢誘因增加民眾購買欲望。因此選Ｄ"
           },
           {
             "type": "singleChoice",
@@ -6318,12 +6331,12 @@
               }
             ],
             "correct_answer": "C",
-            "explanation": "題幹指出觸犯刑法、投票時須滿"
+            "explanation": "題幹指出觸犯刑法、投票時須滿20歲，因此選C"
           },
           {
             "type": "singleChoice",
             "number": 37,
-            "description": "臺灣少子女化危機惡化的速度超乎想像，面對人口負成長的人口懸崖，有學者認為政府過往提出的相關政策已是緩不濟急，或許可以透過社會增加的方向，思考提高國民人數的對策。根據上述內容判斷，下列何項對策與該學者的意見最相符？\n(六)",
+            "description": "$\\underline{臺灣}$少子女化危機惡化的速度超乎想像，面對人口負成長的人口懸崖，有學者認為政府過往提出的相關政策已是緩不濟急，或許可以透過社會增加的方向，思考提高國民人數的對策。根據上述內容判斷，下列何項對策與該學者的意見最相符？",
             "passing_rate": 0.48,
             "discrimination_index": 0.44,
             "choices": [
@@ -6341,7 +6354,7 @@
               },
               {
                 "answer": "D",
-                "description": "增加公立幼兒托育中心9\n表"
+                "description": "增加公立幼兒托育中心"
               }
             ],
             "correct_answer": "B",
@@ -6350,7 +6363,8 @@
           {
             "type": "singleChoice",
             "number": 38,
-            "description": "表(六)為某作家的三部長篇著作\n內  容  簡  介甲 刻畫多位臺灣青年在南洋戰場上被戰爭折磨至精神崩潰，甚至喪生的悲慘命運。\n乙 敘述客家族群在臺灣中部山區生產樟腦，\n為保衛家園參與武裝抗日的故事。\n丙 描繪臺灣人藉由參加文化協會、組織農民運動，抵抗殖民統治的事蹟。\n小說內容簡介，該作家藉此構築十九至二十世紀臺灣歷\n史的發展過程。根據表中內容判斷，這三部小說呈現的時代先後順序，最可能是下列何者？",
+            "description": "表(六)為某作家的三部長篇小說內容簡介，該作家藉此構築十九至二十世紀$\\underline{臺灣}$歷史的發展過程。根據表中內容判斷，這三部小說呈現的時代先後順序，最可能是下列何者？",
+            "image": "112_society_38.png",
             "passing_rate": 0.51,
             "discrimination_index": 0.52,
             "choices": [
@@ -6372,12 +6386,21 @@
               }
             ],
             "correct_answer": "D",
-            "explanation": "先是抵抗日軍殖民的乙、再來參加文化協會與農民運動抗爭殖民的丙、最後被派至南洋\n戰場台灣青年的甲，因此選乙>丙>甲的 D 選項"
+            "explanation": "先是抵抗日軍殖民的乙、再來參加文化協會與農民運動抗爭殖民的丙、最後被派至南洋戰場台灣青年的甲，因此選乙>丙>甲的 D 選項"
           },
           {
             "type": "singleChoice",
             "number": 39,
-            "description": "明 清時期，蠶絲業是中國 江南地區的重要產業。當時產出的生絲，主要供應國內需求，部分對外出口。下列何者最可能反映1830年代生絲出口的情況？",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "$\\underline{明}$$\\underline{清}$時期，蠶絲業是$\\underline{中國}$$\\underline{江南}$地區的重要產業。當時產出的生絲，主要供應國內需求，部分對外出口。下列何者最可能反映1830年代生絲出口的情況？"
+              },
+              {
+                "type": "image",
+                "content": "112_society_39.png"
+              }
+            ],
             "passing_rate": 0.46,
             "discrimination_index": 0.59,
             "choices": [
@@ -6391,17 +6414,17 @@
                 "answer": "C"
               },
               {
-                "answer": "D",
-                "description": "46,655\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n5,1465,4303,44413,7943,6629,9980"
+                "answer": "D"
               }
             ],
             "correct_answer": "A",
-            "explanation": "中國自"
+            "explanation": "中國自1757年至1842年簽訂《南京條約》之前，清朝規定西洋商人只可以在廣州通商的政策，但中國商民不受此令限制，此為一口通商政策。因此選A"
           },
           {
             "type": "singleChoice",
             "number": 40,
-            "description": "表(七)是甲、乙兩國匯率變動的情形。根據表中表(七)\n時間1甲幣可兌換的乙幣\n去年10\n今年20\n內容判斷，若其他條件不變，且所有成本完全反應在商品售價上，相較於去年，在今年甲、\n乙兩國的市場中，最可能出現下列何種情形？",
+            "description": "表(七)是甲、乙兩國匯率變動的情形。根據表中內容判斷，若其他條件不變，且所有成本完全反應在商品售價上，相較於去年，在今年甲、乙兩國的市場中，最可能出現下列何種情形？",
+            "image": "112_society_40.png",
             "passing_rate": 0.64,
             "discrimination_index": 0.54,
             "choices": [
@@ -6423,34 +6446,35 @@
               }
             ],
             "correct_answer": "A",
-            "explanation": "一甲幣可兌換的乙幣變多，可能會造成甲國物品在乙國的銷售量下滑、價格上升，反之\n造成乙國物品在甲國銷售量上升情況、價格下降。因此選 A"
+            "explanation": "一甲幣可兌換的乙幣變多，可能會造成甲國物品在乙國的銷售量下滑、價格上升，反之造成乙國物品在甲國銷售量上升情況、價格下降。因此選 A"
           },
           {
             "type": "singleChoice",
             "number": 41,
-            "description": "圖(十三)是一座歷史建築，根據圖中內容判斷，該建築最可能興建於下列何時何地？\n(十三)",
+            "description": "圖(十三)是一座歷史建築，根據圖中內容判斷，該建築最可能興建於下列何時何地？",
+            "image": "112_society_41.png",
             "passing_rate": 0.26,
             "discrimination_index": 0.17,
             "choices": [
               {
                 "answer": "A",
-                "description": "西元前六世紀的波斯地區"
+                "description": "西元前六世紀的$\\underline{波斯}$地區"
               },
               {
                 "answer": "B",
-                "description": "西元六世紀的阿拉伯半島"
+                "description": "西元六世紀的$\\underline{阿拉伯半島}$"
               },
               {
                 "answer": "C",
-                "description": "西元十六世紀的印度半島"
+                "description": "西元十六世紀的$\\underline{印度半島}$"
               },
               {
                 "answer": "D",
-                "description": "西元十九世紀的南美地區圖"
+                "description": "西元十九世紀的$\\underline{南美}$地區"
               }
             ],
             "correct_answer": "C",
-            "explanation": ""
+            "explanation": "16世紀印度併吞孟加拉、喀什米爾等地，允許帝國統治下的印度邦國享有高度自主權，並實施宗教寬容，過去被迫信伊斯蘭教的印度人可以重新改信印度教，禁止欺壓穆斯林，免除印度教除人頭稅等等，並將波斯的伊斯蘭文化融進印度文化，發展出印地語和巫獨語，因此選C"
           },
           {
             "type": "singleChoice",
@@ -6461,11 +6485,11 @@
             "choices": [
               {
                 "answer": "A",
-                "description": "小華拒絕歸還向同事借的相機"
+                "description": "$\\underline{小華}$拒絕歸還向同事借的相機"
               },
               {
                 "answer": "B",
-                "description": "大明竊取隔壁鄰居家中的財物"
+                "description": "$\\underline{大明}$竊取隔壁鄰居家中的財物"
               },
               {
                 "answer": "C",
@@ -6482,7 +6506,8 @@
           {
             "type": "singleChoice",
             "number": 43,
-            "description": "甲國女性的就業率，長期以來皆大幅低於全國平均值，因此該國政府調查女性勞動人口中未就業者的原因，表(八)是調查結果中的部分統計資料。關於此資料的解讀，下列何者最適當？\n表(八)\n單位：%\n原因負責打理\n健康狀況需照顧 65 歲以上家屬\n家務不佳\n其他需照顧未滿\n12 歲子女年齡(歲)\n30-3465.370.8911.432.9819.3335-3955.352.6021.394.2616.4040-4435.365.1639.707.1512.6345-49\n  7.058.1058.045.5021.3150-54\n  0.537.5856.694.6930.51\n(44～54題)\n閱讀下列選文，回答第 44 至 45 題：\n歷史上的琉球王國與中國關係密切，在雙方數百年的交流之下，琉球文化在飲食、語言、風俗，甚至武術都受到中國影響。例如十九世紀前期琉球武術家佐久川寬賀，數度跟隨使節團前往中國，得以拜訪大師精進武藝，並將中國拳法融入傳統武術之中，形成「唐手」，他也被琉球人尊稱為「唐手佐久川」。之後，「唐手」得到琉球士族的重視，成為士族間秘傳的武術。\n十九世紀末，由於政治局勢發生變化，琉球王國遭到他國併吞，國王與士族被迫前往新統治者的都城居住，「唐手」也隨之傳入該國。經過一段時間的發展，「唐手」名稱改為同音異字的「空手」，即為今日的「空手道」。空手道在世界各地逐漸普及，並曾經被納入奧運比賽項目。",
+            "description": "甲國女性的就業率，長期以來皆大幅低於全國平均值，因此該國政府調查女性勞動人口中未就業者的原因，表(八)是調查結果中的部分統計資料。關於此資料的解讀，下列何者最適當？",
+            "image": "112_society_43.png",
             "passing_rate": 0.72,
             "discrimination_index": 0.56,
             "choices": [
@@ -6500,308 +6525,381 @@
               },
               {
                 "answer": "D",
-                "description": "勞雇間的權力與資源不對等二、題組："
+                "description": "勞雇間的權力與資源不對等"
               }
             ],
             "correct_answer": "C",
-            "explanation": "圖中無法看出老年人口比例上升、家庭職能弱化以及勞雇權力不對等之情形，反而可見\n仍有大部分女性因需照顧幼兒與老人因此未就業的狀況。因此選 C"
+            "explanation": "圖中無法看出老年人口比例上升、家庭職能弱化以及勞雇權力不對等之情形，反而可見仍有大部分女性因需照顧幼兒與老人因此未就業的狀況。因此選 C"
           },
           {
-            "type": "singleChoice",
-            "number": 44,
-            "description": "上文中「唐手佐久川」與王國的使節團得以前往中國，最可能與當時中國何項外交政策有關？",
-            "passing_rate": 0.57,
-            "discrimination_index": 0.48,
-            "choices": [
+            "type": "groupChoice",
+            "rich_content": [
               {
-                "answer": "A",
-                "description": "聯合西域部族對抗外患"
+                "type": "text",
+                "content": "請閱讀下列敘述後，回答44至45題："
               },
               {
-                "answer": "B",
-                "description": "簽訂條約，開放五口通商"
-              },
-              {
-                "answer": "C",
-                "description": "與受冊封國家建立朝貢關係"
-              },
-              {
-                "answer": "D",
-                "description": "訂定澶淵之盟，以兄弟相稱"
+                "type": "border",
+                "content": "        歷史上的$\\underline{琉球王國}$與$\\underline{中國}$關係密切，在雙方數百年的交流之下，$\\underline{琉球}$文化在飲食、語言、風俗，甚至武術都受到$\\underline{中國}$影響。例如十九世紀前期$\\underline{琉球}$武術家$\\underline{佐久川寬賀}$，數度跟隨使節團前往$\\underline{中國}$，得以拜訪大師精進武藝，並將$\\underline{中國}$拳法融入傳統武術之中，形成「唐手」，他也被琉球人尊稱為「唐手$\\underline{佐久川}$」。之後，「唐手」得到$\\underline{琉球}$士族的重視，成為士族間秘傳的武術。\n        十九世紀末，由於政治局勢發生變化，$\\underline{琉球王國}$遭到他國併吞，國王與士族被迫前往新統治者的都城居住，「唐手」也隨之傳入該國。經過一段時間的發展，「唐手」名稱改為同音異字的「空手」，即為今日的「空手道」。空手道在世界各地逐漸普及，並曾經被納入$\\underline{奧運}$比賽項目。"
               }
             ],
-            "correct_answer": "C",
-            "explanation": "44.(C)本題為宗主國(中國)與藩屬國(琉球)的關係，選 C"
+            "options": [
+              {
+                "type": "singleChoice",
+                "number": 44,
+                "description": "上文中「唐手$\\underline{佐久川}$」與王國的使節團得以前往$\\underline{中國}$，最可能與當時$\\underline{中國}$何項外交政策有關？",
+                "passing_rate": 0.57,
+                "discrimination_index": 0.48,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "聯合$\\underline{西域}$部族對抗外患"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "簽訂條約，開放五口通商"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "與受冊封國家建立朝貢關係"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "訂定$\\underline{澶淵}$之盟，以兄弟相稱"
+                  }
+                ],
+                "correct_answer": "C",
+                "explanation": "本題為宗主國(中國)與藩屬國(琉球)的關係，選 C"
+              },
+              {
+                "type": "singleChoice",
+                "number": 45,
+                "description": "上文提及「政治局勢發生變化」，造成「唐手」向外傳播，此一變化最可能是指下列何者？",
+                "passing_rate": 0.49,
+                "discrimination_index": 0.51,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "$\\underline{中國}$因甲午戰爭失敗割讓領土"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "天皇積極效法$\\underline{唐朝}$推展新制度"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "$\\underline{珍珠港}$事變導致$\\underline{美國}$對$\\underline{日}$宣戰"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "$\\underline{日本}$藉由$\\underline{牡丹社}$事件擴張勢力"
+                  }
+                ],
+                "correct_answer": "D",
+                "explanation": "清朝統治大約300年，從民國回推可知本文朝代為清朝，琉球遭他國併吞造成唐手向外傳播，最可能為牡丹社事件後，大清放棄琉球宗主權，割讓琉球群島給日本"
+              }
+            ]
           },
           {
-            "type": "singleChoice",
-            "number": 45,
-            "description": "上文提及「政治局勢發生變化」，造成「唐手」向外傳播，此一變化最可能是指下列何者？\n(起點)後，再進入步道挑戰登頂。\n小婷登山經驗豐富，表(九)是她整理的四條登山路線部分資訊，她這次計畫選擇其中平均坡度最陡的路線攀登以挑戰自我。\n表(九)\n          路線項目\n甲乙\n丙丁\n起點海拔高度(公尺)\n2,3051,970 \n1,440 \n2,380 \n終點海拔高度(公尺)\n3,7203,720 \n3,715 \n3,715 \n上山路線長度(公里)\n    7.5 \n    7.8 \n  11.0 \n    5.0 \n上山路線平均坡度(%)\n  18.9 \n  22.4 \n  20.7 \n  26.7 \n註：路線平均坡度(%)＝(終點高度– 起點高度)/路線長度100%",
-            "passing_rate": 0.49,
-            "discrimination_index": 0.51,
-            "choices": [
+            "type": "groupChoice",
+            "rich_content": [
               {
-                "answer": "A",
-                "description": "中國因甲午戰爭失敗割讓領土"
+                "type": "text",
+                "content": "請閱讀下列敘述後，回答46至48題："
               },
               {
-                "answer": "B",
-                "description": "天皇積極效法唐朝推展新制度"
+                "type": "border",
+                "content": "        $\\underline{日本}$$\\underline{富士山}$為一近似圓錐狀的火山，有四條主要的登山路線，開放時間為每年7月上旬至9月上旬，不同路線的開放時間會視情況而有幾天的差距。四條路線雖特色各異，但皆一路向上爬升，民眾可根據自身狀況及喜好選擇適合的上山路線，例如體力、經驗較為不足的人，會選擇坡度較緩的路線；而體力較好且經驗豐富者，則可以挑戰難度較高的上山路線。民眾需先搭乘巴士或其他代步工具至登山口(起點)後，再進入步道挑戰登頂。\n        $\\underline{小婷}$登山經驗豐富，表(九)是她整理的四條登山路線部分資訊，她這次計畫選擇其中平均坡度最陡的路線攀登以挑戰自我。"
               },
               {
-                "answer": "C",
-                "description": "珍珠港事變導致美國對日宣戰"
-              },
-              {
-                "answer": "D",
-                "description": "日本藉由牡丹社事件擴張勢力11\n閱讀下列選文，回答第 46 至 48 題：\n日本 富士山為一近似圓錐狀的火山，有四條主要的登山路線，開放時間為每年7月上旬至9月上旬，不同路線的開放時間會視情況而有幾天的差距。四條路線雖特色各異，但皆一路向上爬升，民眾可根據自身狀況及喜好選擇適合的上山路線，例如體力、經驗較為不足的人，會選擇坡度較緩的路線；而體力較好且經驗豐富者，則可以挑戰難度較高的上山路線。民眾需先搭乘巴士或其他代步工具至登山口"
+                "type": "image",
+                "content": "112_society_46-48.png"
               }
             ],
-            "correct_answer": "D",
-            "explanation": "清朝統治大約"
+            "options": [
+              {
+                "type": "singleChoice",
+                "number": 46,
+                "description": "上文中登山步道開放的起始時間，主要是因為此時已具備下列何項條件？",
+                "passing_rate": 0.6,
+                "discrimination_index": 0.53,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "地質穩定且地震較少"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "山上的積雪大多已融化"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "乾季雨少，步道不溼滑"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "西北季風盛行，天氣涼爽"
+                  }
+                ],
+                "correct_answer": "B",
+                "explanation": "會影響登山安全的以積雪影響較大，故選 B。A 與季節無關，CD 與安全關係較小"
+              },
+              {
+                "type": "singleChoice",
+                "number": 47,
+                "description": "圖(十四)為其中一條登山路線，依據圖中資訊判斷，最可能為表(九)中的何者？",
+                "image": "112_society_47.png",
+                "passing_rate": 0.83,
+                "discrimination_index": 0.47,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "甲"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "乙"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "丙"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "丁"
+                  }
+                ],
+                "correct_answer": "C",
+                "explanation": "起點海拔為1400，故選丙"
+              },
+              {
+                "type": "singleChoice",
+                "number": 48,
+                "description": "根據表(九)中資訊，$\\underline{小婷}$與體力、經驗較為不足的民眾，選擇的路線分別為下列何者？",
+                "passing_rate": 0.74,
+                "discrimination_index": 0.53,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "$\\underline{小婷}$選甲；體力、經驗較為不足的民眾選丁"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "$\\underline{小婷}$選乙；體力、經驗較為不足的民眾選丙"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "$\\underline{小婷}$選丙；體力、經驗較為不足的民眾選乙"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "$\\underline{小婷}$選丁；體力、經驗較為不足的民眾選甲"
+                  }
+                ],
+                "correct_answer": "D",
+                "explanation": "$\\underline{小婷}$要選平均坡度最陡的路線，而丁路線坡度26.7%最陡，選丁。經驗較不足的民眾選擇坡度較不陡的可能為甲或丙"
+              }
+            ]
           },
           {
-            "type": "singleChoice",
-            "number": 46,
-            "description": "上文中登山步道開放的起始時間，主要是因為此時已具備下列何項條件？",
-            "passing_rate": 0.6,
-            "discrimination_index": 0.53,
-            "choices": [
+            "type": "groupChoice",
+            "rich_content": [
               {
-                "answer": "A",
-                "description": "地質穩定且地震較少"
+                "type": "text",
+                "content": "請閱讀下列敘述後，回答49至51題："
               },
               {
-                "answer": "B",
-                "description": "山上的積雪大多已融化"
+                "type": "border",
+                "content": "        位於$\\underline{非洲}$西南端的$\\underline{開普敦}$，是影響世界歷史的重要都市。$\\underline{荷蘭}$人在1652年來到此地，因當地氣候適合，可種植$\\underline{歐洲}$常見的蔬果並釀製葡萄酒，用以補充船隻上的飲食，於是逐步將其建造為海上貿易的補給站。圖(十五)中的$\\underline{好望堡}$為統治者在$\\underline{開普敦}$的辦公地點，是由奴隸所建造，其中一部分的奴隸是由$\\underline{荷蘭}$在$\\underline{亞洲}$的殖民地輸出。1869年$\\underline{蘇伊士運河}$開通後，大量從$\\underline{歐洲}$出發的船隻改走新的通航路線而使開普敦逐漸沒落。時至今日，$\\underline{開普敦}$則以多元文化及豐富生態成為$\\underline{非洲}$熱門觀光景點。"
               },
               {
-                "answer": "C",
-                "description": "乾季雨少，步道不溼滑"
-              },
-              {
-                "answer": "D",
-                "description": "西北季風盛行，天氣涼爽"
+                "type": "image",
+                "content": "112_society_49-51.png"
               }
             ],
-            "correct_answer": "B",
-            "explanation": "會影響登山安全的以積雪影響較大，故選 B。A 與季節無關，CD 與安全關係較小"
+            "options": [
+              {
+                "type": "singleChoice",
+                "number": 49,
+                "description": "根據上文及圖(十五)的資訊判斷，上述都市的氣候特色應為下列何者？",
+                "passing_rate": 0.58,
+                "discrimination_index": 0.44,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "一月寒冷且年溫差大"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "一月溫暖且雨量較少"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "全年低溫且雨量稀少"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "終年有雨且夏雨較多"
+                  }
+                ],
+                "correct_answer": "B",
+                "explanation": "開普敦位置約在南緯33.92度，南半球1月為夏天故AC是錯的。與歐洲氣候相似，在考地中海型氣候，冬季有雨夏季雨少，以南半球而言則是1月夏季溫暖雨少，選B"
+              },
+              {
+                "type": "singleChoice",
+                "number": 50,
+                "description": "文中提及奴隸的輸出地最可能包含下列何者？",
+                "passing_rate": 0.64,
+                "discrimination_index": 0.59,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "$\\underline{南洋群島}$"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "$\\underline{朝鮮半島}$"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "$\\underline{伊比利半島}$"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "$\\underline{夏威夷群島}$"
+                  }
+                ],
+                "correct_answer": "A",
+                "explanation": "文中已提示奴隸來自荷蘭在亞洲的殖民地輸出，即是約為東南亞範圍的南洋群島或稱東印度群島"
+              },
+              {
+                "type": "singleChoice",
+                "number": 51,
+                "description": "文中提到船隻改走新的通航路線，是因此航路具備下列哪一優勢？",
+                "passing_rate": 0.67,
+                "discrimination_index": 0.48,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "大幅縮短至$\\underline{印度洋}$周邊的航行路程"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "可避免通過滿布浮冰的$\\underline{大西洋}$海域"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "可藉由$\\underline{北大西洋暖流}$加快航行速度"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "有助於疏解前往$\\underline{南美洲}$擁擠的航路"
+                  }
+                ],
+                "correct_answer": "A",
+                "explanation": "船隻從東南亞回到歐洲若可經由蘇伊士運河，就不用越過非洲最南端，可縮短大量航程"
+              }
+            ]
           },
           {
-            "type": "singleChoice",
-            "number": 47,
-            "description": "圖(十四)為其中一條登山路\n\n\n\n\n\n\n\n\n\n線，依據圖中資訊判斷，最可能為表(九)中的何者？\n(十四)",
-            "passing_rate": 0.83,
-            "discrimination_index": 0.47,
-            "choices": [
+            "type": "groupChoice",
+            "rich_content": [
               {
-                "answer": "A",
-                "description": "甲"
+                "type": "text",
+                "content": "請閱讀下列敘述後，回答52至54題："
               },
               {
-                "answer": "B",
-                "description": "乙"
+                "type": "border",
+                "content": "        $\\underline{美國}$的反體罰組織於1998年發起「不打小孩日」的活動，目的是藉著這一天宣傳反體罰的兒童人權觀念。這個最先在$\\underline{美國}$推動的活動，迅速得到國際社會的響應，2001年起，其他反體罰及兒童人權團體也開始於4月30日這一天舉辦各種活動，倡議終止體罰兒童，並推廣正面的管教方式。2006年，在國內許多民間團體共同響應下，$\\underline{臺灣}$也參與「國際不打小孩日」的活動，圖(十六)是相關活動的宣傳標語。\n        我國政府也致力建立更完善的法律制度來保障兒童權益，並以符合$\\underline{聯合國}$的標準為目標。例如，修訂《兒童及少年福利與權益保障法》，促使政府、社會大眾與家長正視兒童福利與虐待兒童的問題；修訂《教育基本法》，明文禁止校園體罰，藉由公權力保障學生不受體罰。政府的各種作法，目的是預防及保護兒童免於一切形式的暴力侵害，希望提供兒童更完善的成長環境。"
               },
               {
-                "answer": "C",
-                "description": "丙"
-              },
-              {
-                "answer": "D",
-                "description": "丁圖"
+                "type": "image",
+                "content": "112_society_52-54.png"
               }
             ],
-            "correct_answer": "C",
-            "explanation": "起點海拔為"
-          },
-          {
-            "type": "singleChoice",
-            "number": 48,
-            "description": "根據表(九)中資訊，小婷與體力、經驗較為不足的民眾，選擇的路線分別為下列何者？\n(十五)中的好望堡為統治者在開普敦的辦公地點，是由奴隸所建造，其中一部分的奴隸是由荷蘭在亞洲的殖民\n地輸出。1869年蘇伊士運河開通後，\n大量從歐洲出發的船隻改走新的通航路線而使開普敦逐漸沒落。時至今日，開普敦則以多元文化及豐富生態成為非洲熱門觀光景點。\n圖(十五)",
-            "passing_rate": 0.74,
-            "discrimination_index": 0.53,
-            "choices": [
+            "options": [
               {
-                "answer": "A",
-                "description": "小婷選甲；體力、經驗較為不足的民眾選丁"
+                "type": "singleChoice",
+                "number": 52,
+                "description": "關於文中活動理念對$\\underline{臺灣}$帶來影響的過程，最適合以下列何者說明？",
+                "passing_rate": 0.6,
+                "discrimination_index": 0.36,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "法律修改程序的變化"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "科技發展帶來的衝擊"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "風俗習慣的文化傳承"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "全球化下的文化交流"
+                  }
+                ],
+                "correct_answer": "D",
+                "explanation": "這是來自其他國家的倡議，屬於全球化的文化交流"
               },
               {
-                "answer": "B",
-                "description": "小婷選乙；體力、經驗較為不足的民眾選丙"
+                "type": "singleChoice",
+                "number": 53,
+                "description": "根據圖(十六)判斷，關於這則宣傳標語所呈現的意義，下列敘述何者最適當？",
+                "passing_rate": 0.78,
+                "discrimination_index": 0.51,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "主張對實施體罰者提起訴訟加以處罰"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "藉由改變家長價值觀來帶動社會變遷"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "上街請願要求國家立法保障兒童福利"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "推廣法治教育教導兒童保護自身權益"
+                  }
+                ],
+                "correct_answer": "B",
+                "explanation": "題目問的是宣傳標語，宣傳標語並未提到任何法律或訴訟，故較適合的答案為 B"
               },
               {
-                "answer": "C",
-                "description": "小婷選丙；體力、經驗較為不足的民眾選乙"
-              },
-              {
-                "answer": "D",
-                "description": "小婷選丁；體力、經驗較為不足的民眾選甲1閱讀下列選文，回答第 49 至 51 題：\n位於非洲西南端的開普敦，是影\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n響世界歷史的重要都市。荷蘭人在1652年來到此地，因當地氣候適合，\n可種植歐洲常見的蔬果並釀製葡萄酒，用以補充船隻上的飲食，於是逐步將其建造為海上貿易的補給站。圖"
+                "type": "singleChoice",
+                "number": 54,
+                "description": "關於文末前、後所提及我國的二項法規，下列敘述何者最適當？",
+                "passing_rate": 0.6,
+                "discrimination_index": 0.53,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "以法律位階而言，前者具有最高性"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "以法律位階而言，後者具有固定性"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "以修法程序而言，皆須經總統公布後才生效"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "以修法程序而言，皆可由行政機關自行修訂"
+                  }
+                ],
+                "correct_answer": "C",
+                "explanation": "法律位階分為憲法、法律、行政法，若是法律則末尾為(法、律、條例、通則)，故本文中兩條皆為法律位階，須由總統公布後生效"
               }
-            ],
-            "correct_answer": "D",
-            "explanation": "小婷要選平均坡度最陡的路線，而丁路線坡度"
-          },
-          {
-            "type": "singleChoice",
-            "number": 49,
-            "description": "根據上文及圖(十五)的資訊判斷，上述都市的氣候特色應為下列何者？",
-            "passing_rate": 0.58,
-            "discrimination_index": 0.44,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "一月寒冷且年溫差大"
-              },
-              {
-                "answer": "B",
-                "description": "一月溫暖且雨量較少"
-              },
-              {
-                "answer": "C",
-                "description": "全年低溫且雨量稀少"
-              },
-              {
-                "answer": "D",
-                "description": "終年有雨且夏雨較多"
-              }
-            ],
-            "correct_answer": "B",
-            "explanation": "開普敦位置約在南緯"
-          },
-          {
-            "type": "singleChoice",
-            "number": 50,
-            "description": "文中提及奴隸的輸出地最可能包含下列何者？",
-            "passing_rate": 0.64,
-            "discrimination_index": 0.59,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "南洋群島"
-              },
-              {
-                "answer": "B",
-                "description": "朝鮮半島"
-              },
-              {
-                "answer": "C",
-                "description": "伊比利半島"
-              },
-              {
-                "answer": "D",
-                "description": "夏威夷群島"
-              }
-            ],
-            "correct_answer": "A",
-            "explanation": "文中已提示奴隸來自荷蘭在亞洲的殖民地輸出，即是約為東南亞範圍的南洋群島或稱\n東印度群島"
-          },
-          {
-            "type": "singleChoice",
-            "number": 51,
-            "description": "文中提到船隻改走新的通航路線，是因此航路具備下列哪一優勢？\n(十六)\n天宣傳反體罰的兒童人權觀念。這個最先在美國推動的活動，迅速得到國際社會的響應，2001年起，其他反體罰及兒童人權團體也開始於 \n4月30日這一天舉辦各種活動，\n倡議終止體罰兒童，並推廣正面的管教方式。2006年，在國內許多民間團體共同響應下，\n臺灣也參與「國際不打小孩日」的活動，圖(十六)是相關活動的宣傳標語。\n我國政府也致力建立更完善的法律制度來保障兒童權益，並以符合聯合國的標準為目標。例如，修訂《兒童及少年福利與權益保障法》，促使政府、社會大眾與家長正視兒童福利與虐待兒童的問題；修訂《教育基本法》，明文禁止校園體罰，藉由公權力保障學生不受體罰。政府的各種作法，目的是預防及保護兒童免於一切形式的暴力侵害，希望提供兒童更完善的成長環境。",
-            "passing_rate": 0.67,
-            "discrimination_index": 0.48,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "大幅縮短至印度洋周邊的航行路程"
-              },
-              {
-                "answer": "B",
-                "description": "可避免通過滿布浮冰的大西洋海域"
-              },
-              {
-                "answer": "C",
-                "description": "可藉由北大西洋暖流加快航行速度"
-              },
-              {
-                "answer": "D",
-                "description": "有助於疏解前往南美洲擁擠的航路13\n閱讀下列選文，回答第 52 至 54 題：\n美國的反體罰組織於1998年發起「不打小孩日」的活動，目的是藉著這一\n\n\n\n\n\n\n\n圖"
-              }
-            ],
-            "correct_answer": "A",
-            "explanation": "船隻從東南亞回到歐洲若可經由蘇伊士運河，就不用越過非洲最南端，可縮短大量航程"
-          },
-          {
-            "type": "singleChoice",
-            "number": 52,
-            "description": "關於文中活動理念對臺灣帶來影響的過程，最適合以下列何者說明？",
-            "passing_rate": 0.6,
-            "discrimination_index": 0.36,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "法律修改程序的變化"
-              },
-              {
-                "answer": "B",
-                "description": "科技發展帶來的衝擊"
-              },
-              {
-                "answer": "C",
-                "description": "風俗習慣的文化傳承"
-              },
-              {
-                "answer": "D",
-                "description": "全球化下的文化交流"
-              }
-            ],
-            "correct_answer": "D",
-            "explanation": "這是來自其他國家的倡議，屬於全球化的文化交流"
-          },
-          {
-            "type": "singleChoice",
-            "number": 53,
-            "description": "根據圖(十六)判斷，關於這則宣傳標語所呈現的意義，下列敘述何者最適當？",
-            "passing_rate": 0.78,
-            "discrimination_index": 0.51,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "主張對實施體罰者提起訴訟加以處罰"
-              },
-              {
-                "answer": "B",
-                "description": "藉由改變家長價值觀來帶動社會變遷"
-              },
-              {
-                "answer": "C",
-                "description": "上街請願要求國家立法保障兒童福利"
-              },
-              {
-                "answer": "D",
-                "description": "推廣法治教育教導兒童保護自身權益"
-              }
-            ],
-            "correct_answer": "B",
-            "explanation": "題目問的是宣傳標語，宣傳標語並未提到任何法律或訴訟，故較適合的答案為 B"
-          },
-          {
-            "type": "singleChoice",
-            "number": 54,
-            "description": "關於文末前、後所提及我國的二項法規，下列敘述何者最適當？",
-            "passing_rate": 0.6,
-            "discrimination_index": 0.53,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "以法律位階而言，前者具有最高性"
-              },
-              {
-                "answer": "B",
-                "description": "以法律位階而言，後者具有固定性"
-              },
-              {
-                "answer": "C",
-                "description": "以修法程序而言，皆須經總統公布後才生效"
-              },
-              {
-                "answer": "D",
-                "description": "以修法程序而言，皆可由行政機關自行修訂14"
-              }
-            ],
-            "correct_answer": "C",
-            "explanation": "法律位階分為憲法、法律、行政法，若是法律則末尾為(法、律、條例、通則)，故本文中兩\n條皆為法律位階，須由總統公布後生效"
+            ]
           }
         ]
       }
