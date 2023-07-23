@@ -6031,6 +6031,7 @@
             "type": "singleChoice",
             "number": 25,
             "description": "圖(十)為$\\underline{世界銀行}$繪製用來展現世界各國經濟實力的示意圖，圖中矩形面積的大小可呈現2011年該國經濟規模的大小。圖中甲國最可能是下列何者？",
+            "image": "112_society_25.png",
             "passing_rate": 0.56,
             "discrimination_index": 0.41,
             "choices": [
