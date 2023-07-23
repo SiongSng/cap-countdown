@@ -5670,43 +5670,44 @@
               },
               {
                 "answer": "D",
-                "description": "尊重多元文化，促進部落文化傳承3"
+                "description": "尊重多元文化，促進部落文化傳承"
               }
             ],
             "correct_answer": "D",
-            "explanation": "將不同族群傳統祭典或儀式納入法律保障中，為尊重不同文化之行為，選 D"
+            "explanation": "將不同族群傳統祭典或儀式納入法律保障中，為尊重不同文化之行為，選 D。"
           },
           {
             "type": "singleChoice",
             "number": 13,
-            "description": "棗椰樹屬於棕櫚科植物，主要分布在熱帶乾燥地區，其果實稱為椰棗，既可作糧食，又是製糖的原料。全球有上億棵棗椰樹，其中前兩大分布區為西亞和甲地區，椰棗也成為這些地區重要的出口農產品。上述甲地區最可能為下列何者？",
+            "description": "棗椰樹屬於棕櫚科植物，主要分布在熱帶乾燥地區，其果實稱為椰棗，既可作糧食，又是製糖的原料。全球有上億棵棗椰樹，其中前兩大分布區為$\\underline{西亞}$和甲地區，椰棗也成為這些地區重要的出口農產品。上述甲地區最可能為下列何者？",
             "passing_rate": 0.62,
             "discrimination_index": 0.5,
             "choices": [
               {
                 "answer": "A",
-                "description": "北非"
+                "description": "$\\underline{北非}$"
               },
               {
                 "answer": "B",
-                "description": "南歐"
+                "description": "$\\underline{南歐}$"
               },
               {
                 "answer": "C",
-                "description": "中美洲"
+                "description": "$\\underline{中美洲}$"
               },
               {
                 "answer": "D",
-                "description": "東南亞"
+                "description": "$\\underline{東南亞}$"
               }
             ],
             "correct_answer": "A",
-            "explanation": "關鍵字；熱帶乾燥地區，BCD 皆不符合，選 A"
+            "explanation": "關鍵字：熱帶乾燥地區，BCD 皆不符合，選 A。"
           },
           {
             "type": "singleChoice",
             "number": 14,
-            "description": "圖(六)的詩為唐代詩人登上今湖北 襄陽的一座山圖(六)\n頭，見石碑碑文有感而發之作。詩中「水落魚梁淺」指山腳下的魚梁沙洲因水位變化而露出水面，\n作者藉以說明環境與世事的變化。關於形成「水落魚梁淺」現象的原因，下列推論何者最為適切？",
+            "image": "112_society_14.png",
+            "description": "圖(六)的詩為$\\underline{唐代}$詩人登上今$\\underline{湖北}$ $\\underline{襄陽}$的一座山圖(六)\n頭，見石碑碑文有感而發之作。詩中「水落魚梁淺」指山腳下的$\\underline{魚梁}$沙洲因水位變化而露出水面，\n作者藉以說明環境與世事的變化。關於形成「水落魚梁淺」現象的原因，下列推論何者最為適切？",
             "passing_rate": 0.68,
             "discrimination_index": 0.4,
             "choices": [
@@ -5728,62 +5729,67 @@
               }
             ],
             "correct_answer": "B",
-            "explanation": "ACD 選項較不為週期性固定發生事件，B 選項較符合題幹所述之原因"
+            "explanation": "ACD 選項較不為週期性固定發生事件，B 選項較符合題幹所述之原因。"
           },
           {
             "type": "singleChoice",
             "number": 15,
-            "description": "圖(七)為跨太平洋夥伴全面8\n12\n59\n34\n106\n117\n\n圖(七)\n進步協定(CPTPP)的11個成員國。該協定於2018年12月30日生效，各成員國之間將階段性的廢除關稅，以促進貿易往來。此協定生效後，\n下列何者最可能因關稅劣勢而受到衝擊？",
+            "description": "圖(七)為$\\underline{跨太平洋夥伴全面進步協定}$(CPTPP)的11個成員國。該協定於2018年12月30日生效，各成員國之間將階段性的廢除關稅，以促進貿易往來。此協定生效後，下列何者最可能因關稅劣勢而受到衝擊？",
+            "image": "112_society_15.png",
             "passing_rate": 0.48,
             "discrimination_index": 0.36,
             "choices": [
               {
                 "answer": "A",
-                "description": "臺灣的紡織品出口至越南"
+                "description": "$\\underline{臺灣}$的紡織品出口至$\\underline{越南}$"
               },
               {
                 "answer": "B",
-                "description": "加拿大的小麥出口至日本"
+                "description": "$\\underline{加拿大}$的小麥出口至$\\underline{日本}$"
               },
               {
                 "answer": "C",
-                "description": "墨西哥的汽車出口至智利"
+                "description": "$\\underline{墨西哥}$的汽車出口至$\\underline{智利}$"
               },
               {
                 "answer": "D",
-                "description": "馬來西亞的石油出口至印度"
+                "description": "$\\underline{馬來西亞}$的石油出口至$\\underline{印度}$"
               }
             ],
             "correct_answer": "A",
-            "explanation": "台灣並無參與 CPTPP 組織中，出口產品容易因關稅問題而受到衝擊，因此選 A"
+            "explanation": "台灣並無參與 CPTPP 組織中，出口產品容易因關稅問題而受到衝擊，因此選 A。"
           },
           {
             "type": "singleChoice",
             "number": 16,
-            "description": "某地區於2017年入選為世界遺產，該地區涵蓋了森林、谷地、潟湖及珊瑚礁等景觀，遺產的中心是玻里尼西亞普遍可見的毛利集會中心，此遺產是毛利文化極具代表性的見證。根據上文描述判斷，該遺產最可能位於下列何處？\n(11.88°N，2.49°E)\n(49.93°N，115.43°E)\n(16.84°S，151.37°W)\n(42.85°S，71.87°W)",
+            "description": "某地區於2017年入選為世界遺產，該地區涵蓋了森林、谷地、潟湖及珊瑚礁等景觀，遺產的中心是$\\underline{玻里尼西亞}$普遍可見的$\\underline{毛利}$集會中心，此遺產是$\\underline{毛利}$文化極具代表性的見證。根據上文描述判斷，該遺產最可能位於下列何處？",
             "passing_rate": 0.54,
             "discrimination_index": 0.43,
             "choices": [
               {
-                "answer": "A"
+                "answer": "A",
+                "description": "(11.88°N，2.49°E)"
               },
               {
-                "answer": "B"
+                "answer": "B",
+                "description": "(49.93°N，115.43°E)"
               },
               {
-                "answer": "C"
+                "answer": "C",
+                "description": "(16.84°S，151.37°W)"
               },
               {
-                "answer": "D"
+                "answer": "D",
+                "description": "(42.85°S，71.87°W)"
               }
             ],
             "correct_answer": "C",
-            "explanation": "關鍵字：森林、谷地、潟湖及珊瑚礁，因此選南北緯<"
+            "explanation": "關鍵字：森林、谷地、潟湖及珊瑚礁，因此選南北緯小於 23.5 度的 C 選項。"
           },
           {
             "type": "singleChoice",
             "number": 17,
-            "description": "《周成過臺灣》是著名的民間傳說，其時代背景符合史實。故事描述周成拋下故鄉泉州的妻兒，獨自來臺經商。適逢淡水、雞籠開港通商，周成在大稻埕從事新興商品出口而致富。後來周成移情別戀，謀殺了來臺灣探視的妻子，最終受到報應而死。根據上述內容，周成最有可能從事下列何種商品的貿易？",
+            "description": "《$\\underline{周成}$過$\\underline{臺灣}$》是著名的民間傳說，其時代背景符合史實。故事描述$\\underline{周成}$拋下故鄉$\\underline{泉州}$的妻兒，獨自來$\\underline{臺}$經商。適逢$\\underline{淡水}$、$\\underline{雞籠}$開港通商，$\\underline{周成}$在$\\underline{大稻埕}$從事新興商品出口而致富。後來$\\underline{周成}$移情別戀，謀殺了來$\\underline{臺灣}$探視的妻子，最終受到報應而死。根據上述內容，$\\underline{周成}$最有可能從事下列何種商品的貿易？",
             "passing_rate": 0.72,
             "discrimination_index": 0.57,
             "choices": [
@@ -5805,39 +5811,40 @@
               }
             ],
             "correct_answer": "A",
-            "explanation": "淡水、基隆分別於"
+            "explanation": "淡水、基隆分別於 1861、1863 年開港，地點為大稻埕新興商品。因此選 A 茶葉。"
           },
           {
             "type": "singleChoice",
             "number": 18,
-            "description": "以下是某歷史人物在其著作中的相關內容：「我們可以假設人類在社會形成以前，所有人都是平等的。然而人們為了解決集體生活所產生的問題，透過公眾的協商形成公意，且將全部的權力，託付由公意組成的政府，因為能夠代表公意的政府，是不受私念限制、必然公正的。政府依循公意制定法律、\n建立秩序，人們只要守法、服從公意，就能得到真正的自由。」上述內容最可能與下列何者有關？",
+            "description": "以下是某歷史人物在其著作中的相關內容：「我們可以假設人類在社會形成以前，所有人都是平等的。然而人們為了解決集體生活所產生的問題，透過公眾的協商形成公意，且將全部的權力，託付由公意組成的政府，因為能夠代表公意的政府，是不受私念限制、必然公正的。政府依循公意制定法律、建立秩序，人們只要守法、服從公意，就能得到真正的自由。」上述內容最可能與下列何者有關？",
             "passing_rate": 0.65,
             "discrimination_index": 0.38,
             "choices": [
               {
                 "answer": "A",
-                "description": "盧梭關於主權在民的主張"
+                "description": "$\\underline{盧梭}$關於主權在民的主張"
               },
               {
                 "answer": "B",
-                "description": "希特勒針對種族主義的論述"
+                "description": "$\\underline{希特勒}$針對種族主義的論述"
               },
               {
                 "answer": "C",
-                "description": "馬克思對於工廠制度的批評"
+                "description": "$\\underline{馬克思}$對於工廠制度的批評"
               },
               {
                 "answer": "D",
-                "description": "孟德斯鳩闡明三權分立的觀點"
+                "description": "$\\underline{孟德斯鳩}$闡明三權分立的觀點"
               }
             ],
             "correct_answer": "A",
-            "explanation": "題幹為描述人民組成政府、守法即自由等理念，為主權在民的概念，因此選 A"
+            "explanation": "題幹為描述人民組成政府、守法即自由等理念，為主權在民的概念，因此選 A。"
           },
           {
             "type": "singleChoice",
             "number": 19,
-            "description": "圖(八)是霞喀羅國家步道的介紹圖，其舊名為「霞喀羅、薩克亞金警備道路」。\n此道路的開闢，是因為過去臺灣統治者為達到某一目的而下令修築。根據圖中內容判斷，統治者最初開闢這條道路的目的，最可能與下列何者有關？\n\n \n \n\n\n\n\n\n\n\n\n圖(八)",
+            "description": "圖(八)是$\\underline{霞喀羅國家步道}$的介紹圖，其舊名為「$\\underline{霞喀羅、薩克亞金警備道路}$」。此道路的開闢，是因為過去$\\underline{臺灣}$統治者為達到某一目的而下令修築。根據圖中內容判斷，統治者最初開闢這條道路的目的，最可能與下列何者有關？",
+            "image": "112_society_19.png",
             "passing_rate": 0.65,
             "discrimination_index": 0.52,
             "choices": [
@@ -5859,39 +5866,49 @@
               }
             ],
             "correct_answer": "D",
-            "explanation": "關鍵字：砲台、重機槍以及總督府，推論為"
+            "explanation": "關鍵字：砲台、重機槍以及總督府，推論為 1895 至 1945 年日治時期之理蕃政策，選 D。"
           },
           {
             "type": "singleChoice",
             "number": 20,
-            "description": "「關於我的『政治主張』，因為和蔣委員長在意見上的衝突，已經沒有和解的\n& 蔣委員長：此處指蔣中正。\n跡象。我考慮了三種方法來解決此事，第一是辭職、第二是勸諫、第三是兵諫。第一個方法因為我的國難家仇，和東北軍部下們的反對而不可行。最近我試了第二個方法，但導致蔣委員長極端憤怒。因此我決定採取第三個方法，以武力拘禁蔣委員長。」上述「政治主張」最可能為下列何者？",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "「關於我的『政治主張』，因為和$\\underline{蔣}$委員長在意見上的衝突，已經沒有和解的跡象。我考慮了三種方法來解決此事，第一是辭職、第二是勸諫、第三是兵諫。第一個方法因為我的國難家仇，和$\\underline{東北軍}$部下們的反對而不可行。最近我試了第二個方法，但導致蔣委員長極端憤怒。因此我決定採取第三個方法，以武力拘禁$\\underline{蔣}$委員長。」上述「政治主張」最可能為下列何者？"
+              },
+              {
+                "type": "border",
+                "content": "📖 蔣委員長：此處指蔣中正。",
+                "alignment": "centerRight"
+              }
+            ],
             "passing_rate": 0.58,
             "discrimination_index": 0.61,
             "choices": [
               {
                 "answer": "A",
-                "description": "立即停止內戰，聯合各黨派抗日"
+                "description": "立即停止內戰，聯合各黨派抗$\\underline{日}$"
               },
               {
                 "answer": "B",
-                "description": "反對洪憲帝制，起兵討伐袁世凱"
+                "description": "反對$\\underline{洪憲}$帝制，起兵討伐$\\underline{袁世凱}$"
               },
               {
                 "answer": "C",
-                "description": "終結軍閥混戰，完成中國的統一"
+                "description": "終結軍閥混戰，完成$\\underline{中國}$的統一"
               },
               {
                 "answer": "D",
-                "description": "攘外必先安內，全力剿滅共產黨5"
+                "description": "攘外必先安內，全力剿滅$\\underline{共產黨}$"
               }
             ],
             "correct_answer": "A",
-            "explanation": "西安事變是第一次國共內戰末期的一場軍事政變。"
+            "explanation": "西安事變是第一次國共內戰末期的一場軍事政變。1936 年 12 月 12 日，時任西北剿匪總司令部的東北軍將領張學良與國民革命軍總指揮的西北軍將領楊虎城在西安發動「兵諫」，扣押國民政府軍事委員會委員長兼行政院院長蔣介石，要求蔣介石立即抗日，停止「剿共」。"
           },
           {
             "type": "singleChoice",
             "number": 21,
-            "description": "雅加達自十七世紀以來一直是印尼的政治、經濟中心，不過由於人口過於集中加上大量開發，對環境已產生過多負荷。近年來，雅加達的民眾飽受交通壅塞、空氣汙染、地層下陷及水患之苦，因此印尼政府計畫將首都遷至婆羅洲。但有生態專家提出警告，該處是紅毛猩猩的棲息地，遷都計畫所需的開發過程必須謹慎評估，否則反而可能破壞環境，造成生態浩劫。上述討論內容與下列何項議題最相符？",
+            "description": "$\\underline{雅加達}$自十七世紀以來一直是$\\underline{印尼}$的政治、經濟中心，不過由於人口過於集中加上大量開發，對環境已產生過多負荷。近年來，$\\underline{雅加達}$的民眾飽受交通壅塞、空氣汙染、地層下陷及水患之苦，因此$\\underline{印尼}$政府計畫將首都遷至$\\underline{婆羅洲}$。但有生態專家提出警告，該處是紅毛猩猩的棲息地，遷都計畫所需的開發過程必須謹慎評估，否則反而可能破壞環境，造成生態浩劫。上述討論內容與下列何項議題最相符？",
             "passing_rate": 0.78,
             "discrimination_index": 0.55,
             "choices": [
@@ -5913,12 +5930,12 @@
               }
             ],
             "correct_answer": "B",
-            "explanation": "題幹描述為討論首都遷移與環境保育的平衡點。因此選Ｂ"
+            "explanation": "題幹描述為討論首都遷移與環境保育的平衡點，因此選Ｂ。"
           },
           {
             "type": "singleChoice",
             "number": 22,
-            "description": "國際刑警組織共有195個成員國，總部建有一個存放上百萬名國際刑事罪犯檔案的資料庫供成員國使用。我國目前受限於一個中國原則，無法加入此國際組織，因此未能分享或接收該組織的情報資訊，所以難以確認入境我國的旅客在境外是否有犯罪紀錄，而從我國潛逃出境的犯罪者也較難被繩之以法。\n上述內容顯示一個中國原則對我國產生下列哪一影響？",
+            "description": "$\\underline{國際刑警組織}$共有195個成員國，總部建有一個存放上百萬名國際刑事罪犯檔案的資料庫供成員國使用。我國目前受限於一個$\\underline{中國}$原則，無法加入此國際組織，因此未能分享或接收該組織的情報資訊，所以難以確認入境我國的旅客在境外是否有犯罪紀錄，而從我國潛逃出境的犯罪者也較難被繩之以法。\n上述內容顯示一個$\\underline{中國}$原則對我國產生下列哪一影響？",
             "passing_rate": 0.72,
             "discrimination_index": 0.5,
             "choices": [
@@ -5940,12 +5957,26 @@
               }
             ],
             "correct_answer": "D",
-            "explanation": "題幹描述因一個中國所造成資訊受限，對於犯罪者身分不清楚所造成的治安風險，因\n此選Ｄ"
+            "explanation": "題幹描述因一個中國所造成資訊受限，對於犯罪者身分不清楚所造成的治安風險，因此選Ｄ。"
           },
           {
             "type": "singleChoice",
             "number": 23,
-            "description": "圖(九)呈現我國1998至2018年間，\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n收入最高20%家庭與收入最低20%\n家庭的可支配所得成長率變化，其中灰階區塊是曾發生經濟成長率大\n幅衰退的兩段時間。根據圖中內容判斷，上述兩個灰階區塊的數據，\n呈現出下列哪一現象？\n\n\n\n\n\n\n\n\n\n& 家庭可支配所得：家庭可以自由使用 \n     於消費或儲蓄的所得。\n圖(九)",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "圖(九)呈現我國1998至2018年間，收入最高20%家庭與收入最低20%家庭的可支配所得成長率變化，其中灰階區塊是曾發生經濟成長率大幅衰退的兩段時間。根據圖中內容判斷，上述兩個灰階區塊的數據，呈現出下列哪一現象？"
+              },
+              {
+                "type": "image",
+                "content": "112_society_23.png"
+              },
+              {
+                "type": "border",
+                "content": "📖 家庭可支配所得：家庭可以自由使用於消費或儲蓄的所得。",
+                "alignment": "centerRight"
+              }
+            ],
             "passing_rate": 0.8,
             "discrimination_index": 0.46,
             "choices": [
@@ -5967,12 +5998,12 @@
               }
             ],
             "correct_answer": "B",
-            "explanation": "由圖片可知，收入最低"
+            "explanation": "由圖片可知，收入最低 20% 因為兩次事件皆使成長率變為負成長，面臨較大的衝擊，因此選 B。"
           },
           {
             "type": "singleChoice",
             "number": 24,
-            "description": "甲在質詢行政院 衛生福利部部長時，指出某飲料製造商早已知道自家產品出現變質問題，嚴重影響消費者權益，但該公司卻不主動回收處理，反而繼續販售變質的產品，對於這種明知故犯的行為，政府應予以重罰。關於甲所擔任的公職，下列敘述何者正確？",
+            "description": "甲在質詢$\\underline{行政院}$ $\\underline{衛生福利部}$部長時，指出某飲料製造商早已知道自家產品出現變質問題，嚴重影響消費者權益，但該公司卻不主動回收處理，反而繼續販售變質的產品，對於這種明知故犯的行為，政府應予以重罰。關於甲所擔任的公職，下列敘述何者正確？",
             "passing_rate": 0.5,
             "discrimination_index": 0.55,
             "choices": [
@@ -5990,43 +6021,44 @@
               },
               {
                 "answer": "D",
-                "description": "由行政院院長提請總統任命70,000"
+                "description": "由$\\underline{行政院}$院長提請總統任命"
               }
             ],
             "correct_answer": "B",
-            "explanation": "題幹中甲為質詢衛福部長的身分，應為立法委員，為中央層級選舉負責審查中央政府\n預算之職。因此選Ｂ"
+            "explanation": "題幹中甲為質詢衛福部長的身分，應為立法委員，為中央層級選舉負責審查中央政府預算之職，因此選Ｂ。"
           },
           {
             "type": "singleChoice",
             "number": 25,
-            "description": "圖(十)為世界銀行繪製用來展現世界各60,00050,000\n\n\n\n\n\n\n40,00030,000\n\n\n\n\n20,00013,460\n\n10,000\n\n00\n\n10 20 30 40 50 60 70 80 90 100國經濟實力的示意圖，圖中矩形面積的大小可呈現2011年該國經濟規模的大\n小。圖中甲國最可能是下列何者？\n(十)",
+            "description": "圖(十)為$\\underline{世界銀行}$繪製用來展現世界各國經濟實力的示意圖，圖中矩形面積的大小可呈現2011年該國經濟規模的大小。圖中甲國最可能是下列何者？",
             "passing_rate": 0.56,
             "discrimination_index": 0.41,
             "choices": [
               {
                 "answer": "A",
-                "description": "印度"
+                "description": "$\\underline{印度}$"
               },
               {
                 "answer": "B",
-                "description": "美國"
+                "description": "$\\underline{美國}$"
               },
               {
                 "answer": "C",
-                "description": "德國"
+                "description": "$\\underline{德國}$"
               },
               {
                 "answer": "D",
-                "description": "奈及利亞圖"
+                "description": "$\\underline{奈及利亞}$"
               }
             ],
             "correct_answer": "A",
-            "explanation": "甲國佔了全世界人口約"
+            "explanation": "甲國佔了全世界人口約 20%，因此選 A。"
           },
           {
             "type": "singleChoice",
             "number": 26,
-            "description": "圖(十一)為貫穿美洲的泛美\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n圖(十一)\n公路示意圖，主幹線北起美國 阿拉斯加，南至智利。美洲多國可透過這個公路系統\n相互連結，但巴拿馬到哥倫比亞之間的路段至今尚未修\n建。根據圖中資訊判斷，該路段未修建的原因之一最可\n能為下列何者？",
+            "description": "圖(十一)為貫穿$\\underline{美洲}$的$\\underline{泛美公路}$示意圖，主幹線北起$\\underline{美國}$ $\\underline{阿拉斯加}$，南至$\\underline{智利}$。$\\underline{美洲}$多國可透過這個公路系統相互連結，但$\\underline{巴拿馬}$到$\\underline{哥倫比亞}$之間的路段至今尚未修建。根據圖中資訊判斷，該路段未修建的原因之一最可能為下列何者？",
+            "image": "112_society_26.png",
             "passing_rate": 0.42,
             "discrimination_index": 0.27,
             "choices": [
@@ -6044,16 +6076,16 @@
               },
               {
                 "answer": "D",
-                "description": "維護因紐特人文化"
+                "description": "維護$\\underline{因紐特}$人文化"
               }
             ],
             "correct_answer": "B",
-            "explanation": "圖中未修建路段為熱帶雨林生態，此處無年溫差大、運河阻隔或因紐特人文化影響，因\n此選Ｂ"
+            "explanation": "圖中未修建路段為熱帶雨林生態，此處無年溫差大、運河阻隔或因紐特人文化影響，因此選Ｂ"
           },
           {
             "type": "singleChoice",
             "number": 27,
-            "description": "西班牙海外島嶼的某座火\n\n\n\n\n\n\n\n\n\n\n圖(十二)\n山於2021年9月噴發，圖\n(十二)為其噴發後熔岩流及 火 山 灰 落 塵 分 布 的 狀況。根據圖中資訊判斷，\n下列推論何者較為合理？\n(三)",
+            "description": "西班牙海外島嶼的某座火山於2021年9月噴發，圖(十二)為其噴發後熔岩流及 火 山 灰 落 塵 分 布 的 狀況。根據圖中資訊判斷，下列推論何者較為合理？",
             "passing_rate": 0.46,
             "discrimination_index": 0.51,
             "choices": [
@@ -6545,7 +6577,6 @@
             ],
             "options": [
               {
-                "type": "singleChoice",
                 "number": 44,
                 "description": "上文中「唐手$\\underline{佐久川}$」與王國的使節團得以前往$\\underline{中國}$，最可能與當時$\\underline{中國}$何項外交政策有關？",
                 "passing_rate": 0.57,
@@ -6572,7 +6603,6 @@
                 "explanation": "本題為宗主國(中國)與藩屬國(琉球)的關係，選 C"
               },
               {
-                "type": "singleChoice",
                 "number": 45,
                 "description": "上文提及「政治局勢發生變化」，造成「唐手」向外傳播，此一變化最可能是指下列何者？",
                 "passing_rate": 0.49,
@@ -6618,7 +6648,6 @@
             ],
             "options": [
               {
-                "type": "singleChoice",
                 "number": 46,
                 "description": "上文中登山步道開放的起始時間，主要是因為此時已具備下列何項條件？",
                 "passing_rate": 0.6,
@@ -6645,7 +6674,6 @@
                 "explanation": "會影響登山安全的以積雪影響較大，故選 B。A 與季節無關，CD 與安全關係較小"
               },
               {
-                "type": "singleChoice",
                 "number": 47,
                 "description": "圖(十四)為其中一條登山路線，依據圖中資訊判斷，最可能為表(九)中的何者？",
                 "image": "112_society_47.png",
@@ -6673,7 +6701,6 @@
                 "explanation": "起點海拔為1400，故選丙"
               },
               {
-                "type": "singleChoice",
                 "number": 48,
                 "description": "根據表(九)中資訊，$\\underline{小婷}$與體力、經驗較為不足的民眾，選擇的路線分別為下列何者？",
                 "passing_rate": 0.74,
@@ -6719,7 +6746,6 @@
             ],
             "options": [
               {
-                "type": "singleChoice",
                 "number": 49,
                 "description": "根據上文及圖(十五)的資訊判斷，上述都市的氣候特色應為下列何者？",
                 "passing_rate": 0.58,
@@ -6746,7 +6772,6 @@
                 "explanation": "開普敦位置約在南緯33.92度，南半球1月為夏天故AC是錯的。與歐洲氣候相似，在考地中海型氣候，冬季有雨夏季雨少，以南半球而言則是1月夏季溫暖雨少，選B"
               },
               {
-                "type": "singleChoice",
                 "number": 50,
                 "description": "文中提及奴隸的輸出地最可能包含下列何者？",
                 "passing_rate": 0.64,
@@ -6773,7 +6798,6 @@
                 "explanation": "文中已提示奴隸來自荷蘭在亞洲的殖民地輸出，即是約為東南亞範圍的南洋群島或稱東印度群島"
               },
               {
-                "type": "singleChoice",
                 "number": 51,
                 "description": "文中提到船隻改走新的通航路線，是因此航路具備下列哪一優勢？",
                 "passing_rate": 0.67,
@@ -6819,7 +6843,6 @@
             ],
             "options": [
               {
-                "type": "singleChoice",
                 "number": 52,
                 "description": "關於文中活動理念對$\\underline{臺灣}$帶來影響的過程，最適合以下列何者說明？",
                 "passing_rate": 0.6,
@@ -6846,7 +6869,6 @@
                 "explanation": "這是來自其他國家的倡議，屬於全球化的文化交流"
               },
               {
-                "type": "singleChoice",
                 "number": 53,
                 "description": "根據圖(十六)判斷，關於這則宣傳標語所呈現的意義，下列敘述何者最適當？",
                 "passing_rate": 0.78,
@@ -6873,7 +6895,6 @@
                 "explanation": "題目問的是宣傳標語，宣傳標語並未提到任何法律或訴訟，故較適合的答案為 B"
               },
               {
-                "type": "singleChoice",
                 "number": 54,
                 "description": "關於文末前、後所提及我國的二項法規，下列敘述何者最適當？",
                 "passing_rate": 0.6,
