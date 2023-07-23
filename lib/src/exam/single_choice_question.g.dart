@@ -24,6 +24,7 @@ SingleChoiceQuestion _$SingleChoiceQuestionFromJson(
       correctAnswer:
           $enumDecode(_$QuestionAnswerEnumMap, json['correct_answer']),
       explanation: json['explanation'] as String?,
+      explanationImage: json['explanation_image'] as String?,
     );
 
 Map<String, dynamic> _$SingleChoiceQuestionToJson(
@@ -38,6 +39,7 @@ Map<String, dynamic> _$SingleChoiceQuestionToJson(
       'choices': instance.choices.map((e) => e.toJson()).toList(),
       'correct_answer': _$QuestionAnswerEnumMap[instance.correctAnswer]!,
       'explanation': instance.explanation,
+      'explanation_image': instance.explanationImage,
       'rich_content': instance.richContents?.map((e) => e.toJson()).toList(),
       'type': _$QuestionTypeEnumMap[instance.type]!,
     };

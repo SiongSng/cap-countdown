@@ -16,6 +16,7 @@ class OptionalQuestion {
   final int number;
   final String? description;
   final String? image;
+
   final String? audio;
   @JsonKey(name: 'passing_rate')
   final double? passingRate;
@@ -25,6 +26,8 @@ class OptionalQuestion {
   @JsonKey(name: 'correct_answer')
   final QuestionAnswer correctAnswer;
   final String? explanation;
+  @JsonKey(name: 'explanation_image')
+  final String? explanationImage;
   @JsonKey(name: 'rich_content')
   final List<QuestionRichContent>? richContents;
 
@@ -38,13 +41,14 @@ class OptionalQuestion {
     required this.number,
     this.description,
     this.image,
+    this.richContents,
     this.audio,
     required this.passingRate,
     required this.discriminationIndex,
     required this.choices,
     required this.correctAnswer,
     this.explanation,
-    this.richContents,
+    this.explanationImage,
   }) {
     crossOutItems = List.generate(choices.length, (_) => false);
   }
@@ -102,6 +106,7 @@ class OptionalQuestion {
           listEquals(choices, other.choices) &&
           correctAnswer == other.correctAnswer &&
           explanation == other.explanation &&
+          explanationImage == other.explanationImage &&
           listEquals(richContents, other.richContents);
 
   @override
@@ -115,6 +120,7 @@ class OptionalQuestion {
       choices.hashCode ^
       correctAnswer.hashCode ^
       explanation.hashCode ^
+      explanationImage.hashCode ^
       richContents.hashCode;
 }
 
