@@ -68,7 +68,8 @@ class _CountdownPageState extends State<CountdownPage>
               FilledButton.icon(
                 onPressed: () {
                   launchUrlString(
-                      'https://cap.rcpet.edu.tw/exam/112/112P_Answer.pdf');
+                      'https://cap.rcpet.edu.tw/exam/112/112P_Answer.pdf',
+                      mode: LaunchMode.externalApplication);
                 },
                 icon: const Icon(Icons.book_outlined),
                 label: const Text('參考答案'),
@@ -76,7 +77,8 @@ class _CountdownPageState extends State<CountdownPage>
               FilledButton.icon(
                 onPressed: () {
                   launchUrlString(
-                      'https://cap.rcpet.edu.tw/exam/112/112%E5%B9%B4%E5%9C%8B%E4%B8%AD%E6%95%99%E8%82%B2%E6%9C%83%E8%80%83%E5%90%84%E7%A7%91%E7%AD%89%E7%B4%9A%E5%8A%A0%E6%A8%99%E7%A4%BA%E8%88%87%E7%AD%94%E5%B0%8D%E9%A1%8C%E6%95%B8%E5%B0%8D%E7%85%A7%E8%A1%A8(C8B9-D792-CE57-B546-ED55-255F-E713-2D49).pdf');
+                      'https://cap.rcpet.edu.tw/exam/112/112%E5%B9%B4%E5%9C%8B%E4%B8%AD%E6%95%99%E8%82%B2%E6%9C%83%E8%80%83%E5%90%84%E7%A7%91%E7%AD%89%E7%B4%9A%E5%8A%A0%E6%A8%99%E7%A4%BA%E8%88%87%E7%AD%94%E5%B0%8D%E9%A1%8C%E6%95%B8%E5%B0%8D%E7%85%A7%E8%A1%A8(C8B9-D792-CE57-B546-ED55-255F-E713-2D49).pdf',
+                      mode: LaunchMode.externalApplication);
                 },
                 icon: const Icon(Icons.book_outlined),
                 label: const Text('題數與等級對照表'),
