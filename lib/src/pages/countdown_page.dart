@@ -58,7 +58,7 @@ class _CountdownPageState extends State<CountdownPage>
                   CAPUtil.checkChoiceFillingTime(
                       context,
                       config.examResultAnnouncedTime,
-                      'https://cap.rcpet.edu.tw',
+                      'https://score.rcpet.edu.tw',
                       '成績查詢',
                       '現在還無法查詢成績，請等待至 %time% 方可查詢。');
                 },
