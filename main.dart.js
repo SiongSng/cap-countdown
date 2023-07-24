@@ -58457,7 +58457,7 @@ A.aCZ.prototype={
 $0(){var s=this.a.c
 s.toString
 $.nX()
-A.aSQ(s,A.U4(J.aX($.my.aX(),"exam_result_announced_time")).w1(),"https://cap.rcpet.edu.tw","\u6210\u7e3e\u67e5\u8a62","\u73fe\u5728\u9084\u7121\u6cd5\u67e5\u8a62\u6210\u7e3e\uff0c\u8acb\u7b49\u5f85\u81f3 %time% \u65b9\u53ef\u67e5\u8a62\u3002")},
+A.aSQ(s,A.U4(J.aX($.my.aX(),"exam_result_announced_time")).w1(),"https://score.rcpet.edu.tw","\u6210\u7e3e\u67e5\u8a62","\u73fe\u5728\u9084\u7121\u6cd5\u67e5\u8a62\u6210\u7e3e\uff0c\u8acb\u7b49\u5f85\u81f3 %time% \u65b9\u53ef\u67e5\u8a62\u3002")},
 $S:0}
 A.aD_.prototype={
 $0(){A.pT("https://cap.rcpet.edu.tw/exam/112/112P_Answer.pdf")},
