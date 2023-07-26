@@ -13767,7 +13767,7 @@
               }
             ],
             "correct_answer": "A",
-            "explanation": ""
+            "explanation": "第二象限內的任意一點，x座標皆為負、y座標皆為正，ABCD四點中只有A點符合\n故選A"
           },
           {
             "type": "singleChoice",
@@ -13794,7 +13794,7 @@
               }
             ],
             "correct_answer": "B",
-            "explanation": ""
+            "explanation": "原式 $=(-8)+6$$=-2$\n故選B"
           },
           {
             "type": "singleChoice",
@@ -13821,7 +13821,7 @@
               }
             ],
             "correct_answer": "D",
-            "explanation": ""
+            "explanation": "$6y-x$$=6y-4y$$=2y$$=10$$\\Rightarrow$$y=5$、$x$$=4\\times5$$=20$，$a+b$$=x+y$$=20+5$$=25$\n故選D"
           },
           {
             "type": "singleChoice",
@@ -13849,7 +13849,7 @@
               }
             ],
             "correct_answer": "C",
-            "explanation": ""
+            "explanation": "$\\triangle ABD$$=\\frac{ABCD}{2}$$=\\frac{20}{2}$$=10$，$\\triangle ADE$$=\\triangle BDE$$-\\triangle ABD $$=24 - 10$$=14$\n故選C"
           },
           {
             "type": "singleChoice",
@@ -13876,7 +13876,7 @@
               }
             ],
             "correct_answer": "D",
-            "explanation": ""
+            "explanation": "$5^6 \\div 5^3$$=5^{(6-3)}$$=5^3$$=125$\n故選D"
           },
           {
             "type": "singleChoice",
@@ -13903,7 +13903,7 @@
               }
             ],
             "correct_answer": "C",
-            "explanation": ""
+            "explanation": "(C)$4\\sqrt{3}  $$\\times 2\\sqrt{3} $$ = (4\\times\\sqrt{3})$$\\times(2\\times\\sqrt{3})$$=8$$\\times(\\sqrt{3})^2$$=8\\times3$$=24$$\\neq 8\\sqrt{3}$\n故選C"
           },
           {
             "type": "singleChoice",
@@ -13943,7 +13943,7 @@
               }
             ],
             "correct_answer": "B",
-            "explanation": ""
+            "explanation": "(A)第2~4分時在下降\n(C)(D)終點海拔比起點高 $350-50$$=300$ 公尺\n故選B"
           },
           {
             "type": "singleChoice",
@@ -13970,7 +13970,7 @@
               }
             ],
             "correct_answer": "C",
-            "explanation": ""
+            "explanation": "(A)(C)$(248+52)^2$$=248^2$$+2\\times248\\times52$$+52^2$$=300^2$\n(B)(D)$(248-48)^2$$=248^2$$-2\\times248\\times48$$+48^2$$=200^2$\n僅C正確，故選C"
           },
           {
             "type": "singleChoice",
@@ -13998,7 +13998,7 @@
               }
             ],
             "correct_answer": "C",
-            "explanation": ""
+            "explanation": "觀察圖表可知6月英國最少、7月日本最少、8月美國最少、9月英國最少\n故選C"
           },
           {
             "type": "singleChoice",
@@ -14025,7 +14025,7 @@
               }
             ],
             "correct_answer": "D",
-            "explanation": ""
+            "explanation": "令弧長為 $5\\pi$ 的扇形之圓心角為 $\\theta$，$2$$\\times\\pi$$\\times 6$$\\times \\frac{\\theta}{360^\\circ }$$=5\\pi $$\\Rightarrow$$\\theta$$=150^\\circ$，另一個扇形的圓心角為 $360^\\circ$$-150^\\circ$$=210^\\circ$\n故選D"
           },
           {
             "type": "singleChoice",
@@ -14252,6 +14252,7 @@
             "type": "singleChoice",
             "number": 19,
             "description": "如圖 ( 八 )，$\\triangle ABC$ 中，D、E、F 三點分別在 $\\overline{AB}$、$\\overline{BC}$、$\\overline{AC}$ 上，且四邊形 BEFD 是以 $\\overline{DE}$ 為對稱軸的線對稱圖形，四邊形 CFDE 是以 $\\overline{FE}$ 為對稱軸的線對稱圖形。若 $\\angle C = 40^\\circ $，則 $\\angle DFE$ 的度數為何？",
+            "image": "110_math_19.png",
             "passing_rate": 0.53,
             "discrimination_index": 0.57,
             "choices": [
@@ -14300,7 +14301,7 @@
               }
             ],
             "correct_answer": "B",
-            "explanation": "從乙出租的總車輛數=從乙租在甲還的車輛數+從乙租在乙還的車輛數=4+13=17，從甲出租-從乙出租 $=15-17=-2$\n故選B"
+            "explanation": "從乙出租的總車輛數=從乙租在甲還的車輛數+從乙租在乙還的車輛數 $=4+13$$=17$，從甲出租-從乙出租 $=15-17=-2$\n故選B"
           },
           {
             "type": "singleChoice",
