@@ -5644,8 +5644,8 @@
               },
               {
                 "type": "border",
-                "content": "《紀念日及節日實施辦法》第4條：下列民俗節日，除春節放假三日外，其餘均放假一日：\n一、春節。\n           ...\n           ...\n           ...\n六、原住民族歲時祭儀：各該原住民族放假日期，由行政院原住民族委員會參酌各該原住民族習俗公告，並刊登政府公報。",
-                "alignment": "centerRight"
+                "content": "《紀念日及節日實施辦法》第4條：下列民俗節日，除春節放假三日外，其餘均放假一日：\n一、春節。\n$\\ \\ \\qquad\\vdots$\n$\\ \\ \\qquad\\vdots$\n六、原住民族歲時祭儀：各該原住民族放假日期，由行政院原住民族委員會參酌各該原住民族習俗公告，並刊登政府公報。",
+                "alignment": "center"
               },
               {
                 "type": "text",
@@ -13727,6 +13727,751 @@
     "year": 110,
     "name": "110 年國中教育會考",
     "subjects": [
+      {
+        "name": "數學科",
+        "duration": 80,
+        "grade_markings": {
+          "A++": 94.23,
+          "A+": 88.46,
+          "A": 79.42,
+          "B++": 69.62,
+          "B+": 59.81,
+          "B": 39.42,
+          "C": 0
+        },
+        "subject_id": "Math",
+        "questions": [
+          {
+            "type": "singleChoice",
+            "number": 1,
+            "description": "圖 ( 一 ) 的坐標平面上有 A、B、C、D 四點。根據圖 ( 一 ) 中各點位置判斷，哪一個點在第二象限？",
+            "image": "110_math_1.png",
+            "passing_rate": 0.88,
+            "discrimination_index": 0.46,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "A"
+              },
+              {
+                "answer": "B",
+                "description": "B"
+              },
+              {
+                "answer": "C",
+                "description": "C"
+              },
+              {
+                "answer": "D",
+                "description": "D"
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "第二象限內的任意一點，x座標皆為負、y座標皆為正，ABCD四點中只有A點符合\n故選A"
+          },
+          {
+            "type": "singleChoice",
+            "number": 2,
+            "description": "算式 $(−8) + (−2) \\times (−3)$ 之值為何？",
+            "passing_rate": 0.83,
+            "discrimination_index": 0.52,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "−14"
+              },
+              {
+                "answer": "B",
+                "description": "−2"
+              },
+              {
+                "answer": "C",
+                "description": "18"
+              },
+              {
+                "answer": "D",
+                "description": "30"
+              }
+            ],
+            "correct_answer": "B",
+            "explanation": "原式 $=(-8)+6$$=-2$\n故選B"
+          },
+          {
+            "type": "singleChoice",
+            "number": 3,
+            "description": "若二元一次聯立方程式 $\\left\\{\\begin{matrix}x = 4y\\qquad\\\\6y-x=10\\end{matrix}\\right.$ 的解為 $x = a$，$y = b$，則 $a + b$ 之值為何？",
+            "passing_rate": 0.79,
+            "discrimination_index": 0.6,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "−15"
+              },
+              {
+                "answer": "B",
+                "description": "−3"
+              },
+              {
+                "answer": "C",
+                "description": "5"
+              },
+              {
+                "answer": "D",
+                "description": "25"
+              }
+            ],
+            "correct_answer": "D",
+            "explanation": "$6y-x$$=6y-4y$$=2y$$=10$$\\Rightarrow$$y=5$、$x$$=4\\times5$$=20$，$a+b$$=x+y$$=20+5$$=25$\n故選D"
+          },
+          {
+            "type": "singleChoice",
+            "number": 4,
+            "description": "如圖 ( 二 )，矩形 ABCD、$\\triangle BDE$ 中，A 點在 $\\overline{BE}$ 上。若矩形 ABCD 的面積為 20，$\\triangle BDE$ 的面積為 24，則 $\\triangle ADE$ 的面積為何？",
+            "image": "110_math_4.png",
+            "passing_rate": 0.82,
+            "discrimination_index": 0.49,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "10"
+              },
+              {
+                "answer": "B",
+                "description": "12"
+              },
+              {
+                "answer": "C",
+                "description": "14"
+              },
+              {
+                "answer": "D",
+                "description": "16"
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "$\\triangle ABD$$=\\frac{ABCD}{2}$$=\\frac{20}{2}$$=10$，$\\triangle ADE$$=\\triangle BDE$$-\\triangle ABD $$=24 - 10$$=14$\n故選C"
+          },
+          {
+            "type": "singleChoice",
+            "number": 5,
+            "description": "$5^6$ 是 $5^3$ 的多少倍？",
+            "passing_rate": 0.8,
+            "discrimination_index": 0.52,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "2"
+              },
+              {
+                "answer": "B",
+                "description": "3"
+              },
+              {
+                "answer": "C",
+                "description": "25"
+              },
+              {
+                "answer": "D",
+                "description": "125"
+              }
+            ],
+            "correct_answer": "D",
+            "explanation": "$5^6 \\div 5^3$$=5^{(6-3)}$$=5^3$$=125$\n故選D"
+          },
+          {
+            "type": "singleChoice",
+            "number": 6,
+            "description": "下列等式何者$\\underline{\\underline{不成立}}$？",
+            "passing_rate": 0.71,
+            "discrimination_index": 0.6,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "$4\\sqrt{3}  $$+ 2\\sqrt{3}  $$= 6\\sqrt{3}$"
+              },
+              {
+                "answer": "B",
+                "description": "$4\\sqrt{3}  $$− 2\\sqrt{3}  $$= 2\\sqrt{3}$"
+              },
+              {
+                "answer": "C",
+                "description": "$4\\sqrt{3}  $$\\times 2\\sqrt{3} $$ = 8\\sqrt{3}$"
+              },
+              {
+                "answer": "D",
+                "description": "$4\\sqrt{3} \\div 2\\sqrt{3}  = 2$"
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "(C)$4\\sqrt{3}  $$\\times 2\\sqrt{3} $$ = (4\\times\\sqrt{3})$$\\times(2\\times\\sqrt{3})$$=8$$\\times(\\sqrt{3})^2$$=8\\times3$$=24$$\\neq 8\\sqrt{3}$\n故選C"
+          },
+          {
+            "type": "singleChoice",
+            "number": 7,
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "已知纜車從起點行駛到終點需花費 8 分鐘，圖 ( 三 ) 表示行駛過程中纜車的海拔高度與行駛時間的關係。"
+              },
+              {
+                "type": "image",
+                "content": "110_math_7.png"
+              },
+              {
+                "type": "text",
+                "content": "根據圖 ( 三 ) 判斷，下列敘述何者正確？"
+              }
+            ],
+            "passing_rate": 0.86,
+            "discrimination_index": 0.44,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "終點的海拔高度比起點高 300 公尺，行駛時間的前 4 分鐘都在上升"
+              },
+              {
+                "answer": "B",
+                "description": "終點的海拔高度比起點高 300 公尺，行駛時間的末 4 分鐘都在上升"
+              },
+              {
+                "answer": "C",
+                "description": "終點的海拔高度比起點高 350 公尺，行駛時間的前 4 分鐘都在上升"
+              },
+              {
+                "answer": "D",
+                "description": "終點的海拔高度比起點高 350 公尺，行駛時間的末 4 分鐘都在上升"
+              }
+            ],
+            "correct_answer": "B",
+            "explanation": "(A)第2~4分時在下降\n(C)(D)終點海拔比起點高 $350-50$$=300$ 公尺\n故選B"
+          },
+          {
+            "type": "singleChoice",
+            "number": 8,
+            "description": "利用乘法公式判斷，下列等式何者成立？",
+            "passing_rate": 0.76,
+            "discrimination_index": 0.55,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "$248^2 $$+ 248 \\times 52 $$+ 52^2 $$= 300^2$"
+              },
+              {
+                "answer": "B",
+                "description": "$248^2 $$− 248 \\times 48 $$− 48^2 $$= 200^2$"
+              },
+              {
+                "answer": "C",
+                "description": "$248^2 $$+ 2 \\times 248 \\times 52 $$+ 52^2 $$= 300^2$"
+              },
+              {
+                "answer": "D",
+                "description": "$248^2 $$− 2 \\times 248 \\times 48 $$− 48^2 $$= 200^2$"
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "(A)(C)$(248+52)^2$$=248^2$$+2\\times248\\times52$$+52^2$$=300^2$\n(B)(D)$(248-48)^2$$=248^2$$-2\\times248\\times48$$+48^2$$=200^2$\n僅C正確，故選C"
+          },
+          {
+            "type": "singleChoice",
+            "number": 9,
+            "description": "圖 ( 四 ) 為甲城市 6 月到 9 月外國旅客人數的折線圖。根據圖 ( 四 ) 判斷，哪一個月到甲城市的外國旅客中，旅客人數最少的國家是$\\underline{美國}$？",
+            "image": "110_math_9.png",
+            "passing_rate": 0.77,
+            "discrimination_index": 0.53,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "6"
+              },
+              {
+                "answer": "B",
+                "description": "7"
+              },
+              {
+                "answer": "C",
+                "description": "8"
+              },
+              {
+                "answer": "D",
+                "description": "9"
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "觀察圖表可知6月英國最少、7月日本最少、8月美國最少、9月英國最少\n故選C"
+          },
+          {
+            "type": "singleChoice",
+            "number": 10,
+            "description": "將一半徑為 6 的圓形紙片，沿著兩條半徑剪開形成兩個扇形。若其中一個扇形的弧長為 $5\\pi$ ，則另一個扇形的圓心角度數是多少？",
+            "passing_rate": 0.61,
+            "discrimination_index": 0.7,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "30"
+              },
+              {
+                "answer": "B",
+                "description": "60"
+              },
+              {
+                "answer": "C",
+                "description": "105"
+              },
+              {
+                "answer": "D",
+                "description": "210"
+              }
+            ],
+            "correct_answer": "D",
+            "explanation": "令弧長為 $5\\pi$ 的扇形之圓心角為 $\\theta$，$2$$\\times\\pi$$\\times 6$$\\times \\frac{\\theta}{360^\\circ }$$=5\\pi $$\\Rightarrow$$\\theta$$=150^\\circ$，另一個扇形的圓心角為 $360^\\circ$$-150^\\circ$$=210^\\circ$\n故選D"
+          },
+          {
+            "type": "singleChoice",
+            "number": 11,
+            "description": "動物園準備了 100 張刮刮樂，打算送給開幕當日的前 100 位遊客每人一張，其中可刮中獎品的刮刮樂共有 32 張，表 ( 一 ) 為獎品的種類及數量。若$\\underline{小柏}$為開幕當日的第一位遊客，且每張刮刮樂被$\\underline{小柏}$拿到的機會相等，則$\\underline{小柏}$刮中玩偶的機率為何？",
+            "image": "110_math_11.png",
+            "passing_rate": 0.64,
+            "discrimination_index": 0.58,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "$\\frac{1}{2}$"
+              },
+              {
+                "answer": "B",
+                "description": "$\\frac{1}{16}$"
+              },
+              {
+                "answer": "C",
+                "description": "$\\frac{8}{25}$"
+              },
+              {
+                "answer": "D",
+                "description": "$\\frac{1}{50}$"
+              }
+            ],
+            "correct_answer": "D",
+            "explanation": "$p$$=\\frac{1+1}{100}$$=\\frac{2}{100}$$=\\frac{1}{50}$\n故選D"
+          },
+          {
+            "type": "singleChoice",
+            "number": 12,
+            "description": "$\\underline{美美}$和$\\underline{小儀}$到超市購物，且超市正在舉辦摸彩活動，單次消費金額每滿 100 元可以拿到 1 張摸彩券。已知$\\underline{美美}$一次購買 5 盒餅乾拿到 3 張摸彩券；$\\underline{小儀}$一次購買 5 盒餅乾與 1 個蛋糕拿到 4 張摸彩券。若每盒餅乾的售價為 x 元，每個蛋糕的售價為 150 元，則 x 的範圍為下列何者？",
+            "passing_rate": 0.69,
+            "discrimination_index": 0.49,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "$50 \\leq x < 60$"
+              },
+              {
+                "answer": "B",
+                "description": "$60 \\leq x < 70$"
+              },
+              {
+                "answer": "C",
+                "description": "$70 \\leq x < 80$"
+              },
+              {
+                "answer": "D",
+                "description": "$80 \\leq x < 90$"
+              }
+            ],
+            "correct_answer": "B",
+            "explanation": "依題意列式 $\\left\\{\\begin{matrix}   4 \\times 100>5x\\geq3 \\times 100 \\qquad \\ \\ \\  \\\\    5 \\times 100>5x+150\\geq4 \\times 100 \\\\\\end{matrix}\\right. $$\\Rightarrow\\left\\{\\begin{matrix}   80>x\\geq60  \\\\    70>x\\geq50 \\\\\\end{matrix}\\right. $$\\Rightarrow\n70>x\\geq60$\n故選B"
+          },
+          {
+            "type": "singleChoice",
+            "number": 13,
+            "description": "已知 $a_1$，$a_2$，$\\dots\\dots$，$a_{40}$ 為一等差數列，其中 $a_1$ 為正數，且 $a_{20} $$+ a_{22} $$= 0$。判斷下列敘述何者正確？",
+            "passing_rate": 0.65,
+            "discrimination_index": 0.57,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "$a_{21} + a_{22} > 0$"
+              },
+              {
+                "answer": "B",
+                "description": "$a_{21} + a_{22} < 0$"
+              },
+              {
+                "answer": "C",
+                "description": "$a_{21} \\times a_{22} > 0$"
+              },
+              {
+                "answer": "D",
+                "description": "$a_{21} \\times a_{22} < 0$"
+              }
+            ],
+            "correct_answer": "B",
+            "explanation": "$a_{20}$$+a_{22}$$\\Rightarrow$$a_{20}$$=-a_{22}$，又$a_{1}$ 為正數，故公差d 為負，$a_{20}$$>0$$>a_{22}$\n$a_{20}$$+a_{22}$$=(a_{21}-d)+(a_{21}+d)$$=2\\times a_{21}$$=0$$\\Rightarrow$$a_{21}=0$\n(A)$a_{21}$$+a_{22}$$<0$\n(B)正確\n(C)(D)$a_{21}$$\\times a_{22}$$=0$故選B"
+          },
+          {
+            "type": "singleChoice",
+            "number": 14,
+            "description": "已知 $a = −\\frac{5}{223}$，$b = \\frac{6}{263}$，$c = −\\frac{7}{293}$，判斷下列各式之值何者最大？",
+            "passing_rate": 0.6,
+            "discrimination_index": 0.55,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "$\\lvert a + b + c \\rvert$"
+              },
+              {
+                "answer": "B",
+                "description": "$\\lvert a + b − c \\rvert$"
+              },
+              {
+                "answer": "C",
+                "description": "$\\lvert a − b + c \\rvert$"
+              },
+              {
+                "answer": "D",
+                "description": "$\\lvert a − b − c \\rvert$"
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "絕對值會使負數變為正數，故選擇 a、b、c 經過加減運算後最大或最小的值，即為選項C $a-b+c$ 為最小值\n故選C"
+          },
+          {
+            "type": "singleChoice",
+            "number": 15,
+            "description": "已知 $\\triangle ABC$ 與 $\\triangle  DEF$ 全等 ， A、B、C 的對應點分別為 D、E、F，且 E 點在 $\\overline{AC}$ 上，B、F、C、D 四點共線，如圖 ( 五 ) 所示。若 $\\angle A = 40^\\circ $， $\\triangle CED = 35^\\circ $， 則下列敘述何者正確？",
+            "image": "110_math_15.png",
+            "passing_rate": 0.5,
+            "discrimination_index": 0.34,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "$\\overline{EF} = \\overline{EC}$，$\\overline{AE} = \\overline{FC}$"
+              },
+              {
+                "answer": "B",
+                "description": "$\\overline{EF} = \\overline{EC}$，$\\overline{AE} \\neq \\overline{FC}$"
+              },
+              {
+                "answer": "C",
+                "description": "$\\overline{EF} \\neq \\overline{EC}$，$\\overline{AE} = \\overline{FC}$"
+              },
+              {
+                "answer": "D",
+                "description": "$\\overline{EF} \\neq \\overline{EC}$，$\\overline{AE} \\neq \\overline{FC}$"
+              }
+            ],
+            "correct_answer": "B",
+            "explanation": "因 $\\triangle ABC\\cong \\triangle DEF$ (點對點按順序排列)，故 $\\angle EFD$$=\\angle BCA$$\\Rightarrow $$\\overline{EF}$$=\\overline{EC}$\n$\\angle D$$=\\angle A$$=40^\\circ$$>\\angle CED$$=35^\\circ$$\\Rightarrow$$\\overline{CE}>\\overline{CD}$，又 $\\overline{AC}$$=\\overline{DF}$，故 $\\overline{AE}$$=\\overline{AC}$$-\\overline{EC}$$>\\overline{CF}$$=\\overline{DF}$$-\\overline{CD}$\n故選B"
+          },
+          {
+            "type": "singleChoice",
+            "number": 16,
+            "description": "圖 ( 六 ) 為某超商促銷活動的內容，今$\\underline{阿賢}$到該超商拿相差 4 元的 2 種飯糰各 1 個結帳時，店員說：「要不要多買 2 瓶指定飲料？搭配促銷活動後 2 組優惠價的金額，只比你買 2 個飯糰的金額多 30 元。」若$\\underline{阿賢}$只多買 1 瓶指定飲料，且店員會以對消費者最便宜的方式結帳，則與原本只買 2 個飯糰相比，他要多付多少元？",
+            "image": "110_math_16.png",
+            "passing_rate": 0.58,
+            "discrimination_index": 0.57,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "12"
+              },
+              {
+                "answer": "B",
+                "description": "13"
+              },
+              {
+                "answer": "C",
+                "description": "15"
+              },
+              {
+                "answer": "D",
+                "description": "16"
+              }
+            ],
+            "correct_answer": "B",
+            "explanation": "設兩種飯糰的價格分別為 $x$、$x+4$ 元，依題意列得程式 $39\\times 2$$-(x+x+4)$$=30$$\\Rightarrow$$x=22$，$39+22$$-(22+22+4)$$=13$\n故選B"
+          },
+          {
+            "type": "singleChoice",
+            "number": 17,
+            "description": "如圖 ( 七 )，梯形 ABCD 中，  $\\overline{AD} // \\overline{BC}$ ，有一圓 O 通過 A、B、C 三點，且 $\\overline{AD}$ 與圓 O 相切於 A 點。若 $\\angle B = 58^\\circ $，則 $\\overset{\\frown}{BC}$ 的度數為何？",
+            "image": "110_math_17.png",
+            "passing_rate": 0.48,
+            "discrimination_index": 0.54,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "116"
+              },
+              {
+                "answer": "B",
+                "description": "120"
+              },
+              {
+                "answer": "C",
+                "description": "122"
+              },
+              {
+                "answer": "D",
+                "description": "128"
+              }
+            ],
+            "correct_answer": "D",
+            "explanation": "作 $\\overrightarrow{AO}$ 交 $\\overline{BC}$ 於 H 點，因 $\\overline{AD}$ 為圓 O 之切線且 $\\overline{AD}//\\overline{BC}$，$\\angle OAD$$=\\angle AHB$$=\\angle AHC$$=90^\\circ$，又 $\\overline{AH}$$=\\overline{AH}$ (共用邊)、$\\overline{BH}$$=\\overline{CH}$ (弦心距垂直平分弦)，故 $\\triangle AHB$$\\cong \\triangle AHC$ (SAS)，$\\angle ABC$$=\\angle ACB$$=58^\\circ $、$\\angle BAC$$=180^\\circ-58^\\circ-58^\\circ$$=64^\\circ$，$\\overset{\\frown}{BC}$$=2\\times \\angle BAC$$=2\\times 64^\\circ $$=128^\\circ $\n故選D",
+            "explanation_image": "110_math_17_explanation.png"
+          },
+          {
+            "type": "singleChoice",
+            "number": 18,
+            "description": "若坐標平面上二次函數 $y = a(x+b)^2 +c$ 的圖形，經過平移後可與 $y = (x+3)^2$ 的圖形完全疊合，則 a、b、c 的值可能為下列哪一組？",
+            "passing_rate": 0.44,
+            "discrimination_index": 0.58,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "$a = 1$，$b = 0$，$c = −2$"
+              },
+              {
+                "answer": "B",
+                "description": "$a = 2$，$b = 6$，$c = 0$"
+              },
+              {
+                "answer": "C",
+                "description": "$a = −1$，$b = −3$，$c = 0$"
+              },
+              {
+                "answer": "D",
+                "description": "$a = −2$，$b = 3$，$c = −2$"
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "二次函數平移前後二次項係數不變，仍為1，故 $a=1$\n故選A"
+          },
+          {
+            "type": "singleChoice",
+            "number": 19,
+            "description": "如圖 ( 八 )，$\\triangle ABC$ 中，D、E、F 三點分別在 $\\overline{AB}$、$\\overline{BC}$、$\\overline{AC}$ 上，且四邊形 BEFD 是以 $\\overline{DE}$ 為對稱軸的線對稱圖形，四邊形 CFDE 是以 $\\overline{FE}$ 為對稱軸的線對稱圖形。若 $\\angle C = 40^\\circ $，則 $\\angle DFE$ 的度數為何？",
+            "image": "110_math_19.png",
+            "passing_rate": 0.53,
+            "discrimination_index": 0.57,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "65"
+              },
+              {
+                "answer": "B",
+                "description": "70"
+              },
+              {
+                "answer": "C",
+                "description": "75"
+              },
+              {
+                "answer": "D",
+                "description": "80"
+              }
+            ],
+            "correct_answer": "D",
+            "explanation": "令 $\\angle DFE$$=\\angle B$$=\\angle CFE$$=\\theta$、$\\angle C$$=\\angle FDE$$=\\angle BDE$$=40^\\circ$，四邊形 BDFC 中，內角和 $=40^\\circ \\times 3 $$+ \\theta \\times 3$$=360^\\circ$$\\Rightarrow$$\\theta=80^\\circ$\n故選D"
+          },
+          {
+            "type": "singleChoice",
+            "number": 20,
+            "description": "已知$\\underline{捷立租車行}$有甲、乙兩個營業據點，顧客租車後當日須於營業結束前在任意一個據點還車。某日營業結束清點車輛時，發現在甲歸還的自行車比從甲出租的多 4 輛。若當日從甲出租且在甲歸還的自行車為 15 輛，從乙出租且在乙歸還的自行車為 13 輛，則關於當日從甲、乙出租的自行車數量，下列比較何者正確？",
+            "passing_rate": 0.45,
+            "discrimination_index": 0.36,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "從甲出租的比從乙出租的多 2 輛"
+              },
+              {
+                "answer": "B",
+                "description": "從甲出租的比從乙出租的少 2 輛"
+              },
+              {
+                "answer": "C",
+                "description": "從甲出租的比從乙出租的多 6 輛"
+              },
+              {
+                "answer": "D",
+                "description": "從甲出租的比從乙出租的少 6 輛"
+              }
+            ],
+            "correct_answer": "B",
+            "explanation": "從乙出租的總車輛數=從乙租在甲還的車輛數+從乙租在乙還的車輛數 $=4+13$$=17$，從甲出租-從乙出租 $=15-17=-2$\n故選B"
+          },
+          {
+            "type": "singleChoice",
+            "number": 21,
+            "description": "如圖(九)，四邊形 ABCD中，$\\angle 1$、$\\angle 2$、$\\angle 3$ 分別為 $\\angle A$、$\\angle B$、$\\angle C$ 的外角。判斷下列大小關係何者正確？",
+            "image": "110_math_21.png",
+            "passing_rate": 0.47,
+            "discrimination_index": 0.57,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "$\\angle 1 $$+ \\angle 3 $$= \\angle ABC $$+ \\angle D$"
+              },
+              {
+                "answer": "B",
+                "description": "$\\angle 1 $$+ \\angle 3 $$< \\angle ABC $$+ \\angle D$"
+              },
+              {
+                "answer": "C",
+                "description": "$\\angle 1 $$+ \\angle 2 $$+ \\angle 3 $$= 360^\\circ $"
+              },
+              {
+                "answer": "D",
+                "description": "$\\angle 1 $$+ \\angle 2 $$+ \\angle 3$$ > 360^\\circ $"
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "(A)(B) $\\angle 1$$+\\angle 3$$=\\angle ABD$$+\\angle ADB$$+\\angle CBD$$+\\angle CDB$$=\\angle B$$+\\angle D$\n(C)(D)任意多邊形外表和皆為 $360^\\circ$，$\\angle 1$$+\\angle 2$$+\\angle 3$$+(180^\\circ-\\angle D)$$=360^\\circ$$\\Rightarrow$$\\angle 1$$+\\angle 2$$+\\angle 3$$<$$360^\\circ$\n故選A"
+          },
+          {
+            "type": "singleChoice",
+            "number": 22,
+            "description": "若 a、b 為正整數，且 $a \\times b = 2^5 \\times 3^2 \\times 5$，則下列何者$\\underline{\\underline{不可能}}$為 a、b 的最大公因數？",
+            "passing_rate": 0.44,
+            "discrimination_index": 0.55,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "1"
+              },
+              {
+                "answer": "B",
+                "description": "6"
+              },
+              {
+                "answer": "C",
+                "description": "8"
+              },
+              {
+                "answer": "D",
+                "description": "12"
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "$8=2^3$，而 $a \\times b$ 只有 $2^5$，故 a、b 不可能同時皆有 $2^3$，最大公因數也就不會為 8\n故選C"
+          },
+          {
+            "type": "singleChoice",
+            "number": 23,
+            "description": "如圖 ( 十 )，菱形 ABCD 中，E 點在 $\\overline{BC}$ 上，F 點在 $\\overline{CD}$ 上，G 點、H 點在 $\\overline{AD}$ 上，且 $\\overline{AE} // \\overline{HC} // \\overline{GF}$。若 $\\overline{AH} = 8$，$\\overline{HG} = 5$，$\\overline{GD} = 4$，則下列選項中的線段，何者的長度最長？",
+            "image": "110_math_23.png",
+            "passing_rate": 0.35,
+            "discrimination_index": 0.5,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "$\\overline{CF}$"
+              },
+              {
+                "answer": "B",
+                "description": "$\\overline{FD}$"
+              },
+              {
+                "answer": "C",
+                "description": "$\\overline{BE}$"
+              },
+              {
+                "answer": "D",
+                "description": "$\\overline{EC}$"
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "因 ABCD 為菱形，故 $\\overline{AD} // \\overline{BC}$、$\\overline{AB} // \\overline{CD}$、$\\overline{AD} $$= \\overline{BC}$$= \\overline{AB} $$= \\overline{CD}$$=4+5+8$$=17$，四邊形 AECH 為平行四邊形(兩組對邊分別平行)，$\\overline{AH} $$= \\overline{EC}$$=8$，$\\overline{BE}$$=\\overline{BC}-\\overline{EC}$$=\\overline{AD}-\\overline{AH}$$=\\overline{DH}$$=5+4$$=9$\n根據比例線段性質，$\\overline{DG}:\\overline{GH}$$=\\overline{DF}:\\overline{FC}$$\\Rightarrow $$\\overline{DF}$$=17\\times \\frac{4}{9}$$=7\\frac{5}{9},$$\\overline{FC}$$=17\\times \\frac{5}{9}$$=9\\frac{4}{9}$\n$\\overline{FC}$$=9\\frac{4}{9}$$>\\overline{BE}$$=9$$>\\overline{EC}$$=8$$>\\overline{FD}$$=7\\frac{5}{9}$\n故選A"
+          },
+          {
+            "type": "singleChoice",
+            "number": 24,
+            "description": "$\\underline{小文}$原本計畫使用甲、乙兩臺影印機於 10：00 開始一起印製文件並持續到下午，但 10：00 時有人正在使用乙，於是他先使用甲印製，於 10：05 才開始使用乙一起印製，且到 10：15 時乙印製的總張數與甲相同，到 10：45 時甲、乙印製的總張數合計為 2100 張。若甲、乙的印製張數與印製時間皆成正比，則依照$\\underline{小文}$原本的計畫，甲、乙印製的總張數會在哪個時間達到 2100 張？",
+            "passing_rate": 0.45,
+            "discrimination_index": 0.53,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "10：40"
+              },
+              {
+                "answer": "B",
+                "description": "10：41"
+              },
+              {
+                "answer": "C",
+                "description": "10：42"
+              },
+              {
+                "answer": "D",
+                "description": "10：43"
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "至 10:15 時，甲、乙分別印製 15 分鐘、10 分鐘，且影印總量相同，因印製張數與時間成正比，故每分鐘影印量 $甲:乙$$=10:15$$=2:3$。設甲、乙每分鐘分別影印 $2t$、$3t$ 張，且 $2t$、$3t$ 皆為正整數，至 10:45 時，甲印製 45 分鐘，乙印製 40 分鐘，甲乙合計影印總量為 2100 張，故可列得方程式 $45 \\times 2t $$+ 40 \\times 3t $$= 2100$$\\Rightarrow$$t=10$，得甲每分鐘印製 20 張，乙每分鐘印製 30 張\n若按照原計畫影印，則甲乙皆從10:00印x分鐘，且甲乙合計影印總量為 2100 張，可列得方程式 $20x + 30x$$=2100$$\\Rightarrow$$x=42$，10:00過42分鐘為10:42\n故選C"
+          },
+          {
+            "type": "singleChoice",
+            "number": 25,
+            "description": "如圖 ( 十一 )，銳角三角形 ABC 中，D 點在 $\\overline{BC}$ 上， $\\angle B = \\angle BAD = \\angle CAD$。今欲在 $\\overline{AD}$ 上找一點 P，使得 $\\angle APC = \\angle ADB$，以下是甲、乙兩人的作法：\n( 甲 ) 作 $\\overline{AC}$ 的中垂線交 $\\overline{AD}$ 於 P 點，則 P 即為所求\n( 乙 ) 以 C 為圓心，$\\overline{CD}$ 長為半徑畫弧，交 $\\overline{AD}$ 於異於 D 點的一點 P，則 P 即為所求A\n對於甲、乙兩人的作法，下列判斷何者正確？",
+            "image": "110_math_25.png",
+            "passing_rate": 0.27,
+            "discrimination_index": 0.31,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "兩人皆正確"
+              },
+              {
+                "answer": "B",
+                "description": "兩人皆錯誤"
+              },
+              {
+                "answer": "C",
+                "description": "甲正確，乙錯誤"
+              },
+              {
+                "answer": "D",
+                "description": "甲錯誤，乙正確"
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "(甲)令 $\\angle B$$=\\angle BAD$$=\\angle CAD$$=\\theta$。因 P 為 $\\overline{AC}$ 中垂線上的一點，故 $\\angle PCA$$=\\angle PAC$$=\\theta$，$\\angle APC$$=180^\\circ - 2\\theta$$=\\angle ADB$，甲正確\n(乙)因 $\\overline{CD}$$=\\overline{CP}$，故 $\\angle CPD$$=\\angle CDP$$=\\phi$，$\\angle APC$$=180^\\circ - \\phi$$=\\angle ADB$，乙正確\n甲乙皆正確，故選A"
+          },
+          {
+            "type": "singleChoice",
+            "number": 26,
+            "description": "如圖 ( 十二 )，  I 為 $\\triangle ABC$ 的內心，有一直線通過 I 點且分別與 $\\overline{AB}$、$\\overline{AC}$ 相交於 D 點、E 點。若 $\\overline{AD} $$= \\overline{DE} $$= 5$，$\\overline{AE} = 6$，則 I 點到 $\\overline{BC}$ 的距離為何？",
+            "image": "110_math_26.png",
+            "passing_rate": 0.43,
+            "discrimination_index": 0.43,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "$\\frac{24}{11}$"
+              },
+              {
+                "answer": "B",
+                "description": "$\\frac{30}{11}$"
+              },
+              {
+                "answer": "C",
+                "description": "2"
+              },
+              {
+                "answer": "D",
+                "description": "3"
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "做 $\\overline{DH} \\perp \\overline{AE}$ 於 H、$\\overline{IF} \\perp \\overline{AE}$ 於 G、$\\overline{IG} \\perp \\overline{AD}$ 於 F、$\\overline{IP} \\perp \\overline{BC}$ 於 P。因 $\\overline{AD}=\\overline{DE}$，故 $\\overline{AH}$$=\\overline{EH}$$=6 \\div 2$$=3$，根據$\\underline{畢}$氏定理，$\\overline{DH}$$=\\sqrt{\\overline{DE}^2-\\overline{EH}^2}$$=\\sqrt{5^2-3^2}$$=\\sqrt{16}$$=4$；因 I 點為 $\\triangle ABC$ 之內心，故 $\\overline{IF}$$=\\overline{IG}$$=\\overline{IP}$$=r$。連接 $\\overline{AI}$，可發現 $\\triangle ADE$$=\\triangle ADH$$+\\triangle DEH$$\\Rightarrow $$6\\times 4\\div 2$$=12$$=6\\times r\\div 2$$+5\\times r\\div 2$$=\\frac{11}{2}r$$\\Rightarrow $$r=\\frac{24}{11}$\n故選A",
+            "explanation_image": "110_math_26_explanation.png"
+          }
+        ]
+      },
       {
         "name": "自然科",
         "duration": 70,

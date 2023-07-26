@@ -120,9 +120,10 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                     },
                   ),
                 if (widget.subject.subjectId == CAPSubject.math) ...[
-                  const SizedBox(
-                    width: 20,
-                  ),
+                  if (!_submitted)
+                    const SizedBox(
+                      width: 20,
+                    ),
                   const MathReferenceFormula()
                 ]
               ]),
