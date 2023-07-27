@@ -1,7 +1,6 @@
 import 'package:cap_countdown/src/exam/question_rich_content.dart';
 import 'package:cap_countdown/src/widgets/question_image.dart';
 import 'package:cap_countdown/src/widgets/question_text.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class QuestionRichContentView extends StatelessWidget {
@@ -17,7 +16,7 @@ class QuestionRichContentView extends StatelessWidget {
     List<Widget> widgets = [];
 
     for (QuestionRichContent content in richContents) {
-      widgets.addAll(buildRichContent(content));
+      widgets.addAll(buildRichContent(context, content));
     }
     if (widgets.length > 1) {
       widgets.add(const SizedBox(height: 8));
@@ -35,7 +34,8 @@ class QuestionRichContentView extends StatelessWidget {
         : widget;
   }
 
-  List<Widget> buildRichContent(QuestionRichContent richContent) {
+  List<Widget> buildRichContent(
+      BuildContext context, QuestionRichContent richContent) {
     final List<Widget> widgets = [];
     final bool showPrefixText =
         prefixText != null && richContents.first == richContent;
@@ -53,11 +53,11 @@ class QuestionRichContentView extends StatelessWidget {
           widgets.add(QuestionText(text: prefixText!));
         }
         widgets.add(const SizedBox(height: 8));
-        alignWidget(
+        widgets.add(alignWidget(
             richContent.alignment,
             QuestionImage(
               imageFileName: richContent.content!,
-            ));
+            )));
         widgets.add(const SizedBox(height: 8));
         break;
       case RichContentType.border:
@@ -65,11 +65,13 @@ class QuestionRichContentView extends StatelessWidget {
           throw Exception("Border content cannot be null");
         }
 
+        widgets.add(const SizedBox(height: 8));
         widgets.add(alignWidget(
             richContent.alignment,
             Container(
               padding: const EdgeInsets.all(5),
-              decoration: BoxDecoration(border: Border.all()),
+              decoration: BoxDecoration(
+                  border: Border.all(color: Theme.of(context).hintColor)),
               child: QuestionText(text: richContent.content!),
             )));
         break;

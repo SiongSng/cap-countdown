@@ -14,17 +14,19 @@ class SingleChoiceQuestion extends OptionalQuestion with SubjectQuestion {
   @JsonKey(includeToJson: true)
   QuestionType get type => QuestionType.singleChoice;
 
-  SingleChoiceQuestion(
-      {required super.number,
-      super.description,
-      super.audio,
-      super.image,
-      super.richContents,
-      required super.passingRate,
-      required super.discriminationIndex,
-      required super.choices,
-      required super.correctAnswer,
-      required super.explanation});
+  SingleChoiceQuestion({
+    required super.number,
+    super.description,
+    super.audio,
+    super.image,
+    required super.passingRate,
+    required super.discriminationIndex,
+    required super.choices,
+    required super.correctAnswer,
+    required super.explanation,
+    super.explanationImage,
+    super.richContents,
+  });
 
   factory SingleChoiceQuestion.fromJson(Map<String, dynamic> json) =>
       _$SingleChoiceQuestionFromJson(json);
@@ -43,7 +45,8 @@ class SingleChoiceQuestion extends OptionalQuestion with SubjectQuestion {
         other.discriminationIndex == discriminationIndex &&
         listEquals(other.choices, choices) &&
         other.correctAnswer == correctAnswer &&
-        other.explanation == explanation;
+        other.explanation == explanation &&
+        other.explanationImage == explanationImage;
   }
 
   @override
@@ -57,7 +60,8 @@ class SingleChoiceQuestion extends OptionalQuestion with SubjectQuestion {
       discriminationIndex,
       choices,
       correctAnswer,
-      explanation);
+      explanation,
+      explanationImage);
 
   @override
   Map<String, dynamic> toJson() => _$SingleChoiceQuestionToJson(this);

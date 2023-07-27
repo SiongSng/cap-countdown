@@ -1,10 +1,10 @@
 import json
+import os
 import re
 from typing import NewType
 
 from fitz import Document, Page
-from fitz.utils import get_text, search_for
-
+from fitz.utils import get_text
 from models.cap_subject import CAPSubject
 from models.exam import Exam
 from models.optional_question import QuestionChoice, QuestionAnswer
@@ -12,7 +12,7 @@ from models.single_choice_question import SingleChoiceQuestion
 from models.subject_question import SubjectQuestion
 
 ANSWERS_TYPE = NewType("ANSWERS_TYPE", dict[CAPSubject, list[QuestionAnswer]])
-EXAM_INDICATOR = NewType("EXAM_INDICATOR", dict[CAPSubject, float])
+EXAM_INDICATOR = NewType("EXAM_INDICATOR", dict[CAPSubject, list[float | None]])
 
 
 # TODO: Support image and table parsing
@@ -22,6 +22,7 @@ def parse_exam_paper(
     answers: ANSWERS_TYPE,
     passing_rates: EXAM_INDICATOR,
     discrimination_indexes: EXAM_INDICATOR,
+    explanations: list[str] | None,
 ) -> list[SubjectQuestion]:
     """
     Parse the exam paper and return a list of exam result.
@@ -86,6 +87,11 @@ def parse_exam_paper(
         passing_rate = passing_rates[subject][number - 1]
         discrimination_index = discrimination_indexes[subject][number - 1]
 
+        if explanations is None:
+            explanation = None
+        else:
+            explanation = explanations[number - 1]
+
         parsed_choices: list[QuestionChoice] = []
 
         for choice in choices:
@@ -110,6 +116,7 @@ def parse_exam_paper(
             correct_answer,
             passing_rate,
             discrimination_index,
+            explanation,
         )
         result.append(question)
 
@@ -175,13 +182,20 @@ def parse_tabular_file(
 
         # Handle question number range.
         if question_number <= english_listening_end:
-            subjects = [subject for subject in CAPSubject]
-
             if is_indicator:
                 subjects = [
                     CAPSubject.CHINESE,
                     CAPSubject.ENGLISH_LISTENING,
                     CAPSubject.ENGLISH_Reading,
+                    CAPSubject.MATH,
+                    CAPSubject.SOCIETY,
+                    CAPSubject.NATURE,
+                ]
+            else:
+                subjects = [
+                    CAPSubject.CHINESE,
+                    CAPSubject.ENGLISH_Reading,
+                    CAPSubject.ENGLISH_LISTENING,
                     CAPSubject.MATH,
                     CAPSubject.SOCIETY,
                     CAPSubject.NATURE,
@@ -265,15 +279,37 @@ def parse_exam_indicator(file_path: str) -> EXAM_INDICATOR:
     return result
 
 
+def parse_exam_explanation(file_path: str) -> list[str] | None:
+    if not os.path.exists(file_path):
+        return None
+
+    result: list[str] = []
+
+    doc = Document(file_path)
+
+    for page in doc:
+        text: str = get_text(page, sort=True)
+        explanations = re.findall(r"\d+\.\([A-D]\)[^\d+\.]+", text)
+
+        for explanation in explanations:
+            explanation = re.sub(r"\d+\.\([A-D]\)\n", "", explanation)
+            result.append(explanation.strip())
+
+    return result
+
+
 def save_parse_result(exams: list[Exam]):
     json_str = json.dumps([exam.to_dict() for exam in exams], ensure_ascii=False)
-    with open("temp/cap_exams.json", "w") as f:
+    # Must set encoding="utf-8" since Windows default use cp950
+    with open("temp/cap_exams.json", "w", encoding="utf-8") as f:
         f.write(json_str)
 
 
 def fix_question_text(text: str) -> str:
     text = re.sub(r"(\w+)\n(\w+)", r"\1\2", text)
-    text = re.sub(r"(\w+)\d\n請翻頁繼續作答", r"\1", text)
-    text = re.sub(r" \n\d請翻頁繼續作答", r"", text)
+    text = re.sub(r"(\w+)\d+\n請翻頁繼續作答", r"\1", text)
+    text = re.sub(r"\n\d+請翻頁繼續作答", r"", text)
+    text = re.sub(r"請翻頁繼續作答(\n?)\d+", r"", text)
+    text = text.replace("�", "")
 
     return text.strip()

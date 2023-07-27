@@ -57,7 +57,7 @@ class ChoiceButton extends StatelessWidget {
             ScaffoldMessengerState messenger = ScaffoldMessenger.of(context);
             messenger.clearSnackBars();
             messenger.showSnackBar(const SnackBar(
-              content: Text('無法選擇已劃掉的選項，對選項左右滑動即可取消。'),
+              content: Text('無法選擇已劃掉的選項，再按一次劃掉選項按鈕或對選項左右滑動即可取消。'),
             ));
             return;
           }

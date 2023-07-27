@@ -40,19 +40,31 @@ class _OptionalQuestionViewState extends State<OptionalQuestionView> {
 
   @override
   Widget build(BuildContext context) {
-    late final String? description;
-    final String questionNumber = '${widget.question.number}.';
+    final question = widget.question;
+    final String? description;
+    final String questionNumber = '${question.number}.';
 
-    if (widget.option.showQuestionNumber &&
-        widget.question.description != null) {
-      description = '$questionNumber ${widget.question.description}';
+    if (widget.option.showQuestionNumber) {
+      if (question.description != null) {
+        description = '$questionNumber ${question.description}';
+      } else if (question.description == null &&
+          question.richContents == null) {
+        description = questionNumber;
+      } else {
+        description = null;
+      }
     } else {
-      description = widget.question.description;
+      description = question.description;
     }
 
-    final imageName = widget.question.image;
-    final audioFileName = widget.question.audio;
-    final richContents = widget.question.richContents;
+    final imageName = question.image;
+    final audioFileName = question.audio;
+    final explainImageName = question.explanationImage;
+    final richContents = question.richContents;
+    final bool hasExplanation =
+        question.explanation != null || explainImageName != null;
+
+    if (showMore && !widget.option.submitted) showMore = false;
 
     if (showMore && !widget.option.submitted) showMore = false;
 
@@ -74,8 +86,7 @@ class _OptionalQuestionViewState extends State<OptionalQuestionView> {
           QuestionText(text: description),
           const SizedBox(height: 8)
         ],
-        _ChoiceButtons(
-            question: widget.question, submitted: widget.option.submitted),
+        _ChoiceButtons(question: question, submitted: widget.option.submitted),
         const SizedBox(height: 8),
         if (audioFileName != null) ...[
           QuestionAudioPlayer(
@@ -108,11 +119,15 @@ class _OptionalQuestionViewState extends State<OptionalQuestionView> {
           const SizedBox(height: 8),
           QuestionText(
               text:
-                  '本試題參考答案為：${widget.question.correctAnswer.name}\n\n${widget.question.explanation ?? '本題暫無詳解，將在未來更新中新增。\n倘若造成您的困擾，我們深感抱歉！'}'),
+                  '本試題參考答案為：${question.correctAnswer.name}\n\n${!hasExplanation ? '本題暫無詳解，將在未來更新中新增。\n倘若造成您的困擾，我們深感抱歉！' : question.explanation}'),
+          if (explainImageName != null) ...[
+            const SizedBox(height: 8),
+            QuestionImage(imageFileName: explainImageName)
+          ],
           const SizedBox(height: 10),
           _Indicator(
-              passingRate: widget.question.passingRate,
-              discriminationIndex: widget.question.discriminationIndex),
+              passingRate: question.passingRate,
+              discriminationIndex: question.discriminationIndex),
           const SizedBox(height: 8),
         ]
       ],
