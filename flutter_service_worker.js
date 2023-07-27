@@ -3,8 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"index.html": "f662a036cfd7c6a64482cd31c2dec9c5",
-"/": "f662a036cfd7c6a64482cd31c2dec9c5",
+const RESOURCES = {"index.html": "0d8e09aa78a4eee956c94b37541f97e7",
+"/": "0d8e09aa78a4eee956c94b37541f97e7",
 "flutter.js": "6fef97aeca90b426343ba6c5c9dc5d4a",
 "privacy.html": "c3fb32b427f0ec50ae1929578ee8c78c",
 "favicon.png": "6a96be389847b5cd465c1a9e3a8a6903",
@@ -94,7 +94,7 @@ const RESOURCES = {"index.html": "f662a036cfd7c6a64482cd31c2dec9c5",
 "assets/assets/audios/exam/111_listening_12.mp3": "cf85010c8a1ed686101f189a2b02dba2",
 "assets/assets/audios/exam/111_listening_8.mp3": "d95473c6871d95b0f0ed8b7fe40e0857",
 "assets/assets/config.json": "8bb9d1e086337993aa939c7ddbc7f249",
-"assets/assets/cap_exams.json": "d100323dc20c73828b514760dee6dc2e",
+"assets/assets/cap_exams.json": "915743f74a38e00a719342b726508c03",
 "assets/assets/images/logo.png": "6a96be389847b5cd465c1a9e3a8a6903",
 "assets/assets/images/materials/homework.png": "f6c8cdcf894555889bef4c81a94a386a",
 "assets/assets/images/materials/dice.png": "5c13d9e55588305c1905c2dd472ae73f",
