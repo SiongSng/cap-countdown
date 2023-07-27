@@ -2910,15 +2910,15 @@
             "choices": [
               {
                 "answer": "A",
-                "description": "She was in Mr. Anderson’s class."
+                "description": "The woman likes pies from the bakery."
               },
               {
                 "answer": "B",
-                "description": "She asked a lot of questions in class."
+                "description": "The pie the man made last year tasted bad."
               },
               {
                 "answer": "C",
-                "description": "She started a study group for the class."
+                "description": "The man will be too tired from making pies."
               }
             ],
             "correct_answer": "B",
@@ -4135,6 +4135,7 @@
             "type": "singleChoice",
             "number": 14,
             "description": "已知DDT是一種作為殺蟲劑的化合物，難以被生物代謝。表(二)為某地區食物鏈中甲、乙、丙、丁四種生物體內含有的DDT濃度。已知其中一種生物為生產者，根據上述，下列推論何者正確？",
+            "image": "112_nature_14.png",
             "passing_rate": 0.56,
             "discrimination_index": 0.5,
             "choices": [
@@ -5193,7 +5194,7 @@
               {
                 "type": "singleChoice",
                 "number": 48,
-                "description": "根據本文，「前處理」最可能為下列何者？\n(三十一)為某種分析土壤液化潛勢的方式，透過地層組成、地下水位高度的資料，加上模擬地震參數得到當地可能的搖晃程度後，評估出土壤液化潛勢。土壤液化潛勢可分為低潛勢、中潛勢和高潛勢，如圖(三十二)所示，潛勢越高代表發生地震時該地越有機會發生土壤液化。在初步調查後，可利用工程方法，\n減少發生土壤液化的機會。\n圖(三十一)\n圖(三十二)",
+                "description": "根據本文，「前處理」最可能為下列何者？",
                 "passing_rate": 0.74,
                 "discrimination_index": 0.55,
                 "choices": [
@@ -12483,6 +12484,7 @@
               }
             ],
             "correct_answer": "B",
+            "image": "111_nature_6.png",
             "explanation": "聖誕節(12/25)時太陽直射南半球，因此所在南半球的紐西蘭的白晝長度會比在北 半球的英國長。故選(B)。"
           },
           {
