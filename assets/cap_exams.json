@@ -3768,7 +3768,7 @@
                 "description": "生態系變得比較不穩定"
               }
             ],
-            "correct_answer": "C",
+            "correct_answer": "D",
             "explanation": "只有單一物種食物網會變簡單，排除(A)、(B)、(C)。故選(D)"
           },
           {
@@ -3796,7 +3796,7 @@
                 "description": "逆向坡"
               }
             ],
-            "correct_answer": "D",
+            "correct_answer": "B",
             "explanation": "圖中岩層成波浪彎曲狀，而褶皺會使岩層成波浪彎曲現象，故選(B)"
           },
           {
@@ -3824,7 +3824,7 @@
                 "description": "電解質"
               }
             ],
-            "correct_answer": "A",
+            "correct_answer": "D",
             "explanation": "X 被用來補充流失的鈉和鉀離子，因此，X 應該是一種可以提供鈉和鉀離子的物質，而這些物質通常被稱為電解質。"
           },
           {
@@ -3851,7 +3851,7 @@
                 "description": "不具細胞壁"
               }
             ],
-            "correct_answer": "A",
+            "correct_answer": "C",
             "explanation": "毛黴菌屬於真菌，具有細胞壁、孢子、粒線體，而不具有葉綠體，故而選(C)。"
           },
           {
@@ -3907,7 +3907,7 @@
                 "description": "將酒精燈的酒精裝滿，使火焰大小固定"
               }
             ],
-            "correct_answer": "C",
+            "correct_answer": "A",
             "explanation": "將溫度計懸吊在水中，不接觸杯底，才可以確保溫度計測量到的是水的溫度，而不是受到杯底或其他外部因素的影響。故選(A)"
           },
           {
@@ -3947,7 +3947,7 @@
                 "description": "氫氣被分成表中的四類顏色，主要是依據製造過程消耗掉的電能多寡來分類"
               }
             ],
-            "correct_answer": "C",
+            "correct_answer": "B",
             "explanation": "綠氫的製造方式是使用可再生能源，因此，將風力發電所產生的電能用來電解水而產生的氫氣，符合綠氫的製造方式。故而選(B)\n(A)藍氫也有使用化石燃料。\n(C)燃燒過程中皆需要氧氣。\n(D)從表中並不能得知製造過程消耗掉多少電能。"
           },
           {
@@ -3974,7 +3974,7 @@
                 "description": "是由胰島分泌的升糖素"
               }
             ],
-            "correct_answer": "D",
+            "correct_answer": "C",
             "explanation": "造成血糖快速下降為胰島素導致，胰島素為胰臟內的胰島分泌，其主要功能是降低血糖濃度，通過促進細胞對葡萄糖的吸收和利用，以及抑制肝臟對葡萄糖的產生。故而選(C)"
           },
           {
@@ -4029,7 +4029,7 @@
                 "description": "火成岩脈最先形成，海水再侵蝕，最後岩層沉積"
               }
             ],
-            "correct_answer": "C",
+            "correct_answer": "B",
             "explanation": "根據題目說明，岩層最先形成，岩漿侵入原有岩層產生火成岩，最後因為海水侵蝕作用發生，對平臺上的岩層和火成岩脈進行侵蝕，而火成岩脈抵抗海水侵蝕能力較強，因此相對於岩層，火成岩會更長時間保持在海蝕平台上。故而選(B)"
           },
           {
@@ -4069,7 +4069,7 @@
                 "description": "步驟四的目的是為了分離不同的生成物"
               }
             ],
-            "correct_answer": "B",
+            "correct_answer": "D",
             "explanation": "(A)乙醇並不直接參與反應，因此不被算為反應物。\n(B)為了讓反應速率加快。\n(C)水並不是催化劑，其在反應過程中與脂肪酸和鹼進行水解反應，形成肥皂分子和甘油分子。故選(D)"
           },
           {
@@ -4096,7 +4096,7 @@
                 "description": "化學反應是原子的重新排列組合，形成新的物質"
               }
             ],
-            "correct_answer": "D",
+            "correct_answer": "A",
             "explanation": "電子的發現顯示了原子是由更小的粒子組成，因此原子是可再分割的，而非不可再分割。故選(A)"
           },
           {
@@ -4184,7 +4184,7 @@
                 "description": "西南季風與$\\underline{中國}$沿岸流"
               }
             ],
-            "correct_answer": "A",
+            "correct_answer": "B",
             "explanation": "夏天為西南季風，並依圖中潮流位置為太平洋應為黑潮。故選(B)"
           },
           {
@@ -4211,7 +4211,7 @@
                 "description": "葡萄糖，由韌皮部運送表"
               }
             ],
-            "correct_answer": "C",
+            "correct_answer": "A",
             "explanation": "根據反應式判斷甲應該為水，而水主要由植物體的木質部進行運送。故選(A)"
           },
           {
@@ -4239,7 +4239,7 @@
                 "description": "$\\underline{阿德}$"
               }
             ],
-            "correct_answer": "A",
+            "correct_answer": "B",
             "explanation": "有機化合物是由碳元素及其他元素組成，而無機化合物則可以包含各種元素。故選(B)"
           },
           {
@@ -4295,7 +4295,7 @@
                 "description": "1.5 m"
               }
             ],
-            "correct_answer": "D",
+            "correct_answer": "C",
             "explanation": "根據能量守恆定律，在不受外力影響的情況下，動能+位能保持恆定。故選(C)"
           },
           {
@@ -4323,7 +4323,7 @@
                 "description": "Lil-2和Myr-6為不同屬的植物"
               }
             ],
-            "correct_answer": "A",
+            "correct_answer": "B",
             "explanation": "根據二名法命名規則為屬名+種小名，因此Lil-2與Myr-6為不同目的植物。故選(B)"
           },
           {
@@ -4351,7 +4351,7 @@
                 "description": "密度($g/cm^3$)、與太陽的平均距離(AU)"
               }
             ],
-            "correct_answer": "B",
+            "correct_answer": "D",
             "explanation": "體積最大為木星因此排除，接下來依照離太陽的平均距離與密度，距離為土星最遠，密度為地球最大。故選(D)"
           },
           {
