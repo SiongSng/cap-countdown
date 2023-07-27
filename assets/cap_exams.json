@@ -13094,7 +13094,7 @@
             ],
             "correct_answer": "B",
             "image": "111_nature_28.png",
-            "explanation": "$\\delta H = m \\times s \\times \\delta T$ ，因此若熱源相同，甲乙兩杯的上升溫度應和 M 反比，即 $\\delta T_甲 : \\delta T_乙 = M_乙 : M_甲=2:3。故選(B)。"
+            "explanation": "$\\Delta H = m \\times s \\times \\Delta T$ ，因此若熱源相同，甲乙兩杯的上升溫度應和 M 反比，即 $\\Delta T_甲 : \\Delta T_乙 $$= M_乙 : M_甲$$=2:3$。故選(B)。"
           },
           {
             "number": 29,
