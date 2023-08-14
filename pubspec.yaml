@@ -46,7 +46,7 @@ dependencies:
   flutter_colorpicker: ^1.0.3
   url_strategy: ^0.2.0
   flutter_markdown: ^0.6.15+1
-  audioplayers: ^5.0.0
+  audioplayers: ^5.1.0
   visibility_detector: ^0.4.0+2
   crypto: ^3.0.3
   file_picker: ^5.3.3
