@@ -42,7 +42,7 @@ dependencies:
   path_provider: ^2.0.15
   path: ^1.8.3
   latext: ^0.1.0
-  lottie: ^2.5.0
+  lottie: ^2.6.0
   flutter_colorpicker: ^1.0.3
   url_strategy: ^0.2.0
   flutter_markdown: ^0.6.15+1
