@@ -15,7 +15,7 @@ class ChangelogDialog extends StatelessWidget {
           children: [
             MarkdownBody(
                 data:
-                    '## 有什麼新鮮事？\n### 歡迎您使用會考沙漏 **${config.appVersion}** 版～  \n### 本次更新共包含以下內容：\n\n* 新增 110 數學科題庫與詳解\n* 修正 112 自然科部份題目之參考答案誤值\n* 修正部份使用者回報的題目錯誤\n* Google Play Store 中加入平板裝置宣傳圖'),
+                    '## 有什麼新鮮事？\n### 歡迎您使用會考沙漏 **${config.appVersion}** 版～  \n### 本次更新共包含以下內容：\n\n* 新增 110 數學科題庫與詳解\n* 修正 112 自然科部份題目之參考答案誤值\n* 修正部份使用者回報的題目錯誤'),
             const SizedBox(height: 12),
             TextButton(
               onPressed: () {
