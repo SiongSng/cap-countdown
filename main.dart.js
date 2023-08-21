@@ -59570,7 +59570,7 @@ $S:0}
 A.y6.prototype={
 C(a){var s=null
 $.nX()
-return A.aZ5(s,s,new A.aW(B.avh,A.c4(A.a([A.b_H("## \u6709\u4ec0\u9ebc\u65b0\u9bae\u4e8b\uff1f\n### \u6b61\u8fce\u60a8\u4f7f\u7528\u6703\u8003\u6c99\u6f0f **"+A.Cf(J.aX($.my.aX(),"app_version")).l(0)+"** \u7248\uff5e  \n### \u672c\u6b21\u66f4\u65b0\u5171\u5305\u542b\u4ee5\u4e0b\u5167\u5bb9\uff1a\n\n* \u65b0\u589e 110 \u6578\u5b78\u79d1\u984c\u5eab\u8207\u8a73\u89e3\n* \u4fee\u6b63 112 \u81ea\u7136\u79d1\u90e8\u4efd\u984c\u76ee\u4e4b\u53c3\u8003\u7b54\u6848\u8aa4\u503c\n* \u4fee\u6b63\u90e8\u4efd\u4f7f\u7528\u8005\u56de\u5831\u7684\u984c\u76ee\u932f\u8aa4\n* Google Play Store \u4e2d\u52a0\u5165\u5e73\u677f\u88dd\u7f6e\u5ba3\u50b3\u5716",s),B.ho,A.eC(!1,B.b8b,B.k,s,s,s,s,s,new A.age(a),s,s)],t.p),B.x,B.z,B.b0),s),B.k,s,B.CR,s,s,s)}}
+return A.aZ5(s,s,new A.aW(B.avh,A.c4(A.a([A.b_H("## \u6709\u4ec0\u9ebc\u65b0\u9bae\u4e8b\uff1f\n### \u6b61\u8fce\u60a8\u4f7f\u7528\u6703\u8003\u6c99\u6f0f **"+A.Cf(J.aX($.my.aX(),"app_version")).l(0)+"** \u7248\uff5e  \n### \u672c\u6b21\u66f4\u65b0\u5171\u5305\u542b\u4ee5\u4e0b\u5167\u5bb9\uff1a\n\n* \u65b0\u589e 110 \u6578\u5b78\u79d1\u984c\u5eab\u8207\u8a73\u89e3\n* \u4fee\u6b63 112 \u81ea\u7136\u79d1\u90e8\u4efd\u984c\u76ee\u4e4b\u53c3\u8003\u7b54\u6848\u8aa4\u503c\n* \u4fee\u6b63\u90e8\u4efd\u4f7f\u7528\u8005\u56de\u5831\u7684\u984c\u76ee\u932f\u8aa4",s),B.ho,A.eC(!1,B.b8b,B.k,s,s,s,s,s,new A.age(a),s,s)],t.p),B.x,B.z,B.b0),s),B.k,s,B.CR,s,s,s)}}
 A.age.prototype={
 $0(){$.dU()
 $.nX()
