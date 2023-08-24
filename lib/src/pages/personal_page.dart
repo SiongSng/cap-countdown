@@ -1,5 +1,7 @@
 import 'dart:io';
 
+import 'dart:io' show Platform;
+
 import 'package:cap_countdown/main.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/foundation.dart';
@@ -144,10 +146,13 @@ class _PersonalPageState extends State<PersonalPage> {
                     }
 
                     final file = result.files.single;
-                    if (file.size > 1024 * 1024 && context.mounted) {
-                      ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(content: Text('個人頭貼的檔案大小不可超過 1MB')));
-                      return;
+
+                    if (kIsWeb) {
+                      if (file.size > 1024 * 1024 && context.mounted) {
+                        ScaffoldMessenger.of(context).showSnackBar(
+                            const SnackBar(content: Text('個人頭貼的檔案大小不可超過 1MB')));
+                        return;
+                      }
                     }
 
                     final Uint8List bytes;
