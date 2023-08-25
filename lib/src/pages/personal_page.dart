@@ -1,7 +1,5 @@
 import 'dart:io';
 
-import 'dart:io' show Platform;
-
 import 'package:cap_countdown/main.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/foundation.dart';
