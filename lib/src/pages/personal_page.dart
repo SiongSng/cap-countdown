@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:cap_countdown/main.dart';
 import 'package:file_picker/file_picker.dart';
+import 'package:image_cropper/image_cropper.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
@@ -136,41 +137,75 @@ class _PersonalPageState extends State<PersonalPage> {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               TextButton(
-                  onPressed: () async {
-                    final result = await FilePicker.platform
-                        .pickFiles(type: FileType.image);
-                    if (result == null) {
+                onPressed: () async {
+                  final result =
+                      await FilePicker.platform.pickFiles(type: FileType.image);
+                  if (result == null) {
+                    return;
+                  }
+
+                  final file = result.files.single;
+
+                  if (kIsWeb) {
+                    if (file.size > 1024 * 1024 && context.mounted) {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                          const SnackBar(content: Text('個人頭貼的檔案大小不可超過 1MB')));
                       return;
                     }
+                  }
 
-                    final file = result.files.single;
+                  final Uint8List bytes;
 
-                    if (kIsWeb) {
-                      if (file.size > 1024 * 1024 && context.mounted) {
-                        ScaffoldMessenger.of(context).showSnackBar(
-                            const SnackBar(content: Text('個人頭貼的檔案大小不可超過 1MB')));
-                        return;
-                      }
+                  CroppedFile? croppedFile;
+                  if (!kIsWeb) {
+                    croppedFile = await ImageCropper().cropImage(
+                      sourcePath: file.path!,
+                      aspectRatio: const CropAspectRatio(ratioX: 1, ratioY: 1),
+                      compressQuality: 100,
+                      cropStyle: CropStyle.circle,
+                      maxWidth: 700,
+                      maxHeight: 700,
+                      compressFormat: ImageCompressFormat.png,
+                      uiSettings: [
+                        AndroidUiSettings(
+                            toolbarTitle: '編輯頭貼',
+                            toolbarColor: Colors.deepOrange,
+                            toolbarWidgetColor: Colors.white,
+                            initAspectRatio: CropAspectRatioPreset.original,
+                            lockAspectRatio: false),
+                        IOSUiSettings(
+                          title: '編輯頭貼',
+                          aspectRatioPickerButtonHidden: true,
+                          resetButtonHidden: true,
+                        ),
+                        // ignore: use_build_context_synchronously
+                        WebUiSettings(
+                          context: context,
+                        ),
+                      ],
+                    );
+
+                    if (croppedFile != null) {
+                      bytes = File(croppedFile.path).readAsBytesSync();
+                      localStorage.personalAvatar = bytes;
+                      setState(() {});
                     }
-
-                    final Uint8List bytes;
-
-                    if (kIsWeb) {
-                      bytes = file.bytes!;
-                    } else {
-                      bytes = File(file.path!).readAsBytesSync();
-                    }
-
+                  } else {
+                    // If web, just use the picked file since ImageCropper doesn't support web as of now
+                    bytes = file.bytes!;
                     localStorage.personalAvatar = bytes;
                     setState(() {});
-                  },
-                  child: const Text('選擇個人頭貼')),
+                  }
+                },
+                child: const Text('選擇個人頭貼'),
+              ),
               TextButton(
-                  onPressed: () {
-                    localStorage.personalAvatar = null;
-                    setState(() {});
-                  },
-                  child: const Text('移除個人頭貼'))
+                onPressed: () {
+                  localStorage.personalAvatar = null;
+                  setState(() {});
+                },
+                child: const Text('移除個人頭貼'),
+              )
             ],
           )
         ],

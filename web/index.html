@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!--
+
+<head>
+  <!--
     If you are serving your web app in a path other than the root, change the
     href value below to reflect the base path you are serving from.
 
@@ -14,39 +15,44 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-    <base href="$FLUTTER_BASE_HREF" />
+  <base href="$FLUTTER_BASE_HREF" />
 
-    <meta charset="UTF-8" />
-    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
-    <meta content=" 具有試題等豐富功能的會考沙漏計時器。" name="description" />
+  <meta charset="UTF-8" />
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+  <meta content=" 具有試題等豐富功能的會考沙漏計時器。" name="description" />
 
-    <!-- iOS meta tags & icons -->
-    <meta content="yes" name="apple-mobile-web-app-capable" />
-    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
-    <meta content="會考沙漏" name="apple-mobile-web-app-title" />
-    <link href="icons/Icon-192.png" rel="apple-touch-icon" />
+  <!-- iOS meta tags & icons -->
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+  <meta content="會考沙漏" name="apple-mobile-web-app-title" />
+  <link href="icons/Icon-192.png" rel="apple-touch-icon" />
 
-    <!-- Favicon -->
-    <link href="favicon.png" rel="icon" type="image/png" />
+  <!-- Favicon -->
+  <link href="favicon.png" rel="icon" type="image/png" />
 
-    <title>會考沙漏</title>
-    <link href="manifest.json" rel="manifest" />
+  <title>會考沙漏</title>
+  <link href="manifest.json" rel="manifest" />
 
-    <script>
-      // The value below is injected by flutter build, do not touch.
-      var serviceWorkerVersion = null;
-    </script>
-    <!-- This script adds the flutter initialization JS code -->
-    <script defer src="flutter.js"></script>
-  </head>
-  <body>
-    <style>
-      body {
-        background-color: #252127;
-      }
-    </style>
-    <!-- Loading indicator -->
-    <p id="loading_text">載入中...
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = null;
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script defer src="flutter.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.5/croppie.css" />
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/exif-js/2.3.0/exif.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.5/croppie.min.js"></script>
+</head>
+
+<body>
+  <style>
+    body {
+      background-color: #252127;
+    }
+  </style>
+  <!-- Loading indicator -->
+  <p id="loading_text">載入中...
     <style>
       p {
         color: #fff;
@@ -62,100 +68,102 @@
       }
 
       .loading_text_main_done {
-          animation: 0.33s ease-in-out 0s 1 forwards fade_out;
+        animation: 0.33s ease-in-out 0s 1 forwards fade_out;
       }
 
       @keyframes fade_out {
-          from {
-                opacity: 1;
-          }
-          to {
-                opacity: 0;
-          }
-      }
-    </style>
-    </p>
-    <div id="loading">
-      <style>
-        body {
-          inset: 0;
-          overflow: hidden;
-          margin: 0;
-          padding: 0;
-          position: fixed;
-        }
-
-        #loading {
-          align-items: center;
-          display: flex;
-          height: 100%;
-          justify-content: center;
-          width: 100%;
-        }
-
-        #loading img {
-          animation: 1s ease-in-out 0s infinite alternate breathe;
-          opacity: 0.66;
-          transition: opacity 0.4s;
-        }
-
-        #loading.main_done img {
+        from {
           opacity: 1;
         }
 
-        #loading.init_done img {
-          animation: 0.33s ease-in-out 0s 1 forwards zooooom;
-          opacity: 0.05;
+        to {
+          opacity: 0;
+        }
+      }
+    </style>
+  </p>
+  <div id="loading">
+    <style>
+      body {
+        inset: 0;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        position: fixed;
+      }
+
+      #loading {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        width: 100%;
+      }
+
+      #loading img {
+        animation: 1s ease-in-out 0s infinite alternate breathe;
+        opacity: 0.66;
+        transition: opacity 0.4s;
+      }
+
+      #loading.main_done img {
+        opacity: 1;
+      }
+
+      #loading.init_done img {
+        animation: 0.33s ease-in-out 0s 1 forwards zooooom;
+        opacity: 0.05;
+      }
+
+      @keyframes breathe {
+        from {
+          transform: scale(0.3);
         }
 
-        @keyframes breathe {
-          from {
-            transform: scale(0.3);
-          }
+        to {
+          transform: scale(0.35);
+        }
+      }
 
-          to {
-            transform: scale(0.35);
-          }
+      @keyframes zooooom {
+        from {
+          transform: scale(0.3);
         }
 
-        @keyframes zooooom {
-          from {
-            transform: scale(0.3);
-          }
-
-          to {
-            transform: scale(5);
-          }
+        to {
+          transform: scale(5);
         }
-      </style>
-      <img alt="這是載入應用程式中的指示器..." src="icons/Icon-192.png" />
-    </div>
-    <script>
-      window.addEventListener("load", function (ev) {
-        var loading = document.querySelector("#loading");
-        var loadingText = document.querySelector("#loading_text");
+      }
+    </style>
+    <img alt="這是載入應用程式中的指示器..." src="icons/Icon-192.png" />
+  </div>
+  <script>
+    window.addEventListener("load", function (ev) {
+      var loading = document.querySelector("#loading");
+      var loadingText = document.querySelector("#loading_text");
 
-        // Download main.dart.js
-        _flutter.loader.loadEntrypoint({
-          serviceWorker: {
-            serviceWorkerVersion: serviceWorkerVersion,
-          },
-          onEntrypointLoaded: function (engineInitializer) {
-            loading.classList.add("main_done");
-            loadingText.classList.add("loading_text_main_done");
-            engineInitializer.initializeEngine().then(function (appRunner) {
-              loading.classList.add("init_done");
-              appRunner.runApp().then(function (app) {
-                // Wait a few milliseconds so users can see the "zoooom" animation
-                // before getting rid of the "loading" div.
-                window.setTimeout(function () {
-                  loading.remove();
-                }, 200);
-              });
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function (engineInitializer) {
+          loading.classList.add("main_done");
+          loadingText.classList.add("loading_text_main_done");
+          engineInitializer.initializeEngine().then(function (appRunner) {
+            loading.classList.add("init_done");
+            appRunner.runApp().then(function (app) {
+              // Wait a few milliseconds so users can see the "zoooom" animation
+              // before getting rid of the "loading" div.
+              window.setTimeout(function () {
+                loading.remove();
+              }, 200);
             });
-          },
-        });
+          });
+        },
       });
-    </script>
-  </body>
+    });
+  </script>
+</body>
+
 </html>
