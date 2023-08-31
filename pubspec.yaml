@@ -19,7 +19,7 @@ publish_to: "none" # Remove this line if you wish to publish to pub.dev
 version: 0.2.3
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+    sdk: ">=3.0.0 <4.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -28,63 +28,58 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-  flutter:
-    sdk: flutter
+    flutter:
+        sdk: flutter
 
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
-  json_annotation: ^4.8.1
-  line_icons: ^2.0.1
-  url_launcher: ^6.1.11
-  flutter_spinkit: ^5.1.0
-  provider: ^6.0.5
-  path_provider: ^2.0.15
-  path: ^1.8.3
-  latext: ^0.1.0
-  lottie: ^2.5.0
-  flutter_colorpicker: ^1.0.3
-  url_strategy: ^0.2.0
-  flutter_markdown: ^0.6.15+1
-  audioplayers: ^5.0.0
-  visibility_detector: ^0.4.0+2
-  crypto: ^3.0.3
-  file_picker: ^5.3.3
-  pub_semver: ^2.1.4
-  intl: ^0.18.1
+    # The following adds the Cupertino Icons font to your application.
+    # Use with the CupertinoIcons class for iOS style icons.
+    cupertino_icons: ^1.0.2
+    json_annotation: ^4.8.1
+    line_icons: ^2.0.1
+    url_launcher: ^6.1.11
+    flutter_spinkit: ^5.1.0
+    provider: ^6.0.5
+    path_provider: ^2.0.15
+    path: ^1.8.3
+    latext: ^0.1.0
+    lottie: ^2.5.0
+    flutter_colorpicker: ^1.0.3
+    url_strategy: ^0.2.0
+    flutter_markdown: ^0.6.15+1
+    audioplayers: ^5.0.0
+    visibility_detector: ^0.4.0+2
+    crypto: ^3.0.3
+    file_picker: ^5.3.3
+    pub_semver: ^2.1.4
+    intl: ^0.18.1
+    pay: ^1.1.2
+    flutter_svg: ^2.0.7
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
+    flutter_test:
+        sdk: flutter
 
-  # The "flutter_lints" package below contains a set of recommended lints to
-  # encourage good coding practices. The lint set provided by the package is
-  # activated in the `analysis_options.yaml` file located at the root of your
-  # package. See that file for information about deactivating specific lint
-  # rules and activating additional ones.
-  flutter_lints: ^2.0.2
-  build_runner: ^2.4.6
-  json_serializable: ^6.7.1
-
-dependency_overrides:
-  # https://github.com/simpleclub-extended/flutter_math_fork/pull/64
-  flutter_math_fork:
-    git:
-      url: https://github.com/DouglasSerena/flutter_math_fork.git
-      ref: 565f053bc0b1026d7fe6e423f5c492526df5e472
+    # The "flutter_lints" package below contains a set of recommended lints to
+    # encourage good coding practices. The lint set provided by the package is
+    # activated in the `analysis_options.yaml` file located at the root of your
+    # package. See that file for information about deactivating specific lint
+    # rules and activating additional ones.
+    flutter_lints: ^2.0.2
+    build_runner: ^2.4.6
+    json_serializable: ^6.7.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
 flutter:
-  uses-material-design: true
+    uses-material-design: true
 
-  assets:
-    - assets/config.json
-    - assets/cap_exams.json
-    - assets/images/exam/
-    - assets/images/materials/
-    - assets/images/logo.png
-    - assets/animations/
-    - assets/audios/exam/
+    assets:
+        - assets/config.json
+        - assets/cap_exams.json
+        - assets/images/exam/
+        - assets/images/materials/
+        - assets/images/logo.png
+        - assets/animations/
+        - assets/audios/exam/

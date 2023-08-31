@@ -107,7 +107,7 @@ class _CAPTimeLeftState extends State<CAPTimeLeft> {
         TextSpan(
           text: (duration.inHours % 24).toString(),
           style: TextStyle(
-              fontSize: 50,
+              fontSize: 45,
               fontWeight: FontWeight.bold,
               color: Theme.of(context).brightness == Brightness.dark
                   ? Colors.white
@@ -123,7 +123,7 @@ class _CAPTimeLeftState extends State<CAPTimeLeft> {
         TextSpan(
           text: (duration.inMinutes % 60).toString(),
           style: TextStyle(
-              fontSize: 50,
+              fontSize: 45,
               fontWeight: FontWeight.bold,
               color: Theme.of(context).brightness == Brightness.dark
                   ? Colors.white
@@ -139,7 +139,7 @@ class _CAPTimeLeftState extends State<CAPTimeLeft> {
         TextSpan(
           text: (duration.inSeconds % 60).toString(),
           style: TextStyle(
-              fontSize: 50,
+              fontSize: 45,
               fontWeight: FontWeight.bold,
               color: Theme.of(context).brightness == Brightness.dark
                   ? Colors.white
