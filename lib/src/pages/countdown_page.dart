@@ -128,60 +128,68 @@ class _CountdownPageState extends State<CountdownPage>
         padding: const EdgeInsets.all(8.0),
         child: LayoutBuilder(
           builder: (BuildContext context, BoxConstraints constraints) {
-            final applePayButtonKey = ValueKey(donateAmount);
-            final applePayButton = ApplePayButton(
-              key: applePayButtonKey,
-              paymentConfiguration: PaymentConfiguration.fromJsonString(
-                  payment_configurations.defaultApplePay),
-              paymentItems: [
-                PaymentItem(
-                  label: '會考沙漏-贊助',
-                  amount: donateAmount,
-                  status: PaymentItemStatus.final_price,
-                ),
-              ],
-              onPaymentResult: (paymentResult) {
-                _showPaymentResultDialog();
-              },
-              style: ApplePayButtonStyle.black,
-              type: ApplePayButtonType.donate,
-              height: 50,
-            );
-            return Column(
-              children: [
-                Text(
-                  '支持我們的專案',
-                  style: Theme.of(context).textTheme.titleLarge,
-                ),
-                const SizedBox(height: 12),
-                SizedBox(
-                  width: constraints.maxWidth,
-                  child: TextField(
-                    decoration: const InputDecoration(
-                      border: OutlineInputBorder(),
-                      labelText: '贊助金額',
-                      hintText: '請輸入金額',
+            return Builder(
+              builder: (BuildContext innerContext) {
+                final themeBrightness = Theme.of(innerContext).brightness;
+                final applePayButtonStyle = themeBrightness == Brightness.dark
+                    ? ApplePayButtonStyle.white
+                    : ApplePayButtonStyle.black;
+                final applePayButtonKey =
+                    ValueKey("$donateAmount/_$applePayButtonStyle");
+
+                return Column(
+                  children: [
+                    Text(
+                      '支援我們的專案',
+                      style: Theme.of(innerContext).textTheme.titleLarge,
                     ),
-                    keyboardType: TextInputType.number,
-                    onChanged: (value) {
-                      if (double.tryParse(value) != null) {
-                        setState(() {
-                          donateAmount = value;
-                        });
-                      } else {
-                        setState(() {
-                          donateAmount = "50";
-                        });
-                      }
-                    },
-                  ),
-                ),
-                const SizedBox(height: 12), // Provide some spacing
-                SizedBox(
-                  width: constraints.maxWidth,
-                  child: applePayButton,
-                ),
-              ],
+                    const SizedBox(height: 12),
+                    SizedBox(
+                      width: constraints.maxWidth,
+                      child: TextField(
+                        decoration: const InputDecoration(
+                          border: OutlineInputBorder(),
+                          labelText: '贊助金額',
+                          hintText: '請輸入金額',
+                        ),
+                        keyboardType: TextInputType.number,
+                        onChanged: (value) {
+                          if (double.tryParse(value) != null) {
+                            setState(() {
+                              donateAmount = value;
+                            });
+                          } else {
+                            setState(() {
+                              donateAmount = "50";
+                            });
+                          }
+                        },
+                      ),
+                    ),
+                    const SizedBox(height: 12), // Provide some spacing
+                    SizedBox(
+                      width: constraints.maxWidth,
+                      child: ApplePayButton(
+                        key: applePayButtonKey,
+                        paymentConfiguration:
+                            PaymentConfiguration.fromJsonString(
+                                payment_configurations.defaultApplePay),
+                        paymentItems: [
+                          PaymentItem(
+                            label: '贊助$donateAmount元',
+                            amount: donateAmount,
+                            status: PaymentItemStatus.final_price,
+                          ),
+                        ],
+                        onPaymentResult: onApplePayResult,
+                        style: applePayButtonStyle,
+                        type: ApplePayButtonType.support,
+                        height: 50,
+                      ),
+                    ),
+                  ],
+                );
+              },
             );
           },
         ),
@@ -214,6 +222,11 @@ class _CountdownPageState extends State<CountdownPage>
         );
       },
     );
+  }
+
+  void onApplePayResult(paymentResult) {
+    _showPaymentResultDialog();
+    debugPrint(paymentResult.toString());
   }
 
   @override
