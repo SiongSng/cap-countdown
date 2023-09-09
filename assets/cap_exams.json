@@ -6980,25 +6980,34 @@
           {
             "number": 2,
             "type": "singleChoice",
-            "description": "黃醫師的眼科診所開業，親友們登門慶賀。\n君翰帶來一方寫著「杏林之光」的匾額，聊表心意。\n思涵見狀馬上說：「如果寫『近悅遠來』更好。」\n偉同則說：「可是，我覺得『眾望所歸』更恰當。」\n最後嘉恩才說：「其實，『桃李芬芳』才是最合適的選擇。」\n\n根據這段對話，誰的做法或說法最恰當？",
+            "rich_content": [
+              {
+                "type": "border",
+                "content": "$\\underline{黃}$醫師的眼科診所開業，親友們登門慶賀。$\\underline{君翰}$帶來一方寫著「杏林之光」的匾額，聊表心意。$\\underline{思涵}$見狀馬上說：「如果寫『近悅遠來』更好。」$\\underline{偉同}$則說：「可是，我覺得『眾望所歸』更恰當。」最後$\\underline{嘉恩}$才說：「其實，『桃李芬芳』才是最合適的選擇。」"
+              },
+              {
+                "type": "text",
+                "content": "根據這段對話，誰的做法或說法最恰當？"
+              }
+            ],
             "passing_rate": 0.82,
             "discrimination_index": 0.46,
             "choices": [
               {
                 "answer": "A",
-                "description": "君翰"
+                "description": "$\\underline{君翰}$"
               },
               {
                 "answer": "B",
-                "description": "思涵"
+                "description": "$\\underline{思涵}$"
               },
               {
                 "answer": "C",
-                "description": "偉同"
+                "description": "$\\underline{偉同}$"
               },
               {
                 "answer": "D",
-                "description": "嘉恩"
+                "description": "$\\underline{嘉恩}$"
               }
             ],
             "correct_answer": "A",
@@ -7007,7 +7016,7 @@
           {
             "number": 3,
             "type": "singleChoice",
-            "description": "「臺灣原住民的布只有形制屬傳統或較現代的分別，像圓領的剪裁、鈕扣和棉布的使用等，都是受漢人的影響而來。泰雅族的貝珠鈴衣，是貝珠串底下加銅鈴裝飾，銅鈴也是和漢人交易而來。日治時代的原住民服裝，還出現以漢人棉布做底、日本布做袖口、原住民圖案做主要裝飾的混搭法。」\n這段文字的主旨最可能是下列何者？",
+            "description": "「$\\underline{臺灣}$原住民的布只有形制屬傳統或較現代的分別，像圓領的剪裁、鈕扣和棉布的使用等，都是受$\\underline{漢}$人的影響而來。$\\underline{泰雅}$族的貝珠鈴衣，是貝珠串底下加銅鈴裝飾，銅鈴也是和$\\underline{漢}$人交易而來。$\\underline{日}$治時代的原住民服裝，還出現以$\\underline{漢}$人棉布做底、$\\underline{日本}$布做袖口、原住民圖案做主要裝飾的混搭法。」\n這段文字的主旨最可能是下列何者？",
             "passing_rate": 0.87,
             "discrimination_index": 0.47,
             "choices": [
@@ -7021,7 +7030,7 @@
               },
               {
                 "answer": "C",
-                "description": "臺灣原住民的文化，影響了漢人與日本人的穿著"
+                "description": "$\\underline{臺灣}$原住民的文化，影響了$\\underline{漢}$人與$\\underline{日本}$人的穿著"
               },
               {
                 "answer": "D",
@@ -7089,25 +7098,25 @@
           {
             "type": "singleChoice",
             "number": 6,
-            "description": "下列體育新聞的說明何者錯誤？",
+            "description": "下列體育新聞的說明何者$\\underline{\\underline{錯誤}}$？",
             "passing_rate": 0.81,
             "discrimination_index": 0.56,
             "choices": [
               {
                 "answer": "A",
-                "description": "東道主法國隊屈居第二：法國是主辦國"
+                "description": "東道主$\\underline{法國}$隊屈居第二：$\\underline{法國}$是主辦國"
               },
               {
                 "answer": "B",
-                "description": "我國九局下逆轉，一分氣走韓國：我國轉輸為贏"
+                "description": "我國九局下逆轉，一分氣走$\\underline{韓國}$：我國轉輸為贏"
               },
               {
                 "answer": "C",
-                "description": "波多黎各選手爆冷門奪金：各界看好波多黎各選手奪金"
+                "description": "$\\underline{波多黎各}$選手爆冷門奪金：各界看好$\\underline{波多黎各}$選手奪金"
               },
               {
                 "answer": "D",
-                "description": "我國女將輕取哥倫比亞，晉級八強：我國女將大勝哥倫比亞"
+                "description": "我國女將輕取$\\underline{哥倫比亞}$，晉級八強：我國女將大勝$\\underline{哥倫比亞}$"
               }
             ],
             "correct_answer": "C",
@@ -7143,7 +7152,16 @@
           {
             "type": "singleChoice",
             "number": 8,
-            "description": "陸公嘗於市遇一佳硯，議價未定。既還邸，使門人往，以一金易歸。門人持硯歸，公訝其不類。門人堅證其是。公曰：「向觀硯有鴝鵒眼，今何無之？」答曰：「吾嫌其微凸，路遇石工，令磨而平之。」公大惋惜。\n下列關於故事中人物的敘述，何者最恰當？",
+            "rich_content": [
+              {
+                "type": "border",
+                "content": "        $\\underline{陸}$公嘗於市遇一佳硯，議價未定。既還邸，使門人往，以一金易歸。門人持硯歸，公訝其不類。門人堅證其是。公曰：「向觀硯有鴝鵒眼，今何無之？」答曰：「吾嫌其微凸，路遇石工，令磨而平之。」公大惋惜。"
+              },
+              {
+                "type": "text",
+                "content": "下列關於故事中人物的敘述，何者最恰當？"
+              }
+            ],
             "passing_rate": 0.67,
             "discrimination_index": 0.59,
             "choices": [
@@ -7153,7 +7171,7 @@
               },
               {
                 "answer": "B",
-                "description": "陸公惋惜是因石工技藝不佳"
+                "description": "$\\underline{陸}$公惋惜是因石工技藝不佳"
               },
               {
                 "answer": "C",
@@ -7161,7 +7179,7 @@
               },
               {
                 "answer": "D",
-                "description": "陸公對門人購硯的價格感到驚訝"
+                "description": "$\\underline{陸}$公對門人購硯的價格感到驚訝"
               }
             ],
             "correct_answer": "C",
@@ -7170,7 +7188,7 @@
           {
             "type": "singleChoice",
             "number": 9,
-            "description": "「美國有名男子在家中裝攝影機，24小時在網路上播放他的生活，因此成為名人，甚且登上雜誌封面。這透露著有些人不再介意被窺視，甚至樂於被窺視。人有時會覺得孤寂，希望被注意，讓人覺得自己很重要。那些被窺視的人，既然知道鏡頭在哪裡，是否會有表演的性質呢？」根據這段文字，下列何者最接近作者的觀點？",
+            "description": "「$\\underline{美國}$有名男子在家中裝攝影機，24小時在網路上播放他的生活，因此成為名人，甚且登上雜誌封面。這透露著有些人不再介意被窺視，甚至樂於被窺視。人有時會覺得孤寂，希望被注意，讓人覺得自己很重要。那些被窺視的人，既然知道鏡頭在哪裡，是否會有表演的性質呢？」根據這段文字，下列何者最接近作者的觀點？",
             "passing_rate": 0.83,
             "discrimination_index": 0.52,
             "choices": [
@@ -7275,17 +7293,17 @@
           {
             "type": "singleChoice",
             "number": 13,
-            "description": "「所謂中菜西吃，是將原本大盤共享且同桌擺放的宴席菜式，改為西餐般一人一份、一道道依序送上。但中菜向來比西菜更講究沸熱燙口，分開上菜後，熱度鑊氣全消。其次，拋卻一桌多道同食，享受各種味道交錯的樂趣。更嚴重的是，\n為了美觀便利，連烹調手法都起了變化。例如原本該整魚整肉整蔬大鍋蒸煮煨燉，卻改為小塊小盅個別處理，光這點就足以讓同冶一爐、渾然一體之味傷損逸散。」\n根據這段文字，作者不愛中菜西吃的原因$\\underline{\\underline{最不可能}}$包含下列何者？",
+            "description": "「所謂$\\underline{中}$菜西吃，是將原本大盤共享且同桌擺放的宴席菜式，改為西餐般一人一份、一道道依序送上。但$\\underline{中}$菜向來比西菜更講究沸熱燙口，分開上菜後，熱度鑊氣全消。其次，拋卻一桌多道同食，享受各種味道交錯的樂趣。更嚴重的是，為了美觀便利，連烹調手法都起了變化。例如原本該整魚整肉整蔬大鍋蒸煮煨燉，卻改為小塊小盅個別處理，光這點就足以讓同冶一爐、渾然一體之味傷損逸散。」\n根據這段文字，作者不愛$\\underline{中}$菜西吃的原因$\\underline{\\underline{最不可能}}$包含下列何者？",
             "passing_rate": 0.61,
             "discrimination_index": 0.48,
             "choices": [
               {
                 "answer": "A",
-                "description": "中式食法多道並陳，西式則否"
+                "description": "$\\underline{中}$式食法多道並陳，西式則否"
               },
               {
                 "answer": "B",
-                "description": "中菜較西菜更講究菜餚的熱度"
+                "description": "$\\underline{中}$菜較西菜更講究菜餚的熱度"
               },
               {
                 "answer": "C",
@@ -7293,7 +7311,7 @@
               },
               {
                 "answer": "D",
-                "description": "西式食法盡失中菜大鍋烹煮整肉的風味"
+                "description": "西式食法盡失$\\underline{中}$菜大鍋烹煮整肉的風味"
               }
             ],
             "correct_answer": "C",
