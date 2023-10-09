@@ -20,13 +20,13 @@
           {
             "type": "singleChoice",
             "number": 1,
-            "description": "以下是一則論文摘要：「本文旨在說明臺灣國民小學至大學學生閱讀興趣與閱讀素養的關係，以及不同學齡階段的讀寫素養表現。不論年級，閱讀興趣與閱讀素養有正向關聯，然由一般學生投資於閱讀的時間反映出閱讀興趣有加強之必要。」若要以這段文字的核心概念標示一組關鍵詞，下列何者最恰當？",
+            "description": "以下是一則論文摘要：「本文旨在說明$\\underline{臺灣}$國民小學至大學學生閱讀興趣與閱讀素養的關係，以及不同學齡階段的讀寫素養表現。不論年級，閱讀興趣與閱讀素養有正向關聯，然由一般學生投資於閱讀的時間反映出閱讀興趣有加強之必要。」若要以這段文字的核心概念標示一組關鍵詞，下列何者最恰當？",
             "passing_rate": 0.85,
             "discrimination_index": 0.31,
             "choices": [
               {
                 "answer": "A",
-                "description": "臺灣、學齡階段"
+                "description": "$\\underline{臺灣}$、學齡階段"
               },
               {
                 "answer": "B",
@@ -74,7 +74,7 @@
           {
             "type": "singleChoice",
             "number": 3,
-            "description": "「彎曲的生命旅路，常常會被安排與許多人與事錯身而過$\\boxed 甲$有些注定是淡漠的$\\boxed 乙$並淪為遺忘$\\boxed 丙$有些則產生強烈衝擊$\\boxed 丁$終至刻骨銘心。」這段文字中的甲、乙、丙、丁四處，何者最適合使用標點符號中的分號？",
+            "description": "「彎曲的生命旅路，常常會被安排與許多人與事錯身而過 $\\boxed 甲$ 有些注定是淡漠的 $\\boxed 乙$ 並淪為遺忘 $\\boxed 丙$ 有些則產生強烈衝擊 $\\boxed 丁$ 終至刻骨銘心。」這段文字中的甲、乙、丙、丁四處，何者最適合使用標點符號中的分號？",
             "passing_rate": 0.75,
             "discrimination_index": 0.47,
             "choices": [
@@ -96,7 +96,7 @@
               }
             ],
             "correct_answer": "C",
-            "explanation": "「有些……有些」句型適合使用分號。"
+            "explanation": "「有些......有些」句型適合使用分號。"
           },
           {
             "type": "singleChoice",
@@ -156,6 +156,16 @@
             "type": "singleChoice",
             "number": 6,
             "description": "「齒」的甲骨文字形是 $\\boxed{}$ $\\boxed{}$ 字，看起來像張口見齒的樣子。小篆字形在上部增加了「止」字，用「止」表示聲音，至此變成了 $\\boxed{}$ $\\boxed{}$ 字。\n這段文字的空格處，依序應填入何種造字原則？",
+            "rich_content": [
+              {
+                "type": "border",
+                "content": "「齒」的甲骨文字形是 $\\boxed{}$ $\\boxed{}$ 字，看起來像張口見齒的樣子。小篆字形在上部增加了「止」字，用「止」表示聲音，至此變成了 $\\boxed{}$ $\\boxed{}$ 字。"
+              },
+              {
+                "type": "text",
+                "content": "這段文字的空格處，依序應填入何種造字原則？"
+              }
+            ],
             "image": "112_chinese_6.png",
             "passing_rate": 0.6,
             "discrimination_index": 0.19,
@@ -234,7 +244,7 @@
           {
             "type": "singleChoice",
             "number": 9,
-            "description": "小平欲致贈匾額祝賀下列四個單位，匾額上所使用的題辭何者$\\underline{\\underline{不恰當}}$？",
+            "description": "$\\underline{小平}$欲致贈匾額祝賀下列四個單位，匾額上所使用的題辭何者$\\underline{\\underline{不恰當}}$？",
             "image": "112_chinese_9.png",
             "passing_rate": 0.55,
             "discrimination_index": 0.5,
@@ -313,6 +323,21 @@
             "type": "singleChoice",
             "number": 12,
             "description": "「$\\underline{少室周}$為$\\underline{趙簡子}$之$右_1$，聞$\\underline{牛談}$有力，請與之競，弗勝，$致_2$右焉。$\\underline{簡子}$許之，使$\\underline{少室周}$為宰，曰：『知賢而讓，可以為訓矣。』」根據文意脈絡，下列何者最適合用來說明「訓」字的意義？\n\n📖 補充說明：\n1.右：職官名，立君主之右，擔任保衛工作\n2.致：禮讓",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": ""
+              },
+              {
+                "type": "border",
+                "content": "",
+                "alignment": "centerRight"
+              },
+              {
+                "type": "image",
+                "content": ""
+              }
+            ],
             "passing_rate": 0.7,
             "discrimination_index": 0.55,
             "choices": [
@@ -611,7 +636,21 @@
           {
             "type": "singleChoice",
             "number": 23,
-            "description": "往歲士人多尚對偶為文，$\\underline{穆脩}$、$\\underline{張景}$輩始為平文，當時謂之古文。$\\underline{穆}$、$\\underline{張}$嘗同造朝，適見有奔馬踐死一犬，二人各記其事。$\\underline{穆脩}$曰：「馬$逸_1$，有黃犬遇蹄而斃。」$\\underline{張景}$曰：「有犬死奔馬之下。」時文體新變，二人之語皆拙澀，\n當時已謂之工，傳之至今。\n\n根據這段文字，關於$\\underline{穆脩}$、$\\underline{張景}$針對奔馬踐死一犬的記事，下列敘述何者最恰當？\n\n📖 補充說明：\n1.逸：奔跑",
+            "rich_content": [
+              {
+                "type": "border",
+                "content": "   往歲士人多尚對偶為文，$\\underline{穆脩}$、$\\underline{張景}$輩始為平文，當時謂之古文。$\\underline{穆}$、$\\underline{張}$嘗同造朝，適見有奔馬踐死一犬，二人各記其事。$\\underline{穆脩}$曰：「馬$逸_1$，有黃犬遇蹄而斃。」$\\underline{張景}$曰：「有犬死奔馬之下。」時文體新變，二人之語皆拙澀，\n當時已謂之工，傳之至今。"
+              },
+              {
+                "type": "text",
+                "content": "根據這段文字，關於$\\underline{穆脩}$、$\\underline{張景}$針對奔馬踐死一犬的記事，下列敘述何者最恰當？"
+              },
+              {
+                "type": "border",
+                "content": "📖 補充說明：\n1.逸：奔跑",
+                "alignment": "centerRight"
+              }
+            ],
             "passing_rate": 0.51,
             "discrimination_index": 0.44,
             "choices": [
@@ -656,7 +695,7 @@
               },
               {
                 "answer": "D",
-                "description": "$\\underline{杜偉長}堅持移堤，導致年年發生水患"
+                "description": "$\\underline{杜偉長}$堅持移堤，導致年年發生水患"
               }
             ],
             "correct_answer": "B",
@@ -1486,7 +1525,7 @@
               },
               {
                 "answer": "D",
-                "description": "headache1"
+                "description": "headache"
               }
             ],
             "correct_answer": "D",
@@ -3389,7 +3428,7 @@
             ],
             "correct_answer": "A",
             "image": "112_math_13.png",
-            "explanation": "因為 $\\overline{BC}>\\overline{AB}$ 且此直角柱底面為直角三角形，所以 $\\angle CAB $$=\\angle FDE $$> 45^\\circ $$> \\angle ACB$\n因為 $\\overline{AB}>\\overline{BE}$ 且此直角柱底面為直角三角形，所以 $\\angle AEB $$> 45^\\circ $$> \\angle EAB$\n綜上述得 $\\angle ACB $$< 45^\\circ $$> \\angle FDE$ 、 $\\angle AEB $$> 45^\\circ $$>\\angle ACB $\n故選A"
+            "explanation": "因為 $\\overline{BC}>\\overline{AB}$ 且此直角柱底面為直角三角形，所以 $\\angle CAB $$=\\angle FDE $$> 45^\\circ $$> \\angle ACB$\n因為 $\\overline{AB}>\\overline{BE}$ 且此直角柱底面為直角三角形，所以 $\\angle AEB $$> 45^\\circ $$> \\angle EAB$\n綜上述得 $\\angle ACB $$< 45^\\circ $$< \\angle FDE$ 、 $\\angle AEB $$> 45^\\circ $$>\\angle ACB $\n故選A"
           },
           {
             "type": "singleChoice",
@@ -4301,7 +4340,7 @@
           {
             "type": "singleChoice",
             "number": 20,
-            "description": "表(四)為$\\underline{生物研究保育中心}$網頁中四種植物的部分資料，有關此四種植物在分類表(四)階層上的敘述，下列何者無法確定？",
+            "description": "表(四)為$\\underline{生物研究保育中心}$網頁中四種植物的部分資料，有關此四種植物在分類階層上的敘述，下列何者$\\underline{\\underline{無法確定}}$？",
             "image": "112_nature_20.png",
             "passing_rate": 0.65,
             "discrimination_index": 0.57,
@@ -4994,7 +5033,7 @@
               }
             ],
             "correct_answer": "D",
-            "explanation": "小明的說法，燈泡甲皆不會發亮。故選(D)"
+            "explanation": "小明的說法，燈泡甲皆會發亮。故選(D)"
           },
           {
             "type": "groupChoice",
@@ -6165,7 +6204,7 @@
               }
             ],
             "correct_answer": "A",
-            "explanation": "一年為365天為古印度人所發明，其重要最為人熟知的就是尼羅河的氾濫與農業生產技術。因此選A"
+            "explanation": "一年為365天為古埃及人所發明，其重要最為人熟知的就是尼羅河的氾濫與農業生產技術。因此選A"
           },
           {
             "type": "singleChoice",
@@ -9120,7 +9159,7 @@
               },
               {
                 "type": "text",
-                "content": "The problem of long working hours is a real headache in our country. It kills many people every year (see Figure 1), and many companies are trying to change that. They have at least one “No Overtime Day” in a week, and it is often Wednesday. On “No Overtime Day,” workers are asked to leave their offices before 8 p.m. At 8 p.m., companies play the song “There’s Always Tomorrow” and turn off all the lights.\n  However, after the workers walk out of their offices, they don’t go home. Some go back later, turn on their table lamps, and keep working, and others find somewhere else to work until very late at night. Restaurants and coffee shops are busier on Wednesday evenings, and they have started selling drinks and meals for these workers.\n  But why do these people keep working? A study shows that workers who work more hours often have a bigger chance to get paid more and rise higher in their companies. This is true for both men and women (see Figure 2). Working long hours has become a way to show that people are hard-working. Clearly, $\\textcolor{red}{this}$ must be changed before the problem gets any worse."
+                "content": "    The problem of long working hours is a real headache in our country. It kills many people every year (see Figure 1), and many companies are trying to change that. They have at least one “No Overtime Day” in a week, and it is often Wednesday. On “No Overtime Day,” workers are asked to leave their offices before 8 p.m. At 8 p.m., companies play the song “There’s Always Tomorrow” and turn off all the lights.\n    However, after the workers walk out of their offices, they don’t go home. Some go back later, turn on their table lamps, and keep working, and others find somewhere else to work until very late at night. Restaurants and coffee shops are busier on Wednesday evenings, and they have started selling drinks and meals for these workers.\n    But why do these people keep working? A study shows that workers who work more hours often have a bigger chance to get paid more and rise higher in their companies. This is true for both men and women (see Figure 2). Working long hours has become a way to show that people are hard-working. Clearly, $\\textcolor{red}{this}$ must be changed before the problem gets any worse."
               },
               {
                 "type": "image",
@@ -12618,7 +12657,7 @@
           {
             "number": 11,
             "type": "singleChoice",
-            "description": "人類的 ABO 血型是由一對遺傳因子(等位基因)控制，而控制此血型的遺傳因子有 $I^A$ 、 $I^B$ 和 i 三種型式，其中 $I^A$ 和 $I^B$ 是顯性，i 是隱性，血型和基因型的關係如左表所示。右表為甲～丁四組父母的血型配對，在不考慮突變的情況下，則右表中的何種組別不可能生下 O 型血型的子女？",
+            "description": "人類的 ABO 血型是由一對遺傳因子(等位基因)控制，而控制此血型的遺傳因子有 $I^A$ 、 $I^B$ 和 i 三種型式，其中 $I^A$ 和 $I^B$ 是顯性，i 是隱性，血型和基因型的關係如表(二)所示。表(三)為甲～丁四組父母的血型配對，在不考慮突變的情況下，則表(三)中的何種組別$\\underline{\\underline{不可能}}$生下 O 型血型的子女？",
             "passing_rate": 0.73,
             "discrimination_index": 0.59,
             "choices": [
