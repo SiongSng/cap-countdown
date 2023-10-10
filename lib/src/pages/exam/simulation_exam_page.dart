@@ -10,11 +10,10 @@ import 'package:cap_countdown/src/exam/question_record.dart';
 import 'package:cap_countdown/src/exam/single_choice_question.dart';
 import 'package:cap_countdown/src/exam/subject_question.dart';
 import 'package:cap_countdown/src/widgets/optional_question_view.dart';
+import 'package:cap_countdown/src/widgets/question_text.dart';
 import 'package:cap_countdown/src/widgets/subject_question_view.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-
-import '../../exam/example_question.dart';
 
 class SimulationExamPage extends StatefulWidget {
   final int year;
@@ -38,15 +37,11 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
   int _currentPage = 0;
   bool _submitted = false;
   late bool _disablePageChange;
-  late List<bool> _submittedList;
-  final Stopwatch _stopwatch = Stopwatch();
 
   @override
   void initState() {
     _disablePageChange =
         widget.subject.subjectId == CAPSubject.englishListening;
-    _submittedList = List.filled(widget.subject.questions.length, false);
-    _stopwatch.start();
     super.initState();
   }
 
@@ -57,24 +52,6 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
     final isFavorite =
         localStorage.questionRecords[question.hash]?.isFavorite ?? false;
     final tookNote = localStorage.questionRecords[question.hash]?.note != null;
-
-    String getUsedTimeString() {
-      String toReturn = "用時：";
-      final hours = _stopwatch.elapsed.inHours % 24;
-      final minutes = _stopwatch.elapsed.inMinutes % 60;
-      final seconds = _stopwatch.elapsed.inSeconds % 60;
-
-      if (hours > 0) {
-        toReturn += "${hours.toString()}時";
-      }
-      if (minutes > 0) {
-        toReturn += "${minutes.toString()}分";
-      }
-
-      toReturn += "${seconds.toString()}秒";
-
-      return toReturn;
-    }
 
     return WillPopScope(
       onWillPop: () async {
@@ -118,35 +95,39 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
           ),
           body: Column(
             children: [
-              if (!(_submitted || !localStorage.simulationExamTiming))
-                ExamTimer(
-                  duration: widget.subject.duration,
-                  onExamOver: () {
-                    showDialog(
-                        context: context,
-                        barrierDismissible: false,
-                        builder: (context) {
-                          return AlertDialog(
-                            title: const Text('警告'),
-                            content: const Text('考試時間已到，請勿繼續作答！'),
-                            actions: [
-                              TextButton(
-                                  onPressed: () {
-                                    Navigator.of(context).pop();
-                                    _submit();
-                                  },
-                                  child: const Text('確定'))
-                            ],
-                          );
-                        });
-                  },
-                ),
+              Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                if (!_submitted)
+                  ExamTimer(
+                    duration: widget.subject.duration,
+                    onExamOver: () {
+                      showDialog(
+                          context: context,
+                          barrierDismissible: false,
+                          builder: (context) {
+                            return AlertDialog(
+                              title: const Text('警告'),
+                              content: const Text('考試時間已到，請勿繼續作答！'),
+                              actions: [
+                                TextButton(
+                                    onPressed: () {
+                                      Navigator.of(context).pop();
+                                      _submit();
+                                    },
+                                    child: const Text('確定'))
+                              ],
+                            );
+                          });
+                    },
+                  ),
+                if (widget.subject.subjectId == CAPSubject.math) ...[
+                  if (!_submitted)
+                    const SizedBox(
+                      width: 20,
+                    ),
+                  const MathReferenceFormula()
+                ]
+              ]),
               if (_submitted) GradeMarkings(subject: widget.subject),
-              if (_submitted)
-                Text(
-                  getUsedTimeString(),
-                  style: const TextStyle(fontSize: 20),
-                ),
               const Divider(),
               Expanded(
                 child: PageView.builder(
@@ -167,24 +148,13 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                           questionNumber: question.questionNumber),
                       option: QuestionViewOption(
                           showQuestionNumber: true,
-                          submitted: (_submittedList[index]),
-                          onlyPlayAudioOnce:
-                              !(_submitted || _submittedList[index]),
+                          submitted: _submitted,
+                          onlyPlayAudioOnce: !_submitted,
                           onAudioPlayStateChanged: (state) {
                             setState(() {
-                              _disablePageChange =
-                                  (state == PlayerState.playing);
-                              if (localStorage.simulationExamShowAnsBtn &&
-                                  question is ExampleQuestion) {
-                                _submittedList[index] = true;
-                              }
+                              _disablePageChange = state == PlayerState.playing;
                             });
                           }),
-                      onQuestionSubmitted: (value) {
-                        setState(() {
-                          _submittedList[index] = value;
-                        });
-                      },
                     );
                   },
                   onPageChanged: (page) {
@@ -359,7 +329,6 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
   }
 
   void _submit() {
-    _stopwatch.stop();
     showDialog(
         context: context,
         builder: (context) => AlertDialog(
@@ -371,7 +340,6 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                 if (mounted) {
                   setState(() {
                     _submitted = true;
-                    _submittedList = List.filled(_submittedList.length, true);
 
                     final optionalQuestions =
                         widget.subject.getOptionalQuestions();
@@ -427,16 +395,15 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
 }
 
 class _QuestionPage extends StatefulWidget {
-  const _QuestionPage(
-      {required this.question,
-      required this.meta,
-      required this.option,
-      required this.onQuestionSubmitted});
+  const _QuestionPage({
+    required this.question,
+    required this.meta,
+    required this.option,
+  });
 
   final SubjectQuestion question;
   final QuestionMeta meta;
   final QuestionViewOption option;
-  final ValueChanged<bool>? onQuestionSubmitted;
 
   @override
   State<_QuestionPage> createState() => _QuestionPageState();
@@ -454,70 +421,6 @@ class _QuestionPageState extends State<_QuestionPage>
         question: widget.question,
         meta: widget.meta,
         option: widget.option,
-        actions: localStorage.simulationExamShowAnsBtn
-            ? (questions) => [
-                  Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: [
-                        (!widget.option.submitted)
-                            ? FilledButton.icon(
-                                onPressed: () {
-                                  final isSelectAll = questions
-                                      .every((q) => q.selectedChoice != null);
-                                  final messenger =
-                                      ScaffoldMessenger.of(context);
-                                  messenger.clearSnackBars();
-
-                                  if (!isSelectAll) {
-                                    messenger.showSnackBar(
-                                      const SnackBar(
-                                        content: Text('交卷前請先記得選擇答案喔！',
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.bold)),
-                                        backgroundColor: Colors.orange,
-                                      ),
-                                    );
-                                    return;
-                                  }
-
-                                  if (questions.every((q) => q.isCorrect)) {
-                                    messenger.showSnackBar(
-                                      SnackBar(
-                                        content: Text(questions.length > 1
-                                            ? '恭喜你全都答對了！'
-                                            : '恭喜你答對了！'),
-                                        backgroundColor: Colors.green,
-                                      ),
-                                    );
-                                  } else {
-                                    messenger.showSnackBar(
-                                      const SnackBar(
-                                        content: Text('答錯了，再接再厲！記得看詳解修正錯誤呦！'),
-                                        backgroundColor: Colors.red,
-                                      ),
-                                    );
-                                  }
-
-                                  setState(() {
-                                    widget.onQuestionSubmitted?.call(true);
-                                    for (final q in questions) {
-                                      q.makeAsAnswered();
-                                    }
-                                  });
-                                },
-                                icon: const Icon(Icons.check),
-                                label: const Text('對答案'))
-                            : FilledButton.icon(
-                                onPressed: () {
-                                  setState(() {
-                                    widget.onQuestionSubmitted?.call(false);
-                                  });
-                                },
-                                icon: const Icon(Icons.visibility_off_outlined),
-                                label: const Text('隱藏答案'))
-                      ])
-                ]
-            : null,
       ),
     ));
   }
@@ -739,5 +642,65 @@ class GradeMarkings extends StatelessWidget {
         Text('記得看看詳解了解問題，加油！', style: textStyle),
       ],
     );
+  }
+}
+
+class MathReferenceFormula extends StatelessWidget {
+  const MathReferenceFormula({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+        child: const Padding(
+            padding: EdgeInsets.all(5),
+            child: Column(
+              children: [Icon(Icons.list), Text("參考公式")],
+            )),
+        onTap: () {
+          showModalBottomSheet(
+              context: context,
+              isScrollControlled: true,
+              builder: (BuildContext context) {
+                return const Padding(
+                  padding: EdgeInsets.all(20),
+                  child: Wrap(runSpacing: 8, children: [
+                    QuestionText(text: '參考公式：'),
+                    Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("📖 "),
+                          Column(children: [
+                            QuestionText(
+                                text:
+                                    "和的平方公式：\$(a+b)^2\$\$=a^2\$\$+2ab\$\$+b^2\$"),
+                            QuestionText(
+                                text:
+                                    "差的平方公式：\$(a-b)^2\$\$=a^2\$\$-2ab\$\$+b^2\$"),
+                            QuestionText(
+                                text: "平方差公式：\$a^2-b^2\$\$=(a+b)(a-b)\$"),
+                          ])
+                        ]),
+                    QuestionText(
+                        text:
+                            "📖 若直角三角形兩股長為 \$a\$ 、 \$b\$，斜邊長為 \$c\$，則 \$c^2\$\$=a^2\$\$+b^2\$"),
+                    QuestionText(
+                        text:
+                            "📖 若圓的半徑為 \$r\$，圓周率為 \$\\pi\$，則圓面積 \$=\\pi r^2\$，圓周長 \$=2 \\pi r\$"),
+                    QuestionText(
+                        text:
+                            "📖 凸 n 邊形的內角和為 \$(n − 2)\$\$ \\times 180^\\circ\$ ， \$n \\geq 3\$"),
+                    QuestionText(
+                        text:
+                            "📖 若一個等差數列的首項為 \$a_1\$，公差為 \$d\$，第 \$n\$ 項為 \$a_n\$,前 \$n\$ 項和為 \$S_n\$，則 \$a_n\$\$ = a_1 \$\$+ (n − 1) d\$，\$S_n\$\$ =\\frac{n (a_1 + a_n)}{2}\$"),
+                    QuestionText(
+                        text:
+                            "📖 若一個等比數列的首項為 \$a_1\$，公比為 \$r\$，第 \$n\$ 項為 \$a_n\$，則 \$a_n\$ \$= a_1r^{n − 1}\$"),
+                    QuestionText(
+                        text:
+                            "📖 一元二次方程式 \$ax^2 \$\$+ bx \$\$+ c \$\$= 0\$ 的解為 \$x \$\$=\\frac{ −b\\pm \\sqrt{b^2 − 4ac}}{2a}\$")
+                  ]),
+                );
+              });
+        });
   }
 }
