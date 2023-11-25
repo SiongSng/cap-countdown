@@ -10432,7 +10432,7 @@
           {
             "number": 5,
             "type": "singleChoice",
-            "description": "算式 $\\frac{9}{22}+\\frac{11}{18}-\\left(\\frac{23}{22}-\\frac{7}{18}\\right)$ 之值為何？",
+            "description": "算式 $\\frac{9}{22}$$+\\frac{11}{18}$$-\\left(\\frac{23}{22}$$-\\frac{7}{18}\\right)$ 之值為何？",
             "passing_rate": 0.81,
             "discrimination_index": 0.58,
             "choices": [
@@ -10623,7 +10623,7 @@
           {
             "number": 12,
             "type": "singleChoice",
-            "description": "已知 $p=7.52 \\times 10^{-6}$ ，下列關於 $p$ 值的敘述何者正確？",
+            "description": "已知 $p=$$7.52 $$\\times 10^{-6}$ ，下列關於 $p$ 值的敘述何者正確？",
             "passing_rate": 0.64,
             "discrimination_index": 0.59,
             "choices": [
@@ -12223,7 +12223,7 @@
             ],
             "correct_answer": "A",
             "image": "111_society_43.png",
-            "explanation": "大手顯然是共產黨，而大韓民國正在抵抗共產黨的侵略。由此可知時間是二戰後 的韓戰時期，領導各國對抗共產黨的，最可能是聯合國。因此選Ａ"
+            "explanation": "由圖中共產黨侵略大韓民國，可知此為韓戰，而圖中對抗共產黨的「大手」，即是派兵幫助大韓民國的聯合國。故選A。"
           },
           {
             "type": "groupChoice",
@@ -15488,7 +15488,7 @@
             ],
             "correct_answer": "A",
             "image": "110_nature_28.png",
-            "explanation": "反射反應之反應時間不可經由訓練而縮短，而所有反應皆須有受器、戚覺神經元、運動神經元、動器完成動作"
+            "explanation": "觀察實驗結果可知，此動作完成時間越來越短，表示此動作可以經訓練而縮短時間，故非反射動作，需經過大腦。故選A。"
           },
           {
             "number": 29,
