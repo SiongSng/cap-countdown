@@ -20,13 +20,13 @@
           {
             "type": "singleChoice",
             "number": 1,
-            "description": "以下是一則論文摘要：「本文旨在說明臺灣國民小學至大學學生閱讀興趣與閱讀素養的關係，以及不同學齡階段的讀寫素養表現。不論年級，閱讀興趣與閱讀素養有正向關聯，然由一般學生投資於閱讀的時間反映出閱讀興趣有加強之必要。」若要以這段文字的核心概念標示一組關鍵詞，下列何者最恰當？",
+            "description": "以下是一則論文摘要：「本文旨在說明$\\underline{臺灣}$國民小學至大學學生閱讀興趣與閱讀素養的關係，以及不同學齡階段的讀寫素養表現。不論年級，閱讀興趣與閱讀素養有正向關聯，然由一般學生投資於閱讀的時間反映出閱讀興趣有加強之必要。」若要以這段文字的核心概念標示一組關鍵詞，下列何者最恰當？",
             "passing_rate": 0.85,
             "discrimination_index": 0.31,
             "choices": [
               {
                 "answer": "A",
-                "description": "臺灣、學齡階段"
+                "description": "$\\underline{臺灣}$、學齡階段"
               },
               {
                 "answer": "B",
@@ -74,7 +74,7 @@
           {
             "type": "singleChoice",
             "number": 3,
-            "description": "「彎曲的生命旅路，常常會被安排與許多人與事錯身而過$\\boxed 甲$有些注定是淡漠的$\\boxed 乙$並淪為遺忘$\\boxed 丙$有些則產生強烈衝擊$\\boxed 丁$終至刻骨銘心。」這段文字中的甲、乙、丙、丁四處，何者最適合使用標點符號中的分號？",
+            "description": "「彎曲的生命旅路，常常會被安排與許多人與事錯身而過 $\\boxed 甲$ 有些注定是淡漠的 $\\boxed 乙$ 並淪為遺忘 $\\boxed 丙$ 有些則產生強烈衝擊 $\\boxed 丁$ 終至刻骨銘心。」這段文字中的甲、乙、丙、丁四處，何者最適合使用標點符號中的分號？",
             "passing_rate": 0.75,
             "discrimination_index": 0.47,
             "choices": [
@@ -96,7 +96,7 @@
               }
             ],
             "correct_answer": "C",
-            "explanation": "「有些……有些」句型適合使用分號。"
+            "explanation": "「有些......有些」句型適合使用分號。"
           },
           {
             "type": "singleChoice",
@@ -155,8 +155,20 @@
           {
             "type": "singleChoice",
             "number": 6,
-            "description": "「齒」的甲骨文字形是 $\\boxed{}$ $\\boxed{}$ 字，看起來像張口見齒的樣子。小篆字形在上部增加了「止」字，用「止」表示聲音，至此變成了 $\\boxed{}$ $\\boxed{}$ 字。\n這段文字的空格處，依序應填入何種造字原則？",
-            "image": "112_chinese_6.png",
+            "rich_content": [
+              {
+                "type": "border",
+                "content": "「齒」的甲骨文字形是 $\\boxed{}$ $\\boxed{}$ 字，看起來像張口見齒的樣子。小篆字形在上部增加了「止」字，用「止」表示聲音，至此變成了 $\\boxed{}$ $\\boxed{}$ 字。"
+              },
+              {
+                "type": "image",
+                "content": "112_chinese_6.png"
+              },
+              {
+                "type": "text",
+                "content": "這段文字的空格處，依序應填入何種造字原則？"
+              }
+            ],
             "passing_rate": 0.6,
             "discrimination_index": 0.19,
             "choices": [
@@ -234,7 +246,7 @@
           {
             "type": "singleChoice",
             "number": 9,
-            "description": "小平欲致贈匾額祝賀下列四個單位，匾額上所使用的題辭何者$\\underline{\\underline{不恰當}}$？",
+            "description": "$\\underline{小平}$欲致贈匾額祝賀下列四個單位，匾額上所使用的題辭何者$\\underline{\\underline{不恰當}}$？",
             "image": "112_chinese_9.png",
             "passing_rate": 0.55,
             "discrimination_index": 0.5,
@@ -312,7 +324,17 @@
           {
             "type": "singleChoice",
             "number": 12,
-            "description": "「$\\underline{少室周}$為$\\underline{趙簡子}$之$右_1$，聞$\\underline{牛談}$有力，請與之競，弗勝，$致_2$右焉。$\\underline{簡子}$許之，使$\\underline{少室周}$為宰，曰：『知賢而讓，可以為訓矣。』」根據文意脈絡，下列何者最適合用來說明「訓」字的意義？\n\n📖 補充說明：\n1.右：職官名，立君主之右，擔任保衛工作\n2.致：禮讓",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "「$\\underline{少室周}$為$\\underline{趙簡子}$之$右_1$，聞$\\underline{牛談}$有力，請與之競，弗勝，$致_2$右焉。$\\underline{簡子}$許之，使$\\underline{少室周}$為宰，曰：『知賢而讓，可以為訓矣。』」根據文意脈絡，下列何者最適合用來說明「訓」字的意義？"
+              },
+              {
+                "type": "border",
+                "content": "📖 補充說明：\n1.右：職官名，立君主之右，擔任保衛工作\n2.致：禮讓",
+                "alignment": "centerRight"
+              }
+            ],
             "passing_rate": 0.7,
             "discrimination_index": 0.55,
             "choices": [
@@ -339,7 +361,17 @@
           {
             "type": "singleChoice",
             "number": 13,
-            "description": "「$\\underline{茲鄭}$引$輦_1$ 上高$梁_2$而不能支。$\\underline{茲鄭}$倚轅而歌，前者止，後者趨，輦乃上。使$\\underline{茲鄭}$無術以致人，則身雖絕力至死，輦猶不上也。今身不至勞苦而輦以上者，有術以致人之故也。」這段文字的主旨最可能是下列何者？\n\n📖補充說明：\n1.輦：古時用人拉著走的車\n2.梁：橋",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "「$\\underline{茲鄭}$引$輦_1$ 上高$梁_2$而不能支。$\\underline{茲鄭}$倚轅而歌，前者止，後者趨，輦乃上。使$\\underline{茲鄭}$無術以致人，則身雖絕力至死，輦猶不上也。今身不至勞苦而輦以上者，有術以致人之故也。」這段文字的主旨最可能是下列何者？"
+              },
+              {
+                "type": "border",
+                "content": "📖 補充說明：\n1.輦：古時用人拉著走的車\n2.梁：橋",
+                "alignment": "centerRight"
+              }
+            ],
             "passing_rate": 0.61,
             "discrimination_index": 0.47,
             "choices": [
@@ -366,7 +398,7 @@
           {
             "type": "singleChoice",
             "number": 14,
-            "description": "下列文句「」中的詞語，何者使用最恰當？",
+            "description": "下列文句「 」中的詞語，何者使用最恰當？",
             "passing_rate": 0.78,
             "discrimination_index": 0.44,
             "choices": [
@@ -393,7 +425,30 @@
           {
             "type": "singleChoice",
             "number": 15,
-            "description": "\n甲：花寒懶發鳥慵啼，信馬閑行到日西。何處未春先有思？柳條無力魏王堤。\n―― 白居易〈魏王堤〉\n\n乙：陰陰溪曲綠交加，小雨翻萍上淺沙。鵝鴨不知春去盡，爭隨流水趁桃花。\n―― 晁沖之〈春日〉\n關於這兩首詩的分析，下列敘述何者最恰當？",
+            "rich_content": [
+              {
+                "type": "border",
+                "content": "甲：花寒懶發鳥慵啼，信馬閑行到日西。何處未春先有思？柳條無力$\\underline{魏王堤}$。"
+              },
+              {
+                "type": "border",
+                "content": "── $\\underline{白居易}$〈魏王堤〉",
+                "alignment": "centerRight"
+              },
+              {
+                "type": "border",
+                "content": "乙：陰陰溪曲綠交加，小雨翻萍上淺沙。鵝鴨不知春去盡，爭隨流水趁桃花。"
+              },
+              {
+                "type": "border",
+                "content": "── $\\underline{晁沖之}$〈春日〉",
+                "alignment": "centerRight"
+              },
+              {
+                "type": "text",
+                "content": "關於這兩首詩的分析，下列敘述何者最恰當？"
+              }
+            ],
             "passing_rate": 0.69,
             "discrimination_index": 0.48,
             "choices": [
@@ -447,7 +502,7 @@
           {
             "type": "singleChoice",
             "number": 17,
-            "description": "以上是根據聯合國《2019年永續發展目標報告》製作的圖表。下列關於圖表內容的推論，何者最不恰當？",
+            "description": "以上是根據$\\underline{聯合國}$《2019年永續發展目標報告》製作的圖表。下列關於圖表內容的推論，何者$\\underline{\\underline{最不恰當}}$？",
             "image": "112_chinese_17.png",
             "passing_rate": 0.58,
             "discrimination_index": 0.41,
@@ -466,7 +521,7 @@
               },
               {
                 "answer": "D",
-                "description": "丁：2018 年至少有30%的20 至24 歲南亞女性結過婚"
+                "description": "丁：2018 年至少有30%的20至24歲$\\underline{南亞}$女性結過婚"
               }
             ],
             "correct_answer": "A",
@@ -475,7 +530,7 @@
           {
             "type": "singleChoice",
             "number": 18,
-            "description": "「商代人只在上、下午各吃一餐，因為農業社會耕作頗費體力，早上需好好補充精力，下午因太陽將西下，無法再工作，不如早睡早起，故不必吃得多。\n春秋晚期以來，隨著牛耕鐵器的廣泛使用，尤其是戰國時代鐵器的普及，生產力大大提高。社會的面貌起了很大的變化，人們的生活內容漸漸豐富起來，許多人開始在夜間從事非生產性的工作，富人娛樂活動增加，便多一餐以補充體力。」根據這段文字，古人從兩餐變成三餐的原因，與下列何者$\\underline{\\underline{最不相關}}$？",
+            "description": "「$\\underline{商代}$人只在上、下午各吃一餐，因為農業社會耕作頗費體力，早上需好好補充精力，下午因太陽將西下，無法再工作，不如早睡早起，故不必吃得多。$\\underline{春秋}$晚期以來，隨著牛耕鐵器的廣泛使用，尤其是$\\underline{戰國}$時代鐵器的普及，生產力大大提高。社會的面貌起了很大的變化，人們的生活內容漸漸豐富起來，許多人開始在夜間從事非生產性的工作，富人娛樂活動增加，便多一餐以補充體力。」根據這段文字，古人從兩餐變成三餐的原因，與下列何者$\\underline{\\underline{最不相關}}$？",
             "passing_rate": 0.84,
             "discrimination_index": 0.52,
             "choices": [
@@ -529,7 +584,7 @@
           {
             "type": "singleChoice",
             "number": 20,
-            "description": "蘇軾〈西江月〉：「世事一場大夢，人生幾度新涼？夜來風葉已鳴廊，看取眉頭鬢上。　　酒賤常愁客少，月明多被雲妨。中秋誰與共孤光，把盞淒然北望。」下列關於詞句的說明，何者$\\underline{\\underline{最不恰當}}$？",
+            "description": "$\\underline{蘇軾}$〈西江月〉：「世事一場大夢，人生幾度新涼？夜來風葉已鳴廊，看取眉頭鬢上。        酒賤常愁客少，月明多被雲妨。中秋誰與共孤光，把盞淒然北望。」下列關於詞句的說明，何者$\\underline{\\underline{最不恰當}}$？",
             "passing_rate": 0.48,
             "discrimination_index": 0.29,
             "choices": [
@@ -556,8 +611,20 @@
           {
             "type": "singleChoice",
             "number": 21,
-            "description": "\n說明：\n　　1866 至1886 年間，甲國茶葉出口逐年大幅增長。歐洲國家茶葉生產技術發展起來後，甲國茶葉出口總額急轉直下。從1886 至1900 的十五年間，甲國茶葉出口銳減，在歐洲茶葉市場的占有率也從原本幾乎100%，急遽下降至10% 左右。\n根據這份表格及說明，可以推論出下列何者？",
-            "image": "112_chinese_21.png",
+            "rich_content": [
+              {
+                "type": "image",
+                "content": "112_chinese_21.png"
+              },
+              {
+                "type": "border",
+                "content": "說明：\n　　1866至1886年間，甲國茶葉出口逐年大幅增長。$\\underline{歐洲}$國家茶葉生產技術發展起來後，甲國茶葉出口總額急轉直下。從1886 至1900 的十五年間，甲國茶葉出口銳減，在$\\underline{歐洲}$茶葉市場的占有率也從原本幾乎100%，急遽下降至10% 左右。"
+              },
+              {
+                "type": "text",
+                "content": "根據這份表格及說明，可以推論出下列何者？"
+              }
+            ],
             "passing_rate": 0.58,
             "discrimination_index": 0.5,
             "choices": [
@@ -584,7 +651,7 @@
           {
             "type": "singleChoice",
             "number": 22,
-            "description": "「復北上，行石罅中，石峰片片夾起，路宛轉石間，塞者鑿之，陡者級之，斷者架木通之，懸者植梯接之。下瞰峭壑陰森，楓松相間，五色紛披，燦若圖繡。\n因念$\\underline{黃山}$當生平奇覽，而有奇若此，前未一探，茲遊快且愧矣！」根據這段文字，下列敘述何者最恰當？",
+            "description": "「復北上，行石罅中，石峰片片夾起，路宛轉石間，塞者鑿之，陡者級之，斷者架木通之，懸者植梯接之。下瞰峭壑陰森，楓松相間，五色紛披，燦若圖繡。因念$\\underline{黃山}$當生平奇覽，而有奇若此，前未一探，茲遊快且愧矣！」根據這段文字，下列敘述何者最恰當？",
             "passing_rate": 0.64,
             "discrimination_index": 0.44,
             "choices": [
@@ -611,7 +678,21 @@
           {
             "type": "singleChoice",
             "number": 23,
-            "description": "往歲士人多尚對偶為文，$\\underline{穆脩}$、$\\underline{張景}$輩始為平文，當時謂之古文。$\\underline{穆}$、$\\underline{張}$嘗同造朝，適見有奔馬踐死一犬，二人各記其事。$\\underline{穆脩}$曰：「馬$逸_1$，有黃犬遇蹄而斃。」$\\underline{張景}$曰：「有犬死奔馬之下。」時文體新變，二人之語皆拙澀，\n當時已謂之工，傳之至今。\n\n根據這段文字，關於$\\underline{穆脩}$、$\\underline{張景}$針對奔馬踐死一犬的記事，下列敘述何者最恰當？\n\n📖 補充說明：\n1.逸：奔跑",
+            "rich_content": [
+              {
+                "type": "border",
+                "content": "        往歲士人多尚對偶為文，$\\underline{穆脩}$、$\\underline{張景}$輩始為平文，當時謂之古文。$\\underline{穆}$、$\\underline{張}$嘗同造朝，適見有奔馬踐死一犬，二人各記其事。$\\underline{穆脩}$曰：「馬$逸_1$，有黃犬遇蹄而斃。」$\\underline{張景}$曰：「有犬死奔馬之下。」時文體新變，二人之語皆拙澀，\n當時已謂之工，傳之至今。"
+              },
+              {
+                "type": "border",
+                "content": "📖 補充說明：\n1.逸：奔跑",
+                "alignment": "centerRight"
+              },
+              {
+                "type": "text",
+                "content": "根據這段文字，關於$\\underline{穆脩}$、$\\underline{張景}$針對奔馬踐死一犬的記事，下列敘述何者最恰當？"
+              }
+            ],
             "passing_rate": 0.51,
             "discrimination_index": 0.44,
             "choices": [
@@ -656,7 +737,7 @@
               },
               {
                 "answer": "D",
-                "description": "$\\underline{杜偉長}堅持移堤，導致年年發生水患"
+                "description": "$\\underline{杜偉長}$堅持移堤，導致年年發生水患"
               }
             ],
             "correct_answer": "B",
@@ -723,8 +804,21 @@
           },
           {
             "type": "groupChoice",
-            "description": "以下圖文改寫自$\\underline{亞當．斯金納}$《運動大百科》，請閱讀並回答27 ～ 29題：\n\n挑戰勇氣的跳水，是世界上最吸睛的運動比賽之一。跳水選手必須體態優美且靈活。他們會從數公尺高的跳臺躍入水中，同時做出大膽的動作。首先，選手必須站上跳臺，以直立或倒立的姿勢起跳。而有些比賽採用跳板起跳，可以輔助跳水者跳得更高，騰空的時間更久。跳水選手會在身體開始下降時，表演一系列抱膝、旋轉、騰翻、轉體與其他大膽精巧的動作，最後盡可能的順暢入水。歷史上有紀錄的第一場跳水比賽是在 1871 年舉行，當時的選手要從$\\underline{倫敦橋}$跳下$\\underline{泰晤士河}$。現今的跳水有個人比賽，也有雙人比賽。",
-            "image": "112_chinese_27-29.png",
+            "description": "",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "以下圖文改寫自$\\underline{亞當．斯金納}$《運動大百科》，請閱讀並回答27 ～ 29題："
+              },
+              {
+                "type": "border",
+                "content": "        挑戰勇氣的跳水，是世界上最吸睛的運動比賽之一。跳水選手必須體態優美且靈活。他們會從數公尺高的跳臺躍入水中，同時做出大膽的動作。首先，選手必須站上跳臺，以直立或倒立的姿勢起跳。而有些比賽採用跳板起跳，可以輔助跳水者跳得更高，騰空的時間更久。跳水選手會在身體開始下降時，表演一系列抱膝、旋轉、騰翻、轉體與其他大膽精巧的動作，最後盡可能的順暢入水。歷史上有紀錄的第一場跳水比賽是在 1871 年舉行，當時的選手要從$\\underline{倫敦橋}$跳下$\\underline{泰晤士河}$。現今的跳水有個人比賽，也有雙人比賽。"
+              },
+              {
+                "type": "image",
+                "content": "112_chinese_27-29.png"
+              }
+            ],
             "options": [
               {
                 "number": 27,
@@ -742,7 +836,7 @@
                   },
                   {
                     "answer": "C",
-                    "description": "奧運比賽的雙人賽必須配置7名評審"
+                    "description": "$\\underline{奧運}$比賽的雙人賽必須配置7名評審"
                   },
                   {
                     "answer": "D",
@@ -780,8 +874,20 @@
               },
               {
                 "number": 29,
-                "description": "亞當是奧運跳水個人賽選手，他在比賽時某次的動作難度係數是 3.0，當他完成後，評審團給的分數表如下：\n\n根據圖文，亞當此次跳水得分的計算方式應是下列何者？",
-                "image": "112_chinese_29.png",
+                "rich_content": [
+                  {
+                    "type": "text",
+                    "content": "$\\underline{亞當}$是$\\underline{奧運}$跳水個人賽選手，他在比賽時某次的動作難度係數是 3.0，當他完成後，評審團給的分數表如下："
+                  },
+                  {
+                    "type": "image",
+                    "content": "112_chinese_29.png"
+                  },
+                  {
+                    "type": "text",
+                    "content": "根據圖文，$\\underline{亞當}$此次跳水得分的計算方式應是下列何者？"
+                  }
+                ],
                 "passing_rate": 0.82,
                 "discrimination_index": 0.53,
                 "choices": [
@@ -809,7 +915,21 @@
           },
           {
             "type": "groupChoice",
-            "description": "請閱讀以下短文，並回答30 ～ 31題：\n\n    寒假期間的圖書館，呈現一種難得的閒逸姿態。這一棟半圓形的八層樓建築，環壁皆書，中間留下跟應用坪數相等的半圓形空間。從五樓俯望，偌大的建築顯得十分空洞。陰冷盤踞了多餘的空間，恍如進入一座潔淨，但森冷的納骨塔。整齊有序的書本，宛如一個個編號的骨灰罈，罈子裡都裝載著作者的魂。也許讀書的心都冬眠去了，這些思考宇宙大道，辯解生命本質的沉重書魂，都顯得有些黯然。\n    我通過文字開啟深邃寬廣的知識世界，同時釋放囚在罈子裡的書魂。我們的交談安靜而無聲。這種滅音的交談沒有負擔，對方的想法不盡完善，就在架上搜尋互為補強的觀點，讓不同意見的寄魂去辯駁。年輕的書魂總是按捺不住脾氣，氣勢凌厲且偏激；老書魂則不動如山，總能敗部復活，在逆境裡扭轉乾坤。讀書比看戲更令人著迷，難怪有不少讀者活著的時候就心甘情願把自己埋進納骨塔，想來精彩的書還真有勾魂攝魄的魅力。\n\n——改寫自$\\underline{鍾怡雯}$〈藏魂〉",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "請閱讀以下短文，並回答30 ～ 31題："
+              },
+              {
+                "type": "border",
+                "content": "        寒假期間的圖書館，呈現一種難得的閒逸姿態。這一棟半圓形的八層樓建築，環壁皆書，中間留下跟應用坪數相等的半圓形空間。從五樓俯望，偌大的建築顯得十分空洞。陰冷盤踞了多餘的空間，恍如進入一座潔淨，但森冷的納骨塔。整齊有序的書本，宛如一個個編號的骨灰罈，罈子裡都裝載著作者的魂。也許讀書的心都冬眠去了，這些思考宇宙大道，辯解生命本質的沉重書魂，都顯得有些黯然。\n        我通過文字開啟深邃寬廣的知識世界，同時釋放囚在罈子裡的書魂。我們的交談安靜而無聲。這種滅音的交談沒有負擔，對方的想法不盡完善，就在架上搜尋互為補強的觀點，讓不同意見的寄魂去辯駁。年輕的書魂總是按捺不住脾氣，氣勢凌厲且偏激；老書魂則不動如山，總能敗部復活，在逆境裡扭轉乾坤。讀書比看戲更令人著迷，難怪有不少讀者活著的時候就心甘情願把自己埋進納骨塔，想來精彩的書還真有勾魂攝魄的魅力。"
+              },
+              {
+                "type": "border",
+                "content": "── 改寫自$\\underline{鍾怡雯}$〈藏魂〉",
+                "alignment": "centerRight"
+              }
+            ],
             "options": [
               {
                 "number": 30,
@@ -867,7 +987,30 @@
           },
           {
             "type": "groupChoice",
-            "description": "請閲讀以下兩篇短文，並回答32 ～ 33題：\n【甲】\n    1968 年$\\underline{霍普}$創辦$\\underline{月球大使館公司}$，推出購買月球土地的服務，只要 19.99 $\\underline{美}$元就能買下月球上的一$\\underline{英}$畝土地。這間位於$\\underline{內華達州}$的公司宣稱握有好幾個星體的土地產權。\n   $\\underline{霍普}$創立公司時正值失業、離婚，一切都糟透了。當時他想，如果他有土地，狀況或許會好一點。$\\underline{霍普}$回憶：「接著我看到了月亮，我想著，那裡有好多土地啊。」\n   於是$\\underline{霍普}$調查《外太空條約》，發現條約僅明文禁止地球的國家主張其他星球的土地所有權，卻未規範私營公司。在當時，沒人想到會有公司這麼做。於是$\\underline{霍普}$飛奔去跑流程，而且從未有任何地球政府挑戰他販賣外太空地產的權限。\n—— 改寫自$\\underline{樂羽嘉}$〈你真的能買下月球的土地嗎？〉 \n【乙】\n    1969 年$\\underline{美國}$太空人$\\underline{阿姆斯壯}$在月球上踏出人類的第一步，在此之前的兩年，$\\underline{聯合國大會}$才通過《外太空條約》並開放各國簽署，至今已有超過 100 個國家簽署。條約規定必須和平進行太空探索，並造福所有國家。此條約也提到，所有的締約國都不可以主張天體的所有權，並要求締約國不可破壞他國的探測器或基地，例如不能降落在這些物體之上或附近。但這也產生了漏洞，讓國家或私人企業能以先占先贏的手段獨占有利的地點。\n   2016 年，$\\underline{美國}$天文物理學家$\\underline{艾維斯}$在《太空政策》期刊上提到：國家或私人企業都不能主張月球土地的所有權，否則將會引發「瓜分月球」效應，在某些方面就像 1880 年代許多國家開始「瓜分$\\underline{非洲}$」，在$\\underline{剛果}$爭相主張礦物資源的所有權 一樣。\n—— 改寫自$\\underline{曼恩}$〈月球土地先占先贏〉",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "請閲讀以下兩篇短文，並回答32 ～ 33題："
+              },
+              {
+                "type": "border",
+                "content": "【甲】\n        1968 年$\\underline{霍普}$創辦$\\underline{月球大使館公司}$，推出購買月球土地的服務，只要 19.99 $\\underline{美}$元就能買下月球上的一$\\underline{英}$畝土地。這間位於$\\underline{內華達州}$的公司宣稱握有好幾個星體的土地產權。\n        $\\underline{霍普}$創立公司時正值失業、離婚，一切都糟透了。當時他想，如果他有土地，狀況或許會好一點。$\\underline{霍普}$回憶：「接著我看到了月亮，我想著，那裡有好多土地啊。」\n        於是$\\underline{霍普}$調查《外太空條約》，發現條約僅明文禁止地球的國家主張其他星球的土地所有權，卻未規範私營公司。在當時，沒人想到會有公司這麼做。於是$\\underline{霍普}$飛奔去跑流程，而且從未有任何地球政府挑戰他販賣外太空地產的權限。"
+              },
+              {
+                "type": "border",
+                "content": "── 改寫自$\\underline{樂羽嘉}$〈你真的能買下月球的土地嗎？〉",
+                "alignment": "centerRight"
+              },
+              {
+                "type": "border",
+                "content": "【乙】\n        1969 年$\\underline{美國}$太空人$\\underline{阿姆斯壯}$在月球上踏出人類的第一步，在此之前的兩年，$\\underline{聯合國大會}$才通過《外太空條約》並開放各國簽署，至今已有超過 100 個國家簽署。條約規定必須和平進行太空探索，並造福所有國家。此條約也提到，所有的締約國都不可以主張天體的所有權，並要求締約國不可破壞他國的探測器或基地，例如不能降落在這些物體之上或附近。但這也產生了漏洞，讓國家或私人企業能以先占先贏的手段獨占有利的地點。\n        2016 年，$\\underline{美國}$天文物理學家$\\underline{艾維斯}$在《太空政策》期刊上提到：國家或私人企業都不能主張月球土地的所有權，否則將會引發「瓜分月球」效應，在某些方面就像 1880 年代許多國家開始「瓜分$\\underline{非洲}$」，在$\\underline{剛果}$爭相主張礦物資源的所有權一樣。"
+              },
+              {
+                "type": "border",
+                "content": "── 改寫自$\\underline{曼恩}$〈月球土地先占先贏〉",
+                "alignment": "centerRight"
+              }
+            ],
             "options": [
               {
                 "number": 32,
@@ -925,7 +1068,21 @@
           },
           {
             "type": "groupChoice",
-            "description": "    「隱私」是一種多元流動的概念，窗簾代表一種隱私，提款卡密碼是一種隱私，筆電防窺貼片是一種隱私。在我讀高中的年代，「隱私」意謂著上鎖的日記本、父母進房間前先敲門。\n    如今在網路上，瀏覽紀錄、按讚喜好、地理位置、基本個資等這些看不到的數據，都是商業可變現、政治可操縱的黑箱資料。\n    以往，我們常嘲笑將網站密碼設為「1234」或自己生日的朋友，然而，真實世界更幽微：\n    你是否知道，Google的智慧音箱、臉書的語音通話，都被他們錄下來，並交由人力聽取並抄錄，理由是「優化人工智慧」？\n    你是否知道，YouTube因未經監護人同意，違法蒐集兒童隱私，被$\\underline{美國}$政府重罰？\n   你是否知道，看似無關隱私的掃地機器人龍頭iRobot，執行長一度動念將機器人蒐集的用戶住家平面圖出售作為「智慧家庭」的數據資料庫，後因輿論反彈才作罷？\n    這些例子，說明數位時代「隱私」的高度複雜性，更別提，我們點閱特定產品網頁後，不管逛到哪個網站，同一產品廣告如影隨形。未來可能無論我們走到哪裡，戶外廣告牆會自動掃描每個人的眼球，播放符合個人興趣特徵的廣告。\n    關於網路隱私，當前最重要的挑戰是，當我們同意使用某一網路服務，形同自願交出私密資料。然而，我們完全不知道，誰可能取得這些資料，又會用在哪些地方？\n——改寫自$\\underline{黃哲斌}$〈個資可以吃嗎？給現代公民的網路隱私守則〉            ",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "請閱讀以下短文，並回答34 ～ 35題："
+              },
+              {
+                "type": "border",
+                "content": "        「隱私」是一種多元流動的概念，窗簾代表一種隱私，提款卡密碼是一種隱私，筆電防窺貼片是一種隱私。在我讀高中的年代，「隱私」意謂著上鎖的日記本、父母進房間前先敲門。\n        如今在網路上，瀏覽紀錄、按讚喜好、地理位置、基本個資等這些看不到的數據，都是商業可變現、政治可操縱的黑箱資料。\n        以往，我們常嘲笑將網站密碼設為「1234」或自己生日的朋友，然而，真實世界更幽微：\n        你是否知道，Google的智慧音箱、臉書的語音通話，都被他們錄下來，並交由人力聽取並抄錄，理由是「優化人工智慧」？\n        你是否知道，YouTube因未經監護人同意，違法蒐集兒童隱私，被$\\underline{美國}$政府重罰？\n        你是否知道，看似無關隱私的掃地機器人龍頭iRobot，執行長一度動念將機器人蒐集的用戶住家平面圖出售作為「智慧家庭」的數據資料庫，後因輿論反彈才作罷？\n        這些例子，說明數位時代「隱私」的高度複雜性，更別提，我們點閱特定產品網頁後，不管逛到哪個網站，同一產品廣告如影隨形。未來可能無論我們走到哪裡，戶外廣告牆會自動掃描每個人的眼球，播放符合個人興趣特徵的廣告。\n        關於網路隱私，當前最重要的挑戰是，當我們同意使用某一網路服務，形同自願交出私密資料。然而，我們完全不知道，誰可能取得這些資料，又會用在哪些地方？"
+              },
+              {
+                "type": "border",
+                "content": "── 改寫自$\\underline{黃哲斌}$〈個資可以吃嗎？給現代公民的網路隱私守則〉",
+                "alignment": "centerRight"
+              }
+            ],
             "options": [
               {
                 "number": 34,
@@ -983,21 +1140,35 @@
           },
           {
             "type": "groupChoice",
-            "description": "    名畫〈拿破崙的加冕禮〉現藏於$\\underline{羅浮宮}$，由首席宮廷繪師$\\underline{雅克路易．大衛}$在加冕禮隔年開始起草，約兩年多完成。\n    過去25代的$\\underline{法國}$國王都在$\\underline{巴黎}$東北方的$\\underline{蘭斯聖母院大教堂}$加冕。但$\\underline{拿破崙}$不願意被當成$\\underline{波旁王朝}$的繼承者，而自稱為「法國人的皇帝」，因此拒絕在蘭斯加冕，選擇在$\\underline{巴黎聖母院}$舉行加冕。同時仿效一千多年前的「$\\underline{羅馬}$人的皇帝」$\\underline{查理曼大帝}$，由$\\underline{羅馬}$教皇$\\underline{庇護七世}$主持，而不是$\\underline{蘭斯}$大主教。\n   當年$\\underline{查理曼大帝}$都還是親自前往$\\underline{梵蒂岡}$，$\\underline{拿破崙}$卻要求教皇至$\\underline{巴黎}$主持加冕典禮。在大典開始前，$\\underline{拿破崙}$已經身著絳紅色皇袍，頭戴金質$\\underline{羅馬}$式的桂冠，手持權杖，且未等教皇拿祭壇上的皇冠，就自己戴上，接著又親手為皇后$\\underline{約瑟芬}$授冠。但對教會如此傲慢的態度，若如實畫出，真的好嗎？因此$\\underline{大衛}$決定採用皇帝給皇后加冕的畫面，而不談誰為$\\underline{拿破崙}$加冕。\n   畫面的正中央是代表神權的十字架。從十字架、$\\underline{拿破崙}$、教皇由高到低的位置可看出$\\underline{拿破崙}$成了領軍人物，他跳過了代理神權的教會中介，直接實現了君權神授的完美結合。畫中$\\underline{拿破崙}$替皇后$\\underline{約瑟芬}$加冕，教皇$\\underline{庇護七世}$坐在$\\underline{拿破崙}$身後，面色凝重，但從教皇舉起的右手，還是可看出他正在為這一場面祝福。但這畫面仍有$\\underline{大衛}$虛構之處：當時$\\underline{拿破崙}$的母親根本沒有出席，也一併被畫在畫作裡。後來成為$\\underline{法國}$皇太后的她十分反對加冕典禮，擔憂兒子稱帝後將引發許多恐怖之事，因此遠走$\\underline{米蘭}$，在典禮結束後才回$\\underline{巴黎}$，將皇太后放入畫中是$\\underline{拿破崙}$本人提出的要求。至於畫作主角$\\underline{拿破崙}$，畫裡的他成了體型瘦高的男子，這自然是為了迎合身型矮小的$\\underline{拿破崙}$的虛榮心，好宣揚其驍勇善戰的英勇姿態，及帝王居高臨下、無人能左右的威權。\n——改寫自$\\underline{中野京子}$《療癒羅浮宮》",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "請閱讀以下短文，並回答36 ～ 38題："
+              },
+              {
+                "type": "border",
+                "content": "        名畫〈拿破崙的加冕禮〉現藏於$\\underline{羅浮宮}$，由首席宮廷繪師$\\underline{雅克路易．大衛}$在加冕禮隔年開始起草，約兩年多完成。\n        過去25代的$\\underline{法國}$國王都在$\\underline{巴黎}$東北方的$\\underline{蘭斯聖母院大教堂}$加冕。但$\\underline{拿破崙}$不願意被當成$\\underline{波旁王朝}$的繼承者，而自稱為「法國人的皇帝」，因此拒絕在蘭斯加冕，選擇在$\\underline{巴黎聖母院}$舉行加冕。同時仿效一千多年前的「$\\underline{羅馬}$人的皇帝」$\\underline{查理曼大帝}$，由$\\underline{羅馬}$教皇$\\underline{庇護七世}$主持，而不是$\\underline{蘭斯}$大主教。\n        當年$\\underline{查理曼大帝}$都還是親自前往$\\underline{梵蒂岡}$，$\\underline{拿破崙}$卻要求教皇至$\\underline{巴黎}$主持加冕典禮。在大典開始前，$\\underline{拿破崙}$已經身著絳紅色皇袍，頭戴金質$\\underline{羅馬}$式的桂冠，手持權杖，且未等教皇拿祭壇上的皇冠，就自己戴上，接著又親手為皇后$\\underline{約瑟芬}$授冠。但對教會如此傲慢的態度，若如實畫出，真的好嗎？因此$\\underline{大衛}$決定採用皇帝給皇后加冕的畫面，而不談誰為$\\underline{拿破崙}$加冕。\n        畫面的正中央是代表神權的十字架。從十字架、$\\underline{拿破崙}$、教皇由高到低的位置可看出$\\underline{拿破崙}$成了領軍人物，他跳過了代理神權的教會中介，直接實現了君權神授的完美結合。畫中$\\underline{拿破崙}$替皇后$\\underline{約瑟芬}$加冕，教皇$\\underline{庇護七世}$坐在$\\underline{拿破崙}$身後，面色凝重，但從教皇舉起的右手，還是可看出他正在為這一場面祝福。但這畫面仍有$\\underline{大衛}$虛構之處：當時$\\underline{拿破崙}$的母親根本沒有出席，也一併被畫在畫作裡。後來成為$\\underline{法國}$皇太后的她十分反對加冕典禮，擔憂兒子稱帝後將引發許多恐怖之事，因此遠走$\\underline{米蘭}$，在典禮結束後才回$\\underline{巴黎}$，將皇太后放入畫中是$\\underline{拿破崙}$本人提出的要求。至於畫作主角$\\underline{拿破崙}$，畫裡的他成了體型瘦高的男子，這自然是為了迎合身型矮小的$\\underline{拿破崙}$的虛榮心，好宣揚其驍勇善戰的英勇姿態，及帝王居高臨下、無人能左右的威權。"
+              },
+              {
+                "type": "border",
+                "content": "── 改寫自$\\underline{中野京子}$《療癒羅浮宮》",
+                "alignment": "centerRight"
+              }
+            ],
             "options": [
               {
                 "number": 36,
-                "description": "根據本文，拿破崙選擇在巴黎聖母院加冕的原因，最可能是下列何者？",
+                "description": "根據本文，$\\underline{拿破崙}$選擇在$\\underline{巴黎聖母院}$加冕的原因，最可能是下列何者？",
                 "passing_rate": 0.57,
                 "discrimination_index": 0.48,
                 "choices": [
                   {
                     "answer": "A",
-                    "description": "仿效查理曼大帝的做法"
+                    "description": "仿效$\\underline{查理曼大帝}$的做法"
                   },
                   {
                     "answer": "B",
-                    "description": "承襲歷代法國王室的傳統"
+                    "description": "承襲歷代$\\underline{法國}$王室的傳統"
                   },
                   {
                     "answer": "C",
@@ -1005,7 +1176,7 @@
                   },
                   {
                     "answer": "D",
-                    "description": "希望由教皇而非蘭斯大主教加冕"
+                    "description": "希望由教皇而非$\\underline{蘭斯}$大主教加冕"
                   }
                 ],
                 "correct_answer": "C",
@@ -1013,7 +1184,7 @@
               },
               {
                 "number": 37,
-                "description": "根據本文，大衛選擇採用拿破崙為約瑟芬加冕的畫面，原因最可能是下列何者？",
+                "description": "根據本文，$\\underline{大衛}$選擇採用$\\underline{拿破崙}$為$\\underline{約瑟芬}$加冕的畫面，原因最可能是下列何者？",
                 "passing_rate": 0.64,
                 "discrimination_index": 0.6,
                 "choices": [
@@ -1027,11 +1198,11 @@
                   },
                   {
                     "answer": "C",
-                    "description": "滿足拿破崙的虛榮"
+                    "description": "滿足$\\underline{拿破崙}$的虛榮"
                   },
                   {
                     "answer": "D",
-                    "description": "聽從拿破崙的指示"
+                    "description": "聽從$\\underline{拿破崙}$的指示"
                   }
                 ],
                 "correct_answer": "B",
@@ -1039,8 +1210,16 @@
               },
               {
                 "number": 38,
-                "description": "小銘畫了以下這張〈拿破崙的加冕禮〉的模擬圖，根據本文對雅克路易．大衛原畫的描述，小銘的模擬圖與原畫相比後有明顯的錯誤，下列何者最可能是這個錯誤？",
-                "image": "112_chinese_38.png",
+                "rich_content": [
+                  {
+                    "type": "text",
+                    "content": "$\\underline{小銘}$畫了以下這張〈拿破崙的加冕禮〉的模擬圖，根據本文對$\\underline{雅克路易．大衛}$原畫的描述，$\\underline{小銘}$的模擬圖與原畫相比後有明顯的錯誤，下列何者最可能是這個錯誤？"
+                  },
+                  {
+                    "type": "image",
+                    "content": "112_chinese_38.png"
+                  }
+                ],
                 "passing_rate": 0.75,
                 "discrimination_index": 0.52,
                 "choices": [
@@ -1050,7 +1229,7 @@
                   },
                   {
                     "answer": "B",
-                    "description": "拿破崙加冕的對象"
+                    "description": "$\\underline{拿破崙}$加冕的對象"
                   },
                   {
                     "answer": "C",
@@ -1058,7 +1237,7 @@
                   },
                   {
                     "answer": "D",
-                    "description": "拿破崙母親的出席"
+                    "description": "$\\underline{拿破崙}$母親的出席"
                   }
                 ],
                 "correct_answer": "A",
@@ -1068,7 +1247,26 @@
           },
           {
             "type": "groupChoice",
-            "description": "    大將軍$\\underline{仇鸞}$，始為$\\underline{曾銑}$所劾，欲倚$\\underline{嚴嵩}$以抗$\\underline{曾銑}$，故約為父子。已而$\\underline{鸞}$得帝重，$\\underline{嵩}$猶視之若子，遂浸相惡。$\\underline{嵩}$密疏毀$\\underline{鸞}$，帝不聽，而頗納$\\underline{鸞}$所陳$\\underline{嵩}$父子過，少疏之。$\\underline{嵩}$當入值，不召者數矣。$\\underline{嵩}$見$\\underline{徐階}$、$\\underline{李本}$入西$內_1$，即與俱入。至$\\underline{西華門}$，門者以非詔旨格之。$\\underline{嵩}$還第，父子對泣。時$\\underline{陸炳}$掌錦衣，與$\\underline{鸞}$爭寵，$\\underline{嵩}$乃結$\\underline{炳}$共圖$\\underline{鸞}$。會$\\underline{鸞}$病死，$\\underline{炳}$訐$\\underline{鸞}$陰事，帝追戮之。於是益信任$\\underline{嵩}$，遣所乘龍舟過海子召$\\underline{嵩}$，載值西內如故。\n——改寫自《明史．奸臣》\n\n📖 補充說明：\n1.內：宮廷",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "請閱讀以下短文，並回答39 ～ 40題："
+              },
+              {
+                "type": "border",
+                "content": "        大將軍$\\underline{仇鸞}$，始為$\\underline{曾銑}$所劾，欲倚$\\underline{嚴嵩}$以抗$\\underline{曾銑}$，故約為父子。已而$\\underline{鸞}$得帝重，$\\underline{嵩}$猶視之若子，遂浸相惡。$\\underline{嵩}$密疏毀$\\underline{鸞}$，帝不聽，而頗納$\\underline{鸞}$所陳$\\underline{嵩}$父子過，少疏之。$\\underline{嵩}$當入值，不召者數矣。$\\underline{嵩}$見$\\underline{徐階}$、$\\underline{李本}$入西$內_1$，即與俱入。至$\\underline{西華門}$，門者以非詔旨格之。$\\underline{嵩}$還第，父子對泣。時$\\underline{陸炳}$掌錦衣，與$\\underline{鸞}$爭寵，$\\underline{嵩}$乃結$\\underline{炳}$共圖$\\underline{鸞}$。會$\\underline{鸞}$病死，$\\underline{炳}$訐$\\underline{鸞}$陰事，帝追戮之。於是益信任$\\underline{嵩}$，遣所乘龍舟過海子召$\\underline{嵩}$，載值西內如故。"
+              },
+              {
+                "type": "border",
+                "content": "── 改寫自《明史．奸臣》",
+                "alignment": "centerRight"
+              },
+              {
+                "type": "border",
+                "content": "📖 補充說明：\n1.內：宮廷",
+                "alignment": "centerRight"
+              }
+            ],
             "options": [
               {
                 "number": 39,
@@ -1126,29 +1324,43 @@
           },
           {
             "type": "groupChoice",
-            "description": "    $\\underline{楊朱}$見$\\underline{梁王}$，言治天下如運諸掌。$\\underline{梁王}$曰：「先生有三畝之園而不能耘，而言治天下如運諸掌，何也？」對曰：「君不見牧羊者乎？百羊而群，使五尺童子荷杖隨之，欲東而東，欲西而西。使$\\underline{堯}$牽一羊，$\\underline{舜}$荷杖隨之，則不能前矣。且臣聞之：吞舟之魚，不游支流；鴻鵠高飛，不集汙池。何則？其志遠也。黃鐘大呂不可從繁奏之舞。何則？其音疏也。將治大者不治細，成大功者不成小，此之謂矣。」\n——改寫自《列子．楊朱》",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "請閱讀以下短文，並回答41 ～ 42題："
+              },
+              {
+                "type": "border",
+                "content": "        $\\underline{楊朱}$見$\\underline{梁王}$，言治天下如運諸掌。$\\underline{梁王}$曰：「先生有三畝之園而不能耘，而言治天下如運諸掌，何也？」對曰：「君不見牧羊者乎？百羊而群，使五尺童子荷杖隨之，欲東而東，欲西而西。使$\\underline{堯}$牽一羊，$\\underline{舜}$荷杖隨之，則不能前矣。且臣聞之：吞舟之魚，不游支流；鴻鵠高飛，不集汙池。何則？其志遠也。黃鐘大呂不可從繁奏之舞。何則？其音疏也。將治大者不治細，成大功者不成小，此之謂矣。」"
+              },
+              {
+                "type": "border",
+                "content": "── 改寫自《列子．楊朱》",
+                "alignment": "centerRight"
+              }
+            ],
             "options": [
               {
                 "number": 41,
-                "description": "根據本文，關於梁王與楊朱的敘述，下列何者最恰當？",
+                "description": "根據本文，關於$\\underline{梁王}$與$\\underline{楊朱}$的敘述，下列何者最恰當？",
                 "passing_rate": 0.48,
                 "discrimination_index": 0.42,
                 "choices": [
                   {
                     "answer": "A",
-                    "description": "梁王認為治理天下應重視禮樂之道"
+                    "description": "$\\underline{梁王}$認為治理天下應重視禮樂之道"
                   },
                   {
                     "answer": "B",
-                    "description": "梁王質疑楊朱是否具有治理天下的能力"
+                    "description": "$\\underline{梁王}$質疑$\\underline{楊朱}$是否具有治理天下的能力"
                   },
                   {
                     "answer": "C",
-                    "description": "楊朱貶抑堯、舜，能治天下卻不能牧羊"
+                    "description": "$\\underline{楊朱}$貶抑$\\underline{堯}$、$\\underline{舜}$，能治天下卻不能牧羊"
                   },
                   {
                     "answer": "D",
-                    "description": "楊朱以牧羊為例，說明治天下須從小事做起"
+                    "description": "$\\underline{楊朱}$以牧羊為例，說明治天下須從小事做起"
                   }
                 ],
                 "correct_answer": "B",
@@ -1174,7 +1386,7 @@
                   },
                   {
                     "answer": "D",
-                    "description": "剖三寸之蚌，難得明月之珠；探枳棘之巢，難求鳳凰之雛14"
+                    "description": "剖三寸之蚌，難得明月之珠；探枳棘之巢，難求鳳凰之雛"
                   }
                 ],
                 "correct_answer": "D",
@@ -1486,7 +1698,7 @@
               },
               {
                 "answer": "D",
-                "description": "headache1"
+                "description": "headache"
               }
             ],
             "correct_answer": "D",
@@ -3389,7 +3601,7 @@
             ],
             "correct_answer": "A",
             "image": "112_math_13.png",
-            "explanation": "因為 $\\overline{BC}>\\overline{AB}$ 且此直角柱底面為直角三角形，所以 $\\angle CAB $$=\\angle FDE $$> 45^\\circ $$> \\angle ACB$\n因為 $\\overline{AB}>\\overline{BE}$ 且此直角柱底面為直角三角形，所以 $\\angle AEB $$> 45^\\circ $$> \\angle EAB$\n綜上述得 $\\angle ACB $$< 45^\\circ $$> \\angle FDE$ 、 $\\angle AEB $$> 45^\\circ $$>\\angle ACB $\n故選A"
+            "explanation": "因為 $\\overline{BC}>\\overline{AB}$ 且此直角柱底面為直角三角形，所以 $\\angle CAB $$=\\angle FDE $$> 45^\\circ $$> \\angle ACB$\n因為 $\\overline{AB}>\\overline{BE}$ 且此直角柱底面為直角三角形，所以 $\\angle AEB $$> 45^\\circ $$> \\angle EAB$\n綜上述得 $\\angle ACB $$< 45^\\circ $$< \\angle FDE$ 、 $\\angle AEB $$> 45^\\circ $$>\\angle ACB $\n故選A"
           },
           {
             "type": "singleChoice",
@@ -4301,7 +4513,7 @@
           {
             "type": "singleChoice",
             "number": 20,
-            "description": "表(四)為$\\underline{生物研究保育中心}$網頁中四種植物的部分資料，有關此四種植物在分類表(四)階層上的敘述，下列何者無法確定？",
+            "description": "表(四)為$\\underline{生物研究保育中心}$網頁中四種植物的部分資料，有關此四種植物在分類階層上的敘述，下列何者$\\underline{\\underline{無法確定}}$？",
             "image": "112_nature_20.png",
             "passing_rate": 0.65,
             "discrimination_index": 0.57,
@@ -4473,7 +4685,7 @@
           {
             "type": "singleChoice",
             "number": 26,
-            "description": "砒霜是一種毒物，主成分為三氧化二砷($As_2O_3$)。古代製作砒霜的技術較不成熟，砒霜中會含有少量的不純物質――硫或硫化物，硫或硫化物接觸到銀，會使銀氧化產生黑色的硫化銀($Ag_2S$)，這就是古裝劇中常見的以銀針試毒，銀針變黑即表示有毒。依據上述，下列推論何者最合理？",
+            "description": "砒霜是一種毒物，主成分為三氧化二砷($As_2O_3$)。古代製作砒霜的技術較不成熟，砒霜中會含有少量的不純物質──硫或硫化物，硫或硫化物接觸到銀，會使銀氧化產生黑色的硫化銀($Ag_2S$)，這就是古裝劇中常見的以銀針試毒，銀針變黑即表示有毒。依據上述，下列推論何者最合理？",
             "passing_rate": 0.53,
             "discrimination_index": 0.45,
             "choices": [
@@ -4994,7 +5206,7 @@
               }
             ],
             "correct_answer": "D",
-            "explanation": "小明的說法，燈泡甲皆不會發亮。故選(D)"
+            "explanation": "小明的說法，燈泡甲皆會發亮。故選(D)"
           },
           {
             "type": "groupChoice",
@@ -6165,7 +6377,7 @@
               }
             ],
             "correct_answer": "A",
-            "explanation": "一年為365天為古印度人所發明，其重要最為人熟知的就是尼羅河的氾濫與農業生產技術。因此選A"
+            "explanation": "一年為365天為古埃及人所發明，其重要最為人熟知的就是尼羅河的氾濫與農業生產技術。因此選A"
           },
           {
             "type": "singleChoice",
@@ -6980,25 +7192,34 @@
           {
             "number": 2,
             "type": "singleChoice",
-            "description": "黃醫師的眼科診所開業，親友們登門慶賀。\n君翰帶來一方寫著「杏林之光」的匾額，聊表心意。\n思涵見狀馬上說：「如果寫『近悅遠來』更好。」\n偉同則說：「可是，我覺得『眾望所歸』更恰當。」\n最後嘉恩才說：「其實，『桃李芬芳』才是最合適的選擇。」\n\n根據這段對話，誰的做法或說法最恰當？",
+            "rich_content": [
+              {
+                "type": "border",
+                "content": "$\\underline{黃}$醫師的眼科診所開業，親友們登門慶賀。$\\underline{君翰}$帶來一方寫著「杏林之光」的匾額，聊表心意。$\\underline{思涵}$見狀馬上說：「如果寫『近悅遠來』更好。」$\\underline{偉同}$則說：「可是，我覺得『眾望所歸』更恰當。」最後$\\underline{嘉恩}$才說：「其實，『桃李芬芳』才是最合適的選擇。」"
+              },
+              {
+                "type": "text",
+                "content": "根據這段對話，誰的做法或說法最恰當？"
+              }
+            ],
             "passing_rate": 0.82,
             "discrimination_index": 0.46,
             "choices": [
               {
                 "answer": "A",
-                "description": "君翰"
+                "description": "$\\underline{君翰}$"
               },
               {
                 "answer": "B",
-                "description": "思涵"
+                "description": "$\\underline{思涵}$"
               },
               {
                 "answer": "C",
-                "description": "偉同"
+                "description": "$\\underline{偉同}$"
               },
               {
                 "answer": "D",
-                "description": "嘉恩"
+                "description": "$\\underline{嘉恩}$"
               }
             ],
             "correct_answer": "A",
@@ -7007,7 +7228,7 @@
           {
             "number": 3,
             "type": "singleChoice",
-            "description": "「臺灣原住民的布只有形制屬傳統或較現代的分別，像圓領的剪裁、鈕扣和棉布的使用等，都是受漢人的影響而來。泰雅族的貝珠鈴衣，是貝珠串底下加銅鈴裝飾，銅鈴也是和漢人交易而來。日治時代的原住民服裝，還出現以漢人棉布做底、日本布做袖口、原住民圖案做主要裝飾的混搭法。」\n這段文字的主旨最可能是下列何者？",
+            "description": "「$\\underline{臺灣}$原住民的布只有形制屬傳統或較現代的分別，像圓領的剪裁、鈕扣和棉布的使用等，都是受$\\underline{漢}$人的影響而來。$\\underline{泰雅}$族的貝珠鈴衣，是貝珠串底下加銅鈴裝飾，銅鈴也是和$\\underline{漢}$人交易而來。$\\underline{日}$治時代的原住民服裝，還出現以$\\underline{漢}$人棉布做底、$\\underline{日本}$布做袖口、原住民圖案做主要裝飾的混搭法。」\n這段文字的主旨最可能是下列何者？",
             "passing_rate": 0.87,
             "discrimination_index": 0.47,
             "choices": [
@@ -7021,7 +7242,7 @@
               },
               {
                 "answer": "C",
-                "description": "臺灣原住民的文化，影響了漢人與日本人的穿著"
+                "description": "$\\underline{臺灣}$原住民的文化，影響了$\\underline{漢}$人與$\\underline{日本}$人的穿著"
               },
               {
                 "answer": "D",
@@ -7089,25 +7310,25 @@
           {
             "type": "singleChoice",
             "number": 6,
-            "description": "下列體育新聞的說明何者錯誤？",
+            "description": "下列體育新聞的說明何者$\\underline{\\underline{錯誤}}$？",
             "passing_rate": 0.81,
             "discrimination_index": 0.56,
             "choices": [
               {
                 "answer": "A",
-                "description": "東道主法國隊屈居第二：法國是主辦國"
+                "description": "東道主$\\underline{法國}$隊屈居第二：$\\underline{法國}$是主辦國"
               },
               {
                 "answer": "B",
-                "description": "我國九局下逆轉，一分氣走韓國：我國轉輸為贏"
+                "description": "我國九局下逆轉，一分氣走$\\underline{韓國}$：我國轉輸為贏"
               },
               {
                 "answer": "C",
-                "description": "波多黎各選手爆冷門奪金：各界看好波多黎各選手奪金"
+                "description": "$\\underline{波多黎各}$選手爆冷門奪金：各界看好$\\underline{波多黎各}$選手奪金"
               },
               {
                 "answer": "D",
-                "description": "我國女將輕取哥倫比亞，晉級八強：我國女將大勝哥倫比亞"
+                "description": "我國女將輕取$\\underline{哥倫比亞}$，晉級八強：我國女將大勝$\\underline{哥倫比亞}$"
               }
             ],
             "correct_answer": "C",
@@ -7143,7 +7364,16 @@
           {
             "type": "singleChoice",
             "number": 8,
-            "description": "陸公嘗於市遇一佳硯，議價未定。既還邸，使門人往，以一金易歸。門人持硯歸，公訝其不類。門人堅證其是。公曰：「向觀硯有鴝鵒眼，今何無之？」答曰：「吾嫌其微凸，路遇石工，令磨而平之。」公大惋惜。\n下列關於故事中人物的敘述，何者最恰當？",
+            "rich_content": [
+              {
+                "type": "border",
+                "content": "        $\\underline{陸}$公嘗於市遇一佳硯，議價未定。既還邸，使門人往，以一金易歸。門人持硯歸，公訝其不類。門人堅證其是。公曰：「向觀硯有鴝鵒眼，今何無之？」答曰：「吾嫌其微凸，路遇石工，令磨而平之。」公大惋惜。"
+              },
+              {
+                "type": "text",
+                "content": "下列關於故事中人物的敘述，何者最恰當？"
+              }
+            ],
             "passing_rate": 0.67,
             "discrimination_index": 0.59,
             "choices": [
@@ -7153,7 +7383,7 @@
               },
               {
                 "answer": "B",
-                "description": "陸公惋惜是因石工技藝不佳"
+                "description": "$\\underline{陸}$公惋惜是因石工技藝不佳"
               },
               {
                 "answer": "C",
@@ -7161,7 +7391,7 @@
               },
               {
                 "answer": "D",
-                "description": "陸公對門人購硯的價格感到驚訝"
+                "description": "$\\underline{陸}$公對門人購硯的價格感到驚訝"
               }
             ],
             "correct_answer": "C",
@@ -7170,7 +7400,7 @@
           {
             "type": "singleChoice",
             "number": 9,
-            "description": "「美國有名男子在家中裝攝影機，24小時在網路上播放他的生活，因此成為名人，甚且登上雜誌封面。這透露著有些人不再介意被窺視，甚至樂於被窺視。人有時會覺得孤寂，希望被注意，讓人覺得自己很重要。那些被窺視的人，既然知道鏡頭在哪裡，是否會有表演的性質呢？」根據這段文字，下列何者最接近作者的觀點？",
+            "description": "「$\\underline{美國}$有名男子在家中裝攝影機，24小時在網路上播放他的生活，因此成為名人，甚且登上雜誌封面。這透露著有些人不再介意被窺視，甚至樂於被窺視。人有時會覺得孤寂，希望被注意，讓人覺得自己很重要。那些被窺視的人，既然知道鏡頭在哪裡，是否會有表演的性質呢？」根據這段文字，下列何者最接近作者的觀點？",
             "passing_rate": 0.83,
             "discrimination_index": 0.52,
             "choices": [
@@ -7275,17 +7505,17 @@
           {
             "type": "singleChoice",
             "number": 13,
-            "description": "「所謂中菜西吃，是將原本大盤共享且同桌擺放的宴席菜式，改為西餐般一人一份、一道道依序送上。但中菜向來比西菜更講究沸熱燙口，分開上菜後，熱度鑊氣全消。其次，拋卻一桌多道同食，享受各種味道交錯的樂趣。更嚴重的是，\n為了美觀便利，連烹調手法都起了變化。例如原本該整魚整肉整蔬大鍋蒸煮煨燉，卻改為小塊小盅個別處理，光這點就足以讓同冶一爐、渾然一體之味傷損逸散。」\n根據這段文字，作者不愛中菜西吃的原因$\\underline{\\underline{最不可能}}$包含下列何者？",
+            "description": "「所謂$\\underline{中}$菜西吃，是將原本大盤共享且同桌擺放的宴席菜式，改為西餐般一人一份、一道道依序送上。但$\\underline{中}$菜向來比西菜更講究沸熱燙口，分開上菜後，熱度鑊氣全消。其次，拋卻一桌多道同食，享受各種味道交錯的樂趣。更嚴重的是，為了美觀便利，連烹調手法都起了變化。例如原本該整魚整肉整蔬大鍋蒸煮煨燉，卻改為小塊小盅個別處理，光這點就足以讓同冶一爐、渾然一體之味傷損逸散。」\n根據這段文字，作者不愛$\\underline{中}$菜西吃的原因$\\underline{\\underline{最不可能}}$包含下列何者？",
             "passing_rate": 0.61,
             "discrimination_index": 0.48,
             "choices": [
               {
                 "answer": "A",
-                "description": "中式食法多道並陳，西式則否"
+                "description": "$\\underline{中}$式食法多道並陳，西式則否"
               },
               {
                 "answer": "B",
-                "description": "中菜較西菜更講究菜餚的熱度"
+                "description": "$\\underline{中}$菜較西菜更講究菜餚的熱度"
               },
               {
                 "answer": "C",
@@ -7293,7 +7523,7 @@
               },
               {
                 "answer": "D",
-                "description": "西式食法盡失中菜大鍋烹煮整肉的風味"
+                "description": "西式食法盡失$\\underline{中}$菜大鍋烹煮整肉的風味"
               }
             ],
             "correct_answer": "C",
@@ -9102,7 +9332,7 @@
               },
               {
                 "type": "text",
-                "content": "The problem of long working hours is a real headache in our country. It kills many people every year (see Figure 1), and many companies are trying to change that. They have at least one “No Overtime Day” in a week, and it is often Wednesday. On “No Overtime Day,” workers are asked to leave their offices before 8 p.m. At 8 p.m., companies play the song “There’s Always Tomorrow” and turn off all the lights.\n  However, after the workers walk out of their offices, they don’t go home. Some go back later, turn on their table lamps, and keep working, and others find somewhere else to work until very late at night. Restaurants and coffee shops are busier on Wednesday evenings, and they have started selling drinks and meals for these workers.\n  But why do these people keep working? A study shows that workers who work more hours often have a bigger chance to get paid more and rise higher in their companies. This is true for both men and women (see Figure 2). Working long hours has become a way to show that people are hard-working. Clearly, $\\textcolor{red}{this}$ must be changed before the problem gets any worse."
+                "content": "    The problem of long working hours is a real headache in our country. It kills many people every year (see Figure 1), and many companies are trying to change that. They have at least one “No Overtime Day” in a week, and it is often Wednesday. On “No Overtime Day,” workers are asked to leave their offices before 8 p.m. At 8 p.m., companies play the song “There’s Always Tomorrow” and turn off all the lights.\n    However, after the workers walk out of their offices, they don’t go home. Some go back later, turn on their table lamps, and keep working, and others find somewhere else to work until very late at night. Restaurants and coffee shops are busier on Wednesday evenings, and they have started selling drinks and meals for these workers.\n    But why do these people keep working? A study shows that workers who work more hours often have a bigger chance to get paid more and rise higher in their companies. This is true for both men and women (see Figure 2). Working long hours has become a way to show that people are hard-working. Clearly, $\\textcolor{red}{this}$ must be changed before the problem gets any worse."
               },
               {
                 "type": "image",
@@ -10202,7 +10432,7 @@
           {
             "number": 5,
             "type": "singleChoice",
-            "description": "算式 $\\frac{9}{22}+\\frac{11}{18}-\\left(\\frac{23}{22}-\\frac{7}{18}\\right)$ 之值為何？",
+            "description": "算式 $\\frac{9}{22}$$+\\frac{11}{18}$$-\\left(\\frac{23}{22}$$-\\frac{7}{18}\\right)$ 之值為何？",
             "passing_rate": 0.81,
             "discrimination_index": 0.58,
             "choices": [
@@ -10393,7 +10623,7 @@
           {
             "number": 12,
             "type": "singleChoice",
-            "description": "已知 $p=7.52 \\times 10^{-6}$ ，下列關於 $p$ 值的敘述何者正確？",
+            "description": "已知 $p=$$7.52 $$\\times 10^{-6}$ ，下列關於 $p$ 值的敘述何者正確？",
             "passing_rate": 0.64,
             "discrimination_index": 0.59,
             "choices": [
@@ -11993,7 +12223,7 @@
             ],
             "correct_answer": "A",
             "image": "111_society_43.png",
-            "explanation": "大手顯然是共產黨，而大韓民國正在抵抗共產黨的侵略。由此可知時間是二戰後 的韓戰時期，領導各國對抗共產黨的，最可能是聯合國。因此選Ａ"
+            "explanation": "由圖中共產黨侵略大韓民國，可知此為韓戰，而圖中對抗共產黨的「大手」，即是派兵幫助大韓民國的聯合國。故選A。"
           },
           {
             "type": "groupChoice",
@@ -12600,7 +12830,7 @@
           {
             "number": 11,
             "type": "singleChoice",
-            "description": "人類的 ABO 血型是由一對遺傳因子(等位基因)控制，而控制此血型的遺傳因子有 $I^A$ 、 $I^B$ 和 i 三種型式，其中 $I^A$ 和 $I^B$ 是顯性，i 是隱性，血型和基因型的關係如左表所示。右表為甲～丁四組父母的血型配對，在不考慮突變的情況下，則右表中的何種組別不可能生下 O 型血型的子女？",
+            "description": "人類的 ABO 血型是由一對遺傳因子(等位基因)控制，而控制此血型的遺傳因子有 $I^A$ 、 $I^B$ 和 i 三種型式，其中 $I^A$ 和 $I^B$ 是顯性，i 是隱性，血型和基因型的關係如表(二)所示。表(三)為甲～丁四組父母的血型配對，在不考慮突變的情況下，則表(三)中的何種組別$\\underline{\\underline{不可能}}$生下 O 型血型的子女？",
             "passing_rate": 0.73,
             "discrimination_index": 0.59,
             "choices": [
@@ -15258,7 +15488,7 @@
             ],
             "correct_answer": "A",
             "image": "110_nature_28.png",
-            "explanation": "反射反應之反應時間不可經由訓練而縮短，而所有反應皆須有受器、戚覺神經元、運動神經元、動器完成動作"
+            "explanation": "觀察實驗結果可知，此動作完成時間越來越短，表示此動作可以經訓練而縮短時間，故非反射動作，需經過大腦。故選A。"
           },
           {
             "number": 29,
@@ -15852,11 +16082,28 @@
           },
           {
             "type": "groupChoice",
-            "description": "小敏複製網路上「茶包天燈」這個科學實驗，其流程如圖所示。她在無風的環境進行實驗，當實驗進行到最後，茶包燃燒後的灰燼會飄向空中，如同一個小天燈。小敏認為此現象的成因應該與熱對流有關，茶包上方的空氣受到加熱而上升時，周圍的冷空氣遞補而形成熱對流，茶包灰燼因重量很輕而受到空氣的帶動飄向空中。\n上述步驟完成後，小敏想對「茶包天燈」現象作進一步的研究，她設計了一張實驗紀錄表，如表所示。",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "$\\underline{小敏}$複製網路上「茶包天燈」這個科學實驗，其流程如圖所示。她在無風的環境進行實驗，當實驗進行到最後，茶包燃燒後的灰燼會飄向空中，如同一個小天燈。$\\underline{小敏}$認為此現象的成因應該與熱對流有關，茶包上方的空氣受到加熱而上升時，周圍的冷空氣遞補而形成熱對流，茶包灰燼因重量很輕而受到空氣的帶動飄向空中。"
+              },
+              {
+                "type": "image",
+                "content": "112_nature_50-51_1.png"
+              },
+              {
+                "type": "border",
+                "content": "上述步驟完成後，$\\underline{小敏}$想對「茶包天燈」現象作進一步的研究，她設計了一張實驗紀錄表，如表所示。"
+              },
+              {
+                "type": "image",
+                "content": "112_nature_50-51_2.png"
+              }
+            ],
             "options": [
               {
                 "number": 50,
-                "description": "根據如表，下列何者最可能是小敏想探討的關係？",
+                "description": "根據如表，下列何者最可能是$\\underline{小敏}$想探討的關係？",
                 "passing_rate": 0.68,
                 "discrimination_index": 0.61,
                 "choices": [
@@ -15882,7 +16129,7 @@
               },
               {
                 "number": 51,
-                "description": "根據本文，若小敏在向同學說明「茶包天燈」成因後，想要再舉一個科學原理相同的例子，則下列何者最合適？",
+                "description": "根據本文，若$\\underline{小敏}$在向同學說明「茶包天燈」成因後，想要再舉一個科學原理相同的例子，則下列何者最合適？",
                 "passing_rate": 0.79,
                 "discrimination_index": 0.55,
                 "choices": [
@@ -15906,12 +16153,20 @@
                 "correct_answer": "B",
                 "explanation": "冷氣機設於高處，是因冷空氣下沉，而使空間有較好降溫效果"
               }
-            ],
-            "image": "110_nature_50-51.png"
+            ]
           },
           {
             "type": "groupChoice",
-            "description": "如圖為恐龍相關的演化過程示意圖，圖中線段上的 ○ 代表生物出現的時間、 ● 代表生物滅絕的時間。其中甲類生物被認為是演化成現存鳥類的生物，如表則為相對應生物生存的時間範圍。",
+            "rich_content": [
+              {
+                "type": "border",
+                "content": "如圖為恐龍相關的演化過程示意圖，圖中線段上的 ○ 代表生物出現的時間、 ● 代表生物滅絕的時間。其中甲類生物被認為是演化成現存鳥類的生物，如表則為相對應生物生存的時間範圍。"
+              },
+              {
+                "type": "image",
+                "content": "110_nature_52-54.png"
+              }
+            ],
             "options": [
               {
                 "number": 52,
@@ -15941,7 +16196,16 @@
               },
               {
                 "number": 53,
-                "description": "根據上述資料，若在某地最上方的岩層中可找到甲類生物化石，且此地岩層未曾倒轉，下列何者最可能是屬於此地的岩層剖面？",
+                "rich_content": [
+                  {
+                    "type": "text",
+                    "content": "根據上述資料，若在某地最上方的岩層中可找到甲類生物化石，且此地岩層未曾倒轉，下列何者最可能是屬於此地的岩層剖面？"
+                  },
+                  {
+                    "type": "image",
+                    "content": "110_nature_53.png"
+                  }
+                ],
                 "passing_rate": 0.81,
                 "discrimination_index": 0.53,
                 "choices": [
@@ -15963,7 +16227,6 @@
                   }
                 ],
                 "correct_answer": "D",
-                "image": "110_nature_53.png",
                 "explanation": "越古老生物之化石會在地層越下方"
               },
               {
@@ -15992,8 +16255,7 @@
                 "correct_answer": "B",
                 "explanation": "三角龍和暴龍曾在同個時代生存"
               }
-            ],
-            "image": "110_nature_52-54.png"
+            ]
           }
         ]
       }

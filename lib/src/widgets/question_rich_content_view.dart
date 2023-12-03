@@ -61,6 +61,9 @@ class QuestionRichContentView extends StatelessWidget {
         widgets.add(const SizedBox(height: 8));
         break;
       case RichContentType.border:
+        if (showPrefixText) {
+          widgets.add(QuestionText(text: prefixText!));
+        }
         if (richContent.content == null) {
           throw Exception("Border content cannot be null");
         }
