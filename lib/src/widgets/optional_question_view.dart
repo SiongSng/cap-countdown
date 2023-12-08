@@ -64,6 +64,10 @@ class _OptionalQuestionViewState extends State<OptionalQuestionView> {
     final bool hasExplanation =
         question.explanation != null || explainImageName != null;
 
+    if (showMore && !widget.option.submitted) showMore = false;
+
+    if (showMore && !widget.option.submitted) showMore = false;
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
