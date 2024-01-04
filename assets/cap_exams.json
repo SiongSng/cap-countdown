@@ -3578,7 +3578,7 @@
           {
             "type": "singleChoice",
             "number": 13,
-            "description": "如圖 ( 六 )，直角柱 ABCDEF 的底面為直角三角形。若 $\\angle ABC = \\angle DEF = 90^\\circ$，$\\overline{BC}>\\overline{AB}>\\overline{BE}$，則連接 $\\overline{AE}$ 後，下列敘述何者正確？",
+            "description": "如圖 ( 六 )，直角柱 ABCDEF 的底面為直角三角形。若 $\\angle ABC $$= \\angle DEF $$= \\Large{90^\\circ}$，$\\overline{BC}>\\overline{AB}>\\overline{BE}$，則連接 $\\overline{AE}$ 後，下列敘述何者正確？",
             "passing_rate": 0.5,
             "discrimination_index": 0.48,
             "choices": [
@@ -6400,7 +6400,7 @@
               },
               {
                 "answer": "D",
-                "description": "實施改革開放，設經濟特區表"
+                "description": "實施改革開放，設經濟特區"
               }
             ],
             "correct_answer": "D",
@@ -11614,7 +11614,7 @@
               }
             ],
             "correct_answer": "B",
-            "explanation": "最早於幕府時期，日本已經與西方部分國家展開貿易交流，爾後才發生明治維 新。因此選Ｂ"
+            "explanation": "最早於幕府時期，日本已經與西方部分國家展開貿易交流，而後才發生明治維新。因此選Ｂ"
           },
           {
             "number": 22,
