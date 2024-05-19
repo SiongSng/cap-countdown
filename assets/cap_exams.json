@@ -4712,7 +4712,7 @@
           {
             "type": "singleChoice",
             "number": 27,
-            "description": "取甲、乙兩種化合物，分別在足量的氧氣中燃燒，反應式分別為：\n$甲+3O_2$$\\to2CO_2$$+3H_2O$\n$乙+3O2$$\\to2CO_2$$+2H_2O$\n關於甲、乙兩種化合物的比較與說明，下列何者正確？",
+            "description": "取甲、乙兩種化合物，分別在足量的氧氣中燃燒，反應式分別為：\n$甲+3O_2$$\\to2CO_2$$+3H_2O$\n$乙+3O_2$$\\to2CO_2$$+2H_2O$\n關於甲、乙兩種化合物的比較與說明，下列何者正確？",
             "passing_rate": 0.52,
             "discrimination_index": 0.45,
             "choices": [
@@ -10432,7 +10432,7 @@
           {
             "number": 5,
             "type": "singleChoice",
-            "description": "算式 $\\frac{9}{22}$$+\\frac{11}{18}$$-\\left(\\frac{23}{22}$$-\\frac{7}{18}\\right)$ 之值為何？",
+            "description": "算式 $\\frac{9}{22}$$+\\frac{11}{18}$$-\\left(\\frac{23}{22}-\\frac{7}{18}\\right)$ 之值為何？",
             "passing_rate": 0.81,
             "discrimination_index": 0.58,
             "choices": [
@@ -11018,1525 +11018,6 @@
               }
             ],
             "image": "111_math_24-25.png"
-          }
-        ]
-      },
-      {
-        "name": "社會科",
-        "duration": 70,
-        "grade_markings": {
-          "A++": 52,
-          "A+": 50,
-          "A": 48,
-          "B++": 41,
-          "B+": 35,
-          "B": 22,
-          "C": 0
-        },
-        "subject_id": "Society",
-        "questions": [
-          {
-            "number": 1,
-            "type": "singleChoice",
-            "description": "某宗教的全球年度大型集會活動在 2017 年約有 235 萬人參與。附表為該年參與者的來源國及其人數，此一宗教活動最可能為下列何者？",
-            "passing_rate": 0.92,
-            "discrimination_index": 0.35,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "佛教浴佛節"
-              },
-              {
-                "answer": "B",
-                "description": "印度教大壺節"
-              },
-              {
-                "answer": "C",
-                "description": "伊斯蘭教朝覲"
-              },
-              {
-                "answer": "D",
-                "description": "天主教聖誕彌撒"
-              }
-            ],
-            "correct_answer": "C",
-            "image": "111_society_1.png",
-            "explanation": "從沙烏地阿拉伯、印尼、巴基斯坦、伊朗等，可知主要是伊斯蘭教國家。因此選 C"
-          },
-          {
-            "number": 2,
-            "type": "singleChoice",
-            "description": "臺灣一處具有特殊泥岩惡地景觀的地點，於 2020 年 7 月由地方政府審議通過為地質公園。該地位處板塊交界附近及海岸山脈最南端，泥岩夾雜外來岩塊的地層，為該地質公園主要特色。上述地質公園最可能位於附圖中何處？",
-            "passing_rate": 0.88,
-            "discrimination_index": 0.28,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "甲"
-              },
-              {
-                "answer": "B",
-                "description": "乙"
-              },
-              {
-                "answer": "C",
-                "description": "丙"
-              },
-              {
-                "answer": "D",
-                "description": "丁"
-              }
-            ],
-            "correct_answer": "B",
-            "image": "111_society_2.png",
-            "explanation": "題目重點提示於板塊交界、海岸山脈最南端，因此選 B"
-          },
-          {
-            "number": 3,
-            "type": "singleChoice",
-            "description": "中國的氣候受地形、緯度、距海遠近等因素影響，而有空間上的差異。附圖中甲、乙、丙、丁哪一路線夏季氣候的空間變化趨勢，具有明顯的「由溼熱，變乾熱」的特性？",
-            "passing_rate": 0.84,
-            "discrimination_index": 0.45,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "甲"
-              },
-              {
-                "answer": "B",
-                "description": "乙"
-              },
-              {
-                "answer": "C",
-                "description": "丙"
-              },
-              {
-                "answer": "D",
-                "description": "丁"
-              }
-            ],
-            "correct_answer": "C",
-            "image": "111_society_3.png",
-            "explanation": "題目顯示由濕熱變乾熱，重點是濕度，因此選逐漸遠離海邊的選項：Ｃ"
-          },
-          {
-            "number": 4,
-            "type": "singleChoice",
-            "description": "根據經濟部水利署的統計，截至 2019 年底，臺灣 40 座主要水庫中，淤積率超過 30％的共有 15 座，例如霧社水庫淤積率達 74.8％、烏山頭水庫達 49.2％，顯示臺灣水庫淤積程度嚴重，影響水庫蓄水功能。下列何項策略最能有效改善上述現象？",
-            "passing_rate": 0.8,
-            "discrimination_index": 0.41,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "強化集水區崩塌裸露地的植被復育"
-              },
-              {
-                "answer": "B",
-                "description": "擴大在河川下游種植防風林的面積"
-              },
-              {
-                "answer": "C",
-                "description": "減少都市不透水鋪面，增加雨水入滲"
-              },
-              {
-                "answer": "D",
-                "description": "增加地面水源供應，以取代地下水源"
-              }
-            ],
-            "correct_answer": "A",
-            "explanation": "水庫淤積原因主要因水庫周圍與上游沙土流入。除了積極清淤外，減少來源堆積 也相當重要。因此選唯一可行的Ａ"
-          },
-          {
-            "number": 5,
-            "type": "singleChoice",
-            "description": "附圖為 1980 年代臺灣某雜誌的封底，藉此表達該雜誌社的政治訴求。圖中內容所呈現的訴求，最可能與下列何者有關？",
-            "passing_rate": 0.69,
-            "discrimination_index": 0.56,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "中央民意代表改選以及總統直選"
-              },
-              {
-                "answer": "B",
-                "description": "政府應該妥善處理「二二八事件」"
-              },
-              {
-                "answer": "C",
-                "description": "政府推行國語運動使得母語式微"
-              },
-              {
-                "answer": "D",
-                "description": "消弭戒嚴體制對人民權利的限制"
-              }
-            ],
-            "correct_answer": "D",
-            "image": "111_society_5.png",
-            "explanation": "題目顯示爭取言論自由，報刊不必接受核准、新聞不必接受檢查等等，皆是戒嚴 時期、解嚴前的關鍵字。因此選Ｄ"
-          },
-          {
-            "number": 6,
-            "type": "singleChoice",
-            "description": "附圖為中國歷史上某種官方文件的內容，根據圖中內容判斷，當時政府製作此官方文件的主要目的最可能為下列何者？\n\n建初十二年：西元 416 年。",
-            "passing_rate": 0.83,
-            "discrimination_index": 0.37,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "配合科舉選拔人才，促進社會的流動"
-              },
-              {
-                "answer": "B",
-                "description": "掌握人力作為徵集賦稅和勞役的依據"
-              },
-              {
-                "answer": "C",
-                "description": "推行封建制度並保障貴族世襲的權力"
-              },
-              {
-                "answer": "D",
-                "description": "根據儒家思想，實施以仁為政的措施"
-              }
-            ],
-            "correct_answer": "B",
-            "image": "111_society_6.png",
-            "explanation": "題目圖片顯示為敦煌的戶籍登錄資料，日期則是建初十二年，題目附註是西元 416 年，當時人口普查的目的主要為賦稅和勞役。因此選Ｂ"
-          },
-          {
-            "number": 7,
-            "type": "singleChoice",
-            "description": "「柯因奈語」(Koine)，又稱「通用希臘語」，是大約發源於西元前四世紀的國際性語言。此一語言因某帝國在政治上統一了愛琴海地區各希臘城邦，融合了該地區多種方言發展而成；其後又伴隨帝國對外武力征服，向埃及、西亞等地區擴散傳播，對於往後數百年間科學、文學和宗教的發展影響深遠。上述的「某帝國」，最可能為下列何者？",
-            "passing_rate": 0.77,
-            "discrimination_index": 0.43,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "波斯帝國"
-              },
-              {
-                "answer": "B",
-                "description": "蒙兀兒帝國"
-              },
-              {
-                "answer": "C",
-                "description": "亞歷山大帝國"
-              },
-              {
-                "answer": "D",
-                "description": "阿茲提克帝國"
-              }
-            ],
-            "correct_answer": "C",
-            "explanation": "時間是西元前四世紀，又此帝國除了統一希臘個城邦、甚至延伸到埃及和西亞，因此選亞歷山大帝國：Ｃ"
-          },
-          {
-            "number": 8,
-            "type": "singleChoice",
-            "description": "附圖是臺灣某考古遺址中，同一文化層出土的四種石器。圖中何者最適合作為判斷該文化層所屬時代的證據？",
-            "passing_rate": 0.77,
-            "discrimination_index": 0.52,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "甲"
-              },
-              {
-                "answer": "B",
-                "description": "乙"
-              },
-              {
-                "answer": "C",
-                "description": "丙"
-              },
-              {
-                "answer": "D",
-                "description": "丁"
-              }
-            ],
-            "correct_answer": "C",
-            "image": "111_society_8.png",
-            "explanation": "關鍵字：研磨鐵器，顯然進入鐵器時代，因此選Ｃ。"
-          },
-          {
-            "number": 9,
-            "type": "singleChoice",
-            "description": "某宮廟因違法擴建道路及廟宇建築，涉嫌竊占國土及濫墾山坡地，相關單位多次介入協調，要求廟方自行拆除，但該廟負責人認為廟地選址及擴建的決定皆為神明指示，堅決不願退讓，於是相關單位除了開罰六萬元外，並將負責人移送法辦。上述內容最可能是關於下列哪二者之間的衝突？",
-            "passing_rate": 0.69,
-            "discrimination_index": 0.49,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "環境保育與經濟發展"
-              },
-              {
-                "answer": "B",
-                "description": "法律規範與宗教信仰"
-              },
-              {
-                "answer": "C",
-                "description": "傳統習俗與倫理道德觀念"
-              },
-              {
-                "answer": "D",
-                "description": "信仰宗教自由與人民財產權"
-              }
-            ],
-            "correct_answer": "B",
-            "explanation": "題目顯示法律與宗教之間的衝突，因此選Ｂ"
-          },
-          {
-            "number": 10,
-            "type": "singleChoice",
-            "description": "國中生小安寄了一封陳情信給某位公職人員，信中敘述父親因沉迷賭博，導致家中債臺高築，害他的父母離異、家庭破碎，希望有人能幫幫他，讓父親不再沉溺賭海。該名公職人員收到信後立刻啟動偵辦，循線破獲非法賭場，並依法對賭場業者與賭徒提起公訴。根據上述內容判斷，小安寄信的對象應是下列何者？",
-            "passing_rate": 0.68,
-            "discrimination_index": 0.39,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "法官"
-              },
-              {
-                "answer": "B",
-                "description": "律師"
-              },
-              {
-                "answer": "C",
-                "description": "檢察官"
-              },
-              {
-                "answer": "D",
-                "description": "警察局局長"
-              }
-            ],
-            "correct_answer": "C",
-            "explanation": "題目的公職人員擁有公訴他人的權力，顯示是檢察官，選Ｃ"
-          },
-          {
-            "number": 11,
-            "type": "singleChoice",
-            "description": "創新科技公司為了讓其產品「LED 省電燈泡」的銷售量增加，在各大報紙刊登廣告，內容如附圖所示。根據圖中內容判斷，該公司最可能是採取下列何種方式來達成目標？",
-            "passing_rate": 0.73,
-            "discrimination_index": 0.59,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "降低成本"
-              },
-              {
-                "answer": "B",
-                "description": "價格競爭"
-              },
-              {
-                "answer": "C",
-                "description": "建立品牌形象"
-              },
-              {
-                "answer": "D",
-                "description": "延長營業時間"
-              }
-            ],
-            "correct_answer": "B",
-            "image": "111_society_11.png",
-            "explanation": "科技公司在廣告中提供優惠，而沒有宣傳自己品牌的優點，是價格競爭，因此 選Ｂ"
-          },
-          {
-            "number": 12,
-            "type": "singleChoice",
-            "description": "附圖呈現某國不同年分出生的婦女，在育齡期間累積的生育數。為了改變圖中資料呈現的趨勢以維持人口結構穩定，下列何者最可能是未來該國政府採行的作法？",
-            "passing_rate": 0.81,
-            "discrimination_index": 0.54,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "提高幼兒教育補助金額"
-              },
-              {
-                "answer": "B",
-                "description": "加強宣導節制生育觀念"
-              },
-              {
-                "answer": "C",
-                "description": "提供弱勢學童輔導課程"
-              },
-              {
-                "answer": "D",
-                "description": "增設高齡安養照護機構"
-              }
-            ],
-            "correct_answer": "A",
-            "image": "111_society_12.png",
-            "explanation": "1950 出生的婦女在 30 歲累計生 2.5 人，但 1980 出生的婦女在 30 歲卻只生 1 人 多一些。顯示出生率的下降。因此需要提高幼兒生育補助，選Ａ"
-          },
-          {
-            "number": 13,
-            "type": "singleChoice",
-            "description": "附表是四位同窗好友的相關資料。若僅根據表中內容判斷，何者最可能不曾具有我國國籍？",
-            "passing_rate": 0.6,
-            "discrimination_index": 0.41,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "王大軒"
-              },
-              {
-                "answer": "B",
-                "description": "李大賢"
-              },
-              {
-                "answer": "C",
-                "description": "陳小涵"
-              },
-              {
-                "answer": "D",
-                "description": "林小潔"
-              }
-            ],
-            "correct_answer": "B",
-            "image": "111_society_13.png",
-            "explanation": "只要父或母任一人有我國國籍，即可取得我國國籍。是血統主義為主、出生地主 義為輔。王大軒目前擔任我國立法委員，林小潔、王大軒出生時父母擁有我國國 籍，因此最可能沒有我國國籍的是李大賢，選Ｂ"
-          },
-          {
-            "number": 14,
-            "type": "singleChoice",
-            "description": "歐盟基於公眾健康及動物福利等理由，於 2012 年起，禁止境內農民以傳統格子籠方式飼養蛋雞，並立法規定市售雞蛋必須明確標示其飼養方式，讓消費者可以在平飼(即室內放養蛋雞)、放牧(除室內空間外，還提供蛋雞戶外活動空間)等友善生產的蛋品之間做出選擇。上述友善飼養方式逐漸在臺灣推行，但所產出的蛋品在臺灣市占率仍不高，其原因最可能為下列何者？",
-            "passing_rate": 0.71,
-            "discrimination_index": 0.45,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "食安問題頻傳"
-              },
-              {
-                "answer": "B",
-                "description": "蛋品品質不佳"
-              },
-              {
-                "answer": "C",
-                "description": "蛋品售價較高"
-              },
-              {
-                "answer": "D",
-                "description": "飲食習慣改變"
-              }
-            ],
-            "correct_answer": "C",
-            "explanation": "題目顯示台灣沒有像歐洲一樣開始注重生蛋雞的飼養方式，市占率不高。猜測更 人道的飼養方式會提高成本，導致售價升高，因此消費者減少。選Ｃ"
-          },
-          {
-            "number": 15,
-            "type": "singleChoice",
-            "description": "美國具有多樣化的氣候類型，附圖是將美國各區域與世界上其他國家的氣候特徵相比，把具有類似氣候特徵的國家標示在該區域上。臺灣最可能標示在圖中甲、乙、丙、丁何處？",
-            "passing_rate": 0.71,
-            "discrimination_index": 0.54,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "甲"
-              },
-              {
-                "answer": "B",
-                "description": "乙"
-              },
-              {
-                "answer": "C",
-                "description": "丙"
-              },
-              {
-                "answer": "D",
-                "description": "丁"
-              }
-            ],
-            "correct_answer": "D",
-            "image": "111_society_15.png",
-            "explanation": "台灣氣候和美國東南部最相似，因此選Ｄ"
-          },
-          {
-            "number": 16,
-            "type": "singleChoice",
-            "description": "婆羅洲島分屬印尼、汶萊與馬來西亞三國，附圖為其原始森林不同時期面積的變化。圖中原始森林的變化趨勢與下列該島何種變化趨勢最為相似？",
-            "passing_rate": 0.63,
-            "discrimination_index": 0.46,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "油田開採的面積"
-              },
-              {
-                "answer": "B",
-                "description": "都市聚落的範圍"
-              },
-              {
-                "answer": "C",
-                "description": "野生動物的棲地範圍"
-              },
-              {
-                "answer": "D",
-                "description": "熱帶作物的種植面積"
-              }
-            ],
-            "correct_answer": "C",
-            "image": "111_society_16.png",
-            "explanation": "圖顯示原始森林面積 50 年來逐漸減少，減少原因多數是因為人為開墾，因此 選 C，因為原始森林和野生動物棲地有高度關係。"
-          },
-          {
-            "number": 17,
-            "type": "singleChoice",
-            "description": "臺灣某茶商為了提高自有茶園的茶葉產量，以供應國內日益成長的罐裝茶及手搖茶市場需求，且能與由越南、斯里蘭卡等產區進口的低價茶葉競爭，因而導入滴灌技術，精準計算用水及肥料使用量。此外，也利用農業機具栽種茶苗，並以無人機巡視，噴藥及採收時間則以網路平臺管理。上述各項措施，最主要可達到下列何種成效？",
-            "passing_rate": 0.68,
-            "discrimination_index": 0.46,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "利於傳統茶園轉型成休閒農場"
-              },
-              {
-                "answer": "B",
-                "description": "降低勞力成本占總成本的比例"
-              },
-              {
-                "answer": "C",
-                "description": "提升茶葉品質以提高單位價格"
-              },
-              {
-                "answer": "D",
-                "description": "增加出口至東協國家的茶葉量"
-              }
-            ],
-            "correct_answer": "B",
-            "explanation": "題幹顯示以科技提升台灣茶農的競爭力，精準計算水量、肥料是減少開銷，而農 業機具、無人機巡視也能減少人力成本，都是指向降低生產成本而提高競爭力。\n因此選Ｂ"
-          },
-          {
-            "number": 18,
-            "type": "singleChoice",
-            "description": "附圖為全球四個著名岬角的位置資訊，其中何者位於歐亞大陸西部海岸？",
-            "passing_rate": 0.5,
-            "discrimination_index": 0.6,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "甲"
-              },
-              {
-                "answer": "B",
-                "description": "乙"
-              },
-              {
-                "answer": "C",
-                "description": "丙"
-              },
-              {
-                "answer": "D",
-                "description": "丁"
-              }
-            ],
-            "correct_answer": "C",
-            "image": "111_society_18.png",
-            "explanation": "歐亞大陸西岸是歐洲地區，經度接近 0 度（英國）。而且歐亞大陸在北 半球，緯度選北緯，因此只有Ｃ能選。"
-          },
-          {
-            "number": 19,
-            "type": "singleChoice",
-            "description": "「歷史事實」與「歷史解釋」的區別，在於歷史事實是客觀呈現過去發生的事件；而歷史解釋則是後人運用歷史資料，對相關歷史事件進行的詮釋與評價。下列敘述中，何者最適合歸類為「歷史事實」？\n\n突厥：歐亞大陸上的一支游牧民族；可汗：部分游牧民族統治者的稱號。",
-            "passing_rate": 0.81,
-            "discrimination_index": 0.54,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "甲"
-              },
-              {
-                "answer": "B",
-                "description": "乙"
-              },
-              {
-                "answer": "C",
-                "description": "丙"
-              },
-              {
-                "answer": "D",
-                "description": "丁"
-              }
-            ],
-            "correct_answer": "C",
-            "image": "111_society_19.png",
-            "explanation": "只有丙屬於歷史事實，其他選項都有筆者主觀的成分。選Ｃ"
-          },
-          {
-            "number": 20,
-            "type": "singleChoice",
-            "description": "附圖為臺灣某年報紙刊登的二則社會新聞。根據內容判斷，新聞報導的事情最早可能發生於下列何時？",
-            "passing_rate": 0.69,
-            "discrimination_index": 0.5,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "日本統治時期"
-              },
-              {
-                "answer": "B",
-                "description": "清帝國統治時期"
-              },
-              {
-                "answer": "C",
-                "description": "中華民國政府遷臺初期"
-              },
-              {
-                "answer": "D",
-                "description": "中華民國政府推動十大建設期間"
-              }
-            ],
-            "correct_answer": "A",
-            "image": "111_society_20.png",
-            "explanation": "圖十一顯示已經有警察制度、而且已經有通往打狗的列車，顯示是日治時期之後 因為日治時期打狗更名為高雄，此文獻卻尚未更改，因此可知是日治時期的文 獻，因此選Ａ"
-          },
-          {
-            "number": 21,
-            "type": "singleChoice",
-            "description": "日本料理「天婦羅」，是將食材裹上澱粉漿之後下鍋油炸，這種料理源自於天主教徒在齋戒期間，將食材油炸後食用。在沒有冷凍技術的時代，因為油炸食物容易保存，所以水手於遠洋航行時也會準備油炸魚類作為糧食。葡萄牙的天主教徒最初到日本傳教與貿易時，同時傳入這種料理。「天婦羅」傳入日本的時代背景，最可能是下列何者？",
-            "passing_rate": 0.61,
-            "discrimination_index": 0.57,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "外國艦隊脅迫幕府開港，促使日本推動明治維新"
-              },
-              {
-                "answer": "B",
-                "description": "西方各國展開海外探險，建立到達東方的新航線"
-              },
-              {
-                "answer": "C",
-                "description": "日本受大唐文化的薰染，效法唐朝推動制度改革"
-              },
-              {
-                "answer": "D",
-                "description": "民主陣營為防堵共產勢力，派遣艦隊駐防太平洋"
-              }
-            ],
-            "correct_answer": "B",
-            "explanation": "最早於幕府時期，日本已經與西方部分國家展開貿易交流，而後才發生明治維新。因此選Ｂ"
-          },
-          {
-            "number": 22,
-            "type": "singleChoice",
-            "description": "一列火車在德國官方祕密安排下，從蘇黎世出發前往俄國，車上乘客包括列寧及其布爾什維克黨同志，這些人曾因為反對俄國政府而流亡海外。列寧等人沿途經過德國、瑞典、芬蘭，最後抵達俄國的首都彼得格勒(今聖彼得堡)。半年後，他們領導革命，推翻臨時政府，組織新的政權，對俄國產生重大影響。當時德國官方安排這班列車的目的，最可能為下列何者？",
-            "passing_rate": 0.6,
-            "discrimination_index": 0.55,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "與俄國結盟對抗拿破崙"
-              },
-              {
-                "answer": "B",
-                "description": "欲緩和冷戰東西對立局勢"
-              },
-              {
-                "answer": "C",
-                "description": "遵守《德蘇互不侵犯條約》"
-              },
-              {
-                "answer": "D",
-                "description": "為使俄國退出第一次世界大戰"
-              }
-            ],
-            "correct_answer": "D",
-            "explanation": "由蘇聯共產黨成立時間點可知，是一戰時期，因此選Ｄ"
-          },
-          {
-            "number": 23,
-            "type": "singleChoice",
-            "description": "甲國政府自 2019 年起，要求記者須通過關於國家領袖思想的考試後，才能取得記者證，藉以強化他們對國家領袖的效忠。附圖是近年該國政府核發記者證數量的變化，而附表則是無國界記者組織提出的全球新聞自由指數報告中，該國近年的排名狀況，排名越前面代表新聞自由程度越高。根據相關資訊判斷，關於甲國政府的此項作法，下列敘述何者最合理？",
-            "passing_rate": 0.67,
-            "discrimination_index": 0.53,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "政府藉由立法規範，以保障記者的新聞自由"
-              },
-              {
-                "answer": "B",
-                "description": "政府採取獎勵政策，以促使新聞產業蓬勃發展"
-              },
-              {
-                "answer": "C",
-                "description": "政府削減新聞記者人數，以便管控媒體報導內容"
-              },
-              {
-                "answer": "D",
-                "description": "政府透過管控記者思想，以影響閱聽人接收的新聞"
-              }
-            ],
-            "correct_answer": "D",
-            "image": "111_society_23.png",
-            "explanation": "由圖片可知，是一個新聞自由相當不足的地方，甚至需要思想考試。儘管 2020 核發許多記者證，但新聞自由指數仍然全球倒數第四。顯示記者數量提升，但很 可能都必須接受審查，仍然沒有自由可言，因此選Ｄ"
-          },
-          {
-            "number": 24,
-            "type": "singleChoice",
-            "description": "附表呈現阿森在近三屆我國總統選舉資格的變化情形。根據表中內容判斷，阿森在第 14 屆至第 15 屆之間，最可能發生了下列哪一件事？",
-            "passing_rate": 0.57,
-            "discrimination_index": 0.53,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "被政黨開除黨籍"
-              },
-              {
-                "answer": "B",
-                "description": "遭法院監護宣告"
-              },
-              {
-                "answer": "C",
-                "description": "遷移戶籍至其他縣市"
-              },
-              {
-                "answer": "D",
-                "description": "遭法院判處褫奪公權"
-              }
-            ],
-            "correct_answer": "B",
-            "image": "111_society_24.png",
-            "explanation": "不具備選舉投票資格，很可能受到監護宣告。而褫奪公權仍然擁有投票權。因此 選Ｂ"
-          },
-          {
-            "number": 25,
-            "type": "singleChoice",
-            "description": "我國國會可對中央政府部分官員的人事提名案行使同意權，並在投票表決前，藉由提問來審查被提名人是否適任。根據我國公職人員的法定職權判斷，下列哪一個問題的提問對象最可能是大法官被提名人？",
-            "passing_rate": 0.59,
-            "discrimination_index": 0.47,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "如何提升違法官員彈劾案件的辦案效率"
-              },
-              {
-                "answer": "B",
-                "description": "如何落實嚴謹審核中央政府年度總決算"
-              },
-              {
-                "answer": "C",
-                "description": "我國仍維持死刑刑罰是否違反基本人權"
-              },
-              {
-                "answer": "D",
-                "description": "公務人員的選才制度是否有改善的空間"
-              }
-            ],
-            "correct_answer": "C",
-            "explanation": "大法官具有解釋憲法、法律與命令的職務，因此選 C"
-          },
-          {
-            "number": 26,
-            "type": "singleChoice",
-            "description": "附圖為某條鐵路的路線圖，該鐵路全線的海拔高度變化最可能為下列何者？",
-            "passing_rate": 0.55,
-            "discrimination_index": 0.35,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "A"
-              },
-              {
-                "answer": "B",
-                "description": "B"
-              },
-              {
-                "answer": "C",
-                "description": "C"
-              },
-              {
-                "answer": "D",
-                "description": "D"
-              }
-            ],
-            "correct_answer": "B",
-            "image": "111_society_26.png",
-            "explanation": "圖十三顯示為瑞士，瑞士地理山地地形多，因此選Ｂ"
-          },
-          {
-            "number": 27,
-            "type": "singleChoice",
-            "description": "2014 年中國吉林省與俄羅斯合作擴建附圖中的甲港口，目前出口貨物可不經由大連港，透過甲港口可大幅縮短與鄰近國家部分港口的航運時間。擴建甲港口除上述目的外，最可能還含下列何優勢？",
-            "passing_rate": 0.48,
-            "discrimination_index": 0.55,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "作為俄羅斯船隻通往大西洋的出海口"
-              },
-              {
-                "answer": "B",
-                "description": "加速俄羅斯將開發重心轉向歐俄平原"
-              },
-              {
-                "answer": "C",
-                "description": "作為中、俄兩國鴨綠江流域貨物出入的港口"
-              },
-              {
-                "answer": "D",
-                "description": "提供中國船隻藉由此港口通往北極海的捷徑"
-              }
-            ],
-            "correct_answer": "D",
-            "image": "111_society_27.png",
-            "explanation": "圖片有畫出鴨綠江，顯然和甲港口位於不同地方。而甲緯度高，使中國船隻易於 通往北極海，因此選Ｄ"
-          },
-          {
-            "number": 28,
-            "type": "singleChoice",
-            "description": "2014 年世界上只有 5％的人口居住在附圖中的深灰色區域；而相同數量的人口則居住在圖中黑色區域。小齊想要在地圖上的淺灰色區域，以圓圈標示另一個人口數量最相近的範圍，則他標示在下列何地最為適宜？",
-            "passing_rate": 0.38,
-            "discrimination_index": 0.29,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "甲"
-              },
-              {
-                "answer": "B",
-                "description": "乙"
-              },
-              {
-                "answer": "C",
-                "description": "丙"
-              },
-              {
-                "answer": "D",
-                "description": "丁"
-              }
-            ],
-            "correct_answer": "D",
-            "image": "111_society_28.png",
-            "explanation": "題目黑色地區是孟加拉，是人口密度非常稠密的地區。選丁為相似密度較為恰當"
-          },
-          {
-            "number": 29,
-            "type": "singleChoice",
-            "description": "世界氣象組織(WMO)定義熱浪標準為連續 5 日的每日最高氣溫，皆高於歷年最暖月的最高氣溫平均值 5 ℃以上。附表為臺北測站 1981 至 2010 年氣溫相關資料，根據上述定義，臺北在下列何種情形即達到此一熱浪標準？",
-            "passing_rate": 0.38,
-            "discrimination_index": 0.48,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "連續 5 天出現 31.6 ℃以上高溫"
-              },
-              {
-                "answer": "B",
-                "description": "連續 5 天出現 34.3 ℃以上高溫"
-              },
-              {
-                "answer": "C",
-                "description": "連續 5 天出現 34.6 ℃以上高溫"
-              },
-              {
-                "answer": "D",
-                "description": "連續 5 天出現 39.3 ℃以上高溫"
-              }
-            ],
-            "correct_answer": "D",
-            "image": "111_society_29.png",
-            "explanation": "由題幹顯示，選最高氣溫 $34.3+5=39.3$ 。因此選Ｄ"
-          },
-          {
-            "number": 30,
-            "type": "singleChoice",
-            "description": "以下是中國天津某年慶祝元旦的相關報導：「政府要求各機關及各民眾團體，在元旦上午參加慶祝中華民國成立的紀念大會。當晚民眾提燈遍遊街市，高呼『勿忘國恥』、『抵制日貨』、『打倒貪官汙吏』、『打倒燒香化紙、磕頭拜年的惡習』等口號。各街市商號張貼標語、懸燈結綵，國民黨黨旗和國旗飄揚天際，蔚為盛況。」上述內容最可能是描繪下列何時的景象？",
-            "passing_rate": 0.4,
-            "discrimination_index": 0.54,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "1861～1895 年自強運動期間"
-              },
-              {
-                "answer": "B",
-                "description": "1928～1937 年十年建設期間"
-              },
-              {
-                "answer": "C",
-                "description": "1958～1961 年農工大躍進期間"
-              },
-              {
-                "answer": "D",
-                "description": "1966～1976 年文化大革命期間"
-              }
-            ],
-            "correct_answer": "B",
-            "explanation": "題目中天津除了抵制日貨外，也排斥燒香與磕頭等傳統禮儀。但關鍵為，此時期 為國民黨執政時期，因此只能選 B"
-          },
-          {
-            "number": 31,
-            "type": "singleChoice",
-            "description": "附圖是某時期中國海外貿易的進出口總額統計圖。觀察圖中各區域與中國的貿易概況，分析造成圖中第「Ⅱ」階段變化的主要原因，最可能與下列何者有關？",
-            "passing_rate": 0.39,
-            "discrimination_index": 0.39,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "朝廷驅逐在華的耶穌會傳教士"
-              },
-              {
-                "answer": "B",
-                "description": "玉米、馬鈴薯等美洲作物傳入"
-              },
-              {
-                "answer": "C",
-                "description": "義和團事變對社會經濟的衝擊"
-              },
-              {
-                "answer": "D",
-                "description": "鄭氏勢力擁兵東南與清廷對抗"
-              }
-            ],
-            "correct_answer": "D",
-            "image": "111_society_31.png",
-            "explanation": "1650 年到 1700 年貿易量顯著減少，對照時期可知為清朝時期，是鄭成功在台灣 時期，因此選Ｄ"
-          },
-          {
-            "number": 32,
-            "type": "singleChoice",
-            "description": "謝先生是王小姐的前夫，但謝先生屢次侵擾王小姐的住處，甚至還到她上班的地方騷擾，最後謝先生因違反保護令的相關規定，被判處拘役四十天。根據上述內容判斷，下列敘述何者正確？",
-            "passing_rate": 0.58,
-            "discrimination_index": 0.45,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "謝先生必須為自己的違法行為負起刑事責任"
-              },
-              {
-                "answer": "B",
-                "description": "王小姐因警察局所核發的保護令而獲得保障"
-              },
-              {
-                "answer": "C",
-                "description": "謝先生若不服判決可向地方法院提出民事訴訟"
-              },
-              {
-                "answer": "D",
-                "description": "王小姐可依《性別平等教育法》向謝先生求償"
-              }
-            ],
-            "correct_answer": "A",
-            "explanation": "拘役是刑法中的自由刑，因此選 A。而保護令由法院核發而非警察局。"
-          },
-          {
-            "number": 33,
-            "type": "singleChoice",
-            "description": "開班會時，有些同學在玩牌、有些同學在吃東西，阿偉認為吵雜聲使他聽不清楚其他人的發言內容，影響到他參與會議的權利。附圖是當日班會的部分過程，阿偉應是在圖中哪一階段要求主席處理上述問題？",
-            "passing_rate": 0.69,
-            "discrimination_index": 0.6,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "甲"
-              },
-              {
-                "answer": "B",
-                "description": "乙"
-              },
-              {
-                "answer": "C",
-                "description": "丙"
-              },
-              {
-                "answer": "D",
-                "description": "丁"
-              }
-            ],
-            "correct_answer": "A",
-            "image": "111_society_33.png",
-            "explanation": "權宜問題屬於發生喧擾影響聽覺、而秩序問題是議題發生錯誤，而足以破外議事 秩序，例如討論超過議題範圍等等。因此選Ａ"
-          },
-          {
-            "number": 34,
-            "type": "singleChoice",
-            "description": "某日阿蔚透過網路觀看立法院的議事實況轉播，根據我國現行法律規定，他最可能看見下列何者的轉播情況？",
-            "passing_rate": 0.51,
-            "discrimination_index": 0.53,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "審理總統、副總統彈劾案"
-              },
-              {
-                "answer": "B",
-                "description": "表決對行政院的糾正提案"
-              },
-              {
-                "answer": "C",
-                "description": "召開行政院會議規畫施政方針"
-              },
-              {
-                "answer": "D",
-                "description": "行政院部會首長進行施政報告"
-              }
-            ],
-            "correct_answer": "D",
-            "explanation": "只有Ｄ屬於立法院的職責範疇。因此選Ｄ \nA 司法院，B 監察院、C 行政院"
-          },
-          {
-            "number": 35,
-            "type": "singleChoice",
-            "description": "「紓解訟源」是近年司法改革的重點之一，其目的是希望讓民眾在提起訴訟前，能透過公正且具有與法院確定判決相同效力的途徑來解決糾紛，這種方式既可避免耗時的訴訟程序，也能減少司法資源的浪費。下列哪種處理方式最符合「紓解訟源」的作法？",
-            "passing_rate": 0.69,
-            "discrimination_index": 0.56,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "不服行政處分，向上級機關提起訴願"
-              },
-              {
-                "answer": "B",
-                "description": "偷竊財物遭逮，嫌犯希望失主別追究"
-              },
-              {
-                "answer": "C",
-                "description": "車禍無人受傷，雙方私下和解賠償損失"
-              },
-              {
-                "answer": "D",
-                "description": "遭友積欠債務，至調解委員會聲請調解"
-              }
-            ],
-            "correct_answer": "D",
-            "explanation": "調解為訴訟前具有保障的程序。而Ｃ私下和解具有風險性。因此選Ｄ\nB 屬於公訴"
-          },
-          {
-            "number": 36,
-            "type": "singleChoice",
-            "description": "附圖為大華與小年住家附近的地圖，甲、乙二商店均販賣大華與小年想購買的某項商品，且該商品在甲商店的售價比乙商店高。若大華僅想就近買到商品，而小年卻只想以便宜的價格購買，則對此二人而言，到哪一間商店購物的機會成本較高？",
-            "passing_rate": 0.52,
-            "discrimination_index": 0.49,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "皆為甲商店"
-              },
-              {
-                "answer": "B",
-                "description": "皆為乙商店"
-              },
-              {
-                "answer": "C",
-                "description": "大華：甲商店，小年：乙商店"
-              },
-              {
-                "answer": "D",
-                "description": "大華：乙商店，小年：甲商店"
-              }
-            ],
-            "correct_answer": "D",
-            "image": "111_society_36.png",
-            "explanation": "對大華而言，到乙商店導致失去就近購買的機會。而對小年而言，去甲商店則會 買貴，因此選Ｄ"
-          },
-          {
-            "number": 37,
-            "type": "singleChoice",
-            "description": "中國近代某一文章提到：「政府假借預備立憲的美名卻實行中央集權，假借推行新政卻搜刮民間錢財，對外則割讓土地，並出賣採礦權與鐵路經營權。人民反對政策，可能會被處死；如果人民自己出錢出力興修鐵路，又會被官方沒收。政府應該要保護人民，結果人民反而受到政府的傷害，如此不顧人民生命、財產的政府，誰還能忍受呢！」上文的主要訴求最可能是下列何者？",
-            "passing_rate": 0.63,
-            "discrimination_index": 0.55,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "因對外戰爭受到挫敗，提倡學習西方的軍事及工業技術"
-              },
-              {
-                "answer": "B",
-                "description": "推動制度層面的改革，以解決自強運動改革不彰的問題"
-              },
-              {
-                "answer": "C",
-                "description": "對改革結果感到失望，體認到革命也是救國的途徑之一"
-              },
-              {
-                "answer": "D",
-                "description": "主張全面改革思想文化，提倡西方科學精神與白話文學"
-              }
-            ],
-            "correct_answer": "C",
-            "explanation": "文章中提出改革的許多問題，並且對改革表示失望，也暗示革命的可能性。因此 選Ｃ"
-          },
-          {
-            "number": 38,
-            "type": "singleChoice",
-            "description": "附圖中的硬幣為位在南半球的某國於 2019 年所發行。自歐洲人十八世紀移入該地以來，已有約 130 種原住民語絕跡。該國希望藉由此硬幣的發行，提醒人民保存、維護和活化原住民語的重要性。上述硬幣最可能由下列何國發行？",
-            "passing_rate": 0.57,
-            "discrimination_index": 0.45,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "印度"
-              },
-              {
-                "answer": "B",
-                "description": "秘魯"
-              },
-              {
-                "answer": "C",
-                "description": "澳洲"
-              },
-              {
-                "answer": "D",
-                "description": "菲律賓"
-              }
-            ],
-            "correct_answer": "C",
-            "image": "111_society_38.png",
-            "explanation": "關鍵字為南半球與 14 種原住民語，更重要的是英國女王頭像，可知是昔日大英 帝國之一，聯想到澳洲，因此選Ｃ"
-          },
-          {
-            "number": 39,
-            "type": "singleChoice",
-            "description": "小強參加辯論比賽，辯論主題是「目前甲國社會尚未達到性別平等」，若他是站在正方的立場，須提出支持主題的論點，下列四張關於甲國不同面向的統計圖，何者最適合小強作為強化論點的證據？",
-            "passing_rate": 0.66,
-            "discrimination_index": 0.34,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "A"
-              },
-              {
-                "answer": "B",
-                "description": "B"
-              },
-              {
-                "answer": "C",
-                "description": "C"
-              },
-              {
-                "answer": "D",
-                "description": "D"
-              }
-            ],
-            "correct_answer": "C",
-            "image": "111_society_39.png",
-            "explanation": "小強需要尋找支持性別不平等的證據，家暴受害者多為女性可以支持這個論點，因此選Ｃ"
-          },
-          {
-            "number": 40,
-            "type": "singleChoice",
-            "description": "附圖為小成在研究 2017 年非洲貿易現況時所發現的某些現象。非洲各國採取下列何項措施，最可能有助於改善非洲這些現象？",
-            "passing_rate": 0.52,
-            "discrimination_index": 0.36,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "限定與非洲其他國家的進口配額，保護本國產業"
-              },
-              {
-                "answer": "B",
-                "description": "改善與其他洲的交通運輸，降低貨物的運輸成本"
-              },
-              {
-                "answer": "C",
-                "description": "強化邊境的管制措施，防止鄰國非法貿易的進行"
-              },
-              {
-                "answer": "D",
-                "description": "簽署非洲自由貿易協定，降低非洲國家間的關稅"
-              }
-            ],
-            "correct_answer": "D",
-            "image": "111_society_40.png",
-            "explanation": "圖二十第一句顯示非洲國家進口商品捨近求遠，第二句顯示非洲主要為洲際貿 易而非洲內貿易。因此要尋找可以提升非洲洲內貿易的選項。因此選Ｄ"
-          },
-          {
-            "number": 41,
-            "type": "singleChoice",
-            "description": "附圖是日本繪製的第二次世界大戰形勢圖，三種圖例代表與日本三種不同關係。從圖中標示的圖例，可得知這是 1941 年底太平洋戰爭爆發後的世界形勢，最主要的判斷依據應為下列何者？",
-            "passing_rate": 0.33,
-            "discrimination_index": 0.26,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "英國和德國使用不同圖例"
-              },
-              {
-                "answer": "B",
-                "description": "英國和美國使用相同圖例"
-              },
-              {
-                "answer": "C",
-                "description": "朝鮮和日本使用相同圖例"
-              },
-              {
-                "answer": "D",
-                "description": "德國和日本使用相同圖例"
-              }
-            ],
-            "correct_answer": "B",
-            "image": "111_society_41.png",
-            "explanation": "因為太平洋戰爭爆發後，美國參戰，美國在圖 21 中為敵對國。因此選 B"
-          },
-          {
-            "number": 42,
-            "type": "singleChoice",
-            "description": "附圖呈現甲、乙、丙三國的貿易情況。若甲國受匯率變動的影響，使得某段時間的進、出口商品數量皆大幅增加，則根據圖中內容判斷，該段時間甲國貨幣的匯率變化，最可能為下列何者？",
-            "passing_rate": 0.52,
-            "discrimination_index": 0.43,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "相對乙、丙兩國貨幣皆升值"
-              },
-              {
-                "answer": "B",
-                "description": "相對乙、丙兩國貨幣皆貶值"
-              },
-              {
-                "answer": "C",
-                "description": "相對乙國貨幣升值，但相對丙國貨幣貶值"
-              },
-              {
-                "answer": "D",
-                "description": "相對乙國貨幣貶值，但相對丙國貨幣升值"
-              }
-            ],
-            "correct_answer": "D",
-            "image": "111_society_42.png",
-            "explanation": "甲出口商品大幅增加，顯示甲國貨幣對乙國貨幣貶值。而甲國進口大幅增加，顯 示甲國貨幣對丙國貨幣升值，因此選 D"
-          },
-          {
-            "number": 43,
-            "type": "singleChoice",
-            "description": "附圖是某一時期的政治宣傳漫畫，圖中「大手」代表當時的國際組織，領導各國對抗侵略者。根據內容判斷，該國際組織最可能是下列何者？",
-            "passing_rate": 0.58,
-            "discrimination_index": 0.43,
-            "choices": [
-              {
-                "answer": "A",
-                "description": "聯合國"
-              },
-              {
-                "answer": "B",
-                "description": "國際聯盟"
-              },
-              {
-                "answer": "C",
-                "description": "華沙公約組織"
-              },
-              {
-                "answer": "D",
-                "description": "石油輸出國家組織"
-              }
-            ],
-            "correct_answer": "A",
-            "image": "111_society_43.png",
-            "explanation": "由圖中共產黨侵略大韓民國，可知此為韓戰，而圖中對抗共產黨的「大手」，即是派兵幫助大韓民國的聯合國。故選A。"
-          },
-          {
-            "type": "groupChoice",
-            "description": "閱讀下列選文，回答下列各題：\n  1855 年，美商威廉士洋行的商船航行至臺灣府安平外海，並派人上岸詢問是否能在當地貿易。經過安排，船長和臺灣道裕鐸在打狗會面，裕鐸在會談中告知船長，外國商船如果直接在安平停泊，並不符合規定，臺灣道將受到朝廷處罰，但裕鐸和打狗地方官員可以私下允許外國商船，停靠遠離政治核心的打狗進行貿易。\n  然而，實際上官員後來往往放任外國商船停靠安平，未能嚴格執行禁令。過了數年，新任的臺灣道孔昭慈於 1859 年，又要求外國商船「不准像之前一樣在安平附近起卸貨物」。有位英國商人分析：「這並非臺灣道刻意禁止外商在臺灣府貿易，而是因為府城當地泉州人組成的商人團體，跑去向福建巡撫告狀，指控外國商船收購物產，造成物價上漲，影響了本地商人的生意。」\n臺灣道：臺灣建省前，在臺灣的最高文官。",
-            "options": [
-              {
-                "number": 44,
-                "description": "根據上文中裕鐸與洋行的會談結果，當時臺灣對外貿易的情況，最可能是下列何者？",
-                "passing_rate": 0.7,
-                "discrimination_index": 0.44,
-                "choices": [
-                  {
-                    "answer": "A",
-                    "description": "當時臺灣尚未對外開港，裕鐸嚴禁洋商在臺貿易"
-                  },
-                  {
-                    "answer": "B",
-                    "description": "當時臺灣尚未對外開港，實際上洋商已來臺貿易"
-                  },
-                  {
-                    "answer": "C",
-                    "description": "當時臺灣已經對外開港，洋商可在臺灣各港口貿易"
-                  },
-                  {
-                    "answer": "D",
-                    "description": "當時臺灣已經對外開港,裕鐸仍阻撓洋商在臺貿易"
-                  }
-                ],
-                "correct_answer": "B",
-                "explanation": "因為文案顯示無法完全公開貿易，因此選尚未對外開港，但實際上有洋商貿易 的 B"
-              },
-              {
-                "number": 45,
-                "description": "根據上文，外國商人分析臺灣道重申外國商船不得在安平附近起卸貨物的原因，最可能與下列何者有關？",
-                "passing_rate": 0.62,
-                "discrimination_index": 0.55,
-                "choices": [
-                  {
-                    "answer": "A",
-                    "description": "安平與鹿耳門泥沙淤積，易造成擱淺"
-                  },
-                  {
-                    "answer": "B",
-                    "description": "府城商人透過「郊」來維護自身利益"
-                  },
-                  {
-                    "answer": "C",
-                    "description": "日本出兵臺灣南部，清帝國提高警戒"
-                  },
-                  {
-                    "answer": "D",
-                    "description": "許多府城商人組成「郊」與洋行合作"
-                  }
-                ],
-                "correct_answer": "B",
-                "explanation": "文案顯示重申不得在安平附近貿易的原因是泉州商人跑去向福建巡佐告狀，因 此選Ｂ"
-              }
-            ]
-          },
-          {
-            "type": "groupChoice",
-            "description": "閱讀下列選文，回答下列各題：\n  臺灣和地形有關的地名，多是古人依照當時的地理環境所命名，隨著時間變化，原先的山丘、河或湖可能會變遷甚至消失，僅剩下地名而已。因此，透過地名可推估過去的地景樣貌，例如「墘」字代表位於某一地物或水體的旁邊，如厝墘、田墘、港墘與溪墘等，圖(二十四)為「墘」字地名的分布圖。\n  小瑜家鄉地名也有「墘」字，雖然現今已經看不到當時的地貌；為了印證上述命名原則，她找到 1921 年日治時期家鄉的地圖",
-            "options": [
-              {
-                "number": 46,
-                "description": "根據圖(二十四)中「墘」字地名的分布判斷，下列關於「墘」字地名的推論何者最為合理？",
-                "passing_rate": 0.72,
-                "discrimination_index": 0.52,
-                "choices": [
-                  {
-                    "answer": "A",
-                    "description": "分布於閩南族群集中區，屬閩南族系的地名"
-                  },
-                  {
-                    "answer": "B",
-                    "description": "分布於客家族群集中區，屬客家族系的地名"
-                  },
-                  {
-                    "answer": "C",
-                    "description": "分布於現今原住民居住地，為原住民的地名"
-                  },
-                  {
-                    "answer": "D",
-                    "description": "受西班牙占領影響,為西班牙語音譯的地名"
-                  }
-                ],
-                "correct_answer": "A",
-                "explanation": "「墘」集中在西半部，又以平原較多，和閩南族群較為吻合，因此選Ａ"
-              },
-              {
-                "number": 47,
-                "description": "根據圖(二十五)判斷，在日治時期小瑜的家鄉最可能以哪種產業活動為主？",
-                "passing_rate": 0.77,
-                "discrimination_index": 0.43,
-                "choices": [
-                  {
-                    "answer": "A",
-                    "description": "水稻耕作"
-                  },
-                  {
-                    "answer": "B",
-                    "description": "樟腦提煉"
-                  },
-                  {
-                    "answer": "C",
-                    "description": "茶葉種植"
-                  },
-                  {
-                    "answer": "D",
-                    "description": "海鹽晒製"
-                  }
-                ],
-                "correct_answer": "A",
-                "explanation": "小瑜家鄉多為田地，由圖 25、26 顯示可知，是河流旁的田地，最可能的應該是水稻耕作，因此選 A"
-              },
-              {
-                "number": 48,
-                "description": "根據上文中地名的命名原則及圖(二十五)與圖(二十六)的資訊判斷，小瑜的家鄉地名最可能為下列何者？",
-                "passing_rate": 0.74,
-                "discrimination_index": 0.46,
-                "choices": [
-                  {
-                    "answer": "A",
-                    "description": "海墘"
-                  },
-                  {
-                    "answer": "B",
-                    "description": "潭墘"
-                  },
-                  {
-                    "answer": "C",
-                    "description": "岸壁墘"
-                  },
-                  {
-                    "answer": "D",
-                    "description": "黑礁墘"
-                  }
-                ],
-                "correct_answer": "B",
-                "explanation": "在溪邊，應該叫做溪墘。在圖 25 中可知似乎是有靜止的水體，選潭墘適當，因此選Ｂ"
-              }
-            ],
-            "image": "111_society_46-48.png"
-          },
-          {
-            "type": "groupChoice",
-            "description": "閱讀下列選文，回答下列各題：\n  過去以茶文化為主的亞洲人，對咖啡的接受度越來越高，更逐漸在各地形成獨特的咖啡文化。近年臺灣也吹起喝咖啡的風潮，路上常看到人手一杯咖啡。其實早在日治時期，日本就已將飲用咖啡的習慣帶入臺灣，戰後有業者創立供內用的專業咖啡店，還有廠商生產即溶與罐裝咖啡，但直到九零年代末期，美式咖啡連鎖品牌進駐臺灣引進外帶現煮咖啡後，咖啡市場才出現了關鍵性的改變，讓喝咖啡變成日常生活的一部分。2018 年時，臺灣平均每人一年喝下超過 200 杯咖啡，咖啡豆的進口量是 2008 年時的兩倍以上，而且咖啡商機還在持續成長中。\n  而南韓人比臺灣人更愛喝咖啡，南韓在亞洲地區的咖啡飲用量名列前茅，根據相關調查報告推估，南韓平均每人一年喝下超過 500 杯咖啡。咖啡幾乎是南韓日常生活中不可缺少的一部分，不只是上班族的必備品，也相當受學生喜愛。在南韓的校園中，不少學生常因熬夜看書導致白天精神不濟，於是飲用咖啡來提神與增加專注力，但攝取過量咖啡因會有頭暈、心跳加速、睡眠障礙等症狀，可能不利於青少年神經及心血管系統的發育。南韓政府擔心校園內飲用咖啡的風氣，對於未來整體的國民健康、醫療資源會產生負面影響，因此修法規定自 2018 年 9 月起，全面禁止在高中以下校園內販售含有咖啡因的飲料。\n  或許臺灣人的咖啡癮還沒有南韓這麼嚴重，不過我國已有相關法令規範高中以下校園內飲品及點心的販售項目，違規販售不符規範的商品將被主管機關要求下架，以避免類似的問題在臺灣發生。",
-            "options": [
-              {
-                "number": 49,
-                "description": "文中針對我國咖啡的相關敘述，下列何者最適當？",
-                "passing_rate": 0.76,
-                "discrimination_index": 0.47,
-                "choices": [
-                  {
-                    "answer": "A",
-                    "description": "咖啡產品貿易總額超越茶產品"
-                  },
-                  {
-                    "answer": "B",
-                    "description": "咖啡豆的進出口貿易呈現出超"
-                  },
-                  {
-                    "answer": "C",
-                    "description": "飲用咖啡的習慣受到文化交流影響"
-                  },
-                  {
-                    "answer": "D",
-                    "description": "國小內販售咖啡將會遭受刑罰處罰"
-                  }
-                ],
-                "correct_answer": "C",
-                "explanation": "文案顯示咖啡在我國非常盛行。從日本文化的引進到美式現煮的風潮都大大提升台灣人飲用咖啡的習慣，因此選 C"
-              },
-              {
-                "number": 50,
-                "description": "根據文中內容判斷，南韓政府的作法與下列何項敘述最相符？",
-                "passing_rate": 0.82,
-                "discrimination_index": 0.51,
-                "choices": [
-                  {
-                    "answer": "A",
-                    "description": "透過負向誘因影響校內師生的消費能力"
-                  },
-                  {
-                    "answer": "B",
-                    "description": "透過正向誘因影響校內商品的販售種類"
-                  },
-                  {
-                    "answer": "C",
-                    "description": "透過制度變革影響校內師生的消費能力"
-                  },
-                  {
-                    "answer": "D",
-                    "description": "透過制度變革影響校內商品的販售種類"
-                  }
-                ],
-                "correct_answer": "D",
-                "explanation": "南韓政府透過立法保障高中以下學生不會在校園內接觸到含咖啡因的飲料。因此 選 D"
-              },
-              {
-                "number": 51,
-                "description": "文中所提及南韓政府修改法律的目的，與下列我國的何項作法最類似？",
-                "passing_rate": 0.86,
-                "discrimination_index": 0.46,
-                "choices": [
-                  {
-                    "answer": "A",
-                    "description": "受監護宣告者自行訂定的契約不具效力"
-                  },
-                  {
-                    "answer": "B",
-                    "description": "雇主不得因性別因素而對員工有差別待遇"
-                  },
-                  {
-                    "answer": "C",
-                    "description": "國小學童不得出入有害身心發展的不良場所"
-                  },
-                  {
-                    "answer": "D",
-                    "description": "家庭暴力受害者可聲請保護令以避免受到傷害"
-                  }
-                ],
-                "correct_answer": "C",
-                "explanation": "南韓政府透過修法保護青少年，和Ｃ選項透過修法保障孩童不能進入有害身心發展的場所類似，因此選Ｃ"
-              }
-            ]
-          },
-          {
-            "type": "groupChoice",
-            "description": "閱讀下列選文，回答下列各題：\n  空氣汙染是當代世界嚴重的問題，過去的英國也曾深受空汙的危害。日本明治時代文學家夏目漱石在旅英期間的日記中寫道：「在倫敦的街上散步時吐了口痰，當我看到自己吐出一團全黑的物體時真是吃驚。幾百萬市民每天都吸著煤煙和塵埃，汙染著他們的肺。」當時人們以煤作為驅動蒸汽機以及家中暖爐、廚具的燃料，加上西歐地區盛行風的吹拂，使空氣汙染物不斷飄向城市的下風處，形成如圖(一)煙霧瀰漫的景觀。\n  燃煤帶來的空氣汙染會影響健康，可能降低新生兒存活率，或是使得兒童發育遲緩。十九世紀時英國部分城市的居民居住區域分布也反映出貧富差距，資本家與中產階級為了尋求較好的生活品質，紛紛遷往城市中汙染較少的區域，而較為窮困的低技術勞動階級，因受工作地點和經濟考量所限，只能居住於汙染嚴重的區域。因此，思想家恩格斯在當時就發出「只有勞動階級才會呼吸受汙染的空氣」的不平之鳴。",
-            "options": [
-              {
-                "number": 52,
-                "description": "文中日本文學家描述的城市現象，與下列何者的關係最密切？",
-                "passing_rate": 0.93,
-                "discrimination_index": 0.41,
-                "choices": [
-                  {
-                    "answer": "A",
-                    "description": "工業革命"
-                  },
-                  {
-                    "answer": "B",
-                    "description": "宗教改革"
-                  },
-                  {
-                    "answer": "C",
-                    "description": "啟蒙運動"
-                  },
-                  {
-                    "answer": "D",
-                    "description": "文藝復興"
-                  }
-                ],
-                "correct_answer": "A",
-                "explanation": "夏目漱石咳出煙煤和塵埃的痰液，顯示工業革命導致的空氣污染，選Ａ"
-              },
-              {
-                "number": 53,
-                "description": "圖(二)是文中國家某空氣汙染嚴重的城市示意圖。已知圖中某處為低技術勞動階級居住的區域，根據上文及考量盛行風向的影響，此處最可能位於圖中甲、乙、丙、丁何處？\n\n圖(二)",
-                "passing_rate": 0.55,
-                "discrimination_index": 0.56,
-                "choices": [
-                  {
-                    "answer": "A",
-                    "description": "甲"
-                  },
-                  {
-                    "answer": "B",
-                    "description": "乙"
-                  },
-                  {
-                    "answer": "C",
-                    "description": "丙"
-                  },
-                  {
-                    "answer": "D",
-                    "description": "丁"
-                  }
-                ],
-                "correct_answer": "B",
-                "image": "111_society_53.png",
-                "explanation": "因為西風吹拂，低技術勞工無法選擇，只能住在空氣污染的下風處，因此選乙。"
-              },
-              {
-                "number": 54,
-                "description": "文中關於城市居民居住區域分布所呈現的問題，是下列何者的關懷重點？",
-                "passing_rate": 0.7,
-                "discrimination_index": 0.47,
-                "choices": [
-                  {
-                    "answer": "A",
-                    "description": "社會主義"
-                  },
-                  {
-                    "answer": "B",
-                    "description": "民族主義"
-                  },
-                  {
-                    "answer": "C",
-                    "description": "帝國主義"
-                  },
-                  {
-                    "answer": "D",
-                    "description": "法西斯主義"
-                  }
-                ],
-                "correct_answer": "A",
-                "explanation": "因為資本主義產生的資產階級與勞動階級，與隨之而來的不平等，是社會主義 關懷的重點之一，因此選 A"
-              }
-            ],
-            "image": "111_society_52-54.png"
           }
         ]
       },
@@ -13950,6 +12431,1537 @@
               }
             ],
             "image": "111_nature_49-50.png"
+          }
+        ]
+      },
+      {
+        "name": "社會科",
+        "duration": 70,
+        "grade_markings": {
+          "A++": 52,
+          "A+": 50,
+          "A": 48,
+          "B++": 41,
+          "B+": 35,
+          "B": 22,
+          "C": 0
+        },
+        "subject_id": "Society",
+        "questions": [
+          {
+            "number": 1,
+            "type": "singleChoice",
+            "description": "某宗教的全球年度大型集會活動在 2017 年約有 235 萬人參與。附表為該年參與者的來源國及其人數，此一宗教活動最可能為下列何者？",
+            "passing_rate": 0.92,
+            "discrimination_index": 0.35,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "佛教浴佛節"
+              },
+              {
+                "answer": "B",
+                "description": "印度教大壺節"
+              },
+              {
+                "answer": "C",
+                "description": "伊斯蘭教朝覲"
+              },
+              {
+                "answer": "D",
+                "description": "天主教聖誕彌撒"
+              }
+            ],
+            "correct_answer": "C",
+            "image": "111_society_1.png",
+            "explanation": "從沙烏地阿拉伯、印尼、巴基斯坦、伊朗等，可知主要是伊斯蘭教國家。因此選 C"
+          },
+          {
+            "number": 2,
+            "type": "singleChoice",
+            "description": "臺灣一處具有特殊泥岩惡地景觀的地點，於 2020 年 7 月由地方政府審議通過為地質公園。該地位處板塊交界附近及海岸山脈最南端，泥岩夾雜外來岩塊的地層，為該地質公園主要特色。上述地質公園最可能位於附圖中何處？",
+            "passing_rate": 0.88,
+            "discrimination_index": 0.28,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "甲"
+              },
+              {
+                "answer": "B",
+                "description": "乙"
+              },
+              {
+                "answer": "C",
+                "description": "丙"
+              },
+              {
+                "answer": "D",
+                "description": "丁"
+              }
+            ],
+            "correct_answer": "B",
+            "image": "111_society_2.png",
+            "explanation": "題目重點提示於板塊交界、海岸山脈最南端，因此選 B"
+          },
+          {
+            "number": 3,
+            "type": "singleChoice",
+            "description": "中國的氣候受地形、緯度、距海遠近等因素影響，而有空間上的差異。附圖中甲、乙、丙、丁哪一路線夏季氣候的空間變化趨勢，具有明顯的「由溼熱，變乾熱」的特性？",
+            "passing_rate": 0.84,
+            "discrimination_index": 0.45,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "甲"
+              },
+              {
+                "answer": "B",
+                "description": "乙"
+              },
+              {
+                "answer": "C",
+                "description": "丙"
+              },
+              {
+                "answer": "D",
+                "description": "丁"
+              }
+            ],
+            "correct_answer": "C",
+            "image": "111_society_3.png",
+            "explanation": "題目顯示由濕熱變乾熱，重點是濕度，因此選逐漸遠離海邊的選項：Ｃ"
+          },
+          {
+            "number": 4,
+            "type": "singleChoice",
+            "description": "根據經濟部水利署的統計，截至 2019 年底，臺灣 40 座主要水庫中，淤積率超過 30％的共有 15 座，例如霧社水庫淤積率達 74.8％、烏山頭水庫達 49.2％，顯示臺灣水庫淤積程度嚴重，影響水庫蓄水功能。下列何項策略最能有效改善上述現象？",
+            "passing_rate": 0.8,
+            "discrimination_index": 0.41,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "強化集水區崩塌裸露地的植被復育"
+              },
+              {
+                "answer": "B",
+                "description": "擴大在河川下游種植防風林的面積"
+              },
+              {
+                "answer": "C",
+                "description": "減少都市不透水鋪面，增加雨水入滲"
+              },
+              {
+                "answer": "D",
+                "description": "增加地面水源供應，以取代地下水源"
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "水庫淤積原因主要因水庫周圍與上游沙土流入。除了積極清淤外，減少來源堆積 也相當重要。因此選唯一可行的Ａ"
+          },
+          {
+            "number": 5,
+            "type": "singleChoice",
+            "description": "附圖為 1980 年代臺灣某雜誌的封底，藉此表達該雜誌社的政治訴求。圖中內容所呈現的訴求，最可能與下列何者有關？",
+            "passing_rate": 0.69,
+            "discrimination_index": 0.56,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "中央民意代表改選以及總統直選"
+              },
+              {
+                "answer": "B",
+                "description": "政府應該妥善處理「二二八事件」"
+              },
+              {
+                "answer": "C",
+                "description": "政府推行國語運動使得母語式微"
+              },
+              {
+                "answer": "D",
+                "description": "消弭戒嚴體制對人民權利的限制"
+              }
+            ],
+            "correct_answer": "D",
+            "image": "111_society_5.png",
+            "explanation": "題目顯示爭取言論自由，報刊不必接受核准、新聞不必接受檢查等等，皆是戒嚴 時期、解嚴前的關鍵字。因此選Ｄ"
+          },
+          {
+            "number": 6,
+            "type": "singleChoice",
+            "description": "附圖為中國歷史上某種官方文件的內容，根據圖中內容判斷，當時政府製作此官方文件的主要目的最可能為下列何者？\n\n建初十二年：西元 416 年。",
+            "passing_rate": 0.83,
+            "discrimination_index": 0.37,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "配合科舉選拔人才，促進社會的流動"
+              },
+              {
+                "answer": "B",
+                "description": "掌握人力作為徵集賦稅和勞役的依據"
+              },
+              {
+                "answer": "C",
+                "description": "推行封建制度並保障貴族世襲的權力"
+              },
+              {
+                "answer": "D",
+                "description": "根據儒家思想，實施以仁為政的措施"
+              }
+            ],
+            "correct_answer": "B",
+            "image": "111_society_6.png",
+            "explanation": "題目圖片顯示為敦煌的戶籍登錄資料，日期則是建初十二年，題目附註是西元 416 年，當時人口普查的目的主要為賦稅和勞役。因此選Ｂ"
+          },
+          {
+            "number": 7,
+            "type": "singleChoice",
+            "description": "「柯因奈語」(Koine)，又稱「通用希臘語」，是大約發源於西元前四世紀的國際性語言。此一語言因某帝國在政治上統一了愛琴海地區各希臘城邦，融合了該地區多種方言發展而成；其後又伴隨帝國對外武力征服，向埃及、西亞等地區擴散傳播，對於往後數百年間科學、文學和宗教的發展影響深遠。上述的「某帝國」，最可能為下列何者？",
+            "passing_rate": 0.77,
+            "discrimination_index": 0.43,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "波斯帝國"
+              },
+              {
+                "answer": "B",
+                "description": "蒙兀兒帝國"
+              },
+              {
+                "answer": "C",
+                "description": "亞歷山大帝國"
+              },
+              {
+                "answer": "D",
+                "description": "阿茲提克帝國"
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "時間是西元前四世紀，又此帝國除了統一希臘個城邦、甚至延伸到埃及和西亞，因此選亞歷山大帝國：Ｃ"
+          },
+          {
+            "number": 8,
+            "type": "singleChoice",
+            "description": "附圖是臺灣某考古遺址中，同一文化層出土的四種石器。圖中何者最適合作為判斷該文化層所屬時代的證據？",
+            "passing_rate": 0.77,
+            "discrimination_index": 0.52,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "甲"
+              },
+              {
+                "answer": "B",
+                "description": "乙"
+              },
+              {
+                "answer": "C",
+                "description": "丙"
+              },
+              {
+                "answer": "D",
+                "description": "丁"
+              }
+            ],
+            "correct_answer": "C",
+            "image": "111_society_8.png",
+            "explanation": "關鍵字：研磨鐵器，顯然進入鐵器時代，因此選Ｃ。"
+          },
+          {
+            "number": 9,
+            "type": "singleChoice",
+            "description": "某宮廟因違法擴建道路及廟宇建築，涉嫌竊占國土及濫墾山坡地，相關單位多次介入協調，要求廟方自行拆除，但該廟負責人認為廟地選址及擴建的決定皆為神明指示，堅決不願退讓，於是相關單位除了開罰六萬元外，並將負責人移送法辦。上述內容最可能是關於下列哪二者之間的衝突？",
+            "passing_rate": 0.69,
+            "discrimination_index": 0.49,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "環境保育與經濟發展"
+              },
+              {
+                "answer": "B",
+                "description": "法律規範與宗教信仰"
+              },
+              {
+                "answer": "C",
+                "description": "傳統習俗與倫理道德觀念"
+              },
+              {
+                "answer": "D",
+                "description": "信仰宗教自由與人民財產權"
+              }
+            ],
+            "correct_answer": "B",
+            "explanation": "題目顯示法律與宗教之間的衝突，因此選Ｂ"
+          },
+          {
+            "number": 10,
+            "type": "singleChoice",
+            "description": "國中生小安寄了一封陳情信給某位公職人員，信中敘述父親因沉迷賭博，導致家中債臺高築，害他的父母離異、家庭破碎，希望有人能幫幫他，讓父親不再沉溺賭海。該名公職人員收到信後立刻啟動偵辦，循線破獲非法賭場，並依法對賭場業者與賭徒提起公訴。根據上述內容判斷，小安寄信的對象應是下列何者？",
+            "passing_rate": 0.68,
+            "discrimination_index": 0.39,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "法官"
+              },
+              {
+                "answer": "B",
+                "description": "律師"
+              },
+              {
+                "answer": "C",
+                "description": "檢察官"
+              },
+              {
+                "answer": "D",
+                "description": "警察局局長"
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "題目的公職人員擁有公訴他人的權力，顯示是檢察官，選Ｃ"
+          },
+          {
+            "number": 11,
+            "type": "singleChoice",
+            "description": "創新科技公司為了讓其產品「LED 省電燈泡」的銷售量增加，在各大報紙刊登廣告，內容如附圖所示。根據圖中內容判斷，該公司最可能是採取下列何種方式來達成目標？",
+            "passing_rate": 0.73,
+            "discrimination_index": 0.59,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "降低成本"
+              },
+              {
+                "answer": "B",
+                "description": "價格競爭"
+              },
+              {
+                "answer": "C",
+                "description": "建立品牌形象"
+              },
+              {
+                "answer": "D",
+                "description": "延長營業時間"
+              }
+            ],
+            "correct_answer": "B",
+            "image": "111_society_11.png",
+            "explanation": "科技公司在廣告中提供優惠，而沒有宣傳自己品牌的優點，是價格競爭，因此 選Ｂ"
+          },
+          {
+            "number": 12,
+            "type": "singleChoice",
+            "description": "附圖呈現某國不同年分出生的婦女，在育齡期間累積的生育數。為了改變圖中資料呈現的趨勢以維持人口結構穩定，下列何者最可能是未來該國政府採行的作法？",
+            "passing_rate": 0.81,
+            "discrimination_index": 0.54,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "提高幼兒教育補助金額"
+              },
+              {
+                "answer": "B",
+                "description": "加強宣導節制生育觀念"
+              },
+              {
+                "answer": "C",
+                "description": "提供弱勢學童輔導課程"
+              },
+              {
+                "answer": "D",
+                "description": "增設高齡安養照護機構"
+              }
+            ],
+            "correct_answer": "A",
+            "image": "111_society_12.png",
+            "explanation": "1950 出生的婦女在 30 歲累計生 2.5 人，但 1980 出生的婦女在 30 歲卻只生 1 人 多一些。顯示出生率的下降。因此需要提高幼兒生育補助，選Ａ"
+          },
+          {
+            "number": 13,
+            "type": "singleChoice",
+            "description": "附表是四位同窗好友的相關資料。若僅根據表中內容判斷，何者最可能不曾具有我國國籍？",
+            "passing_rate": 0.6,
+            "discrimination_index": 0.41,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "王大軒"
+              },
+              {
+                "answer": "B",
+                "description": "李大賢"
+              },
+              {
+                "answer": "C",
+                "description": "陳小涵"
+              },
+              {
+                "answer": "D",
+                "description": "林小潔"
+              }
+            ],
+            "correct_answer": "B",
+            "image": "111_society_13.png",
+            "explanation": "只要父或母任一人有我國國籍，即可取得我國國籍。是血統主義為主、出生地主 義為輔。王大軒目前擔任我國立法委員，林小潔、王大軒出生時父母擁有我國國 籍，因此最可能沒有我國國籍的是李大賢，選Ｂ"
+          },
+          {
+            "number": 14,
+            "type": "singleChoice",
+            "description": "歐盟基於公眾健康及動物福利等理由，於 2012 年起，禁止境內農民以傳統格子籠方式飼養蛋雞，並立法規定市售雞蛋必須明確標示其飼養方式，讓消費者可以在平飼(即室內放養蛋雞)、放牧(除室內空間外，還提供蛋雞戶外活動空間)等友善生產的蛋品之間做出選擇。上述友善飼養方式逐漸在臺灣推行，但所產出的蛋品在臺灣市占率仍不高，其原因最可能為下列何者？",
+            "passing_rate": 0.71,
+            "discrimination_index": 0.45,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "食安問題頻傳"
+              },
+              {
+                "answer": "B",
+                "description": "蛋品品質不佳"
+              },
+              {
+                "answer": "C",
+                "description": "蛋品售價較高"
+              },
+              {
+                "answer": "D",
+                "description": "飲食習慣改變"
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "題目顯示台灣沒有像歐洲一樣開始注重生蛋雞的飼養方式，市占率不高。猜測更 人道的飼養方式會提高成本，導致售價升高，因此消費者減少。選Ｃ"
+          },
+          {
+            "number": 15,
+            "type": "singleChoice",
+            "description": "美國具有多樣化的氣候類型，附圖是將美國各區域與世界上其他國家的氣候特徵相比，把具有類似氣候特徵的國家標示在該區域上。臺灣最可能標示在圖中甲、乙、丙、丁何處？",
+            "passing_rate": 0.71,
+            "discrimination_index": 0.54,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "甲"
+              },
+              {
+                "answer": "B",
+                "description": "乙"
+              },
+              {
+                "answer": "C",
+                "description": "丙"
+              },
+              {
+                "answer": "D",
+                "description": "丁"
+              }
+            ],
+            "correct_answer": "D",
+            "image": "111_society_15.png",
+            "explanation": "台灣氣候和美國東南部最相似，因此選Ｄ"
+          },
+          {
+            "number": 16,
+            "type": "singleChoice",
+            "description": "婆羅洲島分屬印尼、汶萊與馬來西亞三國，附圖為其原始森林不同時期面積的變化。圖中原始森林的變化趨勢與下列該島何種變化趨勢最為相似？",
+            "passing_rate": 0.63,
+            "discrimination_index": 0.46,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "油田開採的面積"
+              },
+              {
+                "answer": "B",
+                "description": "都市聚落的範圍"
+              },
+              {
+                "answer": "C",
+                "description": "野生動物的棲地範圍"
+              },
+              {
+                "answer": "D",
+                "description": "熱帶作物的種植面積"
+              }
+            ],
+            "correct_answer": "C",
+            "image": "111_society_16.png",
+            "explanation": "圖顯示原始森林面積 50 年來逐漸減少，減少原因多數是因為人為開墾，因此 選 C，因為原始森林和野生動物棲地有高度關係。"
+          },
+          {
+            "number": 17,
+            "type": "singleChoice",
+            "description": "臺灣某茶商為了提高自有茶園的茶葉產量，以供應國內日益成長的罐裝茶及手搖茶市場需求，且能與由越南、斯里蘭卡等產區進口的低價茶葉競爭，因而導入滴灌技術，精準計算用水及肥料使用量。此外，也利用農業機具栽種茶苗，並以無人機巡視，噴藥及採收時間則以網路平臺管理。上述各項措施，最主要可達到下列何種成效？",
+            "passing_rate": 0.68,
+            "discrimination_index": 0.46,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "利於傳統茶園轉型成休閒農場"
+              },
+              {
+                "answer": "B",
+                "description": "降低勞力成本占總成本的比例"
+              },
+              {
+                "answer": "C",
+                "description": "提升茶葉品質以提高單位價格"
+              },
+              {
+                "answer": "D",
+                "description": "增加出口至東協國家的茶葉量"
+              }
+            ],
+            "correct_answer": "B",
+            "explanation": "題幹顯示以科技提升台灣茶農的競爭力，精準計算水量、肥料是減少開銷，而農 業機具、無人機巡視也能減少人力成本，都是指向降低生產成本而提高競爭力。\n因此選Ｂ"
+          },
+          {
+            "number": 18,
+            "type": "singleChoice",
+            "description": "附圖為全球四個著名岬角的位置資訊，其中何者位於歐亞大陸西部海岸？",
+            "passing_rate": 0.5,
+            "discrimination_index": 0.6,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "甲"
+              },
+              {
+                "answer": "B",
+                "description": "乙"
+              },
+              {
+                "answer": "C",
+                "description": "丙"
+              },
+              {
+                "answer": "D",
+                "description": "丁"
+              }
+            ],
+            "correct_answer": "C",
+            "image": "111_society_18.png",
+            "explanation": "歐亞大陸西岸是歐洲地區，經度接近 0 度（英國）。而且歐亞大陸在北 半球，緯度選北緯，因此只有Ｃ能選。"
+          },
+          {
+            "number": 19,
+            "type": "singleChoice",
+            "description": "「歷史事實」與「歷史解釋」的區別，在於歷史事實是客觀呈現過去發生的事件；而歷史解釋則是後人運用歷史資料，對相關歷史事件進行的詮釋與評價。下列敘述中，何者最適合歸類為「歷史事實」？\n\n突厥：歐亞大陸上的一支游牧民族；可汗：部分游牧民族統治者的稱號。",
+            "passing_rate": 0.81,
+            "discrimination_index": 0.54,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "甲"
+              },
+              {
+                "answer": "B",
+                "description": "乙"
+              },
+              {
+                "answer": "C",
+                "description": "丙"
+              },
+              {
+                "answer": "D",
+                "description": "丁"
+              }
+            ],
+            "correct_answer": "C",
+            "image": "111_society_19.png",
+            "explanation": "只有丙屬於歷史事實，其他選項都有筆者主觀的成分。選Ｃ"
+          },
+          {
+            "number": 20,
+            "type": "singleChoice",
+            "description": "附圖為臺灣某年報紙刊登的二則社會新聞。根據內容判斷，新聞報導的事情最早可能發生於下列何時？",
+            "passing_rate": 0.69,
+            "discrimination_index": 0.5,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "日本統治時期"
+              },
+              {
+                "answer": "B",
+                "description": "清帝國統治時期"
+              },
+              {
+                "answer": "C",
+                "description": "中華民國政府遷臺初期"
+              },
+              {
+                "answer": "D",
+                "description": "中華民國政府推動十大建設期間"
+              }
+            ],
+            "correct_answer": "A",
+            "image": "111_society_20.png",
+            "explanation": "圖十一顯示已經有警察制度、而且已經有通往打狗的列車，顯示是日治時期之後 因為日治時期打狗更名為高雄，此文獻卻尚未更改，因此可知是日治時期的文 獻，因此選Ａ"
+          },
+          {
+            "number": 21,
+            "type": "singleChoice",
+            "description": "日本料理「天婦羅」，是將食材裹上澱粉漿之後下鍋油炸，這種料理源自於天主教徒在齋戒期間，將食材油炸後食用。在沒有冷凍技術的時代，因為油炸食物容易保存，所以水手於遠洋航行時也會準備油炸魚類作為糧食。葡萄牙的天主教徒最初到日本傳教與貿易時，同時傳入這種料理。「天婦羅」傳入日本的時代背景，最可能是下列何者？",
+            "passing_rate": 0.61,
+            "discrimination_index": 0.57,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "外國艦隊脅迫幕府開港，促使日本推動明治維新"
+              },
+              {
+                "answer": "B",
+                "description": "西方各國展開海外探險，建立到達東方的新航線"
+              },
+              {
+                "answer": "C",
+                "description": "日本受大唐文化的薰染，效法唐朝推動制度改革"
+              },
+              {
+                "answer": "D",
+                "description": "民主陣營為防堵共產勢力，派遣艦隊駐防太平洋"
+              }
+            ],
+            "correct_answer": "B",
+            "explanation": "最早於幕府時期，日本已經與西方部分國家展開貿易交流，而後才發生明治維新。因此選Ｂ"
+          },
+          {
+            "number": 22,
+            "type": "singleChoice",
+            "description": "一列火車在德國官方祕密安排下，從蘇黎世出發前往俄國，車上乘客包括列寧及其布爾什維克黨同志，這些人曾因為反對俄國政府而流亡海外。列寧等人沿途經過德國、瑞典、芬蘭，最後抵達俄國的首都彼得格勒(今聖彼得堡)。半年後，他們領導革命，推翻臨時政府，組織新的政權，對俄國產生重大影響。當時德國官方安排這班列車的目的，最可能為下列何者？",
+            "passing_rate": 0.6,
+            "discrimination_index": 0.55,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "與俄國結盟對抗拿破崙"
+              },
+              {
+                "answer": "B",
+                "description": "欲緩和冷戰東西對立局勢"
+              },
+              {
+                "answer": "C",
+                "description": "遵守《德蘇互不侵犯條約》"
+              },
+              {
+                "answer": "D",
+                "description": "為使俄國退出第一次世界大戰"
+              }
+            ],
+            "correct_answer": "D",
+            "explanation": "由蘇聯共產黨成立時間點可知，是一戰時期，因此選Ｄ"
+          },
+          {
+            "number": 23,
+            "type": "singleChoice",
+            "description": "甲國政府自 2019 年起，要求記者須通過關於國家領袖思想的考試後，才能取得記者證，藉以強化他們對國家領袖的效忠。附圖是近年該國政府核發記者證數量的變化，而附表則是無國界記者組織提出的全球新聞自由指數報告中，該國近年的排名狀況，排名越前面代表新聞自由程度越高。根據相關資訊判斷，關於甲國政府的此項作法，下列敘述何者最合理？",
+            "passing_rate": 0.67,
+            "discrimination_index": 0.53,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "政府藉由立法規範，以保障記者的新聞自由"
+              },
+              {
+                "answer": "B",
+                "description": "政府採取獎勵政策，以促使新聞產業蓬勃發展"
+              },
+              {
+                "answer": "C",
+                "description": "政府削減新聞記者人數，以便管控媒體報導內容"
+              },
+              {
+                "answer": "D",
+                "description": "政府透過管控記者思想，以影響閱聽人接收的新聞"
+              }
+            ],
+            "correct_answer": "D",
+            "image": "111_society_23.png",
+            "explanation": "由圖片可知，是一個新聞自由相當不足的地方，甚至需要思想考試。儘管 2020 核發許多記者證，但新聞自由指數仍然全球倒數第四。顯示記者數量提升，但很 可能都必須接受審查，仍然沒有自由可言，因此選Ｄ"
+          },
+          {
+            "number": 24,
+            "type": "singleChoice",
+            "rich_content": [
+              {
+                "type": "text",
+                "content": "附表呈現阿森在近三屆我國總統選舉資格的變化情形。根據表中內容判斷，阿森在第 14 屆至第 15 屆之間，最可能發生了下列哪一件事？"
+              },
+              {
+                "type": "image",
+                "content": "111_society_24.png"
+              },
+              {
+                "type": "border",
+                "content": "開發者備註：此為111年會考試題，但因民國112年6月9日修法《公職人員選舉罷免法》及《總統副總統選舉罷免法》，請參閱下述資料並以「修法前」的情況回答。\n\n《公職人員選舉罷免法》第14條修法前\n中華民國國民，年滿二十歲，除受監護宣告尚未撤銷者外，有選舉權。\n《公職人員選舉罷免法》第14條修法後\n中華民國國民，年滿二十歲，有選舉權。\n\n《總統副總統選舉罷免法》第11條修法前\n中華民國自由地區人民，年滿二十歲，除受監護宣告尚未撤銷者外，有選舉權。\n《總統副總統選舉罷免法》第11條修法後\n中華民國自由地區人民，年滿二十歲，有選舉權。"
+              }
+            ],
+            "passing_rate": 0.57,
+            "discrimination_index": 0.53,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "被政黨開除黨籍"
+              },
+              {
+                "answer": "B",
+                "description": "遭法院監護宣告"
+              },
+              {
+                "answer": "C",
+                "description": "遷移戶籍至其他縣市"
+              },
+              {
+                "answer": "D",
+                "description": "遭法院判處褫奪公權"
+              }
+            ],
+            "correct_answer": "B",
+            "explanation": "不具備選舉投票資格，很可能受到監護宣告。而褫奪公權仍然擁有投票權。因此 選Ｂ"
+          },
+          {
+            "number": 25,
+            "type": "singleChoice",
+            "description": "我國國會可對中央政府部分官員的人事提名案行使同意權，並在投票表決前，藉由提問來審查被提名人是否適任。根據我國公職人員的法定職權判斷，下列哪一個問題的提問對象最可能是大法官被提名人？",
+            "passing_rate": 0.59,
+            "discrimination_index": 0.47,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "如何提升違法官員彈劾案件的辦案效率"
+              },
+              {
+                "answer": "B",
+                "description": "如何落實嚴謹審核中央政府年度總決算"
+              },
+              {
+                "answer": "C",
+                "description": "我國仍維持死刑刑罰是否違反基本人權"
+              },
+              {
+                "answer": "D",
+                "description": "公務人員的選才制度是否有改善的空間"
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "大法官具有解釋憲法、法律與命令的職務，因此選 C"
+          },
+          {
+            "number": 26,
+            "type": "singleChoice",
+            "description": "附圖為某條鐵路的路線圖，該鐵路全線的海拔高度變化最可能為下列何者？",
+            "passing_rate": 0.55,
+            "discrimination_index": 0.35,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "A"
+              },
+              {
+                "answer": "B",
+                "description": "B"
+              },
+              {
+                "answer": "C",
+                "description": "C"
+              },
+              {
+                "answer": "D",
+                "description": "D"
+              }
+            ],
+            "correct_answer": "B",
+            "image": "111_society_26.png",
+            "explanation": "圖十三顯示為瑞士，瑞士地理山地地形多，因此選Ｂ"
+          },
+          {
+            "number": 27,
+            "type": "singleChoice",
+            "description": "2014 年中國吉林省與俄羅斯合作擴建附圖中的甲港口，目前出口貨物可不經由大連港，透過甲港口可大幅縮短與鄰近國家部分港口的航運時間。擴建甲港口除上述目的外，最可能還含下列何優勢？",
+            "passing_rate": 0.48,
+            "discrimination_index": 0.55,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "作為俄羅斯船隻通往大西洋的出海口"
+              },
+              {
+                "answer": "B",
+                "description": "加速俄羅斯將開發重心轉向歐俄平原"
+              },
+              {
+                "answer": "C",
+                "description": "作為中、俄兩國鴨綠江流域貨物出入的港口"
+              },
+              {
+                "answer": "D",
+                "description": "提供中國船隻藉由此港口通往北極海的捷徑"
+              }
+            ],
+            "correct_answer": "D",
+            "image": "111_society_27.png",
+            "explanation": "圖片有畫出鴨綠江，顯然和甲港口位於不同地方。而甲緯度高，使中國船隻易於 通往北極海，因此選Ｄ"
+          },
+          {
+            "number": 28,
+            "type": "singleChoice",
+            "description": "2014 年世界上只有 5％的人口居住在附圖中的深灰色區域；而相同數量的人口則居住在圖中黑色區域。小齊想要在地圖上的淺灰色區域，以圓圈標示另一個人口數量最相近的範圍，則他標示在下列何地最為適宜？",
+            "passing_rate": 0.38,
+            "discrimination_index": 0.29,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "甲"
+              },
+              {
+                "answer": "B",
+                "description": "乙"
+              },
+              {
+                "answer": "C",
+                "description": "丙"
+              },
+              {
+                "answer": "D",
+                "description": "丁"
+              }
+            ],
+            "correct_answer": "D",
+            "image": "111_society_28.png",
+            "explanation": "題目黑色地區是孟加拉，是人口密度非常稠密的地區。選丁為相似密度較為恰當"
+          },
+          {
+            "number": 29,
+            "type": "singleChoice",
+            "description": "世界氣象組織(WMO)定義熱浪標準為連續 5 日的每日最高氣溫，皆高於歷年最暖月的最高氣溫平均值 5 ℃以上。附表為臺北測站 1981 至 2010 年氣溫相關資料，根據上述定義，臺北在下列何種情形即達到此一熱浪標準？",
+            "passing_rate": 0.38,
+            "discrimination_index": 0.48,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "連續 5 天出現 31.6 ℃以上高溫"
+              },
+              {
+                "answer": "B",
+                "description": "連續 5 天出現 34.3 ℃以上高溫"
+              },
+              {
+                "answer": "C",
+                "description": "連續 5 天出現 34.6 ℃以上高溫"
+              },
+              {
+                "answer": "D",
+                "description": "連續 5 天出現 39.3 ℃以上高溫"
+              }
+            ],
+            "correct_answer": "D",
+            "image": "111_society_29.png",
+            "explanation": "由題幹顯示，選最高氣溫 $34.3+5=39.3$ 。因此選Ｄ"
+          },
+          {
+            "number": 30,
+            "type": "singleChoice",
+            "description": "以下是中國天津某年慶祝元旦的相關報導：「政府要求各機關及各民眾團體，在元旦上午參加慶祝中華民國成立的紀念大會。當晚民眾提燈遍遊街市，高呼『勿忘國恥』、『抵制日貨』、『打倒貪官汙吏』、『打倒燒香化紙、磕頭拜年的惡習』等口號。各街市商號張貼標語、懸燈結綵，國民黨黨旗和國旗飄揚天際，蔚為盛況。」上述內容最可能是描繪下列何時的景象？",
+            "passing_rate": 0.4,
+            "discrimination_index": 0.54,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "1861～1895 年自強運動期間"
+              },
+              {
+                "answer": "B",
+                "description": "1928～1937 年十年建設期間"
+              },
+              {
+                "answer": "C",
+                "description": "1958～1961 年農工大躍進期間"
+              },
+              {
+                "answer": "D",
+                "description": "1966～1976 年文化大革命期間"
+              }
+            ],
+            "correct_answer": "B",
+            "explanation": "題目中天津除了抵制日貨外，也排斥燒香與磕頭等傳統禮儀。但關鍵為，此時期 為國民黨執政時期，因此只能選 B"
+          },
+          {
+            "number": 31,
+            "type": "singleChoice",
+            "description": "附圖是某時期中國海外貿易的進出口總額統計圖。觀察圖中各區域與中國的貿易概況，分析造成圖中第「Ⅱ」階段變化的主要原因，最可能與下列何者有關？",
+            "passing_rate": 0.39,
+            "discrimination_index": 0.39,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "朝廷驅逐在華的耶穌會傳教士"
+              },
+              {
+                "answer": "B",
+                "description": "玉米、馬鈴薯等美洲作物傳入"
+              },
+              {
+                "answer": "C",
+                "description": "義和團事變對社會經濟的衝擊"
+              },
+              {
+                "answer": "D",
+                "description": "鄭氏勢力擁兵東南與清廷對抗"
+              }
+            ],
+            "correct_answer": "D",
+            "image": "111_society_31.png",
+            "explanation": "1650 年到 1700 年貿易量顯著減少，對照時期可知為清朝時期，是鄭成功在台灣 時期，因此選Ｄ"
+          },
+          {
+            "number": 32,
+            "type": "singleChoice",
+            "description": "謝先生是王小姐的前夫，但謝先生屢次侵擾王小姐的住處，甚至還到她上班的地方騷擾，最後謝先生因違反保護令的相關規定，被判處拘役四十天。根據上述內容判斷，下列敘述何者正確？",
+            "passing_rate": 0.58,
+            "discrimination_index": 0.45,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "謝先生必須為自己的違法行為負起刑事責任"
+              },
+              {
+                "answer": "B",
+                "description": "王小姐因警察局所核發的保護令而獲得保障"
+              },
+              {
+                "answer": "C",
+                "description": "謝先生若不服判決可向地方法院提出民事訴訟"
+              },
+              {
+                "answer": "D",
+                "description": "王小姐可依《性別平等教育法》向謝先生求償"
+              }
+            ],
+            "correct_answer": "A",
+            "explanation": "拘役是刑法中的自由刑，因此選 A。而保護令由法院核發而非警察局。"
+          },
+          {
+            "number": 33,
+            "type": "singleChoice",
+            "description": "開班會時，有些同學在玩牌、有些同學在吃東西，阿偉認為吵雜聲使他聽不清楚其他人的發言內容，影響到他參與會議的權利。附圖是當日班會的部分過程，阿偉應是在圖中哪一階段要求主席處理上述問題？",
+            "passing_rate": 0.69,
+            "discrimination_index": 0.6,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "甲"
+              },
+              {
+                "answer": "B",
+                "description": "乙"
+              },
+              {
+                "answer": "C",
+                "description": "丙"
+              },
+              {
+                "answer": "D",
+                "description": "丁"
+              }
+            ],
+            "correct_answer": "A",
+            "image": "111_society_33.png",
+            "explanation": "權宜問題屬於發生喧擾影響聽覺、而秩序問題是議題發生錯誤，而足以破外議事 秩序，例如討論超過議題範圍等等。因此選Ａ"
+          },
+          {
+            "number": 34,
+            "type": "singleChoice",
+            "description": "某日阿蔚透過網路觀看立法院的議事實況轉播，根據我國現行法律規定，他最可能看見下列何者的轉播情況？",
+            "passing_rate": 0.51,
+            "discrimination_index": 0.53,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "審理總統、副總統彈劾案"
+              },
+              {
+                "answer": "B",
+                "description": "表決對行政院的糾正提案"
+              },
+              {
+                "answer": "C",
+                "description": "召開行政院會議規畫施政方針"
+              },
+              {
+                "answer": "D",
+                "description": "行政院部會首長進行施政報告"
+              }
+            ],
+            "correct_answer": "D",
+            "explanation": "只有Ｄ屬於立法院的職責範疇。因此選Ｄ \nA 司法院，B 監察院、C 行政院"
+          },
+          {
+            "number": 35,
+            "type": "singleChoice",
+            "description": "「紓解訟源」是近年司法改革的重點之一，其目的是希望讓民眾在提起訴訟前，能透過公正且具有與法院確定判決相同效力的途徑來解決糾紛，這種方式既可避免耗時的訴訟程序，也能減少司法資源的浪費。下列哪種處理方式最符合「紓解訟源」的作法？",
+            "passing_rate": 0.69,
+            "discrimination_index": 0.56,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "不服行政處分，向上級機關提起訴願"
+              },
+              {
+                "answer": "B",
+                "description": "偷竊財物遭逮，嫌犯希望失主別追究"
+              },
+              {
+                "answer": "C",
+                "description": "車禍無人受傷，雙方私下和解賠償損失"
+              },
+              {
+                "answer": "D",
+                "description": "遭友積欠債務，至調解委員會聲請調解"
+              }
+            ],
+            "correct_answer": "D",
+            "explanation": "調解為訴訟前具有保障的程序。而Ｃ私下和解具有風險性。因此選Ｄ\nB 屬於公訴"
+          },
+          {
+            "number": 36,
+            "type": "singleChoice",
+            "description": "附圖為大華與小年住家附近的地圖，甲、乙二商店均販賣大華與小年想購買的某項商品，且該商品在甲商店的售價比乙商店高。若大華僅想就近買到商品，而小年卻只想以便宜的價格購買，則對此二人而言，到哪一間商店購物的機會成本較高？",
+            "passing_rate": 0.52,
+            "discrimination_index": 0.49,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "皆為甲商店"
+              },
+              {
+                "answer": "B",
+                "description": "皆為乙商店"
+              },
+              {
+                "answer": "C",
+                "description": "大華：甲商店，小年：乙商店"
+              },
+              {
+                "answer": "D",
+                "description": "大華：乙商店，小年：甲商店"
+              }
+            ],
+            "correct_answer": "D",
+            "image": "111_society_36.png",
+            "explanation": "對大華而言，到乙商店導致失去就近購買的機會。而對小年而言，去甲商店則會 買貴，因此選Ｄ"
+          },
+          {
+            "number": 37,
+            "type": "singleChoice",
+            "description": "中國近代某一文章提到：「政府假借預備立憲的美名卻實行中央集權，假借推行新政卻搜刮民間錢財，對外則割讓土地，並出賣採礦權與鐵路經營權。人民反對政策，可能會被處死；如果人民自己出錢出力興修鐵路，又會被官方沒收。政府應該要保護人民，結果人民反而受到政府的傷害，如此不顧人民生命、財產的政府，誰還能忍受呢！」上文的主要訴求最可能是下列何者？",
+            "passing_rate": 0.63,
+            "discrimination_index": 0.55,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "因對外戰爭受到挫敗，提倡學習西方的軍事及工業技術"
+              },
+              {
+                "answer": "B",
+                "description": "推動制度層面的改革，以解決自強運動改革不彰的問題"
+              },
+              {
+                "answer": "C",
+                "description": "對改革結果感到失望，體認到革命也是救國的途徑之一"
+              },
+              {
+                "answer": "D",
+                "description": "主張全面改革思想文化，提倡西方科學精神與白話文學"
+              }
+            ],
+            "correct_answer": "C",
+            "explanation": "文章中提出改革的許多問題，並且對改革表示失望，也暗示革命的可能性。因此 選Ｃ"
+          },
+          {
+            "number": 38,
+            "type": "singleChoice",
+            "description": "附圖中的硬幣為位在南半球的某國於 2019 年所發行。自歐洲人十八世紀移入該地以來，已有約 130 種原住民語絕跡。該國希望藉由此硬幣的發行，提醒人民保存、維護和活化原住民語的重要性。上述硬幣最可能由下列何國發行？",
+            "passing_rate": 0.57,
+            "discrimination_index": 0.45,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "印度"
+              },
+              {
+                "answer": "B",
+                "description": "秘魯"
+              },
+              {
+                "answer": "C",
+                "description": "澳洲"
+              },
+              {
+                "answer": "D",
+                "description": "菲律賓"
+              }
+            ],
+            "correct_answer": "C",
+            "image": "111_society_38.png",
+            "explanation": "關鍵字為南半球與 14 種原住民語，更重要的是英國女王頭像，可知是昔日大英 帝國之一，聯想到澳洲，因此選Ｃ"
+          },
+          {
+            "number": 39,
+            "type": "singleChoice",
+            "description": "小強參加辯論比賽，辯論主題是「目前甲國社會尚未達到性別平等」，若他是站在正方的立場，須提出支持主題的論點，下列四張關於甲國不同面向的統計圖，何者最適合小強作為強化論點的證據？",
+            "passing_rate": 0.66,
+            "discrimination_index": 0.34,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "A"
+              },
+              {
+                "answer": "B",
+                "description": "B"
+              },
+              {
+                "answer": "C",
+                "description": "C"
+              },
+              {
+                "answer": "D",
+                "description": "D"
+              }
+            ],
+            "correct_answer": "C",
+            "image": "111_society_39.png",
+            "explanation": "小強需要尋找支持性別不平等的證據，家暴受害者多為女性可以支持這個論點，因此選Ｃ"
+          },
+          {
+            "number": 40,
+            "type": "singleChoice",
+            "description": "附圖為小成在研究 2017 年非洲貿易現況時所發現的某些現象。非洲各國採取下列何項措施，最可能有助於改善非洲這些現象？",
+            "passing_rate": 0.52,
+            "discrimination_index": 0.36,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "限定與非洲其他國家的進口配額，保護本國產業"
+              },
+              {
+                "answer": "B",
+                "description": "改善與其他洲的交通運輸，降低貨物的運輸成本"
+              },
+              {
+                "answer": "C",
+                "description": "強化邊境的管制措施，防止鄰國非法貿易的進行"
+              },
+              {
+                "answer": "D",
+                "description": "簽署非洲自由貿易協定，降低非洲國家間的關稅"
+              }
+            ],
+            "correct_answer": "D",
+            "image": "111_society_40.png",
+            "explanation": "圖二十第一句顯示非洲國家進口商品捨近求遠，第二句顯示非洲主要為洲際貿 易而非洲內貿易。因此要尋找可以提升非洲洲內貿易的選項。因此選Ｄ"
+          },
+          {
+            "number": 41,
+            "type": "singleChoice",
+            "description": "附圖是日本繪製的第二次世界大戰形勢圖，三種圖例代表與日本三種不同關係。從圖中標示的圖例，可得知這是 1941 年底太平洋戰爭爆發後的世界形勢，最主要的判斷依據應為下列何者？",
+            "passing_rate": 0.33,
+            "discrimination_index": 0.26,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "英國和德國使用不同圖例"
+              },
+              {
+                "answer": "B",
+                "description": "英國和美國使用相同圖例"
+              },
+              {
+                "answer": "C",
+                "description": "朝鮮和日本使用相同圖例"
+              },
+              {
+                "answer": "D",
+                "description": "德國和日本使用相同圖例"
+              }
+            ],
+            "correct_answer": "B",
+            "image": "111_society_41.png",
+            "explanation": "因為太平洋戰爭爆發後，美國參戰，美國在圖 21 中為敵對國。因此選 B"
+          },
+          {
+            "number": 42,
+            "type": "singleChoice",
+            "description": "附圖呈現甲、乙、丙三國的貿易情況。若甲國受匯率變動的影響，使得某段時間的進、出口商品數量皆大幅增加，則根據圖中內容判斷，該段時間甲國貨幣的匯率變化，最可能為下列何者？",
+            "passing_rate": 0.52,
+            "discrimination_index": 0.43,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "相對乙、丙兩國貨幣皆升值"
+              },
+              {
+                "answer": "B",
+                "description": "相對乙、丙兩國貨幣皆貶值"
+              },
+              {
+                "answer": "C",
+                "description": "相對乙國貨幣升值，但相對丙國貨幣貶值"
+              },
+              {
+                "answer": "D",
+                "description": "相對乙國貨幣貶值，但相對丙國貨幣升值"
+              }
+            ],
+            "correct_answer": "D",
+            "image": "111_society_42.png",
+            "explanation": "甲出口商品大幅增加，顯示甲國貨幣對乙國貨幣貶值。而甲國進口大幅增加，顯 示甲國貨幣對丙國貨幣升值，因此選 D"
+          },
+          {
+            "number": 43,
+            "type": "singleChoice",
+            "description": "附圖是某一時期的政治宣傳漫畫，圖中「大手」代表當時的國際組織，領導各國對抗侵略者。根據內容判斷，該國際組織最可能是下列何者？",
+            "passing_rate": 0.58,
+            "discrimination_index": 0.43,
+            "choices": [
+              {
+                "answer": "A",
+                "description": "聯合國"
+              },
+              {
+                "answer": "B",
+                "description": "國際聯盟"
+              },
+              {
+                "answer": "C",
+                "description": "華沙公約組織"
+              },
+              {
+                "answer": "D",
+                "description": "石油輸出國家組織"
+              }
+            ],
+            "correct_answer": "A",
+            "image": "111_society_43.png",
+            "explanation": "由圖中共產黨侵略大韓民國，可知此為韓戰，而圖中對抗共產黨的「大手」，即是派兵幫助大韓民國的聯合國。故選A。"
+          },
+          {
+            "type": "groupChoice",
+            "description": "閱讀下列選文，回答下列各題：\n  1855 年，美商威廉士洋行的商船航行至臺灣府安平外海，並派人上岸詢問是否能在當地貿易。經過安排，船長和臺灣道裕鐸在打狗會面，裕鐸在會談中告知船長，外國商船如果直接在安平停泊，並不符合規定，臺灣道將受到朝廷處罰，但裕鐸和打狗地方官員可以私下允許外國商船，停靠遠離政治核心的打狗進行貿易。\n  然而，實際上官員後來往往放任外國商船停靠安平，未能嚴格執行禁令。過了數年，新任的臺灣道孔昭慈於 1859 年，又要求外國商船「不准像之前一樣在安平附近起卸貨物」。有位英國商人分析：「這並非臺灣道刻意禁止外商在臺灣府貿易，而是因為府城當地泉州人組成的商人團體，跑去向福建巡撫告狀，指控外國商船收購物產，造成物價上漲，影響了本地商人的生意。」\n臺灣道：臺灣建省前，在臺灣的最高文官。",
+            "options": [
+              {
+                "number": 44,
+                "description": "根據上文中裕鐸與洋行的會談結果，當時臺灣對外貿易的情況，最可能是下列何者？",
+                "passing_rate": 0.7,
+                "discrimination_index": 0.44,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "當時臺灣尚未對外開港，裕鐸嚴禁洋商在臺貿易"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "當時臺灣尚未對外開港，實際上洋商已來臺貿易"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "當時臺灣已經對外開港，洋商可在臺灣各港口貿易"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "當時臺灣已經對外開港,裕鐸仍阻撓洋商在臺貿易"
+                  }
+                ],
+                "correct_answer": "B",
+                "explanation": "因為文案顯示無法完全公開貿易，因此選尚未對外開港，但實際上有洋商貿易 的 B"
+              },
+              {
+                "number": 45,
+                "description": "根據上文，外國商人分析臺灣道重申外國商船不得在安平附近起卸貨物的原因，最可能與下列何者有關？",
+                "passing_rate": 0.62,
+                "discrimination_index": 0.55,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "安平與鹿耳門泥沙淤積，易造成擱淺"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "府城商人透過「郊」來維護自身利益"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "日本出兵臺灣南部，清帝國提高警戒"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "許多府城商人組成「郊」與洋行合作"
+                  }
+                ],
+                "correct_answer": "B",
+                "explanation": "文案顯示重申不得在安平附近貿易的原因是泉州商人跑去向福建巡佐告狀，因 此選Ｂ"
+              }
+            ]
+          },
+          {
+            "type": "groupChoice",
+            "description": "閱讀下列選文，回答下列各題：\n  臺灣和地形有關的地名，多是古人依照當時的地理環境所命名，隨著時間變化，原先的山丘、河或湖可能會變遷甚至消失，僅剩下地名而已。因此，透過地名可推估過去的地景樣貌，例如「墘」字代表位於某一地物或水體的旁邊，如厝墘、田墘、港墘與溪墘等，圖(二十四)為「墘」字地名的分布圖。\n  小瑜家鄉地名也有「墘」字，雖然現今已經看不到當時的地貌；為了印證上述命名原則，她找到 1921 年日治時期家鄉的地圖",
+            "options": [
+              {
+                "number": 46,
+                "description": "根據圖(二十四)中「墘」字地名的分布判斷，下列關於「墘」字地名的推論何者最為合理？",
+                "passing_rate": 0.72,
+                "discrimination_index": 0.52,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "分布於閩南族群集中區，屬閩南族系的地名"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "分布於客家族群集中區，屬客家族系的地名"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "分布於現今原住民居住地，為原住民的地名"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "受西班牙占領影響,為西班牙語音譯的地名"
+                  }
+                ],
+                "correct_answer": "A",
+                "explanation": "「墘」集中在西半部，又以平原較多，和閩南族群較為吻合，因此選Ａ"
+              },
+              {
+                "number": 47,
+                "description": "根據圖(二十五)判斷，在日治時期小瑜的家鄉最可能以哪種產業活動為主？",
+                "passing_rate": 0.77,
+                "discrimination_index": 0.43,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "水稻耕作"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "樟腦提煉"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "茶葉種植"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "海鹽晒製"
+                  }
+                ],
+                "correct_answer": "A",
+                "explanation": "小瑜家鄉多為田地，由圖 25、26 顯示可知，是河流旁的田地，最可能的應該是水稻耕作，因此選 A"
+              },
+              {
+                "number": 48,
+                "description": "根據上文中地名的命名原則及圖(二十五)與圖(二十六)的資訊判斷，小瑜的家鄉地名最可能為下列何者？",
+                "passing_rate": 0.74,
+                "discrimination_index": 0.46,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "海墘"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "潭墘"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "岸壁墘"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "黑礁墘"
+                  }
+                ],
+                "correct_answer": "B",
+                "explanation": "在溪邊，應該叫做溪墘。在圖 25 中可知似乎是有靜止的水體，選潭墘適當，因此選Ｂ"
+              }
+            ],
+            "image": "111_society_46-48.png"
+          },
+          {
+            "type": "groupChoice",
+            "description": "閱讀下列選文，回答下列各題：\n  過去以茶文化為主的亞洲人，對咖啡的接受度越來越高，更逐漸在各地形成獨特的咖啡文化。近年臺灣也吹起喝咖啡的風潮，路上常看到人手一杯咖啡。其實早在日治時期，日本就已將飲用咖啡的習慣帶入臺灣，戰後有業者創立供內用的專業咖啡店，還有廠商生產即溶與罐裝咖啡，但直到九零年代末期，美式咖啡連鎖品牌進駐臺灣引進外帶現煮咖啡後，咖啡市場才出現了關鍵性的改變，讓喝咖啡變成日常生活的一部分。2018 年時，臺灣平均每人一年喝下超過 200 杯咖啡，咖啡豆的進口量是 2008 年時的兩倍以上，而且咖啡商機還在持續成長中。\n  而南韓人比臺灣人更愛喝咖啡，南韓在亞洲地區的咖啡飲用量名列前茅，根據相關調查報告推估，南韓平均每人一年喝下超過 500 杯咖啡。咖啡幾乎是南韓日常生活中不可缺少的一部分，不只是上班族的必備品，也相當受學生喜愛。在南韓的校園中，不少學生常因熬夜看書導致白天精神不濟，於是飲用咖啡來提神與增加專注力，但攝取過量咖啡因會有頭暈、心跳加速、睡眠障礙等症狀，可能不利於青少年神經及心血管系統的發育。南韓政府擔心校園內飲用咖啡的風氣，對於未來整體的國民健康、醫療資源會產生負面影響，因此修法規定自 2018 年 9 月起，全面禁止在高中以下校園內販售含有咖啡因的飲料。\n  或許臺灣人的咖啡癮還沒有南韓這麼嚴重，不過我國已有相關法令規範高中以下校園內飲品及點心的販售項目，違規販售不符規範的商品將被主管機關要求下架，以避免類似的問題在臺灣發生。",
+            "options": [
+              {
+                "number": 49,
+                "description": "文中針對我國咖啡的相關敘述，下列何者最適當？",
+                "passing_rate": 0.76,
+                "discrimination_index": 0.47,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "咖啡產品貿易總額超越茶產品"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "咖啡豆的進出口貿易呈現出超"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "飲用咖啡的習慣受到文化交流影響"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "國小內販售咖啡將會遭受刑罰處罰"
+                  }
+                ],
+                "correct_answer": "C",
+                "explanation": "文案顯示咖啡在我國非常盛行。從日本文化的引進到美式現煮的風潮都大大提升台灣人飲用咖啡的習慣，因此選 C"
+              },
+              {
+                "number": 50,
+                "description": "根據文中內容判斷，南韓政府的作法與下列何項敘述最相符？",
+                "passing_rate": 0.82,
+                "discrimination_index": 0.51,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "透過負向誘因影響校內師生的消費能力"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "透過正向誘因影響校內商品的販售種類"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "透過制度變革影響校內師生的消費能力"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "透過制度變革影響校內商品的販售種類"
+                  }
+                ],
+                "correct_answer": "D",
+                "explanation": "南韓政府透過立法保障高中以下學生不會在校園內接觸到含咖啡因的飲料。因此 選 D"
+              },
+              {
+                "number": 51,
+                "description": "文中所提及南韓政府修改法律的目的，與下列我國的何項作法最類似？",
+                "passing_rate": 0.86,
+                "discrimination_index": 0.46,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "受監護宣告者自行訂定的契約不具效力"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "雇主不得因性別因素而對員工有差別待遇"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "國小學童不得出入有害身心發展的不良場所"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "家庭暴力受害者可聲請保護令以避免受到傷害"
+                  }
+                ],
+                "correct_answer": "C",
+                "explanation": "南韓政府透過修法保護青少年，和Ｃ選項透過修法保障孩童不能進入有害身心發展的場所類似，因此選Ｃ"
+              }
+            ]
+          },
+          {
+            "type": "groupChoice",
+            "description": "閱讀下列選文，回答下列各題：\n  空氣汙染是當代世界嚴重的問題，過去的英國也曾深受空汙的危害。日本明治時代文學家夏目漱石在旅英期間的日記中寫道：「在倫敦的街上散步時吐了口痰，當我看到自己吐出一團全黑的物體時真是吃驚。幾百萬市民每天都吸著煤煙和塵埃，汙染著他們的肺。」當時人們以煤作為驅動蒸汽機以及家中暖爐、廚具的燃料，加上西歐地區盛行風的吹拂，使空氣汙染物不斷飄向城市的下風處，形成如圖(一)煙霧瀰漫的景觀。\n  燃煤帶來的空氣汙染會影響健康，可能降低新生兒存活率，或是使得兒童發育遲緩。十九世紀時英國部分城市的居民居住區域分布也反映出貧富差距，資本家與中產階級為了尋求較好的生活品質，紛紛遷往城市中汙染較少的區域，而較為窮困的低技術勞動階級，因受工作地點和經濟考量所限，只能居住於汙染嚴重的區域。因此，思想家恩格斯在當時就發出「只有勞動階級才會呼吸受汙染的空氣」的不平之鳴。",
+            "options": [
+              {
+                "number": 52,
+                "description": "文中日本文學家描述的城市現象，與下列何者的關係最密切？",
+                "passing_rate": 0.93,
+                "discrimination_index": 0.41,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "工業革命"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "宗教改革"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "啟蒙運動"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "文藝復興"
+                  }
+                ],
+                "correct_answer": "A",
+                "explanation": "夏目漱石咳出煙煤和塵埃的痰液，顯示工業革命導致的空氣污染，選Ａ"
+              },
+              {
+                "number": 53,
+                "description": "圖(二)是文中國家某空氣汙染嚴重的城市示意圖。已知圖中某處為低技術勞動階級居住的區域，根據上文及考量盛行風向的影響，此處最可能位於圖中甲、乙、丙、丁何處？\n\n圖(二)",
+                "passing_rate": 0.55,
+                "discrimination_index": 0.56,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "甲"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "乙"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "丙"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "丁"
+                  }
+                ],
+                "correct_answer": "B",
+                "image": "111_society_53.png",
+                "explanation": "因為西風吹拂，低技術勞工無法選擇，只能住在空氣污染的下風處，因此選乙。"
+              },
+              {
+                "number": 54,
+                "description": "文中關於城市居民居住區域分布所呈現的問題，是下列何者的關懷重點？",
+                "passing_rate": 0.7,
+                "discrimination_index": 0.47,
+                "choices": [
+                  {
+                    "answer": "A",
+                    "description": "社會主義"
+                  },
+                  {
+                    "answer": "B",
+                    "description": "民族主義"
+                  },
+                  {
+                    "answer": "C",
+                    "description": "帝國主義"
+                  },
+                  {
+                    "answer": "D",
+                    "description": "法西斯主義"
+                  }
+                ],
+                "correct_answer": "A",
+                "explanation": "因為資本主義產生的資產階級與勞動階級，與隨之而來的不平等，是社會主義 關懷的重點之一，因此選 A"
+              }
+            ],
+            "image": "111_society_52-54.png"
           }
         ]
       }
@@ -16089,7 +16101,7 @@
               },
               {
                 "type": "image",
-                "content": "112_nature_50-51_1.png"
+                "content": "110_nature_50-51_1.png"
               },
               {
                 "type": "border",
@@ -16097,7 +16109,7 @@
               },
               {
                 "type": "image",
-                "content": "112_nature_50-51_2.png"
+                "content": "110_nature_50-51_2.png"
               }
             ],
             "options": [
