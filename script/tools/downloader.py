@@ -2,7 +2,6 @@ import logging
 import os
 
 import requests
-
 from config import CAP_BASE_URL
 from models.cap_subject import CAPSubject
 from models.explanation_file import ExplanationFile
@@ -22,8 +21,9 @@ def __download_file(url: str, file_path: str, retry: int = 0):
     if retry > 3:
         print("Failed to download the file after 3 retries: " + url)
         return
-
-    response = requests.get(url)
+    
+    response = requests.get(url, allow_redirects=False)
+    # If allow redirects, the response status code will never be 200 because the page will be redirected to home page.
     if response.status_code != 200:
         return __download_file(url.replace(".pdf", "-2.pdf"), file_path, retry + 1)
 
@@ -49,6 +49,9 @@ def download_exam_paper(year: int, subject: CAPSubject):
     url = f"{CAP_BASE_URL}{year}/{year}P_{subject.value}.pdf"
     if year in special_years:
         url = url.replace(".pdf", "150DPI.pdf")
+    if year == 113 and subject == CAPSubject.NATURE:
+        url = url.replace(".pdf", "%20.pdf")
+        # As you can see, there is a space in the file name.
 
     __download_file(url, file_path)
 
