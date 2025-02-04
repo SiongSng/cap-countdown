@@ -1,6 +1,8 @@
 import time
 from concurrent.futures import ThreadPoolExecutor
 
+import pymupdf
+
 from config import *
 from models.exam import Exam
 from models.exam_subject import ExamSubject
@@ -10,8 +12,7 @@ from tools.parser import (
     save_parse_result,
     parse_exam_answer,
     parse_exam_indicator,
-    parse_exam_explanation,
-)
+    parse_exam_explanation, )
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -74,12 +75,20 @@ def parse_exam_papers():
         exam_subjects: list[ExamSubject] = []
 
         answers = parse_exam_answer(get_exam_file_path(year, ExamFileType.Answer))
-        passing_rate = parse_exam_indicator(
-            get_exam_file_path(year, ExamFileType.Passing_Rate)
-        )
-        discrimination_index = parse_exam_indicator(
-            get_exam_file_path(year, ExamFileType.DISCRIMINATION_INDEX)
-        )
+        try:
+            passing_rate = parse_exam_indicator(
+                get_exam_file_path(year, ExamFileType.Passing_Rate)
+            )
+        except pymupdf.FileNotFoundError:
+            passing_rate = {subject: [None] * 70 for subject in subjects}
+            print(f"Passing rate not found for year {year}.")
+        try:
+            discrimination_index = parse_exam_indicator(
+                get_exam_file_path(year, ExamFileType.DISCRIMINATION_INDEX)
+            )
+        except pymupdf.FileNotFoundError:
+            discrimination_index = {subject: [None] * 70 for subject in subjects}
+            print(f"Discrimination index not found for year {year}.")
 
         for subject in subjects:
             explanations = parse_exam_explanation(
@@ -105,9 +114,9 @@ def parse_exam_papers():
 
         exam = Exam(year, f"{year} 年國中教育會考", exam_subjects)
         exams.append(exam)
-        exams.reverse()
         logger.info(f"Parsed CAP exam papers for year {year}.")
 
+    exams.reverse()
     save_parse_result(exams)
 
     elapsed_time = time.time() - start_time
