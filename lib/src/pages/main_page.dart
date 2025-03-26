@@ -192,6 +192,7 @@ class _MainPageState extends State<MainPage> {
             tooltip: '個人分析',
             icon: const Icon(Icons.account_circle_rounded)),
         PopupMenuButton(
+          tooltip: "更多",
           itemBuilder: (context) => [
             PopupMenuItem(
               child: const Text('設定'),

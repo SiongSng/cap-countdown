@@ -37,11 +37,16 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
   int _currentPage = 0;
   bool _submitted = false;
   late bool _disablePageChange;
+  late List<bool> _submittedList;
+
+  final Stopwatch _stopwatch = Stopwatch();
 
   @override
   void initState() {
     _disablePageChange =
         widget.subject.subjectId == CAPSubject.englishListening;
+    _submittedList = List.filled(widget.subject.questions.length, false);
+    _stopwatch.start();
     super.initState();
   }
 
@@ -53,11 +58,28 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
         localStorage.questionRecords[question.hash]?.isFavorite ?? false;
     final tookNote = localStorage.questionRecords[question.hash]?.note != null;
 
+    String getUsedTimeString() {
+      String toReturn = "用時：";
+      final hours = _stopwatch.elapsed.inHours % 24;
+      final minutes = _stopwatch.elapsed.inMinutes % 60;
+      final seconds = _stopwatch.elapsed.inSeconds % 60;
+
+      if (hours > 0) {
+        toReturn += "${hours.toString()}時";
+      }
+      if (minutes > 0) {
+        toReturn += "${minutes.toString()}分";
+      }
+
+      toReturn += "${seconds.toString()}秒";
+
+      return toReturn;
+    }
+
     return WillPopScope(
       onWillPop: () async {
         // Prevent using system navigation to leave this page.
         _showBackDialog();
-
         return false;
       },
       child: Scaffold(
@@ -96,7 +118,7 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
           body: Column(
             children: [
               Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-                if (!_submitted)
+                if (!(_submitted || !localStorage.simulationExamTiming))
                   ExamTimer(
                     duration: widget.subject.duration,
                     onExamOver: () {
@@ -127,7 +149,13 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                   const MathReferenceFormula()
                 ]
               ]),
-              if (_submitted) GradeMarkings(subject: widget.subject),
+              if (_submitted) ...[
+                GradeMarkings(subject: widget.subject),
+                Text(
+                  getUsedTimeString(),
+                  style: const TextStyle(fontSize: 20),
+                ),
+              ],
               const Divider(),
               Expanded(
                 child: PageView.builder(
@@ -138,7 +166,6 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                       : null,
                   itemBuilder: (context, index) {
                     final question = questions[index];
-
                     return _QuestionPage(
                       question: question,
                       meta: QuestionMeta(
@@ -148,13 +175,19 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                           questionNumber: question.questionNumber),
                       option: QuestionViewOption(
                           showQuestionNumber: true,
-                          submitted: _submitted,
-                          onlyPlayAudioOnce: !_submitted,
+                          submitted: (_submitted || _submittedList[index]),
+                          onlyPlayAudioOnce:
+                              !(_submitted || _submittedList[index]),
                           onAudioPlayStateChanged: (state) {
                             setState(() {
                               _disablePageChange = state == PlayerState.playing;
                             });
                           }),
+                      onQuestionSubmitted: (value) {
+                        setState(() {
+                          _submittedList[index] = value;
+                        });
+                      },
                     );
                   },
                   onPageChanged: (page) {
@@ -329,6 +362,7 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
   }
 
   void _submit() {
+    _stopwatch.stop();
     showDialog(
         context: context,
         builder: (context) => AlertDialog(
@@ -340,7 +374,7 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                 if (mounted) {
                   setState(() {
                     _submitted = true;
-
+                    _submittedList = List.filled(_submittedList.length, true);
                     final optionalQuestions =
                         widget.subject.getOptionalQuestions();
                     for (final question in optionalQuestions) {
@@ -382,7 +416,6 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
                   records[question.hash] =
                       record.copyWith(note: text.isEmpty ? null : text);
                   localStorage.questionRecords = records;
-
                   Navigator.of(context).pop();
                   setState(() {});
                 },
@@ -395,15 +428,16 @@ class _SimulationExamPageState extends State<SimulationExamPage> {
 }
 
 class _QuestionPage extends StatefulWidget {
-  const _QuestionPage({
-    required this.question,
-    required this.meta,
-    required this.option,
-  });
+  const _QuestionPage(
+      {required this.question,
+      required this.meta,
+      required this.option,
+      required this.onQuestionSubmitted});
 
   final SubjectQuestion question;
   final QuestionMeta meta;
   final QuestionViewOption option;
+  final ValueChanged<bool>? onQuestionSubmitted;
 
   @override
   State<_QuestionPage> createState() => _QuestionPageState();
@@ -421,6 +455,70 @@ class _QuestionPageState extends State<_QuestionPage>
         question: widget.question,
         meta: widget.meta,
         option: widget.option,
+        actions: localStorage.simulationExamShowAnsBtn
+            ? (questions) => [
+                  Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        (!widget.option.submitted)
+                            ? FilledButton.icon(
+                                onPressed: () {
+                                  final isSelectAll = questions
+                                      .every((q) => q.selectedChoice != null);
+                                  final messenger =
+                                      ScaffoldMessenger.of(context);
+                                  messenger.clearSnackBars();
+
+                                  if (!isSelectAll) {
+                                    messenger.showSnackBar(
+                                      const SnackBar(
+                                        content: Text('交卷前請先記得選擇答案喔！',
+                                            style: TextStyle(
+                                                fontWeight: FontWeight.bold)),
+                                        backgroundColor: Colors.orange,
+                                      ),
+                                    );
+                                    return;
+                                  }
+
+                                  if (questions.every((q) => q.isCorrect)) {
+                                    messenger.showSnackBar(
+                                      SnackBar(
+                                        content: Text(questions.length > 1
+                                            ? '恭喜你全都答對了！'
+                                            : '恭喜你答對了！'),
+                                        backgroundColor: Colors.green,
+                                      ),
+                                    );
+                                  } else {
+                                    messenger.showSnackBar(
+                                      const SnackBar(
+                                        content: Text('答錯了，再接再厲！記得看詳解修正錯誤呦！'),
+                                        backgroundColor: Colors.red,
+                                      ),
+                                    );
+                                  }
+
+                                  setState(() {
+                                    widget.onQuestionSubmitted?.call(true);
+                                    for (final q in questions) {
+                                      q.makeAsAnswered();
+                                    }
+                                  });
+                                },
+                                icon: const Icon(Icons.check),
+                                label: const Text('對答案'))
+                            : FilledButton.icon(
+                                onPressed: () {
+                                  setState(() {
+                                    widget.onQuestionSubmitted?.call(false);
+                                  });
+                                },
+                                icon: const Icon(Icons.visibility_off_outlined),
+                                label: const Text('隱藏答案'))
+                      ])
+                ]
+            : null,
       ),
     ));
   }
@@ -453,7 +551,6 @@ class _QuestionNumberIndicatorState extends State<QuestionNumberIndicator> {
   @override
   void initState() {
     super.initState();
-
     _textEditingController = TextEditingController(text: _getQuestionNumber());
   }
 
@@ -492,7 +589,6 @@ class _QuestionNumberIndicatorState extends State<QuestionNumberIndicator> {
             onSubmitted: (value) {
               final inputPage =
                   (int.tryParse(value) ?? 1).clamp(1, optionalQuestions.length);
-
               int page = widget.subject.questions.indexWhere((question) {
                 if (question is SingleChoiceQuestion) {
                   return question.number == inputPage;
@@ -502,7 +598,6 @@ class _QuestionNumberIndicatorState extends State<QuestionNumberIndicator> {
                   return false;
                 }
               });
-
               widget.onPageChanged(page);
               setState(() {
                 _textEditingController.text = _getQuestionNumber();

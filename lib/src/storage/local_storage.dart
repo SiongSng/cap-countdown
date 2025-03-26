@@ -94,4 +94,16 @@ class LocalStorage {
 
   set userFriendlyCountdown(bool value) =>
       StorageHelper.set<bool>('user_friendly_countdown', value);
+
+  bool get simulationExamTiming =>
+      StorageHelper.get<bool>('simulation_exam_timing', true);
+
+  set simulationExamTiming(bool value) =>
+      StorageHelper.set<bool>('simulation_exam_timing', value);
+
+  bool get simulationExamShowAnsBtn =>
+      StorageHelper.get<bool>('simulation_exam_show_ans_btn', false);
+
+  set simulationExamShowAnsBtn(bool value) =>
+      StorageHelper.set<bool>('simulation_exam_show_ans_btn', value);
 }
